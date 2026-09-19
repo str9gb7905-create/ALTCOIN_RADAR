@@ -1,0 +1,858 @@
+{
+  "schema_version": 1,
+  "last_run_id": "20260918T151853Z_ddafe5b3",
+  "updated_at": "2026-09-18T15:19:58.084961Z",
+  "assets": {
+    "AGI": {
+      "history_source": "Bybit",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-17T11:55:04.214610Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [
+          {
+            "type": "WEEKLY_BULLISH",
+            "signature": "AGI|1W|BULLISH|2026-06-01|2026-08-17",
+            "pivots": [
+              {
+                "timestamp": "2026-06-01",
+                "price": 0.00492,
+                "rsi": 24.843080886048895,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-08-17",
+                "price": 0.002164,
+                "rsi": 32.47323669733315,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "AGI|1W|BULLISH|2026-06-01|2026-08-17"
+        ]
+      }
+    },
+    "AVA": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [
+          {
+            "type": "DAILY_BEARISH",
+            "signature": "AVA|1D|BEARISH|2026-09-03|2026-09-13",
+            "pivots": [
+              {
+                "timestamp": "2026-09-03",
+                "price": 0.2029,
+                "rsi": 53.202637134569706,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-09-13",
+                "price": 0.22,
+                "rsi": 47.575995213960404,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "AVA|1D|BEARISH|2026-09-03|2026-09-13"
+        ]
+      },
+      "weekly": {
+        "active_signals": [
+          {
+            "type": "WEEKLY_BULLISH",
+            "signature": "AVA|1W|BULLISH|2026-06-01|2026-07-27",
+            "pivots": [
+              {
+                "timestamp": "2026-06-01",
+                "price": 0.1677,
+                "rsi": 36.30017845349009,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-07-27",
+                "price": 0.1471,
+                "rsi": 41.33260617918738,
+                "confirmed": true
+              }
+            ]
+          },
+          {
+            "type": "WEEKLY_BULLISH_CONSECUTIVE",
+            "signature": "AVA|1W|BULLISH_CONSECUTIVE|2026-03-23|2026-06-01|2026-07-27",
+            "pivots": [
+              {
+                "timestamp": "2026-03-23",
+                "price": 0.1811,
+                "rsi": 31.574890386835506,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-06-01",
+                "price": 0.1677,
+                "rsi": 36.30017845349009,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-07-27",
+                "price": 0.1471,
+                "rsi": 41.33260617918738,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "AVA|1W|BULLISH_CONSECUTIVE|2026-03-23|2026-06-01|2026-07-27",
+          "AVA|1W|BULLISH|2026-06-01|2026-07-27"
+        ]
+      }
+    },
+    "COTI": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-17T11:55:04.214610Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "DGB": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-17T11:55:04.214610Z",
+      "daily": {
+        "active_signals": [
+          {
+            "type": "DAILY_BEARISH",
+            "signature": "DGB|1D|BEARISH|2026-08-27|2026-09-03",
+            "pivots": [
+              {
+                "timestamp": "2026-08-27",
+                "price": 0.00529,
+                "rsi": 72.92163671852462,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-09-03",
+                "price": 0.00542,
+                "rsi": 61.08376311807828,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "DGB|1D|BEARISH|2026-08-27|2026-09-03"
+        ]
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "GLMR": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-17T11:55:04.214610Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [
+          {
+            "type": "WEEKLY_BULLISH",
+            "signature": "GLMR|1W|BULLISH|2026-03-30|2026-06-29",
+            "pivots": [
+              {
+                "timestamp": "2026-03-30",
+                "price": 0.0099,
+                "rsi": 26.616719877581644,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-06-29",
+                "price": 0.0079,
+                "rsi": 34.19283239149395,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "GLMR|1W|BULLISH|2026-03-30|2026-06-29"
+        ]
+      }
+    },
+    "NEAR": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "ONE": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-17T11:55:04.214610Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "PEAQ": {
+      "history_source": "KuCoin",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-17T11:55:04.214610Z",
+      "daily": {
+        "active_signals": [
+          {
+            "type": "DAILY_BEARISH",
+            "signature": "PEAQ|1D|BEARISH|2026-08-28|2026-09-09",
+            "pivots": [
+              {
+                "timestamp": "2026-08-28",
+                "price": 0.02596,
+                "rsi": 64.13374747178882,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-09-09",
+                "price": 0.0338,
+                "rsi": 60.60877109915128,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "PEAQ|1D|BEARISH|2026-08-28|2026-09-09"
+        ]
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "TRAC": {
+      "history_source": "Coinbase",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-17T11:55:04.214610Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "A": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "ACH": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "AEVO": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "APT": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [
+          {
+            "type": "DAILY_BULLISH",
+            "signature": "APT|1D|BULLISH|2026-08-01|2026-08-30",
+            "pivots": [
+              {
+                "timestamp": "2026-08-01",
+                "price": 0.545,
+                "rsi": 34.22549291326703,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-08-30",
+                "price": 0.509,
+                "rsi": 38.262278091780736,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "APT|1D|BULLISH|2026-08-01|2026-08-30"
+        ]
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "AR": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "ARB": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "ETHFI": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "FET": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [
+          {
+            "type": "WEEKLY_BULLISH",
+            "signature": "FET|1W|BULLISH|2026-05-11|2026-08-17",
+            "pivots": [
+              {
+                "timestamp": "2026-05-11",
+                "price": 0.1847,
+                "rsi": 40.46316039044167,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-08-17",
+                "price": 0.1192,
+                "rsi": 43.97004098010428,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "FET|1W|BULLISH|2026-05-11|2026-08-17"
+        ]
+      }
+    },
+    "GRT": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [
+          {
+            "type": "WEEKLY_BULLISH",
+            "signature": "GRT|1W|BULLISH|2026-06-22|2026-08-17",
+            "pivots": [
+              {
+                "timestamp": "2026-06-22",
+                "price": 0.01711,
+                "rsi": 27.937795316015055,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-08-17",
+                "price": 0.01299,
+                "rsi": 36.796866236201446,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "GRT|1W|BULLISH|2026-06-22|2026-08-17"
+        ]
+      }
+    },
+    "HYPE": {
+      "history_source": "Bybit",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [
+          {
+            "type": "DAILY_BEARISH",
+            "signature": "HYPE|1D|BEARISH|2026-08-27|2026-09-06",
+            "pivots": [
+              {
+                "timestamp": "2026-08-27",
+                "price": 86.8,
+                "rsi": 78.100948443001,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-09-06",
+                "price": 89.63,
+                "rsi": 67.46328934775454,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "HYPE|1D|BEARISH|2026-08-27|2026-09-06"
+        ]
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "ICP": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "LNQ": {
+      "history_source": "Bitget",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "NEIRO": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "NIGHT": {
+      "history_source": "OKX",
+      "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "OP": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [
+          {
+            "type": "WEEKLY_BULLISH",
+            "signature": "OP|1W|BULLISH|2026-07-27|2026-08-17",
+            "pivots": [
+              {
+                "timestamp": "2026-07-27",
+                "price": 0.0818,
+                "rsi": 32.07948645091329,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-08-17",
+                "price": 0.0807,
+                "rsi": 40.94945826731199,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "OP|1W|BULLISH|2026-07-27|2026-08-17"
+        ]
+      }
+    },
+    "RENDER": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [
+          {
+            "type": "DAILY_BEARISH",
+            "signature": "RENDER|1D|BEARISH|2026-08-27|2026-09-08",
+            "pivots": [
+              {
+                "timestamp": "2026-08-27",
+                "price": 1.585,
+                "rsi": 65.02370169993927,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-09-08",
+                "price": 1.603,
+                "rsi": 56.01485076704546,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "RENDER|1D|BEARISH|2026-08-27|2026-09-08"
+        ]
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "S": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "SAND": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "SNEK": {
+      "history_source": "Bitget",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [
+          {
+            "type": "DAILY_BEARISH",
+            "signature": "SNEK|1D|BEARISH|2026-08-29|2026-09-08",
+            "pivots": [
+              {
+                "timestamp": "2026-08-29",
+                "price": 0.000449,
+                "rsi": 69.2925718432383,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-09-08",
+                "price": 0.0005417,
+                "rsi": 66.0266139250484,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "SNEK|1D|BEARISH|2026-08-29|2026-09-08"
+        ]
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "STRK": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "SUI": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [
+          {
+            "type": "WEEKLY_BULLISH",
+            "signature": "SUI|1W|BULLISH|2026-07-27|2026-08-17",
+            "pivots": [
+              {
+                "timestamp": "2026-07-27",
+                "price": 0.663,
+                "rsi": 36.49266925295562,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-08-17",
+                "price": 0.6354,
+                "rsi": 44.97345481505175,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "SUI|1W|BULLISH|2026-07-27|2026-08-17"
+        ]
+      }
+    },
+    "TIA": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "UNI": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "W": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "WEN": {
+      "history_source": null,
+      "source_changed_reason": null,
+      "data_quality": "DATA_INSUFFICIENT",
+      "last_seen_at": "2026-09-18T15:16:06.261611Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "WLD": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "IO": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "XAVA": {
+      "history_source": "KuCoin",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "XEC": {
+      "history_source": "Binance",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-18T15:19:58.084961Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    }
+  }
+}
