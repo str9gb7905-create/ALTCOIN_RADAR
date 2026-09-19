@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20260919T162434Z_d010040f",
-  "updated_at": "2026-09-19T16:25:16.641268Z",
+  "last_run_id": "20260919T163733Z_bbc4c23d",
+  "updated_at": "2026-09-19T16:38:06.527020Z",
   "assets": {
     "AGI": {
       "history_source": "Bybit",
@@ -178,7 +178,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-19T16:25:16.641268Z",
+      "last_seen_at": "2026-09-19T16:38:06.527020Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -320,7 +320,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-19T16:25:16.641268Z",
+      "last_seen_at": "2026-09-19T16:38:06.527020Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -481,7 +481,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-19T16:25:16.641268Z",
+      "last_seen_at": "2026-09-19T16:38:06.527020Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -682,7 +682,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-19T16:25:16.641268Z",
+      "last_seen_at": "2026-09-19T16:38:06.527020Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -843,7 +843,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-19T16:25:16.641268Z",
+      "last_seen_at": "2026-09-19T16:38:06.527020Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -923,7 +923,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-19T16:25:16.641268Z",
+      "last_seen_at": "2026-09-19T16:38:06.527020Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -937,7 +937,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-19T16:25:16.641268Z",
+      "last_seen_at": "2026-09-19T16:38:06.527020Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -979,7 +979,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-19T16:25:16.641268Z",
+      "last_seen_at": "2026-09-19T16:38:06.527020Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1099,7 +1099,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-19T16:25:16.641268Z",
+      "last_seen_at": "2026-09-19T16:38:06.527020Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
