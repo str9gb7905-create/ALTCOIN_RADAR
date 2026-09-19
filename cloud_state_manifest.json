@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "authoritative_state_note": "Persist these files in durable storage. GitHub Actions cache must not be the authoritative state store.",
+  "files": [
+    {
+      "filename": "state/radar_state.json",
+      "purpose": "Price-trigger episode, severity, direction, reentry, and notification deduplication state.",
+      "required_for_correctness": true,
+      "can_rebuild": true,
+      "failure_impact": "Loses episode and notification history; explicit bootstrap is required and transitions may be suppressed or repeated."
+    },
+    {
+      "filename": "state/technical_state.json",
+      "purpose": "Stage B.1 RSI, volume, source, and technical-event transition state.",
+      "required_for_correctness": true,
+      "can_rebuild": true,
+      "failure_impact": "Loses technical transition and deduplication history; explicit bootstrap is required."
+    },
+    {
+      "filename": "state/divergence_state.json",
+      "purpose": "Confirmed daily/weekly divergence signatures and escalation history.",
+      "required_for_correctness": true,
+      "can_rebuild": true,
+      "failure_impact": "Loses known divergence signatures; explicit bootstrap is required and notifications may repeat."
+    },
+    {
+      "filename": "state/heartbeat.json",
+      "purpose": "Timestamp, run ID, and coverage of the latest fully successful pipeline run.",
+      "required_for_correctness": false,
+      "can_rebuild": true,
+      "failure_impact": "Health monitoring reports RADAR_HEARTBEAT_MISSED until the next successful run."
+    },
+    {
+      "filename": "state/run_status.json",
+      "purpose": "Atomic current/last-run ledger, failure stage, coverage, counts, and telemetry.",
+      "required_for_correctness": true,
+      "can_rebuild": true,
+      "failure_impact": "Last-run degradation and audit status are unavailable until the next run."
+    },
+    {
+      "filename": "state/pipeline.lock",
+      "purpose": "Transient single-run exclusion lock with stale-lock recovery metadata.",
+      "required_for_correctness": false,
+      "can_rebuild": true,
+      "failure_impact": "Without lock coordination on a shared host, concurrent runs may mutate state simultaneously."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+name: ALTCOIN RADAR
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: altcoin-radar-production
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Restore authoritative state
+        run: |
+          git fetch --no-tags origin radar-state:refs/remotes/origin/radar-state
+          python cloud_state_sync.py restore --ref origin/radar-state
+
+      - name: Run pipeline
+        id: pipeline
+        shell: bash
+        run: |
+          set +e
+          python run_pipeline.py
+          pipeline_exit=$?
+          echo "ran=true" >> "$GITHUB_OUTPUT"
+          echo "exit_code=$pipeline_exit" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Check internal heartbeat
+        id: health
+        if: always() && steps.pipeline.outputs.ran == 'true'
+        shell: bash
+        run: |
+          set +e
+          python health_check.py
+          health_exit=$?
+          echo "exit_code=$health_exit" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Persist authoritative state
+        id: persist
+        if: always() && steps.pipeline.outputs.ran == 'true'
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "status=STATE_PERSISTENCE_FAILED" >> "$GITHUB_OUTPUT"
+          state_worktree="$RUNNER_TEMP/altcoin-radar-state"
+          git worktree add --detach "$state_worktree" origin/radar-state
+          python cloud_state_sync.py export --destination "$state_worktree"
+          cd "$state_worktree"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f state/*.json
+          if git diff --cached --quiet; then
+            persistence_status="NO_CHANGE"
+          else
+            run_id=$(python -c 'import json; print(json.load(open("state/run_status.json", encoding="utf-8"))["run_id"])')
+            git commit -m "radar state: $run_id"
+            git push origin HEAD:radar-state
+            persistence_status="SUCCESS"
+          fi
+          echo "status=$persistence_status" >> "$GITHUB_OUTPUT"
+
+      - name: Log deployment status
+        if: always() && steps.pipeline.outputs.ran == 'true'
+        shell: bash
+        env:
+          STATE_PERSISTENCE_STATUS: ${{ steps.persist.outputs.status }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+
+          with open("state/run_status.json", encoding="utf-8") as handle:
+              status = json.load(handle)
+          with open("state/heartbeat.json", encoding="utf-8") as handle:
+              heartbeat = json.load(handle)
+          print(f"run_id={status.get('run_id')}")
+          print(f"started_utc={status.get('started_at_utc')}")
+          print(f"watchlist_expected={status.get('watchlist_expected')}")
+          print(f"market_data_returned={status.get('market_data_returned')}")
+          print(f"coverage={status.get('coverage_pct')}")
+          print(f"stage_a_triggers={status.get('active_trigger_count')}")
+          print(f"stage_b_attempted={status.get('stage_b_attempted')}")
+          print(f"divergence_attempted={status.get('divergence_attempted')}")
+          print(f"notification_candidates={status.get('notification_candidate_count')}")
+          print(f"API_requests_total={status.get('API_requests_total')}")
+          print(f"elapsed_total={status.get('elapsed_total')}")
+          print(f"health_last_success_run_id={heartbeat.get('last_success_run_id')}")
+          print(f"state_persistence_status={os.environ.get('STATE_PERSISTENCE_STATUS')}")
+          PY
+
+      - name: Enforce final result
+        if: always()
+        shell: bash
+        run: |
+          if [[ "${{ steps.persist.outcome }}" != "success" ]]; then
+            echo "STATE_PERSISTENCE_FAILED"
+            exit 1
+          fi
+          if [[ "${{ steps.persist.outputs.status }}" != "SUCCESS" && "${{ steps.persist.outputs.status }}" != "NO_CHANGE" ]]; then
+            echo "STATE_PERSISTENCE_FAILED"
+            exit 1
+          fi
+          if [[ "${{ steps.pipeline.outputs.exit_code }}" != "0" ]]; then
+            echo "PIPELINE_FAILED_OR_INCOMPLETE"
+            exit 1
+          fi
+          if [[ "${{ steps.health.outputs.exit_code }}" != "0" ]]; then
+            echo "RADAR_HEALTH_DEGRADED"
+            exit 1
+          fi
+          echo "WORKFLOW_SUCCESS"
