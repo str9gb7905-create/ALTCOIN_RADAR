@@ -4,16 +4,62 @@ on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
+    inputs:
+      telegram_test:
+        description: "Send the fixed Telegram delivery test message only"
+        required: true
+        type: boolean
+        default: false
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: altcoin-radar-production
   cancel-in-progress: false
 
 jobs:
+  telegram-test:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.telegram_test == true }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Send fixed Telegram delivery test
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          from notification_dispatcher import TelegramDispatcher
+
+          try:
+              result = TelegramDispatcher.from_env().send(
+                  "ALTCOIN_RADAR Telegram delivery test"
+              )
+          except Exception:
+              print("TELEGRAM_TEST_STATUS=UNEXPECTED_FAILURE")
+              raise SystemExit(1)
+
+          print(f"TELEGRAM_TEST_STATUS={result.status}")
+          if result.status != "SUCCESS":
+              raise SystemExit(1)
+          PY
+
   radar:
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.telegram_test != true) }}
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 14
     steps:

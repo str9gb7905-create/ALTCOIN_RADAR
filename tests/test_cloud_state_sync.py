@@ -7,7 +7,7 @@ from cloud_state_sync import durable_state_paths, export_to_directory
 
 
 class CloudStateSyncTests(unittest.TestCase):
-    def test_manifest_selects_all_five_json_states_and_excludes_lock(self):
+    def test_manifest_selects_all_six_json_states_and_excludes_lock(self):
         paths = set(durable_state_paths())
         self.assertEqual(
             paths,
@@ -17,6 +17,7 @@ class CloudStateSyncTests(unittest.TestCase):
                 Path("state/divergence_state.json"),
                 Path("state/heartbeat.json"),
                 Path("state/run_status.json"),
+                Path("state/notification_delivery.json"),
             },
         )
         self.assertNotIn(Path("state/pipeline.lock"), paths)

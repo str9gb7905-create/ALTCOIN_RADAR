@@ -204,6 +204,7 @@ class CloudReadinessTests(unittest.TestCase):
                 "state/divergence_state.json",
                 "state/heartbeat.json",
                 "state/run_status.json",
+                "state/notification_delivery.json",
             }.issubset(filenames)
         )
         for item in manifest["files"]:

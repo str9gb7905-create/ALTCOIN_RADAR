@@ -41,6 +41,7 @@ def durable_state_paths(path: Path = MANIFEST_PATH) -> list[Path]:
         Path("state/divergence_state.json"),
         Path("state/heartbeat.json"),
         Path("state/run_status.json"),
+        Path("state/notification_delivery.json"),
     }
     if not required.issubset(result):
         missing = sorted(str(item) for item in required - set(result))

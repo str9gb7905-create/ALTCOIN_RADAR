@@ -106,3 +106,22 @@ python stage_b_divergence.py
 ```
 
 The detector uses configured confirmed pivots, Wilder RSI(14), price/RSI noise filters, pivot separation, persistent signatures, and atomic state replacement. It does not calculate tentative candles as confirmed divergence and does not send trading or notification messages.
+
+## Telegram notification delivery (implemented, not yet activated)
+
+`notification_merger.py` deterministically combines the current run's Price,
+Technical, and Divergence notification events into at most one Telegram-sized
+message. Events for the same symbol share one block. A run without a new event
+returns `NO_NOTIFICATION`; `CONTINUING` price events are suppressed.
+
+`notification_dispatcher.py` provides the delivery interface and reads
+`TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` only from the process environment.
+`notification_delivery.py` stores the durable at-most-once delivery ledger in
+`state/notification_delivery.json`. Timeout or an interrupted durable `SENDING`
+claim becomes `UNKNOWN_TIMEOUT` and is never retried automatically. Only an
+explicit `FAILED_RETRYABLE` result may be claimed again.
+
+Delivery is intentionally not connected to the production workflow until the
+two repository secrets have been configured and a real Telegram send has been
+verified. No credential value belongs in `.env.example`, source files, logs, or
+the public repository. Healthchecks.io integration follows that verification.

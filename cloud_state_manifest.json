@@ -38,6 +38,13 @@
       "failure_impact": "Last-run degradation and audit status are unavailable until the next run."
     },
     {
+      "filename": "state/notification_delivery.json",
+      "purpose": "Durable notification batch, provider acknowledgement, and retry-suppression ledger.",
+      "required_for_correctness": true,
+      "can_rebuild": false,
+      "failure_impact": "Delivery acknowledgement becomes unknown and retrying could duplicate a Telegram message."
+    },
+    {
       "filename": "state/pipeline.lock",
       "purpose": "Transient single-run exclusion lock with stale-lock recovery metadata.",
       "required_for_correctness": false,
