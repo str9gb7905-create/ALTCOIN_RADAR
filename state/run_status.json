@@ -1,7 +1,7 @@
 {
-  "run_id": "20260920T102400Z_dadda5c1",
-  "started_at_utc": "2026-09-20T10:24:00.582212Z",
-  "completed_at_utc": "2026-09-20T10:24:45.871752Z",
+  "run_id": "20260920T103742Z_2886957e",
+  "started_at_utc": "2026-09-20T10:37:42.022700Z",
+  "completed_at_utc": "2026-09-20T10:38:09.818461Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 162,
@@ -13,7 +13,7 @@
   "divergence_attempted": 6,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 45.289541,
+  "elapsed_seconds": 27.795762,
   "API_requests_total": 77,
   "requests_by_exchange": {
     "Binance": 4,
@@ -27,18 +27,18 @@
     "MEXC": 4,
     "OKX": 14
   },
-  "elapsed_stage_a": 0.643168,
-  "elapsed_radar_state": 0.007655,
-  "elapsed_stage_b": 30.599622,
-  "elapsed_divergence": 14.038055,
-  "elapsed_total": 45.289541,
+  "elapsed_stage_a": 0.528708,
+  "elapsed_radar_state": 0.007962,
+  "elapsed_stage_b": 15.024144,
+  "elapsed_divergence": 12.233789,
+  "elapsed_total": 27.795762,
   "asset_enrichment_seconds": {
-    "COTI": 6.918825,
-    "ONE": 0.479337,
-    "ONG": 5.984035,
-    "SKL": 1.189668,
-    "SYN": 6.136493,
-    "ZIL": 1.500586
+    "COTI": 1.671635,
+    "ONE": 0.383914,
+    "ONG": 1.694828,
+    "SKL": 1.060503,
+    "SYN": 2.480168,
+    "ZIL": 1.19602
   },
   "stale_lock_recovered": false
 }
