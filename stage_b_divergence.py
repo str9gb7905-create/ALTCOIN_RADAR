@@ -509,6 +509,17 @@ def run_divergence(
     active = {
         symbol: value for symbol, value in radar_state["assets"].items() if value.get("active") is True
     }
+    canonical_symbols = set(radar_state["assets"])
+    baseline_symbols = {
+        symbol
+        for symbol, entry in radar_state["assets"].items()
+        if entry.get("baseline_required") is True
+    }
+    previous_assets = {
+        symbol: entry
+        for symbol, entry in previous_assets.items()
+        if symbol in canonical_symbols and symbol not in baseline_symbols
+    }
     targets = set(active)
     adapter_map = {adapter.name: adapter for adapter in adapter_list}
     markets_by_symbol = {symbol: [] for symbol in targets}
@@ -553,6 +564,7 @@ def run_divergence(
         daily_state = timeframe_state(previous.get("daily"), result["daily"]["signals"])
         weekly_state = timeframe_state(previous.get("weekly"), result["weekly"]["signals"])
         next_assets[symbol] = {
+            "coingecko_id": active[symbol].get("coingecko_id"),
             "history_source": result["history_source"],
             "source_changed_reason": result["source_changed_reason"],
             "data_quality": result["data_quality"],
@@ -560,7 +572,7 @@ def run_divergence(
             "daily": daily_state,
             "weekly": weekly_state,
         }
-        if not bootstrap:
+        if not bootstrap and symbol not in baseline_symbols:
             events.extend(divergence_events(symbol, "daily", previous.get("daily"), result["daily"]["signals"]))
             events.extend(divergence_events(symbol, "weekly", previous.get("weekly"), result["weekly"]["signals"]))
 
@@ -581,6 +593,7 @@ def run_divergence(
         "attempted": len(active),
         "quality_counts": quality_counts,
         "source_errors": source_errors,
+        "assets_baselined": len(set(active) & baseline_symbols),
         "count": len(outputs),
         "assets": outputs,
     }
@@ -605,6 +618,7 @@ def run_divergence(
         "quality_counts": quality_counts,
         "new_events": event_payload["new_count"],
         "escalation_events": event_payload["escalation_count"],
+        "assets_baselined": len(set(active) & baseline_symbols),
     }
 
 

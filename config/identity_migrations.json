@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "migrations": [
+    {
+      "symbol": "AVA",
+      "from_project": "AVA (Travala)",
+      "from_coingecko_id": "concierge-io",
+      "to_project": "Ava AI",
+      "to_coingecko_id": "ava-ai"
+    }
+  ]
+}

@@ -13,6 +13,7 @@ from state_store import FileSystemStateStore, StateStore
 
 
 STATE_PATH = PROJECT_ROOT / "state" / "radar_state.json"
+IDENTITY_MIGRATIONS_PATH = PROJECT_ROOT / "config" / "identity_migrations.json"
 SCAN_STATUS_PATH = OUTPUT_DIR / "scan_status.json"
 SNAPSHOT_PATH = OUTPUT_DIR / "latest_snapshot.json"
 TRIGGERS_PATH = OUTPUT_DIR / "latest_triggers.json"
@@ -115,6 +116,7 @@ def signal_from_outputs(snapshot: dict[str, Any], trigger: dict[str, Any] | None
     score = abnormality_score(change_1h, change_24h)
     return {
         "symbol": snapshot["symbol"],
+        "coingecko_id": snapshot.get("coingecko_id"),
         "active": bool(conditions),
         "direction": direction_from_conditions(conditions),
         "severity_tier": severity_tier(score),
@@ -179,6 +181,7 @@ def build_state_entry(
         last_notified_at = timestamp
 
     return {
+        "coingecko_id": current.get("coingecko_id"),
         "active": current["active"],
         "direction": current["direction"],
         "severity_tier": current["severity_tier"],
@@ -193,7 +196,42 @@ def build_state_entry(
         "last_notified_at": last_notified_at,
         "last_exit_at": last_exit_at,
         "last_event": "NONE" if bootstrap else event,
+        "baseline_required": bootstrap,
     }
+
+
+def load_identity_migrations(path: Path = IDENTITY_MIGRATIONS_PATH) -> dict[str, dict[str, str]]:
+    payload = read_json(path)
+    if payload.get("schema_version") != 1 or not isinstance(payload.get("migrations"), list):
+        raise ValueError("identity_migrations.json is invalid")
+    migrations: dict[str, dict[str, str]] = {}
+    for item in payload["migrations"]:
+        if not isinstance(item, dict):
+            raise ValueError("identity_migrations.json contains a non-object migration")
+        symbol = str(item.get("symbol", "")).upper()
+        before = item.get("from_coingecko_id")
+        after = item.get("to_coingecko_id")
+        if not symbol or not isinstance(before, str) or not isinstance(after, str):
+            raise ValueError("identity_migrations.json contains an incomplete migration")
+        if symbol in migrations:
+            raise ValueError(f"duplicate identity migration: {symbol}")
+        migrations[symbol] = {"from": before, "to": after}
+    return migrations
+
+
+def identity_requires_baseline(
+    symbol: str,
+    previous: dict[str, Any] | None,
+    current_coingecko_id: str | None,
+    migrations: dict[str, dict[str, str]],
+) -> bool:
+    if previous is None:
+        return True
+    previous_id = previous.get("coingecko_id")
+    if previous_id is not None:
+        return previous_id != current_coingecko_id
+    migration = migrations.get(symbol)
+    return bool(migration and migration["to"] == current_coingecko_id)
 
 
 def evaluate_transition(
@@ -320,6 +358,7 @@ def run_state_update(
     state_path: Path = STATE_PATH,
     events_path: Path = EVENTS_PATH,
     notifications_path: Path = NOTIFICATIONS_PATH,
+    identity_migrations_path: Path = IDENTITY_MIGRATIONS_PATH,
     state_store: StateStore | None = None,
 ) -> dict[str, Any]:
     state_store = state_store or FileSystemStateStore()
@@ -336,6 +375,7 @@ def run_state_update(
             )
         snapshot = read_json(snapshot_path)
         triggers = read_json(triggers_path)
+        identity_migrations = load_identity_migrations(identity_migrations_path)
         validate_complete_outputs(scan_status, snapshot, triggers)
     except (OSError, ValueError, TypeError, json.JSONDecodeError) as exc:
         return write_skipped(str(exc), events_path, notifications_path)
@@ -367,16 +407,25 @@ def run_state_update(
     next_assets: dict[str, dict[str, Any]] = {}
     events: list[dict[str, Any]] = []
     candidates: list[dict[str, Any]] = []
+    baselined_symbols: list[str] = []
 
     for snapshot_item in snapshot["items"]:
         symbol = snapshot_item["symbol"]
         current = signal_from_outputs(snapshot_item, trigger_map.get(symbol))
-        if bootstrap:
-            next_assets[symbol] = build_state_entry(None, current, "NONE", timestamp, bootstrap=True)
+        previous = previous_assets.get(symbol)
+        selective_baseline = identity_requires_baseline(
+            symbol, previous, current.get("coingecko_id"), identity_migrations
+        )
+        if bootstrap or selective_baseline:
+            next_assets[symbol] = build_state_entry(
+                None, current, "NONE", timestamp, bootstrap=True
+            )
+            baselined_symbols.append(symbol)
             continue
         next_state, event_record, candidate = evaluate_transition(
-            previous_assets.get(symbol), current, timestamp
+            previous, current, timestamp
         )
+        next_state["baseline_required"] = False
         next_assets[symbol] = next_state
         events.append(event_record)
         if candidate is not None:
@@ -421,6 +470,8 @@ def run_state_update(
         "assets_evaluated": len(next_assets),
         "active": sum(item["active"] for item in next_assets.values()),
         "notification_candidates": len(candidates),
+        "assets_baselined": len(baselined_symbols),
+        "baselined_symbols": sorted(baselined_symbols),
         "counts": counts,
     }
 

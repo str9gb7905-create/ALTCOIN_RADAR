@@ -25,7 +25,7 @@ RUN_STATUS_PATH = STATE_DIR / "run_status.json"
 HEARTBEAT_PATH = STATE_DIR / "heartbeat.json"
 LOCK_PATH = STATE_DIR / "pipeline.lock"
 WATCHLIST_PATH = PROJECT_ROOT / "config" / "watchlist.json"
-EXPECTED_WATCHLIST = 162
+EXPECTED_WATCHLIST = 165
 LOCK_STALE_SECONDS = 3600
 
 StageARunner = Callable[[str], dict[str, Any]]
@@ -48,21 +48,42 @@ def validate_canonical_watchlist(path: Path = WATCHLIST_PATH) -> dict[str, Any]:
     entries = radar_scan.load_watchlist(path)
     symbols = {str(item["symbol"]).upper() for item in entries}
     mapped = [item for item in entries if item.get("coingecko_id")]
+    enabled = [item for item in entries if item.get("enabled") is True]
+    needs_review = [item for item in entries if item.get("needs_review") is True]
     ids = [item["coingecko_id"] for item in mapped]
+    mapping = {str(item["symbol"]).upper(): item.get("coingecko_id") for item in entries}
     checks = {
         "INSP_absent": "INSP" not in symbols,
         "MANA_present": "MANA" in symbols,
         "SKL_present": "SKL" in symbols,
         "PIXEL_present": "PIXEL" in symbols,
         "AI_present": "AI" in symbols,
-        "ARC_absent": "ARC" not in symbols,
-        "QNT_absent": "QNT" not in symbols,
+        "ALICE_mapped": mapping.get("ALICE") == "my-neighbor-alice",
+        "ARC_mapped": mapping.get("ARC") == "ai-rig-complex",
+        "BIO_mapped": mapping.get("BIO") == "bio-protocol",
+        "CC_mapped": mapping.get("CC") == "canton-network",
+        "LSK_mapped": mapping.get("LSK") == "lisk",
+        "QNT_mapped": mapping.get("QNT") == "quant-network",
+        "STEEM_mapped": mapping.get("STEEM") == "steem",
+        "WAVES_mapped": mapping.get("WAVES") == "waves",
+        "AVA_is_Ava_AI": mapping.get("AVA") == "ava-ai",
+        "A2Z_removed": "A2Z" not in symbols,
+        "CETUS_removed": "CETUS" not in symbols,
+        "DENT_removed": "DENT" not in symbols,
+        "HOOK_removed": "HOOK" not in symbols,
+        "NKN_removed": "NKN" not in symbols,
     }
     conflicts = []
     if len(entries) != EXPECTED_WATCHLIST:
         conflicts.append(f"asset_count={len(entries)} expected={EXPECTED_WATCHLIST}")
     if len(mapped) != EXPECTED_WATCHLIST:
         conflicts.append(f"mapped_count={len(mapped)} expected={EXPECTED_WATCHLIST}")
+    if len(enabled) != EXPECTED_WATCHLIST:
+        conflicts.append(f"enabled_count={len(enabled)} expected={EXPECTED_WATCHLIST}")
+    if needs_review:
+        conflicts.append(
+            "needs_review=" + ",".join(str(item["symbol"]) for item in needs_review)
+        )
     if len(ids) != len(set(ids)):
         conflicts.append("duplicate CoinGecko IDs")
     conflicts.extend(name for name, passed in checks.items() if not passed)
@@ -70,6 +91,8 @@ def validate_canonical_watchlist(path: Path = WATCHLIST_PATH) -> dict[str, Any]:
         "source": str(path),
         "asset_count": len(entries),
         "mapped_count": len(mapped),
+        "enabled_count": len(enabled),
+        "needs_review_count": len(needs_review),
         "critical_checks": checks,
         "conflicts": conflicts,
     }
@@ -167,6 +190,9 @@ def _base_status(run_id: str, started_at: str) -> dict[str, Any]:
         "market_data_returned": 0,
         "coverage_pct": 0.0,
         "active_trigger_count": 0,
+        "radar_assets_baselined": 0,
+        "technical_assets_baselined": 0,
+        "divergence_assets_baselined": 0,
         "notification_candidate_count": 0,
         "stage_b_attempted": 0,
         "divergence_attempted": 0,
@@ -258,6 +284,7 @@ def execute_pipeline(
         status["elapsed_radar_state"] = round(time.perf_counter() - clock, 6)
         _assert_stage_result(current_stage, state_result)
         status["active_trigger_count"] = int(state_result.get("active", 0))
+        status["radar_assets_baselined"] = int(state_result.get("assets_baselined", 0))
 
         current_stage = "stage_b"
         clock = time.perf_counter()
@@ -268,6 +295,7 @@ def execute_pipeline(
         status["elapsed_stage_b"] = round(time.perf_counter() - clock, 6)
         _assert_stage_result(current_stage, stage_b)
         status["stage_b_attempted"] = int(stage_b.get("active", 0))
+        status["technical_assets_baselined"] = int(stage_b.get("assets_baselined", 0))
 
         current_stage = "divergence"
         clock = time.perf_counter()
@@ -282,6 +310,9 @@ def execute_pipeline(
         status["elapsed_divergence"] = round(time.perf_counter() - clock, 6)
         _assert_stage_result(current_stage, divergence)
         status["divergence_attempted"] = int(divergence.get("active", 0))
+        status["divergence_assets_baselined"] = int(
+            divergence.get("assets_baselined", 0)
+        )
 
         status["notification_candidate_count"] = (
             int(state_result.get("notification_candidates", 0))
@@ -323,6 +354,9 @@ def print_summary(status: dict[str, Any]) -> None:
     print(f"Market data returned: {status.get('market_data_returned')}")
     print(f"Coverage: {status.get('coverage_pct', 0):.2f}%")
     print(f"Active triggers: {status.get('active_trigger_count')}")
+    print(f"Radar assets baselined: {status.get('radar_assets_baselined')}")
+    print(f"Technical assets baselined: {status.get('technical_assets_baselined')}")
+    print(f"Divergence assets baselined: {status.get('divergence_assets_baselined')}")
     print(f"Stage B attempted: {status.get('stage_b_attempted')}")
     print(f"Divergence attempted: {status.get('divergence_attempted')}")
     print(f"Notification candidates: {status.get('notification_candidate_count')}")

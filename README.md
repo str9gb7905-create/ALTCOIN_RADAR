@@ -45,6 +45,13 @@ python radar_state.py
 
 State is updated only when Stage A reports `MARKET_DATA_COMPLETE` and returns every mapped asset. Incomplete or failed scans produce `STATE_UPDATE_SKIPPED` and leave `state/radar_state.json` unchanged. Notification candidates are limited to new triggers, severity-tier escalations, direction changes, and genuine reentries.
 
+The canonical release contains 165 fully mapped assets. A newly added asset, or a
+same-symbol project replacement listed in `config/identity_migrations.json`, receives
+a one-asset baseline on its first complete scan. That baseline is propagated to the
+technical and divergence stages so the migration cannot manufacture `NEW_TRIGGER`,
+technical, or `DIVERGENCE_NEW` notifications. Unchanged assets retain their episode,
+technical, divergence-signature, and delivery state; a global bootstrap is not used.
+
 ## Tests
 
 ```powershell

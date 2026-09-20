@@ -189,9 +189,13 @@ def active_signals(record: dict[str, Any]) -> list[str]:
 
 
 def technical_state_entry(
-    record: dict[str, Any], timestamp: str, price_episode_id: int | None
+    record: dict[str, Any],
+    timestamp: str,
+    price_episode_id: int | None,
+    coingecko_id: str | None = None,
 ) -> dict[str, Any]:
     return {
+        "coingecko_id": coingecko_id,
         "live_source": record.get("live_source"),
         "history_source": record.get("history_source"),
         "rsi_4h": record.get("rsi_4h"),
@@ -487,6 +491,17 @@ def run_stage_b(
     active_entries = {
         symbol: entry for symbol, entry in radar_state["assets"].items() if entry.get("active") is True
     }
+    canonical_symbols = set(radar_state["assets"])
+    baseline_symbols = {
+        symbol
+        for symbol, entry in radar_state["assets"].items()
+        if entry.get("baseline_required") is True
+    }
+    previous_assets = {
+        symbol: entry
+        for symbol, entry in previous_assets.items()
+        if symbol in canonical_symbols and symbol not in baseline_symbols
+    }
     snapshot_map = {item["symbol"]: item for item in snapshot.get("items", [])}
     missing_active = sorted(set(active_entries) - set(snapshot_map))
     if missing_active:
@@ -565,9 +580,14 @@ def run_stage_b(
         if record["data_quality"] == "DATA_INSUFFICIENT" and previous is not None:
             next_assets[symbol] = previous
             continue
-        current_state = technical_state_entry(record, timestamp, radar_entry.get("episode_id"))
+        current_state = technical_state_entry(
+            record,
+            timestamp,
+            radar_entry.get("episode_id"),
+            radar_entry.get("coingecko_id"),
+        )
         next_assets[symbol] = current_state
-        if not bootstrap:
+        if not bootstrap and symbol not in baseline_symbols:
             all_events.extend(evaluate_technical_events(symbol, previous, current_state))
 
     stage_b_assets.sort(key=lambda item: item["symbol"])
@@ -590,6 +610,7 @@ def run_stage_b(
         "active_assets_attempted": len(active_entries),
         "quality_counts": quality_counts,
         "source_errors": source_errors,
+        "assets_baselined": len(set(active_entries) & baseline_symbols),
         "count": len(stage_b_assets),
         "assets": stage_b_assets,
     }
@@ -614,6 +635,7 @@ def run_stage_b(
         "technical_events": len(all_events),
         "notification_events": len(notification_events),
         "source_errors": source_errors,
+        "assets_baselined": len(set(active_entries) & baseline_symbols),
     }
 
 

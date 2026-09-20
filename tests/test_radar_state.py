@@ -187,6 +187,92 @@ class RadarStateFileSafetyTests(unittest.TestCase):
             self.assertEqual(0, notifications["count"])
             self.assertEqual("BOOTSTRAP_SUPPRESSED", notifications["status"])
 
+    def test_selective_baseline_preserves_existing_state_and_resets_changed_identity(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            paths = self._paths(root)
+            generated_at = "2026-09-20T10:00:00Z"
+            snapshot_items = [
+                {
+                    "symbol": symbol,
+                    "coingecko_id": coin_id,
+                    "current_price": 1,
+                    "price_change_percentage_1h": 0,
+                    "price_change_percentage_24h": 12,
+                }
+                for symbol, coin_id in (
+                    ("KEEP", "keep-token"),
+                    ("AVA", "ava-ai"),
+                    ("NEW", "new-token"),
+                )
+            ]
+            trigger_items = [
+                {
+                    **item,
+                    "trigger_1h_up": False,
+                    "trigger_1h_down": False,
+                    "trigger_24h_up": True,
+                    "trigger_24h_down": False,
+                }
+                for item in snapshot_items
+            ]
+            documents = {
+                paths["scan_status_path"]: {
+                    "run_id": "migration_run",
+                    "scan_status": "MARKET_DATA_COMPLETE",
+                    "market_data_returned": 3,
+                    "mapped_total": 3,
+                    "scan_finished_at": generated_at,
+                },
+                paths["snapshot_path"]: {
+                    "run_id": "migration_run",
+                    "generated_at": generated_at,
+                    "count": 3,
+                    "items": snapshot_items,
+                },
+                paths["triggers_path"]: {
+                    "run_id": "migration_run",
+                    "generated_at": generated_at,
+                    "count": 3,
+                    "items": trigger_items,
+                },
+                paths["state_path"]: {
+                    "schema_version": 1,
+                    "assets": {
+                        "KEEP": {
+                            "active": True,
+                            "direction": "UP",
+                            "severity_tier": "T1",
+                            "abnormality_score": 11,
+                            "episode_id": 7,
+                        },
+                        "AVA": {
+                            "active": True,
+                            "direction": "UP",
+                            "severity_tier": "T1",
+                            "abnormality_score": 11,
+                            "episode_id": 4,
+                        },
+                        "REMOVED": {"active": False, "episode_id": 2},
+                    },
+                },
+            }
+            for path, payload in documents.items():
+                path.write_text(json.dumps(payload), encoding="utf-8")
+
+            summary = run_state_update(**paths)
+            state = json.loads(paths["state_path"].read_text(encoding="utf-8"))
+            notifications = json.loads(paths["notifications_path"].read_text(encoding="utf-8"))
+
+            self.assertEqual(["AVA", "NEW"], summary["baselined_symbols"])
+            self.assertEqual(0, notifications["count"])
+            self.assertEqual(7, state["assets"]["KEEP"]["episode_id"])
+            self.assertFalse(state["assets"]["KEEP"]["baseline_required"])
+            self.assertEqual("ava-ai", state["assets"]["AVA"]["coingecko_id"])
+            self.assertEqual(1, state["assets"]["AVA"]["episode_id"])
+            self.assertTrue(state["assets"]["AVA"]["baseline_required"])
+            self.assertNotIn("REMOVED", state["assets"])
+
 
 if __name__ == "__main__":
     unittest.main()

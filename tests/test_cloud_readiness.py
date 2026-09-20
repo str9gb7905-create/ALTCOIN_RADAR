@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from health_check import evaluate_health
-from run_pipeline import PROJECT_ROOT, execute_pipeline
+from run_pipeline import PROJECT_ROOT, execute_pipeline, validate_canonical_watchlist
 from state_store import FileSystemStateStore
 
 
@@ -13,8 +13,8 @@ def complete_stage_a(_run_id):
     return {
         "exit_code": 0,
         "scan_status": "MARKET_DATA_COMPLETE",
-        "mapped_total": 162,
-        "market_data_returned": 162,
+        "mapped_total": 165,
+        "market_data_returned": 165,
         "coverage_percent": 100.0,
         "trigger_count": 4,
     }
@@ -81,6 +81,14 @@ class CloudReadinessTests(unittest.TestCase):
         self.assertEqual(result["notification_candidate_count"], 5)
         self.assertEqual(result["stage_b_attempted"], 4)
         self.assertEqual(result["divergence_attempted"], 4)
+
+    def test_canonical_watchlist_is_fully_mapped_165_asset_release(self):
+        result = validate_canonical_watchlist()
+        self.assertEqual(165, result["asset_count"])
+        self.assertEqual(165, result["mapped_count"])
+        self.assertEqual(165, result["enabled_count"])
+        self.assertEqual(0, result["needs_review_count"])
+        self.assertEqual([], result["conflicts"])
 
     def test_stage_a_incomplete_stops_downstream_and_does_not_say_no_signal(self):
         called = []

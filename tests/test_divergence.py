@@ -252,7 +252,40 @@ class DivergenceWorkflowTests(unittest.TestCase):
             self.assertIn("STAGE_INPUT_MISMATCH", summary["reason"])
             self.assertEqual(original, paths["divergence_state_path"].read_text(encoding="utf-8"))
 
+    def test_selective_baseline_suppresses_divergence_events_and_prunes_stale_assets(self):
+        with tempfile.TemporaryDirectory() as directory:
+            paths = self._paths(Path(directory))
+            self._documents(paths)
+            radar = json.loads(paths["radar_state_path"].read_text(encoding="utf-8"))
+            radar["assets"]["AAA"].update(
+                {"baseline_required": True, "coingecko_id": "new-aaa"}
+            )
+            radar["assets"]["BBB"].update(
+                {"baseline_required": False, "coingecko_id": "bbb"}
+            )
+            self._write(paths["radar_state_path"], radar)
+            self._write(
+                paths["divergence_state_path"],
+                {
+                    "schema_version": 1,
+                    "assets": {
+                        "AAA": {"daily": {"active_signals": [], "seen_signatures": []}},
+                        "REMOVED": {"daily": {"active_signals": [], "seen_signatures": []}},
+                    },
+                },
+            )
+
+            summary = run_divergence(
+                adapters_override=[FakeHistoryAdapter()], **paths
+            )
+            state = json.loads(paths["divergence_state_path"].read_text(encoding="utf-8"))
+            events = json.loads(paths["events_path"].read_text(encoding="utf-8"))
+
+            self.assertEqual(1, summary["assets_baselined"])
+            self.assertFalse(any(item["symbol"] == "AAA" for item in events["events"]))
+            self.assertEqual("new-aaa", state["assets"]["AAA"]["coingecko_id"])
+            self.assertNotIn("REMOVED", state["assets"])
+
 
 if __name__ == "__main__":
     unittest.main()
-

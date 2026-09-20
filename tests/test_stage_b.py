@@ -288,6 +288,39 @@ class StageBWorkflowTests(unittest.TestCase):
             self.assertIn("STAGE_INPUT_MISMATCH", summary["reason"])
             self.assertEqual(original, paths["technical_state_path"].read_text(encoding="utf-8"))
 
+    def test_selective_baseline_suppresses_technical_events_and_prunes_stale_assets(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            paths = self._paths(root)
+            self._base_documents(paths)
+            radar = json.loads(paths["radar_state_path"].read_text(encoding="utf-8"))
+            radar["assets"]["C0"].update(
+                {"baseline_required": True, "coingecko_id": "new-c0"}
+            )
+            radar["assets"]["C1"].update(
+                {"baseline_required": False, "coingecko_id": "c1"}
+            )
+            self._write_json(paths["radar_state_path"], radar)
+            self._write_json(
+                paths["technical_state_path"],
+                {
+                    "schema_version": 1,
+                    "assets": {
+                        "C0": {"active_technical_signals": ["RSI_4H_EXTREME_COLD"]},
+                        "REMOVED": {"active_technical_signals": ["VOLUME_STRONG"]},
+                    },
+                },
+            )
+
+            summary = run_stage_b(adapters_override=[FakeAdapter("Fake")], **paths)
+            state = json.loads(paths["technical_state_path"].read_text(encoding="utf-8"))
+            events = json.loads(paths["events_path"].read_text(encoding="utf-8"))
+
+            self.assertEqual(1, summary["assets_baselined"])
+            self.assertFalse(any(item["symbol"] == "C0" for item in events["events"]))
+            self.assertEqual("new-c0", state["assets"]["C0"]["coingecko_id"])
+            self.assertNotIn("REMOVED", state["assets"])
+
 
 if __name__ == "__main__":
     unittest.main()
