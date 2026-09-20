@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       telegram_test:
-        description: "Send the fixed Telegram delivery test message only"
+        description: "Send the production-format Telegram preview only"
         required: true
         type: boolean
         default: false
@@ -34,19 +34,44 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Send fixed Telegram delivery test
+      - name: Send production-format Telegram preview
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         shell: bash
         run: |
           python - <<'PY'
+          from textwrap import dedent
+
           from notification_dispatcher import TelegramDispatcher
 
+          message = dedent("""\
+          🧪 ALTCOIN RADAR｜正式格式測試
+          ⚠️ 以下為排版測試假資料，不是即時行情或投資訊號
+
+          LSK｜價格異動測試
+          觸發：24H_DOWN（首次達到 -10%）
+          價格：US$0.3708
+          1H：-1.60%
+          24H：-16.00%
+          層級：T1（10%）
+          4H RSI：28.3｜狀態：NORMAL
+          RSI速度：無
+          成交量：1.80× 近期中位數
+          日線背離：無
+          週線背離：無
+          資料來源：CoinGecko＋公開現貨交易所
+
+          CoinGecko：
+          https://www.coingecko.com/en/coins/lisk
+          TradingView：
+          https://www.tradingview.com/chart/?symbol=BINANCE%3ALSKUSDT
+
+          只測試 Telegram 顯示與連結；正式自動通知仍關閉。
+          """).strip()
+
           try:
-              result = TelegramDispatcher.from_env().send(
-                  "ALTCOIN_RADAR Telegram delivery test"
-              )
+              result = TelegramDispatcher.from_env().send(message)
           except Exception:
               print("TELEGRAM_TEST_STATUS=UNEXPECTED_FAILURE")
               raise SystemExit(1)
