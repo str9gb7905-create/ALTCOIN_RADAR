@@ -1,7 +1,7 @@
 {
-  "run_id": "20260920T073709Z_9fd8e3b5",
-  "started_at_utc": "2026-09-20T07:37:09.993188Z",
-  "completed_at_utc": "2026-09-20T07:37:42.947197Z",
+  "run_id": "20260920T075016Z_93241b27",
+  "started_at_utc": "2026-09-20T07:50:16.858308Z",
+  "completed_at_utc": "2026-09-20T07:51:00.004015Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 162,
@@ -13,7 +13,7 @@
   "divergence_attempted": 7,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 32.95401,
+  "elapsed_seconds": 43.145708,
   "API_requests_total": 100,
   "requests_by_exchange": {
     "Binance": 4,
@@ -27,19 +27,19 @@
     "MEXC": 12,
     "OKX": 24
   },
-  "elapsed_stage_a": 0.761032,
-  "elapsed_radar_state": 0.007979,
-  "elapsed_stage_b": 18.739016,
-  "elapsed_divergence": 13.444941,
-  "elapsed_total": 32.95401,
+  "elapsed_stage_a": 0.48005,
+  "elapsed_radar_state": 0.007778,
+  "elapsed_stage_b": 26.871751,
+  "elapsed_divergence": 15.784848,
+  "elapsed_total": 43.145708,
   "asset_enrichment_seconds": {
-    "AVAX": 0.494332,
-    "ONE": 0.463108,
-    "ONG": 2.557907,
-    "PHA": 3.441637,
-    "SKL": 1.362539,
-    "STRK": 2.311044,
-    "ZIL": 1.462464
+    "AVAX": 0.604777,
+    "ONE": 0.553897,
+    "ONG": 3.944846,
+    "PHA": 6.345998,
+    "SKL": 1.483214,
+    "STRK": 3.11745,
+    "ZIL": 1.58092
   },
   "stale_lock_recovered": false
 }
