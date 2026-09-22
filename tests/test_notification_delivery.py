@@ -1,3 +1,4 @@
+import json
 import os
 import socket
 import tempfile
@@ -14,6 +15,7 @@ from notification_dispatcher import (
     TelegramDispatcher,
 )
 from notification_merger import merge_payloads
+from notification_merger import POLICY_PATH
 from state_store import FileSystemStateStore
 
 
@@ -22,7 +24,7 @@ RUN_ID = "20260919T000000Z_test"
 
 def inputs(*, price=None, technical=None, divergence=None):
     market = {
-        "symbol": "AAA", "current_price": 1.25,
+        "symbol": "AAA", "coingecko_id": "aaa-token", "current_price": 1.25,
         "price_change_percentage_1h": 3.0, "price_change_percentage_24h": 12.0,
     }
     stage_b = {
@@ -30,6 +32,9 @@ def inputs(*, price=None, technical=None, divergence=None):
         "rsi_4h": 72.0, "rsi_1d": 61.0, "rsi_1w": 55.0,
         "volume_ratio": 2.4, "volume_status": "STRONG", "volume_pattern": "NONE",
         "volume_note": "NONE", "live_source": "Binance", "history_source": "Binance",
+        "cross_exchange_prices": [
+            {"exchange": "Binance", "pair": "AAAUSDT", "quote": "USDT", "price": 1.25}
+        ],
     }
     div_asset = {
         "symbol": "AAA", "daily": {"bullish": {"confirmed": True}, "bearish": None},
@@ -123,6 +128,71 @@ class NotificationDeliveryTests(unittest.TestCase):
             price=[{"symbol": "AAA", "event": "CONTINUING"}]
         ))
         self.assertEqual(merged["status"], "NO_NOTIFICATION")
+
+    def test_standalone_technical_event_does_not_send(self):
+        merged = merge_payloads(*inputs(
+            technical=[{"symbol": "AAA", "event": "VOLUME_STRONG_NEW", "notify": True}]
+        ))
+        self.assertEqual(merged["status"], "NO_NOTIFICATION")
+
+    def test_mainstream_price_event_is_excluded_from_immediate_notification(self):
+        merged = merge_payloads(*inputs(
+            price=[{"symbol": "BTC", "event": "NEW_TRIGGER"}]
+        ))
+        self.assertEqual(merged["status"], "NO_NOTIFICATION")
+
+    def test_production_policy_has_the_confirmed_fifteen_mainstream_assets(self):
+        policy = json.loads(POLICY_PATH.read_text(encoding="utf-8"))
+        self.assertEqual(
+            {
+                "BTC", "UNI", "SOL", "XRP", "AVAX", "SUI", "HBAR", "DOT",
+                "APT", "ETH", "DOGE", "POL", "LINK", "ADA", "XLM",
+            },
+            set(policy["immediate_price_excluded_symbols"]),
+        )
+        self.assertFalse(policy["standalone_technical_alerts_enabled"])
+        self.assertFalse(policy["standalone_divergence_alerts_enabled"])
+
+    def test_production_message_is_chinese_and_contains_clickable_sources(self):
+        merged = ready_payload()
+        self.assertIn("🚨 ALTCOIN RADAR｜即時價格異動", merged["message"])
+        self.assertIn("https://www.coingecko.com/en/coins/aaa-token", merged["message"])
+        self.assertIn(
+            "https://www.tradingview.com/chart/?symbol=BINANCE%3AAAAUSDT",
+            merged["message"],
+        )
+
+    def test_broad_market_move_keeps_every_symbol_within_telegram_limit(self):
+        payloads = list(inputs())
+        price_assets = []
+        snapshot_assets = []
+        for index in range(165):
+            symbol = f"C{index:03d}"
+            price_assets.append({
+                "symbol": symbol,
+                "event": "NEW_TRIGGER",
+                "change_1h": -11.0,
+                "change_24h": -20.0 - index,
+                "abnormality_score": 20.0 + index,
+                "severity_tier": "T2",
+                "active_conditions": ["24H_DOWN"],
+            })
+            snapshot_assets.append({
+                "symbol": symbol,
+                "coingecko_id": f"coin-{index}",
+                "current_price": 1.0,
+                "price_change_percentage_1h": -11.0,
+                "price_change_percentage_24h": -20.0 - index,
+            })
+        payloads[0] = {"run_id": RUN_ID, "assets": price_assets}
+        payloads[3] = {"run_id": RUN_ID, "items": snapshot_assets}
+        merged = merge_payloads(*payloads, policy={
+            "immediate_price_excluded_symbols": [],
+        })
+        self.assertLessEqual(len(merged["message"]), 4096)
+        self.assertIn("其他同批觸發", merged["message"])
+        for item in price_assets:
+            self.assertIn(item["symbol"], merged["message"])
 
     def test_duplicate_workflow_retry_does_not_duplicate_delivery(self):
         merged = ready_payload()

@@ -114,12 +114,14 @@ python stage_b_divergence.py
 
 The detector uses configured confirmed pivots, Wilder RSI(14), price/RSI noise filters, pivot separation, persistent signatures, and atomic state replacement. It does not calculate tentative candles as confirmed divergence and does not send trading or notification messages.
 
-## Telegram notification delivery (implemented, not yet activated)
+## Telegram notification delivery (activated)
 
-`notification_merger.py` deterministically combines the current run's Price,
-Technical, and Divergence notification events into at most one Telegram-sized
-message. Events for the same symbol share one block. A run without a new event
-returns `NO_NOTIFICATION`; `CONTINUING` price events are suppressed.
+`notification_merger.py` builds a Telegram notification only when an allowed
+price event occurs. RSI, volume, and divergence remain analysis fields in that
+same message and never create a standalone alert. A run without a new allowed
+price event returns `NO_NOTIFICATION`; `CONTINUING` price events are suppressed.
+The 15 configured mainstream assets remain monitored but are excluded from
+immediate price alerts by `config/notification_policy.json`.
 
 `notification_dispatcher.py` provides the delivery interface and reads
 `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` only from the process environment.
@@ -128,7 +130,8 @@ returns `NO_NOTIFICATION`; `CONTINUING` price events are suppressed.
 claim becomes `UNKNOWN_TIMEOUT` and is never retried automatically. Only an
 explicit `FAILED_RETRYABLE` result may be claimed again.
 
-Delivery is intentionally not connected to the production workflow until the
-two repository secrets have been configured and a real Telegram send has been
-verified. No credential value belongs in `.env.example`, source files, logs, or
-the public repository. Healthchecks.io integration follows that verification.
+Production delivery is connected to the scheduled workflow after the two
+repository secrets and a real Telegram send were verified. The workflow first
+persists a pending record, then durably claims it, sends it, and finally persists
+the provider result. No credential value belongs in `.env.example`, source
+files, logs, or the public repository.

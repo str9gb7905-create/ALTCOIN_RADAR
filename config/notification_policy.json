@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "price_alerts_enabled": true,
+  "price_threshold_percent": 10,
+  "immediate_price_excluded_symbols": [
+    "BTC",
+    "UNI",
+    "SOL",
+    "XRP",
+    "AVAX",
+    "SUI",
+    "HBAR",
+    "DOT",
+    "APT",
+    "ETH",
+    "DOGE",
+    "POL",
+    "LINK",
+    "ADA",
+    "XLM"
+  ],
+  "standalone_technical_alerts_enabled": false,
+  "standalone_divergence_alerts_enabled": false
+}

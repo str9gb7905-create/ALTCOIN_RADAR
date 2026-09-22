@@ -159,6 +159,7 @@ def main() -> int:
         dispatcher = TelegramDispatcher.from_env()
         record = ledger.dispatch_claimed(args.notification_id, dispatcher)
         print(f"DELIVERY_{record['delivery_status']} notification_id={record['notification_id']}")
+        return 0 if record["delivery_status"] == "SUCCESS" else 1
     return 0
 
 
