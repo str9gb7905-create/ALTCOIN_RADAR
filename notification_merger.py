@@ -112,6 +112,11 @@ def _selected_events(price_payload, technical_payload, divergence_payload, polic
     }
     price = [item for item in price_payload.get("assets", [])
              if isinstance(item, dict) and item.get("event") in PRICE_EVENTS
+             and isinstance(item.get("change_1h"), (int, float))
+             and not isinstance(item.get("change_1h"), bool)
+             and abs(item["change_1h"]) >= THRESHOLD_PERCENT
+             and any(condition in {"1H_UP", "1H_DOWN"}
+                     for condition in item.get("active_conditions", []))
              and str(item.get("symbol", "")).upper() not in exclusions]
     price_symbols = {str(item.get("symbol", "")).upper() for item in price}
     technical = [item for item in technical_payload.get("notification_events", [])
@@ -221,7 +226,6 @@ def _render_message(run_id: str, items: list[dict[str, Any]]) -> str:
     lines = _message_header(run_id)
     for item in items:
         lines.extend(_item_lines(item))
-    lines.extend(["", "僅為市場監控資料，不是投資訊號。"])
     return "\n".join(lines)
 
 
@@ -239,7 +243,6 @@ def _render_overflow_message(run_id: str, items: list[dict[str, Any]]) -> str:
             f"其他同批觸發（{len(remaining)} 種）：",
             ", ".join(item["symbol"] for item in remaining),
         ])
-    lines.extend(["", "僅為市場監控資料，不是投資訊號。"])
     return "\n".join(lines)
 
 

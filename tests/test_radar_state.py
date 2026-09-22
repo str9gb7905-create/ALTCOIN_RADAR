@@ -25,11 +25,11 @@ def active_state(change_1h=0, change_24h=15, episode_id=1):
 
 
 class RadarStateTransitionTests(unittest.TestCase):
-    def test_case_1_inactive_to_threshold_is_new_trigger_and_notifies(self):
+    def test_case_1_24h_trigger_is_recorded_without_notification(self):
         previous = {"active": False, "direction": "NONE", "severity_tier": "T0", "episode_id": 0}
         state, event, candidate = transition(previous, change_24h=11)
         self.assertEqual("NEW_TRIGGER", event["event"])
-        self.assertIsNotNone(candidate)
+        self.assertIsNone(candidate)
         self.assertTrue(state["active"])
 
     def test_case_2_same_tier_is_continuing_without_notification(self):
@@ -38,11 +38,11 @@ class RadarStateTransitionTests(unittest.TestCase):
         self.assertEqual("CONTINUING", event["event"])
         self.assertIsNone(candidate)
 
-    def test_case_3_t1_to_t2_is_escalation_and_notifies(self):
+    def test_case_3_24h_escalation_does_not_notify(self):
         previous = active_state(change_24h=11)
         _, event, candidate = transition(previous, change_24h=20.1)
         self.assertEqual("ESCALATION", event["event"])
-        self.assertIsNotNone(candidate)
+        self.assertIsNone(candidate)
 
     def test_case_4_tier_decrease_does_not_notify(self):
         previous = active_state(change_24h=25)
@@ -50,13 +50,13 @@ class RadarStateTransitionTests(unittest.TestCase):
         self.assertEqual("CONTINUING", event["event"])
         self.assertIsNone(candidate)
 
-    def test_case_5_up_to_down_is_direction_change_and_notifies(self):
+    def test_case_5_24h_direction_change_does_not_notify(self):
         previous = active_state(change_24h=15)
         _, event, candidate = transition(previous, change_24h=-13)
         self.assertEqual("DIRECTION_CHANGE", event["event"])
         self.assertEqual("UP", event["previous_direction"])
         self.assertEqual("DOWN", event["current_direction"])
-        self.assertIsNotNone(candidate)
+        self.assertIsNone(candidate)
 
     def test_case_6_active_to_below_threshold_is_exit_without_notification(self):
         previous = active_state(change_24h=15)
@@ -66,14 +66,14 @@ class RadarStateTransitionTests(unittest.TestCase):
         self.assertFalse(state["active"])
         self.assertEqual(NOW, state["last_exit_at"])
 
-    def test_case_7_exit_then_reentry_increments_episode_and_notifies(self):
+    def test_case_7_24h_reentry_increments_episode_without_notification(self):
         previous = active_state(change_24h=15, episode_id=1)
         exited, exit_event, _ = transition(previous, change_24h=5)
         reentered, reentry_event, candidate = transition(exited, change_24h=12)
         self.assertEqual("EXIT", exit_event["event"])
         self.assertEqual("REENTRY", reentry_event["event"])
         self.assertEqual(2, reentered["episode_id"])
-        self.assertIsNotNone(candidate)
+        self.assertIsNone(candidate)
 
     def test_case_10_mixed_direction_keeps_both_conditions(self):
         current = signal_from_changes("AAA", 12, -11)
@@ -86,11 +86,45 @@ class RadarStateTransitionTests(unittest.TestCase):
         self.assertEqual("CONTINUING", event["event"])
         self.assertIsNone(candidate)
 
-    def test_case_12_t4_95_to_t5_105_escalates_and_notifies(self):
+    def test_case_12_24h_tier_increase_does_not_notify(self):
         previous = active_state(change_24h=95)
         _, event, candidate = transition(previous, change_24h=105)
         self.assertEqual("ESCALATION", event["event"])
-        self.assertIsNotNone(candidate)
+        self.assertIsNone(candidate)
+
+    def test_1h_crosses_threshold_while_24h_continues(self):
+        previous = active_state(change_1h=0, change_24h=12)
+        state, event, candidate = transition(previous, change_1h=11, change_24h=12)
+        self.assertEqual("CONTINUING", event["event"])
+        self.assertEqual("NEW_TRIGGER", candidate["event"])
+        self.assertEqual(["1H_UP"], candidate["active_conditions"])
+        self.assertEqual("T1", candidate["severity_tier"])
+        self.assertTrue(state["notification_1h"]["active"])
+
+    def test_24h_escalation_does_not_repeat_active_1h_alert(self):
+        previous = active_state(change_1h=11, change_24h=12)
+        _, event, candidate = transition(previous, change_1h=11, change_24h=45)
+        self.assertEqual("ESCALATION", event["event"])
+        self.assertIsNone(candidate)
+
+    def test_1h_reentry_and_1h_escalation_are_independent_of_24h(self):
+        previous = active_state(change_1h=-11, change_24h=22)
+        exited, _, candidate = transition(previous, change_1h=-2, change_24h=22)
+        self.assertIsNone(candidate)
+        reentered, _, candidate = transition(exited, change_1h=12, change_24h=22)
+        self.assertEqual("REENTRY", candidate["event"])
+        self.assertEqual("UP", candidate["direction"])
+        self.assertEqual(2, reentered["notification_1h"]["episode_id"])
+        _, _, escalation = transition(reentered, change_1h=21, change_24h=22)
+        self.assertEqual("ESCALATION", escalation["event"])
+        self.assertEqual("T2", escalation["severity_tier"])
+
+    def test_legacy_1h_active_is_baselined_without_repeat(self):
+        previous = active_state(change_1h=12, change_24h=12)
+        previous.pop("notification_1h")
+        state, _, candidate = transition(previous, change_1h=13, change_24h=13)
+        self.assertIsNone(candidate)
+        self.assertTrue(state["notification_1h"]["active"])
 
 
 class RadarStateFileSafetyTests(unittest.TestCase):
@@ -103,6 +137,52 @@ class RadarStateFileSafetyTests(unittest.TestCase):
             "events_path": root / "events.json",
             "notifications_path": root / "notifications.json",
         }
+
+    def test_existing_24h_state_does_not_hide_new_1h_alert(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            paths = self._paths(root)
+            previous = active_state(change_1h=0, change_24h=12)
+            previous["coingecko_id"] = "aaa-token"
+            previous.pop("notification_1h")  # Existing persisted state before the rule change.
+            paths["state_path"].write_text(
+                json.dumps({"schema_version": 1, "assets": {"AAA": previous}}),
+                encoding="utf-8",
+            )
+            generated_at = "2026-09-22T00:00:00Z"
+            run_id = "first_1h_signal"
+            snapshot = {
+                "symbol": "AAA", "coingecko_id": "aaa-token", "current_price": 1.25,
+                "price_change_percentage_1h": 11, "price_change_percentage_24h": 12,
+            }
+            documents = {
+                paths["scan_status_path"]: {
+                    "run_id": run_id, "scan_status": "MARKET_DATA_COMPLETE",
+                    "market_data_returned": 1, "mapped_total": 1,
+                    "scan_finished_at": generated_at,
+                },
+                paths["snapshot_path"]: {
+                    "run_id": run_id, "generated_at": generated_at,
+                    "count": 1, "items": [snapshot],
+                },
+                paths["triggers_path"]: {
+                    "run_id": run_id, "generated_at": generated_at, "count": 1,
+                    "items": [{**snapshot, "trigger_1h_up": True,
+                               "trigger_1h_down": False, "trigger_24h_up": True,
+                               "trigger_24h_down": False}],
+                },
+            }
+            for path, payload in documents.items():
+                path.write_text(json.dumps(payload), encoding="utf-8")
+
+            summary = run_state_update(**paths)
+            notifications = json.loads(paths["notifications_path"].read_text(encoding="utf-8"))
+            state = json.loads(paths["state_path"].read_text(encoding="utf-8"))
+            self.assertEqual(0, summary["exit_code"])
+            self.assertEqual(1, summary["notification_candidates"])
+            self.assertEqual("NEW_TRIGGER", notifications["assets"][0]["event"])
+            self.assertEqual(["1H_UP"], notifications["assets"][0]["active_conditions"])
+            self.assertTrue(state["assets"]["AAA"]["notification_1h"]["active"])
 
     def test_case_8_incomplete_scan_does_not_modify_state_or_create_exit(self):
         with tempfile.TemporaryDirectory() as directory:

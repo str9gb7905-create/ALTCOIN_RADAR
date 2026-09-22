@@ -116,8 +116,12 @@ The detector uses configured confirmed pivots, Wilder RSI(14), price/RSI noise f
 
 ## Telegram notification delivery (activated)
 
-`notification_merger.py` builds a Telegram notification only when an allowed
-price event occurs. RSI, volume, and divergence remain analysis fields in that
+`notification_merger.py` builds a Telegram notification only when the 1-hour
+price change newly reaches +10% or -10%, reenters that range, changes direction,
+or rises to a higher 1-hour severity tier. A 24-hour move alone does not send
+a notification; its value is included as context when the 1-hour rule triggers.
+The 1-hour notification episode is tracked independently from the broader
+1-hour/24-hour scanner state. RSI, volume, and divergence remain analysis fields in that
 same message and never create a standalone alert. A run without a new allowed
 price event returns `NO_NOTIFICATION`; `CONTINUING` price events are suppressed.
 The 15 configured mainstream assets remain monitored but are excluded from

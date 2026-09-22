@@ -128,6 +128,27 @@ def signal_from_outputs(snapshot: dict[str, Any], trigger: dict[str, Any] | None
     }
 
 
+def one_hour_signal(current: dict[str, Any]) -> dict[str, Any]:
+    """Track notification episodes independently of the broader 1H/24H radar."""
+    signal = signal_from_changes(
+        current["symbol"], numeric(current.get("change_1h")), None, current.get("price")
+    )
+    signal["coingecko_id"] = current.get("coingecko_id")
+    return signal
+
+
+def previous_one_hour_state(previous: dict[str, Any] | None, symbol: str) -> dict[str, Any] | None:
+    if previous is None:
+        return None
+    existing = previous.get("notification_1h")
+    if isinstance(existing, dict) and isinstance(existing.get("active"), bool):
+        return existing
+    # Migrate the already-persisted combined state without repeating an active 1H alert.
+    legacy = one_hour_signal({"symbol": symbol, **previous})
+    legacy["episode_id"] = 1 if legacy["active"] else 0
+    return legacy
+
+
 def classify_event(previous: dict[str, Any] | None, current: dict[str, Any]) -> str:
     if previous is None:
         return "NEW_TRIGGER" if current["active"] else "NONE"
@@ -243,6 +264,11 @@ def evaluate_transition(
     if event not in EVENT_TYPES:
         raise ValueError(f"unsupported event: {event}")
     state_entry = build_state_entry(previous, current, event, timestamp)
+    previous_alert = previous_one_hour_state(previous, current["symbol"])
+    current_alert = one_hour_signal(current)
+    alert_event = classify_event(previous_alert, current_alert)
+    alert_state = build_state_entry(previous_alert, current_alert, alert_event, timestamp)
+    state_entry["notification_1h"] = alert_state
     event_record = {
         "symbol": current["symbol"],
         "event": event,
@@ -256,19 +282,22 @@ def evaluate_transition(
         "episode_id": state_entry["episode_id"],
     }
     candidate = None
-    if event in NOTIFICATION_EVENTS:
+    if alert_event in NOTIFICATION_EVENTS:
         candidate = {
             "symbol": current["symbol"],
-            "event": event,
+            "event": alert_event,
             "price": current["price"],
             "change_1h": current["change_1h"],
             "change_24h": current["change_24h"],
-            "abnormality_score": current["abnormality_score"],
-            "severity_tier": current["severity_tier"],
-            "direction": current["direction"],
-            "active_conditions": current["active_conditions"],
-            "episode_id": state_entry["episode_id"],
+            "abnormality_score": current_alert["abnormality_score"],
+            "severity_tier": current_alert["severity_tier"],
+            "direction": current_alert["direction"],
+            "active_conditions": current_alert["active_conditions"],
+            "episode_id": alert_state["episode_id"],
         }
+    state_entry["last_notified_at"] = (
+        timestamp if candidate is not None else previous.get("last_notified_at") if previous else None
+    )
     return state_entry, event_record, candidate
 
 
@@ -419,6 +448,9 @@ def run_state_update(
         if bootstrap or selective_baseline:
             next_assets[symbol] = build_state_entry(
                 None, current, "NONE", timestamp, bootstrap=True
+            )
+            next_assets[symbol]["notification_1h"] = build_state_entry(
+                None, one_hour_signal(current), "NONE", timestamp, bootstrap=True
             )
             baselined_symbols.append(symbol)
             continue

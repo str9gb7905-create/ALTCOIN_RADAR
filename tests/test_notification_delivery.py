@@ -25,10 +25,10 @@ RUN_ID = "20260919T000000Z_test"
 def inputs(*, price=None, technical=None, divergence=None):
     market = {
         "symbol": "AAA", "coingecko_id": "aaa-token", "current_price": 1.25,
-        "price_change_percentage_1h": 3.0, "price_change_percentage_24h": 12.0,
+        "price_change_percentage_1h": 12.0, "price_change_percentage_24h": 12.0,
     }
     stage_b = {
-        "symbol": "AAA", "price": 1.25, "change_1h": 3.0, "change_24h": 12.0,
+        "symbol": "AAA", "price": 1.25, "change_1h": 12.0, "change_24h": 12.0,
         "rsi_4h": 72.0, "rsi_1d": 61.0, "rsi_1w": 55.0,
         "volume_ratio": 2.4, "volume_status": "STRONG", "volume_pattern": "NONE",
         "volume_note": "NONE", "live_source": "Binance", "history_source": "Binance",
@@ -52,7 +52,8 @@ def inputs(*, price=None, technical=None, divergence=None):
 
 def ready_payload():
     return merge_payloads(*inputs(
-        price=[{"symbol": "AAA", "event": "NEW_TRIGGER"}],
+        price=[{"symbol": "AAA", "event": "NEW_TRIGGER", "change_1h": 12.0,
+                "active_conditions": ["1H_UP"]}],
         technical=[{"symbol": "AAA", "event": "VOLUME_STRONG_NEW", "notify": True}],
         divergence=[{"symbol": "AAA", "event": "DIVERGENCE_NEW", "timeframe": "daily"}],
     ))
@@ -137,7 +138,15 @@ class NotificationDeliveryTests(unittest.TestCase):
 
     def test_mainstream_price_event_is_excluded_from_immediate_notification(self):
         merged = merge_payloads(*inputs(
-            price=[{"symbol": "BTC", "event": "NEW_TRIGGER"}]
+            price=[{"symbol": "BTC", "event": "NEW_TRIGGER", "change_1h": 12.0,
+                    "active_conditions": ["1H_UP"]}]
+        ))
+        self.assertEqual(merged["status"], "NO_NOTIFICATION")
+
+    def test_24h_only_candidate_does_not_send_even_when_24h_is_above_10(self):
+        merged = merge_payloads(*inputs(
+            price=[{"symbol": "AAA", "event": "REENTRY", "change_1h": -0.2,
+                    "change_24h": 11.93, "active_conditions": ["24H_UP"]}]
         ))
         self.assertEqual(merged["status"], "NO_NOTIFICATION")
 
@@ -156,6 +165,7 @@ class NotificationDeliveryTests(unittest.TestCase):
     def test_production_message_is_chinese_and_contains_clickable_sources(self):
         merged = ready_payload()
         self.assertIn("🚨 ALTCOIN RADAR｜即時價格異動", merged["message"])
+        self.assertNotIn("僅為市場監控資料，不是投資訊號。", merged["message"])
         self.assertIn("https://www.coingecko.com/en/coins/aaa-token", merged["message"])
         self.assertIn(
             "https://www.tradingview.com/chart/?symbol=BINANCE%3AAAAUSDT",
@@ -175,7 +185,7 @@ class NotificationDeliveryTests(unittest.TestCase):
                 "change_24h": -20.0 - index,
                 "abnormality_score": 20.0 + index,
                 "severity_tier": "T2",
-                "active_conditions": ["24H_DOWN"],
+                "active_conditions": ["1H_DOWN"],
             })
             snapshot_assets.append({
                 "symbol": symbol,
