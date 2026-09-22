@@ -1,5 +1,20 @@
 {
   "schema_version": 1,
-  "updated_at_utc": null,
-  "notifications": {}
+  "updated_at_utc": "2026-09-22T11:25:35.838908Z",
+  "notifications": {
+    "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
+      "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
+      "run_id": "20260922T112456Z_4cde03a2",
+      "created_at_utc": "2026-09-22T11:25:35.838888Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260922T112456Z_4cde03a2\n資料來源：CoinGecko＋公開現貨交易所\n\nSWFTC｜再次觸發\n觸發：24H_UP\n價格：US$0.0027864343\n1H：-0.69%\n24H：+10.10%\n層級：T1\n4H RSI：77.63\n日線 RSI：67.10\n週線 RSI：36.46\n成交量：9.00×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/swftcoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASWFTCUSD\n\n僅為市場監控資料，不是投資訊號。"
+    }
+  }
 }
