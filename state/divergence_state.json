@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20260922T150947Z_b5027c28",
-  "updated_at": "2026-09-22T15:10:17.030792Z",
+  "last_run_id": "20260922T152523Z_4b40ca52",
+  "updated_at": "2026-09-22T15:25:53.998375Z",
   "assets": {
     "AGI": {
       "history_source": "Bybit",
@@ -577,7 +577,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-22T15:10:17.030792Z",
+      "last_seen_at": "2026-09-22T15:25:53.998375Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1066,7 +1066,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-22T15:10:17.030792Z",
+      "last_seen_at": "2026-09-22T15:25:53.998375Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1096,7 +1096,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-22T15:10:17.030792Z",
+      "last_seen_at": "2026-09-22T15:25:53.998375Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1338,7 +1338,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-22T15:10:17.030792Z",
+      "last_seen_at": "2026-09-22T15:25:53.998375Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1461,7 +1461,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-22T13:42:20.127394Z",
+      "last_seen_at": "2026-09-22T15:25:53.998375Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2089,9 +2089,9 @@
     "FUN": {
       "coingecko_id": "funfair",
       "history_source": "Kraken",
-      "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
+      "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-22T15:10:17.030792Z",
+      "last_seen_at": "2026-09-22T15:25:53.998375Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2107,6 +2107,21 @@
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
       "last_seen_at": "2026-09-22T14:56:31.476262Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "CHR": {
+      "coingecko_id": "chromaway",
+      "history_source": "KuCoin",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-09-22T15:25:53.998375Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
