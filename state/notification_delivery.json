@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-22T13:28:08.338945Z",
+  "updated_at_utc": "2026-09-22T13:42:30.075416Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -99,6 +99,20 @@
       "last_attempt_at_utc": "2026-09-22T13:28:05.581755Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260922T132715Z_342f3211\n資料來源：CoinGecko＋公開現貨交易所\n\nSYN｜再次觸發\n觸發：24H_UP\n價格：US$0.24809408\n1H：-0.20%\n24H：+11.93%\n層級：T1\n4H RSI：59.12\n日線 RSI：87.11\n週線 RSI：59.75\n成交量：17.93×｜STRONG\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/synapse-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3ASYNUSDT\n\n僅為市場監控資料，不是投資訊號。"
+    },
+    "ntf_fdd5caf4092aaf40ac2d3580c22d0629": {
+      "notification_id": "ntf_fdd5caf4092aaf40ac2d3580c22d0629",
+      "run_id": "20260922T134150Z_760ed4d2",
+      "created_at_utc": "2026-09-22T13:42:30.075403Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 7,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260922T134150Z_760ed4d2\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜層級升高\n觸發：24H_DOWN\n價格：US$0.0036861718\n1H：+5.75%\n24H：-20.86%\n層級：T2\n4H RSI：59.32\n日線 RSI：97.17\n週線 RSI：74.35\n成交量：13.83×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AONEUSDT\n\nFTT｜再次觸發\n觸發：24H_DOWN\n價格：US$0.25415558\n1H：+0.12%\n24H：-11.92%\n層級：T1\n4H RSI：53.10\n日線 RSI：67.42\n週線 RSI：32.73\n成交量：56.86×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ftx-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AFTTUSDT\n\nPENGU｜再次觸發\n觸發：24H_UP\n價格：US$0.0091161102\n1H：+0.82%\n24H：+10.87%\n層級：T1\n4H RSI：73.70\n日線 RSI：62.45\n週線 RSI：48.91\n成交量：5.32×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pudgy-penguins\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APENGUUSDT\n\nLNQ｜再次觸發\n觸發：24H_UP\n價格：US$0.015271673\n1H：+0.39%\n24H：+10.33%\n層級：T1\n4H RSI：77.28\n日線 RSI：89.91\n週線 RSI：59.84\n成交量：4.56×｜STRONG\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/linqai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ALNQUSDT\n\n僅為市場監控資料，不是投資訊號。"
     }
   }
 }
