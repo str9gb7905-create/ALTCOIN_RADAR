@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20260923T140859Z_cdeabb93",
-  "updated_at": "2026-09-23T14:09:29.963197Z",
+  "last_run_id": "20260923T142656Z_5db17e6e",
+  "updated_at": "2026-09-23T14:27:29.671836Z",
   "assets": {
     "AGI": {
       "history_source": "Bybit",
@@ -164,7 +164,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-23T14:09:29.963197Z",
+      "last_seen_at": "2026-09-23T14:27:29.671836Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -847,7 +847,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-23T14:09:29.963197Z",
+      "last_seen_at": "2026-09-23T14:27:29.671836Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -943,7 +943,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-23T14:09:29.963197Z",
+      "last_seen_at": "2026-09-23T14:27:29.671836Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1078,7 +1078,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-23T14:09:29.963197Z",
+      "last_seen_at": "2026-09-23T14:27:29.671836Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1320,7 +1320,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-23T09:41:08.646463Z",
+      "last_seen_at": "2026-09-23T14:27:29.671836Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1335,7 +1335,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-23T14:09:29.963197Z",
+      "last_seen_at": "2026-09-23T14:27:29.671836Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1348,9 +1348,9 @@
     "AVA": {
       "coingecko_id": "ava-ai",
       "history_source": "KuCoin",
-      "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
+      "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-23T08:55:03.452741Z",
+      "last_seen_at": "2026-09-23T14:27:29.671836Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
