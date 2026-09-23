@@ -1,7 +1,7 @@
 {
-  "run_id": "20260923T003128Z_aa7dc22f",
-  "started_at_utc": "2026-09-23T00:31:28.707947Z",
-  "completed_at_utc": "2026-09-23T00:32:12.780238Z",
+  "run_id": "20260923T005348Z_fa67c65f",
+  "started_at_utc": "2026-09-23T00:53:48.848925Z",
+  "completed_at_utc": "2026-09-23T00:54:32.767992Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 165,
@@ -16,7 +16,7 @@
   "divergence_attempted": 9,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 44.072291,
+  "elapsed_seconds": 43.919068,
   "API_requests_total": 108,
   "requests_by_exchange": {
     "Binance": 4,
@@ -30,21 +30,21 @@
     "MEXC": 8,
     "OKX": 23
   },
-  "elapsed_stage_a": 0.354116,
-  "elapsed_radar_state": 0.012827,
-  "elapsed_stage_b": 25.584871,
-  "elapsed_divergence": 18.119146,
-  "elapsed_total": 44.072291,
+  "elapsed_stage_a": 0.383292,
+  "elapsed_radar_state": 0.010525,
+  "elapsed_stage_b": 23.424354,
+  "elapsed_divergence": 20.099616,
+  "elapsed_total": 43.919068,
   "asset_enrichment_seconds": {
-    "CHR": 1.99299,
-    "FLOCK": 0.641844,
-    "LSK": 3.361772,
-    "MERL": 3.982847,
-    "ONE": 1.869842,
-    "PENGU": 1.059482,
-    "QNT": 0.343695,
-    "TIA": 1.23788,
-    "UNI": 1.21341
+    "CHR": 1.933404,
+    "FLOCK": 0.630119,
+    "LSK": 1.85065,
+    "MERL": 4.578916,
+    "ONE": 1.859548,
+    "PENGU": 1.112175,
+    "QNT": 0.29364,
+    "TIA": 1.237531,
+    "UNI": 1.196394
   },
   "stale_lock_recovered": false
 }
