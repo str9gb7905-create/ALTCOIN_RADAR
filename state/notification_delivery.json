@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-24T21:38:32.338958Z",
+  "updated_at_utc": "2026-09-24T23:08:33.668112Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -407,6 +407,20 @@
       "last_attempt_at_utc": "2026-09-24T21:38:29.405377Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260924T213740Z_24e93a1d\n資料來源：CoinGecko＋公開現貨交易所\n\nXPL｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.11374694\n幅度級距：+20%\n區間異動：+22.75%\n基準價格：US$0.09266425\n24H：+26.04%\n4H RSI：66.41\n日線 RSI：51.52\n週線 RSI：46.92\n成交量：1.96×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/plasma\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AXPLUSD\n\nPEAQ｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.044588255\n幅度級距：+10%\n區間異動：+13.79%\n基準價格：US$0.039183464\n24H：+27.32%\n4H RSI：71.64\n日線 RSI：67.51\n週線 RSI：59.36\n成交量：3.30×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT\n\nQNT｜首次觸發\n觸發：由近24H低點上漲\n價格：US$88.087395\n幅度級距：+10%\n區間異動：+10.46%\n基準價格：US$79.746983\n24H：+23.77%\n4H RSI：83.84\n日線 RSI：61.95\n週線 RSI：52.89\n成交量：7.42×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD"
+    },
+    "ntf_9ffe20ce8f96565b7ae74643e2a64885": {
+      "notification_id": "ntf_9ffe20ce8f96565b7ae74643e2a64885",
+      "run_id": "20260924T230748Z_f885d866",
+      "created_at_utc": "2026-09-24T23:08:33.668095Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260924T230748Z_f885d866\n資料來源：CoinGecko＋公開現貨交易所\n\nXPL｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.11147065\n幅度級距：+20%\n區間異動：+20.30%\n基準價格：US$0.09266425\n24H：+23.95%\n4H RSI：66.41\n日線 RSI：51.52\n週線 RSI：46.92\n成交量：2.15×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/plasma\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AXPLUSD\n\nLSK｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.41386359\n幅度級距：-10%\n區間異動：-12.69%\n基準價格：US$0.47400932\n24H：+20.38%\n4H RSI：60.15\n日線 RSI：55.06\n週線 RSI：58.79\n成交量：4.79×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT"
     }
   }
 }
