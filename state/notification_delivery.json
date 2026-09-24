@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-24T21:38:27.075502Z",
+  "updated_at_utc": "2026-09-24T21:38:29.405392Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -398,13 +398,13 @@
       "notification_id": "ntf_9034a88a14585c8e0e84781ea8a21dc6",
       "run_id": "20260924T213740Z_24e93a1d",
       "created_at_utc": "2026-09-24T21:38:27.075486Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-24T21:38:29.405377Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260924T213740Z_24e93a1d\n資料來源：CoinGecko＋公開現貨交易所\n\nXPL｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.11374694\n幅度級距：+20%\n區間異動：+22.75%\n基準價格：US$0.09266425\n24H：+26.04%\n4H RSI：66.41\n日線 RSI：51.52\n週線 RSI：46.92\n成交量：1.96×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/plasma\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AXPLUSD\n\nPEAQ｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.044588255\n幅度級距：+10%\n區間異動：+13.79%\n基準價格：US$0.039183464\n24H：+27.32%\n4H RSI：71.64\n日線 RSI：67.51\n週線 RSI：59.36\n成交量：3.30×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT\n\nQNT｜首次觸發\n觸發：由近24H低點上漲\n價格：US$88.087395\n幅度級距：+10%\n區間異動：+10.46%\n基準價格：US$79.746983\n24H：+23.77%\n4H RSI：83.84\n日線 RSI：61.95\n週線 RSI：52.89\n成交量：7.42×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD"
     }
