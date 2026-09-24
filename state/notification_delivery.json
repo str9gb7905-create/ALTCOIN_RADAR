@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-24T17:08:38.115033Z",
+  "updated_at_utc": "2026-09-24T17:38:36.126907Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -295,6 +295,20 @@
       "last_attempt_at_utc": "2026-09-24T17:08:35.433181Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260924T170748Z_0f4a24a5\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00095831132\n幅度級距：-10%\n區間異動：-10.37%\n基準價格：US$0.00106918\n24H：+8.40%\n4H RSI：72.27\n日線 RSI：55.19\n週線 RSI：30.18\n成交量：6.69×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSDC"
+    },
+    "ntf_380a4280fcee055994912d2f3a2f2b83": {
+      "notification_id": "ntf_380a4280fcee055994912d2f3a2f2b83",
+      "run_id": "20260924T173751Z_d32e80d1",
+      "created_at_utc": "2026-09-24T17:38:36.126890Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260924T173751Z_d32e80d1\n資料來源：CoinGecko＋公開現貨交易所\n\nXAI｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0103642\n幅度級距：+20%\n區間異動：+28.44%\n基準價格：US$0.0080694672\n24H：+34.06%\n4H RSI：73.10\n日線 RSI：56.79\n週線 RSI：40.12\n成交量：15.05×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXAIUSDT"
     }
   }
 }
