@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-24T08:09:56.944786Z",
+  "updated_at_utc": "2026-09-24T15:28:16.918966Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -211,6 +211,20 @@
       "last_attempt_at_utc": "2026-09-24T08:09:54.717059Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260924T080916Z_6926c843\n資料來源：CoinGecko＋公開現貨交易所\n\nLSK｜首次觸發\n觸發：1H_UP\n價格：US$0.44303565\n1H：+13.44%\n24H：+43.31%\n層級：T1\n4H RSI：63.15\n日線 RSI：55.06\n週線 RSI：58.79\n成交量：2.41×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT\n\nFLOCK｜首次觸發\n觸發：1H_UP\n價格：US$0.077564684\n1H：+11.98%\n24H：-7.50%\n層級：T1\n4H RSI：53.75\n日線 RSI：58.04\n週線 RSI：56.22\n成交量：1.45×｜NORMAL\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/flock-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AFLOCKUSDT"
+    },
+    "ntf_0043f69b3b4e1857a36eafbb11566057": {
+      "notification_id": "ntf_0043f69b3b4e1857a36eafbb11566057",
+      "run_id": "20260924T152742Z_52a1bf90",
+      "created_at_utc": "2026-09-24T15:28:16.918946Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260924T152742Z_52a1bf90\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.0010160626\n幅度級距：+10%\n區間異動：+14.36%\n基準價格：US$0.00088846559\n24H：+15.12%\n4H RSI：47.77\n日線 RSI：55.19\n週線 RSI：30.18\n成交量：2.53×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD"
     }
   }
 }
