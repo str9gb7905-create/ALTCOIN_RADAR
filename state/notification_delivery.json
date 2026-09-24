@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-24T16:29:04.330482Z",
+  "updated_at_utc": "2026-09-24T16:56:00.232326Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -267,6 +267,20 @@
       "last_attempt_at_utc": "2026-09-24T16:29:00.531572Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260924T162807Z_07d0640a\n資料來源：CoinGecko＋公開現貨交易所\n\nXPL｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.10212095\n幅度級距：+10%\n區間異動：+10.21%\n基準價格：US$0.09266425\n24H：+17.63%\n4H RSI：62.23\n日線 RSI：51.49\n週線 RSI：32.04\n成交量：1.33×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/plasma\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AXPLUSDT"
+    },
+    "ntf_2883a0cc76fbd072a9f46fd0ceed8e7f": {
+      "notification_id": "ntf_2883a0cc76fbd072a9f46fd0ceed8e7f",
+      "run_id": "20260924T165515Z_a18722fc",
+      "created_at_utc": "2026-09-24T16:56:00.232308Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260924T165515Z_a18722fc\n資料來源：CoinGecko＋公開現貨交易所\n\nXAI｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.0090768029\n幅度級距：+10%\n區間異動：+12.48%\n基準價格：US$0.0080694672\n24H：+15.46%\n4H RSI：73.10\n日線 RSI：56.79\n週線 RSI：40.12\n成交量：10.74×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXAIUSDT"
     }
   }
 }
