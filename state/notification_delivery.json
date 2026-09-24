@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-24T01:09:21.232606Z",
+  "updated_at_utc": "2026-09-24T01:09:23.143562Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -174,13 +174,13 @@
       "notification_id": "ntf_53b41d40f44c234bbb7099f2f173b0d4",
       "run_id": "20260924T010809Z_362ba9f8",
       "created_at_utc": "2026-09-24T01:09:21.232587Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-24T01:09:23.143548Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260924T010809Z_362ba9f8\n資料來源：CoinGecko＋公開現貨交易所\n\nSTEEM｜首次觸發\n觸發：1H_UP\n價格：US$0.065793392\n1H：+11.12%\n24H：+9.95%\n層級：T1\n4H RSI：48.62\n日線 RSI：62.57\n週線 RSI：55.37\n成交量：2.04×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/steem\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTEEMUSDT"
     }
