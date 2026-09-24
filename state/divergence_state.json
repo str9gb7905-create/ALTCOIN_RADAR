@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20260924T115216Z_8f095ad7",
-  "updated_at": "2026-09-24T11:53:14.858471Z",
+  "last_run_id": "20260924T121032Z_c369f96e",
+  "updated_at": "2026-09-24T12:11:21.747078Z",
   "assets": {
     "AGI": {
       "history_source": "Bybit",
@@ -161,10 +161,10 @@
     },
     "ONE": {
       "coingecko_id": "harmony",
-      "history_source": "Binance",
+      "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-24T11:53:14.858471Z",
+      "last_seen_at": "2026-09-24T12:11:21.747078Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -485,7 +485,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-24T11:08:56.190215Z",
+      "last_seen_at": "2026-09-24T12:11:21.747078Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -657,10 +657,10 @@
     },
     "TIA": {
       "coingecko_id": "celestia",
-      "history_source": "Binance",
+      "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-24T11:53:14.858471Z",
+      "last_seen_at": "2026-09-24T12:11:21.747078Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -716,10 +716,10 @@
     },
     "WLD": {
       "coingecko_id": "worldcoin-wld",
-      "history_source": "Binance",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-24T11:53:14.858471Z",
+      "last_seen_at": "2026-09-24T12:11:21.747078Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -848,10 +848,10 @@
     },
     "CPOOL": {
       "coingecko_id": "clearpool",
-      "history_source": "Bybit",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-24T11:53:14.858471Z",
+      "last_seen_at": "2026-09-24T12:11:21.747078Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -866,14 +866,14 @@
             "pivots": [
               {
                 "timestamp": "2026-06-22",
-                "price": 0.0182,
-                "rsi": 33.25211205853954,
+                "price": 0.01818,
+                "rsi": 33.376946350630504,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-08-17",
-                "price": 0.01594,
-                "rsi": 38.01915153095786,
+                "price": 0.01591,
+                "rsi": 37.92131470118219,
                 "confirmed": true
               }
             ]
@@ -884,20 +884,20 @@
             "pivots": [
               {
                 "timestamp": "2026-02-23",
-                "price": 0.01873,
-                "rsi": 28.882023489752427,
+                "price": 0.01848,
+                "rsi": 28.999470010974335,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-06-22",
-                "price": 0.0182,
-                "rsi": 33.25211205853954,
+                "price": 0.01818,
+                "rsi": 33.376946350630504,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-08-17",
-                "price": 0.01594,
-                "rsi": 38.01915153095786,
+                "price": 0.01591,
+                "rsi": 37.92131470118219,
                 "confirmed": true
               }
             ]
@@ -975,7 +975,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-24T11:53:14.858471Z",
+      "last_seen_at": "2026-09-24T12:11:21.747078Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1002,10 +1002,10 @@
     },
     "ZEN": {
       "coingecko_id": "zencash",
-      "history_source": "Binance",
+      "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-24T11:53:14.858471Z",
+      "last_seen_at": "2026-09-24T12:11:21.747078Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1206,10 +1206,10 @@
     },
     "IOTX": {
       "coingecko_id": "iotex",
-      "history_source": "Binance",
+      "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-24T11:53:14.858471Z",
+      "last_seen_at": "2026-09-24T12:11:21.747078Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1347,10 +1347,10 @@
     },
     "LSK": {
       "coingecko_id": "lisk",
-      "history_source": "Binance",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-24T11:53:14.858471Z",
+      "last_seen_at": "2026-09-24T12:11:21.747078Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1515,10 +1515,10 @@
     },
     "MERL": {
       "coingecko_id": "merlin-chain",
-      "history_source": "Bybit",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-24T11:53:14.858471Z",
+      "last_seen_at": "2026-09-24T12:11:21.747078Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2393,35 +2393,16 @@
     },
     "CVC": {
       "coingecko_id": "civic",
-      "history_source": "Binance",
+      "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-24T11:53:14.858471Z",
+      "last_seen_at": "2026-09-24T12:11:21.747078Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
       },
       "weekly": {
-        "active_signals": [
-          {
-            "type": "WEEKLY_BULLISH",
-            "signature": "CVC|1W|BULLISH|2026-06-22|2026-08-17",
-            "pivots": [
-              {
-                "timestamp": "2026-06-22",
-                "price": 0.01902,
-                "rsi": 26.55153802336396,
-                "confirmed": true
-              },
-              {
-                "timestamp": "2026-08-17",
-                "price": 0.01629,
-                "rsi": 34.75081551068486,
-                "confirmed": true
-              }
-            ]
-          }
-        ],
+        "active_signals": [],
         "seen_signatures": [
           "CVC|1W|BULLISH|2026-06-22|2026-08-17"
         ]
