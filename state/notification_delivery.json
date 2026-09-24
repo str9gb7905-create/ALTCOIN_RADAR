@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-24T17:38:41.389825Z",
+  "updated_at_utc": "2026-09-24T17:51:58.448960Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -309,6 +309,20 @@
       "last_attempt_at_utc": "2026-09-24T17:38:38.073027Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260924T173751Z_d32e80d1\n資料來源：CoinGecko＋公開現貨交易所\n\nXAI｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0103642\n幅度級距：+20%\n區間異動：+28.44%\n基準價格：US$0.0080694672\n24H：+34.06%\n4H RSI：73.10\n日線 RSI：56.79\n週線 RSI：40.12\n成交量：15.05×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXAIUSDT"
+    },
+    "ntf_1f18d23c9171e7e0e9acf18c86a937ae": {
+      "notification_id": "ntf_1f18d23c9171e7e0e9acf18c86a937ae",
+      "run_id": "20260924T175105Z_8eeb2292",
+      "created_at_utc": "2026-09-24T17:51:58.448945Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260924T175105Z_8eeb2292\n資料來源：CoinGecko＋公開現貨交易所\n\nXAI｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.011932837\n幅度級距：+40%\n區間異動：+47.88%\n基準價格：US$0.0080694672\n24H：+50.12%\n4H RSI：73.10\n日線 RSI：56.79\n週線 RSI：40.12\n成交量：20.82×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXAIUSDT\n\nPIXEL｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.0059504689\n幅度級距：+10%\n區間異動：+10.80%\n基準價格：US$0.0053704879\n24H：+11.23%\n4H RSI：60.24\n日線 RSI：63.26\n週線 RSI：40.42\n成交量：3.72×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pixels\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3APIXELUSDT"
     }
   }
 }
