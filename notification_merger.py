@@ -112,10 +112,10 @@ def _selected_events(price_payload, technical_payload, divergence_payload, polic
     }
     price = [item for item in price_payload.get("assets", [])
              if isinstance(item, dict) and item.get("event") in PRICE_EVENTS
-             and isinstance(item.get("change_1h"), (int, float))
-             and not isinstance(item.get("change_1h"), bool)
-             and abs(item["change_1h"]) >= THRESHOLD_PERCENT
-             and any(condition in {"1H_UP", "1H_DOWN"}
+             and isinstance(item.get("change_pct"), (int, float))
+             and not isinstance(item.get("change_pct"), bool)
+             and abs(item["change_pct"]) >= THRESHOLD_PERCENT
+             and any(condition in {"FROM_24H_LOW_UP", "FROM_24H_HIGH_DOWN"}
                      for condition in item.get("active_conditions", []))
              and str(item.get("symbol", "")).upper() not in exclusions]
     price_symbols = {str(item.get("symbol", "")).upper() for item in price}
@@ -192,15 +192,23 @@ def _tradingview_url(asset: dict[str, Any] | None, symbol: str) -> str:
 
 def _item_lines(item: dict[str, Any]) -> list[str]:
     event_labels = [EVENT_LABELS.get(event, event) for event in item["price_events"]]
-    conditions = ", ".join(item["active_conditions"]) or "N/A"
+    condition_labels = {
+        "FROM_24H_LOW_UP": "由近24H低點上漲",
+        "FROM_24H_HIGH_DOWN": "由近24H高點下跌",
+    }
+    conditions = ", ".join(
+        condition_labels.get(value, value) for value in item["active_conditions"]
+    ) or "N/A"
+    signed_level = item["trigger_level"] * (1 if item["change_pct"] >= 0 else -1)
     return [
         "",
         f"{item['symbol']}｜{'／'.join(event_labels)}",
         f"觸發：{conditions}",
         f"價格：US${_format_price(item['price'])}",
-        f"1H：{_format_percent(item['change_1h'])}",
+        f"幅度級距：{signed_level:+d}%",
+        f"區間異動：{_format_percent(item['change_pct'])}",
+        f"基準價格：US${_format_price(item['reference_price'])}",
         f"24H：{_format_percent(item['change_24h'])}",
-        f"層級：{item['severity_tier']}",
         f"4H RSI：{_format_value(item['rsi_4h'])}",
         f"日線 RSI：{_format_value(item['rsi_1d'])}",
         f"週線 RSI：{_format_value(item['rsi_1w'])}",
@@ -294,7 +302,11 @@ def merge_payloads(price_payload, technical_events_payload, divergence_events_pa
             "technical_events": [str(item["event"]) for item in events["technical"]],
             "divergence_events": [str(item["event"]) for item in events["divergence"]],
             "price": source.get("price", market.get("current_price")),
-            "change_1h": source.get("change_1h", market.get("price_change_percentage_1h")),
+            "change_pct": price_event.get("change_pct"),
+            "trigger_level": int(price_event.get("threshold_level", 0) or 0),
+            "reference_price": price_event.get("reference_price"),
+            "reference_time": price_event.get("reference_time"),
+            "coingecko_change_1h": market.get("price_change_percentage_1h"),
             "change_24h": source.get("change_24h", market.get("price_change_percentage_24h")),
             "rsi_4h": technical.get("rsi_4h") if technical else None,
             "rsi_1d": technical.get("rsi_1d") if technical else None,

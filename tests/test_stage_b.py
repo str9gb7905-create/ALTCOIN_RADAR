@@ -321,6 +321,32 @@ class StageBWorkflowTests(unittest.TestCase):
             self.assertEqual("new-c0", state["assets"]["C0"]["coingecko_id"])
             self.assertNotIn("REMOVED", state["assets"])
 
+    def test_recent_range_only_trigger_is_enriched(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            paths = self._paths(root)
+            self._base_documents(paths)
+            radar = json.loads(paths["radar_state_path"].read_text(encoding="utf-8"))
+            radar["assets"]["C0"].update(
+                {
+                    "active": False,
+                    "notification_move": {"active": True, "change_pct": 12.5},
+                }
+            )
+            radar["assets"]["C1"].update(
+                {"active": False, "notification_move": {"active": False}}
+            )
+            self._write_json(paths["radar_state_path"], radar)
+
+            summary = run_stage_b(
+                bootstrap=True, adapters_override=[FakeAdapter("Fake")], **paths
+            )
+            output = json.loads(paths["stage_b_path"].read_text(encoding="utf-8"))
+
+            self.assertEqual(1, summary["active"])
+            self.assertEqual(["C0"], [item["symbol"] for item in output["assets"]])
+            self.assertEqual(12.5, output["assets"][0]["trigger_change_pct"])
+
 
 if __name__ == "__main__":
     unittest.main()

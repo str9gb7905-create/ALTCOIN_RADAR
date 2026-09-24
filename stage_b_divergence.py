@@ -507,7 +507,10 @@ def run_divergence(
         return skipped("Excluded history source adapter detected", output_path, events_path)
 
     active = {
-        symbol: value for symbol, value in radar_state["assets"].items() if value.get("active") is True
+        symbol: value
+        for symbol, value in radar_state["assets"].items()
+        if value.get("active") is True
+        or (value.get("notification_move") or {}).get("active") is True
     }
     canonical_symbols = set(radar_state["assets"])
     baseline_symbols = {

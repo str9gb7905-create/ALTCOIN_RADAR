@@ -52,8 +52,9 @@ def inputs(*, price=None, technical=None, divergence=None):
 
 def ready_payload():
     return merge_payloads(*inputs(
-        price=[{"symbol": "AAA", "event": "NEW_TRIGGER", "change_1h": 12.0,
-                "active_conditions": ["1H_UP"]}],
+        price=[{"symbol": "AAA", "event": "NEW_TRIGGER", "change_pct": 12.0,
+                "threshold_level": 10, "reference_price": 1.0,
+                "active_conditions": ["FROM_24H_LOW_UP"]}],
         technical=[{"symbol": "AAA", "event": "VOLUME_STRONG_NEW", "notify": True}],
         divergence=[{"symbol": "AAA", "event": "DIVERGENCE_NEW", "timeframe": "daily"}],
     ))
@@ -138,8 +139,9 @@ class NotificationDeliveryTests(unittest.TestCase):
 
     def test_mainstream_price_event_is_excluded_from_immediate_notification(self):
         merged = merge_payloads(*inputs(
-            price=[{"symbol": "BTC", "event": "NEW_TRIGGER", "change_1h": 12.0,
-                    "active_conditions": ["1H_UP"]}]
+            price=[{"symbol": "BTC", "event": "NEW_TRIGGER", "change_pct": 12.0,
+                    "threshold_level": 10, "reference_price": 1.0,
+                    "active_conditions": ["FROM_24H_LOW_UP"]}]
         ))
         self.assertEqual(merged["status"], "NO_NOTIFICATION")
 
@@ -172,6 +174,21 @@ class NotificationDeliveryTests(unittest.TestCase):
             merged["message"],
         )
 
+    def test_message_uses_recent_range_event_change_not_coingecko_change(self):
+        payloads = list(inputs(
+            price=[{
+                "symbol": "AAA", "event": "NEW_TRIGGER", "change_pct": 12.11,
+                "threshold_level": 10, "reference_price": 1.0,
+                "active_conditions": ["FROM_24H_LOW_UP"],
+            }]
+        ))
+        payloads[3]["assets"][0]["price_change_percentage_1h"] = 7.90
+        payloads[4]["assets"][0]["change_1h"] = 7.90
+        merged = merge_payloads(*payloads)
+        self.assertIn("幅度級距：+10%", merged["message"])
+        self.assertIn("區間異動：+12.11%", merged["message"])
+        self.assertNotIn("區間異動：+7.90%", merged["message"])
+
     def test_broad_market_move_keeps_every_symbol_within_telegram_limit(self):
         payloads = list(inputs())
         price_assets = []
@@ -181,11 +198,13 @@ class NotificationDeliveryTests(unittest.TestCase):
             price_assets.append({
                 "symbol": symbol,
                 "event": "NEW_TRIGGER",
-                "change_1h": -11.0,
+                "change_pct": -11.0,
+                "threshold_level": 10,
+                "reference_price": 1.2,
                 "change_24h": -20.0 - index,
                 "abnormality_score": 20.0 + index,
                 "severity_tier": "T2",
-                "active_conditions": ["1H_DOWN"],
+                "active_conditions": ["FROM_24H_HIGH_DOWN"],
             })
             snapshot_assets.append({
                 "symbol": symbol,

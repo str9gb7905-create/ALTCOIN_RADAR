@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -37,6 +38,9 @@ FLAG_CONDITIONS = (
     ("trigger_24h_up", "24H_UP"),
     ("trigger_24h_down", "24H_DOWN"),
 )
+RANGE_24H_METHOD = "RANGE_24H_EXTREMA"
+PRICE_HISTORY_RETENTION_SECONDS = 24 * 60 * 60
+MAX_TRIGGER_LEVEL_PERCENT = 1000
 
 
 def read_json(path: Path) -> Any:
@@ -46,6 +50,91 @@ def read_json(path: Path) -> Any:
 
 def numeric(value: Any) -> float | int | None:
     return value if isinstance(value, (int, float)) and not isinstance(value, bool) else None
+
+
+def parse_utc_timestamp(value: Any) -> datetime | None:
+    if not isinstance(value, str) or not value:
+        return None
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def update_price_history(
+    previous: dict[str, Any] | None,
+    price: Any,
+    sample_time: str,
+) -> list[dict[str, Any]]:
+    """Append one scan price and retain the latest 24 hours of 15-minute samples."""
+    current_price = numeric(price)
+    current_time = parse_utc_timestamp(sample_time)
+    if current_price is None or current_price <= 0 or current_time is None:
+        return list((previous or {}).get("price_history", []))
+
+    samples_by_time: dict[str, dict[str, Any]] = {}
+    for item in (previous or {}).get("price_history", []):
+        if not isinstance(item, dict):
+            continue
+        item_time = parse_utc_timestamp(item.get("timestamp"))
+        item_price = numeric(item.get("price"))
+        if item_time is None or item_price is None or item_price <= 0:
+            continue
+        age = (current_time - item_time).total_seconds()
+        if 0 <= age <= PRICE_HISTORY_RETENTION_SECONDS:
+            normalized = item_time.isoformat().replace("+00:00", "Z")
+            samples_by_time[normalized] = {"timestamp": normalized, "price": item_price}
+
+    normalized_time = current_time.isoformat().replace("+00:00", "Z")
+    samples_by_time[normalized_time] = {"timestamp": normalized_time, "price": current_price}
+    return sorted(samples_by_time.values(), key=lambda item: item["timestamp"])
+
+
+def extrema_price_move(
+    history: list[dict[str, Any]], previous_direction: str | None = None
+) -> dict[str, Any]:
+    """Measure the current price from the recent low and high, selecting the larger move."""
+    if not history:
+        return {
+            "change_pct": None,
+            "direction": "NONE",
+            "reference_price": None,
+            "reference_time": None,
+            "recent_high": None,
+            "recent_low": None,
+        }
+
+    current = history[-1]
+    current_price = float(current["price"])
+    recent_low = min(history, key=lambda item: (float(item["price"]), item["timestamp"]))
+    recent_high = max(history, key=lambda item: (float(item["price"]), item["timestamp"]))
+    up_change = (current_price / float(recent_low["price"]) - 1.0) * 100.0
+    down_change = (current_price / float(recent_high["price"]) - 1.0) * 100.0
+
+    if abs(up_change) == abs(down_change) and previous_direction in {"UP", "DOWN"}:
+        direction = previous_direction
+    else:
+        direction = "UP" if abs(up_change) >= abs(down_change) else "DOWN"
+    change = up_change if direction == "UP" else down_change
+    reference = recent_low if direction == "UP" else recent_high
+    return {
+        "change_pct": change,
+        "direction": direction,
+        "reference_price": reference["price"],
+        "reference_time": reference["timestamp"],
+        "recent_high": recent_high["price"],
+        "recent_low": recent_low["price"],
+    }
+
+
+def trigger_level(change_pct: Any) -> int:
+    value = numeric(change_pct)
+    if value is None or abs(float(value)) < 10:
+        return 0
+    return min(int(abs(float(value)) // 10) * 10, MAX_TRIGGER_LEVEL_PERCENT)
 
 
 def abnormality_score(change_1h: Any, change_24h: Any) -> float:
@@ -129,19 +218,58 @@ def signal_from_outputs(snapshot: dict[str, Any], trigger: dict[str, Any] | None
 
 
 def one_hour_signal(current: dict[str, Any]) -> dict[str, Any]:
-    """Track notification episodes independently of the broader 1H/24H radar."""
-    signal = signal_from_changes(
-        current["symbol"], numeric(current.get("change_1h")), None, current.get("price")
+    """Build the notification signal; production uses the recent 24-hour range."""
+    range_mode = "trigger_change_pct" in current
+    change_1h = numeric(
+        current.get("trigger_change_pct") if range_mode else current.get("change_1h")
     )
+    if range_mode:
+        level = trigger_level(change_1h)
+        direction = current.get("trigger_direction") if level else "NONE"
+        condition = {
+            "UP": "FROM_24H_LOW_UP",
+            "DOWN": "FROM_24H_HIGH_DOWN",
+        }.get(direction)
+        signal = {
+            "symbol": current["symbol"],
+            "active": level > 0 and condition is not None,
+            "direction": direction,
+            "severity_tier": severity_tier(abs(float(change_1h or 0))),
+            "abnormality_score": abs(float(change_1h or 0)),
+            "active_conditions": [condition] if condition else [],
+            "price": current.get("price"),
+            "change_1h": change_1h,
+            "change_24h": None,
+            "change_pct": change_1h,
+            "threshold_level": level,
+        }
+    else:
+        signal = signal_from_changes(
+            current["symbol"], change_1h, None, current.get("price")
+        )
+        signal["threshold_level"] = trigger_level(change_1h)
     signal["coingecko_id"] = current.get("coingecko_id")
+    signal["calculation_method"] = RANGE_24H_METHOD if range_mode else "SOURCE_1H"
+    signal["reference_price"] = current.get("trigger_reference_price")
+    signal["reference_time"] = current.get("trigger_reference_time")
+    signal["window_end_time"] = current.get("trigger_current_time")
     return signal
 
 
-def previous_one_hour_state(previous: dict[str, Any] | None, symbol: str) -> dict[str, Any] | None:
+def previous_one_hour_state(
+    previous: dict[str, Any] | None,
+    symbol: str,
+    calculation_method: str,
+    state_key: str = "notification_1h",
+) -> dict[str, Any] | None:
     if previous is None:
         return None
-    existing = previous.get("notification_1h")
+    existing = previous.get(state_key)
     if isinstance(existing, dict) and isinstance(existing.get("active"), bool):
+        if calculation_method == RANGE_24H_METHOD and existing.get(
+            "calculation_method"
+        ) != RANGE_24H_METHOD:
+            return None
         return existing
     # Migrate the already-persisted combined state without repeating an active 1H alert.
     legacy = one_hour_signal({"symbol": symbol, **previous})
@@ -164,6 +292,10 @@ def classify_event(previous: dict[str, Any] | None, current: dict[str, Any]) -> 
 
     if previous.get("direction") != current["direction"]:
         return "DIRECTION_CHANGE"
+    previous_level = int(previous.get("threshold_level", 0) or 0)
+    current_level = int(current.get("threshold_level", 0) or 0)
+    if current_level > previous_level:
+        return "ESCALATION"
     previous_rank = TIER_RANK.get(previous.get("severity_tier"), -1)
     current_rank = TIER_RANK[current["severity_tier"]]
     if current_rank > previous_rank:
@@ -218,6 +350,18 @@ def build_state_entry(
         "last_exit_at": last_exit_at,
         "last_event": "NONE" if bootstrap else event,
         "baseline_required": bootstrap,
+        **{
+            key: current.get(key)
+            for key in (
+                "calculation_method",
+                "reference_price",
+                "reference_time",
+                "window_end_time",
+                "change_pct",
+                "threshold_level",
+            )
+            if key in current
+        },
     }
 
 
@@ -264,11 +408,21 @@ def evaluate_transition(
     if event not in EVENT_TYPES:
         raise ValueError(f"unsupported event: {event}")
     state_entry = build_state_entry(previous, current, event, timestamp)
-    previous_alert = previous_one_hour_state(previous, current["symbol"])
     current_alert = one_hour_signal(current)
+    alert_state_key = (
+        "notification_move"
+        if current_alert["calculation_method"] == RANGE_24H_METHOD
+        else "notification_1h"
+    )
+    previous_alert = previous_one_hour_state(
+        previous,
+        current["symbol"],
+        current_alert["calculation_method"],
+        alert_state_key,
+    )
     alert_event = classify_event(previous_alert, current_alert)
     alert_state = build_state_entry(previous_alert, current_alert, alert_event, timestamp)
-    state_entry["notification_1h"] = alert_state
+    state_entry[alert_state_key] = alert_state
     event_record = {
         "symbol": current["symbol"],
         "event": event,
@@ -287,13 +441,20 @@ def evaluate_transition(
             "symbol": current["symbol"],
             "event": alert_event,
             "price": current["price"],
-            "change_1h": current["change_1h"],
+            "change_1h": current_alert["change_1h"],
+            "change_pct": current_alert.get("change_pct", current_alert["change_1h"]),
+            "coingecko_change_1h": current.get("coingecko_change_1h"),
             "change_24h": current["change_24h"],
             "abnormality_score": current_alert["abnormality_score"],
             "severity_tier": current_alert["severity_tier"],
             "direction": current_alert["direction"],
             "active_conditions": current_alert["active_conditions"],
             "episode_id": alert_state["episode_id"],
+            "calculation_method": current_alert["calculation_method"],
+            "threshold_level": current_alert.get("threshold_level", 0),
+            "reference_price": current_alert.get("reference_price"),
+            "reference_time": current_alert.get("reference_time"),
+            "window_end_time": current_alert.get("window_end_time"),
         }
     state_entry["last_notified_at"] = (
         timestamp if candidate is not None else previous.get("last_notified_at") if previous else None
@@ -432,6 +593,7 @@ def run_state_update(
             )
 
     timestamp = utc_now()
+    sample_timestamp = snapshot["generated_at"]
     trigger_map = {item["symbol"]: item for item in triggers["items"]}
     next_assets: dict[str, dict[str, Any]] = {}
     events: list[dict[str, Any]] = []
@@ -445,12 +607,33 @@ def run_state_update(
         selective_baseline = identity_requires_baseline(
             symbol, previous, current.get("coingecko_id"), identity_migrations
         )
+        history_source = None if selective_baseline else previous
+        price_history = update_price_history(
+            history_source, current.get("price"), sample_timestamp
+        )
+        previous_move = (previous or {}).get("notification_move") or {}
+        price_move = extrema_price_move(
+            price_history, previous_move.get("direction")
+        )
+        current["coingecko_change_1h"] = current.get("change_1h")
+        current["trigger_change_pct"] = price_move["change_pct"]
+        current["trigger_direction"] = price_move["direction"]
+        current["trigger_reference_price"] = price_move["reference_price"]
+        current["trigger_reference_time"] = price_move["reference_time"]
+        current["trigger_current_time"] = sample_timestamp
         if bootstrap or selective_baseline:
             next_assets[symbol] = build_state_entry(
                 None, current, "NONE", timestamp, bootstrap=True
             )
-            next_assets[symbol]["notification_1h"] = build_state_entry(
+            next_assets[symbol]["notification_move"] = build_state_entry(
                 None, one_hour_signal(current), "NONE", timestamp, bootstrap=True
+            )
+            next_assets[symbol]["price_history"] = price_history
+            next_assets[symbol]["trigger_change_pct"] = price_move["change_pct"]
+            next_assets[symbol]["recent_high"] = price_move["recent_high"]
+            next_assets[symbol]["recent_low"] = price_move["recent_low"]
+            next_assets[symbol]["coingecko_change_1h"] = current.get(
+                "coingecko_change_1h"
             )
             baselined_symbols.append(symbol)
             continue
@@ -458,6 +641,11 @@ def run_state_update(
             previous, current, timestamp
         )
         next_state["baseline_required"] = False
+        next_state["price_history"] = price_history
+        next_state["trigger_change_pct"] = price_move["change_pct"]
+        next_state["recent_high"] = price_move["recent_high"]
+        next_state["recent_low"] = price_move["recent_low"]
+        next_state["coingecko_change_1h"] = current.get("coingecko_change_1h")
         next_assets[symbol] = next_state
         events.append(event_record)
         if candidate is not None:

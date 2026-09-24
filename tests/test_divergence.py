@@ -286,6 +286,29 @@ class DivergenceWorkflowTests(unittest.TestCase):
             self.assertEqual("new-aaa", state["assets"]["AAA"]["coingecko_id"])
             self.assertNotIn("REMOVED", state["assets"])
 
+    def test_recent_range_only_trigger_is_analyzed_for_divergence(self):
+        with tempfile.TemporaryDirectory() as directory:
+            paths = self._paths(Path(directory))
+            self._documents(paths)
+            radar = json.loads(paths["radar_state_path"].read_text(encoding="utf-8"))
+            radar["assets"]["AAA"] = {
+                "active": False,
+                "notification_move": {"active": True, "change_pct": 12.5},
+            }
+            radar["assets"]["BBB"] = {
+                "active": False,
+                "notification_move": {"active": False},
+            }
+            self._write(paths["radar_state_path"], radar)
+
+            summary = run_divergence(
+                bootstrap=True, adapters_override=[FakeHistoryAdapter()], **paths
+            )
+            output = json.loads(paths["output_path"].read_text(encoding="utf-8"))
+
+            self.assertEqual(1, summary["active"])
+            self.assertEqual(["AAA"], [item["symbol"] for item in output["assets"]])
+
 
 if __name__ == "__main__":
     unittest.main()

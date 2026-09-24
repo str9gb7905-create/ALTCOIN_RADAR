@@ -5,8 +5,11 @@ from pathlib import Path
 
 from radar_state import (
     evaluate_transition,
+    extrema_price_move,
+    one_hour_signal,
     run_state_update,
     signal_from_changes,
+    update_price_history,
 )
 
 
@@ -126,6 +129,98 @@ class RadarStateTransitionTests(unittest.TestCase):
         self.assertIsNone(candidate)
         self.assertTrue(state["notification_1h"]["active"])
 
+    def test_recent_range_uses_low_as_upward_reference(self):
+        previous = {
+            "price_history": [
+                {"timestamp": "2026-09-23T07:54:00Z", "price": 0.00280},
+                {"timestamp": "2026-09-23T08:09:00Z", "price": 0.002823264084782347},
+                {"timestamp": "2026-09-23T08:24:00Z", "price": 0.00290},
+            ]
+        }
+        history = update_price_history(
+            previous, 0.003165022183509337, "2026-09-23T09:09:00Z"
+        )
+        move = extrema_price_move(history)
+        self.assertEqual("UP", move["direction"])
+        self.assertEqual("2026-09-23T07:54:00Z", move["reference_time"])
+        self.assertAlmostEqual(13.036506, move["change_pct"], places=5)
+        self.assertEqual(4, len(history))
+
+    def test_recent_range_starts_at_zero_with_one_sample(self):
+        history = update_price_history(
+            None, 1.0, "2026-09-23T09:09:00Z"
+        )
+        move = extrema_price_move(history)
+        self.assertEqual(1, len(history))
+        self.assertEqual(0.0, move["change_pct"])
+        signal = one_hour_signal({
+            "symbol": "AAA", "price": 1.0,
+            "trigger_change_pct": move["change_pct"],
+            "trigger_direction": move["direction"],
+        })
+        self.assertFalse(signal["active"])
+        self.assertEqual("NONE", signal["direction"])
+
+    def test_five_percent_then_six_percent_more_triggers_negative_ten_level(self):
+        history = update_price_history(None, 100.0, "2026-09-23T00:00:00Z")
+        history = update_price_history(
+            {"price_history": history}, 95.0, "2026-09-23T01:00:00Z"
+        )
+        first_move = extrema_price_move(history)
+        first_signal = one_hour_signal({
+            "symbol": "AAA", "price": 95.0,
+            "trigger_change_pct": first_move["change_pct"],
+            "trigger_direction": first_move["direction"],
+        })
+        self.assertFalse(first_signal["active"])
+
+        history = update_price_history(
+            {"price_history": history}, 89.3, "2026-09-23T02:00:00Z"
+        )
+        second_move = extrema_price_move(history)
+        second_signal = one_hour_signal({
+            "symbol": "AAA", "price": 89.3,
+            "trigger_change_pct": second_move["change_pct"],
+            "trigger_direction": second_move["direction"],
+        })
+        self.assertAlmostEqual(-10.7, second_move["change_pct"], places=6)
+        self.assertTrue(second_signal["active"])
+        self.assertEqual(10, second_signal["threshold_level"])
+        self.assertEqual(["FROM_24H_HIGH_DOWN"], second_signal["active_conditions"])
+
+    def test_each_new_ten_percent_level_escalates_without_same_level_repeat(self):
+        first = signal_from_changes("AAA", 0, 0, price=1.35)
+        first.update({
+            "trigger_change_pct": 35.0,
+            "trigger_direction": "UP",
+            "trigger_reference_price": 1.0,
+        })
+        state, _, candidate = evaluate_transition(None, first, NOW)
+        self.assertEqual("NEW_TRIGGER", candidate["event"])
+        self.assertEqual(30, candidate["threshold_level"])
+
+        same_level = signal_from_changes("AAA", 0, 0, price=1.39)
+        same_level.update({"trigger_change_pct": 39.0, "trigger_direction": "UP"})
+        state, _, candidate = evaluate_transition(state, same_level, NOW)
+        self.assertIsNone(candidate)
+
+        next_level = signal_from_changes("AAA", 0, 0, price=1.41)
+        next_level.update({"trigger_change_pct": 41.0, "trigger_direction": "UP"})
+        _, _, candidate = evaluate_transition(state, next_level, NOW)
+        self.assertEqual("ESCALATION", candidate["event"])
+        self.assertEqual(40, candidate["threshold_level"])
+
+    def test_price_history_drops_samples_older_than_twenty_four_hours(self):
+        previous = {
+            "price_history": [
+                {"timestamp": "2026-09-21T23:59:00Z", "price": 50.0},
+                {"timestamp": "2026-09-22T12:00:00Z", "price": 90.0},
+            ]
+        }
+        history = update_price_history(previous, 100.0, "2026-09-23T00:00:00Z")
+        self.assertEqual(2, len(history))
+        self.assertNotIn(50.0, [item["price"] for item in history])
+
 
 class RadarStateFileSafetyTests(unittest.TestCase):
     def _paths(self, root):
@@ -138,13 +233,16 @@ class RadarStateFileSafetyTests(unittest.TestCase):
             "notifications_path": root / "notifications.json",
         }
 
-    def test_existing_24h_state_does_not_hide_new_1h_alert(self):
+    def test_existing_24h_state_does_not_hide_new_recent_range_alert(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             paths = self._paths(root)
             previous = active_state(change_1h=0, change_24h=12)
             previous["coingecko_id"] = "aaa-token"
             previous.pop("notification_1h")  # Existing persisted state before the rule change.
+            previous["price_history"] = [
+                {"timestamp": "2026-09-21T23:00:00Z", "price": 1.0}
+            ]
             paths["state_path"].write_text(
                 json.dumps({"schema_version": 1, "assets": {"AAA": previous}}),
                 encoding="utf-8",
@@ -153,7 +251,7 @@ class RadarStateFileSafetyTests(unittest.TestCase):
             run_id = "first_1h_signal"
             snapshot = {
                 "symbol": "AAA", "coingecko_id": "aaa-token", "current_price": 1.25,
-                "price_change_percentage_1h": 11, "price_change_percentage_24h": 12,
+                "price_change_percentage_1h": 7.8, "price_change_percentage_24h": 12,
             }
             documents = {
                 paths["scan_status_path"]: {
@@ -181,8 +279,14 @@ class RadarStateFileSafetyTests(unittest.TestCase):
             self.assertEqual(0, summary["exit_code"])
             self.assertEqual(1, summary["notification_candidates"])
             self.assertEqual("NEW_TRIGGER", notifications["assets"][0]["event"])
-            self.assertEqual(["1H_UP"], notifications["assets"][0]["active_conditions"])
-            self.assertTrue(state["assets"]["AAA"]["notification_1h"]["active"])
+            self.assertEqual(
+                ["FROM_24H_LOW_UP"], notifications["assets"][0]["active_conditions"]
+            )
+            self.assertEqual(25.0, notifications["assets"][0]["change_1h"])
+            self.assertEqual(25.0, notifications["assets"][0]["change_pct"])
+            self.assertEqual(7.8, notifications["assets"][0]["coingecko_change_1h"])
+            self.assertEqual("RANGE_24H_EXTREMA", notifications["assets"][0]["calculation_method"])
+            self.assertTrue(state["assets"]["AAA"]["notification_move"]["active"])
 
     def test_case_8_incomplete_scan_does_not_modify_state_or_create_exit(self):
         with tempfile.TemporaryDirectory() as directory:

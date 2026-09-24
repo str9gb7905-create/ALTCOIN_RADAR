@@ -39,6 +39,13 @@ TECHNICAL_NOTIFICATION_EVENTS = {
 VOLUME_RANK = {"DATA_INSUFFICIENT": -1, "WEAK": 0, "NORMAL": 1, "ELEVATED": 2, "STRONG": 3}
 
 
+def trigger_change_pct(radar_entry: dict[str, Any]) -> float | int | None:
+    value = (radar_entry.get("notification_move") or {}).get("change_pct")
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        return value
+    return None
+
+
 def wilder_rsi(closes: list[float], period: int = 14) -> float | None:
     if len(closes) < period + 1:
         return None
@@ -356,6 +363,7 @@ def enrich_asset(
         "symbol": symbol,
         "price": snapshot.get("current_price"),
         "change_1h": snapshot.get("price_change_percentage_1h"),
+        "trigger_change_pct": trigger_change_pct(radar_entry),
         "change_24h": change_24h,
         "range_24h_pct": snapshot.get("range_24h_pct"),
         "turnover_ratio": snapshot.get("turnover_ratio"),
@@ -489,7 +497,10 @@ def run_stage_b(
             return skipped_outputs(str(exc), stage_b_path, events_path)
 
     active_entries = {
-        symbol: entry for symbol, entry in radar_state["assets"].items() if entry.get("active") is True
+        symbol: entry
+        for symbol, entry in radar_state["assets"].items()
+        if entry.get("active") is True
+        or (entry.get("notification_move") or {}).get("active") is True
     }
     canonical_symbols = set(radar_state["assets"])
     baseline_symbols = {
@@ -553,6 +564,7 @@ def run_stage_b(
                 "symbol": symbol,
                 "price": snapshot_map[symbol].get("current_price"),
                 "change_1h": snapshot_map[symbol].get("price_change_percentage_1h"),
+                "trigger_change_pct": trigger_change_pct(radar_entry),
                 "change_24h": snapshot_map[symbol].get("price_change_percentage_24h"),
                 "range_24h_pct": snapshot_map[symbol].get("range_24h_pct"),
                 "turnover_ratio": snapshot_map[symbol].get("turnover_ratio"),
