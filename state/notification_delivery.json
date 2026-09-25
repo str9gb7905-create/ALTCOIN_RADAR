@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-25T03:53:18.778991Z",
+  "updated_at_utc": "2026-09-25T04:43:33.726200Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -575,6 +575,20 @@
       "last_attempt_at_utc": "2026-09-25T03:53:16.694387Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T035227Z_908dbb7a\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.0026618566\n幅度級距：+40%\n區間異動：+46.23%\n基準價格：US$0.0018203655\n24H：+17.27%\n4H RSI：37.54\n日線 RSI：46.97\n週線 RSI：57.80\n成交量：17.45×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT"
+    },
+    "ntf_d66b7d0e83618ba1ccd15462aba93444": {
+      "notification_id": "ntf_d66b7d0e83618ba1ccd15462aba93444",
+      "run_id": "20260925T044248Z_0690a972",
+      "created_at_utc": "2026-09-25T04:43:33.726186Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T044248Z_0690a972\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$97.537368\n幅度級距：+20%\n區間異動：+22.31%\n基準價格：US$79.746983\n24H：+36.59%\n4H RSI：88.24\n日線 RSI：78.74\n週線 RSI：52.89\n成交量：10.23×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD\n\nONDO｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.54278579\n幅度級距：+10%\n區間異動：+10.16%\n基準價格：US$0.49272167\n24H：+28.06%\n4H RSI：74.94\n日線 RSI：72.00\n週線 RSI：55.26\n成交量：9.53×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ondo-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AONDOUSD"
     }
   }
 }
