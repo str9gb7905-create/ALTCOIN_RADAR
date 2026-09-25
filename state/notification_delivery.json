@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-25T05:40:56.942307Z",
+  "updated_at_utc": "2026-09-25T05:40:58.750259Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -608,13 +608,13 @@
       "notification_id": "ntf_bdc37add17b4bcbb13d7b591ae686376",
       "run_id": "20260925T053951Z_d39c9d82",
       "created_at_utc": "2026-09-25T05:40:56.942293Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-25T05:40:58.750243Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T053951Z_d39c9d82\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0023834547\n幅度級距：+30%\n區間異動：+30.93%\n基準價格：US$0.0018203655\n24H：-1.17%\n4H RSI：38.40\n日線 RSI：46.97\n週線 RSI：57.80\n成交量：22.32×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT\n\nLNQ｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.015771129\n幅度級距：+20%\n區間異動：+23.01%\n基準價格：US$0.012821202\n24H：+17.42%\n4H RSI：53.88\n日線 RSI：68.27\n週線 RSI：59.84\n成交量：0.74×｜WEAK / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/linqai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ALNQUSDT\n\nQNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$96.672014\n幅度級距：+20%\n區間異動：+21.22%\n基準價格：US$79.746983\n24H：+34.28%\n4H RSI：88.24\n日線 RSI：78.74\n週線 RSI：52.89\n成交量：10.83×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD\n\nQKC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0030756556\n幅度級距：+10%\n區間異動：+11.10%\n基準價格：US$0.0027684442\n24H：+9.33%\n4H RSI：62.62\n日線 RSI：64.26\n週線 RSI：51.56\n成交量：0.98×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quark-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AQKCUSDT"
     }
