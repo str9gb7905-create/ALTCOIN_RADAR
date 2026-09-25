@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-25T16:46:04.602687Z",
+  "updated_at_utc": "2026-09-25T17:26:07.498500Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -1079,6 +1079,20 @@
       "last_attempt_at_utc": "2026-09-25T16:46:02.184997Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T164446Z_5d12def0\n資料來源：CoinGecko＋公開現貨交易所\n\nPHA｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.07886843\n幅度級距：+60%\n區間異動：+62.14%\n基準價格：US$0.048642396\n24H：+56.00%\n4H RSI：80.08\n日線 RSI：84.04\n週線 RSI：55.53\n成交量：17.17×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APHAUSDT\n\nENA｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.26193989\n幅度級距：+20%\n區間異動：+21.55%\n基準價格：US$0.21550254\n24H：+19.72%\n4H RSI：75.80\n日線 RSI：71.53\n週線 RSI：65.63\n成交量：2.58×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENAUSDT\n\nFET｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.2413832\n幅度級距：+10%\n區間異動：+10.51%\n基準價格：US$0.21843587\n24H：+7.01%\n4H RSI：72.76\n日線 RSI：69.67\n週線 RSI：51.89\n成交量：3.32×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/fetch-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFETUSD"
+    },
+    "ntf_a3a6d67c61af10732786fdcf5473fc4e": {
+      "notification_id": "ntf_a3a6d67c61af10732786fdcf5473fc4e",
+      "run_id": "20260925T172519Z_9cfd14f7",
+      "created_at_utc": "2026-09-25T17:26:07.498484Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T172519Z_9cfd14f7\n資料來源：CoinGecko＋公開現貨交易所\n\nBEAM｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.0022413938\n幅度級距：+10%\n區間異動：+12.38%\n基準價格：US$0.0019945416\n24H：+11.82%\n4H RSI：65.01\n日線 RSI：71.14\n週線 RSI：50.75\n成交量：3.26×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ABEAMUSD\n\nREZ｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.0042095946\n幅度級距：+10%\n區間異動：+10.11%\n基準價格：US$0.003822934\n24H：+7.98%\n4H RSI：60.64\n日線 RSI：59.33\n週線 RSI：51.47\n成交量：0.91×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/renzo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AREZUSD"
     }
   }
 }
