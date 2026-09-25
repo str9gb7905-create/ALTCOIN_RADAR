@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20260925T065533Z_2a219b70",
-  "updated_at": "2026-09-25T06:56:15.745645Z",
+  "last_run_id": "20260925T071006Z_0c5eda26",
+  "updated_at": "2026-09-25T07:10:54.343534Z",
   "assets": {
     "AGI": {
       "history_source": "Bybit",
@@ -164,7 +164,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -179,7 +179,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [
           {
@@ -378,7 +378,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -463,7 +463,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -597,7 +597,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-24T10:42:10.465423Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -612,7 +612,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [
           {
@@ -905,7 +905,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -950,7 +950,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1053,7 +1053,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1068,11 +1068,31 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-24T08:56:53.436508Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
-        "active_signals": [],
+        "active_signals": [
+          {
+            "type": "DAILY_BULLISH",
+            "signature": "FLOCK|1D|BULLISH|2026-09-15|2026-09-20",
+            "pivots": [
+              {
+                "timestamp": "2026-09-15",
+                "price": 0.06209,
+                "rsi": 57.64884106692206,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-09-20",
+                "price": 0.05822,
+                "rsi": 61.86441735942473,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
         "seen_signatures": [
-          "FLOCK|1D|BEARISH|2026-09-06|2026-09-13"
+          "FLOCK|1D|BEARISH|2026-09-06|2026-09-13",
+          "FLOCK|1D|BULLISH|2026-09-15|2026-09-20"
         ]
       },
       "weekly": {
@@ -1117,7 +1137,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1310,7 +1330,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1325,7 +1345,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1484,7 +1504,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1791,7 +1811,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2110,7 +2130,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2409,7 +2429,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2439,7 +2459,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [
           {
@@ -2505,7 +2525,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T06:56:15.745645Z",
+      "last_seen_at": "2026-09-25T07:10:54.343534Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
