@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-25T00:36:11.431696Z",
+  "updated_at_utc": "2026-09-25T00:36:13.220711Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -454,13 +454,13 @@
       "notification_id": "ntf_f00778d44a57e78364e1dfe122794389",
       "run_id": "20260925T003525Z_cc03b59d",
       "created_at_utc": "2026-09-25T00:36:11.431651Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-25T00:36:13.220696Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T003525Z_cc03b59d\n資料來源：CoinGecko＋公開現貨交易所\n\nXAI｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0094840838\n幅度級距：-20%\n區間異動：-20.52%\n基準價格：US$0.011932837\n24H：+20.25%\n4H RSI：66.82\n日線 RSI：72.30\n週線 RSI：37.87\n成交量：31.03×｜STRONG\n背離：DAILY_BULLISH\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AXAIUSDT\n\nPEAQ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.041520398\n幅度級距：-10%\n區間異動：-11.46%\n基準價格：US$0.046893858\n24H：+20.03%\n4H RSI：73.07\n日線 RSI：76.78\n週線 RSI：59.36\n成交量：4.32×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT\n\nWAXP｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.0061280425\n幅度級距：+10%\n區間異動：+11.08%\n基準價格：US$0.0055168612\n24H：+13.67%\n4H RSI：59.48\n日線 RSI：66.08\n週線 RSI：47.45\n成交量：3.69×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wax\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWAXPUSDT"
     }
