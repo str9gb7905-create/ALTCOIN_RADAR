@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-25T15:10:15.030393Z",
+  "updated_at_utc": "2026-09-25T15:28:06.889749Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -995,6 +995,20 @@
       "last_attempt_at_utc": "2026-09-25T15:10:12.092485Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T150901Z_c3b5d891\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.00097761235\n幅度級距：+10%\n區間異動：+11.83%\n基準價格：US$0.00087421018\n24H：+5.56%\n4H RSI：52.70\n日線 RSI：54.63\n週線 RSI：30.18\n成交量：9.22×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nACE｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.19445447\n幅度級距：+10%\n區間異動：+10.11%\n基準價格：US$0.17660215\n24H：+7.73%\n4H RSI：61.18\n日線 RSI：54.21\n週線 RSI：51.86\n成交量：2.21×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/endurance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AACEUSDT\n\nRON｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.06584624\n幅度級距：+10%\n區間異動：+10.08%\n基準價格：US$0.059814072\n24H：+10.17%\n4H RSI：66.04\n日線 RSI：56.62\n週線 RSI：36.89\n成交量：2.78×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ronin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARONUSDT"
+    },
+    "ntf_679039dc7cb3d15b91cbd67ec92adcdb": {
+      "notification_id": "ntf_679039dc7cb3d15b91cbd67ec92adcdb",
+      "run_id": "20260925T152710Z_de5a3c57",
+      "created_at_utc": "2026-09-25T15:28:06.889731Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T152710Z_de5a3c57\n資料來源：CoinGecko＋公開現貨交易所\n\nPHA｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.077919294\n幅度級距：+60%\n區間異動：+60.19%\n基準價格：US$0.048642396\n24H：+56.43%\n4H RSI：73.07\n日線 RSI：84.06\n週線 RSI：55.72\n成交量：12.35×｜STRONG\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3APHAUSDT\n\nPYTH｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.073874677\n幅度級距：+10%\n區間異動：+10.42%\n基準價格：US$0.0669051\n24H：+9.04%\n4H RSI：66.07\n日線 RSI：69.68\n週線 RSI：57.29\n成交量：2.52×｜STRONG\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3APYTHUSDT\n\nPOND｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.00095826488\n幅度級距：-10%\n區間異動：-10.37%\n基準價格：US$0.00106918\n24H：-6.80%\n4H RSI：52.70\n日線 RSI：54.63\n週線 RSI：30.18\n成交量：7.67×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD"
     }
   }
 }
