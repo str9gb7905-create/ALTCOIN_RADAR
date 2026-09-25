@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-25T08:29:03.051306Z",
+  "updated_at_utc": "2026-09-25T08:44:41.039180Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -701,6 +701,20 @@
       "last_attempt_at_utc": "2026-09-25T08:29:00.145074Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T082807Z_2cefe963\n資料來源：CoinGecko＋公開現貨交易所\n\nPEAQ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.043240578\n幅度級距：+10%\n區間異動：+10.35%\n基準價格：US$0.039183464\n24H：+16.82%\n4H RSI：72.97\n日線 RSI：76.78\n週線 RSI：59.36\n成交量：4.55×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT"
+    },
+    "ntf_499f59e2d98bf21cfaafb6c1bd92643b": {
+      "notification_id": "ntf_499f59e2d98bf21cfaafb6c1bd92643b",
+      "run_id": "20260925T084330Z_ecce6212",
+      "created_at_utc": "2026-09-25T08:44:41.039165Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T084330Z_ecce6212\n資料來源：CoinGecko＋公開現貨交易所\n\nXPL｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.12435611\n幅度級距：+30%\n區間異動：+34.20%\n基準價格：US$0.09266425\n24H：+39.02%\n4H RSI：73.03\n日線 RSI：65.13\n週線 RSI：46.92\n成交量：3.71×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/plasma\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AXPLUSD"
     }
   }
 }
