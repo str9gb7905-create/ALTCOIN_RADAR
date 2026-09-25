@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-25T16:29:10.167283Z",
+  "updated_at_utc": "2026-09-25T16:46:00.133120Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -1065,6 +1065,20 @@
       "last_attempt_at_utc": "2026-09-25T16:29:07.335167Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T162806Z_e6f281fd\n資料來源：CoinGecko＋公開現貨交易所\n\nXPL｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.11095882\n幅度級距：+10%\n區間異動：+11.60%\n基準價格：US$0.099427628\n24H：+7.62%\n4H RSI：62.27\n日線 RSI：65.13\n週線 RSI：46.92\n成交量：4.86×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/plasma\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AXPLUSD\n\nRON｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.066233621\n幅度級距：+10%\n區間異動：+10.12%\n基準價格：US$0.060147367\n24H：+8.57%\n4H RSI：62.72\n日線 RSI：56.62\n週線 RSI：36.89\n成交量：2.77×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ronin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARONUSDT"
+    },
+    "ntf_daee051d8950281eb8ad5e93951eb0da": {
+      "notification_id": "ntf_daee051d8950281eb8ad5e93951eb0da",
+      "run_id": "20260925T164446Z_5d12def0",
+      "created_at_utc": "2026-09-25T16:46:00.133104Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T164446Z_5d12def0\n資料來源：CoinGecko＋公開現貨交易所\n\nPHA｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.07886843\n幅度級距：+60%\n區間異動：+62.14%\n基準價格：US$0.048642396\n24H：+56.00%\n4H RSI：80.08\n日線 RSI：84.04\n週線 RSI：55.53\n成交量：17.17×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APHAUSDT\n\nENA｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.26193989\n幅度級距：+20%\n區間異動：+21.55%\n基準價格：US$0.21550254\n24H：+19.72%\n4H RSI：75.80\n日線 RSI：71.53\n週線 RSI：65.63\n成交量：2.58×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENAUSDT\n\nFET｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.2413832\n幅度級距：+10%\n區間異動：+10.51%\n基準價格：US$0.21843587\n24H：+7.01%\n4H RSI：72.76\n日線 RSI：69.67\n週線 RSI：51.89\n成交量：3.32×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/fetch-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFETUSD"
     }
   }
 }
