@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-25T20:26:15.321937Z",
+  "updated_at_utc": "2026-09-25T20:26:17.279422Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -1210,13 +1210,13 @@
       "notification_id": "ntf_50e74b9e6a9768d28174fbdd5107a2d6",
       "run_id": "20260925T202456Z_7630cf5c",
       "created_at_utc": "2026-09-25T20:26:15.321922Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-25T20:26:17.279408Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T202456Z_7630cf5c\n資料來源：CoinGecko＋公開現貨交易所\n\nWLD｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.48125493\n幅度級距：+10%\n區間異動：+11.73%\n基準價格：US$0.43073459\n24H：+9.22%\n4H RSI：63.60\n日線 RSI：55.87\n週線 RSI：51.91\n成交量：1.73×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/worldcoin-wld\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWLDUSDT\n\nGRT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.028496775\n幅度級距：+10%\n區間異動：+11.61%\n基準價格：US$0.025531406\n24H：+8.59%\n4H RSI：65.91\n日線 RSI：78.42\n週線 RSI：54.36\n成交量：3.00×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-graph\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AGRTUSD\n\nOP｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.143508\n幅度級距：+10%\n區間異動：+10.37%\n基準價格：US$0.13002102\n24H：+8.67%\n4H RSI：66.16\n日線 RSI：65.33\n週線 RSI：47.35\n成交量：0.95×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/optimism\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AOPUSDT"
     }
