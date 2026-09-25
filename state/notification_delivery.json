@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-25T17:54:13.485374Z",
+  "updated_at_utc": "2026-09-25T17:54:15.723961Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -1112,13 +1112,13 @@
       "notification_id": "ntf_bb71bd25324e89e0db73509add02e051",
       "run_id": "20260925T175301Z_7fb59aaf",
       "created_at_utc": "2026-09-25T17:54:13.485352Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-25T17:54:15.723941Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260925T175301Z_7fb59aaf\n資料來源：CoinGecko＋公開現貨交易所\n\nAXS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$1.1822822\n幅度級距：+10%\n區間異動：+10.15%\n基準價格：US$1.073343\n24H：+9.45%\n4H RSI：68.29\n日線 RSI：60.88\n週線 RSI：51.51\n成交量：9.32×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/axie-infinity\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAXSUSD\n\nNOS｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.44091811\n幅度級距：+10%\n區間異動：+10.06%\n基準價格：US$0.40060403\n24H：+4.72%\n4H RSI：64.79\n日線 RSI：80.32\n週線 RSI：53.60\n成交量：1.37×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ANOSUSDT"
     }
