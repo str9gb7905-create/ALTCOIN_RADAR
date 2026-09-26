@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T17:51:37.429047Z",
+  "updated_at_utc": "2026-09-26T17:51:39.779108Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2176,13 +2176,13 @@
       "notification_id": "ntf_1d7b4a119589409bd3487ab49f446e44",
       "run_id": "20260926T175044Z_2fddb149",
       "created_at_utc": "2026-09-26T17:51:37.429020Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-26T17:51:39.779087Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T175044Z_2fddb149\n資料來源：CoinGecko＋公開現貨交易所\n\nC98｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.017908086\n幅度級距：+10%\n區間異動：+12.12%\n基準價格：US$0.015971804\n24H：+10.26%\n4H RSI：53.16\n日線 RSI：58.57\n週線 RSI：46.03\n成交量：1.69×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coin98\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AC98USD\n\nPEAQ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.044109443\n幅度級距：+10%\n區間異動：+10.07%\n基準價格：US$0.040074475\n24H：+5.51%\n4H RSI：67.24\n日線 RSI：72.63\n週線 RSI：59.36\n成交量：1.92×｜ELEVATED\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT"
     }
