@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T20:08:25.646241Z",
+  "updated_at_utc": "2026-09-26T20:08:27.668899Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2274,13 +2274,13 @@
       "notification_id": "ntf_670c17de4427dc14a9ebc9b6b643b94b",
       "run_id": "20260926T200733Z_b64513c0",
       "created_at_utc": "2026-09-26T20:08:25.646224Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-26T20:08:27.668884Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T200733Z_b64513c0\n資料來源：CoinGecko＋公開現貨交易所\n\nLSK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.36822083\n幅度級距：+10%\n區間異動：+10.37%\n基準價格：US$0.33363699\n24H：+7.52%\n4H RSI：50.88\n日線 RSI：53.09\n週線 RSI：68.54\n成交量：5.38×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ALSKUSDT"
     }
