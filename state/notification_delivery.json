@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T09:51:44.269414Z",
+  "updated_at_utc": "2026-09-26T10:08:47.037486Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -1793,6 +1793,20 @@
       "last_attempt_at_utc": "2026-09-26T09:51:41.945155Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T095047Z_c0fbe104\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0024112469\n幅度級距：+170%\n區間異動：+170.62%\n基準價格：US$0.00089101321\n24H：+170.96%\n4H RSI：86.00\n日線 RSI：86.95\n週線 RSI：30.18\n成交量：127.75×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nXPL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.11826021\n幅度級距：+10%\n區間異動：+10.65%\n基準價格：US$0.10687886\n24H：+2.44%\n4H RSI：64.92\n日線 RSI：66.93\n週線 RSI：46.92\n成交量：3.13×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/plasma\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AXPLUSD"
+    },
+    "ntf_42a90048158ce4d8aebf5b5fe2be6def": {
+      "notification_id": "ntf_42a90048158ce4d8aebf5b5fe2be6def",
+      "run_id": "20260926T100802Z_6eafe944",
+      "created_at_utc": "2026-09-26T10:08:47.037470Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T100802Z_6eafe944\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.002317036\n幅度級距：-10%\n區間異動：-10.39%\n基準價格：US$0.0025856941\n24H：-1.17%\n4H RSI：45.48\n日線 RSI：54.18\n週線 RSI：57.80\n成交量：10.27×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT\n\nENJ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.031263056\n幅度級距：+10%\n區間異動：+10.24%\n基準價格：US$0.028360262\n24H：+9.70%\n4H RSI：67.22\n日線 RSI：62.14\n週線 RSI：46.33\n成交量：2.87×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENJUSDT"
     }
   }
 }
