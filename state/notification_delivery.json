@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T00:11:58.823474Z",
+  "updated_at_utc": "2026-09-26T00:12:01.256508Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -1364,13 +1364,13 @@
       "notification_id": "ntf_e18873f6d4ba861a156b20909e9f9b52",
       "run_id": "20260926T001056Z_b4d756a0",
       "created_at_utc": "2026-09-26T00:11:58.823461Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-26T00:12:01.256496Z",
       "event_count": 8,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T001056Z_b4d756a0\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0017330133\n幅度級距：+90%\n區間異動：+98.24%\n基準價格：US$0.00087421018\n24H：+94.56%\n4H RSI：87.92\n日線 RSI：86.95\n週線 RSI：30.18\n成交量：20.00×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nCPOOL｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.037789727\n幅度級距：+10%\n區間異動：+15.61%\n基準價格：US$0.032686243\n24H：+18.81%\n4H RSI：62.14\n日線 RSI：74.49\n週線 RSI：59.49\n成交量：2.49×｜STRONG\n背離：DAILY_BULLISH, WEEKLY_BULLISH\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACPOOLUSD\n\nSTEEM｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.069651341\n幅度級距：+10%\n區間異動：+12.64%\n基準價格：US$0.061836579\n24H：+4.83%\n4H RSI：65.09\n日線 RSI：70.72\n週線 RSI：55.37\n成交量：1.33×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/steem\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTEEMUSDT\n\nNOS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.44827995\n幅度級距：+10%\n區間異動：+11.90%\n基準價格：US$0.40060403\n24H：+7.46%\n4H RSI：70.48\n日線 RSI：83.39\n週線 RSI：53.60\n成交量：1.44×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ANOSUSDT\n\nWAXP｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.006413064\n幅度級距：+10%\n區間異動：+11.53%\n基準價格：US$0.0057500854\n24H：+12.47%\n4H RSI：68.40\n日線 RSI：72.54\n週線 RSI：47.45\n成交量：16.65×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wax\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWAXPUSDT\n\nGRT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.028285501\n幅度級距：+10%\n區間異動：+10.79%\n基準價格：US$0.025531406\n24H：+7.30%\n4H RSI：67.93\n日線 RSI：81.83\n週線 RSI：54.36\n成交量：2.93×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-graph\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AGRTUSD"
     }
