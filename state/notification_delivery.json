@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T18:56:38.607815Z",
+  "updated_at_utc": "2026-09-26T18:56:40.846432Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2218,13 +2218,13 @@
       "notification_id": "ntf_8b7fe60cdae1c3e39a9bb67b2f791106",
       "run_id": "20260926T185529Z_a6fe7f5f",
       "created_at_utc": "2026-09-26T18:56:38.607800Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-26T18:56:40.846420Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T185529Z_a6fe7f5f\n資料來源：CoinGecko＋公開現貨交易所\n\nTLM｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0017145054\n幅度級距：+10%\n區間異動：+10.45%\n基準價格：US$0.0015522639\n24H：+10.18%\n4H RSI：76.47\n日線 RSI：60.01\n週線 RSI：44.83\n成交量：2.22×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/alien-worlds\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ATLMUSDT\n\nSATS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$1.3123159e-08\n幅度級距：+10%\n區間異動：+10.04%\n基準價格：US$1.1926293e-08\n24H：+8.69%\n4H RSI：65.69\n日線 RSI：58.67\n週線 RSI：44.68\n成交量：3.20×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sats-ordinals\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASATSUSDT"
     }
