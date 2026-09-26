@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T15:52:33.501511Z",
+  "updated_at_utc": "2026-09-26T15:52:35.482011Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2064,13 +2064,13 @@
       "notification_id": "ntf_9989cfc1de4fc1550132f8e9ca05d047",
       "run_id": "20260926T155126Z_777fb365",
       "created_at_utc": "2026-09-26T15:52:33.501493Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-26T15:52:35.481991Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T155126Z_777fb365\n資料來源：CoinGecko＋公開現貨交易所\n\nACE｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.22780887\n幅度級距：+20%\n區間異動：+21.30%\n基準價格：US$0.18780356\n24H：+18.87%\n4H RSI：67.91\n日線 RSI：60.19\n週線 RSI：51.56\n成交量：2.91×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/endurance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AACEUSDT\n\nSPELL｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00011448028\n幅度級距：+20%\n區間異動：+20.56%\n基準價格：US$9.4959728e-05\n24H：+20.50%\n4H RSI：84.48\n日線 RSI：69.42\n週線 RSI：31.32\n成交量：33.31×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/spell-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASPELLUSD\n\nETHFI｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.77139058\n幅度級距：+10%\n區間異動：+10.47%\n基準價格：US$0.69830962\n24H：+9.72%\n4H RSI：60.08\n日線 RSI：60.13\n週線 RSI：63.88\n成交量：1.04×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ether-fi\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AETHFIUSDT"
     }
