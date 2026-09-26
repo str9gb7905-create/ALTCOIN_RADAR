@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20260926T140821Z_511769b4",
-  "updated_at": "2026-09-26T14:08:58.698852Z",
+  "last_run_id": "20260926T142508Z_35b82cd7",
+  "updated_at": "2026-09-26T14:25:51.780472Z",
   "assets": {
     "AGI": {
       "history_source": "Bybit",
@@ -746,7 +746,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-26T07:51:35.764457Z",
+      "last_seen_at": "2026-09-26T14:25:51.780472Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -859,7 +859,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-26T14:08:58.698852Z",
+      "last_seen_at": "2026-09-26T14:25:51.780472Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -895,7 +895,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-26T14:08:58.698852Z",
+      "last_seen_at": "2026-09-26T14:25:51.780472Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -910,7 +910,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-26T14:08:58.698852Z",
+      "last_seen_at": "2026-09-26T14:25:51.780472Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1123,7 +1123,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-26T14:08:58.698852Z",
+      "last_seen_at": "2026-09-26T14:25:51.780472Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1280,7 +1280,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-26T14:08:58.698852Z",
+      "last_seen_at": "2026-09-26T14:25:51.780472Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1313,7 +1313,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-26T14:08:58.698852Z",
+      "last_seen_at": "2026-09-26T14:25:51.780472Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1553,7 +1553,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-26T14:08:58.698852Z",
+      "last_seen_at": "2026-09-26T14:25:51.780472Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2121,7 +2121,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-26T14:08:58.698852Z",
+      "last_seen_at": "2026-09-26T14:25:51.780472Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2501,7 +2501,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-26T14:08:58.698852Z",
+      "last_seen_at": "2026-09-26T14:25:51.780472Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2599,7 +2599,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-26T14:08:58.698852Z",
+      "last_seen_at": "2026-09-26T14:25:51.780472Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2629,7 +2629,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-26T14:08:58.698852Z",
+      "last_seen_at": "2026-09-26T14:25:51.780472Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
