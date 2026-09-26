@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T06:11:34.312385Z",
+  "updated_at_utc": "2026-09-26T06:31:37.884574Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -1639,6 +1639,20 @@
       "last_attempt_at_utc": "2026-09-26T06:11:31.760819Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T061038Z_673bd58b\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0018869092\n幅度級距：+110%\n區間異動：+114.04%\n基準價格：US$0.00088156745\n24H：+113.63%\n4H RSI：83.65\n日線 RSI：86.95\n週線 RSI：30.18\n成交量：73.05×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nQNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$103.50912\n幅度級距：+10%\n區間異動：+10.76%\n基準價格：US$93.451895\n24H：+5.89%\n4H RSI：77.55\n日線 RSI：82.44\n週線 RSI：52.89\n成交量：13.61×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD\n\nXPL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.11150256\n幅度級距：-10%\n區間異動：-10.34%\n基準價格：US$0.12435611\n24H：-5.27%\n4H RSI：59.91\n日線 RSI：66.93\n週線 RSI：46.92\n成交量：3.54×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/plasma\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AXPLUSD\n\nHUMA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.026601596\n幅度級距：-10%\n區間異動：-10.19%\n基準價格：US$0.029620457\n24H：+3.19%\n4H RSI：61.72\n日線 RSI：62.70\n週線 RSI：53.19\n成交量：4.45×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AHUMAUSDT"
+    },
+    "ntf_7b15bfc952c6536904969fd9682b5646": {
+      "notification_id": "ntf_7b15bfc952c6536904969fd9682b5646",
+      "run_id": "20260926T063039Z_848e9bd6",
+      "created_at_utc": "2026-09-26T06:31:37.884557Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T063039Z_848e9bd6\n資料來源：CoinGecko＋公開現貨交易所\n\nNEAR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$4.9322363\n幅度級距：+10%\n區間異動：+10.25%\n基準價格：US$4.4735031\n24H：+9.33%\n4H RSI：61.18\n日線 RSI：85.02\n週線 RSI：78.47\n成交量：2.88×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ANEARUSD\n\nWLD｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.47951133\n幅度級距：+10%\n區間異動：+10.07%\n基準價格：US$0.43562267\n24H：+9.69%\n4H RSI：63.97\n日線 RSI：63.32\n週線 RSI：51.91\n成交量：2.52×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/worldcoin-wld\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWLDUSDT"
     }
   }
 }
