@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T03:40:30.806736Z",
+  "updated_at_utc": "2026-09-26T03:52:35.724316Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -1541,6 +1541,20 @@
       "last_attempt_at_utc": "2026-09-26T03:40:28.672123Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T033920Z_91ca0df7\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0014530559\n幅度級距：+60%\n區間異動：+66.21%\n基準價格：US$0.00087421018\n24H：+66.13%\n4H RSI：87.92\n日線 RSI：86.95\n週線 RSI：30.18\n成交量：42.88×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nNEAR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$4.9090856\n幅度級距：+10%\n區間異動：+10.04%\n基準價格：US$4.4613393\n24H：+9.64%\n4H RSI：63.55\n日線 RSI：85.02\n週線 RSI：78.47\n成交量：2.94×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ANEARUSD"
+    },
+    "ntf_6c7220ed71eccf28c417daf5c5eb9c2c": {
+      "notification_id": "ntf_6c7220ed71eccf28c417daf5c5eb9c2c",
+      "run_id": "20260926T035123Z_7cc6b0a2",
+      "created_at_utc": "2026-09-26T03:52:35.724297Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T035123Z_7cc6b0a2\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0015836803\n幅度級距：+80%\n區間異動：+81.05%\n基準價格：US$0.0008747214\n24H：+80.99%\n4H RSI：87.92\n日線 RSI：86.95\n週線 RSI：30.18\n成交量：47.79×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nOP｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.1430347\n幅度級距：+10%\n區間異動：+10.01%\n基準價格：US$0.13002102\n24H：+10.01%\n4H RSI：69.15\n日線 RSI：71.31\n週線 RSI：47.35\n成交量：1.14×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/optimism\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AOPUSDT"
     }
   }
 }
