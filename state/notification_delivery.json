@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T17:39:08.594759Z",
+  "updated_at_utc": "2026-09-26T17:39:10.773331Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2162,13 +2162,13 @@
       "notification_id": "ntf_1bbf6abc7acd684da703f0163a21f48c",
       "run_id": "20260926T173808Z_c13971be",
       "created_at_utc": "2026-09-26T17:39:08.594745Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-26T17:39:10.773319Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T173808Z_c13971be\n資料來源：CoinGecko＋公開現貨交易所\n\nHIGH｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.04300782\n幅度級距：+30%\n區間異動：+32.08%\n基準價格：US$0.032562111\n24H：+27.20%\n4H RSI：60.71\n日線 RSI：61.13\n週線 RSI：32.87\n成交量：2.27×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/highstreet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHIGHUSD\n\nHUMA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.028932153\n幅度級距：+10%\n區間異動：+10.17%\n基準價格：US$0.026260279\n24H：+6.56%\n4H RSI：76.57\n日線 RSI：62.70\n週線 RSI：53.19\n成交量：4.37×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AHUMAUSDT"
     }
