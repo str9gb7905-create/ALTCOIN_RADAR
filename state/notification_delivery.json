@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T16:41:04.781950Z",
+  "updated_at_utc": "2026-09-26T16:52:17.220789Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2115,6 +2115,20 @@
       "last_attempt_at_utc": "2026-09-26T16:41:01.844537Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T164004Z_9b148d35\n資料來源：CoinGecko＋公開現貨交易所\n\nAGI｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0069819289\n幅度級距：+20%\n區間異動：+21.48%\n基準價格：US$0.0057472537\n24H：+24.51%\n4H RSI：76.55\n日線 RSI：56.62\n週線 RSI：40.93\n成交量：1.65×｜ELEVATED\n背離：WEEKLY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT\n\nGALA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0023288167\n幅度級距：+10%\n區間異動：+10.92%\n基準價格：US$0.0020995373\n24H：+9.59%\n4H RSI：69.68\n日線 RSI：62.70\n週線 RSI：34.88\n成交量：146.17×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/gala\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGALAUSDT"
+    },
+    "ntf_919a1809028bee5bfbaadbd2906d88aa": {
+      "notification_id": "ntf_919a1809028bee5bfbaadbd2906d88aa",
+      "run_id": "20260926T165115Z_17ab479a",
+      "created_at_utc": "2026-09-26T16:52:17.220775Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T165115Z_17ab479a\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.00048968235\n幅度級距：-20%\n區間異動：-23.37%\n基準價格：US$0.00063905456\n24H：+11.50%\n4H RSI：51.85\n日線 RSI：41.74\n週線 RSI：24.60\n成交量：2.93×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nHUMA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.027972529\n幅度級距：-10%\n區間異動：-10.46%\n基準價格：US$0.031240554\n24H：+4.17%\n4H RSI：76.57\n日線 RSI：62.70\n週線 RSI：53.19\n成交量：4.41×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AHUMAUSDT"
     }
   }
 }
