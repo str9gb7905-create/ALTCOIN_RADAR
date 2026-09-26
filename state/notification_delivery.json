@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T18:28:58.600009Z",
+  "updated_at_utc": "2026-09-26T18:29:00.613814Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2190,13 +2190,13 @@
       "notification_id": "ntf_c5c36e86e2ef3a30395ffd4c998b40c4",
       "run_id": "20260926T182756Z_f5540c64",
       "created_at_utc": "2026-09-26T18:28:58.599990Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-26T18:29:00.613797Z",
       "event_count": 6,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T182756Z_f5540c64\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0020411442\n幅度級距：+120%\n區間異動：+126.75%\n基準價格：US$0.00090016311\n24H：+121.22%\n4H RSI：69.68\n日線 RSI：86.95\n週線 RSI：30.18\n成交量：162.89×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nHUMA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.029151369\n幅度級距：+10%\n區間異動：+11.01%\n基準價格：US$0.026260279\n24H：+9.21%\n4H RSI：76.57\n日線 RSI：62.70\n週線 RSI：53.19\n成交量：4.50×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AHUMAUSDT\n\nTLM｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0017205304\n幅度級距：+10%\n區間異動：+10.91%\n基準價格：US$0.0015513309\n24H：+10.86%\n4H RSI：76.47\n日線 RSI：60.01\n週線 RSI：44.83\n成交量：2.22×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/alien-worlds\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ATLMUSDT\n\nSATS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$1.318285e-08\n幅度級距：+10%\n區間異動：+10.54%\n基準價格：US$1.1926293e-08\n24H：+9.77%\n4H RSI：65.69\n日線 RSI：58.67\n週線 RSI：44.68\n成交量：3.11×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sats-ordinals\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASATSUSDT"
     }
