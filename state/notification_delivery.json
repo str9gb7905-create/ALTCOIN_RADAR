@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T12:10:57.936749Z",
+  "updated_at_utc": "2026-09-26T12:30:13.796816Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -1891,6 +1891,20 @@
       "last_attempt_at_utc": "2026-09-26T12:10:55.634995Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T120949Z_22a36020\n資料來源：CoinGecko＋公開現貨交易所\n\nPYTH｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.078535728\n幅度級距：+10%\n區間異動：+10.04%\n基準價格：US$0.071372297\n24H：+8.91%\n4H RSI：71.52\n日線 RSI：75.08\n週線 RSI：60.84\n成交量：3.17×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APYTHUSDC"
+    },
+    "ntf_ea03b75683a1c8d1c18985612d119861": {
+      "notification_id": "ntf_ea03b75683a1c8d1c18985612d119861",
+      "run_id": "20260926T122919Z_7ae09aec",
+      "created_at_utc": "2026-09-26T12:30:13.796801Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T122919Z_7ae09aec\n資料來源：CoinGecko＋公開現貨交易所\n\nSPELL｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0001129929\n幅度級距：+20%\n區間異動：+20.79%\n基準價格：US$9.3548201e-05\n24H：+19.79%\n4H RSI：84.48\n日線 RSI：69.42\n週線 RSI：31.32\n成交量：27.34×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/spell-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASPELLUSD\n\nONE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0023072994\n幅度級距：-10%\n區間異動：-10.77%\n基準價格：US$0.0025856941\n24H：+1.77%\n4H RSI：45.20\n日線 RSI：54.18\n週線 RSI：57.80\n成交量：10.06×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT"
     }
   }
 }
