@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T15:25:47.962174Z",
+  "updated_at_utc": "2026-09-26T15:40:37.117458Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2045,6 +2045,20 @@
       "last_attempt_at_utc": "2026-09-26T15:25:45.458695Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T152501Z_9c3cd626\n資料來源：CoinGecko＋公開現貨交易所\n\nAGI｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.006426855\n幅度級距：+10%\n區間異動：+12.03%\n基準價格：US$0.0057369483\n24H：+10.23%\n4H RSI：60.15\n日線 RSI：56.62\n週線 RSI：40.93\n成交量：1.26×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT\n\nCPOOL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.03638782\n幅度級距：+10%\n區間異動：+10.48%\n基準價格：US$0.032936851\n24H：+10.30%\n4H RSI：67.59\n日線 RSI：74.90\n週線 RSI：59.54\n成交量：5.82×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACPOOLUSDT"
+    },
+    "ntf_686c2f5e5a0203df5759b5b7fefbcc06": {
+      "notification_id": "ntf_686c2f5e5a0203df5759b5b7fefbcc06",
+      "run_id": "20260926T153929Z_f9186568",
+      "created_at_utc": "2026-09-26T15:40:37.117439Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 7,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T153929Z_f9186568\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$116.97397\n幅度級距：+20%\n區間異動：+23.71%\n基準價格：US$94.556173\n24H：+23.65%\n4H RSI：80.89\n日線 RSI：82.44\n週線 RSI：52.89\n成交量：10.99×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD\n\nHUMA｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.030679604\n幅度級距：+20%\n區間異動：+21.75%\n基準價格：US$0.025198411\n24H：+21.50%\n4H RSI：66.85\n日線 RSI：62.70\n週線 RSI：53.19\n成交量：2.29×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AHUMAUSDT\n\nCC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.13697635\n幅度級距：+10%\n區間異動：+10.82%\n基準價格：US$0.12360246\n24H：+9.67%\n4H RSI：74.93\n日線 RSI：65.54\n週線 RSI：43.62\n成交量：3.81×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/canton-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACCUSDT\n\nREZ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0044975462\n幅度級距：+10%\n區間異動：+10.35%\n基準價格：US$0.0040758422\n24H：+10.22%\n4H RSI：67.63\n日線 RSI：65.84\n週線 RSI：51.47\n成交量：1.78×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/renzo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AREZUSD\n\nAR｜首次觸發\n觸發：由近24H低點上漲\n價格：US$4.9344906\n幅度級距：+10%\n區間異動：+10.00%\n基準價格：US$4.4858687\n24H：+5.76%\n4H RSI：59.96\n日線 RSI：73.84\n週線 RSI：70.86\n成交量：1.15×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arweave\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARUSDT"
     }
   }
 }
