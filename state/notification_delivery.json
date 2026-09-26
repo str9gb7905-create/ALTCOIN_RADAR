@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T10:25:29.333142Z",
+  "updated_at_utc": "2026-09-26T10:51:18.764760Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -1821,6 +1821,20 @@
       "last_attempt_at_utc": "2026-09-26T10:25:26.828650Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T102435Z_c431114f\n資料來源：CoinGecko＋公開現貨交易所\n\nPHA｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.078914082\n幅度級距：+30%\n區間異動：+30.61%\n基準價格：US$0.060420933\n24H：+30.17%\n4H RSI：69.46\n日線 RSI：93.39\n週線 RSI：55.53\n成交量：29.12×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APHAUSDT"
+    },
+    "ntf_2c36d4c3b39f2a8eb464087dc6e43f1c": {
+      "notification_id": "ntf_2c36d4c3b39f2a8eb464087dc6e43f1c",
+      "run_id": "20260926T105030Z_6b29dedb",
+      "created_at_utc": "2026-09-26T10:51:18.764742Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T105030Z_6b29dedb\n資料來源：CoinGecko＋公開現貨交易所\n\nENJ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.031234557\n幅度級距：+10%\n區間異動：+10.13%\n基準價格：US$0.028360262\n24H：+9.35%\n4H RSI：67.22\n日線 RSI：62.14\n週線 RSI：46.33\n成交量：3.00×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENJUSDT"
     }
   }
 }
