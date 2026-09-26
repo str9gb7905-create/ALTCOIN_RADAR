@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-26T19:08:54.845937Z",
+  "updated_at_utc": "2026-09-26T19:36:52.972490Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2241,6 +2241,20 @@
       "last_attempt_at_utc": "2026-09-26T19:08:52.301514Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T190754Z_51c25419\n資料來源：CoinGecko＋公開現貨交易所\n\nAGI｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0069076011\n幅度級距：+20%\n區間異動：+20.19%\n基準價格：US$0.0057472537\n24H：+19.46%\n4H RSI：76.55\n日線 RSI：56.62\n週線 RSI：40.93\n成交量：6.01×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT"
+    },
+    "ntf_aa9f3cde02c66cb3be08f656dba6bf1d": {
+      "notification_id": "ntf_aa9f3cde02c66cb3be08f656dba6bf1d",
+      "run_id": "20260926T193555Z_b526be4b",
+      "created_at_utc": "2026-09-26T19:36:52.972471Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260926T193555Z_b526be4b\n資料來源：CoinGecko＋公開現貨交易所\n\nTLM｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0017119372\n幅度級距：+10%\n區間異動：+10.29%\n基準價格：US$0.0015522639\n24H：+9.97%\n4H RSI：76.47\n日線 RSI：60.01\n週線 RSI：44.83\n成交量：2.23×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/alien-worlds\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ATLMUSDT"
     }
   }
 }
