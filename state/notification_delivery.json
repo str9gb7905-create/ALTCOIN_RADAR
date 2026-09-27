@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T00:12:46.820501Z",
+  "updated_at_utc": "2026-09-27T00:36:51.422555Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2479,6 +2479,20 @@
       "last_attempt_at_utc": "2026-09-27T00:12:44.391238Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T001200Z_bfa46501\n資料來源：CoinGecko＋公開現貨交易所\n\nSWFTC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0032768556\n幅度級距：+10%\n區間異動：+10.92%\n基準價格：US$0.0029543191\n24H：+7.39%\n4H RSI：67.53\n日線 RSI：79.96\n週線 RSI：45.68\n成交量：10.12×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/swftcoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASWFTCUSD"
+    },
+    "ntf_5d31435a9ca3c2c231e5ccd3ea328c3f": {
+      "notification_id": "ntf_5d31435a9ca3c2c231e5ccd3ea328c3f",
+      "run_id": "20260927T003601Z_5627e1e8",
+      "created_at_utc": "2026-09-27T00:36:51.422541Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T003601Z_5627e1e8\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$157.59892\n幅度級距：+60%\n區間異動：+60.35%\n基準價格：US$98.284157\n24H：+59.23%\n4H RSI：93.14\n日線 RSI：91.69\n週線 RSI：46.76\n成交量：40.90×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3AQNTUSDT\n\nWAXP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0064507803\n幅度級距：-10%\n區間異動：-11.20%\n基準價格：US$0.0072646221\n24H：+0.92%\n4H RSI：67.72\n日線 RSI：76.11\n週線 RSI：46.94\n成交量：7.19×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wax\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3AWAXPUSDT\n\nHFT｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.0069346574\n幅度級距：+10%\n區間異動：+11.17%\n基準價格：US$0.0062379067\n24H：+7.45%\n4H RSI：56.00\n日線 RSI：50.17\n週線 RSI：36.38\n成交量：2.66×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSDC"
     }
   }
 }
