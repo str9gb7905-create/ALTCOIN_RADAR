@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T19:24:17.591447Z",
+  "updated_at_utc": "2026-09-27T19:24:19.611680Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -3380,13 +3380,13 @@
       "notification_id": "ntf_e4b381bf5a497fc1a95c00cd98f1e254",
       "run_id": "20260927T192325Z_82a8788b",
       "created_at_utc": "2026-09-27T19:24:17.591431Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-27T19:24:19.611667Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T192325Z_82a8788b\n資料來源：CoinGecko＋公開現貨交易所\n\nPHA｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.068450567\n幅度級距：-20%\n區間異動：-20.11%\n基準價格：US$0.085681278\n24H：-17.50%\n4H RSI：51.91\n日線 RSI：87.68\n週線 RSI：62.41\n成交量：5.86×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APHAUSDT"
     }
