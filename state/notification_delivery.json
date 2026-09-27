@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T18:57:40.255946Z",
+  "updated_at_utc": "2026-09-27T19:10:22.880394Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -3361,6 +3361,20 @@
       "last_attempt_at_utc": "2026-09-27T18:57:37.924543Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T185636Z_7d1ccbff\n資料來源：CoinGecko＋公開現貨交易所\n\nOLAS｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.046256073\n幅度級距：+20%\n區間異動：+20.01%\n基準價格：US$0.038542852\n24H：+14.49%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.26×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/autonolas\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AOLASUSDT\n\nGRT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.030070947\n幅度級距：+10%\n區間異動：+10.99%\n基準價格：US$0.02709457\n24H：+8.35%\n4H RSI：62.43\n日線 RSI：77.33\n週線 RSI：54.36\n成交量：2.14×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-graph\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AGRTUSD\n\nWLD｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.56881566\n幅度級距：+10%\n區間異動：+10.72%\n基準價格：US$0.51372431\n24H：+6.53%\n4H RSI：67.19\n日線 RSI：66.43\n週線 RSI：51.91\n成交量：2.42×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/worldcoin-wld\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWLDUSDT\n\nENA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.29335406\n幅度級距：+10%\n區間異動：+10.15%\n基準價格：US$0.26631996\n24H：+7.72%\n4H RSI：71.65\n日線 RSI：79.01\n週線 RSI：65.63\n成交量：1.01×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENAUSDT"
+    },
+    "ntf_494f9ebe3bd4654223980695c5507e8a": {
+      "notification_id": "ntf_494f9ebe3bd4654223980695c5507e8a",
+      "run_id": "20260927T190937Z_46f7e994",
+      "created_at_utc": "2026-09-27T19:10:22.880381Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T190937Z_46f7e994\n資料來源：CoinGecko＋公開現貨交易所\n\nGLMR｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.0084894261\n幅度級距：+20%\n區間異動：+24.77%\n基準價格：US$0.006804013\n24H：+23.76%\n4H RSI：63.35\n日線 RSI：60.12\n週線 RSI：32.95\n成交量：13.28×｜STRONG\n背離：DAILY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AGLMRUSDT\n\nJUV｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.32950188\n幅度級距：-10%\n區間異動：-10.11%\n基準價格：US$0.3665549\n24H：+2.64%\n4H RSI：78.23\n日線 RSI：69.42\n週線 RSI：38.76\n成交量：11.62×｜STRONG\n背離：DAILY_BULLISH\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/juventus-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AJUVUSDT"
     }
   }
 }
