@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T06:56:00.519502Z",
+  "updated_at_utc": "2026-09-27T07:09:32.371685Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2787,6 +2787,20 @@
       "last_attempt_at_utc": "2026-09-27T06:55:58.272875Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T065500Z_5cb2c97a\n資料來源：CoinGecko＋公開現貨交易所\n\nGLMR｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0087999801\n幅度級距：+30%\n區間異動：+33.45%\n基準價格：US$0.0065942944\n24H：+31.88%\n4H RSI：61.80\n日線 RSI：60.12\n週線 RSI：32.95\n成交量：2.41×｜STRONG\n背離：DAILY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AGLMRUSDT\n\nHFT｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.0080268784\n幅度級距：+20%\n區間異動：+28.68%\n基準價格：US$0.0062379067\n24H：+29.46%\n4H RSI：72.68\n日線 RSI：50.17\n週線 RSI：36.38\n成交量：11.96×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSDC"
+    },
+    "ntf_03ebd09d500a090a74e8c3242642ec29": {
+      "notification_id": "ntf_03ebd09d500a090a74e8c3242642ec29",
+      "run_id": "20260927T070831Z_e0175960",
+      "created_at_utc": "2026-09-27T07:09:32.371670Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T070831Z_e0175960\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0014843003\n幅度級距：-40%\n區間異動：-40.97%\n基準價格：US$0.0025146178\n24H：-8.90%\n4H RSI：52.37\n日線 RSI：78.63\n週線 RSI：30.18\n成交量：89.76×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nHFT｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0072748658\n幅度級距：-10%\n區間異動：-18.29%\n基準價格：US$0.0089029935\n24H：+16.68%\n4H RSI：72.68\n日線 RSI：50.17\n週線 RSI：36.38\n成交量：11.13×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSD"
     }
   }
 }
