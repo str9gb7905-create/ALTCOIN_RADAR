@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T08:09:16.539751Z",
+  "updated_at_utc": "2026-09-27T08:27:12.096358Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2857,6 +2857,20 @@
       "last_attempt_at_utc": "2026-09-27T08:09:13.988949Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T080819Z_197568e0\n資料來源：CoinGecko＋公開現貨交易所\n\nHFT｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.0074117314\n幅度級距：+10%\n區間異動：+18.82%\n基準價格：US$0.0062379067\n24H：+18.70%\n4H RSI：82.86\n日線 RSI：50.17\n週線 RSI：36.38\n成交量：12.74×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSD"
+    },
+    "ntf_0deed541dee75cf2dba7b0d5c74f3551": {
+      "notification_id": "ntf_0deed541dee75cf2dba7b0d5c74f3551",
+      "run_id": "20260927T082627Z_8cf55df9",
+      "created_at_utc": "2026-09-27T08:27:12.096340Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T082627Z_8cf55df9\n資料來源：CoinGecko＋公開現貨交易所\n\nHFT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0078660399\n幅度級距：+20%\n區間異動：+26.10%\n基準價格：US$0.0062379067\n24H：+26.07%\n4H RSI：82.86\n日線 RSI：50.17\n週線 RSI：36.38\n成交量：14.37×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSD\n\nSWFTC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0032647955\n幅度級距：+10%\n區間異動：+10.51%\n基準價格：US$0.0029543191\n24H：+9.22%\n4H RSI：62.07\n日線 RSI：79.96\n週線 RSI：45.68\n成交量：13.96×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/swftcoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASWFTCUSD"
     }
   }
 }
