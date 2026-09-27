@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T10:25:50.102845Z",
+  "updated_at_utc": "2026-09-27T10:52:09.222542Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2955,6 +2955,20 @@
       "last_attempt_at_utc": "2026-09-27T10:25:47.718765Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T102452Z_1e308694\n資料來源：CoinGecko＋公開現貨交易所\n\nSWFTC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0032557422\n幅度級距：+10%\n區間異動：+10.20%\n基準價格：US$0.0029543191\n24H：+8.84%\n4H RSI：62.07\n日線 RSI：79.96\n週線 RSI：45.68\n成交量：13.82×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/swftcoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASWFTCUSD"
+    },
+    "ntf_82876c83b741c4ec03ae8acfefc922e1": {
+      "notification_id": "ntf_82876c83b741c4ec03ae8acfefc922e1",
+      "run_id": "20260927T105121Z_e5f274b4",
+      "created_at_utc": "2026-09-27T10:52:09.222523Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T105121Z_e5f274b4\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0021256912\n幅度級距：-10%\n區間異動：-10.24%\n基準價格：US$0.0023682297\n24H：-9.86%\n4H RSI：43.78\n日線 RSI：52.31\n週線 RSI：57.80\n成交量：1.09×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT"
     }
   }
 }
