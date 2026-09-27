@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T20:25:51.737400Z",
+  "updated_at_utc": "2026-09-27T20:39:14.766506Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -3445,6 +3445,20 @@
       "last_attempt_at_utc": "2026-09-27T20:25:49.396705Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T202455Z_e17a333c\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0016949997\n幅度級距：+20%\n區間異動：+22.27%\n基準價格：US$0.0013862267\n24H：-14.20%\n4H RSI：55.81\n日線 RSI：78.63\n週線 RSI：30.18\n成交量：37.52×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD"
+    },
+    "ntf_82d08e48eedae9ef9323f5149912901c": {
+      "notification_id": "ntf_82d08e48eedae9ef9323f5149912901c",
+      "run_id": "20260927T203836Z_54ea742d",
+      "created_at_utc": "2026-09-27T20:39:14.766489Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T203836Z_54ea742d\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0018303869\n幅度級距：+30%\n區間異動：+32.04%\n基準價格：US$0.0013862267\n24H：-4.19%\n4H RSI：55.81\n日線 RSI：78.63\n週線 RSI：30.18\n成交量：41.37×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD"
     }
   }
 }
