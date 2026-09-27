@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T09:40:27.363470Z",
+  "updated_at_utc": "2026-09-27T09:40:29.979653Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2918,13 +2918,13 @@
       "notification_id": "ntf_239ea74964a08cb8c6717a6d8326af7c",
       "run_id": "20260927T093927Z_ab28f7e8",
       "created_at_utc": "2026-09-27T09:40:27.363449Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-27T09:40:29.979635Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T093927Z_ab28f7e8\n資料來源：CoinGecko＋公開現貨交易所\n\nGLMR｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.010139198\n幅度級距：+50%\n區間異動：+53.76%\n基準價格：US$0.0065942944\n24H：+53.65%\n4H RSI：83.38\n日線 RSI：60.12\n週線 RSI：32.95\n成交量：3.67×｜STRONG\n背離：DAILY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AGLMRUSDT"
     }
