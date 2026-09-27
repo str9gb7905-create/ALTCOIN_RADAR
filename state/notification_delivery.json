@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T11:09:23.155872Z",
+  "updated_at_utc": "2026-09-27T11:09:25.334314Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2974,13 +2974,13 @@
       "notification_id": "ntf_733575aea8479c472dd70b4ded5d5cce",
       "run_id": "20260927T110826Z_7f4d0688",
       "created_at_utc": "2026-09-27T11:09:23.155853Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-27T11:09:25.334298Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T110826Z_7f4d0688\n資料來源：CoinGecko＋公開現貨交易所\n\nSPELL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00010610051\n幅度級距：-10%\n區間異動：-10.33%\n基準價格：US$0.00011832638\n24H：-3.05%\n4H RSI：63.01\n日線 RSI：78.71\n週線 RSI：31.32\n成交量：26.75×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/spell-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASPELLUSD"
     }
