@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "last_run_id": "20260927T115114Z_f790d975",
-  "updated_at": "2026-09-27T11:52:03.121523Z",
+  "last_run_id": "20260927T121025Z_4ca0079b",
+  "updated_at": "2026-09-27T12:11:01.544528Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T11:52:03.121523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -115,7 +115,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T11:52:03.121523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [
           {
@@ -669,7 +669,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T10:51:56.436523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -718,7 +718,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T11:52:03.121523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -790,10 +790,10 @@
     },
     "WLD": {
       "coingecko_id": "worldcoin-wld",
-      "history_source": "Gate",
+      "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T11:52:03.121523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -957,7 +957,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T11:52:03.121523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1170,7 +1170,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T11:52:03.121523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1360,7 +1360,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T11:52:03.121523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1612,37 +1612,59 @@
     },
     "METIS": {
       "coingecko_id": "metis-token",
-      "history_source": "KuCoin",
+      "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T07:52:26.247342Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
-        "active_signals": [],
-        "seen_signatures": []
-      },
-      "weekly": {
         "active_signals": [
           {
-            "type": "WEEKLY_BULLISH",
-            "signature": "METIS|1W|BULLISH|2026-06-04|2026-08-13",
+            "type": "DAILY_BULLISH",
+            "signature": "METIS|1D|BULLISH|2026-09-10|2026-09-16",
             "pivots": [
               {
-                "timestamp": "2026-06-04",
-                "price": 2.33,
-                "rsi": 29.808980569795096,
+                "timestamp": "2026-09-10",
+                "price": 2.778,
+                "rsi": 53.99449167984357,
                 "confirmed": true
               },
               {
-                "timestamp": "2026-08-13",
-                "price": 2.25,
-                "rsi": 33.60259946658657,
+                "timestamp": "2026-09-16",
+                "price": 2.737,
+                "rsi": 56.02851981996948,
                 "confirmed": true
               }
             ]
           }
         ],
         "seen_signatures": [
-          "METIS|1W|BULLISH|2026-06-04|2026-08-13"
+          "METIS|1D|BULLISH|2026-09-10|2026-09-16"
+        ]
+      },
+      "weekly": {
+        "active_signals": [
+          {
+            "type": "WEEKLY_BULLISH",
+            "signature": "METIS|1W|BULLISH|2026-06-28|2026-08-16",
+            "pivots": [
+              {
+                "timestamp": "2026-06-28",
+                "price": 2.567,
+                "rsi": 35.67581133574268,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-08-16",
+                "price": 2.246,
+                "rsi": 39.23527962008487,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "METIS|1W|BULLISH|2026-06-04|2026-08-13",
+          "METIS|1W|BULLISH|2026-06-28|2026-08-16"
         ]
       }
     },
@@ -1651,7 +1673,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T11:52:03.121523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2168,7 +2190,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T11:52:03.121523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2185,7 +2207,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T11:52:03.121523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [
           {
@@ -2665,7 +2687,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T11:52:03.121523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2731,7 +2753,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T11:52:03.121523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2746,7 +2768,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-27T11:52:03.121523Z",
+      "last_seen_at": "2026-09-27T12:11:01.544528Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
