@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T20:09:11.234999Z",
+  "updated_at_utc": "2026-09-27T20:25:47.484135Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -3431,6 +3431,20 @@
       "last_attempt_at_utc": "2026-09-27T20:09:08.745190Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T200809Z_3b554a2f\n資料來源：CoinGecko＋公開現貨交易所\n\nGRT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.033331436\n幅度級距：+20%\n區間異動：+23.02%\n基準價格：US$0.02709457\n24H：+20.76%\n4H RSI：78.69\n日線 RSI：77.33\n週線 RSI：54.36\n成交量：4.48×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-graph\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AGRTUSD\n\nPOND｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.0016577587\n幅度級距：+10%\n區間異動：+19.59%\n基準價格：US$0.0013862267\n24H：-17.06%\n4H RSI：55.81\n日線 RSI：78.63\n週線 RSI：30.18\n成交量：36.96×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD"
+    },
+    "ntf_e6eff29aa1d7b2a603cf267c7a115f5a": {
+      "notification_id": "ntf_e6eff29aa1d7b2a603cf267c7a115f5a",
+      "run_id": "20260927T202455Z_e17a333c",
+      "created_at_utc": "2026-09-27T20:25:47.484124Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T202455Z_e17a333c\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0016949997\n幅度級距：+20%\n區間異動：+22.27%\n基準價格：US$0.0013862267\n24H：-14.20%\n4H RSI：55.81\n日線 RSI：78.63\n週線 RSI：30.18\n成交量：37.52×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD"
     }
   }
 }
