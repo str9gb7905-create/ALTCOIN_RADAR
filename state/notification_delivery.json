@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T18:29:07.715299Z",
+  "updated_at_utc": "2026-09-27T18:45:08.217322Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -3333,6 +3333,20 @@
       "last_attempt_at_utc": "2026-09-27T18:29:05.535659Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T182809Z_546056ce\n資料來源：CoinGecko＋公開現貨交易所\n\nPHA｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.068279741\n幅度級距：-20%\n區間異動：-20.31%\n基準價格：US$0.085681278\n24H：-13.09%\n4H RSI：51.91\n日線 RSI：87.68\n週線 RSI：62.41\n成交量：6.21×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APHAUSDT"
+    },
+    "ntf_5deb71fc99873d541f7386d20d9a2415": {
+      "notification_id": "ntf_5deb71fc99873d541f7386d20d9a2415",
+      "run_id": "20260927T184412Z_97b0cb4b",
+      "created_at_utc": "2026-09-27T18:45:08.217306Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T184412Z_97b0cb4b\n資料來源：CoinGecko＋公開現貨交易所\n\nAUDIO｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.019057805\n幅度級距：+30%\n區間異動：+32.58%\n基準價格：US$0.014374644\n24H：+32.24%\n4H RSI：87.56\n日線 RSI：72.39\n週線 RSI：35.20\n成交量：51.57×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAUDIOUSD\n\nXAI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0099502599\n幅度級距：+10%\n區間異動：+10.32%\n基準價格：US$0.0090197965\n24H：+7.61%\n4H RSI：61.42\n日線 RSI：67.16\n週線 RSI：40.12\n成交量：2.02×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXAIUSDT"
     }
   }
 }
