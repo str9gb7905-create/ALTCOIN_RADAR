@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T20:39:19.488113Z",
+  "updated_at_utc": "2026-09-27T21:08:44.246389Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -3459,6 +3459,20 @@
       "last_attempt_at_utc": "2026-09-27T20:39:16.756404Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T203836Z_54ea742d\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0018303869\n幅度級距：+30%\n區間異動：+32.04%\n基準價格：US$0.0013862267\n24H：-4.19%\n4H RSI：55.81\n日線 RSI：78.63\n週線 RSI：30.18\n成交量：41.37×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD"
+    },
+    "ntf_f0a1c58d7f1fdc3aa71cbb2cfbd098f7": {
+      "notification_id": "ntf_f0a1c58d7f1fdc3aa71cbb2cfbd098f7",
+      "run_id": "20260927T210800Z_f1ccb6a2",
+      "created_at_utc": "2026-09-27T21:08:44.246375Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T210800Z_f1ccb6a2\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$198.40982\n幅度級距：+60%\n區間異動：+64.04%\n基準價格：US$120.94945\n24H：+63.62%\n4H RSI：87.47\n日線 RSI：91.83\n週線 RSI：52.89\n成交量：174.58×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSDC\n\nONE｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0027998229\n幅度級距：+30%\n區間異動：+33.54%\n基準價格：US$0.002096595\n24H：+24.93%\n4H RSI：48.90\n日線 RSI：52.31\n週線 RSI：57.80\n成交量：1.47×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT\n\nGRT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.032652487\n幅度級距：+20%\n區間異動：+20.51%\n基準價格：US$0.02709457\n24H：+18.52%\n4H RSI：78.69\n日線 RSI：77.33\n週線 RSI：54.36\n成交量：5.35×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-graph\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AGRTUSD"
     }
   }
 }
