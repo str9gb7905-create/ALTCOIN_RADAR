@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T08:53:39.135934Z",
+  "updated_at_utc": "2026-09-27T08:53:41.140909Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -2890,13 +2890,13 @@
       "notification_id": "ntf_63a52e398fcb1b0aa1b35afb58722059",
       "run_id": "20260927T085235Z_3974b085",
       "created_at_utc": "2026-09-27T08:53:39.135916Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-27T08:53:41.140895Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T085235Z_3974b085\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0015011027\n幅度級距：-40%\n區間異動：-40.30%\n基準價格：US$0.0025146178\n24H：-24.57%\n4H RSI：52.33\n日線 RSI：78.63\n週線 RSI：30.18\n成交量：85.25×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nONE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0021227321\n幅度級距：-10%\n區間異動：-10.37%\n基準價格：US$0.0023682297\n24H：-9.54%\n4H RSI：43.78\n日線 RSI：52.31\n週線 RSI：57.80\n成交量：1.27×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT\n\nNOS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.47488541\n幅度級距：+10%\n區間異動：+10.10%\n基準價格：US$0.43134066\n24H：+10.15%\n4H RSI：71.69\n日線 RSI：82.28\n週線 RSI：61.73\n成交量：1.22×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD"
     }
