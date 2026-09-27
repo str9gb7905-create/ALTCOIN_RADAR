@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-27T18:45:12.644077Z",
+  "updated_at_utc": "2026-09-27T18:57:35.962420Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -3347,6 +3347,20 @@
       "last_attempt_at_utc": "2026-09-27T18:45:10.199124Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T184412Z_97b0cb4b\n資料來源：CoinGecko＋公開現貨交易所\n\nAUDIO｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.019057805\n幅度級距：+30%\n區間異動：+32.58%\n基準價格：US$0.014374644\n24H：+32.24%\n4H RSI：87.56\n日線 RSI：72.39\n週線 RSI：35.20\n成交量：51.57×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAUDIOUSD\n\nXAI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0099502599\n幅度級距：+10%\n區間異動：+10.32%\n基準價格：US$0.0090197965\n24H：+7.61%\n4H RSI：61.42\n日線 RSI：67.16\n週線 RSI：40.12\n成交量：2.02×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXAIUSDT"
+    },
+    "ntf_aa70df3486a86cabde747c6c9e0db49d": {
+      "notification_id": "ntf_aa70df3486a86cabde747c6c9e0db49d",
+      "run_id": "20260927T185636Z_7d1ccbff",
+      "created_at_utc": "2026-09-27T18:57:35.962406Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260927T185636Z_7d1ccbff\n資料來源：CoinGecko＋公開現貨交易所\n\nOLAS｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.046256073\n幅度級距：+20%\n區間異動：+20.01%\n基準價格：US$0.038542852\n24H：+14.49%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.26×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/autonolas\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AOLASUSDT\n\nGRT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.030070947\n幅度級距：+10%\n區間異動：+10.99%\n基準價格：US$0.02709457\n24H：+8.35%\n4H RSI：62.43\n日線 RSI：77.33\n週線 RSI：54.36\n成交量：2.14×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-graph\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AGRTUSD\n\nWLD｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.56881566\n幅度級距：+10%\n區間異動：+10.72%\n基準價格：US$0.51372431\n24H：+6.53%\n4H RSI：67.19\n日線 RSI：66.43\n週線 RSI：51.91\n成交量：2.42×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/worldcoin-wld\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWLDUSDT\n\nENA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.29335406\n幅度級距：+10%\n區間異動：+10.15%\n基準價格：US$0.26631996\n24H：+7.72%\n4H RSI：71.65\n日線 RSI：79.01\n週線 RSI：65.63\n成交量：1.01×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENAUSDT"
     }
   }
 }
