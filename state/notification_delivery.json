@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T21:42:47.826172Z",
+  "updated_at_utc": "2026-09-28T21:42:49.863822Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4528,13 +4528,13 @@
       "notification_id": "ntf_6fc0298a48ad8150c74e7dfe9c529f07",
       "run_id": "20260928T214129Z_3f6bc874",
       "created_at_utc": "2026-09-28T21:42:47.826143Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-28T21:42:49.863806Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T214129Z_3f6bc874\n資料來源：CoinGecko＋公開現貨交易所\n\nCC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.12907625\n幅度級距：-10%\n區間異動：-10.49%\n基準價格：US$0.14420085\n24H：-5.57%\n4H RSI：47.38\n日線 RSI：69.31\n週線 RSI：53.55\n成交量：4.46×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/canton-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACCUSDT"
     }
