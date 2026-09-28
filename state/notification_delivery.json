@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T13:57:37.299800Z",
+  "updated_at_utc": "2026-09-28T14:14:50.023484Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4215,6 +4215,20 @@
       "last_attempt_at_utc": "2026-09-28T13:57:34.924391Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T135627Z_7100ad5b\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0024881952\n幅度級距：-10%\n區間異動：-13.44%\n基準價格：US$0.0028745112\n24H：+12.23%\n4H RSI：48.41\n日線 RSI：53.32\n週線 RSI：57.80\n成交量：1.70×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT"
+    },
+    "ntf_f3531f8778b8bf706b93da468983d9b1": {
+      "notification_id": "ntf_f3531f8778b8bf706b93da468983d9b1",
+      "run_id": "20260928T141337Z_ccee10c5",
+      "created_at_utc": "2026-09-28T14:14:50.023468Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T141337Z_ccee10c5\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.0025102813\n幅度級距：+10%\n區間異動：+12.69%\n基準價格：US$0.0022275335\n24H：+12.32%\n4H RSI：48.41\n日線 RSI：53.32\n週線 RSI：57.80\n成交量：1.69×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT\n\nFLOCK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.064872503\n幅度級距：-10%\n區間異動：-11.10%\n基準價格：US$0.072969416\n24H：-8.39%\n4H RSI：33.73\n日線 RSI：55.16\n週線 RSI：56.10\n成交量：1.34×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/flock-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFLOCKUSDT\n\nZEN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$7.1271258\n幅度級距：-10%\n區間異動：-10.24%\n基準價格：US$7.9406168\n24H：-8.77%\n4H RSI：38.45\n日線 RSI：60.21\n週線 RSI：59.28\n成交量：1.16×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/zencash\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AZENUSD\n\nARB｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.20769344\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$0.23100658\n24H：-6.75%\n4H RSI：41.35\n日線 RSI：67.55\n週線 RSI：72.58\n成交量：2.23×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arbitrum\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARBUSDT"
     }
   }
 }
