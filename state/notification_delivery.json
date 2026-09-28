@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T23:27:03.715947Z",
+  "updated_at_utc": "2026-09-28T23:41:03.203967Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4621,6 +4621,20 @@
       "last_attempt_at_utc": "2026-09-28T23:27:01.248496Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T232534Z_d813522f\n資料來源：CoinGecko＋公開現貨交易所\n\nCPOOL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.036779175\n幅度級距：+10%\n區間異動：+11.23%\n基準價格：US$0.033064768\n24H：+0.99%\n4H RSI：56.20\n日線 RSI：72.20\n週線 RSI：59.49\n成交量：1.31×｜NORMAL\n背離：DAILY_BULLISH, WEEKLY_BULLISH\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACPOOLUSD"
+    },
+    "ntf_9e47e84aad7859e692a1d76da9d806c3": {
+      "notification_id": "ntf_9e47e84aad7859e692a1d76da9d806c3",
+      "run_id": "20260928T233940Z_c48b1fed",
+      "created_at_utc": "2026-09-28T23:41:03.203949Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T233940Z_c48b1fed\n資料來源：CoinGecko＋公開現貨交易所\n\nCRO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.069943546\n幅度級距：+10%\n區間異動：+10.35%\n基準價格：US$0.063383606\n24H：+5.23%\n4H RSI：60.47\n日線 RSI：61.70\n週線 RSI：46.76\n成交量：3.12×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/crypto-com-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ACROUSD"
     }
   }
 }
