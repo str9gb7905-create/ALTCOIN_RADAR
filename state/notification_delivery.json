@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T02:57:00.931514Z",
+  "updated_at_utc": "2026-09-28T03:11:34.300402Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -3739,6 +3739,20 @@
       "last_attempt_at_utc": "2026-09-28T02:56:58.724855Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T025559Z_fe2c5f1a\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$271.5593\n幅度級距：+70%\n區間異動：+70.74%\n基準價格：US$159.045\n24H：+64.22%\n4H RSI：94.16\n日線 RSI：96.69\n週線 RSI：52.89\n成交量：372.12×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD\n\nPOND｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0014823689\n幅度級距：-20%\n區間異動：-21.29%\n基準價格：US$0.0018834224\n24H：-2.91%\n4H RSI：55.36\n日線 RSI：75.30\n週線 RSI：30.18\n成交量：23.51×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nOLAS｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.046808831\n幅度級距：+20%\n區間異動：+20.23%\n基準價格：US$0.038933433\n24H：+14.54%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.36×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/autonolas\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AOLASUSDT\n\nFLOCK｜首次觸發\n觸發：由近24H高點下跌\n價格：US$0.067248434\n幅度級距：-10%\n區間異動：-10.28%\n基準價格：US$0.074957565\n24H：-9.65%\n4H RSI：46.16\n日線 RSI：55.16\n週線 RSI：56.10\n成交量：0.49×｜WEAK\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/flock-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFLOCKUSDT"
+    },
+    "ntf_958c019c872d8bede8b45ee533de8950": {
+      "notification_id": "ntf_958c019c872d8bede8b45ee533de8950",
+      "run_id": "20260928T031047Z_49b867b4",
+      "created_at_utc": "2026-09-28T03:11:34.300386Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T031047Z_49b867b4\n資料來源：CoinGecko＋公開現貨交易所\n\nSNEK｜首次觸發\n觸發：由近24H高點下跌\n價格：US$0.00056526691\n幅度級距：-10%\n區間異動：-10.33%\n基準價格：US$0.00063036142\n24H：-8.71%\n4H RSI：46.64\n日線 RSI：66.30\n週線 RSI：52.65\n成交量：1.69×｜ELEVATED\n背離：DAILY_BEARISH\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/snek\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ASNEKUSDT"
     }
   }
 }
