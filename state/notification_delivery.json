@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T20:58:04.584478Z",
+  "updated_at_utc": "2026-09-28T21:28:46.423423Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4509,6 +4509,20 @@
       "last_attempt_at_utc": "2026-09-28T20:58:01.078551Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T205634Z_f5124ebe\n資料來源：CoinGecko＋公開現貨交易所\n\nCRO｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.069877788\n幅度級距：+10%\n區間異動：+10.25%\n基準價格：US$0.063383606\n24H：+3.74%\n4H RSI：60.47\n日線 RSI：61.70\n週線 RSI：46.76\n成交量：3.15×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/crypto-com-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ACROUSD\n\nOP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.13410009\n幅度級距：-10%\n區間異動：-10.02%\n基準價格：US$0.14902879\n24H：-7.74%\n4H RSI：42.54\n日線 RSI：71.38\n週線 RSI：46.80\n成交量：1.07×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/optimism\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOPUSD"
+    },
+    "ntf_eb758c92f7249be60f3a04983acd1aee": {
+      "notification_id": "ntf_eb758c92f7249be60f3a04983acd1aee",
+      "run_id": "20260928T212713Z_0cb3dbf4",
+      "created_at_utc": "2026-09-28T21:28:46.423406Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T212713Z_0cb3dbf4\n資料來源：CoinGecko＋公開現貨交易所\n\nLNQ｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.014607944\n幅度級距：+20%\n區間異動：+20.45%\n基準價格：US$0.01212732\n24H：+9.82%\n4H RSI：62.66\n日線 RSI：72.00\n週線 RSI：69.44\n成交量：1.66×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/linqai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ALNQUSDT\n\nIMX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.17213197\n幅度級距：-10%\n區間異動：-10.35%\n基準價格：US$0.19200505\n24H：-4.09%\n4H RSI：52.07\n日線 RSI：80.65\n週線 RSI：47.89\n成交量：7.82×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD\n\nOP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.13385949\n幅度級距：-10%\n區間異動：-10.18%\n基準價格：US$0.14902879\n24H：-9.04%\n4H RSI：42.54\n日線 RSI：71.38\n週線 RSI：46.80\n成交量：1.11×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/optimism\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOPUSD"
     }
   }
 }
