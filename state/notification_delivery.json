@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T19:44:34.053045Z",
+  "updated_at_utc": "2026-09-28T19:56:42.548842Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4467,6 +4467,20 @@
       "last_attempt_at_utc": "2026-09-28T19:44:30.785105Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T194256Z_a30f7bf4\n資料來源：CoinGecko＋公開現貨交易所\n\nOP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.13266004\n幅度級距：-10%\n區間異動：-10.98%\n基準價格：US$0.14902879\n24H：-9.68%\n4H RSI：44.36\n日線 RSI：71.38\n週線 RSI：46.80\n成交量：1.06×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/optimism\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOPUSD\n\nPENGU｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0093087817\n幅度級距：-10%\n區間異動：-10.36%\n基準價格：US$0.010384328\n24H：-8.04%\n4H RSI：43.51\n日線 RSI：67.75\n週線 RSI：57.26\n成交量：2.85×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pudgy-penguins\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APENGUUSD\n\nCKB｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0012968849\n幅度級距：-10%\n區間異動：-10.28%\n基準價格：US$0.001445482\n24H：-9.82%\n4H RSI：37.96\n日線 RSI：69.32\n週線 RSI：53.11\n成交量：2.30×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nervos-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACKBUSDT\n\nXPL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.097519485\n幅度級距：-10%\n區間異動：-10.05%\n基準價格：US$0.10841829\n24H：-8.57%\n4H RSI：39.25\n日線 RSI：59.16\n週線 RSI：36.73\n成交量：1.60×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/plasma\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AXPLUSDT"
+    },
+    "ntf_7a66f00b085f9028fd594deefafeb016": {
+      "notification_id": "ntf_7a66f00b085f9028fd594deefafeb016",
+      "run_id": "20260928T195511Z_21579b79",
+      "created_at_utc": "2026-09-28T19:56:42.548827Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T195511Z_21579b79\n資料來源：CoinGecko＋公開現貨交易所\n\nCRV｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.35782638\n幅度級距：+10%\n區間異動：+10.46%\n基準價格：US$0.32393249\n24H：+2.09%\n4H RSI：40.76\n日線 RSI：54.55\n週線 RSI：57.28\n成交量：2.46×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/curve-dao-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACRVUSD"
     }
   }
 }
