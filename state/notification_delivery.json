@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T14:59:46.586700Z",
+  "updated_at_utc": "2026-09-28T15:18:15.009526Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4257,6 +4257,20 @@
       "last_attempt_at_utc": "2026-09-28T14:59:44.123051Z",
       "event_count": 16,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T145741Z_4c990919\n資料來源：CoinGecko＋公開現貨交易所\n同批異動過多；以下顯示幅度最高的詳細資料。\n\nIMX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.16929916\n幅度級距：-10%\n區間異動：-11.83%\n基準價格：US$0.19200505\n24H：+1.36%\n4H RSI：62.85\n日線 RSI：80.65\n週線 RSI：47.89\n成交量：7.72×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD\n\nCHR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.021054729\n幅度級距：-10%\n區間異動：-11.31%\n基準價格：US$0.02373903\n24H：-9.68%\n4H RSI：48.62\n日線 RSI：76.04\n週線 RSI：50.50\n成交量：1.16×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chromaway\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACHRUSDT\n\nPIXEL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0054846578\n幅度級距：-10%\n區間異動：-11.02%\n基準價格：US$0.0061641165\n24H：-8.90%\n4H RSI：43.61\n日線 RSI：65.29\n週線 RSI：45.56\n成交量：2.60×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pixels\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3APIXELUSDT\n\n其他同批觸發（11 種）：\nHFT, NOS, DUSK, XAI, XPL, ATOM, CPOOL, ACH, ACE, HIGH, CKB"
+    },
+    "ntf_48dc3dc178e2651ea2bc9fae8a67c058": {
+      "notification_id": "ntf_48dc3dc178e2651ea2bc9fae8a67c058",
+      "run_id": "20260928T151616Z_b8984ecf",
+      "created_at_utc": "2026-09-28T15:18:15.009510Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 6,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T151616Z_b8984ecf\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.0025557099\n幅度級距：+10%\n區間異動：+12.36%\n基準價格：US$0.0022744815\n24H：+12.69%\n4H RSI：48.41\n日線 RSI：53.32\n週線 RSI：57.80\n成交量：1.59×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT\n\nNEAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.8882617\n幅度級距：-10%\n區間異動：-11.79%\n基準價格：US$5.5415336\n24H：-5.59%\n4H RSI：57.17\n日線 RSI：86.96\n週線 RSI：78.06\n成交量：2.77×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ANEARUSDT\n\nCC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.12795417\n幅度級距：-10%\n區間異動：-11.27%\n基準價格：US$0.14420085\n24H：-4.17%\n4H RSI：50.70\n日線 RSI：69.31\n週線 RSI：53.55\n成交量：4.13×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/canton-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACCUSDT\n\nIO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.15361928\n幅度級距：-10%\n區間異動：-10.36%\n基準價格：US$0.17137483\n24H：-7.34%\n4H RSI：44.71\n日線 RSI：68.52\n週線 RSI：51.13\n成交量：1.23×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/io\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIOUSD\n\nOP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.13396078\n幅度級距：-10%\n區間異動：-10.11%\n基準價格：US$0.14902879\n24H：-5.87%\n4H RSI：48.45\n日線 RSI：71.38\n週線 RSI：46.80\n成交量：0.98×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/optimism\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOPUSD\n\nMAVIA｜首次觸發\n觸發：由近24H高點下跌\n價格：US$0.030929107\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$0.034386799\n24H：-9.54%\n4H RSI：34.40\n日線 RSI：64.09\n週線 RSI：46.63\n成交量：1.07×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/heroes-of-mavia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMAVIAUSDT"
     }
   }
 }
