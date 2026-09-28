@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T12:36:11.441279Z",
+  "updated_at_utc": "2026-09-28T12:58:35.878393Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4159,6 +4159,20 @@
       "last_attempt_at_utc": "2026-09-28T12:36:08.965716Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T123446Z_f82fdeb7\n資料來源：CoinGecko＋公開現貨交易所\n\nAUDIO｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.016554411\n幅度級距：-20%\n區間異動：-20.49%\n基準價格：US$0.02082131\n24H：-5.02%\n4H RSI：61.98\n日線 RSI：80.91\n週線 RSI：35.20\n成交量：43.77×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAUDIOUSDC\n\nIOTA｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.054260133\n幅度級距：+10%\n區間異動：+10.14%\n基準價格：US$0.049263554\n24H：+6.95%\n4H RSI：64.15\n日線 RSI：66.80\n週線 RSI：49.59\n成交量：4.50×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iota\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOTAUSDT"
+    },
+    "ntf_196926e1a5c8753b2c58ba3673ca5500": {
+      "notification_id": "ntf_196926e1a5c8753b2c58ba3673ca5500",
+      "run_id": "20260928T125740Z_20883513",
+      "created_at_utc": "2026-09-28T12:58:35.878375Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T125740Z_20883513\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0025396479\n幅度級距：+20%\n區間異動：+21.13%\n基準價格：US$0.002096595\n24H：+18.66%\n4H RSI：48.41\n日線 RSI：53.32\n週線 RSI：57.80\n成交量：1.68×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT\n\nXDC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.034440002\n幅度級距：+10%\n區間異動：+10.31%\n基準價格：US$0.031220088\n24H：+9.17%\n4H RSI：71.95\n日線 RSI：71.21\n週線 RSI：44.75\n成交量：9.37×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xdce-crowd-sale\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXDCUSDT"
     }
   }
 }
