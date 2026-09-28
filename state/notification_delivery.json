@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T06:59:58.195231Z",
+  "updated_at_utc": "2026-09-28T07:19:30.621565Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -3935,6 +3935,20 @@
       "last_attempt_at_utc": "2026-09-28T06:59:55.436832Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T065849Z_8988adf6\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$286.85157\n幅度級距：+80%\n區間異動：+80.36%\n基準價格：US$159.045\n24H：+66.24%\n4H RSI：81.22\n日線 RSI：96.69\n週線 RSI：52.89\n成交量：402.77×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD"
+    },
+    "ntf_89a696732203c00989a328a0f74c32a6": {
+      "notification_id": "ntf_89a696732203c00989a328a0f74c32a6",
+      "run_id": "20260928T071829Z_d20ec4d2",
+      "created_at_utc": "2026-09-28T07:19:30.621545Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T071829Z_d20ec4d2\n資料來源：CoinGecko＋公開現貨交易所\n\nAUDIO｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.018627243\n幅度級距：+20%\n區間異動：+26.85%\n基準價格：US$0.014684799\n24H：+25.02%\n4H RSI：59.90\n日線 RSI：80.91\n週線 RSI：35.20\n成交量：49.99×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAUDIOUSD\n\nOLAS｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.048069386\n幅度級距：+20%\n區間異動：+22.16%\n基準價格：US$0.039350459\n24H：+21.87%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.34×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/autonolas\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AOLASUSDT\n\nENA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.26354602\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.29335406\n24H：-2.70%\n4H RSI：62.71\n日線 RSI：79.39\n週線 RSI：65.63\n成交量：1.35×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENAUSDT"
     }
   }
 }
