@@ -163,5 +163,10 @@
   {"symbol": "LSK", "name": "Lisk", "source": "CoinMarketCap", "coingecko_id": "lisk", "enabled": true, "needs_review": false},
   {"symbol": "QNT", "name": "Quant", "source": "CoinMarketCap", "coingecko_id": "quant-network", "enabled": true, "needs_review": false},
   {"symbol": "STEEM", "name": "Steem", "source": "CoinMarketCap", "coingecko_id": "steem", "enabled": true, "needs_review": false},
-  {"symbol": "WAVES", "name": "Waves", "source": "CoinMarketCap", "coingecko_id": "waves", "enabled": true, "needs_review": false}
+  {"symbol": "WAVES", "name": "Waves", "source": "CoinMarketCap", "coingecko_id": "waves", "enabled": true, "needs_review": false},
+  {"symbol": "BGB", "name": "Bitget Token", "source": "CoinMarketCap", "coingecko_id": "bitget-token", "enabled": true, "needs_review": false},
+  {"symbol": "CAT", "name": "Simon's Cat", "source": "CoinMarketCap", "coingecko_id": "simons-cat", "enabled": true, "needs_review": false},
+  {"symbol": "SC", "name": "Siacoin", "source": "CoinMarketCap", "coingecko_id": "siacoin", "enabled": true, "needs_review": false},
+  {"symbol": "SNT", "name": "Status", "source": "CoinMarketCap", "coingecko_id": "status", "enabled": true, "needs_review": false},
+  {"symbol": "XTZ", "name": "Tezos", "source": "CoinMarketCap", "coingecko_id": "tezos", "enabled": true, "needs_review": false}
 ]

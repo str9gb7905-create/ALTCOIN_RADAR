@@ -13,8 +13,8 @@ def complete_stage_a(_run_id):
     return {
         "exit_code": 0,
         "scan_status": "MARKET_DATA_COMPLETE",
-        "mapped_total": 165,
-        "market_data_returned": 165,
+        "mapped_total": 170,
+        "market_data_returned": 170,
         "coverage_percent": 100.0,
         "trigger_count": 4,
     }
@@ -82,11 +82,11 @@ class CloudReadinessTests(unittest.TestCase):
         self.assertEqual(result["stage_b_attempted"], 4)
         self.assertEqual(result["divergence_attempted"], 4)
 
-    def test_canonical_watchlist_is_fully_mapped_165_asset_release(self):
+    def test_canonical_watchlist_is_fully_mapped_170_asset_release(self):
         result = validate_canonical_watchlist()
-        self.assertEqual(165, result["asset_count"])
-        self.assertEqual(165, result["mapped_count"])
-        self.assertEqual(165, result["enabled_count"])
+        self.assertEqual(170, result["asset_count"])
+        self.assertEqual(170, result["mapped_count"])
+        self.assertEqual(170, result["enabled_count"])
         self.assertEqual(0, result["needs_review_count"])
         self.assertEqual([], result["conflicts"])
 
