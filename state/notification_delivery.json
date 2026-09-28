@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T10:30:52.533867Z",
+  "updated_at_utc": "2026-09-28T10:47:41.623368Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4089,6 +4089,20 @@
       "last_attempt_at_utc": "2026-09-28T10:30:49.520860Z",
       "event_count": 7,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T102925Z_ab6216b7\n資料來源：CoinGecko＋公開現貨交易所\n\nAIOT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.061779886\n幅度級距：+10%\n區間異動：+12.95%\n基準價格：US$0.054698015\n24H：+12.91%\n4H RSI：80.61\n日線 RSI：81.37\n週線 RSI：35.62\n成交量：2.25×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/okzoo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAIOTUSDT\n\nJUV｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.3271879\n幅度級距：-10%\n區間異動：-10.74%\n基準價格：US$0.3665549\n24H：+1.47%\n4H RSI：67.22\n日線 RSI：69.42\n週線 RSI：38.76\n成交量：32.24×｜STRONG\n背離：DAILY_BULLISH\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/juventus-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AJUVUSDT\n\nVTHO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00071044847\n幅度級距：-10%\n區間異動：-10.14%\n基準價格：US$0.00079060927\n24H：-9.73%\n4H RSI：36.75\n日線 RSI：63.98\n週線 RSI：65.89\n成交量：0.54×｜WEAK\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vethor-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AVTHOUSD\n\nCOTI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.013489648\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$0.015009795\n24H：-10.27%\n4H RSI：27.48\n日線 RSI：46.10\n週線 RSI：51.48\n成交量：3.13×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coti\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACOTIUSDT"
+    },
+    "ntf_a9f58d496d776e5707a682e22420fe49": {
+      "notification_id": "ntf_a9f58d496d776e5707a682e22420fe49",
+      "run_id": "20260928T104639Z_7e623fbc",
+      "created_at_utc": "2026-09-28T10:47:41.623331Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T104639Z_7e623fbc\n資料來源：CoinGecko＋公開現貨交易所\n\nCHEX｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.019535472\n幅度級距：+70%\n區間異動：+72.17%\n基準價格：US$0.011346373\n24H：+71.61%\n4H RSI：93.10\n日線 RSI：73.10\n週線 RSI：36.68\n成交量：13.14×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACHEXUSD\n\nAUDIO｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.016533319\n幅度級距：-20%\n區間異動：-20.59%\n基準價格：US$0.02082131\n24H：+11.93%\n4H RSI：67.56\n日線 RSI：80.91\n週線 RSI：35.20\n成交量：45.61×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAUDIOUSD\n\nFLOCK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.064349569\n幅度級距：-10%\n區間異動：-11.81%\n基準價格：US$0.072969416\n24H：-10.24%\n4H RSI：36.61\n日線 RSI：55.16\n週線 RSI：56.10\n成交量：1.13×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/flock-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFLOCKUSDT\n\nRAD｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.24909857\n幅度級距：-10%\n區間異動：-10.15%\n基準價格：US$0.27723967\n24H：-3.30%\n4H RSI：43.78\n日線 RSI：66.03\n週線 RSI：51.08\n成交量：1.45×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSD"
     }
   }
 }
