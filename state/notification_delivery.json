@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T02:28:01.735199Z",
+  "updated_at_utc": "2026-09-28T02:56:56.699788Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -3725,6 +3725,20 @@
       "last_attempt_at_utc": "2026-09-28T02:27:59.262257Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T022703Z_235f5f4b\n資料來源：CoinGecko＋公開現貨交易所\n\nOLAS｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.046887617\n幅度級距：+20%\n區間異動：+20.43%\n基準價格：US$0.038933433\n24H：+20.30%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.36×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/autonolas\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AOLASUSDT\n\nXDC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.03337311\n幅度級距：+10%\n區間異動：+10.15%\n基準價格：US$0.030297075\n24H：+10.61%\n4H RSI：76.57\n日線 RSI：71.21\n週線 RSI：44.75\n成交量：4.89×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xdce-crowd-sale\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXDCUSDT"
+    },
+    "ntf_c16779c5ac4c3efeb1615d87b6d39d2f": {
+      "notification_id": "ntf_c16779c5ac4c3efeb1615d87b6d39d2f",
+      "run_id": "20260928T025559Z_fe2c5f1a",
+      "created_at_utc": "2026-09-28T02:56:56.699775Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T025559Z_fe2c5f1a\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$271.5593\n幅度級距：+70%\n區間異動：+70.74%\n基準價格：US$159.045\n24H：+64.22%\n4H RSI：94.16\n日線 RSI：96.69\n週線 RSI：52.89\n成交量：372.12×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD\n\nPOND｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0014823689\n幅度級距：-20%\n區間異動：-21.29%\n基準價格：US$0.0018834224\n24H：-2.91%\n4H RSI：55.36\n日線 RSI：75.30\n週線 RSI：30.18\n成交量：23.51×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nOLAS｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.046808831\n幅度級距：+20%\n區間異動：+20.23%\n基準價格：US$0.038933433\n24H：+14.54%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.36×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/autonolas\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AOLASUSDT\n\nFLOCK｜首次觸發\n觸發：由近24H高點下跌\n價格：US$0.067248434\n幅度級距：-10%\n區間異動：-10.28%\n基準價格：US$0.074957565\n24H：-9.65%\n4H RSI：46.16\n日線 RSI：55.16\n週線 RSI：56.10\n成交量：0.49×｜WEAK\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/flock-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFLOCKUSDT"
     }
   }
 }
