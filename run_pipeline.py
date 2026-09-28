@@ -67,7 +67,7 @@ def validate_canonical_watchlist(path: Path = WATCHLIST_PATH) -> dict[str, Any]:
         "STEEM_mapped": mapping.get("STEEM") == "steem",
         "WAVES_mapped": mapping.get("WAVES") == "waves",
         "BGB_mapped": mapping.get("BGB") == "bitget-token",
-        "CAT_mapped": mapping.get("CAT") == "simons-cat",
+        "CAT_mapped": mapping.get("CAT") == "simon-s-cat",
         "SC_mapped": mapping.get("SC") == "siacoin",
         "SNT_mapped": mapping.get("SNT") == "status",
         "XTZ_mapped": mapping.get("XTZ") == "tezos",
