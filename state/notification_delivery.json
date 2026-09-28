@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T05:56:58.573279Z",
+  "updated_at_utc": "2026-09-28T06:14:56.282341Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -3893,6 +3893,20 @@
       "last_attempt_at_utc": "2026-09-28T05:56:55.741134Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T055556Z_b116c429\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0014774285\n幅度級距：-20%\n區間異動：-21.56%\n基準價格：US$0.0018834224\n24H：-2.93%\n4H RSI：51.43\n日線 RSI：75.30\n週線 RSI：30.18\n成交量：19.24×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nNOS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.41823958\n幅度級距：-10%\n區間異動：-11.95%\n基準價格：US$0.47499002\n24H：-9.21%\n4H RSI：56.87\n日線 RSI：81.67\n週線 RSI：61.73\n成交量：1.20×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD\n\nXDC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.033843672\n幅度級距：+10%\n區間異動：+11.71%\n基準價格：US$0.030297075\n24H：+11.43%\n4H RSI：65.57\n日線 RSI：70.79\n週線 RSI：55.27\n成交量：5.82×｜STRONG\n背離：DAILY_BULLISH\n現貨來源：Bybit｜歷史來源：Bybit\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xdce-crowd-sale\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BYBIT%3AXDCUSDT"
+    },
+    "ntf_6c47fd2babcc7ec87f6f0137dc927122": {
+      "notification_id": "ntf_6c47fd2babcc7ec87f6f0137dc927122",
+      "run_id": "20260928T061354Z_8c61a9a5",
+      "created_at_utc": "2026-09-28T06:14:56.282316Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T061354Z_8c61a9a5\n資料來源：CoinGecko＋公開現貨交易所\n\nAUDIO｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.017946861\n幅度級距：+20%\n區間異動：+22.21%\n基準價格：US$0.014684799\n24H：+20.58%\n4H RSI：59.90\n日線 RSI：80.91\n週線 RSI：35.20\n成交量：46.19×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAUDIOUSD\n\nIMX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.18307387\n幅度級距：+10%\n區間異動：+10.27%\n基準價格：US$0.16602794\n24H：+10.09%\n4H RSI：67.38\n日線 RSI：80.65\n週線 RSI：47.89\n成交量：2.72×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD"
     }
   }
 }
