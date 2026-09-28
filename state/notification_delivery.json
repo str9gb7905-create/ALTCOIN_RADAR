@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T05:09:38.321441Z",
+  "updated_at_utc": "2026-09-28T05:09:40.578715Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -3842,13 +3842,13 @@
       "notification_id": "ntf_d176b35d7be5de43660a927214de983c",
       "run_id": "20260928T050839Z_0951de06",
       "created_at_utc": "2026-09-28T05:09:38.321426Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-28T05:09:40.578701Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T050839Z_0951de06\n資料來源：CoinGecko＋公開現貨交易所\n\nCHEX｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.018031672\n幅度級距：+60%\n區間異動：+62.74%\n基準價格：US$0.011080331\n24H：+62.51%\n4H RSI：91.65\n日線 RSI：74.62\n週線 RSI：43.33\n成交量：4.55×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACHEXUSDT\n\nOLAS｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.048540432\n幅度級距：+20%\n區間異動：+24.68%\n基準價格：US$0.038933433\n24H：+24.67%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.49×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/autonolas\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AOLASUSDT\n\nAUDIO｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.017217803\n幅度級距：-10%\n區間異動：-17.31%\n基準價格：US$0.02082131\n24H：+17.93%\n4H RSI：59.90\n日線 RSI：80.91\n週線 RSI：35.20\n成交量：42.83×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAUDIOUSD"
     }
