@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T13:16:21.763752Z",
+  "updated_at_utc": "2026-09-28T13:35:12.516216Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4187,6 +4187,20 @@
       "last_attempt_at_utc": "2026-09-28T13:16:18.916461Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T131459Z_426c26e7\n資料來源：CoinGecko＋公開現貨交易所\n\nCHEX｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.020851392\n幅度級距：+80%\n區間異動：+83.77%\n基準價格：US$0.011346373\n24H：+81.65%\n4H RSI：93.82\n日線 RSI：73.10\n週線 RSI：36.68\n成交量：17.27×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACHEXUSD\n\nMERL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.028122792\n幅度級距：-10%\n區間異動：-10.35%\n基準價格：US$0.031368402\n24H：-7.40%\n4H RSI：40.12\n日線 RSI：71.54\n週線 RSI：42.88\n成交量：0.83×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AMERLUSD\n\nW｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.014374508\n幅度級距：-10%\n區間異動：-10.31%\n基準價格：US$0.016026416\n24H：+0.99%\n4H RSI：57.95\n日線 RSI：79.55\n週線 RSI：51.42\n成交量：10.19×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWUSDT"
+    },
+    "ntf_9714dfb12da24b24a5be7c62ba9da2c9": {
+      "notification_id": "ntf_9714dfb12da24b24a5be7c62ba9da2c9",
+      "run_id": "20260928T133349Z_3bd6ff54",
+      "created_at_utc": "2026-09-28T13:35:12.516196Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T133349Z_3bd6ff54\n資料來源：CoinGecko＋公開現貨交易所\n\nLNQ｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.014608782\n幅度級距：+20%\n區間異動：+20.46%\n基準價格：US$0.01212732\n24H：+9.45%\n4H RSI：64.42\n日線 RSI：68.63\n週線 RSI：69.44\n成交量：1.49×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/linqai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ALNQUSDT"
     }
   }
 }
