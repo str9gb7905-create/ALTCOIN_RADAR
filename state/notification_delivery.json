@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-28T12:11:58.726970Z",
+  "updated_at_utc": "2026-09-28T12:36:06.730166Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4145,6 +4145,20 @@
       "last_attempt_at_utc": "2026-09-28T12:11:55.858245Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T121055Z_9afbc199\n資料來源：CoinGecko＋公開現貨交易所\n\nLNQ｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.014564115\n幅度級距：+20%\n區間異動：+20.09%\n基準價格：US$0.01212732\n24H：+8.35%\n4H RSI：64.42\n日線 RSI：68.63\n週線 RSI：69.44\n成交量：1.43×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/linqai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ALNQUSDT"
+    },
+    "ntf_1f7ae3f93d7454b8a46e95195c377876": {
+      "notification_id": "ntf_1f7ae3f93d7454b8a46e95195c377876",
+      "run_id": "20260928T123446Z_f82fdeb7",
+      "created_at_utc": "2026-09-28T12:36:06.730149Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260928T123446Z_f82fdeb7\n資料來源：CoinGecko＋公開現貨交易所\n\nAUDIO｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.016554411\n幅度級距：-20%\n區間異動：-20.49%\n基準價格：US$0.02082131\n24H：-5.02%\n4H RSI：61.98\n日線 RSI：80.91\n週線 RSI：35.20\n成交量：43.77×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAUDIOUSDC\n\nIOTA｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.054260133\n幅度級距：+10%\n區間異動：+10.14%\n基準價格：US$0.049263554\n24H：+6.95%\n4H RSI：64.15\n日線 RSI：66.80\n週線 RSI：49.59\n成交量：4.50×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iota\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOTAUSDT"
     }
   }
 }
