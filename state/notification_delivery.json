@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-29T19:18:36.245051Z",
+  "updated_at_utc": "2026-09-29T19:54:39.550374Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4957,6 +4957,20 @@
       "last_attempt_at_utc": "2026-09-29T19:18:33.475305Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T191749Z_df35934b\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0018711985\n幅度級距：+30%\n區間異動：+33.13%\n基準價格：US$0.0014055217\n24H：+29.13%\n4H RSI：61.81\n日線 RSI：66.43\n週線 RSI：30.18\n成交量：40.80×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nBONK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$3.7242288e-06\n幅度級距：+10%\n區間異動：+10.51%\n基準價格：US$3.3700114e-06\n24H：+6.64%\n4H RSI：55.94\n日線 RSI：57.78\n週線 RSI：41.37\n成交量：2.33×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bonk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABONKUSD\n\nONE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0023852174\n幅度級距：-10%\n區間異動：-10.38%\n基準價格：US$0.0026616004\n24H：-9.94%\n4H RSI：43.02\n日線 RSI：54.14\n週線 RSI：57.80\n成交量：1.08×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT"
+    },
+    "ntf_328800e8e295dd719d2cf95032ca1731": {
+      "notification_id": "ntf_328800e8e295dd719d2cf95032ca1731",
+      "run_id": "20260929T195407Z_4e430f44",
+      "created_at_utc": "2026-09-29T19:54:39.550357Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T195407Z_4e430f44\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0020152803\n幅度級距：+40%\n區間異動：+43.38%\n基準價格：US$0.0014055217\n24H：+41.48%\n4H RSI：61.81\n日線 RSI：66.43\n週線 RSI：30.18\n成交量：43.53×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD"
     }
   }
 }
