@@ -1,7 +1,7 @@
 {
-  "run_id": "20260929T124628Z_b54c1fe9",
-  "started_at_utc": "2026-09-29T12:46:28.913437Z",
-  "completed_at_utc": "2026-09-29T12:46:32.396426Z",
+  "run_id": "20260929T131139Z_7691d5b3",
+  "started_at_utc": "2026-09-29T13:11:39.817814Z",
+  "completed_at_utc": "2026-09-29T13:11:42.981136Z",
   "status": "FAILED",
   "stage_a_status": null,
   "watchlist_expected": 170,
@@ -16,7 +16,7 @@
   "divergence_attempted": 0,
   "failed_stage": "stage_a",
   "error_message": "CoinGecko request failed: HTTP Error 403: Forbidden",
-  "elapsed_seconds": 3.482961,
+  "elapsed_seconds": 3.163313,
   "API_requests_total": 3,
   "requests_by_exchange": {
     "CoinGecko": 3
@@ -25,7 +25,7 @@
   "elapsed_radar_state": 0.0,
   "elapsed_stage_b": 0.0,
   "elapsed_divergence": 0.0,
-  "elapsed_total": 3.482961,
+  "elapsed_total": 3.163313,
   "asset_enrichment_seconds": {},
   "stale_lock_recovered": false
 }
