@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-29T20:46:09.453391Z",
+  "updated_at_utc": "2026-09-29T21:42:03.672231Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4999,6 +4999,20 @@
       "last_attempt_at_utc": "2026-09-29T20:46:06.933838Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T204524Z_3ae9b69f\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$271.82245\n幅度級距：+30%\n區間異動：+31.50%\n基準價格：US$206.71159\n24H：+9.20%\n4H RSI：68.04\n日線 RSI：76.39\n週線 RSI：52.89\n成交量：228.82×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSDC"
+    },
+    "ntf_bfd9e53168560187ed13c8836649f9bb": {
+      "notification_id": "ntf_bfd9e53168560187ed13c8836649f9bb",
+      "run_id": "20260929T214128Z_b7b2e61d",
+      "created_at_utc": "2026-09-29T21:42:03.672211Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T214128Z_b7b2e61d\n資料來源：CoinGecko＋公開現貨交易所\n\nPENGU｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0099392522\n幅度級距：+10%\n區間異動：+10.07%\n基準價格：US$0.0090300667\n24H：+6.15%\n4H RSI：52.39\n日線 RSI：58.02\n週線 RSI：57.26\n成交量：2.41×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pudgy-penguins\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APENGUUSD"
     }
   }
 }
