@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-29T02:41:00.718477Z",
+  "updated_at_utc": "2026-09-29T03:10:07.983781Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4775,6 +4775,20 @@
       "last_attempt_at_utc": "2026-09-29T02:40:57.836437Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T023957Z_b2684e6b\n資料來源：CoinGecko＋公開現貨交易所\n\nXPL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.094202051\n幅度級距：-10%\n區間異動：-10.90%\n基準價格：US$0.10573078\n24H：-10.57%\n4H RSI：40.40\n日線 RSI：52.91\n週線 RSI：36.73\n成交量：1.34×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/plasma\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AXPLUSDT\n\nW｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.013353949\n幅度級距：-10%\n區間異動：-10.61%\n基準價格：US$0.01493827\n24H：-9.61%\n4H RSI：53.66\n日線 RSI：63.92\n週線 RSI：51.42\n成交量：3.82×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWUSDT"
+    },
+    "ntf_7e9ef425c054b500a0bcdbb15df732a1": {
+      "notification_id": "ntf_7e9ef425c054b500a0bcdbb15df732a1",
+      "run_id": "20260929T030913Z_29cfa984",
+      "created_at_utc": "2026-09-29T03:10:07.983762Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T030913Z_29cfa984\n資料來源：CoinGecko＋公開現貨交易所\n\nAGI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0062753827\n幅度級距：-10%\n區間異動：-10.12%\n基準價格：US$0.006981969\n24H：-8.58%\n4H RSI：49.55\n日線 RSI：57.05\n週線 RSI：49.47\n成交量：1.82×｜ELEVATED\n背離：WEEKLY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT"
     }
   }
 }
