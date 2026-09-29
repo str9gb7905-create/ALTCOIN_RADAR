@@ -114,6 +114,28 @@ class NotificationDeliveryTests(unittest.TestCase):
         self.assertIsNone(self.ledger.prepare(merged))
         self.assertFalse((self.root / self.path).exists())
 
+    def test_scan_outage_alert_sent_once_until_next_success(self):
+        heartbeat = {
+            "last_success_run_id": "successful_run_a",
+            "last_success_at_utc": "2026-09-29T03:10:00Z",
+        }
+        first = self.ledger.prepare_health_outage(heartbeat)
+        claimed = self.ledger.claim_next()
+        dispatcher = FakeDispatcher(DispatchResult("SUCCESS", "TELEGRAM", "123"))
+        self.ledger.dispatch_claimed(claimed["notification_id"], dispatcher)
+
+        repeated = self.ledger.prepare_health_outage(heartbeat)
+        self.assertEqual(first["notification_id"], repeated["notification_id"])
+        self.assertIsNone(self.ledger.claim_next())
+        self.assertEqual(len(dispatcher.messages), 1)
+        self.assertIn("2026-09-29T03:10:00Z", dispatcher.messages[0])
+
+        heartbeat["last_success_run_id"] = "successful_run_b"
+        self.assertNotEqual(
+            self.ledger.prepare_health_outage(heartbeat)["notification_id"],
+            first["notification_id"],
+        )
+
     def test_merged_events_send_exactly_once_and_share_symbol_block(self):
         merged = ready_payload()
         self.assertEqual(merged["event_count"], 3)

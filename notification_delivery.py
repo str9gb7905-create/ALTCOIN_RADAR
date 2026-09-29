@@ -10,6 +10,7 @@ from typing import Any, Callable
 
 from notification_dispatcher import NotificationDispatcher, TelegramDispatcher
 from radar_scan import OUTPUT_DIR, PROJECT_ROOT
+from run_pipeline import HEARTBEAT_PATH
 from state_store import FileSystemStateStore, StateStore
 
 DELIVERY_STATE_PATH = PROJECT_ROOT / "state" / "notification_delivery.json"
@@ -81,6 +82,40 @@ class NotificationDeliveryLedger:
         self._save(state)
         return record
 
+    def prepare_health_outage(self, heartbeat: dict[str, Any]) -> dict[str, Any]:
+        """Queue one alert per period without a successful scan."""
+        last_success_id = heartbeat.get("last_success_run_id") or "initial"
+        notification_id = f"RADAR_OUTAGE_{last_success_id}"
+        state = self.load()
+        existing = state["notifications"].get(notification_id)
+        if existing is not None:
+            return existing
+        last_success = heartbeat.get("last_success_at_utc") or "無紀錄"
+        message = (
+            "⚠️ ALTCOIN RADAR｜掃描故障\n"
+            "本輪掃描失敗，行情資料或健康檢查未通過；期間可能漏掉價格通知。\n"
+            f"上次成功：{last_success}（UTC）\n"
+            "查看執行紀錄：https://github.com/str9gb7905-create/ALTCOIN_RADAR/actions/workflows/altcoin-radar.yml"
+        )
+        now = self.now()
+        record = {
+            "notification_id": notification_id,
+            "run_id": last_success_id,
+            "created_at_utc": now,
+            "delivery_status": "PENDING",
+            "delivered_at_utc": None,
+            "provider": "TELEGRAM",
+            "provider_message_id": None,
+            "error": None,
+            "attempt_count": 0,
+            "last_attempt_at_utc": None,
+            "event_count": 0,
+            "message": message,
+        }
+        state["notifications"][notification_id] = record
+        self._save(state)
+        return record
+
     def claim_next(self) -> dict[str, Any] | None:
         """Durably claim one send; abandoned SENDING records become non-retryable."""
         state = self.load()
@@ -141,6 +176,7 @@ def main() -> int:
     subparsers = parser.add_subparsers(dest="command", required=True)
     prepare = subparsers.add_parser("prepare")
     prepare.add_argument("--payload", type=Path, default=MERGED_PAYLOAD_PATH)
+    subparsers.add_parser("prepare-health")
     subparsers.add_parser("claim")
     dispatch = subparsers.add_parser("dispatch")
     dispatch.add_argument("--notification-id", required=True)
@@ -151,6 +187,10 @@ def main() -> int:
         record = ledger.prepare(_load_payload(args.payload))
         print("NO_NOTIFICATION" if record is None else
               f"DELIVERY_PREPARED notification_id={record['notification_id']}")
+    elif args.command == "prepare-health":
+        heartbeat = FileSystemStateStore().load(HEARTBEAT_PATH, {})
+        record = ledger.prepare_health_outage(heartbeat)
+        print(f"HEALTH_ALERT_PREPARED notification_id={record['notification_id']}")
     elif args.command == "claim":
         record = ledger.claim_next()
         print("NO_DELIVERY_CLAIM" if record is None else

@@ -112,6 +112,8 @@ jobs:
 
       - name: Run pipeline
         id: pipeline
+        env:
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
         shell: bash
         run: |
           set +e
@@ -146,6 +148,12 @@ jobs:
           else
             echo "prepared=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Prepare one Telegram alert for the scan outage
+        if: >-
+          always() && steps.pipeline.outputs.ran == 'true' &&
+          (steps.pipeline.outputs.exit_code != '0' || steps.health.outputs.exit_code != '0')
+        run: python notification_delivery.py prepare-health
 
       - name: Persist pipeline and pending delivery state
         id: persist_pending

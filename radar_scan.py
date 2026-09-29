@@ -105,6 +105,7 @@ def fetch_market_data(
 ) -> list[dict[str, Any]]:
     open_url = opener or urlopen
     headers = {"Accept": "application/json", "User-Agent": "ALTCOIN_RADAR/Stage-A"}
+    print(f"COINGECKO_AUTH_MODE={'DEMO_KEY' if api_key else 'ANONYMOUS'}")
     if api_key:
         headers["x-cg-demo-api-key"] = api_key
 
