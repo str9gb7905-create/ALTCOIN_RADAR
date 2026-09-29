@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-29T13:43:42.306087Z",
+  "updated_at_utc": "2026-09-29T14:10:32.931699Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4803,6 +4803,20 @@
       "last_attempt_at_utc": "2026-09-29T13:43:38.592567Z",
       "event_count": 0,
       "message": "⚠️ ALTCOIN RADAR｜掃描故障\n本輪掃描失敗，行情資料或健康檢查未通過；期間可能漏掉價格通知。\n上次成功：2026-09-29T03:10:07.688962Z（UTC）\n查看執行紀錄：https://github.com/str9gb7905-create/ALTCOIN_RADAR/actions/workflows/altcoin-radar.yml"
+    },
+    "ntf_a0306b41a771b6d2a0429e3251fb708a": {
+      "notification_id": "ntf_a0306b41a771b6d2a0429e3251fb708a",
+      "run_id": "20260929T140942Z_28f16ff3",
+      "created_at_utc": "2026-09-29T14:10:32.931680Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 19,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T140942Z_28f16ff3\n資料來源：CoinGecko＋公開現貨交易所\n同批異動過多；以下顯示幅度最高的詳細資料。\n\nPOND｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0018907736\n幅度級距：+30%\n區間異動：+34.94%\n基準價格：US$0.0014012318\n24H：+33.20%\n4H RSI：69.44\n日線 RSI：66.43\n週線 RSI：30.18\n成交量：33.51×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nCRV｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.39846045\n幅度級距：+20%\n區間異動：+23.01%\n基準價格：US$0.32393249\n24H：+20.70%\n4H RSI：67.20\n日線 RSI：61.21\n週線 RSI：57.28\n成交量：4.10×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/curve-dao-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACRVUSD\n\nQNT｜方向改變\n觸發：由近24H低點上漲\n價格：US$251.70916\n幅度級距：+20%\n區間異動：+21.77%\n基準價格：US$206.71159\n24H：+8.32%\n4H RSI：66.24\n日線 RSI：76.39\n週線 RSI：52.89\n成交量：222.99×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD\n\n其他同批觸發（10 種）：\nICP, NIGHT, PHA, ETHFI, ALICE, BONK, GALA, PEAQ, NEIRO, AGI"
     }
   }
 }
