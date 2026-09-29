@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-29T03:10:07.983781Z",
+  "updated_at_utc": "2026-09-29T03:10:10.210343Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4780,13 +4780,13 @@
       "notification_id": "ntf_7e9ef425c054b500a0bcdbb15df732a1",
       "run_id": "20260929T030913Z_29cfa984",
       "created_at_utc": "2026-09-29T03:10:07.983762Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-29T03:10:10.210328Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T030913Z_29cfa984\n資料來源：CoinGecko＋公開現貨交易所\n\nAGI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0062753827\n幅度級距：-10%\n區間異動：-10.12%\n基準價格：US$0.006981969\n24H：-8.58%\n4H RSI：49.55\n日線 RSI：57.05\n週線 RSI：49.47\n成交量：1.82×｜ELEVATED\n背離：WEEKLY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT"
     }
