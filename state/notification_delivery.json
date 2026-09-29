@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-29T02:10:50.060745Z",
+  "updated_at_utc": "2026-09-29T02:10:52.079220Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4738,13 +4738,13 @@
       "notification_id": "ntf_15003005fed6d13d7d5a4d958d1c85eb",
       "run_id": "20260929T020959Z_ec6caa99",
       "created_at_utc": "2026-09-29T02:10:50.060729Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-29T02:10:52.079192Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T020959Z_ec6caa99\n資料來源：CoinGecko＋公開現貨交易所\n\nIMX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.16918947\n幅度級距：-10%\n區間異動：-10.36%\n基準價格：US$0.18874175\n24H：-10.13%\n4H RSI：57.67\n日線 RSI：67.99\n週線 RSI：47.89\n成交量：5.16×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD\n\nWLD｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.4776307\n幅度級距：-10%\n區間異動：-10.19%\n基準價格：US$0.53183071\n24H：-10.59%\n4H RSI：48.13\n日線 RSI：58.46\n週線 RSI：58.99\n成交量：2.36×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/worldcoin-wld\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWLDUSDT"
     }
