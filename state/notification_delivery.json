@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-29T14:57:19.515739Z",
+  "updated_at_utc": "2026-09-29T14:57:27.318940Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4850,13 +4850,13 @@
       "notification_id": "ntf_ccab49d9090fd7e8573a140bf9a0b92b",
       "run_id": "20260929T145620Z_e8a90db8",
       "created_at_utc": "2026-09-29T14:57:19.515722Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-29T14:57:27.318925Z",
       "event_count": 7,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T145620Z_e8a90db8\n資料來源：CoinGecko＋公開現貨交易所\n\nNIGHT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.032770263\n幅度級距：+20%\n區間異動：+21.17%\n基準價格：US$0.027045205\n24H：+21.19%\n4H RSI：78.34\n日線 RSI：72.17\n週線 RSI：38.35\n成交量：4.08×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANIGHTUSD\n\nETHFI｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.8105344\n幅度級距：+20%\n區間異動：+20.78%\n基準價格：US$0.67105762\n24H：+19.76%\n4H RSI：60.62\n日線 RSI：54.05\n週線 RSI：62.87\n成交量：1.93×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ether-fi\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AETHFIUSDT\n\nPENGU｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0099646682\n幅度級距：+10%\n區間異動：+10.35%\n基準價格：US$0.0090300667\n24H：+4.53%\n4H RSI：52.63\n日線 RSI：58.02\n週線 RSI：57.26\n成交量：2.55×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pudgy-penguins\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APENGUUSD\n\nREZ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.004332887\n幅度級距：+10%\n區間異動：+10.15%\n基準價格：US$0.0039335615\n24H：+8.44%\n4H RSI：50.90\n日線 RSI：58.37\n週線 RSI：51.47\n成交量：0.46×｜WEAK\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/renzo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AREZUSD\n\nPORTAL｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.017769594\n幅度級距：+10%\n區間異動：+10.13%\n基準價格：US$0.016134632\n24H：+8.24%\n4H RSI：52.02\n日線 RSI：46.32\n週線 RSI：55.84\n成交量：33.03×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/portal-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APORTALUSDT"
     }
