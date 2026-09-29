@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-29T01:30:29.182745Z",
+  "updated_at_utc": "2026-09-29T01:45:15.296187Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4705,6 +4705,20 @@
       "last_attempt_at_utc": "2026-09-29T01:30:26.710558Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T012910Z_223ad484\n資料來源：CoinGecko＋公開現貨交易所\n\nPENGU｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0092029967\n幅度級距：-10%\n區間異動：-10.58%\n基準價格：US$0.010291596\n24H：-10.62%\n4H RSI：44.33\n日線 RSI：58.02\n週線 RSI：57.26\n成交量：2.35×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pudgy-penguins\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APENGUUSD\n\nIOST｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0008727663\n幅度級距：-10%\n區間異動：-10.11%\n基準價格：US$0.00097088094\n24H：-10.52%\n4H RSI：40.46\n日線 RSI：52.28\n週線 RSI：52.69\n成交量：0.42×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iostoken\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOSTUSDT"
+    },
+    "ntf_6c6d7256b6ed401e4eb941f3726890a3": {
+      "notification_id": "ntf_6c6d7256b6ed401e4eb941f3726890a3",
+      "run_id": "20260929T014412Z_3d3eeaec",
+      "created_at_utc": "2026-09-29T01:45:15.296173Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T014412Z_3d3eeaec\n資料來源：CoinGecko＋公開現貨交易所\n\nMERL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.02688189\n幅度級距：-10%\n區間異動：-10.48%\n基準價格：US$0.030028584\n24H：-11.50%\n4H RSI：42.11\n日線 RSI：57.08\n週線 RSI：42.88\n成交量：0.98×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AMERLUSD"
     }
   }
 }
