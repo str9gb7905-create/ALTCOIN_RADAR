@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-29T14:13:35.017523Z",
+  "updated_at_utc": "2026-09-29T14:13:37.526964Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4822,13 +4822,13 @@
       "notification_id": "ntf_55fb0159fb42cbf6c522d62e521874f2",
       "run_id": "20260929T141239Z_24e94291",
       "created_at_utc": "2026-09-29T14:13:35.017502Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-29T14:13:37.526931Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T141239Z_24e94291\n資料來源：CoinGecko＋公開現貨交易所\n\nSTRK｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.043274506\n幅度級距：+10%\n區間異動：+10.42%\n基準價格：US$0.0391906\n24H：+8.27%\n4H RSI：61.99\n日線 RSI：61.47\n週線 RSI：51.21\n成交量：1.61×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3ASTRKUSDT"
     }
