@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-29T01:45:19.798774Z",
+  "updated_at_utc": "2026-09-29T01:57:09.950399Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -4719,6 +4719,20 @@
       "last_attempt_at_utc": "2026-09-29T01:45:17.218457Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T014412Z_3d3eeaec\n資料來源：CoinGecko＋公開現貨交易所\n\nMERL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.02688189\n幅度級距：-10%\n區間異動：-10.48%\n基準價格：US$0.030028584\n24H：-11.50%\n4H RSI：42.11\n日線 RSI：57.08\n週線 RSI：42.88\n成交量：0.98×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AMERLUSD"
+    },
+    "ntf_019ba128ed35924ce3bb83a86fb98d5c": {
+      "notification_id": "ntf_019ba128ed35924ce3bb83a86fb98d5c",
+      "run_id": "20260929T015622Z_ee86dd24",
+      "created_at_utc": "2026-09-29T01:57:09.950381Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260929T015622Z_ee86dd24\n資料來源：CoinGecko＋公開現貨交易所\n\nCHEX｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.018964164\n幅度級距：-20%\n區間異動：-23.82%\n基準價格：US$0.024892596\n24H：+31.49%\n4H RSI：78.13\n日線 RSI：86.04\n週線 RSI：36.68\n成交量：24.99×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACHEXUSD\n\nRDNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00046084353\n幅度級距：+10%\n區間異動：+10.02%\n基準價格：US$0.00041886912\n24H：+0.37%\n4H RSI：53.37\n日線 RSI：45.60\n週線 RSI：24.72\n成交量：1.64×｜ELEVATED\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT"
     }
   }
 }
