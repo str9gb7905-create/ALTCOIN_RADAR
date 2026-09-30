@@ -1,7 +1,7 @@
 {
-  "run_id": "20260930T042848Z_22c9c148",
-  "started_at_utc": "2026-09-30T04:28:48.487351Z",
-  "completed_at_utc": "2026-09-30T04:29:18.239963Z",
+  "run_id": "20260930T044635Z_3f367355",
+  "started_at_utc": "2026-09-30T04:46:35.778716Z",
+  "completed_at_utc": "2026-09-30T04:47:06.886624Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 170,
@@ -16,7 +16,7 @@
   "divergence_attempted": 8,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 29.752611,
+  "elapsed_seconds": 31.107909,
   "API_requests_total": 110,
   "requests_by_exchange": {
     "Binance": 4,
@@ -30,20 +30,20 @@
     "MEXC": 16,
     "OKX": 23
   },
-  "elapsed_stage_a": 0.627326,
-  "elapsed_radar_state": 0.09424,
-  "elapsed_stage_b": 19.017183,
-  "elapsed_divergence": 10.012472,
-  "elapsed_total": 29.752611,
+  "elapsed_stage_a": 0.714914,
+  "elapsed_radar_state": 0.094914,
+  "elapsed_stage_b": 20.04285,
+  "elapsed_divergence": 10.253887,
+  "elapsed_total": 31.107909,
   "asset_enrichment_seconds": {
-    "ETHFI": 2.456186,
-    "HBAR": 0.438807,
-    "MERL": 3.226349,
-    "NIGHT": 1.236743,
-    "NOS": 1.835247,
-    "PHA": 1.133228,
-    "POND": 0.469547,
-    "QNT": 0.462732
+    "ETHFI": 2.452692,
+    "HBAR": 0.538107,
+    "MERL": 4.433652,
+    "NIGHT": 1.38057,
+    "NOS": 1.816782,
+    "PHA": 1.315589,
+    "POND": 0.500908,
+    "QNT": 0.500359
   },
   "stale_lock_recovered": false
 }
