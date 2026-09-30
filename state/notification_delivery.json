@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-30T19:54:05.149622Z",
+  "updated_at_utc": "2026-09-30T19:54:07.192330Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -5718,13 +5718,13 @@
       "notification_id": "ntf_ff613027fede7b34334221d4d2590f00",
       "run_id": "20260930T195306Z_76ce46e2",
       "created_at_utc": "2026-09-30T19:54:05.149594Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-09-30T19:54:07.192316Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260930T195306Z_76ce46e2\n資料來源：CoinGecko＋公開現貨交易所\n\nAUDIO｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.018713755\n幅度級距：+20%\n區間異動：+22.12%\n基準價格：US$0.015324619\n24H：+20.16%\n4H RSI：52.52\n日線 RSI：64.00\n週線 RSI：36.92\n成交量：4.46×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAUDIOUSD\n\nHUMA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.03240884\n幅度級距：+10%\n區間異動：+10.20%\n基準價格：US$0.029410432\n24H：+9.10%\n4H RSI：73.54\n日線 RSI：69.14\n週線 RSI：62.21\n成交量：1.35×｜NORMAL\n背離：WEEKLY_BEARISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AHUMAUSDT"
     }
