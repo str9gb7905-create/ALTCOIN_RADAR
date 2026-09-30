@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-30T17:30:17.666048Z",
+  "updated_at_utc": "2026-09-30T17:46:34.040844Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -5629,6 +5629,20 @@
       "last_attempt_at_utc": "2026-09-30T17:30:15.062691Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260930T172917Z_18699684\n資料來源：CoinGecko＋公開現貨交易所\n\nTRAC｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.40112121\n幅度級距：-10%\n區間異動：-10.79%\n基準價格：US$0.44963713\n24H：+7.76%\n4H RSI：67.52\n日線 RSI：58.41\n週線 RSI：53.24\n成交量：3.08×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/origintrail\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATRACUSD\n\nHUMA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.032401532\n幅度級距：+10%\n區間異動：+10.70%\n基準價格：US$0.029268486\n24H：+10.84%\n4H RSI：73.54\n日線 RSI：69.14\n週線 RSI：62.21\n成交量：1.29×｜NORMAL\n背離：WEEKLY_BEARISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AHUMAUSDT"
+    },
+    "ntf_a8c9d08b4fb47a2ce2dba9c7be01d04f": {
+      "notification_id": "ntf_a8c9d08b4fb47a2ce2dba9c7be01d04f",
+      "run_id": "20260930T174534Z_842c35ce",
+      "created_at_utc": "2026-09-30T17:46:34.040827Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260930T174534Z_842c35ce\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$302.37355\n幅度級距：+20%\n區間異動：+20.07%\n基準價格：US$251.8357\n24H：+21.34%\n4H RSI：67.30\n日線 RSI：79.43\n週線 RSI：54.35\n成交量：216.34×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD\n\nTRAC｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.41612512\n幅度級距：+10%\n區間異動：+12.80%\n基準價格：US$0.36889822\n24H：+11.77%\n4H RSI：67.52\n日線 RSI：58.41\n週線 RSI：53.24\n成交量：3.30×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/origintrail\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATRACUSD\n\nONE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0021780062\n幅度級距：-10%\n區間異動：-10.62%\n基準價格：US$0.0024368718\n24H：-8.78%\n4H RSI：39.85\n日線 RSI：50.57\n週線 RSI：57.80\n成交量：0.50×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT"
     }
   }
 }
