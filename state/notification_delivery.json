@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-30T11:09:52.859767Z",
+  "updated_at_utc": "2026-09-30T11:27:23.582721Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -5405,6 +5405,20 @@
       "last_attempt_at_utc": "2026-09-30T11:09:50.045750Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260930T110915Z_64988990\n資料來源：CoinGecko＋公開現貨交易所\n\nTRAC｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.44963713\n幅度級距：+20%\n區間異動：+21.89%\n基準價格：US$0.36889822\n24H：+19.61%\n4H RSI：73.74\n日線 RSI：58.41\n週線 RSI：53.24\n成交量：2.81×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/origintrail\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATRACUSD"
+    },
+    "ntf_6f7563019c247952cd41fe6f9c6d8bb9": {
+      "notification_id": "ntf_6f7563019c247952cd41fe6f9c6d8bb9",
+      "run_id": "20260930T112647Z_168ceda9",
+      "created_at_utc": "2026-09-30T11:27:23.582700Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260930T112647Z_168ceda9\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$317.96278\n幅度級距：+30%\n區間異動：+31.42%\n基準價格：US$241.93912\n24H：+26.06%\n4H RSI：68.71\n日線 RSI：79.43\n週線 RSI：54.35\n成交量：201.66×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD\n\nBST｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.013816605\n幅度級距：+10%\n區間異動：+14.17%\n基準價格：US$0.012101905\n24H：+9.89%\n4H RSI：59.05\n日線 RSI：42.90\n週線 RSI：37.01\n成交量：0.99×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blocksquare\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABSTUSDT\n\nNEAR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$5.2901948\n幅度級距：+10%\n區間異動：+10.12%\n基準價格：US$4.8040068\n24H：+10.34%\n4H RSI：55.35\n日線 RSI：72.11\n週線 RSI：78.06\n成交量：2.25×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ANEARUSDT"
     }
   }
 }
