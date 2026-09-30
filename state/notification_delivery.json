@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-30T11:44:14.766485Z",
+  "updated_at_utc": "2026-09-30T12:20:48.682269Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -5433,6 +5433,20 @@
       "last_attempt_at_utc": "2026-09-30T11:44:11.828623Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260930T114336Z_8b3b078e\n資料來源：CoinGecko＋公開現貨交易所\n\nBST｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0146747\n幅度級距：+20%\n區間異動：+21.26%\n基準價格：US$0.012101905\n24H：+16.62%\n4H RSI：59.05\n日線 RSI：42.90\n週線 RSI：37.01\n成交量：0.98×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：DAILY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blocksquare\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABSTUSDT\n\nWLD｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.53024596\n幅度級距：+10%\n區間異動：+10.23%\n基準價格：US$0.48103441\n24H：+5.53%\n4H RSI：51.74\n日線 RSI：59.19\n週線 RSI：59.67\n成交量：1.54×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/worldcoin-wld\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AWLDUSDT"
+    },
+    "ntf_e48ce5fda2b2bc0fd08b5a28e04e131c": {
+      "notification_id": "ntf_e48ce5fda2b2bc0fd08b5a28e04e131c",
+      "run_id": "20260930T122013Z_42301873",
+      "created_at_utc": "2026-09-30T12:20:48.682244Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260930T122013Z_42301873\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$317.52355\n幅度級距：+30%\n區間異動：+31.24%\n基準價格：US$241.93912\n24H：+24.58%\n4H RSI：73.13\n日線 RSI：79.43\n週線 RSI：54.35\n成交量：217.48×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD"
     }
   }
 }
