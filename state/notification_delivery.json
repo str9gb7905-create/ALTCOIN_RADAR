@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-09-30T13:33:03.699204Z",
+  "updated_at_utc": "2026-09-30T13:57:20.395884Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -5489,6 +5489,20 @@
       "last_attempt_at_utc": "2026-09-30T13:32:59.491190Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260930T133209Z_8baab0c8\n資料來源：CoinGecko＋公開現貨交易所\n\nBST｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.015857532\n幅度級距：+30%\n區間異動：+31.03%\n基準價格：US$0.012101905\n24H：+28.65%\n4H RSI：75.31\n日線 RSI：42.90\n週線 RSI：37.01\n成交量：1.01×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blocksquare\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABSTUSDT\n\nNIGHT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.03755394\n幅度級距：+20%\n區間異動：+20.19%\n基準價格：US$0.031245038\n24H：+21.32%\n4H RSI：88.93\n日線 RSI：78.68\n週線 RSI：38.35\n成交量：6.77×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANIGHTUSD\n\nDUSK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.091300893\n幅度級距：+10%\n區間異動：+10.60%\n基準價格：US$0.082550629\n24H：+5.03%\n4H RSI：50.49\n日線 RSI：53.31\n週線 RSI：51.10\n成交量：1.07×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT\n\nMERL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.030512917\n幅度級距：+10%\n區間異動：+10.07%\n基準價格：US$0.027720223\n24H：+6.91%\n4H RSI：54.21\n日線 RSI：61.74\n週線 RSI：42.63\n成交量：1.37×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMERLUSDT"
+    },
+    "ntf_ad3992793cb84a6ae24a0b1a11670d1d": {
+      "notification_id": "ntf_ad3992793cb84a6ae24a0b1a11670d1d",
+      "run_id": "20260930T135627Z_38649783",
+      "created_at_utc": "2026-09-30T13:57:20.395870Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20260930T135627Z_38649783\n資料來源：CoinGecko＋公開現貨交易所\n\nENA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.27409291\n幅度級距：+10%\n區間異動：+12.20%\n基準價格：US$0.24428224\n24H：+5.17%\n4H RSI：52.50\n日線 RSI：67.53\n週線 RSI：65.63\n成交量：1.59×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENAUSDT\n\nPHA｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.072945267\n幅度級距：-10%\n區間異動：-11.76%\n基準價格：US$0.082664928\n24H：+8.84%\n4H RSI：60.20\n日線 RSI：67.37\n週線 RSI：62.41\n成交量：5.11×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APHAUSDT"
     }
   }
 }
