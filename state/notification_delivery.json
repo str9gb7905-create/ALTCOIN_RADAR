@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-01T15:43:19.382494Z",
+  "updated_at_utc": "2026-10-01T15:43:22.350708Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6334,13 +6334,13 @@
       "notification_id": "ntf_b374c9fcc3c7e1fb278668017b48702b",
       "run_id": "20261001T154215Z_1eafb1eb",
       "created_at_utc": "2026-10-01T15:43:19.382474Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-01T15:43:22.350690Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T154215Z_1eafb1eb\n資料來源：CoinGecko＋公開現貨交易所\n\nAUDIO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.017659215\n幅度級距：+10%\n區間異動：+11.43%\n基準價格：US$0.015848029\n24H：+10.68%\n4H RSI：53.81\n日線 RSI：70.61\n週線 RSI：51.90\n成交量：16.54×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAUDIOUSDC\n\nENA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.24826159\n幅度級距：-10%\n區間異動：-10.32%\n基準價格：US$0.27684073\n24H：-6.93%\n4H RSI：51.90\n日線 RSI：70.93\n週線 RSI：72.61\n成交量：1.15×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENAUSDT\n\nETHFI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.72613191\n幅度級距：-10%\n區間異動：-10.23%\n基準價格：US$0.80892503\n24H：-5.75%\n4H RSI：50.17\n日線 RSI：65.45\n週線 RSI：68.30\n成交量：1.20×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ether-fi\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AETHFIUSD"
     }
