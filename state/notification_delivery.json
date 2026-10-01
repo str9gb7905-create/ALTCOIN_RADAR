@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-01T14:44:20.829957Z",
+  "updated_at_utc": "2026-10-01T14:59:27.684055Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6301,6 +6301,20 @@
       "last_attempt_at_utc": "2026-10-01T14:44:17.583478Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T144333Z_cedadcb4\n資料來源：CoinGecko＋公開現貨交易所\n\nTRAC｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.45467262\n幅度級距：+10%\n區間異動：+13.35%\n基準價格：US$0.40112121\n24H：+13.93%\n4H RSI：70.71\n日線 RSI：68.08\n週線 RSI：63.34\n成交量：6.08×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/origintrail\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATRACUSDC\n\nNEAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.9017154\n幅度級距：-10%\n區間異動：-11.11%\n基準價格：US$5.514582\n24H：-6.87%\n4H RSI：52.16\n日線 RSI：75.99\n週線 RSI：82.46\n成交量：2.23×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ANEARUSDT\n\nHIGH｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.032495249\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.036171384\n24H：-3.28%\n4H RSI：47.35\n日線 RSI：62.41\n週線 RSI：35.90\n成交量：1.54×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/highstreet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHIGHUSDC"
+    },
+    "ntf_12c40755d9d0e6ef33894fdc74e18b69": {
+      "notification_id": "ntf_12c40755d9d0e6ef33894fdc74e18b69",
+      "run_id": "20261001T145834Z_3648f406",
+      "created_at_utc": "2026-10-01T14:59:27.684027Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T145834Z_3648f406\n資料來源：CoinGecko＋公開現貨交易所\n\nALICE｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.19628931\n幅度級距：+20%\n區間異動：+21.86%\n基準價格：US$0.16108296\n24H：+19.70%\n4H RSI：64.74\n日線 RSI：66.79\n週線 RSI：61.79\n成交量：3.25×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/my-neighbor-alice\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AALICEUSD\n\nGLMR｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.0096674634\n幅度級距：+10%\n區間異動：+12.13%\n基準價格：US$0.0086213644\n24H：+12.46%\n4H RSI：60.89\n日線 RSI：74.13\n週線 RSI：38.73\n成交量：12.33×｜STRONG\n背離：DAILY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AGLMRUSDT\n\nETHFI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.72593653\n幅度級距：-10%\n區間異動：-10.26%\n基準價格：US$0.80892503\n24H：-6.03%\n4H RSI：50.17\n日線 RSI：65.45\n週線 RSI：68.30\n成交量：1.19×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ether-fi\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AETHFIUSD"
     }
   }
 }
