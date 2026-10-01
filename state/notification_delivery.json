@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-01T22:29:23.273882Z",
+  "updated_at_utc": "2026-10-01T22:44:59.153868Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6553,6 +6553,20 @@
       "last_attempt_at_utc": "2026-10-01T22:29:20.994728Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T222819Z_a174faa2\n資料來源：CoinGecko＋公開現貨交易所\n\nWIN｜再次觸發\n觸發：由近24H低點上漲\n價格：US$5.2991569e-05\n幅度級距：+10%\n區間異動：+11.35%\n基準價格：US$4.7589034e-05\n24H：+11.67%\n4H RSI：73.66\n日線 RSI：77.79\n週線 RSI：79.15\n成交量：3.99×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wink\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AWINUSDT\n\nGLMR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0094405797\n幅度級距：-10%\n區間異動：-10.18%\n基準價格：US$0.010511007\n24H：-1.22%\n4H RSI：59.67\n日線 RSI：74.13\n週線 RSI：38.73\n成交量：12.76×｜STRONG\n背離：DAILY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AGLMRUSDT"
+    },
+    "ntf_3a422045d97bf09c9a4db430f411231e": {
+      "notification_id": "ntf_3a422045d97bf09c9a4db430f411231e",
+      "run_id": "20261001T224353Z_f481abc7",
+      "created_at_utc": "2026-10-01T22:44:59.153847Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T224353Z_f481abc7\n資料來源：CoinGecko＋公開現貨交易所\n\nLSK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.30616491\n幅度級距：+10%\n區間異動：+11.19%\n基準價格：US$0.27535663\n24H：+7.23%\n4H RSI：42.41\n日線 RSI：48.86\n週線 RSI：55.91\n成交量：0.29×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT"
     }
   }
 }
