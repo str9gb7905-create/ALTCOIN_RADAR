@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-01T05:16:30.901171Z",
+  "updated_at_utc": "2026-10-01T05:42:25.070383Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6035,6 +6035,20 @@
       "last_attempt_at_utc": "2026-10-01T05:16:28.189576Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T051528Z_396a3a1f\n資料來源：CoinGecko＋公開現貨交易所\n\nFET｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.23664514\n幅度級距：+10%\n區間異動：+10.29%\n基準價格：US$0.21456807\n24H：+8.02%\n4H RSI：55.42\n日線 RSI：62.73\n週線 RSI：58.88\n成交量：1.24×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/fetch-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFETUSD"
+    },
+    "ntf_535b9a559b4d5690b46488e91034b519": {
+      "notification_id": "ntf_535b9a559b4d5690b46488e91034b519",
+      "run_id": "20261001T054131Z_bf58df31",
+      "created_at_utc": "2026-10-01T05:42:25.070358Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T054131Z_bf58df31\n資料來源：CoinGecko＋公開現貨交易所\n\nNIGHT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.041996631\n幅度級距：+30%\n區間異動：+33.42%\n基準價格：US$0.031477956\n24H：+30.61%\n4H RSI：87.84\n日線 RSI：85.31\n週線 RSI：46.51\n成交量：11.55×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ANIGHTUSDT\n\nTRAC｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.50964135\n幅度級距：+30%\n區間異動：+30.92%\n基準價格：US$0.38929003\n24H：+29.27%\n4H RSI：82.38\n日線 RSI：68.08\n週線 RSI：63.34\n成交量：7.19×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/origintrail\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATRACUSDC\n\nAUDIO｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.016841971\n幅度級距：-10%\n區間異動：-10.28%\n基準價格：US$0.018771883\n24H：+8.48%\n4H RSI：58.25\n日線 RSI：70.61\n週線 RSI：51.90\n成交量：8.45×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAUDIOUSD"
     }
   }
 }
