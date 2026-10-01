@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-01T07:32:21.486961Z",
+  "updated_at_utc": "2026-10-01T07:32:23.525097Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6110,13 +6110,13 @@
       "notification_id": "ntf_eff1cf5c8c4f624d563b071983ee2a17",
       "run_id": "20261001T073129Z_f6c45bba",
       "created_at_utc": "2026-10-01T07:32:21.486939Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-01T07:32:23.525075Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T073129Z_f6c45bba\n資料來源：CoinGecko＋公開現貨交易所\n\nLSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.27535663\n幅度級距：-10%\n區間異動：-10.54%\n基準價格：US$0.30778704\n24H：-7.84%\n4H RSI：33.46\n日線 RSI：48.86\n週線 RSI：55.91\n成交量：0.28×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT\n\nPOND｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0018282856\n幅度級距：+10%\n區間異動：+10.18%\n基準價格：US$0.0016593563\n24H：-4.54%\n4H RSI：53.49\n日線 RSI：71.39\n週線 RSI：55.35\n成交量：7.02×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD"
     }
