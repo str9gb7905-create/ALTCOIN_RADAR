@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-01T10:32:55.564505Z",
+  "updated_at_utc": "2026-10-01T10:56:37.810375Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6189,6 +6189,20 @@
       "last_attempt_at_utc": "2026-10-01T10:32:52.832091Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T103201Z_277c04ea\n資料來源：CoinGecko＋公開現貨交易所\n\nDUSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.088505591\n幅度級距：-10%\n區間異動：-10.59%\n基準價格：US$0.098992034\n24H：+4.47%\n4H RSI：59.59\n日線 RSI：59.45\n週線 RSI：52.35\n成交量：2.16×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT\n\nLSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.27630629\n幅度級距：-10%\n區間異動：-10.23%\n基準價格：US$0.30778704\n24H：-8.63%\n4H RSI：32.08\n日線 RSI：48.86\n週線 RSI：55.91\n成交量：0.27×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT"
+    },
+    "ntf_c8ca21f8ad3c2bab29ef9c9a363a6e3f": {
+      "notification_id": "ntf_c8ca21f8ad3c2bab29ef9c9a363a6e3f",
+      "run_id": "20261001T105546Z_d2e7ef48",
+      "created_at_utc": "2026-10-01T10:56:37.810358Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T105546Z_d2e7ef48\n資料來源：CoinGecko＋公開現貨交易所\n\nFLOCK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.06593912\n幅度級距：-10%\n區間異動：-11.24%\n基準價格：US$0.074286523\n24H：-1.93%\n4H RSI：43.77\n日線 RSI：51.24\n週線 RSI：56.10\n成交量：1.31×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/flock-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFLOCKUSDT\n\nAR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$4.4579262\n幅度級距：+10%\n區間異動：+10.57%\n基準價格：US$4.0316951\n24H：+4.74%\n4H RSI：40.32\n日線 RSI：58.93\n週線 RSI：67.85\n成交量：1.48×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arweave\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARUSDT"
     }
   }
 }
