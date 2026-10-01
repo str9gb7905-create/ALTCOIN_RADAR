@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-01T05:16:25.730595Z",
+  "updated_at_utc": "2026-10-01T05:16:28.189593Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6026,13 +6026,13 @@
       "notification_id": "ntf_224eab7fb21b880bb1dfcbbbeef96005",
       "run_id": "20261001T051528Z_396a3a1f",
       "created_at_utc": "2026-10-01T05:16:25.730572Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-01T05:16:28.189576Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T051528Z_396a3a1f\n資料來源：CoinGecko＋公開現貨交易所\n\nFET｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.23664514\n幅度級距：+10%\n區間異動：+10.29%\n基準價格：US$0.21456807\n24H：+8.02%\n4H RSI：55.42\n日線 RSI：62.73\n週線 RSI：58.88\n成交量：1.24×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/fetch-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFETUSD"
     }
