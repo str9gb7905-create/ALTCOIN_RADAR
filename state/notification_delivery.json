@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-01T05:57:53.093934Z",
+  "updated_at_utc": "2026-10-01T05:57:55.389743Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6054,13 +6054,13 @@
       "notification_id": "ntf_39e6968484c7b1e7dedaf72e7a924bca",
       "run_id": "20261001T055704Z_c2da71e5",
       "created_at_utc": "2026-10-01T05:57:53.093897Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-01T05:57:55.389722Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T055704Z_c2da71e5\n資料來源：CoinGecko＋公開現貨交易所\n\nHUMA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.033052965\n幅度級距：+10%\n區間異動：+12.14%\n基準價格：US$0.029474991\n24H：+10.62%\n4H RSI：63.79\n日線 RSI：73.93\n週線 RSI：64.41\n成交量：2.52×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AHUMAUSDT\n\nPOND｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0018543683\n幅度級距：+10%\n區間異動：+11.75%\n基準價格：US$0.0016593563\n24H：-4.17%\n4H RSI：53.49\n日線 RSI：71.39\n週線 RSI：55.35\n成交量：7.24×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nAUDIO｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.01700471\n幅度級距：+10%\n區間異動：+10.89%\n基準價格：US$0.015334771\n24H：+9.13%\n4H RSI：58.25\n日線 RSI：70.61\n週線 RSI：51.90\n成交量：8.63×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAUDIOUSD"
     }
