@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-01T22:45:03.771220Z",
+  "updated_at_utc": "2026-10-01T23:09:18.674741Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6567,6 +6567,20 @@
       "last_attempt_at_utc": "2026-10-01T22:45:01.371593Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T224353Z_f481abc7\n資料來源：CoinGecko＋公開現貨交易所\n\nLSK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.30616491\n幅度級距：+10%\n區間異動：+11.19%\n基準價格：US$0.27535663\n24H：+7.23%\n4H RSI：42.41\n日線 RSI：48.86\n週線 RSI：55.91\n成交量：0.29×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT"
+    },
+    "ntf_e1331873d557223cb50e6c6a8d7ad201": {
+      "notification_id": "ntf_e1331873d557223cb50e6c6a8d7ad201",
+      "run_id": "20261001T230822Z_89df805a",
+      "created_at_utc": "2026-10-01T23:09:18.674724Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T230822Z_89df805a\n資料來源：CoinGecko＋公開現貨交易所\n\nCHEX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.018314188\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$0.020370027\n24H：-2.53%\n4H RSI：66.80\n日線 RSI：73.41\n週線 RSI：48.91\n成交量：1.13×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACHEXUSD"
     }
   }
 }
