@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-01T10:32:50.445748Z",
+  "updated_at_utc": "2026-10-01T10:32:52.832116Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6180,13 +6180,13 @@
       "notification_id": "ntf_e7a4328a1317a9def3388c33df062543",
       "run_id": "20261001T103201Z_277c04ea",
       "created_at_utc": "2026-10-01T10:32:50.445728Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-01T10:32:52.832091Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261001T103201Z_277c04ea\n資料來源：CoinGecko＋公開現貨交易所\n\nDUSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.088505591\n幅度級距：-10%\n區間異動：-10.59%\n基準價格：US$0.098992034\n24H：+4.47%\n4H RSI：59.59\n日線 RSI：59.45\n週線 RSI：52.35\n成交量：2.16×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT\n\nLSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.27630629\n幅度級距：-10%\n區間異動：-10.23%\n基準價格：US$0.30778704\n24H：-8.63%\n4H RSI：32.08\n日線 RSI：48.86\n週線 RSI：55.91\n成交量：0.27×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT"
     }
