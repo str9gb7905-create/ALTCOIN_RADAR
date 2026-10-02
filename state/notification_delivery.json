@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-02T03:47:37.094286Z",
+  "updated_at_utc": "2026-10-02T03:47:39.498615Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6740,13 +6740,13 @@
       "notification_id": "ntf_7d6ba53380940770fb77680dbce8ab85",
       "run_id": "20261002T034655Z_8445440d",
       "created_at_utc": "2026-10-02T03:47:37.094269Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-02T03:47:39.498601Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261002T034655Z_8445440d\n資料來源：CoinGecko＋公開現貨交易所\n\nALICE｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.19458026\n幅度級距：-10%\n區間異動：-17.66%\n基準價格：US$0.23631276\n24H：+15.80%\n4H RSI：77.67\n日線 RSI：79.79\n週線 RSI：61.79\n成交量：36.29×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/my-neighbor-alice\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AALICEUSD"
     }
