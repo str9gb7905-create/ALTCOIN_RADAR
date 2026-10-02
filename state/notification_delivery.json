@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-02T19:56:55.748157Z",
+  "updated_at_utc": "2026-10-02T19:56:57.633130Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7230,13 +7230,13 @@
       "notification_id": "ntf_1470f80f32a1c4681a6eafbd17c073a7",
       "run_id": "20261002T195601Z_371c33bf",
       "created_at_utc": "2026-10-02T19:56:55.748140Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-02T19:56:57.633116Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261002T195601Z_371c33bf\n資料來源：CoinGecko＋公開現貨交易所\n\nAI｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.024281126\n幅度級距：+20%\n區間異動：+29.43%\n基準價格：US$0.018760581\n24H：+29.25%\n4H RSI：55.44\n日線 RSI：49.79\n週線 RSI：40.85\n成交量：0.84×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sleepless-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAIUSDC\n\nNOS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.60750305\n幅度級距：+10%\n區間異動：+10.94%\n基準價格：US$0.54758372\n24H：+4.00%\n4H RSI：73.05\n日線 RSI：79.63\n週線 RSI：68.94\n成交量：4.09×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD\n\nPEPE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.1725619e-06\n幅度級距：-10%\n區間異動：-10.00%\n基準價格：US$4.6364118e-06\n24H：-5.87%\n4H RSI：52.83\n日線 RSI：60.03\n週線 RSI：56.67\n成交量：1.80×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pepe\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEPEUSDT"
     }
