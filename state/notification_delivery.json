@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-02T05:28:21.523980Z",
+  "updated_at_utc": "2026-10-02T05:44:45.802593Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6777,6 +6777,20 @@
       "last_attempt_at_utc": "2026-10-02T05:28:17.977122Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261002T052732Z_388ed7ab\n資料來源：CoinGecko＋公開現貨交易所\n\nDUSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.088945283\n幅度級距：-10%\n區間異動：-10.15%\n基準價格：US$0.098992034\n24H：-3.18%\n4H RSI：50.74\n日線 RSI：56.27\n週線 RSI：52.35\n成交量：1.89×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT"
+    },
+    "ntf_7bceb649f1d9b9c03d099bc5116f7e36": {
+      "notification_id": "ntf_7bceb649f1d9b9c03d099bc5116f7e36",
+      "run_id": "20261002T054404Z_a3aace64",
+      "created_at_utc": "2026-10-02T05:44:45.802573Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261002T054404Z_a3aace64\n資料來源：CoinGecko＋公開現貨交易所\n\nSYN｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.17828632\n幅度級距：-10%\n區間異動：-11.74%\n基準價格：US$0.20199529\n24H：+10.67%\n4H RSI：56.67\n日線 RSI：57.48\n週線 RSI：54.88\n成交量：1.43×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/synapse-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASYNUSDT"
     }
   }
 }
