@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-02T07:49:12.530026Z",
+  "updated_at_utc": "2026-10-02T08:10:57.621658Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6861,6 +6861,20 @@
       "last_attempt_at_utc": "2026-10-02T07:49:10.036488Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261002T074816Z_6cb2239b\n資料來源：CoinGecko＋公開現貨交易所\n\nSAND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.060130685\n幅度級距：+40%\n區間異動：+41.01%\n基準價格：US$0.042642005\n24H：+37.09%\n4H RSI：54.49\n日線 RSI：60.29\n週線 RSI：37.44\n成交量：4.42×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASANDUSD\n\nGALA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.002492344\n幅度級距：+10%\n區間異動：+11.65%\n基準價格：US$0.0022323507\n24H：+9.52%\n4H RSI：55.71\n日線 RSI：60.74\n週線 RSI：41.97\n成交量：3.72×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/gala\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGALAUSDT\n\nCOTI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.014518354\n幅度級距：+10%\n區間異動：+11.02%\n基準價格：US$0.01307694\n24H：+10.26%\n4H RSI：58.89\n日線 RSI：44.56\n週線 RSI：48.60\n成交量：0.84×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coti\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ACOTIUSD"
+    },
+    "ntf_4e2f0ff8e7725c0f06a791e8205a5d58": {
+      "notification_id": "ntf_4e2f0ff8e7725c0f06a791e8205a5d58",
+      "run_id": "20261002T081015Z_beff88cc",
+      "created_at_utc": "2026-10-02T08:10:57.621642Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261002T081015Z_beff88cc\n資料來源：CoinGecko＋公開現貨交易所\n\nNOS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.5622255\n幅度級距：+10%\n區間異動：+10.29%\n基準價格：US$0.50978013\n24H：+3.93%\n4H RSI：65.25\n日線 RSI：79.63\n週線 RSI：68.94\n成交量：2.58×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD"
     }
   }
 }
