@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-02T16:15:38.416842Z",
+  "updated_at_utc": "2026-10-02T16:15:40.462119Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7132,13 +7132,13 @@
       "notification_id": "ntf_7ce753cb772f6d445f290dcf0be6dde0",
       "run_id": "20261002T161453Z_50777c71",
       "created_at_utc": "2026-10-02T16:15:38.416823Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-02T16:15:40.462103Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261002T161453Z_50777c71\n資料來源：CoinGecko＋公開現貨交易所\n\nBEAM｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0021641152\n幅度級距：+10%\n區間異動：+10.20%\n基準價格：US$0.0019637941\n24H：+10.34%\n4H RSI：63.03\n日線 RSI：62.20\n週線 RSI：52.42\n成交量：1.93×｜ELEVATED\n背離：DAILY_BULLISH\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ABEAMUSD"
     }
