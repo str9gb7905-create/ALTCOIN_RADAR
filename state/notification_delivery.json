@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-02T19:19:35.545913Z",
+  "updated_at_utc": "2026-10-02T19:19:37.888446Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7202,13 +7202,13 @@
       "notification_id": "ntf_cad77a3d448bae1480d3dc7553b9c9b3",
       "run_id": "20261002T191822Z_e833f541",
       "created_at_utc": "2026-10-02T19:19:35.545896Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-02T19:19:37.888427Z",
       "event_count": 7,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261002T191822Z_e833f541\n資料來源：CoinGecko＋公開現貨交易所\n\nAGI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0065721532\n幅度級距：-10%\n區間異動：-11.01%\n基準價格：US$0.0073850159\n24H：+3.10%\n4H RSI：59.58\n日線 RSI：54.65\n週線 RSI：49.47\n成交量：2.20×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT\n\nRON｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.063251735\n幅度級距：-10%\n區間異動：-10.68%\n基準價格：US$0.070818196\n24H：-3.33%\n4H RSI：60.31\n日線 RSI：60.62\n週線 RSI：41.43\n成交量：1.11×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ronin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARONUSDT\n\nPEPE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.1440083e-06\n幅度級距：-10%\n區間異動：-10.62%\n基準價格：US$4.6364118e-06\n24H：-6.58%\n4H RSI：52.83\n日線 RSI：60.03\n週線 RSI：56.67\n成交量：1.75×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pepe\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEPEUSDT\n\nNEIRO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$8.7188811e-05\n幅度級距：-10%\n區間異動：-10.39%\n基準價格：US$9.7301762e-05\n24H：-4.36%\n4H RSI：53.13\n日線 RSI：55.40\n週線 RSI：51.58\n成交量：1.18×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/neiro-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANEIROUSD\n\nBONK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.5409337e-06\n幅度級距：-10%\n區間異動：-10.25%\n基準價格：US$3.9455083e-06\n24H：-5.41%\n4H RSI：55.49\n日線 RSI：62.66\n週線 RSI：45.33\n成交量：1.35×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bonk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABONKUSD\n\nCKB｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0012457899\n幅度級距：-10%\n區間異動：-10.03%\n基準價格：US$0.0013846383\n24H：-3.26%\n4H RSI：47.76\n日線 RSI：57.15\n週線 RSI：53.11\n成交量：2.18×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nervos-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACKBUSDT"
     }
