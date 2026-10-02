@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261002T094831Z_bb3a4604",
-  "updated_at": "2026-10-02T09:49:02.589281Z",
+  "last_run_id": "20261002T100837Z_7363adf0",
+  "updated_at": "2026-10-02T10:09:27.221834Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -112,12 +112,31 @@
     },
     "GLMR": {
       "coingecko_id": "moonbeam",
-      "history_source": "KuCoin",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T09:49:02.589281Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
-        "active_signals": [],
+        "active_signals": [
+          {
+            "type": "DAILY_BULLISH",
+            "signature": "GLMR|1D|BULLISH|2026-09-03|2026-09-14",
+            "pivots": [
+              {
+                "timestamp": "2026-09-03",
+                "price": 0.006208,
+                "rsi": 38.71355818073431,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-09-14",
+                "price": 0.005137,
+                "rsi": 43.49012227855658,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
         "seen_signatures": [
           "GLMR|1D|BULLISH|2026-09-03|2026-09-14"
         ]
@@ -183,7 +202,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T06:47:28.275317Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -464,7 +483,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T09:49:02.589281Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -595,7 +614,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T09:49:02.589281Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -784,7 +803,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T09:49:02.589281Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1001,7 +1020,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T09:49:02.589281Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1016,7 +1035,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-09-25T20:54:01.941051Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1031,7 +1050,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T09:49:02.589281Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1759,7 +1778,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T09:49:02.589281Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2224,7 +2243,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T09:49:02.589281Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2508,7 +2527,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T09:49:02.589281Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2570,7 +2589,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T09:49:02.589281Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2636,7 +2655,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T09:49:02.589281Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2717,7 +2736,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T09:49:02.589281Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2891,7 +2910,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-02T09:49:02.589281Z",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -3073,6 +3092,21 @@
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
       "last_seen_at": "2026-10-02T08:55:17.345079Z",
+      "daily": {
+        "active_signals": [],
+        "seen_signatures": []
+      },
+      "weekly": {
+        "active_signals": [],
+        "seen_signatures": []
+      }
+    },
+    "SLP": {
+      "coingecko_id": "smooth-love-potion",
+      "history_source": "KuCoin",
+      "source_changed_reason": null,
+      "data_quality": "COMPLETE",
+      "last_seen_at": "2026-10-02T10:09:27.221834Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
