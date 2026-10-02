@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-02T11:55:57.302461Z",
+  "updated_at_utc": "2026-10-02T12:12:00.526477Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7029,6 +7029,20 @@
       "last_attempt_at_utc": "2026-10-02T11:55:54.449006Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261002T115504Z_1e3bb4ee\n資料來源：CoinGecko＋公開現貨交易所\n\nSAND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.069716693\n幅度級距：+60%\n區間異動：+63.49%\n基準價格：US$0.042642005\n24H：+60.54%\n4H RSI：84.71\n日線 RSI：60.29\n週線 RSI：37.44\n成交量：22.60×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASANDUSDC\n\nNIGHT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.045402625\n幅度級距：+20%\n區間異動：+21.25%\n基準價格：US$0.037444434\n24H：+5.71%\n4H RSI：72.64\n日線 RSI：82.22\n週線 RSI：46.51\n成交量：9.64×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ANIGHTUSDT\n\nNOS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.5830069\n幅度級距：+10%\n區間異動：+14.36%\n基準價格：US$0.50978013\n24H：+9.57%\n4H RSI：65.25\n日線 RSI：79.63\n週線 RSI：68.94\n成交量：2.67×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD\n\nENJ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.032227697\n幅度級距：+10%\n區間異動：+11.73%\n基準價格：US$0.028843365\n24H：+10.29%\n4H RSI：66.99\n日線 RSI：59.16\n週線 RSI：48.43\n成交量：5.44×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENJUSDT"
+    },
+    "ntf_85b7196a6643c247877a5228507e33af": {
+      "notification_id": "ntf_85b7196a6643c247877a5228507e33af",
+      "run_id": "20261002T121102Z_fd0751b4",
+      "created_at_utc": "2026-10-02T12:12:00.526461Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261002T121102Z_fd0751b4\n資料來源：CoinGecko＋公開現貨交易所\n\nENJ｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.037108831\n幅度級距：+20%\n區間異動：+28.66%\n基準價格：US$0.028843365\n24H：+28.25%\n4H RSI：71.90\n日線 RSI：59.16\n週線 RSI：48.43\n成交量：9.59×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENJUSDT\n\nSLP｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00072650399\n幅度級距：+10%\n區間異動：+10.89%\n基準價格：US$0.00065515441\n24H：+9.69%\n4H RSI：66.19\n日線 RSI：52.93\n週線 RSI：52.80\n成交量：1.15×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/smooth-love-potion\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASLPUSDT"
     }
   }
 }
