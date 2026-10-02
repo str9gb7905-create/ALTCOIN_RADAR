@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-02T19:43:02.337712Z",
+  "updated_at_utc": "2026-10-02T19:43:04.335127Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7216,13 +7216,13 @@
       "notification_id": "ntf_7389ce0dfabbeb98cf21fcc4ddd16fb2",
       "run_id": "20261002T194200Z_5c2a242f",
       "created_at_utc": "2026-10-02T19:43:02.337692Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-02T19:43:04.335113Z",
       "event_count": 6,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261002T194200Z_5c2a242f\n資料來源：CoinGecko＋公開現貨交易所\n\nAI｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.021766079\n幅度級距：+10%\n區間異動：+16.14%\n基準價格：US$0.018740688\n24H：+15.81%\n4H RSI：55.44\n日線 RSI：49.79\n週線 RSI：40.85\n成交量：0.83×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sleepless-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAIUSD\n\nENJ｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.032749559\n幅度級距：-10%\n區間異動：-11.90%\n基準價格：US$0.037174086\n24H：+11.16%\n4H RSI：71.88\n日線 RSI：67.60\n週線 RSI：48.80\n成交量：31.28×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AENJUSDT\n\nGALA｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.0025142026\n幅度級距：+10%\n區間異動：+11.47%\n基準價格：US$0.0022554703\n24H：+10.21%\n4H RSI：72.15\n日線 RSI：60.74\n週線 RSI：41.97\n成交量：5.33×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/gala\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGALAUSDT\n\nQNT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$231.61064\n幅度級距：-10%\n區間異動：-10.42%\n基準價格：US$258.53982\n24H：-8.57%\n4H RSI：50.62\n日線 RSI：69.89\n週線 RSI：92.59\n成交量：51.07×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD"
     }
