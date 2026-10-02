@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-02T10:09:44.648257Z",
+  "updated_at_utc": "2026-10-02T10:28:53.748271Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -6959,6 +6959,20 @@
       "last_attempt_at_utc": "2026-10-02T10:09:41.966949Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261002T100837Z_7363adf0\n資料來源：CoinGecko＋公開現貨交易所\n\nSLP｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.00073650191\n幅度級距：+10%\n區間異動：+12.42%\n基準價格：US$0.00065515441\n24H：+11.69%\n4H RSI：58.06\n日線 RSI：52.93\n週線 RSI：52.80\n成交量：1.01×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/smooth-love-potion\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASLPUSDT\n\nTRAC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.43720898\n幅度級距：-10%\n區間異動：-11.95%\n基準價格：US$0.49656745\n24H：-5.12%\n4H RSI：60.50\n日線 RSI：70.70\n週線 RSI：61.73\n成交量：12.85×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/origintrail\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ATRACUSDT\n\nRON｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.070058783\n幅度級距：+10%\n區間異動：+10.54%\n基準價格：US$0.0633771\n24H：+9.36%\n4H RSI：67.80\n日線 RSI：60.62\n週線 RSI：41.43\n成交量：1.01×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ronin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARONUSDT"
+    },
+    "ntf_855ba9d5644ec7cd1700e5985ffe04b4": {
+      "notification_id": "ntf_855ba9d5644ec7cd1700e5985ffe04b4",
+      "run_id": "20261002T102806Z_77637a52",
+      "created_at_utc": "2026-10-02T10:28:53.748247Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261002T102806Z_77637a52\n資料來源：CoinGecko＋公開現貨交易所\n\nWIN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.6627444e-05\n幅度級距：-10%\n區間異動：-12.01%\n基準價格：US$5.2991569e-05\n24H：-7.86%\n4H RSI：52.95\n日線 RSI：80.84\n週線 RSI：79.15\n成交量：5.61×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wink\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AWINUSDT"
     }
   }
 }
