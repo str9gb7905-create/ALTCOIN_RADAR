@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-03T02:34:18.600809Z",
+  "updated_at_utc": "2026-10-03T03:04:16.917293Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7505,6 +7505,20 @@
       "last_attempt_at_utc": "2026-10-03T02:34:16.184888Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T023326Z_0ac06645\n資料來源：CoinGecko＋公開現貨交易所\n\nHIGH｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.039529201\n幅度級距：+20%\n區間異動：+24.57%\n基準價格：US$0.031733237\n24H：+17.63%\n4H RSI：42.60\n日線 RSI：52.66\n週線 RSI：35.90\n成交量：1.40×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/highstreet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHIGHUSD\n\nNOS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.60558259\n幅度級距：+10%\n區間異動：+10.59%\n基準價格：US$0.54758372\n24H：+7.04%\n4H RSI：68.56\n日線 RSI：83.00\n週線 RSI：68.94\n成交量：3.82×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD"
+    },
+    "ntf_fff1cb1f2ab8d62b939c49a30723871c": {
+      "notification_id": "ntf_fff1cb1f2ab8d62b939c49a30723871c",
+      "run_id": "20261003T030327Z_f7c00695",
+      "created_at_utc": "2026-10-03T03:04:16.917278Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T030327Z_f7c00695\n資料來源：CoinGecko＋公開現貨交易所\n\nSAND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.075205121\n幅度級距：+60%\n區間異動：+68.59%\n基準價格：US$0.044607972\n24H：+67.72%\n4H RSI：72.82\n日線 RSI：83.40\n週線 RSI：37.44\n成交量：23.71×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASANDUSD\n\nENJ｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.037614367\n幅度級距：+20%\n區間異動：+23.79%\n基準價格：US$0.030386231\n24H：+23.13%\n4H RSI：71.49\n日線 RSI：67.60\n週線 RSI：48.80\n成交量：35.04×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AENJUSDT\n\nAGI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0069911723\n幅度級距：+10%\n區間異動：+10.70%\n基準價格：US$0.0063152078\n24H：+9.12%\n4H RSI：50.26\n日線 RSI：56.50\n週線 RSI：49.47\n成交量：2.04×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT\n\nAXS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$1.2589211\n幅度級距：+10%\n區間異動：+10.15%\n基準價格：US$1.1428745\n24H：+9.48%\n4H RSI：59.45\n日線 RSI：67.99\n週線 RSI：57.90\n成交量：5.88×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/axie-infinity\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAXSUSD"
     }
   }
 }
