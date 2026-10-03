@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-03T01:29:27.535702Z",
+  "updated_at_utc": "2026-10-03T01:45:50.199105Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7449,6 +7449,20 @@
       "last_attempt_at_utc": "2026-10-03T01:29:25.187452Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T012845Z_ffd28d0c\n資料來源：CoinGecko＋公開現貨交易所\n\nENJ｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.036069186\n幅度級距：+20%\n區間異動：+21.43%\n基準價格：US$0.029704507\n24H：+21.50%\n4H RSI：71.49\n日線 RSI：67.60\n週線 RSI：48.80\n成交量：33.57×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AENJUSDT\n\nSNEK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00060970238\n幅度級距：-10%\n區間異動：-10.68%\n基準價格：US$0.00068258446\n24H：-3.72%\n4H RSI：51.65\n日線 RSI：68.57\n週線 RSI：52.65\n成交量：1.29×｜NORMAL\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/snek\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ASNEKUSDT\n\nNOS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.60397559\n幅度級距：+10%\n區間異動：+10.30%\n基準價格：US$0.54758372\n24H：+9.46%\n4H RSI：68.56\n日線 RSI：83.00\n週線 RSI：68.94\n成交量：3.78×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD\n\nPENGU｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0090282138\n幅度級距：-10%\n區間異動：-10.01%\n基準價格：US$0.010033004\n24H：-4.12%\n4H RSI：38.30\n日線 RSI：50.67\n週線 RSI：56.71\n成交量：1.60×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pudgy-penguins\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APENGUUSDT"
+    },
+    "ntf_1717b0a0e431d1db1ce4056523511367": {
+      "notification_id": "ntf_1717b0a0e431d1db1ce4056523511367",
+      "run_id": "20261003T014507Z_f16ad953",
+      "created_at_utc": "2026-10-03T01:45:50.199085Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T014507Z_f16ad953\n資料來源：CoinGecko＋公開現貨交易所\n\nNIGHT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.050466596\n幅度級距：+30%\n區間異動：+31.63%\n基準價格：US$0.038339525\n24H：+28.85%\n4H RSI：79.75\n日線 RSI：88.64\n週線 RSI：56.50\n成交量：11.34×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANIGHTUSD\n\nTRAC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.46816607\n幅度級距：+10%\n區間異動：+10.60%\n基準價格：US$0.4232965\n24H：-1.99%\n4H RSI：52.86\n日線 RSI：67.78\n週線 RSI：63.34\n成交量：3.05×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/origintrail\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATRACUSD"
     }
   }
 }
