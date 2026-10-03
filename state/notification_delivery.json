@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-03T09:11:14.911001Z",
+  "updated_at_utc": "2026-10-03T09:11:17.291721Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7720,13 +7720,13 @@
       "notification_id": "ntf_0f00e6028e451dc3c4c97e2445f8f9c7",
       "run_id": "20261003T091027Z_1209a574",
       "created_at_utc": "2026-10-03T09:11:14.910983Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-03T09:11:17.291701Z",
       "event_count": 6,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T091027Z_1209a574\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0027194243\n幅度級距：+30%\n區間異動：+33.99%\n基準價格：US$0.0020295569\n24H：+28.76%\n4H RSI：38.16\n日線 RSI：47.13\n週線 RSI：52.11\n成交量：0.47×｜WEAK / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT\n\nHFT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0068573094\n幅度級距：+10%\n區間異動：+11.14%\n基準價格：US$0.0061697588\n24H：+9.76%\n4H RSI：58.30\n日線 RSI：50.22\n週線 RSI：37.25\n成交量：2.37×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSD\n\nENJ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.033674722\n幅度級距：-10%\n區間異動：-10.47%\n基準價格：US$0.037614367\n24H：+3.51%\n4H RSI：67.45\n日線 RSI：67.60\n週線 RSI：48.80\n成交量：36.53×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AENJUSDT\n\nGLMR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0092453767\n幅度級距：+10%\n區間異動：+10.43%\n基準價格：US$0.0083721391\n24H：+5.90%\n4H RSI：55.47\n日線 RSI：61.96\n週線 RSI：43.71\n成交量：1.24×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AGLMRUSD\n\nIMX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.18981802\n幅度級距：+10%\n區間異動：+10.20%\n基準價格：US$0.17225163\n24H：+7.40%\n4H RSI：61.73\n日線 RSI：66.44\n週線 RSI：55.39\n成交量：2.41×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD\n\nALICE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.17553973\n幅度級距：-10%\n區間異動：-10.12%\n基準價格：US$0.19530196\n24H：-2.63%\n4H RSI：55.47\n日線 RSI：58.88\n週線 RSI：61.79\n成交量：11.93×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/my-neighbor-alice\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AALICEUSD"
     }
