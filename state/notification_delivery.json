@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-03T00:12:31.904572Z",
+  "updated_at_utc": "2026-10-03T00:36:03.967960Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7393,6 +7393,20 @@
       "last_attempt_at_utc": "2026-10-03T00:12:29.479978Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T001147Z_d664a81c\n資料來源：CoinGecko＋公開現貨交易所\n\nCHEX｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.014655805\n幅度級距：-20%\n區間異動：-20.23%\n基準價格：US$0.018373583\n24H：-19.32%\n4H RSI：37.26\n日線 RSI：55.82\n週線 RSI：48.91\n成交量：4.22×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACHEXUSD\n\nSNEK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00061082147\n幅度級距：-10%\n區間異動：-10.51%\n基準價格：US$0.00068258446\n24H：-4.51%\n4H RSI：51.65\n日線 RSI：68.57\n週線 RSI：52.65\n成交量：1.27×｜NORMAL\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/snek\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ASNEKUSDT"
+    },
+    "ntf_7d3dfeb9be6de0a141f41ea23da2d1ae": {
+      "notification_id": "ntf_7d3dfeb9be6de0a141f41ea23da2d1ae",
+      "run_id": "20261003T003527Z_89c83ad4",
+      "created_at_utc": "2026-10-03T00:36:03.967943Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T003527Z_89c83ad4\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$248.24968\n幅度級距：+10%\n區間異動：+10.19%\n基準價格：US$225.30227\n24H：+0.86%\n4H RSI：50.31\n日線 RSI：70.05\n週線 RSI：92.59\n成交量：31.91×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD"
     }
   }
 }
