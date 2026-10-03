@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-03T00:36:03.967960Z",
+  "updated_at_utc": "2026-10-03T00:36:05.847289Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7398,13 +7398,13 @@
       "notification_id": "ntf_7d3dfeb9be6de0a141f41ea23da2d1ae",
       "run_id": "20261003T003527Z_89c83ad4",
       "created_at_utc": "2026-10-03T00:36:03.967943Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-03T00:36:05.847269Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T003527Z_89c83ad4\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$248.24968\n幅度級距：+10%\n區間異動：+10.19%\n基準價格：US$225.30227\n24H：+0.86%\n4H RSI：50.31\n日線 RSI：70.05\n週線 RSI：92.59\n成交量：31.91×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD"
     }
