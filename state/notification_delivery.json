@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-03T04:29:30.126435Z",
+  "updated_at_utc": "2026-10-03T04:58:16.855649Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7561,6 +7561,20 @@
       "last_attempt_at_utc": "2026-10-03T04:29:27.298415Z",
       "event_count": 7,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T042839Z_a4b3c644\n資料來源：CoinGecko＋公開現貨交易所\n\nSAND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.08173653\n幅度級距：+80%\n區間異動：+81.24%\n基準價格：US$0.045097736\n24H：+80.95%\n4H RSI：78.15\n日線 RSI：83.40\n週線 RSI：37.44\n成交量：63.63×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASANDUSD\n\nMANA｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.10791657\n幅度級距：+20%\n區間異動：+21.47%\n基準價格：US$0.088840829\n24H：+20.85%\n4H RSI：65.78\n日線 RSI：71.57\n週線 RSI：52.48\n成交量：19.97×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/decentraland\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AMANAUSD\n\nENJ｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.036734101\n幅度級距：+20%\n區間異動：+20.61%\n基準價格：US$0.030457077\n24H：+19.71%\n4H RSI：79.20\n日線 RSI：67.60\n週線 RSI：48.80\n成交量：36.30×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AENJUSDT\n\nHIGH｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.034142797\n幅度級距：-10%\n區間異動：-13.63%\n基準價格：US$0.039529201\n24H：-0.05%\n4H RSI：53.16\n日線 RSI：52.66\n週線 RSI：35.90\n成交量：2.42×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/highstreet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHIGHUSD\n\nYGG｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.028978419\n幅度級距：+10%\n區間異動：+10.41%\n基準價格：US$0.026246558\n24H：+8.05%\n4H RSI：57.86\n日線 RSI：59.42\n週線 RSI：40.12\n成交量：2.74×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/yield-guild-games\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AYGGUSD\n\nBLUR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.022108274\n幅度級距：+10%\n區間異動：+10.08%\n基準價格：US$0.020084078\n24H：+5.94%\n4H RSI：57.51\n日線 RSI：60.98\n週線 RSI：54.29\n成交量：2.36×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blur\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABLURUSD"
+    },
+    "ntf_47b824c55166ca9e2dc6c188e32afaa2": {
+      "notification_id": "ntf_47b824c55166ca9e2dc6c188e32afaa2",
+      "run_id": "20261003T045726Z_24e53d4a",
+      "created_at_utc": "2026-10-03T04:58:16.855625Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T045726Z_24e53d4a\n資料來源：CoinGecko＋公開現貨交易所\n\nSYN｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.18963639\n幅度級距：+10%\n區間異動：+10.80%\n基準價格：US$0.17115705\n24H：+2.98%\n4H RSI：51.74\n日線 RSI：52.73\n週線 RSI：54.88\n成交量：0.68×｜WEAK\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/synapse-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASYNUSDT\n\nAXS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$1.2677825\n幅度級距：+10%\n區間異動：+10.40%\n基準價格：US$1.1483699\n24H：+9.58%\n4H RSI：63.60\n日線 RSI：67.99\n週線 RSI：57.90\n成交量：6.47×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/axie-infinity\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAXSUSD"
     }
   }
 }
