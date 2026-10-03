@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-03T01:45:54.298328Z",
+  "updated_at_utc": "2026-10-03T01:56:18.595666Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7463,6 +7463,20 @@
       "last_attempt_at_utc": "2026-10-03T01:45:52.158888Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T014507Z_f16ad953\n資料來源：CoinGecko＋公開現貨交易所\n\nNIGHT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.050466596\n幅度級距：+30%\n區間異動：+31.63%\n基準價格：US$0.038339525\n24H：+28.85%\n4H RSI：79.75\n日線 RSI：88.64\n週線 RSI：56.50\n成交量：11.34×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANIGHTUSD\n\nTRAC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.46816607\n幅度級距：+10%\n區間異動：+10.60%\n基準價格：US$0.4232965\n24H：-1.99%\n4H RSI：52.86\n日線 RSI：67.78\n週線 RSI：63.34\n成交量：3.05×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/origintrail\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATRACUSD"
+    },
+    "ntf_5b2159583832f2800b48c2e2638261ed": {
+      "notification_id": "ntf_5b2159583832f2800b48c2e2638261ed",
+      "run_id": "20261003T015536Z_2e6fa20e",
+      "created_at_utc": "2026-10-03T01:56:18.595641Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T015536Z_2e6fa20e\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$248.47582\n幅度級距：+10%\n區間異動：+10.29%\n基準價格：US$225.30227\n24H：-2.06%\n4H RSI：50.31\n日線 RSI：70.05\n週線 RSI：92.59\n成交量：32.47×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD"
     }
   }
 }
