@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-03T05:38:59.813168Z",
+  "updated_at_utc": "2026-10-03T05:56:39.416656Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7603,6 +7603,20 @@
       "last_attempt_at_utc": "2026-10-03T05:38:57.357850Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T053813Z_e2014602\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$251.01375\n幅度級距：+10%\n區間異動：+11.41%\n基準價格：US$225.30227\n24H：+0.29%\n4H RSI：51.75\n日線 RSI：70.05\n週線 RSI：92.59\n成交量：33.54×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD\n\nSYN｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.19058728\n幅度級距：+10%\n區間異動：+11.35%\n基準價格：US$0.17115705\n24H：+6.93%\n4H RSI：51.74\n日線 RSI：52.73\n週線 RSI：54.88\n成交量：0.70×｜WEAK\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/synapse-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASYNUSDT"
+    },
+    "ntf_ea9024216794eb72f36a2184a24e19a9": {
+      "notification_id": "ntf_ea9024216794eb72f36a2184a24e19a9",
+      "run_id": "20261003T055552Z_d2d5d7de",
+      "created_at_utc": "2026-10-03T05:56:39.416640Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261003T055552Z_d2d5d7de\n資料來源：CoinGecko＋公開現貨交易所\n\nCHZ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.017617351\n幅度級距：+10%\n區間異動：+10.69%\n基準價格：US$0.015915746\n24H：+7.74%\n4H RSI：65.75\n日線 RSI：62.02\n週線 RSI：40.99\n成交量：2.04×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chiliz\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ACHZUSD"
     }
   }
 }
