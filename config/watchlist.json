@@ -168,5 +168,6 @@
   {"symbol": "CAT", "name": "Simon's Cat", "source": "CoinMarketCap", "coingecko_id": "simon-s-cat", "enabled": true, "needs_review": false},
   {"symbol": "SC", "name": "Siacoin", "source": "CoinMarketCap", "coingecko_id": "siacoin", "enabled": true, "needs_review": false},
   {"symbol": "SNT", "name": "Status", "source": "CoinMarketCap", "coingecko_id": "status", "enabled": true, "needs_review": false},
-  {"symbol": "XTZ", "name": "Tezos", "source": "CoinMarketCap", "coingecko_id": "tezos", "enabled": true, "needs_review": false}
+  {"symbol": "XTZ", "name": "Tezos", "source": "CoinMarketCap", "coingecko_id": "tezos", "enabled": true, "needs_review": false},
+  {"symbol": "MANTA", "name": "Manta Network", "source": "CoinMarketCap", "coingecko_id": "manta-network", "enabled": true, "needs_review": false}
 ]
