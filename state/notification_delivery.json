@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-04T21:42:44.511849Z",
+  "updated_at_utc": "2026-10-04T21:58:07.918684Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -7953,6 +7953,20 @@
       "last_attempt_at_utc": "2026-10-04T21:42:42.368719Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261004T214212Z_d5c80ae4\n資料來源：CoinGecko＋公開現貨交易所\n\nHFT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0075009205\n幅度級距：-10%\n區間異動：-10.34%\n基準價格：US$0.0083656625\n24H：-10.67%\n4H RSI：58.34\n日線 RSI：71.42\n週線 RSI：37.25\n成交量：12.40×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSD"
+    },
+    "ntf_e19fbb8ddbc2833871ad83cc8b8aa24d": {
+      "notification_id": "ntf_e19fbb8ddbc2833871ad83cc8b8aa24d",
+      "run_id": "20261004T215730Z_64d29051",
+      "created_at_utc": "2026-10-04T21:58:07.918662Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261004T215730Z_64d29051\n資料來源：CoinGecko＋公開現貨交易所\n\nPORTAL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.020681982\n幅度級距：+10%\n區間異動：+18.03%\n基準價格：US$0.017522415\n24H：+16.07%\n4H RSI：47.13\n日線 RSI：50.55\n週線 RSI：54.09\n成交量：1.10×｜NORMAL\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/portal-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3APORTALUSDT\n\nNIGHT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.043783181\n幅度級距：-10%\n區間異動：-11.66%\n基準價格：US$0.049562099\n24H：-9.21%\n4H RSI：55.80\n日線 RSI：84.99\n週線 RSI：46.51\n成交量：3.00×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ANIGHTUSDT"
     }
   }
 }
