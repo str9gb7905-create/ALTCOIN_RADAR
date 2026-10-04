@@ -25,7 +25,7 @@ RUN_STATUS_PATH = STATE_DIR / "run_status.json"
 HEARTBEAT_PATH = STATE_DIR / "heartbeat.json"
 LOCK_PATH = STATE_DIR / "pipeline.lock"
 WATCHLIST_PATH = PROJECT_ROOT / "config" / "watchlist.json"
-EXPECTED_WATCHLIST = 170
+EXPECTED_WATCHLIST = 171
 LOCK_STALE_SECONDS = 3600
 
 StageARunner = Callable[[str], dict[str, Any]]
@@ -71,6 +71,7 @@ def validate_canonical_watchlist(path: Path = WATCHLIST_PATH) -> dict[str, Any]:
         "SC_mapped": mapping.get("SC") == "siacoin",
         "SNT_mapped": mapping.get("SNT") == "status",
         "XTZ_mapped": mapping.get("XTZ") == "tezos",
+        "MANTA_mapped": mapping.get("MANTA") == "manta-network",
         "AVA_is_Ava_AI": mapping.get("AVA") == "ava-ai",
         "A2Z_removed": "A2Z" not in symbols,
         "CETUS_removed": "CETUS" not in symbols,
