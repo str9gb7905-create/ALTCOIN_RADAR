@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261004T224447Z_8cc1507f",
-  "updated_at": "2026-10-04T22:45:13.159196Z",
+  "last_run_id": "20261004T225604Z_e6136235",
+  "updated_at": "2026-10-04T22:56:32.318169Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -115,7 +115,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-04T22:45:13.159196Z",
+      "last_seen_at": "2026-10-04T22:56:32.318169Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -348,7 +348,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-04T22:45:13.159196Z",
+      "last_seen_at": "2026-10-04T22:56:32.318169Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -464,7 +464,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-04T22:29:50.202972Z",
+      "last_seen_at": "2026-10-04T22:56:32.318169Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -627,7 +627,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-04T22:45:13.159196Z",
+      "last_seen_at": "2026-10-04T22:56:32.318169Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1100,7 +1100,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-04T22:45:13.159196Z",
+      "last_seen_at": "2026-10-04T22:56:32.318169Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1180,7 +1180,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-04T18:01:32.565582Z",
+      "last_seen_at": "2026-10-04T22:56:32.318169Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1577,7 +1577,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-04T22:45:13.159196Z",
+      "last_seen_at": "2026-10-04T22:56:32.318169Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1710,7 +1710,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-04T22:45:13.159196Z",
+      "last_seen_at": "2026-10-04T22:56:32.318169Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1944,7 +1944,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-04T22:45:13.159196Z",
+      "last_seen_at": "2026-10-04T22:56:32.318169Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2493,7 +2493,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-04T22:45:13.159196Z",
+      "last_seen_at": "2026-10-04T22:56:32.318169Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2732,7 +2732,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-04T22:45:13.159196Z",
+      "last_seen_at": "2026-10-04T22:56:32.318169Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2816,7 +2816,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-04T22:45:13.159196Z",
+      "last_seen_at": "2026-10-04T22:56:32.318169Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
