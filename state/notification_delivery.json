@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-05T15:57:57.420481Z",
+  "updated_at_utc": "2026-10-05T16:14:46.535097Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8261,6 +8261,20 @@
       "last_attempt_at_utc": "2026-10-05T15:57:53.350423Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261005T155718Z_0d1e4769\n資料來源：CoinGecko＋公開現貨交易所\n\nNOS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.67836914\n幅度級距：-10%\n區間異動：-10.15%\n基準價格：US$0.75501138\n24H：-9.66%\n4H RSI：65.74\n日線 RSI：88.24\n週線 RSI：68.94\n成交量：2.76×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD"
+    },
+    "ntf_e65502f8900f553eb86e7921c7c538fe": {
+      "notification_id": "ntf_e65502f8900f553eb86e7921c7c538fe",
+      "run_id": "20261005T161409Z_c38b3a54",
+      "created_at_utc": "2026-10-05T16:14:46.535067Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261005T161409Z_c38b3a54\n資料來源：CoinGecko＋公開現貨交易所\n\nRAD｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.32027065\n幅度級距：+20%\n區間異動：+22.94%\n基準價格：US$0.26050972\n24H：+22.20%\n4H RSI：84.93\n日線 RSI：62.89\n週線 RSI：55.89\n成交量：26.89×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSD\n\nPEAQ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.042378776\n幅度級距：-10%\n區間異動：-10.76%\n基準價格：US$0.047487318\n24H：-4.72%\n4H RSI：50.50\n日線 RSI：69.37\n週線 RSI：68.14\n成交量：1.21×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT\n\nHFT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0069973017\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$0.0077828638\n24H：-12.75%\n4H RSI：50.41\n日線 RSI：58.10\n週線 RSI：37.25\n成交量：4.10×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSD"
     }
   }
 }
