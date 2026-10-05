@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-05T14:45:54.565764Z",
+  "updated_at_utc": "2026-10-05T15:32:56.957469Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8233,6 +8233,20 @@
       "last_attempt_at_utc": "2026-10-05T14:45:52.054238Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261005T144513Z_2690ddc5\n資料來源：CoinGecko＋公開現貨交易所\n\nAKT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.75281988\n幅度級距：-10%\n區間異動：-11.10%\n基準價格：US$0.84677554\n24H：-0.57%\n4H RSI：65.75\n日線 RSI：72.18\n週線 RSI：54.77\n成交量：2.95×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/akash-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAKTUSD"
+    },
+    "ntf_96e22ca57f0cf6a5cbdf71a7295f68d7": {
+      "notification_id": "ntf_96e22ca57f0cf6a5cbdf71a7295f68d7",
+      "run_id": "20261005T153216Z_362e88b9",
+      "created_at_utc": "2026-10-05T15:32:56.957447Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261005T153216Z_362e88b9\n資料來源：CoinGecko＋公開現貨交易所\n\nSNEK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00078496852\n幅度級距：+20%\n區間異動：+20.30%\n基準價格：US$0.00065248385\n24H：+18.18%\n4H RSI：79.73\n日線 RSI：71.14\n週線 RSI：55.55\n成交量：2.93×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/snek\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASNEKUSDT\n\nRAD｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.29703074\n幅度級距：+10%\n區間異動：+14.02%\n基準價格：US$0.26050972\n24H：+14.09%\n4H RSI：57.82\n日線 RSI：62.89\n週線 RSI：55.89\n成交量：1.21×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSD\n\nLRC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0095925687\n幅度級距：-10%\n區間異動：-12.22%\n基準價格：US$0.010928266\n24H：-8.00%\n4H RSI：61.97\n日線 RSI：62.25\n週線 RSI：32.54\n成交量：2.27×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/loopring\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALRCUSDT\n\nSAND｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.068093362\n幅度級距：-10%\n區間異動：-10.94%\n基準價格：US$0.076459844\n24H：-12.33%\n4H RSI：58.22\n日線 RSI：86.24\n週線 RSI：56.83\n成交量：7.36×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASANDUSDT"
     }
   }
 }
