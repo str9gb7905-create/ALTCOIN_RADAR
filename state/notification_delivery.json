@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-05T10:16:12.863296Z",
+  "updated_at_utc": "2026-10-05T10:43:48.284180Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8135,6 +8135,20 @@
       "last_attempt_at_utc": "2026-10-05T10:16:10.020207Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261005T101545Z_e8cc5121\n資料來源：CoinGecko＋公開現貨交易所\n\nGLMR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.012141109\n幅度級距：+10%\n區間異動：+10.44%\n基準價格：US$0.010993865\n24H：-2.79%\n4H RSI：56.30\n日線 RSI：68.28\n週線 RSI：43.76\n成交量：29.82×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT"
+    },
+    "ntf_1dce74d30aa2482967b57b1df46249b2": {
+      "notification_id": "ntf_1dce74d30aa2482967b57b1df46249b2",
+      "run_id": "20261005T104329Z_149c8b77",
+      "created_at_utc": "2026-10-05T10:43:48.284166Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261005T104329Z_149c8b77\n資料來源：CoinGecko＋公開現貨交易所\n\nHFT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0069949018\n幅度級距：-10%\n區間異動：-10.12%\n基準價格：US$0.0077828638\n24H：-3.07%\n4H RSI：52.40\n日線 RSI：58.10\n週線 RSI：37.25\n成交量：5.47×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSD"
     }
   }
 }
