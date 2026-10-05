@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-05T11:18:04.389125Z",
+  "updated_at_utc": "2026-10-05T11:59:59.511463Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8163,6 +8163,20 @@
       "last_attempt_at_utc": "2026-10-05T11:18:01.702008Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261005T111737Z_5c065100\n資料來源：CoinGecko＋公開現貨交易所\n\nSNEK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00078549055\n幅度級距：+20%\n區間異動：+20.38%\n基準價格：US$0.00065248385\n24H：+21.43%\n4H RSI：74.32\n日線 RSI：71.14\n週線 RSI：55.55\n成交量：2.45×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/snek\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASNEKUSDT\n\nGLMR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.01229462\n幅度級距：+10%\n區間異動：+11.83%\n基準價格：US$0.010993865\n24H：+5.83%\n4H RSI：56.30\n日線 RSI：68.28\n週線 RSI：43.76\n成交量：30.17×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT"
+    },
+    "ntf_9514a6c37fff29449984f02056826d60": {
+      "notification_id": "ntf_9514a6c37fff29449984f02056826d60",
+      "run_id": "20261005T115931Z_33cf3a9e",
+      "created_at_utc": "2026-10-05T11:59:59.511432Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261005T115931Z_33cf3a9e\n資料來源：CoinGecko＋公開現貨交易所\n\nSNEK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00079021187\n幅度級距：+20%\n區間異動：+21.11%\n基準價格：US$0.00065248385\n24H：+21.82%\n4H RSI：74.32\n日線 RSI：71.14\n週線 RSI：55.55\n成交量：2.60×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/snek\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASNEKUSDT\n\nBEAM｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0026836501\n幅度級距：+10%\n區間異動：+10.52%\n基準價格：US$0.0024281864\n24H：-2.14%\n4H RSI：63.20\n日線 RSI：76.99\n週線 RSI：56.78\n成交量：21.47×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABEAMUSD\n\nENA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.2614629\n幅度級距：+10%\n區間異動：+10.09%\n基準價格：US$0.23750653\n24H：+9.92%\n4H RSI：60.46\n日線 RSI：60.19\n週線 RSI：63.03\n成交量：0.89×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AENAUSDT"
     }
   }
 }
