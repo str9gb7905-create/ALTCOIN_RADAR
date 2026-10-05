@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-05T03:31:23.169558Z",
+  "updated_at_utc": "2026-10-05T04:00:37.977016Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8051,6 +8051,20 @@
       "last_attempt_at_utc": "2026-10-05T03:31:20.914924Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261005T033043Z_e3d41b61\n資料來源：CoinGecko＋公開現貨交易所\n\nAKT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.84677554\n幅度級距：+20%\n區間異動：+24.51%\n基準價格：US$0.68010686\n24H：+24.70%\n4H RSI：72.31\n日線 RSI：72.18\n週線 RSI：54.77\n成交量：4.26×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/akash-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAKTUSD\n\nBEAM｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0024281864\n幅度級距：-10%\n區間異動：-11.84%\n基準價格：US$0.0027542757\n24H：+11.65%\n4H RSI：68.48\n日線 RSI：75.80\n週線 RSI：63.11\n成交量：36.25×｜STRONG\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ABEAMUSDT"
+    },
+    "ntf_75d18ab37a7fc3eda9238b58f86fc35f": {
+      "notification_id": "ntf_75d18ab37a7fc3eda9238b58f86fc35f",
+      "run_id": "20261005T040000Z_dad6753d",
+      "created_at_utc": "2026-10-05T04:00:37.977002Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261005T040000Z_dad6753d\n資料來源：CoinGecko＋公開現貨交易所\n\nPORTAL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.018547111\n幅度級距：-10%\n區間異動：-10.32%\n基準價格：US$0.020681982\n24H：+4.70%\n4H RSI：57.57\n日線 RSI：50.55\n週線 RSI：54.09\n成交量：1.92×｜ELEVATED\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/portal-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3APORTALUSDT"
     }
   }
 }
