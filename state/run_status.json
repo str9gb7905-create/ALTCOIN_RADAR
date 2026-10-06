@@ -1,7 +1,7 @@
 {
-  "run_id": "20261006T112920Z_e9380b13",
-  "started_at_utc": "2026-10-06T11:29:20.746389Z",
-  "completed_at_utc": "2026-10-06T11:29:53.793056Z",
+  "run_id": "20261006T114725Z_e22c3601",
+  "started_at_utc": "2026-10-06T11:47:25.192731Z",
+  "completed_at_utc": "2026-10-06T11:47:55.244939Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 175,
@@ -16,7 +16,7 @@
   "divergence_attempted": 9,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 33.046665,
+  "elapsed_seconds": 30.052207,
   "API_requests_total": 102,
   "requests_by_exchange": {
     "Binance": 4,
@@ -30,21 +30,21 @@
     "MEXC": 12,
     "OKX": 13
   },
-  "elapsed_stage_a": 0.516623,
-  "elapsed_radar_state": 0.092065,
-  "elapsed_stage_b": 19.857054,
-  "elapsed_divergence": 12.579726,
-  "elapsed_total": 33.046665,
+  "elapsed_stage_a": 0.576479,
+  "elapsed_radar_state": 0.096057,
+  "elapsed_stage_b": 18.180362,
+  "elapsed_divergence": 11.198092,
+  "elapsed_total": 30.052207,
   "asset_enrichment_seconds": {
-    "BAND": 0.362315,
-    "C98": 0.420649,
-    "CHEX": 3.592293,
-    "GLMR": 0.574895,
-    "HUMA": 1.419341,
-    "NOS": 0.537126,
-    "PHA": 4.101032,
-    "RAD": 0.367205,
-    "VTHO": 0.386061
+    "BAND": 0.498283,
+    "C98": 0.488926,
+    "CHEX": 2.874894,
+    "EDU": 0.505836,
+    "HUMA": 1.129509,
+    "NOS": 1.038563,
+    "PHA": 3.838729,
+    "RAD": 0.549101,
+    "VTHO": 0.503874
   },
   "stale_lock_recovered": false
 }
