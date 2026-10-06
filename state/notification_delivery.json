@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-06T08:28:39.021325Z",
+  "updated_at_utc": "2026-10-06T08:39:44.061252Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8597,6 +8597,20 @@
       "last_attempt_at_utc": "2026-10-06T08:28:36.576604Z",
       "event_count": 0,
       "message": "⚠️ ALTCOIN RADAR｜掃描故障\n本輪掃描失敗，行情資料或健康檢查未通過；期間可能漏掉價格通知。\n上次成功：2026-10-06T08:16:38.309980Z（UTC）\n查看執行紀錄：https://github.com/str9gb7905-create/ALTCOIN_RADAR/actions/workflows/altcoin-radar.yml"
+    },
+    "ntf_c9173cb1ff3e4ea50a8261c927642fda": {
+      "notification_id": "ntf_c9173cb1ff3e4ea50a8261c927642fda",
+      "run_id": "20261006T083905Z_402a03f6",
+      "created_at_utc": "2026-10-06T08:39:44.061235Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T083905Z_402a03f6\n資料來源：CoinGecko＋公開現貨交易所\n\nLSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.25559487\n幅度級距：-10%\n區間異動：-10.11%\n基準價格：US$0.28434862\n24H：-5.03%\n4H RSI：34.30\n日線 RSI：46.31\n週線 RSI：53.89\n成交量：0.28×｜WEAK\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT"
     }
   }
 }
