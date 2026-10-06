@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-06T19:29:43.034188Z",
+  "updated_at_utc": "2026-10-06T19:46:08.340587Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8919,6 +8919,20 @@
       "last_attempt_at_utc": "2026-10-06T19:29:40.067778Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T192902Z_648ccc21\n資料來源：CoinGecko＋公開現貨交易所\n\nLAZIO｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.4761537\n幅度級距：+20%\n區間異動：+23.71%\n基準價格：US$0.3849018\n24H：+25.15%\n4H RSI：50.32\n日線 RSI：48.30\n週線 RSI：37.45\n成交量：0.98×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lazio-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALAZIOUSDT"
+    },
+    "ntf_3a16c48322f1032cd75e01809116098f": {
+      "notification_id": "ntf_3a16c48322f1032cd75e01809116098f",
+      "run_id": "20261006T194544Z_839a7947",
+      "created_at_utc": "2026-10-06T19:46:08.340560Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T194544Z_839a7947\n資料來源：CoinGecko＋公開現貨交易所\n\nVTHO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00072560232\n幅度級距：+10%\n區間異動：+10.16%\n基準價格：US$0.00065867485\n24H：+10.20%\n4H RSI：66.22\n日線 RSI：52.53\n週線 RSI：64.76\n成交量：2.28×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vethor-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AVTHOUSD"
     }
   }
 }
