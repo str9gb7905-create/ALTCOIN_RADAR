@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-06T19:46:13.254490Z",
+  "updated_at_utc": "2026-10-06T20:08:45.522948Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8933,6 +8933,20 @@
       "last_attempt_at_utc": "2026-10-06T19:46:10.673341Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T194544Z_839a7947\n資料來源：CoinGecko＋公開現貨交易所\n\nVTHO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00072560232\n幅度級距：+10%\n區間異動：+10.16%\n基準價格：US$0.00065867485\n24H：+10.20%\n4H RSI：66.22\n日線 RSI：52.53\n週線 RSI：64.76\n成交量：2.28×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vethor-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AVTHOUSD"
+    },
+    "ntf_606337fe732ee379d181b41e255b44a2": {
+      "notification_id": "ntf_606337fe732ee379d181b41e255b44a2",
+      "run_id": "20261006T200815Z_7c06dc15",
+      "created_at_utc": "2026-10-06T20:08:45.522932Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T200815Z_7c06dc15\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0017524375\n幅度級距：+10%\n區間異動：+10.78%\n基準價格：US$0.0015819753\n24H：+3.24%\n4H RSI：43.28\n日線 RSI：62.03\n週線 RSI：55.35\n成交量：0.68×｜WEAK\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD"
     }
   }
 }
