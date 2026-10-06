@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-06T14:21:32.498947Z",
+  "updated_at_utc": "2026-10-06T14:42:46.292218Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8765,6 +8765,20 @@
       "last_attempt_at_utc": "2026-10-06T14:21:29.952447Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T142052Z_6cd6d73f\n資料來源：CoinGecko＋公開現貨交易所\n\nC98｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.019897649\n幅度級距：+20%\n區間異動：+21.01%\n基準價格：US$0.016442727\n24H：+19.55%\n4H RSI：76.05\n日線 RSI：60.60\n週線 RSI：49.73\n成交量：18.98×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coin98\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AC98USD\n\nLSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.25516871\n幅度級距：-10%\n區間異動：-10.26%\n基準價格：US$0.28434862\n24H：-6.56%\n4H RSI：35.03\n日線 RSI：46.31\n週線 RSI：53.89\n成交量：0.25×｜WEAK\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT"
+    },
+    "ntf_4ac78b19df95078c42793535c3d537af": {
+      "notification_id": "ntf_4ac78b19df95078c42793535c3d537af",
+      "run_id": "20261006T144216Z_e0c8cb30",
+      "created_at_utc": "2026-10-06T14:42:46.292194Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T144216Z_e0c8cb30\n資料來源：CoinGecko＋公開現貨交易所\n\nEDU｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.064642614\n幅度級距：+10%\n區間異動：+11.71%\n基準價格：US$0.057865243\n24H：+10.38%\n4H RSI：70.07\n日線 RSI：69.47\n週線 RSI：48.13\n成交量：24.53×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/edu-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AEDUUSDT"
     }
   }
 }
