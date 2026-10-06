@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-06T16:43:33.999428Z",
+  "updated_at_utc": "2026-10-06T16:43:36.618806Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8840,13 +8840,13 @@
       "notification_id": "ntf_0f3d8b77b27c3fce9f22ac11bb846380",
       "run_id": "20261006T164311Z_9971a153",
       "created_at_utc": "2026-10-06T16:43:33.999402Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-06T16:43:36.618788Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T164311Z_9971a153\n資料來源：CoinGecko＋公開現貨交易所\n\nRAD｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.32916859\n幅度級距：-20%\n區間異動：-21.61%\n基準價格：US$0.4198895\n24H：+5.16%\n4H RSI：62.57\n日線 RSI：84.44\n週線 RSI：55.89\n成交量：195.08×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSD\n\nC98｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.020021926\n幅度級距：+20%\n區間異動：+21.04%\n基準價格：US$0.016541651\n24H：+21.52%\n4H RSI：79.44\n日線 RSI：60.60\n週線 RSI：49.73\n成交量：24.49×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coin98\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AC98USD"
     }
