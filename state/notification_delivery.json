@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-06T10:34:25.050190Z",
+  "updated_at_utc": "2026-10-06T10:34:27.263478Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8644,13 +8644,13 @@
       "notification_id": "ntf_88a3622b70e476f5f29e0195919b54dc",
       "run_id": "20261006T103357Z_071479c8",
       "created_at_utc": "2026-10-06T10:34:25.050170Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-06T10:34:27.263450Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T103357Z_071479c8\n資料來源：CoinGecko＋公開現貨交易所\n\nHUMA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.031049547\n幅度級距：-10%\n區間異動：-10.83%\n基準價格：US$0.03481973\n24H：-11.22%\n4H RSI：48.29\n日線 RSI：65.43\n週線 RSI：64.41\n成交量：1.16×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AHUMAUSDT"
     }
