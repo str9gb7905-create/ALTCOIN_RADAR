@@ -172,6 +172,6 @@
   {"symbol": "MANTA", "name": "Manta Network", "source": "CoinMarketCap", "coingecko_id": "manta-network", "enabled": true, "needs_review": false},
   {"symbol": "BICO", "name": "Biconomy", "source": "CoinMarketCap", "coingecko_id": "biconomy", "enabled": true, "needs_review": false},
   {"symbol": "DYM", "name": "Dymension", "source": "CoinMarketCap", "coingecko_id": "dymension", "enabled": true, "needs_review": false},
-  {"symbol": "EDU", "name": "Open Campus", "source": "CoinMarketCap", "coingecko_id": "open-campus", "enabled": true, "needs_review": false},
+  {"symbol": "EDU", "name": "Open Campus", "source": "CoinMarketCap", "coingecko_id": "edu-coin", "enabled": true, "needs_review": false},
   {"symbol": "BAND", "name": "Band Protocol", "source": "CoinMarketCap", "coingecko_id": "band-protocol", "enabled": true, "needs_review": false}
 ]

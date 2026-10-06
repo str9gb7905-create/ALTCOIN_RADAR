@@ -74,7 +74,7 @@ def validate_canonical_watchlist(path: Path = WATCHLIST_PATH) -> dict[str, Any]:
         "MANTA_mapped": mapping.get("MANTA") == "manta-network",
         "BICO_mapped": mapping.get("BICO") == "biconomy",
         "DYM_mapped": mapping.get("DYM") == "dymension",
-        "EDU_mapped": mapping.get("EDU") == "open-campus",
+        "EDU_mapped": mapping.get("EDU") == "edu-coin",
         "BAND_mapped": mapping.get("BAND") == "band-protocol",
         "AVA_is_Ava_AI": mapping.get("AVA") == "ava-ai",
         "A2Z_removed": "A2Z" not in symbols,
