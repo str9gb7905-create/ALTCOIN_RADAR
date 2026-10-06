@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-06T00:13:25.204547Z",
+  "updated_at_utc": "2026-10-06T00:42:21.301697Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8401,6 +8401,20 @@
       "last_attempt_at_utc": "2026-10-06T00:13:22.775272Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T001253Z_fade847e\n資料來源：CoinGecko＋公開現貨交易所\n\nVTHO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00070675264\n幅度級距：+10%\n區間異動：+11.27%\n基準價格：US$0.00063515937\n24H：+7.14%\n4H RSI：51.86\n日線 RSI：52.53\n週線 RSI：64.76\n成交量：0.67×｜WEAK\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vethor-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AVTHOUSD"
+    },
+    "ntf_7d128631d5b2fc4cfd4202a5b5b9aff8": {
+      "notification_id": "ntf_7d128631d5b2fc4cfd4202a5b5b9aff8",
+      "run_id": "20261006T004145Z_ce83b55d",
+      "created_at_utc": "2026-10-06T00:42:21.301677Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T004145Z_ce83b55d\n資料來源：CoinGecko＋公開現貨交易所\n\nCHEX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.017652636\n幅度級距：-10%\n區間異動：-11.51%\n基準價格：US$0.019948464\n24H：-11.42%\n4H RSI：55.22\n日線 RSI：61.91\n週線 RSI：51.51\n成交量：1.03×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACHEXUSDT"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261006T001253Z_fade847e",
-  "updated_at": "2026-10-06T00:13:16.594149Z",
+  "last_run_id": "20261006T004145Z_ce83b55d",
+  "updated_at": "2026-10-06T00:42:15.748240Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -115,7 +115,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-06T00:13:16.594149Z",
+      "last_seen_at": "2026-10-06T00:42:15.748240Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -419,7 +419,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-06T00:13:16.594149Z",
+      "last_seen_at": "2026-10-06T00:42:15.748240Z",
       "daily": {
         "active_signals": [
           {
@@ -485,7 +485,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-06T00:13:16.594149Z",
+      "last_seen_at": "2026-10-06T00:42:15.748240Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -652,7 +652,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-06T00:13:16.594149Z",
+      "last_seen_at": "2026-10-06T00:42:15.748240Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -715,7 +715,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-06T00:13:16.594149Z",
+      "last_seen_at": "2026-10-06T00:42:15.748240Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1188,7 +1188,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-06T00:13:16.594149Z",
+      "last_seen_at": "2026-10-06T00:42:15.748240Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1512,7 +1512,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-06T00:13:16.594149Z",
+      "last_seen_at": "2026-10-06T00:42:15.748240Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2920,10 +2920,10 @@
     },
     "CHEX": {
       "coingecko_id": "chex-token",
-      "history_source": "Kraken",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-05T07:15:06.230862Z",
+      "last_seen_at": "2026-10-06T00:42:15.748240Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2938,7 +2938,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-06T00:13:16.594149Z",
+      "last_seen_at": "2026-10-06T00:42:15.748240Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
