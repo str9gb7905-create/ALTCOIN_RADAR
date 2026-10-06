@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-06T10:56:42.006765Z",
+  "updated_at_utc": "2026-10-06T10:56:43.988950Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8658,13 +8658,13 @@
       "notification_id": "ntf_d85cd7a23805df93815badececf0ba01",
       "run_id": "20261006T105614Z_51ead323",
       "created_at_utc": "2026-10-06T10:56:42.006748Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-06T10:56:43.988935Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T105614Z_51ead323\n資料來源：CoinGecko＋公開現貨交易所\n\nPHA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.076770605\n幅度級距：+10%\n區間異動：+10.79%\n基準價格：US$0.069293743\n24H：-0.80%\n4H RSI：53.33\n日線 RSI：61.37\n週線 RSI：74.61\n成交量：1.00×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APHAUSDT"
     }
