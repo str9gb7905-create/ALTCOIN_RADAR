@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-06T18:57:29.924678Z",
+  "updated_at_utc": "2026-10-06T19:29:37.684506Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -8905,6 +8905,20 @@
       "last_attempt_at_utc": "2026-10-06T18:57:27.468429Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T185659Z_e1d9c8ee\n資料來源：CoinGecko＋公開現貨交易所\n\nSYN｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.1970477\n幅度級距：+10%\n區間異動：+12.56%\n基準價格：US$0.17505636\n24H：+6.74%\n4H RSI：59.24\n日線 RSI：56.66\n週線 RSI：55.71\n成交量：0.24×｜WEAK\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/synapse-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASYNUSDT\n\nC98｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.018015534\n幅度級距：-10%\n區間異動：-10.56%\n基準價格：US$0.02014346\n24H：+5.11%\n4H RSI：79.44\n日線 RSI：60.60\n週線 RSI：49.73\n成交量：30.09×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coin98\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AC98USD\n\nNOS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.67390858\n幅度級距：+10%\n區間異動：+10.38%\n基準價格：US$0.61051953\n24H：+6.47%\n4H RSI：59.44\n日線 RSI：71.86\n週線 RSI：68.94\n成交量：1.42×｜NORMAL\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD"
+    },
+    "ntf_8b4c035036d80690d762fb682db8bd22": {
+      "notification_id": "ntf_8b4c035036d80690d762fb682db8bd22",
+      "run_id": "20261006T192902Z_648ccc21",
+      "created_at_utc": "2026-10-06T19:29:37.684482Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261006T192902Z_648ccc21\n資料來源：CoinGecko＋公開現貨交易所\n\nLAZIO｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.4761537\n幅度級距：+20%\n區間異動：+23.71%\n基準價格：US$0.3849018\n24H：+25.15%\n4H RSI：50.32\n日線 RSI：48.30\n週線 RSI：37.45\n成交量：0.98×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lazio-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALAZIOUSDT"
     }
   }
 }
