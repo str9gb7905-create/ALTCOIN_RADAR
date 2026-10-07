@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T18:38:53.614790Z",
+  "updated_at_utc": "2026-10-07T18:38:55.841289Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9638,13 +9638,13 @@
       "notification_id": "ntf_a12b8e5bb1567ef35dbb38fefc15046c",
       "run_id": "20261007T183745Z_18363724",
       "created_at_utc": "2026-10-07T18:38:53.614773Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-07T18:38:55.841272Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T183745Z_18363724\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00083619901\n幅度級距：+90%\n區間異動：+97.39%\n基準價格：US$0.00042362324\n24H：+92.08%\n4H RSI：89.57\n日線 RSI：38.36\n週線 RSI：24.90\n成交量：30.58×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nALICE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.17118333\n幅度級距：-10%\n區間異動：-10.08%\n基準價格：US$0.19037037\n24H：-9.07%\n4H RSI：42.11\n日線 RSI：63.17\n週線 RSI：62.27\n成交量：2.22×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/my-neighbor-alice\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AALICEUSD"
     }
