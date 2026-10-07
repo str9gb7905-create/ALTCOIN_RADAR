@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T04:58:03.620577Z",
+  "updated_at_utc": "2026-10-07T05:14:22.212993Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9171,6 +9171,20 @@
       "last_attempt_at_utc": "2026-10-07T04:58:00.937216Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T045705Z_824dbbff\n資料來源：CoinGecko＋公開現貨交易所\n\nCPOOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.031152019\n幅度級距：-10%\n區間異動：-11.75%\n基準價格：US$0.035298237\n24H：-7.92%\n4H RSI：31.12\n日線 RSI：57.74\n週線 RSI：60.65\n成交量：1.43×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACPOOLUSD\n\nAIOT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.05185371\n幅度級距：-10%\n區間異動：-11.29%\n基準價格：US$0.058455103\n24H：-11.56%\n4H RSI：31.23\n日線 RSI：59.30\n週線 RSI：35.36\n成交量：1.33×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/okzoo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAIOTUSDT\n\nRDNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00046890696\n幅度級距：+10%\n區間異動：+10.69%\n基準價格：US$0.00042362324\n24H：+4.77%\n4H RSI：36.52\n日線 RSI：38.36\n週線 RSI：24.90\n成交量：0.62×｜WEAK\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nAGI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0060329121\n幅度級距：-10%\n區間異動：-10.47%\n基準價格：US$0.0067383232\n24H：-9.34%\n4H RSI：29.11\n日線 RSI：51.62\n週線 RSI：46.36\n成交量：1.56×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT"
+    },
+    "ntf_6e54390ced7aca5093ccf045ec6b5484": {
+      "notification_id": "ntf_6e54390ced7aca5093ccf045ec6b5484",
+      "run_id": "20261007T051322Z_11d399cd",
+      "created_at_utc": "2026-10-07T05:14:22.212980Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T051322Z_11d399cd\n資料來源：CoinGecko＋公開現貨交易所\n\nSAND｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.072110258\n幅度級距：+10%\n區間異動：+10.68%\n基準價格：US$0.06515105\n24H：+9.33%\n4H RSI：53.13\n日線 RSI：69.18\n週線 RSI：37.52\n成交量：7.35×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASANDUSD"
     }
   }
 }
