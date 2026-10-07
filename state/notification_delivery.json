@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T12:42:59.067483Z",
+  "updated_at_utc": "2026-10-07T12:43:01.502798Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9428,13 +9428,13 @@
       "notification_id": "ntf_d9e5664b8675605c6e48c27f9fac79da",
       "run_id": "20261007T124138Z_96165f7a",
       "created_at_utc": "2026-10-07T12:42:59.067465Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-07T12:43:01.502784Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T124138Z_96165f7a\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00078591008\n幅度級距：+80%\n區間異動：+85.52%\n基準價格：US$0.00042362324\n24H：+76.70%\n4H RSI：73.18\n日線 RSI：38.36\n週線 RSI：24.90\n成交量：14.14×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nDUSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0781898\n幅度級距：-10%\n區間異動：-10.23%\n基準價格：US$0.087099324\n24H：-8.46%\n4H RSI：34.58\n日線 RSI：54.24\n週線 RSI：52.35\n成交量：0.77×｜WEAK\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT\n\nALT｜首次觸發\n觸發：由近24H高點下跌\n價格：US$0.0072587163\n幅度級距：-10%\n區間異動：-10.18%\n基準價格：US$0.0080810976\n24H：-8.89%\n4H RSI：34.70\n日線 RSI：60.37\n週線 RSI：50.68\n成交量：1.13×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/altlayer\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AALTUSDT"
     }
