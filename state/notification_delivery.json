@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T04:10:39.198770Z",
+  "updated_at_utc": "2026-10-07T04:31:16.105829Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9143,6 +9143,20 @@
       "last_attempt_at_utc": "2026-10-07T04:10:36.777154Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T040942Z_af1391c8\n資料來源：CoinGecko＋公開現貨交易所\n\nVTHO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00069271797\n幅度級距：-10%\n區間異動：-10.39%\n基準價格：US$0.00077303318\n24H：-7.59%\n4H RSI：51.06\n日線 RSI：60.80\n週線 RSI：64.20\n成交量：1.70×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vethor-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AVTHOUSD\n\nOP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.12177933\n幅度級距：-10%\n區間異動：-10.27%\n基準價格：US$0.13572233\n24H：-8.45%\n4H RSI：33.81\n日線 RSI：54.22\n週線 RSI：48.04\n成交量：1.08×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/optimism\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AOPUSDT\n\nXAI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0090781939\n幅度級距：-10%\n區間異動：-10.26%\n基準價格：US$0.010116557\n24H：-7.52%\n4H RSI：34.31\n日線 RSI：61.28\n週線 RSI：47.92\n成交量：1.16×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXAIUSDT\n\nARB｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.18508407\n幅度級距：-10%\n區間異動：-10.05%\n基準價格：US$0.20577015\n24H：-9.35%\n4H RSI：30.25\n日線 RSI：54.41\n週線 RSI：68.03\n成交量：0.61×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arbitrum\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARBUSDT"
+    },
+    "ntf_59bf106034bd56273442a45ff9602059": {
+      "notification_id": "ntf_59bf106034bd56273442a45ff9602059",
+      "run_id": "20261007T043029Z_79b8130b",
+      "created_at_utc": "2026-10-07T04:31:16.105808Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T043029Z_79b8130b\n資料來源：CoinGecko＋公開現貨交易所\n\nFET｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.2284303\n幅度級距：-10%\n區間異動：-10.02%\n基準價格：US$0.25387\n24H：-9.84%\n4H RSI：40.55\n日線 RSI：60.15\n週線 RSI：58.73\n成交量：1.02×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/fetch-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFETUSD"
     }
   }
 }
