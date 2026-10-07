@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T08:35:46.220687Z",
+  "updated_at_utc": "2026-10-07T09:15:08.435204Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9283,6 +9283,20 @@
       "last_attempt_at_utc": "2026-10-07T08:35:43.839572Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T083440Z_bb0d2a24\n資料來源：CoinGecko＋公開現貨交易所\n\nLAZIO｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.44561895\n幅度級距：+10%\n區間異動：+16.98%\n基準價格：US$0.38093879\n24H：+15.46%\n4H RSI：48.22\n日線 RSI：55.33\n週線 RSI：37.45\n成交量：1.10×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lazio-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALAZIOUSDT\n\nRDNT｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.00046249323\n幅度級距：-10%\n區間異動：-16.34%\n基準價格：US$0.00055282091\n24H：+4.67%\n4H RSI：67.55\n日線 RSI：38.36\n週線 RSI：24.90\n成交量：4.36×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nBIO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.029165059\n幅度級距：-10%\n區間異動：-10.17%\n基準價格：US$0.032467501\n24H：-6.70%\n4H RSI：38.34\n日線 RSI：59.62\n週線 RSI：48.00\n成交量：1.86×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bio-protocol\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ABIOUSDT\n\nCPOOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.031712054\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.035298237\n24H：-7.69%\n4H RSI：30.23\n日線 RSI：57.74\n週線 RSI：60.65\n成交量：1.35×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACPOOLUSD"
+    },
+    "ntf_05cfebfb5b79ae6e0628a6de76835d97": {
+      "notification_id": "ntf_05cfebfb5b79ae6e0628a6de76835d97",
+      "run_id": "20261007T091410Z_c9664d6d",
+      "created_at_utc": "2026-10-07T09:15:08.435179Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T091410Z_c9664d6d\n資料來源：CoinGecko＋公開現貨交易所\n\nGLMR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.012159585\n幅度級距：+20%\n區間異動：+23.05%\n基準價格：US$0.0098820887\n24H：+17.75%\n4H RSI：45.55\n日線 RSI：62.05\n週線 RSI：43.76\n成交量：16.31×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT\n\nLAZIO｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.42065148\n幅度級距：-10%\n區間異動：-11.66%\n基準價格：US$0.4761537\n24H：+8.82%\n4H RSI：48.22\n日線 RSI：55.33\n週線 RSI：37.45\n成交量：1.10×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lazio-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALAZIOUSDT\n\nPOND｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0017463483\n幅度級距：-10%\n區間異動：-11.32%\n基準價格：US$0.0019693078\n24H：+8.49%\n4H RSI：62.56\n日線 RSI：62.26\n週線 RSI：54.70\n成交量：4.62×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.2598578\n幅度級距：-10%\n區間異動：-10.08%\n基準價格：US$4.7375051\n24H：-6.53%\n4H RSI：41.08\n日線 RSI：65.10\n週線 RSI：67.85\n成交量：0.62×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arweave\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARUSDT"
     }
   }
 }
