@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T22:27:54.861967Z",
+  "updated_at_utc": "2026-10-07T22:44:31.066900Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9773,6 +9773,20 @@
       "last_attempt_at_utc": "2026-10-07T22:27:52.532156Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T222641Z_0c257c58\n資料來源：CoinGecko＋公開現貨交易所\n\nLAZIO｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.46833048\n幅度級距：+20%\n區間異動：+22.94%\n基準價格：US$0.38093879\n24H：+17.10%\n4H RSI：53.27\n日線 RSI：55.33\n週線 RSI：37.45\n成交量：1.39×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lazio-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALAZIOUSDT\n\nW｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.015587039\n幅度級距：+10%\n區間異動：+13.41%\n基準價格：US$0.013744022\n24H：+5.79%\n4H RSI：51.51\n日線 RSI：66.97\n週線 RSI：46.66\n成交量：1.38×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AWUSD\n\nBOME｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0010343874\n幅度級距：+10%\n區間異動：+10.41%\n基準價格：US$0.00093686385\n24H：+4.08%\n4H RSI：41.58\n日線 RSI：51.82\n週線 RSI：61.09\n成交量：0.87×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/book-of-meme\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABOMEUSDT"
+    },
+    "ntf_35e76c9f0dc28bae7014383832e7b77f": {
+      "notification_id": "ntf_35e76c9f0dc28bae7014383832e7b77f",
+      "run_id": "20261007T224322Z_a086961b",
+      "created_at_utc": "2026-10-07T22:44:31.066884Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T224322Z_a086961b\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0009741504\n幅度級距：+120%\n區間異動：+129.96%\n基準價格：US$0.00042362324\n24H：+125.08%\n4H RSI：95.70\n日線 RSI：38.36\n週線 RSI：24.90\n成交量：49.30×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nCPOOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.031457838\n幅度級距：-10%\n區間異動：-10.00%\n基準價格：US$0.034953559\n24H：-8.63%\n4H RSI：28.91\n日線 RSI：57.74\n週線 RSI：60.65\n成交量：1.03×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACPOOLUSD"
     }
   }
 }
