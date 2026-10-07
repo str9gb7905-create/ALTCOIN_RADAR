@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T03:50:10.174793Z",
+  "updated_at_utc": "2026-10-07T04:10:34.599298Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9129,6 +9129,20 @@
       "last_attempt_at_utc": "2026-10-07T03:50:07.511952Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T034915Z_e22aadeb\n資料來源：CoinGecko＋公開現貨交易所\n\nDYM｜首次觸發\n觸發：由近24H高點下跌\n價格：US$0.017691741\n幅度級距：-10%\n區間異動：-10.75%\n基準價格：US$0.019822606\n24H：-8.27%\n4H RSI：46.25\n日線 RSI：56.02\n週線 RSI：38.44\n成交量：0.72×｜WEAK\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dymension\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADYMUSDT\n\nPYTH｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.072128487\n幅度級距：-10%\n區間異動：-10.27%\n基準價格：US$0.080382691\n24H：-6.51%\n4H RSI：43.85\n日線 RSI：60.34\n週線 RSI：68.83\n成交量：1.20×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APYTHUSD\n\nLNQ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.014409671\n幅度級距：-10%\n區間異動：-10.03%\n基準價格：US$0.016016256\n24H：-9.91%\n4H RSI：23.53\n日線 RSI：61.29\n週線 RSI：73.88\n成交量：1.04×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/linqai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ALNQUSDT"
+    },
+    "ntf_634cff33c60a7030ee60be3553ca7b68": {
+      "notification_id": "ntf_634cff33c60a7030ee60be3553ca7b68",
+      "run_id": "20261007T040942Z_af1391c8",
+      "created_at_utc": "2026-10-07T04:10:34.599275Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T040942Z_af1391c8\n資料來源：CoinGecko＋公開現貨交易所\n\nVTHO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00069271797\n幅度級距：-10%\n區間異動：-10.39%\n基準價格：US$0.00077303318\n24H：-7.59%\n4H RSI：51.06\n日線 RSI：60.80\n週線 RSI：64.20\n成交量：1.70×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vethor-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AVTHOUSD\n\nOP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.12177933\n幅度級距：-10%\n區間異動：-10.27%\n基準價格：US$0.13572233\n24H：-8.45%\n4H RSI：33.81\n日線 RSI：54.22\n週線 RSI：48.04\n成交量：1.08×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/optimism\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AOPUSDT\n\nXAI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0090781939\n幅度級距：-10%\n區間異動：-10.26%\n基準價格：US$0.010116557\n24H：-7.52%\n4H RSI：34.31\n日線 RSI：61.28\n週線 RSI：47.92\n成交量：1.16×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXAIUSDT\n\nARB｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.18508407\n幅度級距：-10%\n區間異動：-10.05%\n基準價格：US$0.20577015\n24H：-9.35%\n4H RSI：30.25\n日線 RSI：54.41\n週線 RSI：68.03\n成交量：0.61×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arbitrum\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARBUSDT"
     }
   }
 }
