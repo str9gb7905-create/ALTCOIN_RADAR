@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T03:30:01.793795Z",
+  "updated_at_utc": "2026-10-07T03:30:05.148403Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9106,13 +9106,13 @@
       "notification_id": "ntf_195d743381cc43ff9804ce2ce563b779",
       "run_id": "20261007T032929Z_da235028",
       "created_at_utc": "2026-10-07T03:30:01.793777Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-07T03:30:05.148384Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T032929Z_da235028\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0017255898\n幅度級距：-10%\n區間異動：-12.38%\n基準價格：US$0.0019693078\n24H：+7.45%\n4H RSI：48.67\n日線 RSI：62.26\n週線 RSI：54.70\n成交量：2.91×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nAGI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0060578756\n幅度級距：-10%\n區間異動：-10.10%\n基準價格：US$0.0067383232\n24H：-8.92%\n4H RSI：34.17\n日線 RSI：51.62\n週線 RSI：46.36\n成交量：1.55×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT"
     }
