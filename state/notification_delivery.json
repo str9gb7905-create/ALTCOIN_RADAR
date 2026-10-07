@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T06:12:44.138826Z",
+  "updated_at_utc": "2026-10-07T07:01:26.388964Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9213,6 +9213,20 @@
       "last_attempt_at_utc": "2026-10-07T06:12:41.542812Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T061150Z_0ec6f0cc\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0019260766\n幅度級距：+20%\n區間異動：+21.75%\n基準價格：US$0.0015819753\n24H：+19.41%\n4H RSI：54.89\n日線 RSI：62.26\n週線 RSI：54.70\n成交量：4.27×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nPHA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.068696443\n幅度級距：-10%\n區間異動：-10.90%\n基準價格：US$0.077101497\n24H：-0.89%\n4H RSI：44.89\n日線 RSI：61.21\n週線 RSI：75.31\n成交量：1.23×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APHAUSDT\n\nAGI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0060226493\n幅度級距：-10%\n區間異動：-10.62%\n基準價格：US$0.0067383232\n24H：-9.12%\n4H RSI：29.11\n日線 RSI：51.62\n週線 RSI：46.36\n成交量：1.62×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT\n\nPYTH｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.072203023\n幅度級距：-10%\n區間異動：-10.18%\n基準價格：US$0.080382691\n24H：-6.04%\n4H RSI：35.12\n日線 RSI：60.34\n週線 RSI：68.83\n成交量：1.21×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APYTHUSD\n\nDYM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.01780748\n幅度級距：-10%\n區間異動：-10.17%\n基準價格：US$0.019822606\n24H：-8.69%\n4H RSI：28.62\n日線 RSI：56.02\n週線 RSI：38.44\n成交量：0.71×｜WEAK\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dymension\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADYMUSDT"
+    },
+    "ntf_cd5e61f315afcdc4f6ccff4e0f27911b": {
+      "notification_id": "ntf_cd5e61f315afcdc4f6ccff4e0f27911b",
+      "run_id": "20261007T070029Z_7c2dea00",
+      "created_at_utc": "2026-10-07T07:01:26.388942Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T070029Z_7c2dea00\n資料來源：CoinGecko＋公開現貨交易所\n\nSYN｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.19817387\n幅度級距：+10%\n區間異動：+13.21%\n基準價格：US$0.17505636\n24H：+10.98%\n4H RSI：55.29\n日線 RSI：58.46\n週線 RSI：55.71\n成交量：0.47×｜WEAK / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/synapse-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASYNUSDT"
     }
   }
 }
