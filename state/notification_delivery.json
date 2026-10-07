@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T15:50:32.088355Z",
+  "updated_at_utc": "2026-10-07T16:13:36.434111Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9549,6 +9549,20 @@
       "last_attempt_at_utc": "2026-10-07T15:50:29.528647Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T154844Z_0cdd66ec\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00072398766\n幅度級距：+70%\n區間異動：+70.90%\n基準價格：US$0.00042362324\n24H：+68.57%\n4H RSI：73.18\n日線 RSI：38.36\n週線 RSI：24.90\n成交量：24.00×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nCPOOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.031150016\n幅度級距：-10%\n區間異動：-10.88%\n基準價格：US$0.034953559\n24H：-9.61%\n4H RSI：27.06\n日線 RSI：57.74\n週線 RSI：60.65\n成交量：1.16×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACPOOLUSD"
+    },
+    "ntf_8cd9f8f7d8cade99cacad4de5df522ca": {
+      "notification_id": "ntf_8cd9f8f7d8cade99cacad4de5df522ca",
+      "run_id": "20261007T161243Z_27611996",
+      "created_at_utc": "2026-10-07T16:13:36.434080Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T161243Z_27611996\n資料來源：CoinGecko＋公開現貨交易所\n\nSAND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.086256364\n幅度級距：+30%\n區間異動：+32.09%\n基準價格：US$0.065299543\n24H：+31.42%\n4H RSI：70.33\n日線 RSI：69.18\n週線 RSI：37.52\n成交量：18.40×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASANDUSD\n\nBEAM｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.002660998\n幅度級距：+10%\n區間異動：+10.70%\n基準價格：US$0.0024036987\n24H：+6.37%\n4H RSI：62.19\n日線 RSI：74.70\n週線 RSI：56.78\n成交量：4.62×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABEAMUSDC\n\nMANA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.10732476\n幅度級距：+10%\n區間異動：+10.56%\n基準價格：US$0.097070817\n24H：+5.04%\n4H RSI：57.21\n日線 RSI：68.13\n週線 RSI：52.48\n成交量：2.38×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/decentraland\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AMANAUSD"
     }
   }
 }
