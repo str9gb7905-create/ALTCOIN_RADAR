@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T17:32:38.850457Z",
+  "updated_at_utc": "2026-10-07T17:32:42.222425Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9596,13 +9596,13 @@
       "notification_id": "ntf_9c0a601b2e18f9fce831ec177a5d0c1b",
       "run_id": "20261007T173053Z_91da7f74",
       "created_at_utc": "2026-10-07T17:32:38.850434Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-07T17:32:42.222408Z",
       "event_count": 8,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T173053Z_91da7f74\n資料來源：CoinGecko＋公開現貨交易所\n\nENJ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.029902739\n幅度級距：-10%\n區間異動：-10.94%\n基準價格：US$0.033576701\n24H：-8.70%\n4H RSI：37.49\n日線 RSI：66.21\n週線 RSI：48.43\n成交量：5.81×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENJUSDT\n\nMEME｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00055981437\n幅度級距：-10%\n區間異動：-10.55%\n基準價格：US$0.00062584917\n24H：-9.68%\n4H RSI：36.53\n日線 RSI：56.80\n週線 RSI：48.58\n成交量：1.21×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/memecoin-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMEMEUSDT\n\nYGG｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.025284641\n幅度級距：-10%\n區間異動：-10.34%\n基準價格：US$0.028200642\n24H：-10.05%\n4H RSI：32.89\n日線 RSI：58.52\n週線 RSI：40.12\n成交量：1.80×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/yield-guild-games\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AYGGUSD\n\nDUSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.077663156\n幅度級距：-10%\n區間異動：-10.30%\n基準價格：US$0.086579289\n24H：-9.94%\n4H RSI：33.89\n日線 RSI：54.24\n週線 RSI：52.35\n成交量：0.80×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT\n\nFLOCK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.059260585\n幅度級距：-10%\n區間異動：-10.20%\n基準價格：US$0.065995227\n24H：-9.02%\n4H RSI：28.59\n日線 RSI：51.27\n週線 RSI：52.63\n成交量：0.55×｜WEAK\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/flock-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFLOCKUSDT\n\nPENGU｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0084704947\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$0.0094255734\n24H：-9.68%\n4H RSI：32.46\n日線 RSI：51.17\n週線 RSI：57.64\n成交量：1.18×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pudgy-penguins\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APENGUUSD\n\nIOTA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.052646472\n幅度級距：-10%\n區間異動：-10.11%\n基準價格：US$0.05857011\n24H：-9.70%\n4H RSI：36.59\n日線 RSI：66.52\n週線 RSI：55.19\n成交量：1.07×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iota\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOTAUSDT\n\nAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.1712089\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$4.6394918\n24H：-9.27%\n4H RSI：38.65\n日線 RSI：65.11\n週線 RSI：68.60\n成交量：0.63×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arweave\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AARUSDT"
     }
