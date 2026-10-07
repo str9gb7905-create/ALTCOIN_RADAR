@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T09:35:33.997618Z",
+  "updated_at_utc": "2026-10-07T09:35:36.118813Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9302,13 +9302,13 @@
       "notification_id": "ntf_70c9092b30b41df5666b2cef2e8b9ff6",
       "run_id": "20261007T093430Z_25137cb1",
       "created_at_utc": "2026-10-07T09:35:33.997603Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-07T09:35:36.118801Z",
       "event_count": 7,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T093430Z_25137cb1\n資料來源：CoinGecko＋公開現貨交易所\n\nLAZIO｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.45970852\n幅度級距：+20%\n區間異動：+20.68%\n基準價格：US$0.38093879\n24H：+19.13%\n4H RSI：48.22\n日線 RSI：55.33\n週線 RSI：37.45\n成交量：1.11×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lazio-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALAZIOUSDT\n\nCPOOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.031423319\n幅度級距：-10%\n區間異動：-10.98%\n基準價格：US$0.035298237\n24H：-8.75%\n4H RSI：30.23\n日線 RSI：57.74\n週線 RSI：60.65\n成交量：1.26×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACPOOLUSD\n\nPENGU｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0086999913\n幅度級距：-10%\n區間異動：-10.55%\n基準價格：US$0.0097256303\n24H：-8.16%\n4H RSI：37.85\n日線 RSI：51.17\n週線 RSI：57.64\n成交量：1.03×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pudgy-penguins\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APENGUUSD\n\nENJ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.030120739\n幅度級距：-10%\n區間異動：-10.29%\n基準價格：US$0.033576701\n24H：-8.81%\n4H RSI：36.85\n日線 RSI：66.21\n週線 RSI：48.43\n成交量：4.54×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENJUSDT\n\nIMX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.17156567\n幅度級距：-10%\n區間異動：-10.22%\n基準價格：US$0.19110163\n24H：-5.83%\n4H RSI：43.82\n日線 RSI：71.00\n週線 RSI：55.03\n成交量：1.08×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD\n\nAGI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0060564774\n幅度級距：-10%\n區間異動：-10.12%\n基準價格：US$0.0067383232\n24H：-8.47%\n4H RSI：29.27\n日線 RSI：51.62\n週線 RSI：46.36\n成交量：1.55×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT\n\nDYM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.017823107\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$0.019822606\n24H：-9.50%\n4H RSI：33.84\n日線 RSI：56.02\n週線 RSI：38.44\n成交量：0.69×｜WEAK\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dymension\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADYMUSDT"
     }
