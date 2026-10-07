@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T22:57:39.292239Z",
+  "updated_at_utc": "2026-10-07T23:10:24.809705Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9801,6 +9801,20 @@
       "last_attempt_at_utc": "2026-10-07T22:57:36.786218Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T225647Z_090e624a\n資料來源：CoinGecko＋公開現貨交易所\n\nGLMR｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.011912284\n幅度級距：+20%\n區間異動：+20.54%\n基準價格：US$0.0098820887\n24H：+17.09%\n4H RSI：58.50\n日線 RSI：62.45\n週線 RSI：43.71\n成交量：4.04×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AGLMRUSD\n\nLAZIO｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.43517171\n幅度級距：-10%\n區間異動：-17.20%\n基準價格：US$0.52559443\n24H：+4.14%\n4H RSI：53.27\n日線 RSI：55.33\n週線 RSI：37.45\n成交量：1.39×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lazio-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALAZIOUSDT"
+    },
+    "ntf_a933b044c85ea96fd152fc4db869242c": {
+      "notification_id": "ntf_a933b044c85ea96fd152fc4db869242c",
+      "run_id": "20261007T230928Z_ab83fc81",
+      "created_at_utc": "2026-10-07T23:10:24.809673Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T230928Z_ab83fc81\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00095450381\n幅度級距：+120%\n區間異動：+125.32%\n基準價格：US$0.00042362324\n24H：+119.90%\n4H RSI：95.70\n日線 RSI：38.36\n週線 RSI：24.90\n成交量：50.71×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT"
     }
   }
 }
