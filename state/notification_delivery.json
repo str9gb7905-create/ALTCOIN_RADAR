@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-07T17:57:59.731744Z",
+  "updated_at_utc": "2026-10-07T17:58:02.026077Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9610,13 +9610,13 @@
       "notification_id": "ntf_7988014e88a7c26adb7d5a4694b89d18",
       "run_id": "20261007T175621Z_967e3c39",
       "created_at_utc": "2026-10-07T17:57:59.731729Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-07T17:58:02.026064Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261007T175621Z_967e3c39\n資料來源：CoinGecko＋公開現貨交易所\n\nCPOOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.031062455\n幅度級距：-10%\n區間異動：-11.13%\n基準價格：US$0.034953559\n24H：-9.91%\n4H RSI：28.20\n日線 RSI：57.74\n週線 RSI：60.65\n成交量：0.98×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACPOOLUSD\n\nDYM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.017496461\n幅度級距：-10%\n區間異動：-10.20%\n基準價格：US$0.019483701\n24H：-9.94%\n4H RSI：32.62\n日線 RSI：56.02\n週線 RSI：38.44\n成交量：0.73×｜WEAK\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dymension\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADYMUSDT\n\nETHFI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.70605135\n幅度級距：-10%\n區間異動：-10.03%\n基準價格：US$0.78474928\n24H：-7.10%\n4H RSI：41.47\n日線 RSI：61.41\n週線 RSI：66.68\n成交量：1.37×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ether-fi\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AETHFIUSDT"
     }
