@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-08T19:44:32.432363Z",
+  "updated_at_utc": "2026-10-08T20:00:21.515408Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -10529,6 +10529,20 @@
       "last_attempt_at_utc": "2026-10-08T19:44:30.109790Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T194258Z_99323378\n資料來源：CoinGecko＋公開現貨交易所\n\nNOS｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.58271441\n幅度級距：+10%\n區間異動：+14.80%\n基準價格：US$0.50758417\n24H：-2.03%\n4H RSI：37.25\n日線 RSI：61.02\n週線 RSI：80.56\n成交量：2.61×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ANOSUSDT\n\nIMX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.17990724\n幅度級距：+10%\n區間異動：+10.28%\n基準價格：US$0.16313128\n24H：+4.58%\n4H RSI：37.12\n日線 RSI：59.03\n週線 RSI：57.19\n成交量：1.59×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD\n\nCPOOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.028778311\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$0.031998031\n24H：-7.61%\n4H RSI：20.53\n日線 RSI：50.05\n週線 RSI：54.15\n成交量：1.06×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACPOOLUSD\n\nDGB｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0036763803\n幅度級距：-10%\n區間異動：-10.02%\n基準價格：US$0.0040858995\n24H：-4.63%\n4H RSI：24.07\n日線 RSI：38.38\n週線 RSI：48.18\n成交量：1.66×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/digibyte\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADGBUSDT"
+    },
+    "ntf_08b7ce4e8bc536233dcf661c37ea7466": {
+      "notification_id": "ntf_08b7ce4e8bc536233dcf661c37ea7466",
+      "run_id": "20261008T195904Z_6b0ff8c0",
+      "created_at_utc": "2026-10-08T20:00:21.515388Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T195904Z_6b0ff8c0\n資料來源：CoinGecko＋公開現貨交易所\n\nSKL｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0049245581\n幅度級距：-10%\n區間異動：-13.89%\n基準價格：US$0.0057188443\n24H：+9.82%\n4H RSI：59.30\n日線 RSI：53.33\n週線 RSI：44.86\n成交量：7.78×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/skale\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASKLUSD\n\nCHEX｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.011630013\n幅度級距：-10%\n區間異動：-11.91%\n基準價格：US$0.013201825\n24H：-10.68%\n4H RSI：35.99\n日線 RSI：47.96\n週線 RSI：42.66\n成交量：2.62×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACHEXUSD\n\nENA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.20451582\n幅度級距：-10%\n區間異動：-10.01%\n基準價格：US$0.22726107\n24H：-9.39%\n4H RSI：27.58\n日線 RSI：53.14\n週線 RSI：63.52\n成交量：1.09×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENAUSDT"
     }
   }
 }
