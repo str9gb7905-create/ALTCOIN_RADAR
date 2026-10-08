@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-08T16:00:29.003213Z",
+  "updated_at_utc": "2026-10-08T16:21:06.509308Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -10389,6 +10389,20 @@
       "last_attempt_at_utc": "2026-10-08T16:00:26.089205Z",
       "event_count": 20,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T155829Z_4da1fdc1\n資料來源：CoinGecko＋公開現貨交易所\n同批異動過多；以下顯示幅度最高的詳細資料。\n\nRDNT｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.00083999432\n幅度級距：-20%\n區間異動：-26.12%\n基準價格：US$0.0011369481\n24H：+20.65%\n4H RSI：74.27\n日線 RSI：83.32\n週線 RSI：24.90\n成交量：68.42×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nNOS｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.51462845\n幅度級距：-20%\n區間異動：-21.63%\n基準價格：US$0.6566522\n24H：-0.79%\n4H RSI：48.01\n日線 RSI：61.02\n週線 RSI：80.56\n成交量：2.21×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ANOSUSDT\n\nHFT｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0068088785\n幅度級距：-10%\n區間異動：-13.55%\n基準價格：US$0.0078764825\n24H：+4.92%\n4H RSI：60.68\n日線 RSI：48.66\n週線 RSI：37.63\n成交量：5.84×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSD\n\n其他同批觸發（12 種）：\nETHFI, SC, IO, ONDO, PYTH, ENA, IOTA, WLD, RATS, PENGU, CVC, ZEN"
+    },
+    "ntf_e58d4f0ff720b97645847d0111985cde": {
+      "notification_id": "ntf_e58d4f0ff720b97645847d0111985cde",
+      "run_id": "20261008T161921Z_a19f41b1",
+      "created_at_utc": "2026-10-08T16:21:06.509279Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T161921Z_a19f41b1\n資料來源：CoinGecko＋公開現貨交易所\n\nFTT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.24997881\n幅度級距：-10%\n區間異動：-11.60%\n基準價格：US$0.28277368\n24H：+3.21%\n4H RSI：55.95\n日線 RSI：50.53\n週線 RSI：44.42\n成交量：8.98×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ftx-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AFTTUSDT\n\nALICE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.16311149\n幅度級距：-10%\n區間異動：-10.28%\n基準價格：US$0.18179764\n24H：-5.80%\n4H RSI：37.98\n日線 RSI：56.28\n週線 RSI：64.16\n成交量：1.90×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/my-neighbor-alice\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AALICEUSD"
     }
   }
 }
