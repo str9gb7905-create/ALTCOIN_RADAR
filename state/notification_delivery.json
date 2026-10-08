@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-08T10:33:10.618719Z",
+  "updated_at_utc": "2026-10-08T10:57:47.824381Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -10193,6 +10193,20 @@
       "last_attempt_at_utc": "2026-10-08T10:33:08.312776Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T103148Z_10d5cc46\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0011085108\n幅度級距：+120%\n區間異動：+124.75%\n基準價格：US$0.00049322368\n24H：+109.62%\n4H RSI：71.93\n日線 RSI：83.32\n週線 RSI：24.90\n成交量：73.15×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nGLMR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.011752093\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.013081112\n24H：-10.15%\n4H RSI：61.99\n日線 RSI：66.62\n週線 RSI：50.49\n成交量：3.57×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT"
+    },
+    "ntf_745b8361a9278fe1ffddf1e9cfe8d89a": {
+      "notification_id": "ntf_745b8361a9278fe1ffddf1e9cfe8d89a",
+      "run_id": "20261008T105650Z_7a767bc5",
+      "created_at_utc": "2026-10-08T10:57:47.824367Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T105650Z_7a767bc5\n資料來源：CoinGecko＋公開現貨交易所\n\nCKB｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0013599392\n幅度級距：+10%\n區間異動：+10.24%\n基準價格：US$0.001233641\n24H：+8.34%\n4H RSI：39.56\n日線 RSI：51.05\n週線 RSI：48.61\n成交量：0.99×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nervos-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACKBUSDT\n\nLNQ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.013401867\n幅度級距：-10%\n區間異動：-10.02%\n基準價格：US$0.014893966\n24H：-5.57%\n4H RSI：22.66\n日線 RSI：55.45\n週線 RSI：73.88\n成交量：1.94×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/linqai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ALNQUSDT"
     }
   }
 }
