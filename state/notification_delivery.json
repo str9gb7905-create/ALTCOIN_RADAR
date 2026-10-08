@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-08T05:57:09.075145Z",
+  "updated_at_utc": "2026-10-08T05:57:11.015806Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -10058,13 +10058,13 @@
       "notification_id": "ntf_1728d2a06406db349d6494e32e4ba8a6",
       "run_id": "20261008T055610Z_75264b07",
       "created_at_utc": "2026-10-08T05:57:09.075127Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-08T05:57:11.015792Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T055610Z_75264b07\n資料來源：CoinGecko＋公開現貨交易所\n\nGLMR｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.012377873\n幅度級距：+20%\n區間異動：+21.66%\n基準價格：US$0.010173766\n24H：+20.49%\n4H RSI：57.38\n日線 RSI：66.74\n週線 RSI：50.43\n成交量：3.58×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AGLMRUSD\n\nBOME｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0010313928\n幅度級距：+10%\n區間異動：+10.09%\n基準價格：US$0.00093686385\n24H：+7.25%\n4H RSI：58.21\n日線 RSI：56.37\n週線 RSI：65.22\n成交量：1.57×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/book-of-meme\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ABOMEUSDT"
     }
