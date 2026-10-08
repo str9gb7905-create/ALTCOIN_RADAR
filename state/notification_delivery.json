@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-08T02:45:00.857582Z",
+  "updated_at_utc": "2026-10-08T03:36:10.698887Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9969,6 +9969,20 @@
       "last_attempt_at_utc": "2026-10-08T02:44:58.081687Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T024400Z_ddf3ef95\n資料來源：CoinGecko＋公開現貨交易所\n\nLAZIO｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.44843148\n幅度級距：+10%\n區間異動：+17.72%\n基準價格：US$0.38093879\n24H：+15.30%\n4H RSI：55.66\n日線 RSI：66.97\n週線 RSI：37.45\n成交量：1.42×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lazio-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALAZIOUSDT\n\nSAND｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.076249415\n幅度級距：-10%\n區間異動：-11.60%\n基準價格：US$0.086256364\n24H：+7.59%\n4H RSI：60.08\n日線 RSI：75.52\n週線 RSI：56.83\n成交量：24.63×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASANDUSDT\n\nTIA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.48374879\n幅度級距：+10%\n區間異動：+10.85%\n基準價格：US$0.43638135\n24H：+7.58%\n4H RSI：52.64\n日線 RSI：56.34\n週線 RSI：58.34\n成交量：1.20×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATIAUSD"
+    },
+    "ntf_2c7bbc916483054c7d2c93376c532f8e": {
+      "notification_id": "ntf_2c7bbc916483054c7d2c93376c532f8e",
+      "run_id": "20261008T033516Z_409c4bde",
+      "created_at_utc": "2026-10-08T03:36:10.698862Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T033516Z_409c4bde\n資料來源：CoinGecko＋公開現貨交易所\n\nTIA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.48004243\n幅度級距：+10%\n區間異動：+10.01%\n基準價格：US$0.43638135\n24H：+7.08%\n4H RSI：52.64\n日線 RSI：56.34\n週線 RSI：58.34\n成交量：1.21×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATIAUSD"
     }
   }
 }
