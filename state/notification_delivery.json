@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-08T13:15:36.378993Z",
+  "updated_at_utc": "2026-10-08T13:38:26.191281Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -10291,6 +10291,20 @@
       "last_attempt_at_utc": "2026-10-08T13:15:33.269199Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T131415Z_d99f77ef\n資料來源：CoinGecko＋公開現貨交易所\n\nSTRK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.058949812\n幅度級距：+20%\n區間異動：+21.81%\n基準價格：US$0.048393148\n24H：+19.82%\n4H RSI：70.80\n日線 RSI：59.69\n週線 RSI：59.74\n成交量：2.64×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTRKUSDT\n\nAEVO｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.029356428\n幅度級距：+20%\n區間異動：+20.01%\n基準價格：US$0.024461414\n24H：+19.83%\n4H RSI：63.79\n日線 RSI：52.28\n週線 RSI：49.35\n成交量：15.71×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/aevo-exchange\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAEVOUSDT\n\nSKL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0048573076\n幅度級距：+10%\n區間異動：+11.41%\n基準價格：US$0.0043600024\n24H：+10.45%\n4H RSI：42.29\n日線 RSI：53.33\n週線 RSI：44.86\n成交量：1.03×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/skale\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASKLUSD"
+    },
+    "ntf_4e150c772dd8c96aa4331762c707df38": {
+      "notification_id": "ntf_4e150c772dd8c96aa4331762c707df38",
+      "run_id": "20261008T133710Z_29073928",
+      "created_at_utc": "2026-10-08T13:38:26.191254Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T133710Z_29073928\n資料來源：CoinGecko＋公開現貨交易所\n\nHFT｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0069561097\n幅度級距：-10%\n區間異動：-11.69%\n基準價格：US$0.0078764825\n24H：+5.32%\n4H RSI：60.68\n日線 RSI：48.66\n週線 RSI：37.63\n成交量：4.66×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSD\n\nALGO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.12218898\n幅度級距：-10%\n區間異動：-11.64%\n基準價格：US$0.1382902\n24H：+5.19%\n4H RSI：64.65\n日線 RSI：53.40\n週線 RSI：57.56\n成交量：4.16×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/algorand\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AALGOUSD\n\nARC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.058754975\n幅度級距：-10%\n區間異動：-11.32%\n基準價格：US$0.066254005\n24H：-11.08%\n4H RSI：22.85\n日線 RSI：40.04\n週線 RSI：53.50\n成交量：0.91×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ai-rig-complex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AARCUSDT\n\nGLMR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.011361908\n幅度級距：-10%\n區間異動：-10.42%\n基準價格：US$0.012683275\n24H：+1.56%\n4H RSI：52.06\n日線 RSI：66.62\n週線 RSI：50.49\n成交量：3.29×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT\n\nAEVO｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.026366937\n幅度級距：-10%\n區間異動：-10.18%\n基準價格：US$0.029356428\n24H：+7.80%\n4H RSI：63.79\n日線 RSI：52.28\n週線 RSI：49.35\n成交量：16.64×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/aevo-exchange\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAEVOUSDT"
     }
   }
 }
