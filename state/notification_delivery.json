@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-08T22:00:01.959332Z",
+  "updated_at_utc": "2026-10-08T22:17:39.311435Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -10613,6 +10613,20 @@
       "last_attempt_at_utc": "2026-10-08T21:59:59.167165Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T215840Z_a56d2ad8\n資料來源：CoinGecko＋公開現貨交易所\n\nRENDER｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.8403202\n幅度級距：-10%\n區間異動：-10.20%\n基準價格：US$2.0494268\n24H：-8.64%\n4H RSI：38.14\n日線 RSI：62.59\n週線 RSI：61.80\n成交量：1.36×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/render-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARENDERUSD"
+    },
+    "ntf_40476ce871dcb4705fd3df5529bd34ac": {
+      "notification_id": "ntf_40476ce871dcb4705fd3df5529bd34ac",
+      "run_id": "20261008T221615Z_bce260f2",
+      "created_at_utc": "2026-10-08T22:17:39.311408Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T221615Z_bce260f2\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.00075199879\n幅度級距：-30%\n區間異動：-33.86%\n基準價格：US$0.0011369481\n24H：-15.80%\n4H RSI：49.63\n日線 RSI：83.32\n週線 RSI：24.90\n成交量：54.25×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nMERL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.030345885\n幅度級距：+10%\n區間異動：+10.84%\n基準價格：US$0.027378238\n24H：+4.44%\n4H RSI：42.98\n日線 RSI：53.21\n週線 RSI：42.90\n成交量：0.90×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMERLUSDT\n\nONDO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.48528227\n幅度級距：+10%\n區間異動：+10.20%\n基準價格：US$0.44036907\n24H：+3.89%\n4H RSI：52.72\n日線 RSI：51.73\n週線 RSI：60.85\n成交量：1.98×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ondo-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AONDOUSD"
     }
   }
 }
