@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-08T11:33:24.204698Z",
+  "updated_at_utc": "2026-10-08T11:33:26.298404Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -10226,13 +10226,13 @@
       "notification_id": "ntf_51037880727c95f98262b55b49915915",
       "run_id": "20261008T113225Z_dfccc4e8",
       "created_at_utc": "2026-10-08T11:33:24.204673Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-08T11:33:26.298376Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T113225Z_dfccc4e8\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0010963604\n幅度級距：+120%\n區間異動：+122.28%\n基準價格：US$0.00049322368\n24H：+103.79%\n4H RSI：71.93\n日線 RSI：83.32\n週線 RSI：24.90\n成交量：72.59×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nSTRK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.059435115\n幅度級距：+20%\n區間異動：+22.82%\n基準價格：US$0.048393148\n24H：+19.98%\n4H RSI：44.37\n日線 RSI：59.69\n週線 RSI：59.74\n成交量：1.76×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTRKUSDT\n\nLAZIO｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.41747357\n幅度級距：-20%\n區間異動：-20.57%\n基準價格：US$0.52559443\n24H：-8.06%\n4H RSI：55.85\n日線 RSI：66.97\n週線 RSI：37.45\n成交量：1.63×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lazio-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALAZIOUSDT"
     }
