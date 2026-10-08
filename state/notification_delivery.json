@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-08T14:46:43.830752Z",
+  "updated_at_utc": "2026-10-08T15:11:16.465069Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -10347,6 +10347,20 @@
       "last_attempt_at_utc": "2026-10-08T14:46:41.015752Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T144529Z_8f7e13e3\n資料來源：CoinGecko＋公開現貨交易所\n\nFTT｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.28277368\n幅度級距：+10%\n區間異動：+18.87%\n基準價格：US$0.23788747\n24H：+17.19%\n4H RSI：33.81\n日線 RSI：50.53\n週線 RSI：44.42\n成交量：4.23×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ftx-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AFTTUSDT\n\nAEVO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.026259103\n幅度級距：-10%\n區間異動：-10.55%\n基準價格：US$0.029356428\n24H：+6.97%\n4H RSI：63.79\n日線 RSI：52.28\n週線 RSI：49.35\n成交量：17.49×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/aevo-exchange\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAEVOUSDT\n\nENJ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.032116483\n幅度級距：+10%\n區間異動：+10.03%\n基準價格：US$0.029187564\n24H：+9.69%\n4H RSI：38.69\n日線 RSI：53.96\n週線 RSI：49.68\n成交量：2.06×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENJUSDT"
+    },
+    "ntf_f9644a43dc089991b2bd8a33c25a8a51": {
+      "notification_id": "ntf_f9644a43dc089991b2bd8a33c25a8a51",
+      "run_id": "20261008T151021Z_caa77fcb",
+      "created_at_utc": "2026-10-08T15:11:16.465051Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 6,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T151021Z_caa77fcb\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00094372279\n幅度級距：+40%\n區間異動：+40.85%\n基準價格：US$0.00067003447\n24H：+31.42%\n4H RSI：74.27\n日線 RSI：83.32\n週線 RSI：24.90\n成交量：67.33×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nSKL｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0057188443\n幅度級距：+30%\n區間異動：+31.17%\n基準價格：US$0.0043600024\n24H：+31.53%\n4H RSI：42.09\n日線 RSI：53.27\n週線 RSI：44.28\n成交量：9.89×｜STRONG\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/skale\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3ASKLUSDT\n\nCHEX｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.012053234\n幅度級距：+10%\n區間異動：+15.40%\n基準價格：US$0.010444666\n24H：-10.72%\n4H RSI：25.07\n日線 RSI：47.96\n週線 RSI：42.66\n成交量：2.49×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACHEXUSD\n\nW｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.015771031\n幅度級距：-10%\n區間異動：-14.26%\n基準價格：US$0.018395026\n24H：+13.92%\n4H RSI：61.42\n日線 RSI：72.85\n週線 RSI：49.06\n成交量：10.15×｜STRONG\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3AWUSDT\n\nNEAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.9458736\n幅度級距：-10%\n區間異動：-10.28%\n基準價格：US$5.5126759\n24H：-1.93%\n4H RSI：49.01\n日線 RSI：67.08\n週線 RSI：74.32\n成交量：1.09×｜NORMAL\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3ANEARUSDT\n\nMANA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.096764664\n幅度級距：-10%\n區間異動：-10.14%\n基準價格：US$0.10767867\n24H：-2.05%\n4H RSI：44.98\n日線 RSI：68.96\n週線 RSI：58.51\n成交量：4.82×｜STRONG\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/decentraland\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3AMANAUSDT"
     }
   }
 }
