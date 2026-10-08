@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-08T03:36:10.698887Z",
+  "updated_at_utc": "2026-10-08T03:36:12.894108Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -9974,13 +9974,13 @@
       "notification_id": "ntf_2c7bbc916483054c7d2c93376c532f8e",
       "run_id": "20261008T033516Z_409c4bde",
       "created_at_utc": "2026-10-08T03:36:10.698862Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-08T03:36:12.894089Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T033516Z_409c4bde\n資料來源：CoinGecko＋公開現貨交易所\n\nTIA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.48004243\n幅度級距：+10%\n區間異動：+10.01%\n基準價格：US$0.43638135\n24H：+7.08%\n4H RSI：52.64\n日線 RSI：56.34\n週線 RSI：58.34\n成交量：1.21×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATIAUSD"
     }
