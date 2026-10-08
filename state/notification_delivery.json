@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-08T17:32:35.393692Z",
+  "updated_at_utc": "2026-10-08T17:51:35.279655Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -10445,6 +10445,20 @@
       "last_attempt_at_utc": "2026-10-08T17:32:32.790042Z",
       "event_count": 19,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T172937Z_766a5351\n資料來源：CoinGecko＋公開現貨交易所\n同批異動過多；以下顯示幅度最高的詳細資料。\n\nFET｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.20683632\n幅度級距：-10%\n區間異動：-12.00%\n基準價格：US$0.23505135\n24H：-7.38%\n4H RSI：32.58\n日線 RSI：56.27\n週線 RSI：58.74\n成交量：1.08×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/fetch-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFETUSD\n\nSNEK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00068950692\n幅度級距：-10%\n區間異動：-11.53%\n基準價格：US$0.00077932964\n24H：-10.80%\n4H RSI：41.02\n日線 RSI：70.71\n週線 RSI：55.55\n成交量：1.38×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/snek\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASNEKUSDT\n\nPEPE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.6560024e-06\n幅度級距：-10%\n區間異動：-10.94%\n基準價格：US$4.1050424e-06\n24H：-9.17%\n4H RSI：22.34\n日線 RSI：49.27\n週線 RSI：55.08\n成交量：0.90×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pepe\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APEPEUSDT\n\n其他同批觸發（13 種）：\nCHR, DGB, NEIRO, OP, GRT, XTZ, ACT, IOTX, MEME, CAT, PORTAL, PYTH, METIS"
+    },
+    "ntf_000c41f36ef8d12fd8e8572cbafd8719": {
+      "notification_id": "ntf_000c41f36ef8d12fd8e8572cbafd8719",
+      "run_id": "20261008T174901Z_0c32d901",
+      "created_at_utc": "2026-10-08T17:51:35.279635Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261008T174901Z_0c32d901\n資料來源：CoinGecko＋公開現貨交易所\n\nSAND｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.065878283\n幅度級距：-20%\n區間異動：-20.11%\n基準價格：US$0.08245725\n24H：-20.85%\n4H RSI：46.77\n日線 RSI：75.52\n週線 RSI：56.83\n成交量：9.66×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASANDUSDT\n\nBOME｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00096975598\n幅度級距：-10%\n區間異動：-10.04%\n基準價格：US$0.001078015\n24H：+3.52%\n4H RSI：51.86\n日線 RSI：56.37\n週線 RSI：65.22\n成交量：3.34×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/book-of-meme\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ABOMEUSDT"
     }
   }
 }
