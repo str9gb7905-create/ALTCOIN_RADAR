@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-09T19:46:32.225451Z",
+  "updated_at_utc": "2026-10-09T19:46:34.200774Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11374,13 +11374,13 @@
       "notification_id": "ntf_97f2d404a257d9854f7bc46890ebef40",
       "run_id": "20261009T194525Z_cfebf6c4",
       "created_at_utc": "2026-10-09T19:46:32.225433Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-09T19:46:34.200759Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T194525Z_cfebf6c4\n資料來源：CoinGecko＋公開現貨交易所\n\nRAD｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.34073918\n幅度級距：+20%\n區間異動：+20.89%\n基準價格：US$0.28185076\n24H：+20.28%\n4H RSI：60.76\n日線 RSI：57.38\n週線 RSI：65.75\n成交量：44.00×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSD\n\nCPOOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.030876365\n幅度級距：-10%\n區間異動：-11.19%\n基準價格：US$0.034767391\n24H：+7.79%\n4H RSI：43.71\n日線 RSI：43.57\n週線 RSI：54.24\n成交量：2.43×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACPOOLUSDT\n\nAVA｜首次觸發\n觸發：由近24H高點下跌\n價格：US$0.0084169228\n幅度級距：-10%\n區間異動：-10.29%\n基準價格：US$0.0093820214\n24H：-9.88%\n4H RSI：46.41\n日線 RSI：50.00\n週線 RSI：52.32\n成交量：1.04×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ava-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAVAUSDT"
     }
