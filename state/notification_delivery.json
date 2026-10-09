@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-09T18:00:48.297032Z",
+  "updated_at_utc": "2026-10-09T18:21:01.017596Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11341,6 +11341,20 @@
       "last_attempt_at_utc": "2026-10-09T18:00:45.751422Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T175909Z_d753cbf3\n資料來源：CoinGecko＋公開現貨交易所\n\nYGG｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.027020232\n幅度級距：+10%\n區間異動：+10.33%\n基準價格：US$0.024490319\n24H：+10.06%\n4H RSI：44.04\n日線 RSI：49.11\n週線 RSI：43.96\n成交量：0.66×｜WEAK / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/yield-guild-games\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AYGGUSDT\n\nZIL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0034864379\n幅度級距：+10%\n區間異動：+10.08%\n基準價格：US$0.0031670744\n24H：+10.20%\n4H RSI：51.39\n日線 RSI：46.69\n週線 RSI：50.37\n成交量：0.87×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：WEEKLY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/zilliqa\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AZILUSDT"
+    },
+    "ntf_d651ed335bf15fae436cf7bfcd426b78": {
+      "notification_id": "ntf_d651ed335bf15fae436cf7bfcd426b78",
+      "run_id": "20261009T181937Z_5e6ed481",
+      "created_at_utc": "2026-10-09T18:21:01.017581Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T181937Z_5e6ed481\n資料來源：CoinGecko＋公開現貨交易所\n\nTIA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.47157428\n幅度級距：-10%\n區間異動：-10.60%\n基準價格：US$0.52750068\n24H：+0.71%\n4H RSI：49.00\n日線 RSI：61.33\n週線 RSI：58.34\n成交量：3.11×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATIAUSD"
     }
   }
 }
