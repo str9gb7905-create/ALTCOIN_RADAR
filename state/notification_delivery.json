@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-09T22:10:47.011976Z",
+  "updated_at_utc": "2026-10-09T22:48:21.759620Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11439,6 +11439,20 @@
       "last_attempt_at_utc": "2026-10-09T22:10:44.201238Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T220938Z_00f95dce\n資料來源：CoinGecko＋公開現貨交易所\n\nGMT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0093661221\n幅度級距：+20%\n區間異動：+20.04%\n基準價格：US$0.0078027529\n24H：+19.51%\n4H RSI：73.72\n日線 RSI：43.96\n週線 RSI：45.60\n成交量：13.47×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/stepn\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AGMTUSD\n\nTIA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.47098866\n幅度級距：-10%\n區間異動：-10.40%\n基準價格：US$0.52564239\n24H：-9.13%\n4H RSI：47.00\n日線 RSI：61.33\n週線 RSI：58.34\n成交量：2.11×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATIAUSD"
+    },
+    "ntf_c5861e88a32e2dd02b4c9c34dfa675a4": {
+      "notification_id": "ntf_c5861e88a32e2dd02b4c9c34dfa675a4",
+      "run_id": "20261009T224721Z_35dc30a8",
+      "created_at_utc": "2026-10-09T22:48:21.759600Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T224721Z_35dc30a8\n資料來源：CoinGecko＋公開現貨交易所\n\nNEAR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$4.9516968\n幅度級距：+10%\n區間異動：+10.67%\n基準價格：US$4.4741188\n24H：+8.55%\n4H RSI：41.30\n日線 RSI：52.37\n週線 RSI：82.40\n成交量：1.37×｜NORMAL\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ANEARUSDT\n\nIMX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.19986498\n幅度級距：+10%\n區間異動：+10.08%\n基準價格：US$0.18156434\n24H：+8.26%\n4H RSI：56.68\n日線 RSI：62.38\n週線 RSI：57.19\n成交量：1.59×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD"
     }
   }
 }
