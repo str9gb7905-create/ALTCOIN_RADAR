@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-09T21:29:32.786281Z",
+  "updated_at_utc": "2026-10-09T21:29:35.078534Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11416,13 +11416,13 @@
       "notification_id": "ntf_1910808022e4a10fd52eb99419904ee1",
       "run_id": "20261009T212836Z_823c8619",
       "created_at_utc": "2026-10-09T21:29:32.786263Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-09T21:29:35.078518Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T212836Z_823c8619\n資料來源：CoinGecko＋公開現貨交易所\n\nPIXEL｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0074908031\n幅度級距：+30%\n區間異動：+33.30%\n基準價格：US$0.0056195584\n24H：+32.94%\n4H RSI：60.83\n日線 RSI：50.14\n週線 RSI：45.70\n成交量：3.16×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pixels\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APIXELUSDT\n\nXAI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0095786058\n幅度級距：+10%\n區間異動：+11.51%\n基準價格：US$0.0085897274\n24H：+11.14%\n4H RSI：53.17\n日線 RSI：47.43\n週線 RSI：46.83\n成交量：0.87×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXAIUSDT"
     }
