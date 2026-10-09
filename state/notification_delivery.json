@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-09T14:47:42.854490Z",
+  "updated_at_utc": "2026-10-09T14:47:45.401524Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11206,13 +11206,13 @@
       "notification_id": "ntf_bee4ef3e7cde8ef3fce6646a71a430df",
       "run_id": "20261009T144631Z_10db1e09",
       "created_at_utc": "2026-10-09T14:47:42.854464Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-09T14:47:45.401502Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T144631Z_10db1e09\n資料來源：CoinGecko＋公開現貨交易所\n\nSTRK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.072981581\n幅度級距：+30%\n區間異動：+32.89%\n基準價格：US$0.054919159\n24H：+18.77%\n4H RSI：73.77\n日線 RSI：66.06\n週線 RSI：59.56\n成交量：7.27×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASTRKUSDC\n\nTIA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.47058997\n幅度級距：-10%\n區間異動：-10.79%\n基準價格：US$0.52750068\n24H：-5.37%\n4H RSI：50.44\n日線 RSI：61.33\n週線 RSI：58.34\n成交量：3.80×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATIAUSD\n\nAEVO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.026471388\n幅度級距：+10%\n區間異動：+10.42%\n基準價格：US$0.02397363\n24H：+1.05%\n4H RSI：52.83\n日線 RSI：60.76\n週線 RSI：49.35\n成交量：3.13×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/aevo-exchange\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAEVOUSDT\n\nCHR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.021975121\n幅度級距：+10%\n區間異動：+10.35%\n基準價格：US$0.019914661\n24H：-0.60%\n4H RSI：48.86\n日線 RSI：50.04\n週線 RSI：52.41\n成交量：1.01×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chromaway\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACHRUSDT\n\nENA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.21716135\n幅度級距：+10%\n區間異動：+10.28%\n基準價格：US$0.19691455\n24H：+0.81%\n4H RSI：43.72\n日線 RSI：46.60\n週線 RSI：63.52\n成交量：1.07×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENAUSDT"
     }
