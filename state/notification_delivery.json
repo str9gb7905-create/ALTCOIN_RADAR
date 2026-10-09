@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-09T03:10:52.861104Z",
+  "updated_at_utc": "2026-10-09T03:31:26.950660Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -10809,6 +10809,20 @@
       "last_attempt_at_utc": "2026-10-09T03:10:50.086216Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T030928Z_dc2534c2\n資料來源：CoinGecko＋公開現貨交易所\n\nSTRK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.063874625\n幅度級距：+30%\n區間異動：+31.29%\n基準價格：US$0.048653287\n24H：+29.79%\n4H RSI：57.82\n日線 RSI：66.04\n週線 RSI：59.74\n成交量：5.97×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTRKUSDT\n\nETHFI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.69664669\n幅度級距：+10%\n區間異動：+10.53%\n基準價格：US$0.63025667\n24H：-3.08%\n4H RSI：39.02\n日線 RSI：47.79\n週線 RSI：61.53\n成交量：2.26×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ether-fi\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AETHFIUSDT\n\nLAZIO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.41936203\n幅度級距：-10%\n區間異動：-10.11%\n基準價格：US$0.46651368\n24H：-5.45%\n4H RSI：51.01\n日線 RSI：58.94\n週線 RSI：37.45\n成交量：1.72×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lazio-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALAZIOUSDT"
+    },
+    "ntf_468e4be781f27b21a745b9b3179e620b": {
+      "notification_id": "ntf_468e4be781f27b21a745b9b3179e620b",
+      "run_id": "20261009T033001Z_4bbb0152",
+      "created_at_utc": "2026-10-09T03:31:26.950640Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T033001Z_4bbb0152\n資料來源：CoinGecko＋公開現貨交易所\n\nS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.042193329\n幅度級距：+10%\n區間異動：+13.75%\n基準價格：US$0.03709461\n24H：+4.44%\n4H RSI：40.27\n日線 RSI：51.91\n週線 RSI：48.53\n成交量：2.13×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sonic-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASUSDT\n\nW｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.016474739\n幅度級距：+10%\n區間異動：+11.26%\n基準價格：US$0.014807611\n24H：-5.96%\n4H RSI：52.48\n日線 RSI：64.63\n週線 RSI：53.59\n成交量：5.34×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AWUSD\n\nCSPR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.002513724\n幅度級距：+10%\n區間異動：+10.87%\n基準價格：US$0.0022673504\n24H：+4.87%\n4H RSI：39.39\n日線 RSI：34.28\n週線 RSI：44.01\n成交量：1.82×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/casper-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACSPRUSDT\n\nAEVO｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.026284144\n幅度級距：-10%\n區間異動：-10.47%\n基準價格：US$0.029356428\n24H：-0.19%\n4H RSI：57.10\n日線 RSI：60.76\n週線 RSI：49.35\n成交量：13.74×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/aevo-exchange\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAEVOUSDT"
     }
   }
 }
