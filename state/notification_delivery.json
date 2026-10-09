@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-09T12:15:23.619187Z",
+  "updated_at_utc": "2026-10-09T13:02:41.801640Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11145,6 +11145,20 @@
       "last_attempt_at_utc": "2026-10-09T12:15:20.909311Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T121400Z_b56cce0b\n資料來源：CoinGecko＋公開現貨交易所\n\nRAD｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.30991443\n幅度級距：+10%\n區間異動：+11.15%\n基準價格：US$0.27882338\n24H：+6.69%\n4H RSI：51.68\n日線 RSI：57.38\n週線 RSI：65.75\n成交量：9.06×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSD\n\nNIGHT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.045125476\n幅度級距：+10%\n區間異動：+10.31%\n基準價格：US$0.04090871\n24H：+0.91%\n4H RSI：46.49\n日線 RSI：65.18\n週線 RSI：61.56\n成交量：1.95×｜ELEVATED\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANIGHTUSD"
+    },
+    "ntf_ac05cb0db687a14093e786966a3c00d3": {
+      "notification_id": "ntf_ac05cb0db687a14093e786966a3c00d3",
+      "run_id": "20261009T130126Z_7379e54f",
+      "created_at_utc": "2026-10-09T13:02:41.801609Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T130126Z_7379e54f\n資料來源：CoinGecko＋公開現貨交易所\n\nAIOT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.043080459\n幅度級距：+30%\n區間異動：+30.46%\n基準價格：US$0.033022661\n24H：+22.80%\n4H RSI：39.93\n日線 RSI：30.27\n週線 RSI：35.36\n成交量：2.83×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/okzoo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAIOTUSDT\n\nARB｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.17972592\n幅度級距：+10%\n區間異動：+10.37%\n基準價格：US$0.16284174\n24H：-1.74%\n4H RSI：40.69\n日線 RSI：42.80\n週線 RSI：62.53\n成交量：0.69×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arbitrum\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARBUSDT\n\nCHR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.021967897\n幅度級距：+10%\n區間異動：+10.31%\n基準價格：US$0.019914661\n24H：+1.18%\n4H RSI：48.86\n日線 RSI：50.04\n週線 RSI：52.41\n成交量：0.91×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chromaway\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACHRUSDT"
     }
   }
 }
