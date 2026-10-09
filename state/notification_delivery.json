@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-09T04:11:13.721041Z",
+  "updated_at_utc": "2026-10-09T04:11:16.050853Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -10842,13 +10842,13 @@
       "notification_id": "ntf_7db4dd611f5bfc5b522b2ea8d155e06c",
       "run_id": "20261009T041000Z_5bb8f0c1",
       "created_at_utc": "2026-10-09T04:11:13.721015Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-09T04:11:16.050811Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T041000Z_5bb8f0c1\n資料來源：CoinGecko＋公開現貨交易所\n\nW｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.016109016\n幅度級距：-10%\n區間異動：-12.43%\n基準價格：US$0.018395026\n24H：-8.90%\n4H RSI：59.98\n日線 RSI：64.63\n週線 RSI：53.59\n成交量：5.34×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AWUSD\n\nLAZIO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.41680681\n幅度級距：-10%\n區間異動：-10.65%\n基準價格：US$0.46651368\n24H：-6.94%\n4H RSI：50.77\n日線 RSI：58.94\n週線 RSI：37.45\n成交量：1.71×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lazio-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALAZIOUSDT\n\nAEVO｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.026397818\n幅度級距：+10%\n區間異動：+10.11%\n基準價格：US$0.02397363\n24H：+0.83%\n4H RSI：51.51\n日線 RSI：60.76\n週線 RSI：49.35\n成交量：13.78×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/aevo-exchange\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAEVOUSDT"
     }
