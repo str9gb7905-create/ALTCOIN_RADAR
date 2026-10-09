@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-09T01:57:56.171350Z",
+  "updated_at_utc": "2026-10-09T01:57:58.297817Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -10744,13 +10744,13 @@
       "notification_id": "ntf_eb0871c6a56faed24ced4cdf1a433ae6",
       "run_id": "20261009T015637Z_b342b90b",
       "created_at_utc": "2026-10-09T01:57:56.171327Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-09T01:57:58.297793Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T015637Z_b342b90b\n資料來源：CoinGecko＋公開現貨交易所\n\nATOM｜再次觸發\n觸發：由近24H低點上漲\n價格：US$1.8332996\n幅度級距：+10%\n區間異動：+11.13%\n基準價格：US$1.6496527\n24H：+6.13%\n4H RSI：52.15\n日線 RSI：53.32\n週線 RSI：49.10\n成交量：2.85×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/cosmos\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AATOMUSDT\n\nONE｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0021787386\n幅度級距：+10%\n區間異動：+10.64%\n基準價格：US$0.0019691921\n24H：+1.24%\n4H RSI：54.25\n日線 RSI：51.63\n週線 RSI：48.79\n成交量：2.09×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AONEUSDT\n\nCSPR｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.0025052049\n幅度級距：+10%\n區間異動：+10.49%\n基準價格：US$0.0022673504\n24H：+4.12%\n4H RSI：39.39\n日線 RSI：34.28\n週線 RSI：44.01\n成交量：1.57×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/casper-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACSPRUSDT"
     }
