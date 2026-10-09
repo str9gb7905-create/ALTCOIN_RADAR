@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-09T16:16:48.870385Z",
+  "updated_at_utc": "2026-10-09T16:16:51.194787Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11262,13 +11262,13 @@
       "notification_id": "ntf_86174f8a0506ccd8a8c6710f6b8741fa",
       "run_id": "20261009T161531Z_6179e94c",
       "created_at_utc": "2026-10-09T16:16:48.870361Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-09T16:16:51.194767Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T161531Z_6179e94c\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.00061382861\n幅度級距：-30%\n區間異動：-30.66%\n基準價格：US$0.00088526095\n24H：-23.18%\n4H RSI：48.30\n日線 RSI：62.94\n週線 RSI：24.90\n成交量：21.48×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nNEAR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$4.778719\n幅度級距：+10%\n區間異動：+10.80%\n基準價格：US$4.3129142\n24H：+2.52%\n4H RSI：43.73\n日線 RSI：52.36\n週線 RSI：83.09\n成交量：0.97×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ANEARUSD\n\nNIGHT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.045041714\n幅度級距：+10%\n區間異動：+10.10%\n基準價格：US$0.04090871\n24H：+4.87%\n4H RSI：45.84\n日線 RSI：65.18\n週線 RSI：61.56\n成交量：1.54×｜ELEVATED\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANIGHTUSD"
     }
