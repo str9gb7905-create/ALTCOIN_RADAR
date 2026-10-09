@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-09T23:09:25.807710Z",
+  "updated_at_utc": "2026-10-09T23:28:17.276699Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11467,6 +11467,20 @@
       "last_attempt_at_utc": "2026-10-09T23:09:23.189461Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T230829Z_3ae055f6\n資料來源：CoinGecko＋公開現貨交易所\n\nRAD｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.32548477\n幅度級距：-10%\n區間異動：-13.90%\n基準價格：US$0.3780442\n24H：+13.44%\n4H RSI：65.34\n日線 RSI：57.38\n週線 RSI：65.75\n成交量：51.13×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSD"
+    },
+    "ntf_a1392c438569590eff7e056b39d5c079": {
+      "notification_id": "ntf_a1392c438569590eff7e056b39d5c079",
+      "run_id": "20261009T232721Z_8c1b656b",
+      "created_at_utc": "2026-10-09T23:28:17.276674Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261009T232721Z_8c1b656b\n資料來源：CoinGecko＋公開現貨交易所\n\nSTRK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.072896094\n幅度級距：+30%\n區間異動：+30.87%\n基準價格：US$0.05570301\n24H：+29.64%\n4H RSI：69.18\n日線 RSI：66.04\n週線 RSI：59.74\n成交量：7.36×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTRKUSDT\n\nCHEX｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.013993642\n幅度級距：+20%\n區間異動：+20.18%\n基準價格：US$0.011643667\n24H：+20.15%\n4H RSI：49.52\n日線 RSI：44.97\n週線 RSI：42.66\n成交量：1.01×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACHEXUSD\n\nOP｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.13090392\n幅度級距：+10%\n區間異動：+10.34%\n基準價格：US$0.11863645\n24H：+8.62%\n4H RSI：50.34\n日線 RSI：46.59\n週線 RSI：48.51\n成交量：0.80×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/optimism\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOPUSD\n\nIMX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.20013147\n幅度級距：+10%\n區間異動：+10.23%\n基準價格：US$0.18156434\n24H：+8.69%\n4H RSI：56.68\n日線 RSI：62.38\n週線 RSI：57.19\n成交量：1.62×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD\n\nA｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.10492723\n幅度級距：+10%\n區間異動：+10.11%\n基準價格：US$0.095292252\n24H：+7.00%\n4H RSI：57.03\n日線 RSI：55.40\n週線 RSI：51.39\n成交量：1.38×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vaulta\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AAUSD"
     }
   }
 }
