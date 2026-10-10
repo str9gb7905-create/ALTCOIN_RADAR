@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-10T06:18:04.503540Z",
+  "updated_at_utc": "2026-10-10T06:48:18.776514Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11761,6 +11761,20 @@
       "last_attempt_at_utc": "2026-10-10T06:18:02.165987Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T061647Z_6ad76132\n資料來源：CoinGecko＋公開現貨交易所\n\nA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.10830846\n幅度級距：+10%\n區間異動：+10.41%\n基準價格：US$0.098094616\n24H：+8.05%\n4H RSI：62.19\n日線 RSI：62.66\n週線 RSI：51.39\n成交量：1.51×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vaulta\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AAUSD"
+    },
+    "ntf_59298da3cf215b373b16cbc8b668eabc": {
+      "notification_id": "ntf_59298da3cf215b373b16cbc8b668eabc",
+      "run_id": "20261010T064726Z_cf25891b",
+      "created_at_utc": "2026-10-10T06:48:18.776486Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T064726Z_cf25891b\n資料來源：CoinGecko＋公開現貨交易所\n\nXAI｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0097122084\n幅度級距：-10%\n區間異動：-12.54%\n基準價格：US$0.011104453\n24H：+9.02%\n4H RSI：70.70\n日線 RSI：60.65\n週線 RSI：49.87\n成交量：9.75×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AXAIUSDT\n\nPEAQ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.04364061\n幅度級距：+10%\n區間異動：+11.50%\n基準價格：US$0.039139634\n24H：+9.03%\n4H RSI：55.15\n日線 RSI：58.88\n週線 RSI：68.14\n成交量：2.46×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT"
     }
   }
 }
