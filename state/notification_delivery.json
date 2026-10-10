@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-10T03:48:53.186287Z",
+  "updated_at_utc": "2026-10-10T04:10:24.122035Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11649,6 +11649,20 @@
       "last_attempt_at_utc": "2026-10-10T03:48:50.304817Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T034750Z_8122420e\n資料來源：CoinGecko＋公開現貨交易所\n\nRAD｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.32862098\n幅度級距：+10%\n區間異動：+14.26%\n基準價格：US$0.28761613\n24H：+13.65%\n4H RSI：56.91\n日線 RSI：66.15\n週線 RSI：65.75\n成交量：46.18×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSD"
+    },
+    "ntf_66eaa1de57388b4a443d0ce025d3690f": {
+      "notification_id": "ntf_66eaa1de57388b4a443d0ce025d3690f",
+      "run_id": "20261010T040919Z_73299140",
+      "created_at_utc": "2026-10-10T04:10:24.122015Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T040919Z_73299140\n資料來源：CoinGecko＋公開現貨交易所\n\nRAD｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.34956444\n幅度級距：+20%\n區間異動：+21.54%\n基準價格：US$0.28761613\n24H：+21.23%\n4H RSI：61.23\n日線 RSI：66.15\n週線 RSI：65.75\n成交量：54.50×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSD"
     }
   }
 }
