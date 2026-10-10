@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-10T00:16:28.416464Z",
+  "updated_at_utc": "2026-10-10T00:53:11.742521Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11523,6 +11523,20 @@
       "last_attempt_at_utc": "2026-10-10T00:16:25.991712Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T001525Z_d8361c64\n資料來源：CoinGecko＋公開現貨交易所\n\nIMX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.20496389\n幅度級距：+10%\n區間異動：+12.89%\n基準價格：US$0.18156434\n24H：+12.14%\n4H RSI：65.60\n日線 RSI：68.68\n週線 RSI：57.19\n成交量：1.87×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD\n\nPEAQ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.043823299\n幅度級距：+10%\n區間異動：+11.97%\n基準價格：US$0.039139634\n24H：+12.41%\n4H RSI：53.16\n日線 RSI：58.88\n週線 RSI：68.14\n成交量：2.07×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT\n\nALT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0080030753\n幅度級距：+10%\n區間異動：+10.76%\n基準價格：US$0.0072257161\n24H：+10.16%\n4H RSI：61.52\n日線 RSI：57.81\n週線 RSI：50.68\n成交量：1.05×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/altlayer\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AALTUSDT\n\nA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.1048964\n幅度級距：+10%\n區間異動：+10.08%\n基準價格：US$0.095292252\n24H：+7.70%\n4H RSI：62.47\n日線 RSI：62.66\n週線 RSI：51.39\n成交量：1.41×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vaulta\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AAUSD"
+    },
+    "ntf_c027763a2b952591f9db9fdb370a3cdc": {
+      "notification_id": "ntf_c027763a2b952591f9db9fdb370a3cdc",
+      "run_id": "20261010T005207Z_91457a4a",
+      "created_at_utc": "2026-10-10T00:53:11.742502Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T005207Z_91457a4a\n資料來源：CoinGecko＋公開現貨交易所\n\nCHEX｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.013981947\n幅度級距：+20%\n區間異動：+20.08%\n基準價格：US$0.011643667\n24H：+19.78%\n4H RSI：49.40\n日線 RSI：50.26\n週線 RSI：42.66\n成交量：1.00×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACHEXUSD"
     }
   }
 }
