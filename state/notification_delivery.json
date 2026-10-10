@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-10T05:28:48.571077Z",
+  "updated_at_utc": "2026-10-10T05:28:50.724688Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11710,13 +11710,13 @@
       "notification_id": "ntf_f2ed3efd8e3cec73fdff0500273ce10c",
       "run_id": "20261010T052747Z_9e504fec",
       "created_at_utc": "2026-10-10T05:28:48.571053Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-10T05:28:50.724669Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T052747Z_9e504fec\n資料來源：CoinGecko＋公開現貨交易所\n\nWLD｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.54805114\n幅度級距：+10%\n區間異動：+12.37%\n基準價格：US$0.48773952\n24H：+10.33%\n4H RSI：51.35\n日線 RSI：52.31\n週線 RSI：61.20\n成交量：0.55×｜WEAK / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/worldcoin-wld\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWLDUSDT"
     }
