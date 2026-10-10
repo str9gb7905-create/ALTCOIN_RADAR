@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-10T15:44:32.995294Z",
+  "updated_at_utc": "2026-10-10T15:57:07.163283Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -12139,6 +12139,20 @@
       "last_attempt_at_utc": "2026-10-10T15:44:30.485998Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T154326Z_68ac693b\n資料來源：CoinGecko＋公開現貨交易所\n\nXAI｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0098055766\n幅度級距：-10%\n區間異動：-11.70%\n基準價格：US$0.011104453\n24H：+11.29%\n4H RSI：52.40\n日線 RSI：60.65\n週線 RSI：49.87\n成交量：2.83×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AXAIUSDT\n\nAI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.021944518\n幅度級距：+10%\n區間異動：+10.56%\n基準價格：US$0.019849351\n24H：+3.43%\n4H RSI：53.84\n日線 RSI：49.59\n週線 RSI：30.19\n成交量：1.69×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sleepless-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AAIUSD"
+    },
+    "ntf_fbc3e0b2ad46f588e01e30087e85923c": {
+      "notification_id": "ntf_fbc3e0b2ad46f588e01e30087e85923c",
+      "run_id": "20261010T155615Z_91dc663a",
+      "created_at_utc": "2026-10-10T15:57:07.163262Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T155615Z_91dc663a\n資料來源：CoinGecko＋公開現貨交易所\n\nSTRK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.09340332\n幅度級距：+30%\n區間異動：+35.50%\n基準價格：US$0.068932576\n24H：+24.27%\n4H RSI：65.81\n日線 RSI：76.70\n週線 RSI：59.74\n成交量：7.68×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTRKUSDT\n\nTIA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.5151552\n幅度級距：+10%\n區間異動：+11.01%\n基準價格：US$0.46406531\n24H：+9.50%\n4H RSI：52.35\n日線 RSI：54.85\n週線 RSI：58.34\n成交量：1.22×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATIAUSD\n\nDUSK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.084762783\n幅度級距：+10%\n區間異動：+10.33%\n基準價格：US$0.076826573\n24H：+10.35%\n4H RSI：58.15\n日線 RSI：47.20\n週線 RSI：47.95\n成交量：1.43×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT"
     }
   }
 }
