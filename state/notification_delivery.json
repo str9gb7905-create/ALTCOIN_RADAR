@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-10T06:48:23.512182Z",
+  "updated_at_utc": "2026-10-10T07:10:44.303726Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11775,6 +11775,20 @@
       "last_attempt_at_utc": "2026-10-10T06:48:20.987672Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T064726Z_cf25891b\n資料來源：CoinGecko＋公開現貨交易所\n\nXAI｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0097122084\n幅度級距：-10%\n區間異動：-12.54%\n基準價格：US$0.011104453\n24H：+9.02%\n4H RSI：70.70\n日線 RSI：60.65\n週線 RSI：49.87\n成交量：9.75×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AXAIUSDT\n\nPEAQ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.04364061\n幅度級距：+10%\n區間異動：+11.50%\n基準價格：US$0.039139634\n24H：+9.03%\n4H RSI：55.15\n日線 RSI：58.88\n週線 RSI：68.14\n成交量：2.46×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT"
+    },
+    "ntf_3c0d4fa2b8f486971749de8272d78e7f": {
+      "notification_id": "ntf_3c0d4fa2b8f486971749de8272d78e7f",
+      "run_id": "20261010T070932Z_3ce7c1df",
+      "created_at_utc": "2026-10-10T07:10:44.303698Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T070932Z_3ce7c1df\n資料來源：CoinGecko＋公開現貨交易所\n\nALT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0080347199\n幅度級距：+10%\n區間異動：+10.15%\n基準價格：US$0.0072940149\n24H：+8.42%\n4H RSI：66.96\n日線 RSI：57.81\n週線 RSI：50.68\n成交量：3.55×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/altlayer\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AALTUSDT"
     }
   }
 }
