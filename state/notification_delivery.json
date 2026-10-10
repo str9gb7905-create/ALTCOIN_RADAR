@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-10T10:31:13.577611Z",
+  "updated_at_utc": "2026-10-10T10:47:11.667556Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11929,6 +11929,20 @@
       "last_attempt_at_utc": "2026-10-10T10:31:11.411920Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T103014Z_7ee3d4cf\n資料來源：CoinGecko＋公開現貨交易所\n\nDUSK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.085339137\n幅度級距：+10%\n區間異動：+11.74%\n基準價格：US$0.076374832\n24H：+9.47%\n4H RSI：48.66\n日線 RSI：47.20\n週線 RSI：47.95\n成交量：1.01×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT\n\nAIOT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.047232116\n幅度級距：+10%\n區間異動：+10.25%\n基準價格：US$0.042841298\n24H：+5.87%\n4H RSI：48.29\n日線 RSI：38.21\n週線 RSI：35.36\n成交量：1.19×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/okzoo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAIOTUSDT"
+    },
+    "ntf_67b0ca15624bde85611e47cb06775bb2": {
+      "notification_id": "ntf_67b0ca15624bde85611e47cb06775bb2",
+      "run_id": "20261010T104625Z_aef559d4",
+      "created_at_utc": "2026-10-10T10:47:11.667534Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T104625Z_aef559d4\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00062368508\n幅度級距：+10%\n區間異動：+11.26%\n基準價格：US$0.00056055303\n24H：+1.06%\n4H RSI：46.87\n日線 RSI：53.30\n週線 RSI：24.90\n成交量：3.07×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nNIGHT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.049393871\n幅度級距：+10%\n區間異動：+10.31%\n基準價格：US$0.044776101\n24H：+10.16%\n4H RSI：65.26\n日線 RSI：65.62\n週線 RSI：59.14\n成交量：1.19×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ANIGHTUSDT\n\nCHR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.023578019\n幅度級距：+10%\n區間異動：+10.14%\n基準價格：US$0.021407364\n24H：+7.64%\n4H RSI：58.80\n日線 RSI：60.38\n週線 RSI：52.41\n成交量：1.51×｜ELEVATED\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chromaway\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACHRUSDT"
     }
   }
 }
