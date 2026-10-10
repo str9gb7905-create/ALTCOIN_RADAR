@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-10T11:57:07.005519Z",
+  "updated_at_utc": "2026-10-10T12:12:58.705639Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11999,6 +11999,20 @@
       "last_attempt_at_utc": "2026-10-10T11:57:04.602011Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T115605Z_3c47232e\n資料來源：CoinGecko＋公開現貨交易所\n\nAI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.021480766\n幅度級距：+10%\n區間異動：+10.35%\n基準價格：US$0.019466584\n24H：+8.72%\n4H RSI：56.85\n日線 RSI：49.59\n週線 RSI：30.19\n成交量：1.78×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sleepless-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AAIUSD"
+    },
+    "ntf_ee9c9bbd8d4a84743eed55032e1d0253": {
+      "notification_id": "ntf_ee9c9bbd8d4a84743eed55032e1d0253",
+      "run_id": "20261010T121212Z_50364e09",
+      "created_at_utc": "2026-10-10T12:12:58.705614Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T121212Z_50364e09\n資料來源：CoinGecko＋公開現貨交易所\n\nBEL｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.14323384\n幅度級距：+20%\n區間異動：+20.54%\n基準價格：US$0.11882916\n24H：+19.81%\n4H RSI：71.81\n日線 RSI：46.15\n週線 RSI：52.87\n成交量：0.97×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bella-protocol\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABELUSDT\n\nARPA｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.012056923\n幅度級距：-10%\n區間異動：-12.58%\n基準價格：US$0.013791717\n24H：+8.84%\n4H RSI：62.78\n日線 RSI：58.28\n週線 RSI：56.86\n成交量：58.35×｜STRONG\n背離：WEEKLY_BEARISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arpa\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARPAUSDT"
     }
   }
 }
