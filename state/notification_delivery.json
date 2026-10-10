@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-10T08:09:18.096900Z",
+  "updated_at_utc": "2026-10-10T08:09:19.902067Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11822,13 +11822,13 @@
       "notification_id": "ntf_38c4fdc2c2af0fb17db8a9bc841c3653",
       "run_id": "20261010T080822Z_3ad275a3",
       "created_at_utc": "2026-10-10T08:09:18.096880Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-10T08:09:19.902048Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T080822Z_3ad275a3\n資料來源：CoinGecko＋公開現貨交易所\n\nPIXEL｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0066423464\n幅度級距：-20%\n區間異動：-20.33%\n基準價格：US$0.0083372339\n24H：+12.02%\n4H RSI：57.68\n日線 RSI：69.20\n週線 RSI：47.91\n成交量：10.42×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pixels\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APIXELUSDT\n\nAI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.021865103\n幅度級距：+10%\n區間異動：+12.32%\n基準價格：US$0.019466584\n24H：+12.33%\n4H RSI：56.00\n日線 RSI：49.70\n週線 RSI：41.64\n成交量：1.69×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sleepless-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAIUSD\n\nGMT｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0087344514\n幅度級距：-10%\n區間異動：-11.38%\n基準價格：US$0.0098561492\n24H：+7.64%\n4H RSI：55.95\n日線 RSI：70.75\n週線 RSI：45.60\n成交量：10.25×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/stepn\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AGMTUSD\n\nHUMA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.033354671\n幅度級距：+10%\n區間異動：+10.08%\n基準價格：US$0.030300321\n24H：+9.42%\n4H RSI：64.01\n日線 RSI：59.68\n週線 RSI：70.14\n成交量：26.74×｜STRONG\n背離：WEEKLY_BEARISH\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AHUMAUSDT"
     }
