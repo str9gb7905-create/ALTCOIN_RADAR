@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-10T14:43:58.116942Z",
+  "updated_at_utc": "2026-10-10T14:44:00.484356Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -12074,13 +12074,13 @@
       "notification_id": "ntf_00f4c314e350a31b2912895c8e4aa0b6",
       "run_id": "20261010T144255Z_2642193d",
       "created_at_utc": "2026-10-10T14:43:58.116916Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-10T14:44:00.484335Z",
       "event_count": 7,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T144255Z_2642193d\n資料來源：CoinGecko＋公開現貨交易所\n\nARPA｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.012121511\n幅度級距：-10%\n區間異動：-12.11%\n基準價格：US$0.013791717\n24H：+10.49%\n4H RSI：62.78\n日線 RSI：58.28\n週線 RSI：56.86\n成交量：63.99×｜STRONG\n背離：WEEKLY_BEARISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arpa\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARPAUSDT\n\nCKB｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0014123753\n幅度級距：+10%\n區間異動：+11.39%\n基準價格：US$0.0012679402\n24H：+10.75%\n4H RSI：57.09\n日線 RSI：56.62\n週線 RSI：49.66\n成交量：1.05×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nervos-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACKBUSDT\n\nWIN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$5.2916416e-05\n幅度級距：-10%\n區間異動：-10.93%\n基準價格：US$5.9407679e-05\n24H：+2.37%\n4H RSI：60.83\n日線 RSI：66.96\n週線 RSI：82.72\n成交量：3.89×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wink\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AWINUSDT\n\nIMX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.20096561\n幅度級距：+10%\n區間異動：+10.69%\n基準價格：US$0.18156434\n24H：+10.44%\n4H RSI：59.67\n日線 RSI：68.68\n週線 RSI：57.19\n成交量：3.76×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD\n\nGALA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0024349468\n幅度級距：+10%\n區間異動：+10.35%\n基準價格：US$0.0022066549\n24H：+9.99%\n4H RSI：56.22\n日線 RSI：55.18\n週線 RSI：42.60\n成交量：1.23×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/gala\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AGALAUSD\n\nYGG｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.027942988\n幅度級距：+10%\n區間異動：+10.06%\n基準價格：US$0.025388939\n24H：+9.20%\n4H RSI：55.92\n日線 RSI：58.91\n週線 RSI：39.43\n成交量：3.95×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/yield-guild-games\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AYGGUSD"
     }
