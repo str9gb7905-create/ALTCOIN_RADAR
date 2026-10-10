@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-10T02:10:41.728350Z",
+  "updated_at_utc": "2026-10-10T02:29:56.905150Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11579,6 +11579,20 @@
       "last_attempt_at_utc": "2026-10-10T02:10:39.489208Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T020935Z_8d487718\n資料來源：CoinGecko＋公開現貨交易所\n\nGMT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0096585296\n幅度級距：+20%\n區間異動：+22.80%\n基準價格：US$0.007865388\n24H：+22.17%\n4H RSI：79.91\n日線 RSI：70.75\n週線 RSI：45.60\n成交量：7.73×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/stepn\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AGMTUSD\n\nYGG｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.028225939\n幅度級距：+10%\n區間異動：+11.17%\n基準價格：US$0.025388939\n24H：+8.94%\n4H RSI：62.72\n日線 RSI：58.91\n週線 RSI：39.43\n成交量：1.89×｜ELEVATED\n背離：DAILY_BEARISH\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/yield-guild-games\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AYGGUSD"
+    },
+    "ntf_4424670380dde6bdf021e9bdac30e219": {
+      "notification_id": "ntf_4424670380dde6bdf021e9bdac30e219",
+      "run_id": "20261010T022843Z_abb32a9c",
+      "created_at_utc": "2026-10-10T02:29:56.905127Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 6,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T022843Z_abb32a9c\n資料來源：CoinGecko＋公開現貨交易所\n\nPIXEL｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.007695319\n幅度級距：+30%\n區間異動：+33.72%\n基準價格：US$0.005754861\n24H：+32.81%\n4H RSI：71.68\n日線 RSI：69.20\n週線 RSI：47.91\n成交量：5.40×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pixels\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APIXELUSDT\n\nRON｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.067322194\n幅度級距：+10%\n區間異動：+11.40%\n基準價格：US$0.06043136\n24H：+11.13%\n4H RSI：55.53\n日線 RSI：55.27\n週線 RSI：42.83\n成交量：0.91×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ronin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARONUSDT\n\nGALA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.002448423\n幅度級距：+10%\n區間異動：+11.25%\n基準價格：US$0.0022007922\n24H：+10.42%\n4H RSI：51.84\n日線 RSI：55.18\n週線 RSI：42.60\n成交量：0.75×｜WEAK / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/gala\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AGALAUSD\n\nMANTA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.067683178\n幅度級距：+10%\n區間異動：+10.37%\n基準價格：US$0.061322141\n24H：+9.45%\n4H RSI：52.65\n日線 RSI：43.88\n週線 RSI：48.68\n成交量：1.02×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/manta-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AMANTAUSDT"
     }
   }
 }
