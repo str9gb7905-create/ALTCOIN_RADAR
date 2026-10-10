@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-10T11:08:35.573319Z",
+  "updated_at_utc": "2026-10-10T11:08:37.773025Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -11948,13 +11948,13 @@
       "notification_id": "ntf_6e210c6f280700b952114fabd37ae047",
       "run_id": "20261010T110748Z_b18ee1ce",
       "created_at_utc": "2026-10-10T11:08:35.573301Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-10T11:08:37.773001Z",
       "event_count": 6,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T110748Z_b18ee1ce\n資料來源：CoinGecko＋公開現貨交易所\n\nC98｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.018976339\n幅度級距：+20%\n區間異動：+21.55%\n基準價格：US$0.01561236\n24H：+18.98%\n4H RSI：60.41\n日線 RSI：59.24\n週線 RSI：48.80\n成交量：3.86×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coin98\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AC98USDT\n\nPIXEL｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.006615611\n幅度級距：-20%\n區間異動：-20.65%\n基準價格：US$0.0083372339\n24H：+14.04%\n4H RSI：57.68\n日線 RSI：69.20\n週線 RSI：47.91\n成交量：11.20×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pixels\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APIXELUSDT\n\nXAI｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.010150333\n幅度級距：+10%\n區間異動：+16.92%\n基準價格：US$0.0086813658\n24H：+7.42%\n4H RSI：50.95\n日線 RSI：60.65\n週線 RSI：49.87\n成交量：2.78×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AXAIUSDT\n\nAI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.021833553\n幅度級距：+10%\n區間異動：+12.16%\n基準價格：US$0.019466584\n24H：+11.40%\n4H RSI：56.85\n日線 RSI：49.59\n週線 RSI：30.19\n成交量：1.80×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sleepless-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AAIUSD\n\nGMT｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.0088140483\n幅度級距：+10%\n區間異動：+10.83%\n基準價格：US$0.0079530008\n24H：+10.15%\n4H RSI：55.95\n日線 RSI：70.75\n週線 RSI：45.60\n成交量：10.56×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/stepn\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AGMTUSD"
     }
