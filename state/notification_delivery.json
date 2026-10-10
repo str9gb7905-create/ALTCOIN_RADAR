@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-10T14:57:35.159885Z",
+  "updated_at_utc": "2026-10-10T15:10:32.327647Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -12097,6 +12097,20 @@
       "last_attempt_at_utc": "2026-10-10T14:57:32.636127Z",
       "event_count": 7,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T145605Z_a178718a\n資料來源：CoinGecko＋公開現貨交易所\n\nSTRK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.086666766\n幅度級距：+20%\n區間異動：+25.73%\n基準價格：US$0.068932576\n24H：+14.81%\n4H RSI：65.81\n日線 RSI：76.70\n週線 RSI：59.74\n成交量：6.28×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTRKUSDT\n\nDUSK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.084625442\n幅度級距：+10%\n區間異動：+10.80%\n基準價格：US$0.076374832\n24H：+10.24%\n4H RSI：58.15\n日線 RSI：47.20\n週線 RSI：47.95\n成交量：1.37×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT\n\nACH｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0060403396\n幅度級距：+10%\n區間異動：+10.39%\n基準價格：US$0.005471736\n24H：+9.81%\n4H RSI：49.71\n日線 RSI：49.10\n週線 RSI：50.79\n成交量：1.07×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/alchemy-pay\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AACHUSD\n\nRON｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.066869854\n幅度級距：+10%\n區間異動：+10.28%\n基準價格：US$0.060635362\n24H：+10.51%\n4H RSI：49.49\n日線 RSI：55.27\n週線 RSI：42.83\n成交量：6.44×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ronin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARONUSDT"
+    },
+    "ntf_87820abaa7c5d7a1697861463af0a73b": {
+      "notification_id": "ntf_87820abaa7c5d7a1697861463af0a73b",
+      "run_id": "20261010T150908Z_a409b68b",
+      "created_at_utc": "2026-10-10T15:10:32.327630Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261010T150908Z_a409b68b\n資料來源：CoinGecko＋公開現貨交易所\n\nXAI｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0094359472\n幅度級距：-10%\n區間異動：-15.03%\n基準價格：US$0.011104453\n24H：+16.93%\n4H RSI：52.40\n日線 RSI：60.65\n週線 RSI：49.87\n成交量：2.81×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AXAIUSDT\n\nW｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.018555568\n幅度級距：+10%\n區間異動：+11.19%\n基準價格：US$0.016688837\n24H：+6.76%\n4H RSI：62.99\n日線 RSI：72.25\n週線 RSI：57.30\n成交量：1.94×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AWUSD"
     }
   }
 }
