@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-11T22:28:57.622901Z",
+  "updated_at_utc": "2026-10-11T22:59:39.213081Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -12909,6 +12909,20 @@
       "last_attempt_at_utc": "2026-10-11T22:28:54.933058Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T222818Z_ef2a5ec9\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00062182149\n幅度級距：+20%\n區間異動：+26.75%\n基準價格：US$0.00049057112\n24H：+5.60%\n4H RSI：39.30\n日線 RSI：54.79\n週線 RSI：24.90\n成交量：7.35×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT"
+    },
+    "ntf_cdf9bb92c6ed4efc0d32a296cbf8bed0": {
+      "notification_id": "ntf_cdf9bb92c6ed4efc0d32a296cbf8bed0",
+      "run_id": "20261011T225851Z_9df86d4a",
+      "created_at_utc": "2026-10-11T22:59:39.213055Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T225851Z_9df86d4a\n資料來源：CoinGecko＋公開現貨交易所\n\nS｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.060899269\n幅度級距：+30%\n區間異動：+30.10%\n基準價格：US$0.046808735\n24H：+27.64%\n4H RSI：87.81\n日線 RSI：64.56\n週線 RSI：48.01\n成交量：17.31×｜STRONG\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sonic-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3ASUSDT\n\nW｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.022164741\n幅度級距：+30%\n區間異動：+30.05%\n基準價格：US$0.01704326\n24H：+25.70%\n4H RSI：81.53\n日線 RSI：73.20\n週線 RSI：49.06\n成交量：8.82×｜STRONG\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3AWUSDT"
     }
   }
 }
