@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-11T07:19:59.466091Z",
+  "updated_at_utc": "2026-10-11T07:56:52.694667Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -12531,6 +12531,20 @@
       "last_attempt_at_utc": "2026-10-11T07:19:57.020766Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T071916Z_c0aeed61\n資料來源：CoinGecko＋公開現貨交易所\n\nSTRK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.11201315\n幅度級距：+60%\n區間異動：+61.33%\n基準價格：US$0.069433061\n24H：+56.35%\n4H RSI：83.29\n日線 RSI：85.25\n週線 RSI：59.56\n成交量：12.86×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASTRKUSD\n\nARPA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.012239551\n幅度級距：-10%\n區間異動：-11.25%\n基準價格：US$0.013791717\n24H：+5.67%\n4H RSI：53.65\n日線 RSI：61.89\n週線 RSI：59.64\n成交量：15.50×｜STRONG\n背離：WEEKLY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arpa\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AARPAUSD"
+    },
+    "ntf_fd315c7547d6491a4255a6e5bfce3420": {
+      "notification_id": "ntf_fd315c7547d6491a4255a6e5bfce3420",
+      "run_id": "20261011T075623Z_8714cd22",
+      "created_at_utc": "2026-10-11T07:56:52.694634Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T075623Z_8714cd22\n資料來源：CoinGecko＋公開現貨交易所\n\nDUSK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.087518752\n幅度級距：+10%\n區間異動：+10.70%\n基準價格：US$0.079062728\n24H：+10.29%\n4H RSI：60.85\n日線 RSI：56.10\n週線 RSI：47.95\n成交量：1.59×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT"
     }
   }
 }
