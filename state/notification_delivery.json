@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-11T19:29:12.083598Z",
+  "updated_at_utc": "2026-10-11T19:45:10.857541Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -12797,6 +12797,20 @@
       "last_attempt_at_utc": "2026-10-11T19:29:09.871950Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T192829Z_ab2bacc6\n資料來源：CoinGecko＋公開現貨交易所\n\nOLAS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.054089182\n幅度級距：+10%\n區間異動：+16.32%\n基準價格：US$0.046502087\n24H：+16.20%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.72×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/autonolas\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AOLASUSDT\n\nNOS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.60501171\n幅度級距：+10%\n區間異動：+10.66%\n基準價格：US$0.54675013\n24H：+2.05%\n4H RSI：46.82\n日線 RSI：59.50\n週線 RSI：74.60\n成交量：0.92×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD"
+    },
+    "ntf_1411460733063bcbc4835b5f99cd68af": {
+      "notification_id": "ntf_1411460733063bcbc4835b5f99cd68af",
+      "run_id": "20261011T194428Z_5c8020de",
+      "created_at_utc": "2026-10-11T19:45:10.857520Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T194428Z_5c8020de\n資料來源：CoinGecko＋公開現貨交易所\n\nW｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.022602265\n幅度級距：+30%\n區間異動：+32.62%\n基準價格：US$0.01704326\n24H：+28.47%\n4H RSI：61.35\n日線 RSI：73.68\n週線 RSI：57.30\n成交量：3.46×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AWUSD"
     }
   }
 }
