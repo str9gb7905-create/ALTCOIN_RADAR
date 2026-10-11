@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-11T21:08:54.656542Z",
+  "updated_at_utc": "2026-10-11T21:28:26.898978Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -12853,6 +12853,20 @@
       "last_attempt_at_utc": "2026-10-11T21:08:52.110224Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T210815Z_0b805ee6\n資料來源：CoinGecko＋公開現貨交易所\n\nCKB｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0021552109\n幅度級距：+50%\n區間異動：+54.26%\n基準價格：US$0.0013971378\n24H：+51.14%\n4H RSI：77.87\n日線 RSI：65.33\n週線 RSI：48.61\n成交量：154.72×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nervos-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACKBUSDT\n\nNOS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.6029254\n幅度級距：+10%\n區間異動：+10.27%\n基準價格：US$0.54675013\n24H：+2.45%\n4H RSI：55.19\n日線 RSI：59.50\n週線 RSI：74.60\n成交量：0.92×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD"
+    },
+    "ntf_509c61241875d59441749db5913c816b": {
+      "notification_id": "ntf_509c61241875d59441749db5913c816b",
+      "run_id": "20261011T212754Z_a73f68b2",
+      "created_at_utc": "2026-10-11T21:28:26.898951Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T212754Z_a73f68b2\n資料來源：CoinGecko＋公開現貨交易所\n\nW｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.020897491\n幅度級距：+20%\n區間異動：+22.61%\n基準價格：US$0.01704326\n24H：+16.68%\n4H RSI：81.19\n日線 RSI：74.23\n週線 RSI：56.08\n成交量：5.70×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AWUSDT"
     }
   }
 }
