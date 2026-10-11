@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261011T185702Z_f275677a",
-  "updated_at": "2026-10-11T18:57:36.616700Z",
+  "last_run_id": "20261011T191136Z_295d7851",
+  "updated_at": "2026-10-11T19:12:07.662430Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -540,10 +540,10 @@
     },
     "S": {
       "coingecko_id": "sonic-3",
-      "history_source": "Binance",
+      "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-11T18:57:36.616700Z",
+      "last_seen_at": "2026-10-11T19:12:07.662430Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -611,10 +611,10 @@
     },
     "STRK": {
       "coingecko_id": "starknet",
-      "history_source": "Binance",
+      "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-11T18:57:36.616700Z",
+      "last_seen_at": "2026-10-11T19:12:07.662430Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -679,10 +679,10 @@
     },
     "W": {
       "coingecko_id": "wormhole",
-      "history_source": "Binance",
+      "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-11T18:57:36.616700Z",
+      "last_seen_at": "2026-10-11T19:12:07.662430Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -747,10 +747,10 @@
     },
     "IO": {
       "coingecko_id": "io",
-      "history_source": "Binance",
+      "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-11T18:57:36.616700Z",
+      "last_seen_at": "2026-10-11T19:12:07.662430Z",
       "daily": {
         "active_signals": [
           {
@@ -759,14 +759,14 @@
             "pivots": [
               {
                 "timestamp": "2026-09-26",
-                "price": 0.18,
-                "rsi": 67.74190893438538,
+                "price": 0.17995,
+                "rsi": 67.49883549655746,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-10-04",
-                "price": 0.1834,
-                "rsi": 64.12582090096538,
+                "price": 0.18861,
+                "rsi": 64.0774675158994,
                 "confirmed": true
               }
             ]
@@ -850,10 +850,10 @@
     },
     "CKB": {
       "coingecko_id": "nervos-network",
-      "history_source": "Binance",
+      "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-11T18:57:36.616700Z",
+      "last_seen_at": "2026-10-11T19:12:07.662430Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1563,10 +1563,10 @@
     },
     "METIS": {
       "coingecko_id": "metis-token",
-      "history_source": "Binance",
+      "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-11T18:57:36.616700Z",
+      "last_seen_at": "2026-10-11T19:12:07.662430Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1577,18 +1577,18 @@
         "active_signals": [
           {
             "type": "WEEKLY_BULLISH",
-            "signature": "METIS|1W|BULLISH|2026-06-29|2026-08-17",
+            "signature": "METIS|1W|BULLISH|2026-06-04|2026-08-13",
             "pivots": [
               {
-                "timestamp": "2026-06-29",
-                "price": 2.57,
-                "rsi": 35.488052307623974,
+                "timestamp": "2026-06-04",
+                "price": 2.32,
+                "rsi": 25.18921585889474,
                 "confirmed": true
               },
               {
-                "timestamp": "2026-08-17",
-                "price": 2.24,
-                "rsi": 39.903979396615135,
+                "timestamp": "2026-08-13",
+                "price": 2.25,
+                "rsi": 30.938693962676467,
                 "confirmed": true
               }
             ]
@@ -2711,7 +2711,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-11T18:57:36.616700Z",
+      "last_seen_at": "2026-10-11T19:12:07.662430Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2797,7 +2797,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-11T18:57:36.616700Z",
+      "last_seen_at": "2026-10-11T19:12:07.662430Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -3042,10 +3042,10 @@
     },
     "DYM": {
       "coingecko_id": "dymension",
-      "history_source": "Binance",
+      "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-11T18:57:36.616700Z",
+      "last_seen_at": "2026-10-11T19:12:07.662430Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -3087,31 +3087,12 @@
     },
     "MANTA": {
       "coingecko_id": "manta-network",
-      "history_source": "Binance",
+      "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-11T18:57:36.616700Z",
+      "last_seen_at": "2026-10-11T19:12:07.662430Z",
       "daily": {
-        "active_signals": [
-          {
-            "type": "DAILY_BEARISH",
-            "signature": "MANTA|1D|BEARISH|2026-09-27|2026-10-04",
-            "pivots": [
-              {
-                "timestamp": "2026-09-27",
-                "price": 0.07258,
-                "rsi": 64.27459947752101,
-                "confirmed": true
-              },
-              {
-                "timestamp": "2026-10-04",
-                "price": 0.07332,
-                "rsi": 60.95451438801134,
-                "confirmed": true
-              }
-            ]
-          }
-        ],
+        "active_signals": [],
         "seen_signatures": [
           "MANTA|1D|BEARISH|2026-09-27|2026-10-04"
         ]
