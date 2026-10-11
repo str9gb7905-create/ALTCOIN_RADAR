@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-11T20:29:10.111571Z",
+  "updated_at_utc": "2026-10-11T20:46:22.211221Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -12825,6 +12825,20 @@
       "last_attempt_at_utc": "2026-10-11T20:29:07.456670Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T202824Z_31d3abc9\n資料來源：CoinGecko＋公開現貨交易所\n\nICP｜再次觸發\n觸發：由近24H低點上漲\n價格：US$3.3588659\n幅度級距：+10%\n區間異動：+10.32%\n基準價格：US$3.0447092\n24H：+6.55%\n4H RSI：64.73\n日線 RSI：51.31\n週線 RSI：60.40\n成交量：0.71×｜WEAK\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/internet-computer\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AICPUSD"
+    },
+    "ntf_a9b4ff242aff1a7e6543190aebce0678": {
+      "notification_id": "ntf_a9b4ff242aff1a7e6543190aebce0678",
+      "run_id": "20261011T204552Z_d1b2d73c",
+      "created_at_utc": "2026-10-11T20:46:22.211204Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T204552Z_d1b2d73c\n資料來源：CoinGecko＋公開現貨交易所\n\nCKB｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0018492846\n幅度級距：+30%\n區間異動：+32.36%\n基準價格：US$0.0013971378\n24H：+29.92%\n4H RSI：77.87\n日線 RSI：65.33\n週線 RSI：48.61\n成交量：134.33×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nervos-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACKBUSDT"
     }
   }
 }
