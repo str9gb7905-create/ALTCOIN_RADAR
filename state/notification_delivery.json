@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-11T16:56:24.505859Z",
+  "updated_at_utc": "2026-10-11T16:56:26.617187Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -12718,13 +12718,13 @@
       "notification_id": "ntf_d8287cc0a4b4e8b463588855509fe215",
       "run_id": "20261011T165546Z_0c0d73fd",
       "created_at_utc": "2026-10-11T16:56:24.505846Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-11T16:56:26.617174Z",
       "event_count": 7,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T165546Z_0c0d73fd\n資料來源：CoinGecko＋公開現貨交易所\n\nS｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.062788738\n幅度級距：+40%\n區間異動：+41.90%\n基準價格：US$0.044249797\n24H：+40.01%\n4H RSI：80.84\n日線 RSI：64.52\n週線 RSI：48.53\n成交量：7.97×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sonic-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASUSDT\n\nMANTA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.074887803\n幅度級距：+10%\n區間異動：+13.59%\n基準價格：US$0.0659299\n24H：+12.49%\n4H RSI：64.27\n日線 RSI：58.04\n週線 RSI：48.79\n成交量：7.68×｜STRONG\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/manta-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AMANTAUSDT\n\nAIOT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.054596675\n幅度級距：+10%\n區間異動：+11.78%\n基準價格：US$0.048842407\n24H：+10.54%\n4H RSI：58.98\n日線 RSI：46.54\n週線 RSI：35.36\n成交量：1.03×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/okzoo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAIOTUSDT\n\nFET｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.24355943\n幅度級距：+10%\n區間異動：+11.44%\n基準價格：US$0.2185541\n24H：+7.53%\n4H RSI：60.53\n日線 RSI：54.24\n週線 RSI：58.74\n成交量：0.85×｜NORMAL\n背離：DAILY_BEARISH, WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/fetch-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFETUSD\n\nALGO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.12932701\n幅度級距：+10%\n區間異動：+10.84%\n基準價格：US$0.1166802\n24H：+8.77%\n4H RSI：61.72\n日線 RSI：52.76\n週線 RSI：58.93\n成交量：1.71×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/algorand\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AALGOUSD"
     }
