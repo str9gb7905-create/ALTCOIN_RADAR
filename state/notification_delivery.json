@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-11T04:44:30.141267Z",
+  "updated_at_utc": "2026-10-11T06:39:29.063134Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -12503,6 +12503,20 @@
       "last_attempt_at_utc": "2026-10-11T04:44:27.073931Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T044348Z_d17758fa\n資料來源：CoinGecko＋公開現貨交易所\n\nAIOT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.05013512\n幅度級距：+10%\n區間異動：+11.12%\n基準價格：US$0.04511676\n24H：+10.02%\n4H RSI：52.10\n日線 RSI：46.54\n週線 RSI：35.36\n成交量：1.90×｜ELEVATED\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/okzoo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAIOTUSDT\n\nDUSK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.087682646\n幅度級距：+10%\n區間異動：+10.90%\n基準價格：US$0.079062728\n24H：+9.47%\n4H RSI：60.85\n日線 RSI：56.10\n週線 RSI：47.95\n成交量：1.60×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT\n\nEDU｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.073129011\n幅度級距：+10%\n區間異動：+10.65%\n基準價格：US$0.066089904\n24H：+6.30%\n4H RSI：66.07\n日線 RSI：79.62\n週線 RSI：55.70\n成交量：1.67×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/edu-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AEDUUSDT"
+    },
+    "ntf_530658e595ece98d6c6ff50e42d80d43": {
+      "notification_id": "ntf_530658e595ece98d6c6ff50e42d80d43",
+      "run_id": "20261011T063857Z_73bceacf",
+      "created_at_utc": "2026-10-11T06:39:29.063110Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T063857Z_73bceacf\n資料來源：CoinGecko＋公開現貨交易所\n\nCKB｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0014718384\n幅度級距：+10%\n區間異動：+11.55%\n基準價格：US$0.0013194289\n24H：+11.16%\n4H RSI：57.32\n日線 RSI：65.33\n週線 RSI：48.61\n成交量：11.79×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nervos-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACKBUSDT\n\nEDU｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.072897018\n幅度級距：+10%\n區間異動：+10.30%\n基準價格：US$0.066089904\n24H：+6.18%\n4H RSI：66.07\n日線 RSI：79.62\n週線 RSI：55.70\n成交量：1.65×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/edu-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AEDUUSDT"
     }
   }
 }
