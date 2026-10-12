@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-12T08:40:06.930831Z",
+  "updated_at_utc": "2026-10-12T08:40:09.110832Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -13180,13 +13180,13 @@
       "notification_id": "ntf_88069a7d823eee94b46962f009e4425d",
       "run_id": "20261012T083925Z_4b50f286",
       "created_at_utc": "2026-10-12T08:40:06.930806Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-12T08:40:09.110813Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261012T083925Z_4b50f286\n資料來源：CoinGecko＋公開現貨交易所\n\nNOS｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.66424496\n幅度級距：+20%\n區間異動：+20.57%\n基準價格：US$0.55091526\n24H：+20.97%\n4H RSI：62.52\n日線 RSI：61.82\n週線 RSI：66.59\n成交量：1.36×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ANOSUSDT\n\nPYTH｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.084678116\n幅度級距：+10%\n區間異動：+11.20%\n基準價格：US$0.076146171\n24H：+8.89%\n4H RSI：59.84\n日線 RSI：60.17\n週線 RSI：65.92\n成交量：1.25×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APYTHUSD"
     }
