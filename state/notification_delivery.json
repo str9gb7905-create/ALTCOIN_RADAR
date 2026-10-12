@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-12T04:33:17.201458Z",
+  "updated_at_utc": "2026-10-12T05:00:02.015899Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -13063,6 +13063,20 @@
       "last_attempt_at_utc": "2026-10-12T04:33:14.818827Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261012T043234Z_6e9f6733\n資料來源：CoinGecko＋公開現貨交易所\n\nMANTA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.073351405\n幅度級距：+10%\n區間異動：+11.03%\n基準價格：US$0.066066126\n24H：+10.95%\n4H RSI：64.58\n日線 RSI：58.04\n週線 RSI：48.79\n成交量：10.28×｜STRONG\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/manta-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AMANTAUSDT"
+    },
+    "ntf_d213d0537e2e7aa92fa4ad5a32ec18d1": {
+      "notification_id": "ntf_d213d0537e2e7aa92fa4ad5a32ec18d1",
+      "run_id": "20261012T045919Z_1c754f20",
+      "created_at_utc": "2026-10-12T05:00:02.015872Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261012T045919Z_1c754f20\n資料來源：CoinGecko＋公開現貨交易所\n\nALGO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.13061328\n幅度級距：+10%\n區間異動：+10.90%\n基準價格：US$0.11777521\n24H：+10.96%\n4H RSI：60.58\n日線 RSI：59.25\n週線 RSI：58.93\n成交量：2.01×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/algorand\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AALGOUSD"
     }
   }
 }
