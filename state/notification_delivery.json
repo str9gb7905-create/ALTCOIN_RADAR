@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-12T03:11:58.195394Z",
+  "updated_at_utc": "2026-10-12T03:34:46.563016Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -13021,6 +13021,20 @@
       "last_attempt_at_utc": "2026-10-12T03:11:55.793729Z",
       "event_count": 5,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261012T031113Z_178efb53\n資料來源：CoinGecko＋公開現貨交易所\n\nW｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.029157637\n幅度級距：+70%\n區間異動：+71.08%\n基準價格：US$0.01704326\n24H：+66.46%\n4H RSI：74.45\n日線 RSI：82.55\n週線 RSI：57.30\n成交量：11.32×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AWUSD\n\nDYM｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.022302276\n幅度級距：+20%\n區間異動：+21.87%\n基準價格：US$0.018300199\n24H：+20.25%\n4H RSI：73.59\n日線 RSI：64.80\n週線 RSI：37.21\n成交量：3.04×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dymension\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ADYMUSD\n\nRDNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00059546289\n幅度級距：+20%\n區間異動：+21.38%\n基準價格：US$0.00049057112\n24H：+3.40%\n4H RSI：46.46\n日線 RSI：52.71\n週線 RSI：26.80\n成交量：7.06×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nIO｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.1837094\n幅度級距：+20%\n區間異動：+20.64%\n基準價格：US$0.15228389\n24H：+18.78%\n4H RSI：73.67\n日線 RSI：63.26\n週線 RSI：54.55\n成交量：3.48×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/io\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIOUSD\n\nSTRK｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.11158794\n幅度級距：-10%\n區間異動：-10.18%\n基準價格：US$0.1242348\n24H：-5.79%\n4H RSI：88.06\n日線 RSI：88.29\n週線 RSI：59.56\n成交量：11.78×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASTRKUSD"
+    },
+    "ntf_6a465d3ecb64599f07d2338ab06e0ec3": {
+      "notification_id": "ntf_6a465d3ecb64599f07d2338ab06e0ec3",
+      "run_id": "20261012T033410Z_38294c6e",
+      "created_at_utc": "2026-10-12T03:34:46.562988Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261012T033410Z_38294c6e\n資料來源：CoinGecko＋公開現貨交易所\n\nCKB｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.001861654\n幅度級距：+30%\n區間異動：+33.25%\n基準價格：US$0.0013971378\n24H：+32.82%\n4H RSI：82.97\n日線 RSI：81.27\n週線 RSI：48.61\n成交量：190.15×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nervos-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACKBUSDT\n\nMETIS｜層級升高\n觸發：由近24H低點上漲\n價格：US$4.1410869\n幅度級距：+20%\n區間異動：+21.70%\n基準價格：US$3.4026076\n24H：+20.29%\n4H RSI：70.54\n日線 RSI：67.34\n週線 RSI：47.78\n成交量：7.98×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/metis-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AMETISUSD"
     }
   }
 }
