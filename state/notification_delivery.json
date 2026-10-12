@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-11T23:55:18.273104Z",
+  "updated_at_utc": "2026-10-12T00:15:14.836798Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -12937,6 +12937,20 @@
       "last_attempt_at_utc": "2026-10-11T23:55:15.947030Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261011T235433Z_2c6a2e10\n資料來源：CoinGecko＋公開現貨交易所\n\nSTRK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.1242348\n幅度級距：+20%\n區間異動：+21.39%\n基準價格：US$0.1023408\n24H：+19.69%\n4H RSI：87.33\n日線 RSI：85.25\n週線 RSI：59.56\n成交量：12.45×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASTRKUSDC\n\nNOS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.60178219\n幅度級距：+10%\n區間異動：+10.07%\n基準價格：US$0.54675013\n24H：+3.23%\n4H RSI：55.19\n日線 RSI：59.50\n週線 RSI：74.60\n成交量：0.93×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD"
+    },
+    "ntf_89b6565529e8e214322a0de40dfe5f4a": {
+      "notification_id": "ntf_89b6565529e8e214322a0de40dfe5f4a",
+      "run_id": "20261012T001428Z_c3b148ed",
+      "created_at_utc": "2026-10-12T00:15:14.836778Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261012T001428Z_c3b148ed\n資料來源：CoinGecko＋公開現貨交易所\n\nW｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.022295466\n幅度級距：+30%\n區間異動：+30.82%\n基準價格：US$0.01704326\n24H：+26.09%\n4H RSI：74.45\n日線 RSI：82.55\n週線 RSI：57.30\n成交量：6.21×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AWUSD\n\nS｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.060889919\n幅度級距：+30%\n區間異動：+30.08%\n基準價格：US$0.046808735\n24H：+25.67%\n4H RSI：75.56\n日線 RSI：75.70\n週線 RSI：48.53\n成交量：16.42×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sonic-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASUSDT\n\nXTZ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.33000227\n幅度級距：+10%\n區間異動：+11.66%\n基準價格：US$0.29554413\n24H：+9.92%\n4H RSI：65.44\n日線 RSI：55.89\n週線 RSI：54.16\n成交量：1.09×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/tezos\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AXTZUSD"
     }
   }
 }
