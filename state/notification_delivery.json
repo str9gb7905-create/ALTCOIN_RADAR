@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-12T10:46:55.410005Z",
+  "updated_at_utc": "2026-10-12T11:12:52.685149Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -13245,6 +13245,20 @@
       "last_attempt_at_utc": "2026-10-12T10:46:52.726817Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261012T104601Z_4c36ae2f\n資料來源：CoinGecko＋公開現貨交易所\n\nALGO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.12990082\n幅度級距：+10%\n區間異動：+10.11%\n基準價格：US$0.11797079\n24H：+9.89%\n4H RSI：66.79\n日線 RSI：59.25\n週線 RSI：58.93\n成交量：2.01×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/algorand\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AALGOUSD"
+    },
+    "ntf_cf0de76e9cdc4f6ae45c217282118515": {
+      "notification_id": "ntf_cf0de76e9cdc4f6ae45c217282118515",
+      "run_id": "20261012T111211Z_1dbf0bef",
+      "created_at_utc": "2026-10-12T11:12:52.685122Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261012T111211Z_1dbf0bef\n資料來源：CoinGecko＋公開現貨交易所\n\nOSMO｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.041117553\n幅度級距：+10%\n區間異動：+18.83%\n基準價格：US$0.034600973\n24H：+17.08%\n4H RSI：65.54\n日線 RSI：56.94\n週線 RSI：45.79\n成交量：7.17×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOSMOUSDC"
     }
   }
 }
