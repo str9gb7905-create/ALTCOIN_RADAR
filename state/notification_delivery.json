@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-12T23:00:21.582580Z",
+  "updated_at_utc": "2026-10-12T23:18:48.066595Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -13581,6 +13581,20 @@
       "last_attempt_at_utc": "2026-10-12T23:00:18.793372Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261012T225913Z_103bc773\n資料來源：CoinGecko＋公開現貨交易所\n\nICP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.1458337\n幅度級距：-10%\n區間異動：-10.03%\n基準價格：US$3.4964258\n24H：-9.99%\n4H RSI：51.05\n日線 RSI：60.36\n週線 RSI：60.40\n成交量：1.26×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/internet-computer\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AICPUSD"
+    },
+    "ntf_01ae8af663a7e6a3d532eb9b7e0cdf0c": {
+      "notification_id": "ntf_01ae8af663a7e6a3d532eb9b7e0cdf0c",
+      "run_id": "20261012T231715Z_f92f84d4",
+      "created_at_utc": "2026-10-12T23:18:48.066570Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 8,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261012T231715Z_f92f84d4\n資料來源：CoinGecko＋公開現貨交易所\n\nAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.7682928\n幅度級距：-10%\n區間異動：-13.47%\n基準價格：US$4.3547226\n24H：-12.23%\n4H RSI：40.79\n日線 RSI：56.99\n週線 RSI：65.69\n成交量：0.74×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arweave\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AARUSDT\n\nWLD｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.50119833\n幅度級距：-10%\n區間異動：-10.51%\n基準價格：US$0.56006546\n24H：-9.57%\n4H RSI：41.82\n日線 RSI：58.49\n週線 RSI：59.14\n成交量：0.54×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/worldcoin-wld\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWLDUSDT\n\nALT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0078445941\n幅度級距：-10%\n區間異動：-10.50%\n基準價格：US$0.0087644283\n24H：-3.44%\n4H RSI：54.40\n日線 RSI：60.77\n週線 RSI：52.11\n成交量：7.35×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/altlayer\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AALTUSDT\n\nHIGH｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.030196509\n幅度級距：-10%\n區間異動：-10.43%\n基準價格：US$0.03371143\n24H：-7.37%\n4H RSI：43.22\n日線 RSI：50.15\n週線 RSI：34.99\n成交量：0.87×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/highstreet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHIGHUSD\n\nONDO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.4750988\n幅度級距：-10%\n區間異動：-10.30%\n基準價格：US$0.5296792\n24H：-8.83%\n4H RSI：48.52\n日線 RSI：61.77\n週線 RSI：59.06\n成交量：1.20×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ondo-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AONDOUSDT\n\nGLMR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0097815565\n幅度級距：-10%\n區間異動：-10.25%\n基準價格：US$0.010898429\n24H：-7.98%\n4H RSI：45.12\n日線 RSI：60.54\n週線 RSI：50.49\n成交量：3.43×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT\n\nALGO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.11933893\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$0.13278938\n24H：-6.21%\n4H RSI：50.50\n日線 RSI：59.28\n週線 RSI：57.56\n成交量：1.45×｜NORMAL\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/algorand\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AALGOUSD\n\nMAV｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.01080934\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$0.012018046\n24H：-9.44%\n4H RSI：37.32\n日線 RSI：48.43\n週線 RSI：44.35\n成交量：1.05×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/maverick-protocol\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AMAVUSDT"
     }
   }
 }
