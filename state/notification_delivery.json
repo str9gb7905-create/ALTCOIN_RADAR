@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-12T12:01:02.938248Z",
+  "updated_at_utc": "2026-10-12T13:18:43.817514Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -13273,6 +13273,20 @@
       "last_attempt_at_utc": "2026-10-12T12:01:00.064999Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261012T120000Z_1aee3c2f\n資料來源：CoinGecko＋公開現貨交易所\n\nRENDER｜再次觸發\n觸發：由近24H低點上漲\n價格：US$2.1038204\n幅度級距：+10%\n區間異動：+10.53%\n基準價格：US$1.9034642\n24H：+10.45%\n4H RSI：66.29\n日線 RSI：58.25\n週線 RSI：61.80\n成交量：1.05×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/render-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARENDERUSDC"
+    },
+    "ntf_32687a442ccd91d6dfebfc619c59b330": {
+      "notification_id": "ntf_32687a442ccd91d6dfebfc619c59b330",
+      "run_id": "20261012T131802Z_bb621b75",
+      "created_at_utc": "2026-10-12T13:18:43.817497Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 6,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261012T131802Z_bb621b75\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00071091028\n幅度級距：+40%\n區間異動：+44.91%\n基準價格：US$0.00049057112\n24H：+19.81%\n4H RSI：52.44\n日線 RSI：52.71\n週線 RSI：26.80\n成交量：16.37×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nBOME｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.00089587864\n幅度級距：-20%\n區間異動：-22.34%\n基準價格：US$0.0011536646\n24H：-19.66%\n4H RSI：34.07\n日線 RSI：60.80\n週線 RSI：65.22\n成交量：3.08×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/book-of-meme\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ABOMEUSDT\n\nSTRK｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.098539785\n幅度級距：-20%\n區間異動：-20.68%\n基準價格：US$0.1242348\n24H：-13.63%\n4H RSI：62.33\n日線 RSI：88.29\n週線 RSI：59.56\n成交量：9.75×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASTRKUSDC\n\nDYM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.020069142\n幅度級距：-10%\n區間異動：-11.25%\n基準價格：US$0.022613003\n24H：+6.47%\n4H RSI：58.46\n日線 RSI：64.80\n週線 RSI：37.21\n成交量：3.46×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dymension\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ADYMUSD"
     }
   }
 }
