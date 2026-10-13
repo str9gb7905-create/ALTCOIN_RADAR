@@ -2,6 +2,8 @@
   "schema_version": 1,
   "price_alerts_enabled": true,
   "price_threshold_percent": 10,
+  "repeat_window_hours": 24,
+  "repeat_max_per_range": 3,
   "immediate_price_excluded_symbols": [
     "BTC",
     "UNI",
@@ -22,3 +24,4 @@
   "standalone_technical_alerts_enabled": false,
   "standalone_divergence_alerts_enabled": false
 }
+

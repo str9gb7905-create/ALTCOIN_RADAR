@@ -71,7 +71,7 @@ class TelegramDispatcher(NotificationDispatcher):
     def send(self, message: str) -> DispatchResult:
         if not message:
             return DispatchResult("FAILED_PERMANENT", self.provider, error="EMPTY_MESSAGE")
-        if len(message) > TELEGRAM_MESSAGE_LIMIT:
+        if len(message.encode("utf-16-le")) // 2 > TELEGRAM_MESSAGE_LIMIT:
             return DispatchResult("FAILED_PERMANENT", self.provider, error="MESSAGE_TOO_LONG")
         body = json.dumps(
             {"chat_id": self._chat_id, "text": message, "disable_web_page_preview": True}
@@ -125,3 +125,4 @@ class TelegramDispatcher(NotificationDispatcher):
 
     def send_health_alert(self, message: str) -> DispatchResult:
         return self.send(f"ALTCOIN RADAR HEALTH ALERT\n{message}")
+

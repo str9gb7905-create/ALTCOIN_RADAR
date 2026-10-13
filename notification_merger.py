@@ -1,4 +1,4 @@
-"""Build one deterministic notification payload from the three event streams."""
+"""Build a deterministic, lossless notification batch from the event streams."""
 
 from __future__ import annotations
 
@@ -237,21 +237,37 @@ def _render_message(run_id: str, items: list[dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
-def _render_overflow_message(run_id: str, items: list[dict[str, Any]]) -> str:
-    """Keep every triggered symbol visible when a broad move exceeds Telegram's limit."""
-    detailed_count = min(3, len(items))
-    lines = _message_header(run_id)
-    lines.append("同批異動過多；以下顯示幅度最高的詳細資料。")
-    for item in items[:detailed_count]:
-        lines.extend(_item_lines(item))
-    remaining = items[detailed_count:]
-    if remaining:
-        lines.extend([
-            "",
-            f"其他同批觸發（{len(remaining)} 種）：",
-            ", ".join(item["symbol"] for item in remaining),
-        ])
-    return "\n".join(lines)
+def telegram_length(message: str) -> int:
+    """Conservatively count UTF-16 units, including two units for emoji."""
+    return len(message.encode("utf-16-le")) // 2
+
+
+def notification_parts(run_id: str, items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Pack complete asset blocks; never replace details with a symbol list."""
+    groups: list[list[dict[str, Any]]] = []
+    current: list[dict[str, Any]] = []
+    # Reserve room for the final page number before packing.
+    suffix = "\n分批通知：第 9999／9999 則"
+    for item in items:
+        candidate = current + [item]
+        if telegram_length(_render_message(run_id, candidate) + suffix) > TELEGRAM_MESSAGE_LIMIT:
+            if not current:
+                raise NotificationMergeError("ASSET_BLOCK_TOO_LONG")
+            groups.append(current)
+            current = [item]
+            if telegram_length(_render_message(run_id, current) + suffix) > TELEGRAM_MESSAGE_LIMIT:
+                raise NotificationMergeError("ASSET_BLOCK_TOO_LONG")
+        else:
+            current = candidate
+    if current:
+        groups.append(current)
+    result = []
+    for index, group in enumerate(groups, 1):
+        message = _render_message(run_id, group)
+        if len(groups) > 1:
+            message += f"\n分批通知：第 {index}／{len(groups)} 則"
+        result.append({"message": message, "items": group})
+    return result
 
 
 def merge_payloads(price_payload, technical_events_payload, divergence_events_payload,
@@ -333,16 +349,14 @@ def merge_payloads(price_payload, technical_events_payload, divergence_events_pa
                 "divergence": [_event_key(item) for item in divergence_events]}
     digest = hashlib.sha256(json.dumps(identity, sort_keys=True, separators=(",", ":"),
                                        ensure_ascii=False).encode("utf-8")).hexdigest()
-    message = _render_message(run_id, items)
-    if len(message) > TELEGRAM_MESSAGE_LIMIT:
-        message = _render_overflow_message(run_id, items)
-    if len(message) > TELEGRAM_MESSAGE_LIMIT:
-        raise NotificationMergeError(
-            f"MERGED_MESSAGE_TOO_LONG length={len(message)} limit={TELEGRAM_MESSAGE_LIMIT}"
-        )
+    parts = notification_parts(run_id, items)
     return {"schema_version": 1, "run_id": run_id, "status": "READY",
             "notification_id": f"ntf_{digest[:32]}", "event_count": len(all_events),
-            "items": items, "message": message}
+            "items": items, "message": parts[0]["message"], "parts": parts,
+            "repeat_policy": {
+                "window_hours": selected_policy.get("repeat_window_hours", 24),
+                "max_per_range": selected_policy.get("repeat_max_per_range", 3),
+            }}
 
 
 def merge_from_files(paths: dict[str, Path] | None = None) -> dict[str, Any]:
@@ -366,3 +380,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

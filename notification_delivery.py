@@ -3,12 +3,15 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
-from datetime import datetime, timezone
+import re
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Callable
 
 from notification_dispatcher import NotificationDispatcher, TelegramDispatcher
+from notification_merger import notification_parts
 from radar_scan import OUTPUT_DIR, PROJECT_ROOT
 from run_pipeline import HEARTBEAT_PATH
 from state_store import FileSystemStateStore, StateStore
@@ -25,6 +28,55 @@ def _utc_now() -> str:
 
 def empty_delivery_state() -> dict[str, Any]:
     return {"schema_version": 1, "updated_at_utc": None, "notifications": {}}
+
+
+def _timestamp(value: str) -> datetime:
+    stamp = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    if stamp.tzinfo is None:
+        raise ValueError("notification timestamp must have a timezone")
+    return stamp
+
+
+def _alert_ranges(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return [{"symbol": item["symbol"],
+             "direction": "UP" if item["change_pct"] >= 0 else "DOWN",
+             "level": int(item["trigger_level"])} for item in items]
+
+
+def _record_ranges(record: dict[str, Any]) -> list[dict[str, Any]]:
+    if "alert_ranges" in record:
+        return record["alert_ranges"]
+    # Migrate counting from old delivered text without changing historical records.
+    # Symbols appearing only in the old overflow summary did not receive details.
+    found = []
+    pattern = r"(?:^|\n)([A-Z0-9]+)｜[^\n]*\n觸發：([^\n]*)\n價格：[^\n]*\n幅度級距：([+-]\d+)%"
+    for symbol, condition, signed in re.findall(pattern, record.get("message", "")):
+        if "近24H" in condition:
+            found.append({"symbol": symbol, "direction": "UP" if int(signed) > 0 else "DOWN",
+                          "level": abs(int(signed))})
+    return found
+
+
+def _allowed_items(items, state, now, window_hours, maximum):
+    cutoff = _timestamp(now) - timedelta(hours=window_hours)
+    previous = []
+    for record in state["notifications"].values():
+        if record.get("delivery_status") == "FAILED_PERMANENT":
+            continue
+        # Pending/unknown records reserve quota to avoid replay after a crash.
+        stamp = record.get("delivered_at_utc") or record.get("created_at_utc")
+        if stamp and _timestamp(stamp) > cutoff:
+            previous.extend(_record_ranges(record))
+    result = []
+    for item in items:
+        bucket = _alert_ranges([item])[0]
+        count = sum(old["symbol"] == bucket["symbol"]
+                    and old["direction"] == bucket["direction"]
+                    and old["level"] >= bucket["level"] for old in previous)
+        # A fall back into a lower band cannot reset the daily quota.
+        if count < maximum:
+            result.append(item)
+    return result
 
 
 class NotificationDeliveryLedger:
@@ -58,13 +110,58 @@ class NotificationDeliveryLedger:
                    (notification_id, message, run_id)):
             raise ValueError("merged notification is missing required fields")
         state = self.load()
+        source_digest = hashlib.sha256(json.dumps(
+            merged, sort_keys=True, ensure_ascii=False, separators=(",", ":")
+        ).encode("utf-8")).hexdigest()
         existing = state["notifications"].get(notification_id)
         if existing is not None:
-            if existing.get("message") != message or existing.get("run_id") != run_id:
+            same_payload = (existing.get("source_digest") == source_digest
+                            if existing.get("source_digest") else existing.get("message") == message)
+            if not same_payload or existing.get("run_id") != run_id:
                 raise ValueError("notification_id collision")
             return existing
+        batch_records = [record for record in state["notifications"].values()
+                         if record.get("batch_id") == notification_id]
+        if batch_records:
+            if any(record.get("source_digest") != source_digest for record in batch_records):
+                raise ValueError("notification_id collision")
+            return min(batch_records, key=lambda record: record["part_index"])
         now = self.now()
-        record = {
+        items = merged.get("items", [])
+        policy = merged.get("repeat_policy", {})
+        window = policy.get("window_hours", 24)
+        maximum = policy.get("max_per_range", 3)
+        if any(isinstance(v, bool) or not isinstance(v, int) or v <= 0
+               for v in (window, maximum)):
+            raise ValueError("invalid repeat notification policy")
+        if items:
+            allowed = _allowed_items(items, state, now, window, maximum)
+            if not allowed:
+                return None
+            parts = notification_parts(run_id, allowed)
+        else:
+            parts = [{"message": message, "items": []}]
+        first = None
+        for index, part in enumerate(parts, 1):
+            part_id = notification_id if len(parts) == 1 else f"{notification_id}_p{index:04d}"
+            record = self._new_record(part_id, run_id, part["message"], now)
+            record.update({
+                "batch_id": notification_id, "part_index": index, "part_count": len(parts),
+                "source_digest": source_digest,
+                "alert_ranges": _alert_ranges(part["items"]),
+                "event_count": sum(len(item[category]) for item in part["items"]
+                                   for category in ("price_events", "technical_events", "divergence_events")),
+                "repeat_suppressed_count": len(items) - sum(len(p["items"]) for p in parts),
+            })
+            state["notifications"][part_id] = record
+            if first is None:
+                first = record
+        self._save(state)
+        return first
+
+    @staticmethod
+    def _new_record(notification_id, run_id, message, now):
+        return {
             "notification_id": notification_id,
             "run_id": run_id,
             "created_at_utc": now,
@@ -75,12 +172,9 @@ class NotificationDeliveryLedger:
             "error": None,
             "attempt_count": 0,
             "last_attempt_at_utc": None,
-            "event_count": merged.get("event_count", 0),
+            "event_count": 0,
             "message": message,
         }
-        state["notifications"][notification_id] = record
-        self._save(state)
-        return record
 
     def prepare_health_outage(self, heartbeat: dict[str, Any]) -> dict[str, Any]:
         """Queue one alert per period without a successful scan."""
@@ -116,7 +210,7 @@ class NotificationDeliveryLedger:
         self._save(state)
         return record
 
-    def claim_next(self) -> dict[str, Any] | None:
+    def claim_next(self, *, exclude_ids: set[str] | None = None) -> dict[str, Any] | None:
         """Durably claim one send; abandoned SENDING records become non-retryable."""
         state = self.load()
         changed = False
@@ -126,7 +220,8 @@ class NotificationDeliveryLedger:
                 record["error"] = "INTERRUPTED_AFTER_DURABLE_CLAIM"
                 changed = True
         candidates = [record for record in state["notifications"].values()
-                      if record.get("delivery_status") in RETRYABLE_STATES]
+                      if record.get("delivery_status") in RETRYABLE_STATES
+                      and record.get("notification_id") not in (exclude_ids or set())]
         if not candidates:
             if changed:
                 self._save(state)
@@ -186,7 +281,9 @@ def main() -> int:
     if args.command == "prepare":
         record = ledger.prepare(_load_payload(args.payload))
         print("NO_NOTIFICATION" if record is None else
-              f"DELIVERY_PREPARED notification_id={record['notification_id']}")
+              f"DELIVERY_PREPARED notification_id={record['notification_id']} "
+              f"parts={record.get('part_count', 1)} "
+              f"suppressed={record.get('repeat_suppressed_count', 0)}")
     elif args.command == "prepare-health":
         heartbeat = FileSystemStateStore().load(HEARTBEAT_PATH, {})
         record = ledger.prepare_health_outage(heartbeat)
@@ -205,3 +302,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

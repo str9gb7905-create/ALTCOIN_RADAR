@@ -168,71 +168,23 @@ jobs:
           bash .github/scripts/persist_authoritative_state.sh \
             "$RUNNER_TEMP/altcoin-radar-state-pending" "$GITHUB_OUTPUT"
 
-      - name: Claim next production notification
-        id: claim_delivery
-        if: steps.persist_pending.outcome == 'success'
-        shell: bash
-        run: |
-          set -euo pipefail
-          claim_output=$(python notification_delivery.py claim)
-          echo "$claim_output"
-          if [[ "$claim_output" == DELIVERY_CLAIMED\ notification_id=* ]]; then
-            echo "claimed=true" >> "$GITHUB_OUTPUT"
-            echo "notification_id=${claim_output#DELIVERY_CLAIMED notification_id=}" >> "$GITHUB_OUTPUT"
-          else
-            echo "claimed=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Persist durable delivery claim
-        id: persist_claim
-        if: steps.claim_delivery.outcome == 'success'
-        continue-on-error: true
-        shell: bash
-        run: |
-          bash .github/scripts/persist_authoritative_state.sh \
-            "$RUNNER_TEMP/altcoin-radar-state-claim" "$GITHUB_OUTPUT"
-
-      - name: Send production Telegram notification
+      - name: Deliver all notification parts with durable claims
         id: dispatch_delivery
-        if: steps.claim_delivery.outputs.claimed == 'true' && steps.persist_claim.outcome == 'success'
+        if: steps.persist_pending.outcome == 'success'
         continue-on-error: true
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          NOTIFICATION_ID: ${{ steps.claim_delivery.outputs.notification_id }}
-        shell: bash
-        run: |
-          set +e
-          echo "attempted=true" >> "$GITHUB_OUTPUT"
-          dispatch_output=$(python notification_delivery.py dispatch \
-            --notification-id "$NOTIFICATION_ID" 2>&1)
-          dispatch_exit=$?
-          echo "$dispatch_output"
-          echo "exit_code=$dispatch_exit" >> "$GITHUB_OUTPUT"
-          if [[ "$dispatch_output" == DELIVERY_SUCCESS\ notification_id=* ]]; then
-            echo "status=SUCCESS" >> "$GITHUB_OUTPUT"
-          else
-            echo "status=FAILED" >> "$GITHUB_OUTPUT"
-          fi
-          exit 0
-
-      - name: Persist delivery result
-        id: persist_result
-        if: steps.dispatch_delivery.outputs.attempted == 'true' && always()
-        continue-on-error: true
-        shell: bash
-        run: |
-          bash .github/scripts/persist_authoritative_state.sh \
-            "$RUNNER_TEMP/altcoin-radar-state-result" "$GITHUB_OUTPUT"
+        run: python notification_delivery_runner.py
 
       - name: Log deployment status
         if: always() && steps.pipeline.outputs.ran == 'true'
         shell: bash
         env:
           STATE_PERSISTENCE_STATUS: ${{ steps.persist_pending.outputs.status }}
-          DELIVERY_CLAIMED: ${{ steps.claim_delivery.outputs.claimed }}
+          DELIVERY_CLAIMED: ${{ steps.dispatch_delivery.outputs.claimed }}
           DELIVERY_STATUS: ${{ steps.dispatch_delivery.outputs.status }}
-          DELIVERY_RESULT_PERSISTENCE: ${{ steps.persist_result.outputs.status }}
+          DELIVERY_RESULT_PERSISTENCE: ${{ steps.dispatch_delivery.outputs.persistence }}
         run: |
           python - <<'PY'
           import json
@@ -287,18 +239,13 @@ jobs:
             echo "NOTIFICATION_PREPARATION_FAILED"
             exit 1
           fi
-          if [[ "${{ steps.claim_delivery.outcome }}" != "success" || "${{ steps.persist_claim.outcome }}" != "success" ]]; then
-            echo "DELIVERY_CLAIM_FAILED"
+          if [[ "${{ steps.dispatch_delivery.outcome }}" != "success" || "${{ steps.dispatch_delivery.outputs.status }}" != "SUCCESS" ]]; then
+            echo "TELEGRAM_DELIVERY_BATCH_FAILED_OR_UNKNOWN"
             exit 1
           fi
-          if [[ "${{ steps.claim_delivery.outputs.claimed }}" == "true" ]]; then
-            if [[ "${{ steps.dispatch_delivery.outputs.status }}" != "SUCCESS" ]]; then
-              echo "TELEGRAM_DELIVERY_FAILED_OR_UNKNOWN"
-              exit 1
-            fi
-            if [[ "${{ steps.persist_result.outcome }}" != "success" ]]; then
-              echo "DELIVERY_RESULT_PERSISTENCE_FAILED"
-              exit 1
-            fi
+          if [[ "${{ steps.dispatch_delivery.outputs.persistence }}" != "SUCCESS" ]]; then
+            echo "DELIVERY_RESULT_PERSISTENCE_FAILED"
+            exit 1
           fi
           echo "WORKFLOW_SUCCESS"
+

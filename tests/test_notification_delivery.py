@@ -14,7 +14,7 @@ from notification_dispatcher import (
     NotificationDispatcher,
     TelegramDispatcher,
 )
-from notification_merger import merge_payloads
+from notification_merger import merge_payloads, telegram_length
 from notification_merger import POLICY_PATH
 from state_store import FileSystemStateStore
 
@@ -215,7 +215,7 @@ class NotificationDeliveryTests(unittest.TestCase):
         payloads = list(inputs())
         price_assets = []
         snapshot_assets = []
-        for index in range(165):
+        for index in range(175):
             symbol = f"C{index:03d}"
             price_assets.append({
                 "symbol": symbol,
@@ -240,10 +240,15 @@ class NotificationDeliveryTests(unittest.TestCase):
         merged = merge_payloads(*payloads, policy={
             "immediate_price_excluded_symbols": [],
         })
-        self.assertLessEqual(len(merged["message"]), 4096)
-        self.assertIn("其他同批觸發", merged["message"])
+        self.assertGreater(len(merged["parts"]), 1)
+        all_text = "\n".join(part["message"] for part in merged["parts"])
+        for part in merged["parts"]:
+            self.assertLessEqual(telegram_length(part["message"]), 4096)
+            self.assertIn("分批通知：第", part["message"])
+        self.assertNotIn("其他同批觸發", all_text)
         for item in price_assets:
-            self.assertIn(item["symbol"], merged["message"])
+            self.assertIn(f"{item['symbol']}｜首次觸發", all_text)
+        self.assertEqual(175, sum(len(part["items"]) for part in merged["parts"]))
 
     def test_duplicate_workflow_retry_does_not_duplicate_delivery(self):
         merged = ready_payload()
@@ -357,3 +362,4 @@ class NotificationDeliveryTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

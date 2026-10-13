@@ -129,6 +129,24 @@ returns `NO_NOTIFICATION`; `CONTINUING` price events are suppressed.
 The 15 configured mainstream assets remain monitored but are excluded from
 immediate price alerts by `config/notification_policy.json`.
 
+All allowed asset blocks are now delivered in numbered parts when the batch is
+too long for Telegram. Each part keeps its full price, technical fields, and
+source links; a symbol-only overflow summary is no longer used. UTF-16 length
+is checked conservatively, including emoji, and a single oversized asset block
+fails explicitly instead of silently dropping fields.
+
+The durable delivery ledger limits repeat notifications to three per asset,
+direction, and percentage band in a rolling 24-hour window. These defaults are
+`repeat_max_per_range: 3` and `repeat_window_hours: 24` in the notification policy.
+Reports at a higher band also count toward lower bands: returning from -20% to
+-18% does not reset the quota. A new higher band (for example -30%) or the opposite
+direction has its own quota. This is not a midnight reset or a cap on scanning;
+the existing event detector, exclusions, and 15-minute schedule still apply.
+Old ledger records are counted from their detailed text without rewriting them;
+symbols appearing only in an old overflow summary are not counted as delivered
+details. Pending and uncertain sends reserve quota; confirmed permanent failures
+do not. Thus the limit is at most three reports, not a promise of exactly three.
+
 `notification_dispatcher.py` provides the delivery interface and reads
 `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` only from the process environment.
 `notification_delivery.py` stores the durable at-most-once delivery ledger in
@@ -139,5 +157,10 @@ explicit `FAILED_RETRYABLE` result may be claimed again.
 Production delivery is connected to the scheduled workflow after the two
 repository secrets and a real Telegram send were verified. The workflow first
 persists a pending record, then durably claims it, sends it, and finally persists
-the provider result. No credential value belongs in `.env.example`, source
+the provider result. `notification_delivery_runner.py` repeats this process for
+every queued part in the same run. A failed part does not prevent remaining parts
+from being attempted. Each part is attempted at most once per run; confirmed
+retryable failures wait until a later run. An uncertain send is never automatically
+replayed, since Telegram cannot guarantee idempotent sends. No credential value belongs in `.env.example`, source
 files, logs, or the public repository.
+
