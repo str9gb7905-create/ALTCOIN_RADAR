@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-13T01:20:09.983090Z",
+  "updated_at_utc": "2026-10-13T01:48:33.232279Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -13665,6 +13665,20 @@
       "last_attempt_at_utc": "2026-10-13T01:20:07.479220Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261013T011659Z_0c93522d\n資料來源：CoinGecko＋公開現貨交易所\n\nARC｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.037368497\n幅度級距：-40%\n區間異動：-41.11%\n基準價格：US$0.063459663\n24H：-41.04%\n4H RSI：37.59\n日線 RSI：37.75\n週線 RSI：47.33\n成交量：5.64×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ai-rig-complex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AARCUSDT\n\nRATS｜層級升高\n觸發：由近24H高點下跌\n價格：US$2.197441e-05\n幅度級距：-40%\n區間異動：-40.66%\n基準價格：US$3.7028914e-05\n24H：-39.80%\n4H RSI：29.25\n日線 RSI：33.03\n週線 RSI：48.09\n成交量：3.55×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/rats\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARATSUSDT"
+    },
+    "ntf_bfc4a736d5d7093d56b1d5ff786de8d3": {
+      "notification_id": "ntf_bfc4a736d5d7093d56b1d5ff786de8d3",
+      "run_id": "20261013T014620Z_bafb8414",
+      "created_at_utc": "2026-10-13T01:48:33.232260Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261013T014620Z_bafb8414\n資料來源：CoinGecko＋公開現貨交易所\n\nSKL｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0059009806\n幅度級距：+20%\n區間異動：+20.37%\n基準價格：US$0.0049022344\n24H：+20.39%\n4H RSI：61.28\n日線 RSI：67.11\n週線 RSI：44.86\n成交量：8.88×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/skale\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASKLUSD"
     }
   }
 }
