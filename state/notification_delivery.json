@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-13T03:18:02.238290Z",
+  "updated_at_utc": "2026-10-13T03:18:04.413467Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -13726,13 +13726,13 @@
       "notification_id": "ntf_1088133ea42dc0a3714da239354c8af5",
       "run_id": "20261013T031618Z_706dc751",
       "created_at_utc": "2026-10-13T03:18:02.238260Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-13T03:18:04.413445Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261013T031618Z_706dc751\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.00060769153\n幅度級距：-20%\n區間異動：-20.78%\n基準價格：US$0.00076712477\n24H：+1.72%\n4H RSI：51.67\n日線 RSI：56.73\n週線 RSI：26.80\n成交量：12.95×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nMERL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.032872267\n幅度級距：+10%\n區間異動：+11.37%\n基準價格：US$0.029516129\n24H：+5.85%\n4H RSI：54.11\n日線 RSI：58.95\n週線 RSI：43.38\n成交量：1.37×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMERLUSDT"
     }
