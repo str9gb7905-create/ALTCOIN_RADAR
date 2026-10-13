@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-13T04:13:10.562068Z",
+  "updated_at_utc": "2026-10-13T04:35:36.944103Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -13763,6 +13763,20 @@
       "last_attempt_at_utc": "2026-10-13T04:13:08.123635Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261013T041143Z_d9312f91\n資料來源：CoinGecko＋公開現貨交易所\n\nDUSK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.093853971\n幅度級距：+10%\n區間異動：+12.60%\n基準價格：US$0.083348524\n24H：+5.76%\n4H RSI：65.39\n日線 RSI：54.78\n週線 RSI：47.95\n成交量：1.25×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT\n\nGLMR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0096640748\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.010756396\n24H：-9.49%\n4H RSI：33.30\n日線 RSI：53.96\n週線 RSI：50.49\n成交量：3.11×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT"
+    },
+    "ntf_871712bdd0a435639d00972ead62407e": {
+      "notification_id": "ntf_871712bdd0a435639d00972ead62407e",
+      "run_id": "20261013T043430Z_4c8e1f75",
+      "created_at_utc": "2026-10-13T04:35:36.944078Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261013T043430Z_4c8e1f75\n資料來源：CoinGecko＋公開現貨交易所\n\nOSMO｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.051183965\n幅度級距：+40%\n區間異動：+41.06%\n基準價格：US$0.036285248\n24H：+40.69%\n4H RSI：82.12\n日線 RSI：79.67\n週線 RSI：45.79\n成交量：65.45×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOSMOUSD\n\nPYTH｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.087782696\n幅度級距：+10%\n區間異動：+11.24%\n基準價格：US$0.078914417\n24H：+9.59%\n4H RSI：58.03\n日線 RSI：63.92\n週線 RSI：65.92\n成交量：3.16×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APYTHUSD"
     }
   }
 }
