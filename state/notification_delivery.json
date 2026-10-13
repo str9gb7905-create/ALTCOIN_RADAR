@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-13T13:20:51.479392Z",
+  "updated_at_utc": "2026-10-13T13:52:20.901224Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -14375,6 +14375,52 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_e4e594922f6c638e857e5c9f2eff88e2": {
+      "notification_id": "ntf_e4e594922f6c638e857e5c9f2eff88e2",
+      "run_id": "20261013T135104Z_2a6c47b4",
+      "created_at_utc": "2026-10-13T13:52:20.898801Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 6,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261013T135104Z_2a6c47b4\n資料來源：CoinGecko＋公開現貨交易所\n\nDUSK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.10170898\n幅度級距：+20%\n區間異動：+22.03%\n基準價格：US$0.083348524\n24H：+15.33%\n4H RSI：64.05\n日線 RSI：54.78\n週線 RSI：47.95\n成交量：3.04×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT\n\nOSMO｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.044541339\n幅度級距：-10%\n區間異動：-18.03%\n基準價格：US$0.054335353\n24H：+14.68%\n4H RSI：68.61\n日線 RSI：79.67\n週線 RSI：45.79\n成交量：56.22×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOSMOUSDC\n\nSTRK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.087681334\n幅度級距：-10%\n區間異動：-10.93%\n基準價格：US$0.098445391\n24H：-8.76%\n4H RSI：50.89\n日線 RSI：61.88\n週線 RSI：59.56\n成交量：8.47×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASTRKUSD\n\nOP｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.14074009\n幅度級距：+10%\n區間異動：+10.59%\n基準價格：US$0.12726451\n24H：+2.85%\n4H RSI：50.28\n日線 RSI：52.15\n週線 RSI：51.27\n成交量：1.59×｜ELEVATED\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/optimism\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AOPUSDT\n\nPEPE｜再次觸發\n觸發：由近24H低點上漲\n價格：US$4.1840167e-06\n幅度級距：+10%\n區間異動：+10.39%\n基準價格：US$3.7902867e-06\n24H：+0.47%\n4H RSI：48.58\n日線 RSI：45.87\n週線 RSI：55.08\n成交量：0.99×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pepe\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APEPEUSDT",
+      "batch_id": "ntf_e4e594922f6c638e857e5c9f2eff88e2",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "a32ac91c01ef957a4114cec349f2baff97f2997d55c75a7c2ff2aa05dba5945e",
+      "alert_ranges": [
+        {
+          "symbol": "DUSK",
+          "direction": "UP",
+          "level": 20
+        },
+        {
+          "symbol": "OSMO",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "STRK",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "OP",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "PEPE",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 2
     }
   }
 }
