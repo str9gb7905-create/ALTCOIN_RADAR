@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-13T12:48:32.231414Z",
+  "updated_at_utc": "2026-10-13T13:20:46.419343Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -14335,6 +14335,42 @@
         {
           "symbol": "OLAS",
           "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_1f72591c1c0d39e1bc8293dabfad1ead": {
+      "notification_id": "ntf_1f72591c1c0d39e1bc8293dabfad1ead",
+      "run_id": "20261013T131935Z_29a20f84",
+      "created_at_utc": "2026-10-13T13:20:46.417040Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261013T131935Z_29a20f84\n資料來源：CoinGecko＋公開現貨交易所\n\nS｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.068671595\n幅度級距：+20%\n區間異動：+23.54%\n基準價格：US$0.055587675\n24H：+18.19%\n4H RSI：67.94\n日線 RSI：68.14\n週線 RSI：53.53\n成交量：9.58×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sonic-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASUSD\n\nSYN｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.19927703\n幅度級距：+10%\n區間異動：+11.76%\n基準價格：US$0.17830444\n24H：+8.20%\n4H RSI：54.60\n日線 RSI：52.95\n週線 RSI：54.72\n成交量：3.74×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/synapse-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASYNUSDT\n\nSKL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0052862288\n幅度級距：-10%\n區間異動：-10.42%\n基準價格：US$0.0059009806\n24H：+0.24%\n4H RSI：55.79\n日線 RSI：67.11\n週線 RSI：44.86\n成交量：10.82×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/skale\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASKLUSD",
+      "batch_id": "ntf_1f72591c1c0d39e1bc8293dabfad1ead",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "657d42d0cdf8f01f3d6ce5d50f40a743268d7686258094192f62cfea46a8235f",
+      "alert_ranges": [
+        {
+          "symbol": "S",
+          "direction": "UP",
+          "level": 20
+        },
+        {
+          "symbol": "SYN",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "SKL",
+          "direction": "DOWN",
           "level": 10
         }
       ],
