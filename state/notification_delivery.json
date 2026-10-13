@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-13T17:58:59.784338Z",
+  "updated_at_utc": "2026-10-13T17:59:02.059864Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -14705,13 +14705,13 @@
       "notification_id": "ntf_98a2ff2089614817af3e7ea654180319",
       "run_id": "20261013T175734Z_8cde739d",
       "created_at_utc": "2026-10-13T17:58:59.782403Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-13T17:59:02.059845Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261013T175734Z_8cde739d\n資料來源：CoinGecko＋公開現貨交易所\n\nPYTH｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.077848988\n幅度級距：-10%\n區間異動：-11.32%\n基準價格：US$0.087782696\n24H：-7.45%\n4H RSI：44.68\n日線 RSI：63.92\n週線 RSI：65.92\n成交量：2.70×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APYTHUSD\n\nRON｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.064995433\n幅度級距：-10%\n區間異動：-10.22%\n基準價格：US$0.072397353\n24H：-9.50%\n4H RSI：42.47\n日線 RSI：57.18\n週線 RSI：43.60\n成交量：2.92×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ronin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARONUSDT",
       "batch_id": "ntf_98a2ff2089614817af3e7ea654180319",
