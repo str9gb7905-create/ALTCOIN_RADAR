@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-13T19:58:02.458713Z",
+  "updated_at_utc": "2026-10-13T20:24:38.371725Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -14824,6 +14824,37 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_f7582a98333f076ffaab86c44b4735f2": {
+      "notification_id": "ntf_f7582a98333f076ffaab86c44b4735f2",
+      "run_id": "20261013T202306Z_9482d0d4",
+      "created_at_utc": "2026-10-13T20:24:38.370377Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261013T202306Z_9482d0d4\n資料來源：CoinGecko＋公開現貨交易所\n\nNOS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.53326871\n幅度級距：-10%\n區間異動：-10.61%\n基準價格：US$0.59657412\n24H：-6.90%\n4H RSI：41.33\n日線 RSI：55.93\n週線 RSI：66.59\n成交量：1.74×｜ELEVATED\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ANOSUSDT\n\nALT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0083287003\n幅度級距：+10%\n區間異動：+10.29%\n基準價格：US$0.0075519209\n24H：+1.91%\n4H RSI：55.34\n日線 RSI：53.88\n週線 RSI：52.11\n成交量：4.07×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/altlayer\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AALTUSDT",
+      "batch_id": "ntf_f7582a98333f076ffaab86c44b4735f2",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "1ac976693b14d6f9667fcebd7d5eb78dab27aaea62dd13264982bf59e8691c3d",
+      "alert_ranges": [
+        {
+          "symbol": "NOS",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ALT",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 3
     }
   }
 }
