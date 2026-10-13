@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-13T02:13:02.587824Z",
+  "updated_at_utc": "2026-10-13T02:34:04.875768Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -13693,6 +13693,20 @@
       "last_attempt_at_utc": "2026-10-13T02:12:59.951679Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261013T021116Z_ee1bed7c\n資料來源：CoinGecko＋公開現貨交易所\n\nBLUR｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.012777708\n幅度級距：-30%\n區間異動：-33.00%\n基準價格：US$0.019070866\n24H：-32.10%\n4H RSI：16.14\n日線 RSI：28.20\n週線 RSI：50.14\n成交量：10.18×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blur\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABLURUSD\n\nCPOOL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.031297975\n幅度級距：+10%\n區間異動：+11.67%\n基準價格：US$0.028026513\n24H：-2.83%\n4H RSI：31.59\n日線 RSI：44.22\n週線 RSI：54.15\n成交量：1.12×｜NORMAL\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACPOOLUSD"
+    },
+    "ntf_e0395becd32e4320aac6e4b089e4ea3f": {
+      "notification_id": "ntf_e0395becd32e4320aac6e4b089e4ea3f",
+      "run_id": "20261013T023216Z_0ebf930c",
+      "created_at_utc": "2026-10-13T02:34:04.875742Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261013T023216Z_0ebf930c\n資料來源：CoinGecko＋公開現貨交易所\n\nRATS｜層級升高\n觸發：由近24H高點下跌\n價格：US$2.2140054e-05\n幅度級距：-40%\n區間異動：-40.21%\n基準價格：US$3.7028914e-05\n24H：-39.34%\n4H RSI：29.25\n日線 RSI：33.03\n週線 RSI：48.09\n成交量：5.58×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/rats\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARATSUSDT\n\nACT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0098572548\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$0.010968092\n24H：-9.92%\n4H RSI：39.47\n日線 RSI：44.26\n週線 RSI：47.05\n成交量：2.63×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/act-i-the-ai-prophecy\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AACTUSDT"
     }
   }
 }
