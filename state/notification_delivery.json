@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-14T22:57:56.466276Z",
+  "updated_at_utc": "2026-10-14T22:57:58.806922Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -15996,13 +15996,13 @@
       "notification_id": "ntf_f10bc8c613c76b246dadd0f0c264ba98",
       "run_id": "20261014T225647Z_e36931a2",
       "created_at_utc": "2026-10-14T22:57:56.465240Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-14T22:57:58.806901Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261014T225647Z_e36931a2\n資料來源：CoinGecko＋公開現貨交易所\n\nOSMO｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.05042351\n幅度級距：+30%\n區間異動：+33.33%\n基準價格：US$0.037818926\n24H：+21.49%\n4H RSI：44.54\n日線 RSI：57.40\n週線 RSI：45.81\n成交量：17.18×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOSMOUSD\n\nARC｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.037069046\n幅度級距：+30%\n區間異動：+33.21%\n基準價格：US$0.027828161\n24H：+26.92%\n4H RSI：32.23\n日線 RSI：20.29\n週線 RSI：47.33\n成交量：41.10×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ai-rig-complex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AARCUSDT\n\nHIGH｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.029906852\n幅度級距：+10%\n區間異動：+14.30%\n基準價格：US$0.026165242\n24H：+2.40%\n4H RSI：30.68\n日線 RSI：40.55\n週線 RSI：34.43\n成交量：1.09×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/highstreet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHIGHUSD\n\nGLMR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.010114696\n幅度級距：-10%\n區間異動：-10.57%\n基準價格：US$0.011309782\n24H：+6.69%\n4H RSI：44.33\n日線 RSI：51.77\n週線 RSI：50.49\n成交量：5.82×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT",
       "batch_id": "ntf_f10bc8c613c76b246dadd0f0c264ba98",
