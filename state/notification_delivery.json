@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-14T05:57:47.950910Z",
+  "updated_at_utc": "2026-10-14T05:57:50.894579Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -15140,13 +15140,13 @@
       "notification_id": "ntf_a0d5a14755b66d9e33bf2875a3259bfd",
       "run_id": "20261014T055700Z_462bc5b7",
       "created_at_utc": "2026-10-14T05:57:47.949973Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-14T05:57:50.894555Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261014T055700Z_462bc5b7\n資料來源：CoinGecko＋公開現貨交易所\n\nS｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.056937418\n幅度級距：-20%\n區間異動：-20.15%\n基準價格：US$0.071303885\n24H：-2.89%\n4H RSI：60.59\n日線 RSI：68.66\n週線 RSI：53.46\n成交量：15.04×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sonic-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASUSD\n\nTIA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.55202511\n幅度級距：-10%\n區間異動：-11.59%\n基準價格：US$0.62441373\n24H：-10.81%\n4H RSI：53.49\n日線 RSI：62.28\n週線 RSI：59.22\n成交量：1.53×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ATIAUSDT\n\nSTRK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.080902223\n幅度級距：-10%\n區間異動：-11.35%\n基準價格：US$0.091257161\n24H：-7.14%\n4H RSI：45.62\n日線 RSI：61.94\n週線 RSI：76.66\n成交量：4.59×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTRKUSDT\n\nFTT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.27460229\n幅度級距：+10%\n區間異動：+10.01%\n基準價格：US$0.2496143\n24H：+9.69%\n4H RSI：62.35\n日線 RSI：56.59\n週線 RSI：44.42\n成交量：4.08×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ftx-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AFTTUSDT",
       "batch_id": "ntf_a0d5a14755b66d9e33bf2875a3259bfd",
