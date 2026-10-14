@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-14T08:24:34.679623Z",
+  "updated_at_utc": "2026-10-14T09:03:00.142095Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -15279,6 +15279,37 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_495475df1e73b760dd057bdafc9181b1": {
+      "notification_id": "ntf_495475df1e73b760dd057bdafc9181b1",
+      "run_id": "20261014T090206Z_82c30b40",
+      "created_at_utc": "2026-10-14T09:03:00.141373Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261014T090206Z_82c30b40\n資料來源：CoinGecko＋公開現貨交易所\n\nOSMO｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.040673261\n幅度級距：-20%\n區間異動：-20.44%\n基準價格：US$0.051121209\n24H：-19.11%\n4H RSI：49.43\n日線 RSI：57.40\n週線 RSI：45.81\n成交量：17.07×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOSMOUSD\n\nSTRK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.081326083\n幅度級距：-10%\n區間異動：-10.88%\n基準價格：US$0.091257161\n24H：-5.99%\n4H RSI：44.77\n日線 RSI：61.94\n週線 RSI：76.66\n成交量：4.41×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTRKUSDT",
+      "batch_id": "ntf_495475df1e73b760dd057bdafc9181b1",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "8ab1d63df1666f2aa24594a2673b7c38be9d1d3fc3937038ef070e156b03a16d",
+      "alert_ranges": [
+        {
+          "symbol": "OSMO",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "STRK",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
