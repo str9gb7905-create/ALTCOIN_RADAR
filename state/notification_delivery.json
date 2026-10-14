@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-14T21:30:25.577935Z",
+  "updated_at_utc": "2026-10-14T22:01:24.367713Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -15914,6 +15914,42 @@
       "alert_ranges": [
         {
           "symbol": "OSMO",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_de09e8e53361ca92b03f05846f6b54cf": {
+      "notification_id": "ntf_de09e8e53361ca92b03f05846f6b54cf",
+      "run_id": "20261014T220015Z_96d285d8",
+      "created_at_utc": "2026-10-14T22:01:24.366654Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261014T220015Z_96d285d8\n資料來源：CoinGecko＋公開現貨交易所\n\nAIOT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.055457829\n幅度級距：+10%\n區間異動：+13.40%\n基準價格：US$0.048904006\n24H：+0.94%\n4H RSI：41.19\n日線 RSI：52.91\n週線 RSI：34.90\n成交量：0.74×｜WEAK\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/okzoo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAIOTUSDT\n\nBEAM｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0030580858\n幅度級距：+10%\n區間異動：+11.31%\n基準價格：US$0.0027474795\n24H：+0.65%\n4H RSI：57.33\n日線 RSI：78.20\n週線 RSI：67.87\n成交量：1.65×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABEAMUSDC\n\nPYTH｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.086052972\n幅度級距：+10%\n區間異動：+10.52%\n基準價格：US$0.077863291\n24H：+9.85%\n4H RSI：52.84\n日線 RSI：57.41\n週線 RSI：65.94\n成交量：2.28×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APYTHUSD",
+      "batch_id": "ntf_de09e8e53361ca92b03f05846f6b54cf",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "78b91318aa8ed7086e8775ca3f4556bfb45a9eb4aa00e5c204efb1cb9b08e111",
+      "alert_ranges": [
+        {
+          "symbol": "AIOT",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "BEAM",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "PYTH",
           "direction": "UP",
           "level": 10
         }
