@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-14T13:18:31.631110Z",
+  "updated_at_utc": "2026-10-14T14:01:44.636733Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -15496,6 +15496,32 @@
         },
         {
           "symbol": "XTZ",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_c45153f1111b2202b36c12713a792c13": {
+      "notification_id": "ntf_c45153f1111b2202b36c12713a792c13",
+      "run_id": "20261014T140041Z_71378a25",
+      "created_at_utc": "2026-10-14T14:01:44.635955Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261014T140041Z_71378a25\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0015817356\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$0.0017593244\n24H：-7.15%\n4H RSI：38.55\n日線 RSI：47.25\n週線 RSI：48.88\n成交量：1.25×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AONEUSDT",
+      "batch_id": "ntf_c45153f1111b2202b36c12713a792c13",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "dbdd6ddb82a304b105977ace6d4fccd9183fde7ba0e9b7cb8c8293f5e5d72c4e",
+      "alert_ranges": [
+        {
+          "symbol": "ONE",
           "direction": "DOWN",
           "level": 10
         }
