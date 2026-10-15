@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-15T01:41:18.249927Z",
+  "updated_at_utc": "2026-10-15T02:10:53.210496Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -16146,6 +16146,32 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_012f9fad1a04fded24ebdf16becdaab2": {
+      "notification_id": "ntf_012f9fad1a04fded24ebdf16becdaab2",
+      "run_id": "20261015T020955Z_754d6895",
+      "created_at_utc": "2026-10-15T02:10:53.209574Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261015T020955Z_754d6895\n資料來源：CoinGecko＋公開現貨交易所\n\nPYTH｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.087423213\n幅度級距：+10%\n區間異動：+10.99%\n基準價格：US$0.078767034\n24H：+9.85%\n4H RSI：56.45\n日線 RSI：64.86\n週線 RSI：70.81\n成交量：2.40×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APYTHUSD",
+      "batch_id": "ntf_012f9fad1a04fded24ebdf16becdaab2",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "e4543ff0e39bbb6468a2f5d6d268e50a631f4867aebd73104d5e442e723c3602",
+      "alert_ranges": [
+        {
+          "symbol": "PYTH",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
