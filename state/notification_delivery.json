@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-15T14:18:39.189908Z",
+  "updated_at_utc": "2026-10-15T14:18:42.369453Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -17062,13 +17062,13 @@
       "notification_id": "ntf_0937eb01a1c06268fc57567c57a37565",
       "run_id": "20261015T141742Z_170e9207",
       "created_at_utc": "2026-10-15T14:18:39.188627Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-15T14:18:42.369428Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261015T141742Z_170e9207\n資料來源：CoinGecko＋公開現貨交易所\n\nMETIS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$3.8084068\n幅度級距：+10%\n區間異動：+10.17%\n基準價格：US$3.4567122\n24H：+8.82%\n4H RSI：57.87\n日線 RSI：56.81\n週線 RSI：55.65\n成交量：2.74×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/metis-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AMETISUSD\n\nSNEK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00074101484\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$0.00082393489\n24H：-8.61%\n4H RSI：35.16\n日線 RSI：60.51\n週線 RSI：62.15\n成交量：0.99×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/snek\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASNEKUSDT\n\nSYN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.16587017\n幅度級距：-10%\n區間異動：-10.00%\n基準價格：US$0.18430637\n24H：-6.39%\n4H RSI：34.28\n日線 RSI：51.43\n週線 RSI：53.35\n成交量：2.01×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/synapse-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ASYNUSD",
       "batch_id": "ntf_0937eb01a1c06268fc57567c57a37565",
