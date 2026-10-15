@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-15T19:09:34.654670Z",
+  "updated_at_utc": "2026-10-15T19:40:24.841139Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -17380,6 +17380,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_6cb55dc4ebf818681e0ba82441b751ff": {
+      "notification_id": "ntf_6cb55dc4ebf818681e0ba82441b751ff",
+      "run_id": "20261015T193916Z_5c96f47b",
+      "created_at_utc": "2026-10-15T19:40:24.840152Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261015T193916Z_5c96f47b\n資料來源：CoinGecko＋公開現貨交易所\n\nONDO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.46922148\n幅度級距：+10%\n區間異動：+10.19%\n基準價格：US$0.42581841\n24H：+5.51%\n4H RSI：47.65\n日線 RSI：45.17\n週線 RSI：57.64\n成交量：0.81×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ondo-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AONDOUSD",
+      "batch_id": "ntf_6cb55dc4ebf818681e0ba82441b751ff",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "f798bf9b0c183e126e38e4521f48c97d9b93e8a5ea2636050aad20103d3595b4",
+      "alert_ranges": [
+        {
+          "symbol": "ONDO",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
