@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-15T03:12:08.997709Z",
+  "updated_at_utc": "2026-10-15T03:43:34.875311Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -16365,6 +16365,52 @@
         },
         {
           "symbol": "WIN",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_5482cd834e99b7d1ef0c29bc6431d55a": {
+      "notification_id": "ntf_5482cd834e99b7d1ef0c29bc6431d55a",
+      "run_id": "20261015T034142Z_3f1a051d",
+      "created_at_utc": "2026-10-15T03:43:34.872876Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 6,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261015T034142Z_3f1a051d\n資料來源：CoinGecko＋公開現貨交易所\n\nRON｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.059233551\n幅度級距：-10%\n區間異動：-10.85%\n基準價格：US$0.066443575\n24H：-10.47%\n4H RSI：39.78\n日線 RSI：48.33\n週線 RSI：43.60\n成交量：1.04×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ronin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARONUSDT\n\nRENDER｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.8374263\n幅度級距：-10%\n區間異動：-10.49%\n基準價格：US$2.052693\n24H：-10.62%\n4H RSI：43.30\n日線 RSI：52.29\n週線 RSI：58.51\n成交量：0.81×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/render-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARENDERUSD\n\nAI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.018859236\n幅度級距：-10%\n區間異動：-10.45%\n基準價格：US$0.021060061\n24H：-6.76%\n4H RSI：31.54\n日線 RSI：38.63\n週線 RSI：28.41\n成交量：1.01×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sleepless-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AAIUSD\n\nBAND｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.22181296\n幅度級距：-10%\n區間異動：-10.33%\n基準價格：US$0.24735801\n24H：-9.39%\n4H RSI：41.42\n日線 RSI：53.48\n週線 RSI：58.26\n成交量：0.64×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/band-protocol\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABANDUSD\n\nDYM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.017579477\n幅度級距：-10%\n區間異動：-10.25%\n基準價格：US$0.019586154\n24H：-9.50%\n4H RSI：43.86\n日線 RSI：50.15\n週線 RSI：38.68\n成交量：0.97×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dymension\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADYMUSDT",
+      "batch_id": "ntf_5482cd834e99b7d1ef0c29bc6431d55a",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "2b53fd66660e0c3d4e334818bbca624225fae7e7fa47174bbb1225925305a026",
+      "alert_ranges": [
+        {
+          "symbol": "RON",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "RENDER",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "AI",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "BAND",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "DYM",
           "direction": "DOWN",
           "level": 10
         }
