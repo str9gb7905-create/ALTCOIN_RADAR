@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-15T12:13:14.960709Z",
+  "updated_at_utc": "2026-10-15T12:13:17.698772Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -16980,13 +16980,13 @@
       "notification_id": "ntf_eedc3b34cf763ad77e061a304fa2fe24",
       "run_id": "20261015T121139Z_437f5383",
       "created_at_utc": "2026-10-15T12:13:14.959662Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-15T12:13:17.698756Z",
       "event_count": 7,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261015T121139Z_437f5383\n資料來源：CoinGecko＋公開現貨交易所\n\nOSMO｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.048018332\n幅度級距：+20%\n區間異動：+26.97%\n基準價格：US$0.037818926\n24H：+19.45%\n4H RSI：61.97\n日線 RSI：65.62\n週線 RSI：59.06\n成交量：34.81×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOSMOUSD\n\nHIGH｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.029927523\n幅度級距：+10%\n區間異動：+14.03%\n基準價格：US$0.026245997\n24H：+11.60%\n4H RSI：40.95\n日線 RSI：38.31\n週線 RSI：33.15\n成交量：0.82×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/highstreet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHIGHUSD\n\nRATS｜方向改變\n觸發：由近24H高點下跌\n價格：US$1.6577563e-05\n幅度級距：-10%\n區間異動：-10.69%\n基準價格：US$1.8562057e-05\n24H：+6.09%\n4H RSI：23.87\n日線 RSI：18.53\n週線 RSI：48.09\n成交量：7.57×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/rats\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARATSUSDT\n\nSTRK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.078040769\n幅度級距：-10%\n區間異動：-10.58%\n基準價格：US$0.087271551\n24H：-2.85%\n4H RSI：43.37\n日線 RSI：57.60\n週線 RSI：73.88\n成交量：3.82×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASTRKUSD\n\nNOS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.50204021\n幅度級距：-10%\n區間異動：-10.29%\n基準價格：US$0.5596028\n24H：-8.48%\n4H RSI：38.35\n日線 RSI：54.99\n週線 RSI：70.07\n成交量：1.36×｜NORMAL\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD",
       "batch_id": "ntf_eedc3b34cf763ad77e061a304fa2fe24",
