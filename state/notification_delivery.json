@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-15T02:43:50.576397Z",
+  "updated_at_utc": "2026-10-15T02:43:53.455019Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -16258,13 +16258,13 @@
       "notification_id": "ntf_bebdb91782fe8e404740305367e9dcfc_p0002",
       "run_id": "20261015T024143Z_2340c0bb",
       "created_at_utc": "2026-10-15T02:43:45.651251Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-15T02:43:53.454997Z",
       "event_count": 14,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261015T024143Z_2340c0bb\n資料來源：CoinGecko＋公開現貨交易所\n\nALT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0075409223\n幅度級距：-10%\n區間異動：-11.09%\n基準價格：US$0.0084812354\n24H：-10.86%\n4H RSI：49.50\n日線 RSI：56.16\n週線 RSI：52.11\n成交量：2.53×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/altlayer\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AALTUSDT\n\nBIO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.02473435\n幅度級距：-10%\n區間異動：-11.03%\n基準價格：US$0.027800424\n24H：-10.76%\n4H RSI：34.82\n日線 RSI：41.02\n週線 RSI：46.51\n成交量：0.57×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bio-protocol\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABIOUSDT\n\nLNQ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.011600183\n幅度級距：-10%\n區間異動：-11.01%\n基準價格：US$0.013035753\n24H：-11.11%\n4H RSI：26.47\n日線 RSI：46.81\n週線 RSI：64.01\n成交量：0.79×｜WEAK\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/linqai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ALNQUSDT\n\nDYM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.017460897\n幅度級距：-10%\n區間異動：-10.85%\n基準價格：US$0.019586154\n24H：-9.93%\n4H RSI：43.86\n日線 RSI：50.15\n週線 RSI：38.68\n成交量：0.96×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dymension\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADYMUSDT\n\nGALA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0019350047\n幅度級距：-10%\n區間異動：-10.60%\n基準價格：US$0.0021643414\n24H：-10.29%\n4H RSI：31.76\n日線 RSI：44.14\n週線 RSI：38.92\n成交量：0.66×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/gala\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AGALAUSD\n\nMANA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.084874231\n幅度級距：-10%\n區間異動：-10.50%\n基準價格：US$0.094832809\n24H：-9.84%\n4H RSI：39.47\n日線 RSI：48.09\n週線 RSI：51.20\n成交量：0.47×｜WEAK\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/decentraland\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AMANAUSD\n\nSYN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.17372296\n幅度級距：-10%\n區間異動：-10.49%\n基準價格：US$0.19408725\n24H：-10.00%\n4H RSI：41.85\n日線 RSI：51.46\n週線 RSI：56.74\n成交量：0.60×｜WEAK\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/synapse-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASYNUSDT\n\nALGO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.10888831\n幅度級距：-10%\n區間異動：-10.41%\n基準價格：US$0.12154519\n24H：-9.32%\n4H RSI：40.99\n日線 RSI：48.92\n週線 RSI：55.83\n成交量：1.18×｜NORMAL\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/algorand\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AALGOUSD\n\nW｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.014818388\n幅度級距：-10%\n區間異動：-10.30%\n基準價格：US$0.016520561\n24H：-10.52%\n4H RSI：38.82\n日線 RSI：51.88\n週線 RSI：61.88\n成交量：2.69×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWUSDT\n\nACT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0090103041\n幅度級距：-10%\n區間異動：-10.27%\n基準價格：US$0.010041323\n24H：-9.72%\n4H RSI：36.71\n日線 RSI：42.01\n週線 RSI：43.69\n成交量：1.46×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/act-i-the-ai-prophecy\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AACTUSDT\n\nRENDER｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.8621081\n幅度級距：-10%\n區間異動：-10.20%\n基準價格：US$2.0736715\n24H：-10.46%\n4H RSI：43.30\n日線 RSI：52.29\n週線 RSI：58.51\n成交量：0.83×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/render-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARENDERUSD\n分批通知：第 2／2 則",
       "batch_id": "ntf_bebdb91782fe8e404740305367e9dcfc",
