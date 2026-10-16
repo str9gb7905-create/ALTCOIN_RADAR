@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-16T02:46:35.827692Z",
+  "updated_at_utc": "2026-10-16T03:45:12.655391Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -17701,6 +17701,32 @@
         }
       ],
       "repeat_suppressed_count": 2
+    },
+    "ntf_9e73a49931a1c7dbb9e066439054686b": {
+      "notification_id": "ntf_9e73a49931a1c7dbb9e066439054686b",
+      "run_id": "20261016T034420Z_f20ba30d",
+      "created_at_utc": "2026-10-16T03:45:12.654806Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261016T034420Z_f20ba30d\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0018406591\n幅度級距：+40%\n區間異動：+41.73%\n基準價格：US$0.0012987493\n24H：+40.18%\n4H RSI：66.95\n日線 RSI：57.30\n週線 RSI：45.27\n成交量：15.08×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3APONDUSD",
+      "batch_id": "ntf_9e73a49931a1c7dbb9e066439054686b",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "b69bbaa7932116f0176c8f1fa61ee91fe1239df37d6fe17a2304b8b16f436f39",
+      "alert_ranges": [
+        {
+          "symbol": "POND",
+          "direction": "UP",
+          "level": 40
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
