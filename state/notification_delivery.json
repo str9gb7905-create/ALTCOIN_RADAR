@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-16T00:36:09.379565Z",
+  "updated_at_utc": "2026-10-16T00:36:11.572236Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -17551,13 +17551,13 @@
       "notification_id": "ntf_7611238f274c56e0cb1b79ef36d74096",
       "run_id": "20261016T003458Z_33c1b661",
       "created_at_utc": "2026-10-16T00:36:09.378344Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-16T00:36:11.572216Z",
       "event_count": 6,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261016T003458Z_33c1b661\n資料來源：CoinGecko＋公開現貨交易所\n\nARC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.035558369\n幅度級距：-10%\n區間異動：-15.71%\n基準價格：US$0.042183649\n24H：-4.21%\n4H RSI：42.41\n日線 RSI：31.09\n週線 RSI：47.33\n成交量：9.10×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ai-rig-complex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AARCUSDT\n\nALT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0080792593\n幅度級距：+10%\n區間異動：+11.05%\n基準價格：US$0.0072755631\n24H：+0.22%\n4H RSI：51.11\n日線 RSI：55.02\n週線 RSI：52.11\n成交量：3.08×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/altlayer\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AALTUSDT\n\nONDO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.47032949\n幅度級距：+10%\n區間異動：+10.45%\n基準價格：US$0.42581841\n24H：+5.19%\n4H RSI：51.40\n日線 RSI：50.08\n週線 RSI：57.64\n成交量：0.95×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ondo-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AONDOUSD\n\nEDU｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.075045634\n幅度級距：+10%\n區間異動：+10.26%\n基準價格：US$0.068059945\n24H：+5.22%\n4H RSI：60.87\n日線 RSI：74.84\n週線 RSI：60.92\n成交量：0.83×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/edu-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AEDUUSDT",
       "batch_id": "ntf_7611238f274c56e0cb1b79ef36d74096",
