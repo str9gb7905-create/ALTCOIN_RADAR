@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-16T07:14:22.947700Z",
+  "updated_at_utc": "2026-10-16T07:14:25.000825Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -17882,13 +17882,13 @@
       "notification_id": "ntf_da77b1148a8bc95f9659850f471121a2",
       "run_id": "20261016T071305Z_ee1d1391",
       "created_at_utc": "2026-10-16T07:14:22.945747Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-16T07:14:25.000808Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261016T071305Z_ee1d1391\n資料來源：CoinGecko＋公開現貨交易所\n\nTIA｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.66327656\n幅度級距：+20%\n區間異動：+25.78%\n基準價格：US$0.52734591\n24H：+25.87%\n4H RSI：59.14\n日線 RSI：62.85\n週線 RSI：59.22\n成交量：1.31×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ATIAUSDT\n\nONDO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.47131684\n幅度級距：+10%\n區間異動：+10.68%\n基準價格：US$0.42581841\n24H：+9.82%\n4H RSI：49.83\n日線 RSI：50.10\n週線 RSI：59.06\n成交量：0.75×｜WEAK\n背離：DAILY_BEARISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ondo-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AONDOUSDT\n\nRATS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.657084e-05\n幅度級距：-10%\n區間異動：-10.10%\n基準價格：US$1.8432579e-05\n24H：-7.92%\n4H RSI：27.74\n日線 RSI：17.35\n週線 RSI：48.09\n成交量：1.83×｜ELEVATED\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/rats\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARATSUSDT",
       "batch_id": "ntf_da77b1148a8bc95f9659850f471121a2",
