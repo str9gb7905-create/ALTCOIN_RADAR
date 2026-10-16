@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-16T11:58:38.073048Z",
+  "updated_at_utc": "2026-10-16T12:30:21.603005Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -18200,6 +18200,47 @@
         },
         {
           "symbol": "ALGO",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_b214a4e43a99de8b0fbcd789afd973f1": {
+      "notification_id": "ntf_b214a4e43a99de8b0fbcd789afd973f1",
+      "run_id": "20261016T122832Z_a5a6bfe6",
+      "created_at_utc": "2026-10-16T12:30:21.602024Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261016T122832Z_a5a6bfe6\n資料來源：CoinGecko＋公開現貨交易所\n\nSTRK｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.077303325\n幅度級距：-20%\n區間異動：-20.54%\n基準價格：US$0.097285357\n24H：-2.91%\n4H RSI：45.18\n日線 RSI：61.07\n週線 RSI：73.88\n成交量：3.52×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASTRKUSD\n\nA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.10600862\n幅度級距：+10%\n區間異動：+11.76%\n基準價格：US$0.094856354\n24H：+11.01%\n4H RSI：56.88\n日線 RSI：50.61\n週線 RSI：54.15\n成交量：1.13×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vaulta\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AAUSD\n\nPYTH｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.091099577\n幅度級距：+10%\n區間異動：+11.38%\n基準價格：US$0.081791512\n24H：+4.37%\n4H RSI：55.13\n日線 RSI：71.15\n週線 RSI：70.81\n成交量：4.70×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APYTHUSD\n\nOLAS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.05270331\n幅度級距：+10%\n區間異動：+10.57%\n基準價格：US$0.047664206\n24H：+7.85%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.07×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/autonolas\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AOLASUSDT",
+      "batch_id": "ntf_b214a4e43a99de8b0fbcd789afd973f1",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "1bdff4d6d73d098860917e603ef07a08b750476ade47dfddfe095253cecc144e",
+      "alert_ranges": [
+        {
+          "symbol": "STRK",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "A",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "PYTH",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "OLAS",
           "direction": "UP",
           "level": 10
         }
