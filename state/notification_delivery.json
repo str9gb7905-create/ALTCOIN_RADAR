@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-16T07:50:29.370081Z",
+  "updated_at_utc": "2026-10-16T07:50:31.989755Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -17918,13 +17918,13 @@
       "notification_id": "ntf_44ab793ae9826879d8a3a08a31e4c9bf",
       "run_id": "20261016T074854Z_68968cbc",
       "created_at_utc": "2026-10-16T07:50:29.368636Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-16T07:50:31.989733Z",
       "event_count": 10,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261016T074854Z_68968cbc\n資料來源：CoinGecko＋公開現貨交易所\n\nBLUR｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.010557964\n幅度級距：-20%\n區間異動：-21.10%\n基準價格：US$0.013381425\n24H：+3.98%\n4H RSI：33.54\n日線 RSI：23.38\n週線 RSI：36.47\n成交量：19.36×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blur\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABLURUSD\n\nZIL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0027206271\n幅度級距：-10%\n區間異動：-19.74%\n基準價格：US$0.00338983\n24H：-13.27%\n4H RSI：48.38\n日線 RSI：40.16\n週線 RSI：47.24\n成交量：3.30×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/zilliqa\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AZILUSDT\n\nHUMA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.029134745\n幅度級距：-10%\n區間異動：-13.34%\n基準價格：US$0.033618568\n24H：-10.62%\n4H RSI：44.99\n日線 RSI：55.35\n週線 RSI：63.52\n成交量：1.65×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AHUMAUSDT\n\nDYM｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.019080503\n幅度級距：+10%\n區間異動：+10.89%\n基準價格：US$0.017207396\n24H：+9.69%\n4H RSI：43.61\n日線 RSI：48.22\n週線 RSI：38.68\n成交量：0.94×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dymension\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADYMUSDT\n\nPHA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.053703236\n幅度級距：+10%\n區間異動：+10.56%\n基準價格：US$0.048572174\n24H：+6.51%\n4H RSI：38.14\n日線 RSI：43.93\n週線 RSI：56.08\n成交量：0.29×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APHAUSDT\n\nRON｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.064954908\n幅度級距：+10%\n區間異動：+10.15%\n基準價格：US$0.058966973\n24H：+9.79%\n4H RSI：47.27\n日線 RSI：50.26\n週線 RSI：43.60\n成交量：1.02×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ronin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARONUSDT\n\nALGO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.11921975\n幅度級距：+10%\n區間異動：+10.09%\n基準價格：US$0.10829514\n24H：+8.81%\n4H RSI：48.36\n日線 RSI：52.16\n週線 RSI：55.83\n成交量：0.86×｜NORMAL\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/algorand\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AALGOUSD",
       "batch_id": "ntf_44ab793ae9826879d8a3a08a31e4c9bf",
