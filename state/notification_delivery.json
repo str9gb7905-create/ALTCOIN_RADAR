@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-16T11:58:33.379544Z",
+  "updated_at_utc": "2026-10-16T11:58:35.634703Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -18169,13 +18169,13 @@
       "notification_id": "ntf_f33539cc89b8719c593dd5cdf72f9f27",
       "run_id": "20261016T115700Z_fe6f2a1e",
       "created_at_utc": "2026-10-16T11:58:33.378273Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-16T11:58:35.634685Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261016T115700Z_fe6f2a1e\n資料來源：CoinGecko＋公開現貨交易所\n\nNOS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.54023828\n幅度級距：+10%\n區間異動：+11.95%\n基準價格：US$0.48258501\n24H：+7.21%\n4H RSI：46.30\n日線 RSI：49.15\n週線 RSI：70.07\n成交量：0.98×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD\n\nIOTA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.05000973\n幅度級距：+10%\n區間異動：+10.73%\n基準價格：US$0.045165473\n24H：+10.12%\n4H RSI：49.03\n日線 RSI：46.26\n週線 RSI：50.47\n成交量：1.31×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iota\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOTAUSDT\n\nAR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$4.0540466\n幅度級距：+10%\n區間異動：+10.66%\n基準價格：US$3.6636015\n24H：+9.40%\n4H RSI：54.53\n日線 RSI：48.62\n週線 RSI：65.69\n成交量：0.81×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arweave\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AARUSDT\n\nALGO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.11955362\n幅度級距：+10%\n區間異動：+10.07%\n基準價格：US$0.10861447\n24H：+9.90%\n4H RSI：51.74\n日線 RSI：52.16\n週線 RSI：55.83\n成交量：0.84×｜NORMAL\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/algorand\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AALGOUSD",
       "batch_id": "ntf_f33539cc89b8719c593dd5cdf72f9f27",
