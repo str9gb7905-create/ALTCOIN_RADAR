@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-16T23:48:29.725271Z",
+  "updated_at_utc": "2026-10-17T01:08:18.128200Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -18547,6 +18547,37 @@
       "alert_ranges": [
         {
           "symbol": "A",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_d578c5af712dbaf88772ce89da999ada": {
+      "notification_id": "ntf_d578c5af712dbaf88772ce89da999ada",
+      "run_id": "20261017T010745Z_28b2c7d4",
+      "created_at_utc": "2026-10-17T01:08:18.127183Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261017T010745Z_28b2c7d4\n資料來源：CoinGecko＋公開現貨交易所\n\nRAD｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.31139054\n幅度級距：+10%\n區間異動：+12.07%\n基準價格：US$0.27786416\n24H：+11.81%\n4H RSI：59.00\n日線 RSI：57.68\n週線 RSI：55.77\n成交量：6.26×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSD\n\nMETIS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$4.1890498\n幅度級距：+10%\n區間異動：+10.80%\n基準價格：US$3.78084\n24H：+9.75%\n4H RSI：62.10\n日線 RSI：68.03\n週線 RSI：55.65\n成交量：1.90×｜ELEVATED\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/metis-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AMETISUSD",
+      "batch_id": "ntf_d578c5af712dbaf88772ce89da999ada",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "fb0287df11e8c306ced4af908567651de19498141941091877b47e6361ab7200",
+      "alert_ranges": [
+        {
+          "symbol": "RAD",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "METIS",
           "direction": "UP",
           "level": 10
         }
