@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-17T04:09:40.647051Z",
+  "updated_at_utc": "2026-10-17T04:40:27.836084Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -18723,6 +18723,32 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_83bb15e91b9e037fc025925e4eac0b57": {
+      "notification_id": "ntf_83bb15e91b9e037fc025925e4eac0b57",
+      "run_id": "20261017T043958Z_948157cd",
+      "created_at_utc": "2026-10-17T04:40:27.835104Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261017T043958Z_948157cd\n資料來源：CoinGecko＋公開現貨交易所\n\nMETIS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$4.1661206\n幅度級距：+10%\n區間異動：+10.07%\n基準價格：US$3.7848326\n24H：+6.76%\n4H RSI：66.71\n日線 RSI：68.03\n週線 RSI：55.65\n成交量：2.07×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/metis-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AMETISUSD",
+      "batch_id": "ntf_83bb15e91b9e037fc025925e4eac0b57",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "bf812200390e32e5d79e2d100006c58658617438404a1e092a73cd88340e2bf8",
+      "alert_ranges": [
+        {
+          "symbol": "METIS",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
