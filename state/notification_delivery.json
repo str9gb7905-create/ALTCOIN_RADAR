@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-17T15:37:51.311557Z",
+  "updated_at_utc": "2026-10-17T15:37:53.574741Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -19184,13 +19184,13 @@
       "notification_id": "ntf_973b10922308e190bbd3d0996693348f",
       "run_id": "20261017T153708Z_2dcfc180",
       "created_at_utc": "2026-10-17T15:37:51.310456Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-17T15:37:53.574722Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261017T153708Z_2dcfc180\n資料來源：CoinGecko＋公開現貨交易所\n\nSAND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.066080435\n幅度級距：+20%\n區間異動：+22.80%\n基準價格：US$0.053811683\n24H：+21.20%\n4H RSI：63.52\n日線 RSI：47.33\n週線 RSI：47.33\n成交量：2.96×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ASANDUSD\n\nRAD｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.28911498\n幅度級距：-10%\n區間異動：-11.60%\n基準價格：US$0.32704365\n24H：-0.90%\n4H RSI：48.16\n日線 RSI：57.68\n週線 RSI：55.77\n成交量：6.41×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSD\n\nDUSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.11512325\n幅度級距：-10%\n區間異動：-10.88%\n基準價格：US$0.12918321\n24H：-5.00%\n4H RSI：56.36\n日線 RSI：77.84\n週線 RSI：56.15\n成交量：3.16×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dusk-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADUSKUSDT\n\nSTRK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.066264117\n幅度級距：-10%\n區間異動：-10.35%\n基準價格：US$0.073917796\n24H：-10.46%\n4H RSI：40.28\n日線 RSI：54.87\n週線 RSI：76.66\n成交量：0.76×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTRKUSDT",
       "batch_id": "ntf_973b10922308e190bbd3d0996693348f",
