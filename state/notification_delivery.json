@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-17T12:17:29.149095Z",
+  "updated_at_utc": "2026-10-17T13:01:04.107392Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -19020,6 +19020,47 @@
         {
           "symbol": "DUSK",
           "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_3bc69a89cae49c0352bb0647b8e22037": {
+      "notification_id": "ntf_3bc69a89cae49c0352bb0647b8e22037",
+      "run_id": "20261017T130023Z_a98a0e44",
+      "created_at_utc": "2026-10-17T13:01:04.106145Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 7,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261017T130023Z_a98a0e44\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0015229979\n幅度級距：-20%\n區間異動：-21.29%\n基準價格：US$0.0019349785\n24H：-14.51%\n4H RSI：50.82\n日線 RSI：57.45\n週線 RSI：45.67\n成交量：2.09×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nAVA｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0071334841\n幅度級距：-20%\n區間異動：-20.03%\n基準價格：US$0.0089205233\n24H：-4.34%\n4H RSI：61.88\n日線 RSI：68.84\n週線 RSI：58.58\n成交量：9.24×｜STRONG\n背離：DAILY_BULLISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ava-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAVAUSDT\n\nSTRK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.066542122\n幅度級距：-10%\n區間異動：-13.99%\n基準價格：US$0.077369523\n24H：-12.06%\n4H RSI：40.28\n日線 RSI：54.87\n週線 RSI：76.66\n成交量：0.81×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTRKUSDT\n\nLSK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.21395588\n幅度級距：+10%\n區間異動：+12.40%\n基準價格：US$0.19035987\n24H：+6.06%\n4H RSI：51.87\n日線 RSI：38.30\n週線 RSI：52.59\n成交量：2.36×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ALSKUSDT",
+      "batch_id": "ntf_3bc69a89cae49c0352bb0647b8e22037",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "cc25b7bd147c304356690586ced169e44a2a93c4a7f0182e9f6e8d82d95c57a8",
+      "alert_ranges": [
+        {
+          "symbol": "POND",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "AVA",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "STRK",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "LSK",
+          "direction": "UP",
           "level": 10
         }
       ],
