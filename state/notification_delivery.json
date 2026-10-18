@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-18T18:48:24.109673Z",
+  "updated_at_utc": "2026-10-18T18:48:26.770887Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -20142,13 +20142,13 @@
       "notification_id": "ntf_6249b241eedb42bea05ec806115cf1f2",
       "run_id": "20261018T184739Z_16c8a3b7",
       "created_at_utc": "2026-10-18T18:48:24.108563Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-18T18:48:26.770865Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261018T184739Z_16c8a3b7\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00060375696\n幅度級距：+20%\n區間異動：+20.19%\n基準價格：US$0.00050233724\n24H：+20.50%\n4H RSI：41.90\n日線 RSI：49.30\n週線 RSI：26.80\n成交量：0.73×｜WEAK / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT",
       "batch_id": "ntf_6249b241eedb42bea05ec806115cf1f2",
