@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261018T124426Z_02087d49",
-  "updated_at": "2026-10-18T12:44:35.584689Z",
+  "last_run_id": "20261018T131537Z_4124ac3c",
+  "updated_at": "2026-10-18T13:15:46.586459Z",
   "assets": {
     "TRAC": {
       "coingecko_id": "origintrail",
@@ -537,15 +537,15 @@
       "rsi_1d": 63.39869917886348,
       "rsi_1w": 54.15052827586022,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 2.1067644269269485,
+      "volume_ratio": 2.1006709754413917,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 14.840200924573232,
-      "turnover_ratio": 0.08476937065462797,
+      "turnover_ratio": 0.08457926122752482,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-18T12:44:35.584689Z",
+      "last_seen_at": "2026-10-18T13:15:46.586459Z",
       "price_episode_id": 10,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -2412,15 +2412,15 @@
       "rsi_1d": 62.77928110008935,
       "rsi_1w": 52.11000629112784,
       "rsi_4h_state": "NEUTRAL",
-      "volume_ratio": 18.23322217730708,
+      "volume_ratio": 17.85332184140531,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 17.72361736450533,
-      "turnover_ratio": 0.7825442760743555,
-      "cross_exchange_status": "MINOR_DIVERGENCE",
+      "turnover_ratio": 0.7496989263851271,
+      "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-18T12:44:35.584689Z",
+      "last_seen_at": "2026-10-18T13:15:46.586459Z",
       "price_episode_id": 17,
       "active_technical_signals": [
         "VOLUME_STRONG"
