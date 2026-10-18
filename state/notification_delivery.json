@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-18T16:17:18.730624Z",
+  "updated_at_utc": "2026-10-18T16:54:21.290904Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -20034,6 +20034,42 @@
       "alert_ranges": [
         {
           "symbol": "DUSK",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_190ff13c427238dcc13c336fa35eb356": {
+      "notification_id": "ntf_190ff13c427238dcc13c336fa35eb356",
+      "run_id": "20261018T165330Z_01321792",
+      "created_at_utc": "2026-10-18T16:54:21.289704Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261018T165330Z_01321792\n資料來源：CoinGecko＋公開現貨交易所\n\nEDU｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.07181153\n幅度級距：-10%\n區間異動：-10.60%\n基準價格：US$0.080325956\n24H：-5.37%\n4H RSI：44.66\n日線 RSI：77.93\n週線 RSI：60.92\n成交量：0.86×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/edu-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AEDUUSDT\n\nSTRK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.060414443\n幅度級距：-10%\n區間異動：-10.40%\n基準價格：US$0.067425799\n24H：-8.65%\n4H RSI：31.53\n日線 RSI：50.63\n週線 RSI：76.66\n成交量：0.63×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTRKUSDT\n\nPYTH｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.074826179\n幅度級距：-10%\n區間異動：-10.31%\n基準價格：US$0.083430589\n24H：-7.54%\n4H RSI：36.21\n日線 RSI：53.14\n週線 RSI：70.81\n成交量：1.32×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APYTHUSD",
+      "batch_id": "ntf_190ff13c427238dcc13c336fa35eb356",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "7d5e92bf4726f2f47130b2c886d3ae65e9267ea32f088781bda2f618174a0faf",
+      "alert_ranges": [
+        {
+          "symbol": "EDU",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "STRK",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "PYTH",
           "direction": "DOWN",
           "level": 10
         }
