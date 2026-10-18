@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-18T07:38:55.803504Z",
+  "updated_at_utc": "2026-10-18T08:05:24.176705Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -19741,6 +19741,32 @@
           "symbol": "AVA",
           "direction": "DOWN",
           "level": 20
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_6d54d6a36ada940712fa9c1d08db8329": {
+      "notification_id": "ntf_6d54d6a36ada940712fa9c1d08db8329",
+      "run_id": "20261018T080437Z_af0175e1",
+      "created_at_utc": "2026-10-18T08:05:24.175640Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261018T080437Z_af0175e1\n資料來源：CoinGecko＋公開現貨交易所\n\nLSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.1975207\n幅度級距：-10%\n區間異動：-10.02%\n基準價格：US$0.21951103\n24H：+1.78%\n4H RSI：44.33\n日線 RSI：43.70\n週線 RSI：51.57\n成交量：4.52×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT",
+      "batch_id": "ntf_6d54d6a36ada940712fa9c1d08db8329",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "e931093f075cfad8806fa1b08c3d4449721e3d4158067106fcd9884466f2ed9b",
+      "alert_ranges": [
+        {
+          "symbol": "LSK",
+          "direction": "DOWN",
+          "level": 10
         }
       ],
       "repeat_suppressed_count": 0
