@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-18T19:16:20.561622Z",
+  "updated_at_utc": "2026-10-18T19:47:56.850146Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -20190,6 +20190,52 @@
         {
           "symbol": "LAT",
           "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_d9408ae10b7d5bdb83f5eb9fd4ff7033": {
+      "notification_id": "ntf_d9408ae10b7d5bdb83f5eb9fd4ff7033",
+      "run_id": "20261018T194656Z_19da63a4",
+      "created_at_utc": "2026-10-18T19:47:56.849131Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 7,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261018T194656Z_19da63a4\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.00056701588\n幅度級距：-10%\n區間異動：-15.22%\n基準價格：US$0.00066883601\n24H：+12.91%\n4H RSI：41.90\n日線 RSI：49.30\n週線 RSI：26.80\n成交量：1.88×｜ELEVATED\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.04958147\n幅度級距：-10%\n區間異動：-12.44%\n基準價格：US$0.056628245\n24H：-7.37%\n4H RSI：45.21\n日線 RSI：60.02\n週線 RSI：57.86\n成交量：2.50×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sonic-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASUSDT\n\nREZ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0031590688\n幅度級距：-10%\n區間異動：-12.08%\n基準價格：US$0.0035931086\n24H：-11.96%\n4H RSI：31.04\n日線 RSI：41.72\n週線 RSI：51.21\n成交量：0.74×｜WEAK\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/renzo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AREZUSD\n\nTIA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.59554713\n幅度級距：-10%\n區間異動：-11.65%\n基準價格：US$0.67405599\n24H：-11.41%\n4H RSI：47.53\n日線 RSI：64.39\n週線 RSI：59.22\n成交量：1.05×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ATIAUSDT\n\nW｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.012635388\n幅度級距：-10%\n區間異動：-11.10%\n基準價格：US$0.014213369\n24H：-11.13%\n4H RSI：34.22\n日線 RSI：47.36\n週線 RSI：61.88\n成交量：1.69×｜ELEVATED\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWUSDT",
+      "batch_id": "ntf_d9408ae10b7d5bdb83f5eb9fd4ff7033",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "bc9661f65f668dfc9c88f277c79afec874a13da14ce65b6135cb87ee8f83100c",
+      "alert_ranges": [
+        {
+          "symbol": "RDNT",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "S",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "REZ",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "TIA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "W",
+          "direction": "DOWN",
           "level": 10
         }
       ],
