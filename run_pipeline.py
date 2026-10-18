@@ -25,7 +25,7 @@ RUN_STATUS_PATH = STATE_DIR / "run_status.json"
 HEARTBEAT_PATH = STATE_DIR / "heartbeat.json"
 LOCK_PATH = STATE_DIR / "pipeline.lock"
 WATCHLIST_PATH = PROJECT_ROOT / "config" / "watchlist.json"
-EXPECTED_WATCHLIST = 175
+EXPECTED_WATCHLIST = 184
 LOCK_STALE_SECONDS = 3600
 
 StageARunner = Callable[[str], dict[str, Any]]
@@ -76,6 +76,21 @@ def validate_canonical_watchlist(path: Path = WATCHLIST_PATH) -> dict[str, Any]:
         "DYM_mapped": mapping.get("DYM") == "dymension",
         "EDU_mapped": mapping.get("EDU") == "edu-coin",
         "BAND_mapped": mapping.get("BAND") == "band-protocol",
+        "RVN_mapped": mapping.get("RVN") == "ravencoin",
+        "HIVE_mapped": mapping.get("HIVE") == "hive",
+        "FLOW_mapped": mapping.get("FLOW") == "flow",
+        "SNX_mapped": mapping.get("SNX") == "havven",
+        "TRA_mapped": mapping.get("TRA") == "trabzonspor-fan-token",
+        "STORJ_mapped": mapping.get("STORJ") == "storj",
+        "VET_mapped": mapping.get("VET") == "vechain",
+        "FIDA_mapped": mapping.get("FIDA") == "bonfida",
+        "HMSTR_mapped": mapping.get("HMSTR") == "hamster-kombat",
+        "SUSHI_mapped": mapping.get("SUSHI") == "sushi",
+        "ADX_mapped": mapping.get("ADX") == "adex",
+        "FIL_mapped": mapping.get("FIL") == "filecoin",
+        "BLUR_removed": "BLUR" not in symbols,
+        "HIGH_removed": "HIGH" not in symbols,
+        "SPELL_removed": "SPELL" not in symbols,
         "AVA_is_Ava_AI": mapping.get("AVA") == "ava-ai",
         "A2Z_removed": "A2Z" not in symbols,
         "CETUS_removed": "CETUS" not in symbols,

@@ -45,7 +45,7 @@ python radar_state.py
 
 State is updated only when Stage A reports `MARKET_DATA_COMPLETE` and returns every mapped asset. Incomplete or failed scans produce `STATE_UPDATE_SKIPPED` and leave `state/radar_state.json` unchanged. Notification candidates are limited to new triggers, severity-tier escalations, direction changes, and genuine reentries.
 
-The canonical release contains 170 fully mapped assets. A newly added asset, or a
+The canonical release contains 184 fully mapped assets. A newly added asset, or a
 same-symbol project replacement listed in `config/identity_migrations.json`, receives
 a one-asset baseline on its first complete scan. That baseline is propagated to the
 technical and divergence stages so the migration cannot manufacture `NEW_TRIGGER`,
@@ -164,3 +164,16 @@ retryable failures wait until a later run. An uncertain send is never automatica
 replayed, since Telegram cannot guarantee idempotent sends. No credential value belongs in `.env.example`, source
 files, logs, or the public repository.
 
+
+## Watchlist update — 2026-10-18
+
+The canonical list now contains 184 enabled, uniquely mapped assets.
+Added: RVN, HIVE, FLOW, SNX, TRA, STORJ, VET, FIDA, HMSTR, SUSHI, ADX, FIL.
+ACM was already monitored and is retained once. METAL/MTL was deferred by the user.
+Removed: SPELL, HIGH, BLUR. The remaining 172 entries keep their original identity.
+CoinGecko API IDs were verified independently of page slugs: SNX uses `havven`,
+FIDA uses `bonfida`, and ADX uses `adex` (currently displayed as heyAura).
+Existing state is not reset. New assets receive individual baselines on their
+first complete scan; a full 24-hour range accumulates afterward. Notification
+limits, numbered parts, the fifteen mainstream exclusions, Secrets, and the
+15-minute schedule are unchanged.
