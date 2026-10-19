@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-19T05:04:34.390689Z",
+  "updated_at_utc": "2026-10-19T10:45:39.764409Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -20546,6 +20546,47 @@
       "alert_ranges": [
         {
           "symbol": "SAND",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_5573c289e27407d13593c435781a10d8": {
+      "notification_id": "ntf_5573c289e27407d13593c435781a10d8",
+      "run_id": "20261019T104501Z_38137e82",
+      "created_at_utc": "2026-10-19T10:45:39.761119Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261019T104501Z_38137e82\n資料來源：CoinGecko＋公開現貨交易所\n\nOSMO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.061768802\n幅度級距：+40%\n區間異動：+45.14%\n基準價格：US$0.042558244\n24H：+40.51%\n4H RSI：61.03\n日線 RSI：56.82\n週線 RSI：59.06\n成交量：27.29×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOSMOUSD\n\nARB｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.19641341\n幅度級距：+10%\n區間異動：+11.96%\n基準價格：US$0.17542692\n24H：+6.81%\n4H RSI：60.83\n日線 RSI：49.50\n週線 RSI：61.34\n成交量：0.93×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arbitrum\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARBUSDT\n\nLSK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.20333983\n幅度級距：+10%\n區間異動：+11.72%\n基準價格：US$0.1820042\n24H：-0.04%\n4H RSI：56.06\n日線 RSI：38.42\n週線 RSI：49.33\n成交量：2.79×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT\n\nQNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$201.36969\n幅度級距：+10%\n區間異動：+10.26%\n基準價格：US$182.63694\n24H：+1.38%\n4H RSI：48.95\n日線 RSI：48.12\n週線 RSI：68.32\n成交量：0.44×｜WEAK\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD",
+      "batch_id": "ntf_5573c289e27407d13593c435781a10d8",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "c523c3185e19a9a2142d4287e11794a392a058ad78bf4676be0b27a5617503a0",
+      "alert_ranges": [
+        {
+          "symbol": "OSMO",
+          "direction": "UP",
+          "level": 40
+        },
+        {
+          "symbol": "ARB",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "LSK",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "QNT",
           "direction": "UP",
           "level": 10
         }
