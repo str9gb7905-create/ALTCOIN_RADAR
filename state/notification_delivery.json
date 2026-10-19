@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-19T01:18:25.714194Z",
+  "updated_at_utc": "2026-10-19T02:28:49.475346Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -20437,6 +20437,37 @@
       "alert_ranges": [
         {
           "symbol": "DUSK",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_4992154be93475c569e14475802a0647": {
+      "notification_id": "ntf_4992154be93475c569e14475802a0647",
+      "run_id": "20261019T022819Z_6d77a32b",
+      "created_at_utc": "2026-10-19T02:28:49.474181Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261019T022819Z_6d77a32b\n資料來源：CoinGecko＋公開現貨交易所\n\nQKC｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0025061785\n幅度級距：-20%\n區間異動：-21.83%\n基準價格：US$0.0032060622\n24H：+6.60%\n4H RSI：49.70\n日線 RSI：44.00\n週線 RSI：45.27\n成交量：26.19×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quark-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AQKCUSDT\n\nACM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.25973832\n幅度級距：-10%\n區間異動：-10.72%\n基準價格：US$0.29093187\n24H：+0.03%\n4H RSI：39.12\n日線 RSI：29.98\n週線 RSI：31.50\n成交量：1.90×｜ELEVATED\n背離：WEEKLY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ac-milan-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AACMUSDT",
+      "batch_id": "ntf_4992154be93475c569e14475802a0647",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "814b9de6e562773ddc8dab4befff40254b0b7184c01bc992d7903ca51b94bd90",
+      "alert_ranges": [
+        {
+          "symbol": "QKC",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "ACM",
           "direction": "DOWN",
           "level": 10
         }
