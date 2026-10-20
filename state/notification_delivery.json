@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-20T05:19:37.273494Z",
+  "updated_at_utc": "2026-10-20T10:16:50.186201Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -20751,6 +20751,37 @@
         },
         {
           "symbol": "METIS",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_0b8efb9ea2be9f588ec8e532e446f692": {
+      "notification_id": "ntf_0b8efb9ea2be9f588ec8e532e446f692",
+      "run_id": "20261020T101627Z_dc4a4b2a",
+      "created_at_utc": "2026-10-20T10:16:50.185210Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261020T101627Z_dc4a4b2a\n資料來源：CoinGecko＋公開現貨交易所\n\nOSMO｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.048911233\n幅度級距：-20%\n區間異動：-20.82%\n基準價格：US$0.061768802\n24H：-17.18%\n4H RSI：57.13\n日線 RSI：65.98\n週線 RSI：59.06\n成交量：34.35×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOSMOUSD\n\nWEN｜再次觸發\n觸發：由近24H低點上漲\n價格：US$6.1596173e-06\n幅度級距：+10%\n區間異動：+12.62%\n基準價格：US$5.4692118e-06\n24H：+7.96%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：0.97×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wen-4\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AWENUSDT",
+      "batch_id": "ntf_0b8efb9ea2be9f588ec8e532e446f692",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "26eac320bb8a69bedaeff2b71890f51328bad18e2311cc249d4281ed0daf4eac",
+      "alert_ranges": [
+        {
+          "symbol": "OSMO",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "WEN",
           "direction": "UP",
           "level": 10
         }
