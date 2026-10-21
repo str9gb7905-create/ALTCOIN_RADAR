@@ -70,8 +70,10 @@ def _allowed_items(items, state, now, window_hours, maximum):
     result = []
     for item in items:
         bucket = _alert_ranges([item])[0]
+        # UP and DOWN share one rolling quota for the same symbol and tier.
+        # Higher-tier alerts also consume lower-tier quota, so falling back
+        # cannot reset the 24-hour washout protection.
         count = sum(old["symbol"] == bucket["symbol"]
-                    and old["direction"] == bucket["direction"]
                     and old["level"] >= bucket["level"] for old in previous)
         # A fall back into a lower band cannot reset the daily quota.
         if count < maximum:

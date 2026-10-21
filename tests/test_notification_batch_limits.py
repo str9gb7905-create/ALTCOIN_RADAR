@@ -55,12 +55,12 @@ class BatchLimitTests(unittest.TestCase):
         self.clock = datetime(2026, 10, 14, tzinfo=timezone.utc)
         self.assertIsNotNone(self.send(4))
 
-    def test_lower_band_does_not_reset_quota_new_high_band_and_direction_do(self):
+    def test_lower_band_and_opposite_direction_share_quota_new_high_band_unlocks(self):
         for number in range(3):
             self.send(number, level=20)
         self.assertIsNone(self.send(3, level=10))
         self.assertIsNotNone(self.send(4, level=30))
-        self.assertIsNotNone(self.send(5, level=10, direction=1))
+        self.assertIsNone(self.send(5, level=10, direction=1))
         self.assertIsNotNone(self.send(6, symbols=("BBB",)))
 
     def test_filtering_one_asset_keeps_others_and_replay_is_idempotent(self):

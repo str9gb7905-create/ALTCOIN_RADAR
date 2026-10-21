@@ -7,7 +7,7 @@ import urllib.error
 from pathlib import Path
 from unittest.mock import patch
 
-from notification_delivery import NotificationDeliveryLedger
+from notification_delivery import NotificationDeliveryLedger, _allowed_items
 from notification_dispatcher import (
     DispatchResult,
     NotificationConfigurationError,
@@ -159,13 +159,15 @@ class NotificationDeliveryTests(unittest.TestCase):
         ))
         self.assertEqual(merged["status"], "NO_NOTIFICATION")
 
-    def test_mainstream_price_event_is_excluded_from_immediate_notification(self):
+    def test_mainstream_price_event_is_included_in_immediate_notification(self):
+        policy = json.loads(POLICY_PATH.read_text(encoding="utf-8"))
         merged = merge_payloads(*inputs(
             price=[{"symbol": "BTC", "event": "NEW_TRIGGER", "change_pct": 12.0,
                     "threshold_level": 10, "reference_price": 1.0,
                     "active_conditions": ["FROM_24H_LOW_UP"]}]
-        ))
-        self.assertEqual(merged["status"], "NO_NOTIFICATION")
+        ), policy=policy)
+        self.assertEqual(merged["status"], "READY")
+        self.assertEqual([item["symbol"] for item in merged["items"]], ["BTC"])
 
     def test_24h_only_candidate_does_not_send_even_when_24h_is_above_10(self):
         merged = merge_payloads(*inputs(
@@ -174,17 +176,79 @@ class NotificationDeliveryTests(unittest.TestCase):
         ))
         self.assertEqual(merged["status"], "NO_NOTIFICATION")
 
-    def test_production_policy_has_the_confirmed_fifteen_mainstream_assets(self):
+    def test_production_policy_includes_mainstream_price_alerts(self):
         policy = json.loads(POLICY_PATH.read_text(encoding="utf-8"))
-        self.assertEqual(
-            {
-                "BTC", "UNI", "SOL", "XRP", "AVAX", "SUI", "HBAR", "DOT",
-                "APT", "ETH", "DOGE", "POL", "LINK", "ADA", "XLM",
-            },
-            set(policy["immediate_price_excluded_symbols"]),
-        )
+        self.assertEqual([], policy["immediate_price_excluded_symbols"])
+        self.assertEqual(10, policy["price_threshold_percent"])
+        self.assertEqual(24, policy["repeat_window_hours"])
+        self.assertEqual(3, policy["repeat_max_per_range"])
         self.assertFalse(policy["standalone_technical_alerts_enabled"])
         self.assertFalse(policy["standalone_divergence_alerts_enabled"])
+
+    def test_repeat_quota_combines_directions_and_unlocks_higher_tier(self):
+        now = "2026-10-21T01:00:00Z"
+        state = {
+            "schema_version": 1,
+            "updated_at_utc": None,
+            "notifications": {},
+        }
+
+        def candidate(change_pct, level):
+            return {
+                "symbol": "TEST",
+                "change_pct": change_pct,
+                "trigger_level": level,
+            }
+
+        def remember(key, change_pct, level):
+            state["notifications"][key] = {
+                "notification_id": key,
+                "created_at_utc": now,
+                "delivered_at_utc": now,
+                "delivery_status": "SUCCESS",
+                "alert_ranges": [{
+                    "symbol": "TEST",
+                    "direction": "UP" if change_pct >= 0 else "DOWN",
+                    "level": level,
+                }],
+            }
+
+        # 10% tier: UP and DOWN share the same rolling 24H quota.
+        for index, change_pct in enumerate((11.0, -12.0, 14.0), 1):
+            self.assertTrue(
+                _allowed_items(
+                    [candidate(change_pct, 10)], state, now, 24, 3
+                )
+            )
+            remember(f"tier10_{index}", change_pct, 10)
+
+        self.assertFalse(
+            _allowed_items(
+                [candidate(-15.0, 10)], state, now, 24, 3
+            )
+        )
+
+        # Higher tier unlocks immediately.
+        for index, change_pct in enumerate((21.0, -22.0, 25.0), 1):
+            self.assertTrue(
+                _allowed_items(
+                    [candidate(change_pct, 20)], state, now, 24, 3
+                )
+            )
+            remember(f"tier20_{index}", change_pct, 20)
+
+        self.assertFalse(
+            _allowed_items(
+                [candidate(-29.0, 20)], state, now, 24, 3
+            )
+        )
+
+        # 30% tier is independently unlocked.
+        self.assertTrue(
+            _allowed_items(
+                [candidate(31.0, 30)], state, now, 24, 3
+            )
+        )
 
     def test_production_message_is_chinese_and_contains_clickable_sources(self):
         merged = ready_payload()
