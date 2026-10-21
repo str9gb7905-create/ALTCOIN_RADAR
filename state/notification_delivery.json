@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-21T10:16:27.801749Z",
+  "updated_at_utc": "2026-10-21T10:16:30.228128Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -21422,13 +21422,13 @@
       "notification_id": "ntf_bf099090595101f8690982f711ad05de",
       "run_id": "20261021T101553Z_81ba1bd4",
       "created_at_utc": "2026-10-21T10:16:27.800599Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-21T10:16:30.228109Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261021T101553Z_81ba1bd4\n資料來源：CoinGecko＋公開現貨交易所\n\nIOST｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0014985585\n幅度級距：+100%\n區間異動：+100.34%\n基準價格：US$0.00074801756\n24H：+100.99%\n4H RSI：91.26\n日線 RSI：65.93\n週線 RSI：41.92\n成交量：1008.34×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iostoken\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOSTUSDT\n\nIOTX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0042640743\n幅度級距：+10%\n區間異動：+10.10%\n基準價格：US$0.0038728468\n24H：+9.95%\n4H RSI：61.96\n日線 RSI：58.43\n週線 RSI：45.20\n成交量：3.86×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iotex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AIOTXUSDT",
       "batch_id": "ntf_bf099090595101f8690982f711ad05de",
