@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-21T09:16:34.079791Z",
+  "updated_at_utc": "2026-10-21T09:31:28.246780Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -21334,6 +21334,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_2fe164d55ff2f24b2b7812829185f333": {
+      "notification_id": "ntf_2fe164d55ff2f24b2b7812829185f333",
+      "run_id": "20261021T093048Z_5552c065",
+      "created_at_utc": "2026-10-21T09:31:28.246012Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261021T093048Z_5552c065\n資料來源：CoinGecko＋公開現貨交易所\n\nENA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.20530973\n幅度級距：+10%\n區間異動：+10.66%\n基準價格：US$0.18552709\n24H：+10.64%\n4H RSI：62.35\n日線 RSI：42.80\n週線 RSI：53.13\n成交量：1.02×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AENAUSDT",
+      "batch_id": "ntf_2fe164d55ff2f24b2b7812829185f333",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "abc82b4f16cea4f6772f062b34de17c6afbeb1c853c8a36454b9d7b8e38dd7b1",
+      "alert_ranges": [
+        {
+          "symbol": "ENA",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
