@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-21T16:46:42.693570Z",
+  "updated_at_utc": "2026-10-21T17:01:36.271899Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -21756,6 +21756,32 @@
           "symbol": "ALT",
           "direction": "UP",
           "level": 40
+        }
+      ],
+      "repeat_suppressed_count": 1
+    },
+    "ntf_f44fc29dfce957bbe8a88ad0fb3f0c2d": {
+      "notification_id": "ntf_f44fc29dfce957bbe8a88ad0fb3f0c2d",
+      "run_id": "20261021T170050Z_0bd6ade7",
+      "created_at_utc": "2026-10-21T17:01:36.271136Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261021T170050Z_0bd6ade7\n資料來源：CoinGecko＋公開現貨交易所\n\nDYM｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.019444726\n幅度級距：+10%\n區間異動：+10.69%\n基準價格：US$0.017566855\n24H：+9.03%\n4H RSI：58.59\n日線 RSI：47.24\n週線 RSI：38.19\n成交量：1.10×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dymension\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ADYMUSD",
+      "batch_id": "ntf_f44fc29dfce957bbe8a88ad0fb3f0c2d",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "552347cbce41736ec07231950f4b73d4835502f11291b587ba2485b01442698e",
+      "alert_ranges": [
+        {
+          "symbol": "DYM",
+          "direction": "UP",
+          "level": 10
         }
       ],
       "repeat_suppressed_count": 1
