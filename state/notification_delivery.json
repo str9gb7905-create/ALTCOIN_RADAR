@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-21T06:01:31.342139Z",
+  "updated_at_utc": "2026-10-21T06:16:21.225053Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -21101,6 +21101,37 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_dadd158e5bcfc83c74cad5a5c6f2dc0f": {
+      "notification_id": "ntf_dadd158e5bcfc83c74cad5a5c6f2dc0f",
+      "run_id": "20261021T061549Z_a80e3bbf",
+      "created_at_utc": "2026-10-21T06:16:21.224215Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261021T061549Z_a80e3bbf\n資料來源：CoinGecko＋公開現貨交易所\n\nIOST｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.001363526\n幅度級距：+80%\n區間異動：+82.29%\n基準價格：US$0.00074801756\n24H：+82.55%\n4H RSI：90.45\n日線 RSI：65.93\n週線 RSI：41.92\n成交量：595.89×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iostoken\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOSTUSDT\n\nSC｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00090211377\n幅度級距：+20%\n區間異動：+20.02%\n基準價格：US$0.00075163475\n24H：+18.23%\n4H RSI：65.21\n日線 RSI：40.35\n週線 RSI：48.39\n成交量：1.06×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/siacoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ASCUSD",
+      "batch_id": "ntf_dadd158e5bcfc83c74cad5a5c6f2dc0f",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "7cc07744715481c0955a8b26733890ea0d48157da86d92dbfca24bf77d55cafa",
+      "alert_ranges": [
+        {
+          "symbol": "IOST",
+          "direction": "UP",
+          "level": 80
+        },
+        {
+          "symbol": "SC",
+          "direction": "UP",
+          "level": 20
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
