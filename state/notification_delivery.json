@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-21T07:31:32.668473Z",
+  "updated_at_utc": "2026-10-21T07:31:34.918501Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -21163,13 +21163,13 @@
       "notification_id": "ntf_99d992dcbae423b7971e8091db53a99e",
       "run_id": "20261021T073054Z_b5748f92",
       "created_at_utc": "2026-10-21T07:31:32.667670Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-21T07:31:34.918485Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261021T073054Z_b5748f92\n資料來源：CoinGecko＋公開現貨交易所\n\nCHEX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.011126025\n幅度級距：+10%\n區間異動：+11.46%\n基準價格：US$0.0099818638\n24H：+10.77%\n4H RSI：62.82\n日線 RSI：43.62\n週線 RSI：40.90\n成交量：0.94×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACHEXUSD\n\nNEAR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$5.1986815\n幅度級距：+10%\n區間異動：+10.86%\n基準價格：US$4.6896159\n24H：+8.99%\n4H RSI：53.94\n日線 RSI：52.68\n週線 RSI：74.71\n成交量：1.56×｜ELEVATED\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ANEARUSD",
       "batch_id": "ntf_99d992dcbae423b7971e8091db53a99e",
