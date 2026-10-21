@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-21T19:01:36.514537Z",
+  "updated_at_utc": "2026-10-21T19:01:39.094290Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -21920,13 +21920,13 @@
       "notification_id": "ntf_e46199761dd6ba08cd2ac0ba66aba5b5",
       "run_id": "20261021T190050Z_5ed4ce38",
       "created_at_utc": "2026-10-21T19:01:36.513735Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-21T19:01:39.094264Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261021T190050Z_5ed4ce38\n資料來源：CoinGecko＋公開現貨交易所\n\nCHEX｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.013339335\n幅度級距：+30%\n區間異動：+30.34%\n基準價格：US$0.010234311\n24H：+30.29%\n4H RSI：75.66\n日線 RSI：43.89\n週線 RSI：40.81\n成交量：0.98×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACHEXUSDT\n\nXDC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.035430368\n幅度級距：+10%\n區間異動：+10.09%\n基準價格：US$0.032184017\n24H：+9.96%\n4H RSI：70.81\n日線 RSI：46.93\n週線 RSI：56.60\n成交量：2.48×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xdce-crowd-sale\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXDCUSDT",
       "batch_id": "ntf_e46199761dd6ba08cd2ac0ba66aba5b5",
