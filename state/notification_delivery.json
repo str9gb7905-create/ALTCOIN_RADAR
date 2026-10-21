@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-21T15:16:46.690102Z",
+  "updated_at_utc": "2026-10-21T15:46:36.080196Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -21614,6 +21614,37 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_44ca5c7e24204518524eb0c97066ef1c": {
+      "notification_id": "ntf_44ca5c7e24204518524eb0c97066ef1c",
+      "run_id": "20261021T154550Z_02d9f2ad",
+      "created_at_utc": "2026-10-21T15:46:36.078800Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261021T154550Z_02d9f2ad\n資料來源：CoinGecko＋公開現貨交易所\n\nSTRK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.062495688\n幅度級距：+10%\n區間異動：+12.53%\n基準價格：US$0.05553892\n24H：+13.84%\n4H RSI：32.56\n日線 RSI：47.48\n週線 RSI：53.16\n成交量：0.61×｜WEAK / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTRKUSDT\n\nMETIS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$4.3595119\n幅度級距：+10%\n區間異動：+11.24%\n基準價格：US$3.9190536\n24H：+3.71%\n4H RSI：55.07\n日線 RSI：64.68\n週線 RSI：54.48\n成交量：1.65×｜ELEVATED\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/metis-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AMETISUSD",
+      "batch_id": "ntf_44ca5c7e24204518524eb0c97066ef1c",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "0112c47cacd551e519b71063b9f4d5d0ea85d6f58174925c914963de14f98c19",
+      "alert_ranges": [
+        {
+          "symbol": "STRK",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "METIS",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
