@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-22T14:17:08.127053Z",
+  "updated_at_utc": "2026-10-22T15:01:58.342221Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -22833,6 +22833,47 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_d0b70db8a79a0e5b86347d7cbac9a81c": {
+      "notification_id": "ntf_d0b70db8a79a0e5b86347d7cbac9a81c",
+      "run_id": "20261022T150055Z_26fa30fe",
+      "created_at_utc": "2026-10-22T15:01:58.340872Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261022T150055Z_26fa30fe\n資料來源：CoinGecko＋公開現貨交易所\n\nENA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.19946635\n幅度級距：-10%\n區間異動：-10.88%\n基準價格：US$0.22381164\n24H：-5.03%\n4H RSI：49.14\n日線 RSI：54.99\n週線 RSI：53.13\n成交量：1.48×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AENAUSDT\n\nACE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.14330387\n幅度級距：-10%\n區間異動：-10.76%\n基準價格：US$0.16057905\n24H：-7.49%\n4H RSI：38.02\n日線 RSI：41.48\n週線 RSI：49.27\n成交量：0.92×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/endurance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AACEUSDT\n\nFIL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.96992551\n幅度級距：-10%\n區間異動：-10.59%\n基準價格：US$1.0848111\n24H：-7.67%\n4H RSI：40.92\n日線 RSI：49.57\n週線 RSI：53.17\n成交量：1.15×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/filecoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFILUSDT\n\nOP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.11931661\n幅度級距：-10%\n區間異動：-10.49%\n基準價格：US$0.1332979\n24H：-8.23%\n4H RSI：38.98\n日線 RSI：49.20\n週線 RSI：47.37\n成交量：0.95×｜NORMAL\n背離：DAILY_BEARISH, WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/optimism\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AOPUSDT",
+      "batch_id": "ntf_d0b70db8a79a0e5b86347d7cbac9a81c",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "a48b314af0182be01b101e6af0041baf9ce0161116d2100decb4b07b514c82d1",
+      "alert_ranges": [
+        {
+          "symbol": "ENA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ACE",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "FIL",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "OP",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
