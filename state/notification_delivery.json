@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-22T06:16:45.536290Z",
+  "updated_at_utc": "2026-10-22T06:46:46.399811Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -22273,6 +22273,37 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_aed43257dacce1dfc7eada74e430a9a9": {
+      "notification_id": "ntf_aed43257dacce1dfc7eada74e430a9a9",
+      "run_id": "20261022T064553Z_9acc9793",
+      "created_at_utc": "2026-10-22T06:46:46.399045Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261022T064553Z_9acc9793\n資料來源：CoinGecko＋公開現貨交易所\n\nPHA｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.067825514\n幅度級距：+20%\n區間異動：+20.83%\n基準價格：US$0.056133905\n24H：+20.66%\n4H RSI：72.06\n日線 RSI：54.35\n週線 RSI：60.21\n成交量：4.07×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APHAUSDT\n\nCC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.10431953\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$0.11598345\n24H：-0.59%\n4H RSI：50.65\n日線 RSI：47.91\n週線 RSI：44.04\n成交量：1.32×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/canton-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACCUSD",
+      "batch_id": "ntf_aed43257dacce1dfc7eada74e430a9a9",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "e1184eb85c2b9845404ce8b2504c26b4592bbc882963f425c24979575e43880a",
+      "alert_ranges": [
+        {
+          "symbol": "PHA",
+          "direction": "UP",
+          "level": 20
+        },
+        {
+          "symbol": "CC",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
