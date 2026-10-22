@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-22T05:16:42.561654Z",
+  "updated_at_utc": "2026-10-22T05:46:31.874026Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -22221,6 +22221,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_81691ac700064b656136241606fb4807": {
+      "notification_id": "ntf_81691ac700064b656136241606fb4807",
+      "run_id": "20261022T054552Z_515eed0f",
+      "created_at_utc": "2026-10-22T05:46:31.873069Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261022T054552Z_515eed0f\n資料來源：CoinGecko＋公開現貨交易所\n\nTIA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.57608105\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.64124717\n24H：-6.28%\n4H RSI：40.12\n日線 RSI：57.31\n週線 RSI：65.76\n成交量：1.13×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATIAUSD",
+      "batch_id": "ntf_81691ac700064b656136241606fb4807",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "2be801ada0369b5feadfb4a705a9eb21e3eff54e1e2d22db3835a3f046f247da",
+      "alert_ranges": [
+        {
+          "symbol": "TIA",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
