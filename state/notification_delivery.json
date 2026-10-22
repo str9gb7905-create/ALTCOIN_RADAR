@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-22T15:17:22.501971Z",
+  "updated_at_utc": "2026-10-22T15:47:26.849069Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -22920,6 +22920,32 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_dd7ddf6dcc0fc77978a95e7f68a313ce": {
+      "notification_id": "ntf_dd7ddf6dcc0fc77978a95e7f68a313ce",
+      "run_id": "20261022T154602Z_0e05ab7e",
+      "created_at_utc": "2026-10-22T15:47:26.848091Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261022T154602Z_0e05ab7e\n資料來源：CoinGecko＋公開現貨交易所\n\nFLOCK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.043678522\n幅度級距：-10%\n區間異動：-10.19%\n基準價格：US$0.048633749\n24H：-9.26%\n4H RSI：44.16\n日線 RSI：39.57\n週線 RSI：43.24\n成交量：1.04×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/flock-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFLOCKUSDT",
+      "batch_id": "ntf_dd7ddf6dcc0fc77978a95e7f68a313ce",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "d18caa9ea61e3417f50187a962ea51b7b5948946d5cfc8637ae08cbae18ca442",
+      "alert_ranges": [
+        {
+          "symbol": "FLOCK",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
