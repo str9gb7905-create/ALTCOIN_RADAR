@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-22T14:17:02.271064Z",
+  "updated_at_utc": "2026-10-22T14:17:05.120888Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -22812,13 +22812,13 @@
       "notification_id": "ntf_acbdc2ea3dae73f18856d61339cd91ec",
       "run_id": "20261022T141557Z_c48a4746",
       "created_at_utc": "2026-10-22T14:17:02.270015Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-22T14:17:05.120868Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261022T141557Z_c48a4746\n資料來源：CoinGecko＋公開現貨交易所\n\nFIL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.97621251\n幅度級距：-10%\n區間異動：-10.01%\n基準價格：US$1.0848111\n24H：-5.51%\n4H RSI：40.92\n日線 RSI：49.57\n週線 RSI：53.17\n成交量：1.16×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/filecoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFILUSDT",
       "batch_id": "ntf_acbdc2ea3dae73f18856d61339cd91ec",
