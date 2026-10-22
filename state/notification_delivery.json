@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-22T10:02:12.170451Z",
+  "updated_at_utc": "2026-10-22T10:31:55.569623Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -22579,6 +22579,32 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_36a6c7b14bbfc20ee51310947cca074c": {
+      "notification_id": "ntf_36a6c7b14bbfc20ee51310947cca074c",
+      "run_id": "20261022T103054Z_6e3d0a1f",
+      "created_at_utc": "2026-10-22T10:31:55.569007Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261022T103054Z_6e3d0a1f\n資料來源：CoinGecko＋公開現貨交易所\n\nAI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.020991082\n幅度級距：+10%\n區間異動：+12.04%\n基準價格：US$0.01873475\n24H：+10.36%\n4H RSI：51.43\n日線 RSI：42.18\n週線 RSI：27.93\n成交量：1.24×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sleepless-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AAIUSD",
+      "batch_id": "ntf_36a6c7b14bbfc20ee51310947cca074c",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "baa04fb4ab526ebe6bee7f94823736e961d118c8c8b3b59501bb3d724b24e9eb",
+      "alert_ranges": [
+        {
+          "symbol": "AI",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
