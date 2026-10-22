@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-22T11:47:02.450726Z",
+  "updated_at_utc": "2026-10-22T12:16:56.621789Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -22679,6 +22679,42 @@
         {
           "symbol": "AGI",
           "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_554db327040932d5e3d0951cc7719dca": {
+      "notification_id": "ntf_554db327040932d5e3d0951cc7719dca",
+      "run_id": "20261022T121552Z_7fee7e14",
+      "created_at_utc": "2026-10-22T12:16:56.620897Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261022T121552Z_7fee7e14\n資料來源：CoinGecko＋公開現貨交易所\n\nIOST｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.00090529716\n幅度級距：-50%\n區間異動：-50.40%\n基準價格：US$0.0018252324\n24H：-35.23%\n4H RSI：46.56\n日線 RSI：67.75\n週線 RSI：41.92\n成交量：1400.98×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iostoken\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOSTUSDT\n\nTIA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.57245948\n幅度級距：-10%\n區間異動：-10.63%\n基準價格：US$0.6405572\n24H：-7.86%\n4H RSI：39.79\n日線 RSI：57.31\n週線 RSI：65.76\n成交量：1.10×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATIAUSDC\n\nHUMA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.029017649\n幅度級距：+10%\n區間異動：+10.09%\n基準價格：US$0.026359057\n24H：-4.82%\n4H RSI：47.41\n日線 RSI：52.45\n週線 RSI：54.29\n成交量：1.86×｜ELEVATED\n背離：WEEKLY_BEARISH\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AHUMAUSDT",
+      "batch_id": "ntf_554db327040932d5e3d0951cc7719dca",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "ba25522e307c8a76a29dd6bc16309f3c9580c0e955372a7f12e5fe7c63c6e6b9",
+      "alert_ranges": [
+        {
+          "symbol": "IOST",
+          "direction": "DOWN",
+          "level": 50
+        },
+        {
+          "symbol": "TIA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "HUMA",
+          "direction": "UP",
           "level": 10
         }
       ],
