@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-22T10:32:01.551593Z",
+  "updated_at_utc": "2026-10-22T10:46:49.852149Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -22605,6 +22605,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_03f5e362915277db06df850d2fdcab96": {
+      "notification_id": "ntf_03f5e362915277db06df850d2fdcab96",
+      "run_id": "20261022T104555Z_2961943b",
+      "created_at_utc": "2026-10-22T10:46:49.851100Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261022T104555Z_2961943b\n資料來源：CoinGecko＋公開現貨交易所\n\nVTHO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00062680029\n幅度級距：-10%\n區間異動：-10.02%\n基準價格：US$0.00069662815\n24H：-5.69%\n4H RSI：45.48\n日線 RSI：52.95\n週線 RSI：61.59\n成交量：1.43×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vethor-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AVTHOUSD",
+      "batch_id": "ntf_03f5e362915277db06df850d2fdcab96",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "c617c6e5fa2f98cdc233e12544a17eb5689b697acc4b408a14fe49380236f7f1",
+      "alert_ranges": [
+        {
+          "symbol": "VTHO",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
