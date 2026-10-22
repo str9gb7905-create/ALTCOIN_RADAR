@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-22T21:17:09.715996Z",
+  "updated_at_utc": "2026-10-22T22:46:45.313999Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -23406,6 +23406,37 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_2448e47dc7e4c84d9526be84a9a3b2de": {
+      "notification_id": "ntf_2448e47dc7e4c84d9526be84a9a3b2de",
+      "run_id": "20261022T224557Z_aa07bd26",
+      "created_at_utc": "2026-10-22T22:46:45.313100Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261022T224557Z_aa07bd26\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$186.81303\n幅度級距：-10%\n區間異動：-10.51%\n基準價格：US$208.76313\n24H：-10.25%\n4H RSI：38.77\n日線 RSI：52.84\n週線 RSI：68.17\n成交量：0.56×｜WEAK\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD\n\nEDU｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.065673781\n幅度級距：-10%\n區間異動：-10.30%\n基準價格：US$0.073213214\n24H：-9.26%\n4H RSI：31.44\n日線 RSI：62.49\n週線 RSI：59.32\n成交量：0.78×｜WEAK\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/edu-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AEDUUSDT",
+      "batch_id": "ntf_2448e47dc7e4c84d9526be84a9a3b2de",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "69940fb397aaf504669dd0683f32087ae9547c1268b960b2a79defd6a0d6413e",
+      "alert_ranges": [
+        {
+          "symbol": "QNT",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "EDU",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
