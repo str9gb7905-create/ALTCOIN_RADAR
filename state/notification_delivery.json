@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-22T07:31:50.703714Z",
+  "updated_at_utc": "2026-10-22T08:16:30.926975Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -22387,6 +22387,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_8dfa3f11e7035908fe84053cda436149": {
+      "notification_id": "ntf_8dfa3f11e7035908fe84053cda436149",
+      "run_id": "20261022T081551Z_6aa4ef7b",
+      "created_at_utc": "2026-10-22T08:16:30.925074Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261022T081551Z_6aa4ef7b\n資料來源：CoinGecko＋公開現貨交易所\n\nCRV｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.36713446\n幅度級距：-10%\n區間異動：-10.11%\n基準價格：US$0.40840429\n24H：-4.46%\n4H RSI：48.86\n日線 RSI：62.09\n週線 RSI：58.05\n成交量：1.55×｜ELEVATED\n背離：DAILY_BULLISH\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/curve-dao-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3ACRVUSDT",
+      "batch_id": "ntf_8dfa3f11e7035908fe84053cda436149",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "ee5edaeb0e69434df530effb6c05c60ff1d5847b550b5fe9e146d93ab32e72a7",
+      "alert_ranges": [
+        {
+          "symbol": "CRV",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
