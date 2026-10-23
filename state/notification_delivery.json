@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-23T09:01:52.096053Z",
+  "updated_at_utc": "2026-10-23T09:46:38.839274Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -23839,6 +23839,32 @@
       "part_index": 1,
       "part_count": 1,
       "source_digest": "0c13036df7341fa3d342b92062324e64aa754bf9b698d1722a79e959eeccd77a",
+      "alert_ranges": [
+        {
+          "symbol": "MERL",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
+    },
+    "ntf_3a2bc8e1f4415df18f1717dab8207ff5": {
+      "notification_id": "ntf_3a2bc8e1f4415df18f1717dab8207ff5",
+      "run_id": "20261023T094547Z_bdf74b3b",
+      "created_at_utc": "2026-10-23T09:46:38.838468Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261023T094547Z_bdf74b3b\n資料來源：CoinGecko＋公開現貨交易所\n\nMERL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.028542998\n幅度級距：+10%\n區間異動：+10.23%\n基準價格：US$0.025894376\n24H：+6.92%\n4H RSI：67.06\n日線 RSI：47.37\n週線 RSI：39.32\n成交量：1.78×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMERLUSDT",
+      "batch_id": "ntf_3a2bc8e1f4415df18f1717dab8207ff5",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "621e20dc17c023ebd6ad9fdaf904bf3ba14a9b28606745671813abf89d6c6601",
       "alert_ranges": [
         {
           "symbol": "MERL",
