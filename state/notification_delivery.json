@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-23T15:47:08.734491Z",
+  "updated_at_utc": "2026-10-23T15:47:11.247497Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -24153,13 +24153,13 @@
       "notification_id": "ntf_271cfdfad1340ec9efddf556c25a5bd7",
       "run_id": "20261023T154557Z_3783f8d2",
       "created_at_utc": "2026-10-23T15:47:08.733344Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-23T15:47:11.247476Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261023T154557Z_3783f8d2\n資料來源：CoinGecko＋公開現貨交易所\n\nIOST｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00077090007\n幅度級距：-10%\n區間異動：-10.88%\n基準價格：US$0.00086501565\n24H：-10.64%\n4H RSI：42.93\n日線 RSI：48.43\n週線 RSI：41.92\n成交量：86.54×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iostoken\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOSTUSDT\n\nCPOOL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.030657605\n幅度級距：+10%\n區間異動：+10.39%\n基準價格：US$0.02777141\n24H：+7.83%\n4H RSI：55.36\n日線 RSI：45.33\n週線 RSI：51.30\n成交量：1.87×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACPOOLUSDT",
       "batch_id": "ntf_271cfdfad1340ec9efddf556c25a5bd7",
