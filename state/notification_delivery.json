@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-23T05:16:41.958803Z",
+  "updated_at_utc": "2026-10-23T05:46:32.063214Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -23712,6 +23712,32 @@
       "alert_ranges": [
         {
           "symbol": "REZ",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_7e53f210b64b22eea4571834ad711b1c": {
+      "notification_id": "ntf_7e53f210b64b22eea4571834ad711b1c",
+      "run_id": "20261023T054557Z_09d0dbf7",
+      "created_at_utc": "2026-10-23T05:46:32.062228Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261023T054557Z_09d0dbf7\n資料來源：CoinGecko＋公開現貨交易所\n\nIOTX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0042288586\n幅度級距：+10%\n區間異動：+10.14%\n基準價格：US$0.0038396042\n24H：-5.58%\n4H RSI：53.84\n日線 RSI：58.04\n週線 RSI：52.22\n成交量：5.66×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iotex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AIOTXUSDT",
+      "batch_id": "ntf_7e53f210b64b22eea4571834ad711b1c",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "7b2ed59abee55ff847307c34136403c8d97583fffa40181dec2fe68e2436767d",
+      "alert_ranges": [
+        {
+          "symbol": "IOTX",
           "direction": "UP",
           "level": 10
         }
