@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-23T21:46:34.665934Z",
+  "updated_at_utc": "2026-10-23T22:31:39.225706Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -24470,6 +24470,37 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_56f1d2d7a9f8dcf2896be188f45e51b5": {
+      "notification_id": "ntf_56f1d2d7a9f8dcf2896be188f45e51b5",
+      "run_id": "20261023T223057Z_0e231f33",
+      "created_at_utc": "2026-10-23T22:31:39.224620Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261023T223057Z_0e231f33\n資料來源：CoinGecko＋公開現貨交易所\n\nWLD｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.49447495\n幅度級距：-10%\n區間異動：-11.31%\n基準價格：US$0.55752637\n24H：-8.74%\n4H RSI：41.85\n日線 RSI：54.20\n週線 RSI：53.29\n成交量：0.91×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/worldcoin-wld\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWLDUSDT\n\nONE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0013872757\n幅度級距：-10%\n區間異動：-10.28%\n基準價格：US$0.0015462212\n24H：-2.00%\n4H RSI：43.70\n日線 RSI：42.43\n週線 RSI：45.65\n成交量：0.66×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT",
+      "batch_id": "ntf_56f1d2d7a9f8dcf2896be188f45e51b5",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "2caae912d38d615716b423077c782329c029cbcd9e5e3d8dcbbe4674cbba34e0",
+      "alert_ranges": [
+        {
+          "symbol": "WLD",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ONE",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
