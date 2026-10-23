@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-23T07:01:39.171556Z",
+  "updated_at_utc": "2026-10-23T07:01:41.705781Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -23774,13 +23774,13 @@
       "notification_id": "ntf_962b01415e0438f5f8f67a438345b9b5",
       "run_id": "20261023T070052Z_8c08a309",
       "created_at_utc": "2026-10-23T07:01:39.169561Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-23T07:01:41.705758Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261023T070052Z_8c08a309\n資料來源：CoinGecko＋公開現貨交易所\n\nDGB｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0035118336\n幅度級距：-10%\n區間異動：-10.57%\n基準價格：US$0.003926985\n24H：+1.14%\n4H RSI：50.22\n日線 RSI：41.35\n週線 RSI：43.23\n成交量：27.13×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/digibyte\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADGBUSDT",
       "batch_id": "ntf_962b01415e0438f5f8f67a438345b9b5",
