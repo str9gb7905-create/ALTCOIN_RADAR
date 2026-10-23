@@ -1,7 +1,7 @@
 {
-  "run_id": "20261023T071348Z_ba874c98",
-  "started_at_utc": "2026-10-23T07:13:48.717265Z",
-  "completed_at_utc": "2026-10-23T07:14:35.287647Z",
+  "run_id": "20261023T074553Z_363e4ac1",
+  "started_at_utc": "2026-10-23T07:45:53.729973Z",
+  "completed_at_utc": "2026-10-23T07:46:37.231902Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -16,7 +16,7 @@
   "divergence_attempted": 7,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 46.570383,
+  "elapsed_seconds": 43.50193,
   "API_requests_total": 97,
   "requests_by_exchange": {
     "Binance": 4,
@@ -30,19 +30,19 @@
     "MEXC": 16,
     "OKX": 14
   },
-  "elapsed_stage_a": 0.424519,
-  "elapsed_radar_state": 0.187915,
-  "elapsed_stage_b": 27.509916,
-  "elapsed_divergence": 18.446325,
-  "elapsed_total": 46.570383,
+  "elapsed_stage_a": 0.471234,
+  "elapsed_radar_state": 0.177407,
+  "elapsed_stage_b": 25.084353,
+  "elapsed_divergence": 17.767545,
+  "elapsed_total": 43.50193,
   "asset_enrichment_seconds": {
-    "ALT": 2.502676,
-    "BST": 3.619098,
-    "CHEX": 3.645092,
-    "DGB": 1.618062,
-    "MERL": 6.623375,
-    "OSMO": 0.229611,
-    "REZ": 0.242325
+    "ALT": 2.007838,
+    "BST": 3.406395,
+    "CHEX": 3.626177,
+    "DGB": 1.586577,
+    "MERL": 4.566164,
+    "OSMO": 0.229731,
+    "REZ": 0.512245
   },
   "stale_lock_recovered": false
 }
