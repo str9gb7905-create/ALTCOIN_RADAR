@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-23T16:46:47.716396Z",
+  "updated_at_utc": "2026-10-23T17:01:45.437810Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -24231,6 +24231,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_8eabed6d590868702b23c112d94c85f4": {
+      "notification_id": "ntf_8eabed6d590868702b23c112d94c85f4",
+      "run_id": "20261023T170054Z_82e768fc",
+      "created_at_utc": "2026-10-23T17:01:45.436808Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261023T170054Z_82e768fc\n資料來源：CoinGecko＋公開現貨交易所\n\nBONK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$3.3252912e-06\n幅度級距：+10%\n區間異動：+10.61%\n基準價格：US$3.0062753e-06\n24H：+9.80%\n4H RSI：70.30\n日線 RSI：43.55\n週線 RSI：35.97\n成交量：2.52×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bonk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABONKUSD",
+      "batch_id": "ntf_8eabed6d590868702b23c112d94c85f4",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "a239b0091376bbfcb43bca7e3668de04de73bab09dee8a07ef500105d82c16f5",
+      "alert_ranges": [
+        {
+          "symbol": "BONK",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
