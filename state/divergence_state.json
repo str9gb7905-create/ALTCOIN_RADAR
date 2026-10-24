@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261024T100056Z_4713f49c",
-  "updated_at": "2026-10-24T10:01:26.136147Z",
+  "last_run_id": "20261024T101552Z_1aeb6ae7",
+  "updated_at": "2026-10-24T10:16:19.744067Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -640,35 +640,16 @@
     },
     "STRK": {
       "coingecko_id": "starknet",
-      "history_source": "Coinbase",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-22T22:46:34.660585Z",
+      "last_seen_at": "2026-10-24T10:16:19.744067Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
       },
       "weekly": {
-        "active_signals": [
-          {
-            "type": "WEEKLY_BULLISH",
-            "signature": "STRK|1W|BULLISH|2026-06-25|2026-08-13",
-            "pivots": [
-              {
-                "timestamp": "2026-06-25",
-                "price": 0.028,
-                "rsi": 21.882862961922143,
-                "confirmed": true
-              },
-              {
-                "timestamp": "2026-08-13",
-                "price": 0.02219,
-                "rsi": 24.12191983038261,
-                "confirmed": true
-              }
-            ]
-          }
-        ],
+        "active_signals": [],
         "seen_signatures": [
           "STRK|1W|BULLISH|2026-06-25|2026-08-13"
         ]
@@ -805,7 +786,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-24T10:01:26.136147Z",
+      "last_seen_at": "2026-10-24T10:16:19.744067Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -923,7 +904,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-24T10:01:26.136147Z",
+      "last_seen_at": "2026-10-24T10:16:19.744067Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -960,7 +941,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-24T10:01:26.136147Z",
+      "last_seen_at": "2026-10-24T10:16:19.744067Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -975,7 +956,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-24T10:01:26.136147Z",
+      "last_seen_at": "2026-10-24T10:16:19.744067Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1043,7 +1024,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-24T10:01:26.136147Z",
+      "last_seen_at": "2026-10-24T10:16:19.744067Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1238,7 +1219,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-24T10:01:26.136147Z",
+      "last_seen_at": "2026-10-24T10:16:19.744067Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1824,7 +1805,7 @@
       "history_source": "Bitget",
       "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-24T10:01:26.136147Z",
+      "last_seen_at": "2026-10-24T10:16:19.744067Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2423,7 +2404,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-24T10:01:26.136147Z",
+      "last_seen_at": "2026-10-24T10:16:19.744067Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2560,7 +2541,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-24T10:01:26.136147Z",
+      "last_seen_at": "2026-10-24T10:16:19.744067Z",
       "daily": {
         "active_signals": [
           {
