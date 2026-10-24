@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-24T08:16:36.446065Z",
+  "updated_at_utc": "2026-10-24T08:16:38.977591Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -24890,13 +24890,13 @@
       "notification_id": "ntf_a553210e73ecfaf8077a956ba7598567",
       "run_id": "20261024T081555Z_36f196b9",
       "created_at_utc": "2026-10-24T08:16:36.444878Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-24T08:16:38.977569Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261024T081555Z_36f196b9\n資料來源：CoinGecko＋公開現貨交易所\n\nNOS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.45876119\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$0.51026059\n24H：-9.37%\n4H RSI：32.87\n日線 RSI：44.05\n週線 RSI：70.36\n成交量：1.08×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD",
       "batch_id": "ntf_a553210e73ecfaf8077a956ba7598567",
