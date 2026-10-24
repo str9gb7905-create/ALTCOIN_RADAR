@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-24T15:17:01.557626Z",
+  "updated_at_utc": "2026-10-24T15:17:03.735202Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -25351,13 +25351,13 @@
       "notification_id": "ntf_73c0102fc92867bed4d4315191ae92c4",
       "run_id": "20261024T151550Z_8fc2a813",
       "created_at_utc": "2026-10-24T15:17:01.556893Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-24T15:17:03.735177Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261024T151550Z_8fc2a813\n資料來源：CoinGecko＋公開現貨交易所\n\nMETIS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.5171595\n幅度級距：-10%\n區間異動：-10.84%\n基準價格：US$3.9446775\n24H：-10.56%\n4H RSI：33.86\n日線 RSI：53.50\n週線 RSI：62.26\n成交量：1.05×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/metis-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AMETISUSD\n\nAIOT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.065947722\n幅度級距：+10%\n區間異動：+10.41%\n基準價格：US$0.059731931\n24H：+7.57%\n4H RSI：80.71\n日線 RSI：64.74\n週線 RSI：34.19\n成交量：1.42×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/okzoo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAIOTUSDT\n\nWAVES｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.24050961\n幅度級距：-10%\n區間異動：-10.11%\n基準價格：US$0.26754788\n24H：-9.59%\n4H RSI：40.64\n日線 RSI：47.33\n週線 RSI：36.82\n成交量：2.51×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/waves\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWAVESUSDT",
       "batch_id": "ntf_73c0102fc92867bed4d4315191ae92c4",
