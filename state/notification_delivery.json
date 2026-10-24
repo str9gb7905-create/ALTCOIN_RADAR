@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-24T00:47:14.118947Z",
+  "updated_at_utc": "2026-10-24T00:47:16.779456Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -24599,13 +24599,13 @@
       "notification_id": "ntf_8dbfc1a5a204897502e416e97b99c0bf",
       "run_id": "20261024T004639Z_de48486c",
       "created_at_utc": "2026-10-24T00:47:14.118146Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-24T00:47:16.779442Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261024T004639Z_de48486c\n資料來源：CoinGecko＋公開現貨交易所\n\nPEPE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.5426699e-06\n幅度級距：-10%\n區間異動：-10.52%\n基準價格：US$5.0764798e-06\n24H：+3.05%\n4H RSI：52.82\n日線 RSI：58.93\n週線 RSI：60.42\n成交量：3.74×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pepe\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APEPEUSDT\n\nDOT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.0726963\n幅度級距：-10%\n區間異動：-10.35%\n基準價格：US$1.1965468\n24H：-3.71%\n4H RSI：39.37\n日線 RSI：43.05\n週線 RSI：49.59\n成交量：3.53×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/polkadot\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADOTUSDT",
       "batch_id": "ntf_8dbfc1a5a204897502e416e97b99c0bf",
