@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-25T10:31:43.567432Z",
+  "updated_at_utc": "2026-10-25T11:01:33.618025Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -26258,6 +26258,37 @@
         {
           "symbol": "POND",
           "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_d4b7149699498637aa879ab98ec38e00": {
+      "notification_id": "ntf_d4b7149699498637aa879ab98ec38e00",
+      "run_id": "20261025T110052Z_a06810eb",
+      "created_at_utc": "2026-10-25T11:01:33.617323Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261025T110052Z_a06810eb\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00055046221\n幅度級距：+10%\n區間異動：+13.77%\n基準價格：US$0.00048385463\n24H：+11.77%\n4H RSI：44.99\n日線 RSI：46.95\n週線 RSI：26.85\n成交量：0.42×｜WEAK / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nCVC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.024558481\n幅度級距：+10%\n區間異動：+10.59%\n基準價格：US$0.022207297\n24H：+6.75%\n4H RSI：50.92\n日線 RSI：41.96\n週線 RSI：43.64\n成交量：4.66×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/civic\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ACVCUSD",
+      "batch_id": "ntf_d4b7149699498637aa879ab98ec38e00",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "764c67cf6b47b51e0ea23a956274b87312559c4a484e0ad44cc2931c14188849",
+      "alert_ranges": [
+        {
+          "symbol": "RDNT",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "CVC",
+          "direction": "UP",
           "level": 10
         }
       ],
