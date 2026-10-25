@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261025T160050Z_6f079e85",
-  "updated_at": "2026-10-25T16:01:18.467374Z",
+  "last_run_id": "20261025T161554Z_45c2e576",
+  "updated_at": "2026-10-25T16:16:23.541271Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -964,10 +964,10 @@
     },
     "ENA": {
       "coingecko_id": "ethena",
-      "history_source": "Bitget",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-25T16:01:18.467374Z",
+      "last_seen_at": "2026-10-25T16:16:23.541271Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1262,7 +1262,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-25T16:01:18.467374Z",
+      "last_seen_at": "2026-10-25T16:16:23.541271Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1416,10 +1416,10 @@
     },
     "LSK": {
       "coingecko_id": "lisk",
-      "history_source": "Kraken",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-25T16:01:18.467374Z",
+      "last_seen_at": "2026-10-25T16:16:23.541271Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1828,10 +1828,10 @@
     },
     "REZ": {
       "coingecko_id": "renzo",
-      "history_source": "Bitget",
-      "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
+      "history_source": "Binance",
+      "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-25T16:01:18.467374Z",
+      "last_seen_at": "2026-10-25T16:16:23.541271Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1840,18 +1840,18 @@
         "active_signals": [
           {
             "type": "WEEKLY_BULLISH",
-            "signature": "REZ|1W|BULLISH|2026-02-22|2026-07-19",
+            "signature": "REZ|1W|BULLISH|2026-02-23|2026-07-20",
             "pivots": [
               {
-                "timestamp": "2026-02-22",
+                "timestamp": "2026-02-23",
                 "price": 0.00264,
-                "rsi": 27.230105105771315,
+                "rsi": 29.523271604817182,
                 "confirmed": true
               },
               {
-                "timestamp": "2026-07-19",
-                "price": 0.002303,
-                "rsi": 35.81579373980904,
+                "timestamp": "2026-07-20",
+                "price": 0.002295,
+                "rsi": 37.63692264967632,
                 "confirmed": true
               }
             ]
@@ -1964,10 +1964,10 @@
     },
     "BEAM": {
       "coingecko_id": "beam-2",
-      "history_source": "Coinbase",
+      "history_source": "Bybit",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-25T16:01:18.467374Z",
+      "last_seen_at": "2026-10-25T16:16:23.541271Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2500,16 +2500,35 @@
     },
     "STEEM": {
       "coingecko_id": "steem",
-      "history_source": "Gate",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-25T16:01:18.467374Z",
+      "last_seen_at": "2026-10-25T16:16:23.541271Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
       },
       "weekly": {
-        "active_signals": [],
+        "active_signals": [
+          {
+            "type": "WEEKLY_BULLISH",
+            "signature": "STEEM|1W|BULLISH|2026-06-22|2026-08-17",
+            "pivots": [
+              {
+                "timestamp": "2026-06-22",
+                "price": 0.03694,
+                "rsi": 27.921263137593556,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-08-17",
+                "price": 0.03413,
+                "rsi": 41.73939154680816,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
         "seen_signatures": [
           "STEEM|1W|BULLISH|2026-06-22|2026-08-17"
         ]
@@ -2786,7 +2805,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-25T15:46:28.126140Z",
+      "last_seen_at": "2026-10-25T16:16:23.541271Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2937,10 +2956,10 @@
     },
     "IOST": {
       "coingecko_id": "iostoken",
-      "history_source": "Gate",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-25T16:01:18.467374Z",
+      "last_seen_at": "2026-10-25T16:16:23.541271Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -3240,12 +3259,31 @@
     },
     "OSMO": {
       "coingecko_id": "osmosis",
-      "history_source": "Coinbase",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-25T16:01:18.467374Z",
+      "last_seen_at": "2026-10-25T16:16:23.541271Z",
       "daily": {
-        "active_signals": [],
+        "active_signals": [
+          {
+            "type": "DAILY_BEARISH",
+            "signature": "OSMO|1D|BEARISH|2026-10-12|2026-10-19",
+            "pivots": [
+              {
+                "timestamp": "2026-10-12",
+                "price": 0.0565,
+                "rsi": 79.45091486088458,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-10-19",
+                "price": 0.0649,
+                "rsi": 65.78823232248791,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
         "seen_signatures": [
           "OSMO|1D|BEARISH|2026-09-26|2026-10-15",
           "OSMO|1D|BEARISH|2026-10-12|2026-10-19"
