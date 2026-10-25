@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-25T04:16:32.078389Z",
+  "updated_at_utc": "2026-10-25T04:31:25.794841Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -25878,6 +25878,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_57076716e6b1e595376ccf400f915338": {
+      "notification_id": "ntf_57076716e6b1e595376ccf400f915338",
+      "run_id": "20261025T043053Z_f2dcd9b0",
+      "created_at_utc": "2026-10-25T04:31:25.793918Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261025T043053Z_f2dcd9b0\n資料來源：CoinGecko＋公開現貨交易所\n\nIOST｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00081313504\n幅度級距：+10%\n區間異動：+11.72%\n基準價格：US$0.00072783801\n24H：+8.00%\n4H RSI：44.27\n日線 RSI：44.25\n週線 RSI：41.92\n成交量：33.63×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iostoken\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOSTUSDT",
+      "batch_id": "ntf_57076716e6b1e595376ccf400f915338",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "e9916d304aa4a496906bb1cc1dfe53769ab7321adf927c2682b424858d4ab00a",
+      "alert_ranges": [
+        {
+          "symbol": "IOST",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
