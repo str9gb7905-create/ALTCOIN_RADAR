@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-25T09:01:40.183956Z",
+  "updated_at_utc": "2026-10-25T09:01:42.804366Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -26184,13 +26184,13 @@
       "notification_id": "ntf_be1d1b99f0c99bb9fa9068e05852049f",
       "run_id": "20261025T090059Z_5b6fe4ac",
       "created_at_utc": "2026-10-25T09:01:40.182926Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-25T09:01:42.804337Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261025T090059Z_5b6fe4ac\n資料來源：CoinGecko＋公開現貨交易所\n\nLRC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0088226907\n幅度級距：+10%\n區間異動：+10.68%\n基準價格：US$0.0079716266\n24H：+9.47%\n4H RSI：51.86\n日線 RSI：30.47\n週線 RSI：29.29\n成交量：4.78×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/loopring\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALRCUSDT\n\nVANA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.82944955\n幅度級距：-10%\n區間異動：-10.03%\n基準價格：US$0.92193369\n24H：-5.05%\n4H RSI：40.83\n日線 RSI：38.51\n週線 RSI：36.63\n成交量：391.21×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AVANAUSDT",
       "batch_id": "ntf_be1d1b99f0c99bb9fa9068e05852049f",
