@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-25T05:16:26.228204Z",
+  "updated_at_utc": "2026-10-25T05:16:28.904658Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -25961,13 +25961,13 @@
       "notification_id": "ntf_ce279e54a4de956cb10fb8bb484200ff",
       "run_id": "20261025T051553Z_7ffa3443",
       "created_at_utc": "2026-10-25T05:16:26.227269Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-25T05:16:28.904642Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261025T051553Z_7ffa3443\n資料來源：CoinGecko＋公開現貨交易所\n\nIOST｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.00090419423\n幅度級距：+20%\n區間異動：+24.23%\n基準價格：US$0.00072783801\n24H：+18.66%\n4H RSI：44.27\n日線 RSI：44.25\n週線 RSI：41.92\n成交量：45.43×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iostoken\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOSTUSDT\n\nTFUEL｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.0095890684\n幅度級距：+10%\n區間異動：+10.79%\n基準價格：US$0.0086550692\n24H：+7.74%\n4H RSI：55.55\n日線 RSI：40.72\n週線 RSI：41.11\n成交量：1.07×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/theta-fuel\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ATFUELUSDT",
       "batch_id": "ntf_ce279e54a4de956cb10fb8bb484200ff",
