@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261026T131553Z_30fac056",
-  "updated_at": "2026-10-26T13:16:19.422832Z",
+  "last_run_id": "20261026T133055Z_dedf4d59",
+  "updated_at": "2026-10-26T13:31:21.175342Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -1358,10 +1358,10 @@
     },
     "HUMA": {
       "coingecko_id": "huma-finance",
-      "history_source": "Gate",
+      "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T13:16:19.422832Z",
+      "last_seen_at": "2026-10-26T13:31:21.175342Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1503,7 +1503,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T13:16:19.422832Z",
+      "last_seen_at": "2026-10-26T13:31:21.175342Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1929,7 +1929,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T13:16:19.422832Z",
+      "last_seen_at": "2026-10-26T13:31:21.175342Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2180,7 +2180,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T13:16:19.422832Z",
+      "last_seen_at": "2026-10-26T13:31:21.175342Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
