@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-26T08:31:35.607699Z",
+  "updated_at_utc": "2026-10-26T08:46:30.301465Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -27041,6 +27041,37 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_1fa988702b848531e7287b702ef9d572": {
+      "notification_id": "ntf_1fa988702b848531e7287b702ef9d572",
+      "run_id": "20261026T084551Z_5c73c36e",
+      "created_at_utc": "2026-10-26T08:46:30.300112Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261026T084551Z_5c73c36e\n資料來源：CoinGecko＋公開現貨交易所\n\nWEN｜再次觸發\n觸發：由近24H低點上漲\n價格：US$6.1249067e-06\n幅度級距：+10%\n區間異動：+10.22%\n基準價格：US$5.5567787e-06\n24H：+9.33%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：0.94×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wen-4\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AWENUSDT\n\nQNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$196.91294\n幅度級距：+10%\n區間異動：+10.02%\n基準價格：US$178.97747\n24H：+8.71%\n4H RSI：59.19\n日線 RSI：48.29\n週線 RSI：68.17\n成交量：1.04×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD",
+      "batch_id": "ntf_1fa988702b848531e7287b702ef9d572",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "d16bc71b1cb6db77c856f58258ddbad9bb29049de15c9b29901ece4fc1ae6ab7",
+      "alert_ranges": [
+        {
+          "symbol": "WEN",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "QNT",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
