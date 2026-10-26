@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261026T151557Z_bf3cfd1a",
-  "updated_at": "2026-10-26T15:16:20.657426Z",
+  "last_run_id": "20261026T153053Z_39430ca1",
+  "updated_at": "2026-10-26T15:31:20.974281Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -452,10 +452,10 @@
     },
     "NIGHT": {
       "coingecko_id": "midnight-3",
-      "history_source": "Binance",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-22T18:16:44.946236Z",
+      "last_seen_at": "2026-10-26T15:31:20.974281Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1084,7 +1084,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T15:16:20.657426Z",
+      "last_seen_at": "2026-10-26T15:31:20.974281Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1361,7 +1361,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T15:16:20.657426Z",
+      "last_seen_at": "2026-10-26T15:31:20.974281Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1503,7 +1503,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T15:16:20.657426Z",
+      "last_seen_at": "2026-10-26T15:31:20.974281Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1929,7 +1929,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T15:16:20.657426Z",
+      "last_seen_at": "2026-10-26T15:31:20.974281Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2180,7 +2180,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T15:16:20.657426Z",
+      "last_seen_at": "2026-10-26T15:31:20.974281Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
