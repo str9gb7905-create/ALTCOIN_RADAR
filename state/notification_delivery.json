@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-26T08:46:35.314759Z",
+  "updated_at_utc": "2026-10-26T09:01:38.171711Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -27072,6 +27072,37 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_35e1bdbe3f4fdbff54b082ce00f9e8d0": {
+      "notification_id": "ntf_35e1bdbe3f4fdbff54b082ce00f9e8d0",
+      "run_id": "20261026T090057Z_43e70ce5",
+      "created_at_utc": "2026-10-26T09:01:38.170380Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261026T090057Z_43e70ce5\n資料來源：CoinGecko＋公開現貨交易所\n\nBEAM｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0034233893\n幅度級距：+20%\n區間異動：+21.08%\n基準價格：US$0.0028273826\n24H：+12.27%\n4H RSI：56.54\n日線 RSI：56.19\n週線 RSI：74.29\n成交量：2.03×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABEAMUSD\n\nHUMA｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.019394791\n幅度級距：-20%\n區間異動：-20.61%\n基準價格：US$0.024430955\n24H：-19.76%\n4H RSI：31.05\n日線 RSI：35.49\n週線 RSI：48.35\n成交量：3.15×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AHUMAUSDT",
+      "batch_id": "ntf_35e1bdbe3f4fdbff54b082ce00f9e8d0",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "7cb7ada226495af4cd5852e0fdcaf0bf988fbcfbaba4b23edf9d74b90fcda399",
+      "alert_ranges": [
+        {
+          "symbol": "BEAM",
+          "direction": "UP",
+          "level": 20
+        },
+        {
+          "symbol": "HUMA",
+          "direction": "DOWN",
+          "level": 20
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
