@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261026T181558Z_d3838b81",
-  "updated_at": "2026-10-26T18:16:23.296811Z",
+  "last_run_id": "20261026T183057Z_5a869f0b",
+  "updated_at": "2026-10-26T18:31:24.237895Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -455,7 +455,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T18:16:23.296811Z",
+      "last_seen_at": "2026-10-26T18:31:24.237895Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1361,7 +1361,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T18:16:23.296811Z",
+      "last_seen_at": "2026-10-26T18:31:24.237895Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1503,7 +1503,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T18:16:23.296811Z",
+      "last_seen_at": "2026-10-26T18:31:24.237895Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1929,7 +1929,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T18:16:23.296811Z",
+      "last_seen_at": "2026-10-26T18:31:24.237895Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
