@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-26T18:01:41.421390Z",
+  "updated_at_utc": "2026-10-26T19:43:27.570777Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -27493,6 +27493,37 @@
       "alert_ranges": [
         {
           "symbol": "SYN",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_f0654533527e779d2f7c00ec7fae2973": {
+      "notification_id": "ntf_f0654533527e779d2f7c00ec7fae2973",
+      "run_id": "20261026T194256Z_fc9a7bf6",
+      "created_at_utc": "2026-10-26T19:43:27.570066Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261026T194256Z_fc9a7bf6\n資料來源：CoinGecko＋公開現貨交易所\n\nHUMA｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.024796937\n幅度級距：+40%\n區間異動：+40.73%\n基準價格：US$0.017620235\n24H：+6.41%\n4H RSI：46.56\n日線 RSI：37.96\n週線 RSI：49.21\n成交量：14.00×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AHUMAUSDT\n\nXDC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.034246658\n幅度級距：+10%\n區間異動：+10.63%\n基準價格：US$0.030956307\n24H：+8.91%\n4H RSI：54.69\n日線 RSI：41.89\n週線 RSI：57.70\n成交量：4.36×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xdce-crowd-sale\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXDCUSDT",
+      "batch_id": "ntf_f0654533527e779d2f7c00ec7fae2973",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "dd77a5d841a378b93e977acaf6e8beb6d64e2a541be53b075af24a38a7b0e24e",
+      "alert_ranges": [
+        {
+          "symbol": "HUMA",
+          "direction": "UP",
+          "level": 40
+        },
+        {
+          "symbol": "XDC",
           "direction": "UP",
           "level": 10
         }
