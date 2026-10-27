@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261027T210103Z_5ad272c3",
-  "updated_at": "2026-10-27T21:01:13.174873Z",
+  "last_run_id": "20261027T211557Z_145ebd74",
+  "updated_at": "2026-10-27T21:16:05.630718Z",
   "assets": {
     "TRAC": {
       "coingecko_id": "origintrail",
@@ -160,15 +160,15 @@
       "rsi_1d": 64.85164715852935,
       "rsi_1w": 51.32651999283659,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 17.192017603358206,
+      "volume_ratio": 17.746786926479608,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 20.365888773857176,
-      "turnover_ratio": 0.6344649716037437,
+      "turnover_ratio": 0.6390714675450397,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-27T21:01:13.174873Z",
+      "last_seen_at": "2026-10-27T21:16:05.630718Z",
       "price_episode_id": 44,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -944,16 +944,16 @@
       "rsi_1d": 52.51277632630559,
       "rsi_1w": 51.5284590867008,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 6.43134123487902,
+      "volume_ratio": 6.194349506068771,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
-      "range_24h_pct": 23.727619464081833,
-      "turnover_ratio": 0.6598777651955066,
+      "range_24h_pct": 20.31371807894924,
+      "turnover_ratio": 0.6358208238606072,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-27T20:16:09.619273Z",
-      "price_episode_id": 53,
+      "last_seen_at": "2026-10-27T21:16:05.630718Z",
+      "price_episode_id": 54,
       "active_technical_signals": [
         "VOLUME_STRONG"
       ]
@@ -1272,15 +1272,15 @@
       "rsi_1d": 34.595675720696235,
       "rsi_1w": 48.35207388008663,
       "rsi_4h_state": "NEUTRAL",
-      "volume_ratio": 15.235435039482086,
+      "volume_ratio": 15.16070367935075,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 37.18929456990071,
-      "turnover_ratio": 1.4361325263467684,
+      "turnover_ratio": 1.415093470241055,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-27T21:01:13.174873Z",
+      "last_seen_at": "2026-10-27T21:16:05.630718Z",
       "price_episode_id": 38,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -3142,15 +3142,15 @@
       "rsi_1d": 56.83114545750971,
       "rsi_1w": 57.358858553630796,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 10.497348730722774,
+      "volume_ratio": 10.507395126032733,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 36.98223665416195,
-      "turnover_ratio": 0.6751652466974837,
+      "turnover_ratio": 0.6737412294463377,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-27T21:01:13.174873Z",
+      "last_seen_at": "2026-10-27T21:16:05.630718Z",
       "price_episode_id": 46,
       "active_technical_signals": [
         "VOLUME_STRONG"
