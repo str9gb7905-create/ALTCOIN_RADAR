@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-27T13:16:24.356434Z",
+  "updated_at_utc": "2026-10-27T18:01:39.956846Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -28090,6 +28090,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_a63dcb7147bfc32ae1a99d4ae3d9b870": {
+      "notification_id": "ntf_a63dcb7147bfc32ae1a99d4ae3d9b870",
+      "run_id": "20261027T180105Z_edf96c3f",
+      "created_at_utc": "2026-10-27T18:01:39.955991Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261027T180105Z_edf96c3f\n資料來源：CoinGecko＋公開現貨交易所\n\nWEN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$5.7489059e-06\n幅度級距：-10%\n區間異動：-10.08%\n基準價格：US$6.3934388e-06\n24H：-9.67%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：0.96×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wen-4\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AWENUSDT",
+      "batch_id": "ntf_a63dcb7147bfc32ae1a99d4ae3d9b870",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "8c91c1a88d5595964ec06e2872f701df563c439e09477fde2e0c882564e62637",
+      "alert_ranges": [
+        {
+          "symbol": "WEN",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 2
     }
   }
 }
