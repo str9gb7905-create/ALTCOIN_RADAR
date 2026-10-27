@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261026T234553Z_3458a6c9",
-  "updated_at": "2026-10-26T23:46:15.978310Z",
+  "last_run_id": "20261027T000049Z_81048c0a",
+  "updated_at": "2026-10-27T00:01:15.951358Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -1050,7 +1050,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T23:46:15.978310Z",
+      "last_seen_at": "2026-10-27T00:01:15.951358Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1361,7 +1361,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T23:46:15.978310Z",
+      "last_seen_at": "2026-10-27T00:01:15.951358Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1503,7 +1503,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T23:46:15.978310Z",
+      "last_seen_at": "2026-10-27T00:01:15.951358Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1929,10 +1929,30 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-26T23:46:15.978310Z",
+      "last_seen_at": "2026-10-27T00:01:15.951358Z",
       "daily": {
-        "active_signals": [],
+        "active_signals": [
+          {
+            "type": "DAILY_BEARISH",
+            "signature": "BEAM|1D|BEARISH|2026-10-14|2026-10-23",
+            "pivots": [
+              {
+                "timestamp": "2026-10-14",
+                "price": 0.003148,
+                "rsi": 76.36347230460973,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-10-23",
+                "price": 0.003596,
+                "rsi": 70.93894916899606,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
         "seen_signatures": [
+          "BEAM|1D|BEARISH|2026-10-14|2026-10-23",
           "BEAM|1D|BULLISH|2026-09-16|2026-09-25"
         ]
       },
