@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-27T10:46:30.443161Z",
+  "updated_at_utc": "2026-10-27T11:16:26.890373Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -27973,6 +27973,32 @@
       "part_index": 1,
       "part_count": 1,
       "source_digest": "f68c206dc8fe99d593f5c4a39fb473ecb812ee23e94993bfb5332cd433d5ccb1",
+      "alert_ranges": [
+        {
+          "symbol": "HUMA",
+          "direction": "UP",
+          "level": 50
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_6f2ccae17baca160eda121649fa9c3a0": {
+      "notification_id": "ntf_6f2ccae17baca160eda121649fa9c3a0",
+      "run_id": "20261027T111558Z_877abe75",
+      "created_at_utc": "2026-10-27T11:16:26.889593Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261027T111558Z_877abe75\n資料來源：CoinGecko＋公開現貨交易所\n\nHUMA｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.026972377\n幅度級距：+50%\n區間異動：+51.38%\n基準價格：US$0.01781709\n24H：+51.76%\n4H RSI：52.35\n日線 RSI：37.96\n週線 RSI：49.21\n成交量：15.66×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AHUMAUSDT",
+      "batch_id": "ntf_6f2ccae17baca160eda121649fa9c3a0",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "8fa40957e7b8460ae8dab5c1f81cb910cf96dcbddcb075181b1d0c51625f00d1",
       "alert_ranges": [
         {
           "symbol": "HUMA",
