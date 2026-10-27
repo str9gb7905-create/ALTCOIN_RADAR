@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-27T08:46:25.019205Z",
+  "updated_at_utc": "2026-10-27T09:16:31.592705Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -27903,6 +27903,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_0ce1e47b143064c510531fdda5405f31": {
+      "notification_id": "ntf_0ce1e47b143064c510531fdda5405f31",
+      "run_id": "20261027T091558Z_59ede413",
+      "created_at_utc": "2026-10-27T09:16:31.591589Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261027T091558Z_59ede413\n資料來源：CoinGecko＋公開現貨交易所\n\nSYN｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.18622211\n幅度級距：+20%\n區間異動：+21.26%\n基準價格：US$0.15357138\n24H：+21.72%\n4H RSI：76.09\n日線 RSI：52.58\n週線 RSI：51.52\n成交量：4.98×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/synapse-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3ASYNUSDT",
+      "batch_id": "ntf_0ce1e47b143064c510531fdda5405f31",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "25c2acfe2496efb70b2ae8af1aab4082269588cf86badbf1dd41f6952370e33e",
+      "alert_ranges": [
+        {
+          "symbol": "SYN",
+          "direction": "UP",
+          "level": 20
+        }
+      ],
+      "repeat_suppressed_count": 2
     }
   }
 }
