@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261028T090059Z_7b00bea6",
-  "updated_at": "2026-10-28T09:01:10.725063Z",
+  "last_run_id": "20261028T091556Z_c3ed8e78",
+  "updated_at": "2026-10-28T09:16:03.647284Z",
   "assets": {
     "TRAC": {
       "coingecko_id": "origintrail",
@@ -1128,15 +1128,15 @@
       "rsi_1d": 58.20408506894897,
       "rsi_1w": 60.42162119166303,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 7.735330660116283,
+      "volume_ratio": 7.776507942069227,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 17.13615023474178,
-      "turnover_ratio": 0.26548646327635017,
+      "turnover_ratio": 0.2693867933156206,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-28T09:01:10.725063Z",
+      "last_seen_at": "2026-10-28T09:16:03.647284Z",
       "price_episode_id": 20,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -1272,15 +1272,15 @@
       "rsi_1d": 44.58671017638754,
       "rsi_1w": 48.35207388008663,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 14.877739073283815,
+      "volume_ratio": 14.846598305472348,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 16.249128285363852,
-      "turnover_ratio": 1.2356099494092074,
+      "turnover_ratio": 1.2372026381376722,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-28T09:01:10.725063Z",
+      "last_seen_at": "2026-10-28T09:16:03.647284Z",
       "price_episode_id": 40,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -3144,15 +3144,15 @@
       "rsi_1d": 64.46173944566468,
       "rsi_1w": 57.358858553630796,
       "rsi_4h_state": "NEUTRAL",
-      "volume_ratio": 10.833979501615898,
+      "volume_ratio": 11.108476278657353,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 18.363025979475825,
-      "turnover_ratio": 0.35386695956202807,
-      "cross_exchange_status": "MINOR_DIVERGENCE",
+      "turnover_ratio": 0.33868232934332393,
+      "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-28T08:46:04.287625Z",
+      "last_seen_at": "2026-10-28T09:16:03.647284Z",
       "price_episode_id": 52,
       "active_technical_signals": [
         "VOLUME_STRONG"
