@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-28T18:46:48.501973Z",
+  "updated_at_utc": "2026-10-28T18:46:51.803579Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -28703,13 +28703,13 @@
       "notification_id": "ntf_8f394a492b3741fbde161304bf5c01d8",
       "run_id": "20261028T184624Z_ad353f99",
       "created_at_utc": "2026-10-28T18:46:48.500853Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-28T18:46:51.803561Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261028T184624Z_ad353f99\n資料來源：CoinGecko＋公開現貨交易所\n\nRVN｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.0015837602\n幅度級距：+10%\n區間異動：+12.58%\n基準價格：US$0.0014067691\n24H：+12.58%\n4H RSI：63.35\n日線 RSI：33.66\n週線 RSI：22.04\n成交量：1.97×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ravencoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3ARVNUSDT",
       "batch_id": "ntf_8f394a492b3741fbde161304bf5c01d8",
