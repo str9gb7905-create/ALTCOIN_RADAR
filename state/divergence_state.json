@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261028T111553Z_8af01555",
-  "updated_at": "2026-10-28T11:16:17.427224Z",
+  "last_run_id": "20261028T113057Z_3ced3f00",
+  "updated_at": "2026-10-28T11:31:15.738787Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -1223,10 +1223,10 @@
     },
     "PEPE": {
       "coingecko_id": "pepe",
-      "history_source": "Gate",
+      "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-28T11:16:17.427224Z",
+      "last_seen_at": "2026-10-28T11:31:15.738787Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1361,7 +1361,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-28T10:46:17.256678Z",
+      "last_seen_at": "2026-10-28T11:31:15.738787Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -3246,7 +3246,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-28T11:16:17.427224Z",
+      "last_seen_at": "2026-10-28T11:31:15.738787Z",
       "daily": {
         "active_signals": [
           {
