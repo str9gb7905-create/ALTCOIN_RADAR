@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261028T083057Z_8ab98daa",
-  "updated_at": "2026-10-28T08:31:22.964659Z",
+  "last_run_id": "20261028T084554Z_6b145967",
+  "updated_at": "2026-10-28T08:46:18.035364Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -1223,10 +1223,10 @@
     },
     "PEPE": {
       "coingecko_id": "pepe",
-      "history_source": "Binance",
+      "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-28T08:31:22.964659Z",
+      "last_seen_at": "2026-10-28T08:46:18.035364Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1358,10 +1358,10 @@
     },
     "HUMA": {
       "coingecko_id": "huma-finance",
-      "history_source": "Binance",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-28T08:31:22.964659Z",
+      "last_seen_at": "2026-10-28T08:46:18.035364Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2161,31 +2161,12 @@
     },
     "CHR": {
       "coingecko_id": "chromaway",
-      "history_source": "KuCoin",
+      "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-13T01:19:16.430327Z",
+      "last_seen_at": "2026-10-28T08:46:18.035364Z",
       "daily": {
-        "active_signals": [
-          {
-            "type": "DAILY_BEARISH",
-            "signature": "CHR|1D|BEARISH|2026-09-27|2026-10-04",
-            "pivots": [
-              {
-                "timestamp": "2026-09-27",
-                "price": 0.0239,
-                "rsi": 76.04284590654797,
-                "confirmed": true
-              },
-              {
-                "timestamp": "2026-10-04",
-                "price": 0.0245,
-                "rsi": 69.53762224857272,
-                "confirmed": true
-              }
-            ]
-          }
-        ],
+        "active_signals": [],
         "seen_signatures": [
           "CHR|1D|BEARISH|2026-09-27|2026-10-04"
         ]
@@ -3262,10 +3243,10 @@
     },
     "OSMO": {
       "coingecko_id": "osmosis",
-      "history_source": "Binance",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-28T08:31:22.964659Z",
+      "last_seen_at": "2026-10-28T08:46:18.035364Z",
       "daily": {
         "active_signals": [
           {
@@ -3274,14 +3255,14 @@
             "pivots": [
               {
                 "timestamp": "2026-10-12",
-                "price": 0.0565,
-                "rsi": 79.45091486092105,
+                "price": 0.05636,
+                "rsi": 79.32105228481244,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-10-19",
-                "price": 0.0649,
-                "rsi": 65.78823232250232,
+                "price": 0.06465,
+                "rsi": 65.89736094809294,
                 "confirmed": true
               }
             ]
