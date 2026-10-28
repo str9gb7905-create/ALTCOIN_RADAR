@@ -1,7 +1,7 @@
 {
-  "run_id": "20261028T133057Z_491dcad6",
-  "started_at_utc": "2026-10-28T13:30:57.402295Z",
-  "completed_at_utc": "2026-10-28T13:31:23.429315Z",
+  "run_id": "20261028T134557Z_28eaec06",
+  "started_at_utc": "2026-10-28T13:45:57.173911Z",
+  "completed_at_utc": "2026-10-28T13:46:24.246315Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -11,13 +11,13 @@
   "radar_assets_baselined": 0,
   "technical_assets_baselined": 0,
   "divergence_assets_baselined": 0,
-  "notification_candidate_count": 1,
+  "notification_candidate_count": 0,
   "stage_b_attempted": 4,
   "divergence_attempted": 4,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 26.027019,
-  "API_requests_total": 63,
+  "elapsed_seconds": 27.072406,
+  "API_requests_total": 64,
   "requests_by_exchange": {
     "Binance": 4,
     "Bitget": 6,
@@ -26,20 +26,20 @@
     "Coinbase": 8,
     "Gate": 9,
     "Kraken": 9,
-    "KuCoin": 9,
+    "KuCoin": 10,
     "MEXC": 8,
     "OKX": 4
   },
-  "elapsed_stage_a": 0.551138,
-  "elapsed_radar_state": 0.137758,
-  "elapsed_stage_b": 14.50763,
-  "elapsed_divergence": 10.828748,
-  "elapsed_total": 26.027019,
+  "elapsed_stage_a": 0.76054,
+  "elapsed_radar_state": 0.185094,
+  "elapsed_stage_b": 15.961909,
+  "elapsed_divergence": 10.163213,
+  "elapsed_total": 27.072406,
   "asset_enrichment_seconds": {
-    "CHEX": 2.152874,
-    "OSMO": 2.011913,
-    "PEPE": 0.761698,
-    "REZ": 0.440003
+    "CHEX": 2.460949,
+    "OSMO": 2.383966,
+    "PEPE": 0.682712,
+    "REZ": 0.2933
   },
   "stale_lock_recovered": false
 }
