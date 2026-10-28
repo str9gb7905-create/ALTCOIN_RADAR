@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-28T02:17:31.224169Z",
+  "updated_at_utc": "2026-10-28T03:46:38.095649Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -28212,6 +28212,32 @@
       "part_index": 1,
       "part_count": 1,
       "source_digest": "d8b806472dfec4eeb353432a52f4eb15ddf53767105c16c9ec75b1322d62c4eb",
+      "alert_ranges": [
+        {
+          "symbol": "REZ",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_78044f6cbda4e06f10fa7626474d97d2": {
+      "notification_id": "ntf_78044f6cbda4e06f10fa7626474d97d2",
+      "run_id": "20261028T034601Z_0f52faf4",
+      "created_at_utc": "2026-10-28T03:46:38.094398Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261028T034601Z_0f52faf4\n資料來源：CoinGecko＋公開現貨交易所\n\nREZ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0050974972\n幅度級距：+10%\n區間異動：+11.66%\n基準價格：US$0.0045651124\n24H：+11.27%\n4H RSI：73.38\n日線 RSI：71.64\n週線 RSI：50.53\n成交量：21.30×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/renzo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AREZUSD",
+      "batch_id": "ntf_78044f6cbda4e06f10fa7626474d97d2",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "912af6279dd7dd7b5ab5d31d7f9dc0e200884318e20aec5d8c9ded1a717129c5",
       "alert_ranges": [
         {
           "symbol": "REZ",
