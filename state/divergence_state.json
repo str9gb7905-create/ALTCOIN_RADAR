@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261027T234557Z_670c6dd1",
-  "updated_at": "2026-10-27T23:46:18.138465Z",
+  "last_run_id": "20261028T000052Z_f70e99db",
+  "updated_at": "2026-10-28T00:01:19.840139Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -1050,7 +1050,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-27T23:46:18.138465Z",
+      "last_seen_at": "2026-10-28T00:01:19.840139Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1361,7 +1361,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-27T23:46:18.138465Z",
+      "last_seen_at": "2026-10-28T00:01:19.840139Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1793,7 +1793,7 @@
       "history_source": "Bitget",
       "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-27T23:46:18.138465Z",
+      "last_seen_at": "2026-10-28T00:01:19.840139Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -3265,7 +3265,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-27T23:46:18.138465Z",
+      "last_seen_at": "2026-10-28T00:01:19.840139Z",
       "daily": {
         "active_signals": [
           {
@@ -3275,13 +3275,13 @@
               {
                 "timestamp": "2026-10-12",
                 "price": 0.05636,
-                "rsi": 79.32105228468274,
+                "rsi": 79.32105228481244,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-10-19",
                 "price": 0.06465,
-                "rsi": 65.89736094805319,
+                "rsi": 65.89736094809294,
                 "confirmed": true
               }
             ]
