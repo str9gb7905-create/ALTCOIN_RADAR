@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-28T09:31:23.600084Z",
+  "updated_at_utc": "2026-10-28T10:31:31.975530Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -28372,6 +28372,32 @@
         {
           "symbol": "CHR",
           "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_2aaae386bb6a3d3632d2328b66a5ed78": {
+      "notification_id": "ntf_2aaae386bb6a3d3632d2328b66a5ed78",
+      "run_id": "20261028T103103Z_8b162929",
+      "created_at_utc": "2026-10-28T10:31:31.974538Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261028T103103Z_8b162929\n資料來源：CoinGecko＋公開現貨交易所\n\nOSMO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.053585311\n幅度級距：-10%\n區間異動：-10.02%\n基準價格：US$0.059554416\n24H：-6.91%\n4H RSI：50.65\n日線 RSI：64.46\n週線 RSI：57.36\n成交量：11.86×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AOSMOUSDT",
+      "batch_id": "ntf_2aaae386bb6a3d3632d2328b66a5ed78",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "f08f1b9e276975f5ca751a32ff87eeef80b6a0e8ee26e4c2799e384b42f4c5d4",
+      "alert_ranges": [
+        {
+          "symbol": "OSMO",
+          "direction": "DOWN",
           "level": 10
         }
       ],
