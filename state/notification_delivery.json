@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-28T13:16:34.141518Z",
+  "updated_at_utc": "2026-10-28T14:31:28.714159Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -28553,6 +28553,37 @@
       "alert_ranges": [
         {
           "symbol": "OSMO",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_0f9cb6274ba4222bd531e7671f601daa": {
+      "notification_id": "ntf_0f9cb6274ba4222bd531e7671f601daa",
+      "run_id": "20261028T143055Z_572dd46c",
+      "created_at_utc": "2026-10-28T14:31:28.713331Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261028T143055Z_572dd46c\n資料來源：CoinGecko＋公開現貨交易所\n\nHUMA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.027224194\n幅度級距：+10%\n區間異動：+10.18%\n基準價格：US$0.02470851\n24H：+3.71%\n4H RSI：56.78\n日線 RSI：44.59\n週線 RSI：48.35\n成交量：10.08×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AHUMAUSDT\n\nENA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.1937321\n幅度級距：-10%\n區間異動：-10.05%\n基準價格：US$0.21538565\n24H：-6.65%\n4H RSI：49.29\n日線 RSI：51.04\n週線 RSI：59.78\n成交量：0.92×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENAUSDT",
+      "batch_id": "ntf_0f9cb6274ba4222bd531e7671f601daa",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "7523277986256b366400b7fec5dff8464e03e189e9981b45f066baaaafa2fec2",
+      "alert_ranges": [
+        {
+          "symbol": "HUMA",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "ENA",
           "direction": "DOWN",
           "level": 10
         }
