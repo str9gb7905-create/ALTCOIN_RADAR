@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-28T02:17:25.336711Z",
+  "updated_at_utc": "2026-10-28T02:17:28.004525Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -28199,13 +28199,13 @@
       "notification_id": "ntf_cdb63f51188ec1d1e16a926cf6788c82",
       "run_id": "20261028T021700Z_9b2b20a5",
       "created_at_utc": "2026-10-28T02:17:25.335627Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-28T02:17:28.004502Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261028T021700Z_9b2b20a5\n資料來源：CoinGecko＋公開現貨交易所\n\nREZ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0050164357\n幅度級距：+10%\n區間異動：+10.00%\n基準價格：US$0.0045601997\n24H：+8.48%\n4H RSI：73.38\n日線 RSI：71.64\n週線 RSI：50.53\n成交量：19.54×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/renzo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AREZUSD",
       "batch_id": "ntf_cdb63f51188ec1d1e16a926cf6788c82",
