@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-29T23:03:01.829400Z",
+  "updated_at_utc": "2026-10-29T23:07:53.276534Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -30310,6 +30310,47 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_7e6359b0ea7a153a541d724a70155c26": {
+      "notification_id": "ntf_7e6359b0ea7a153a541d724a70155c26",
+      "run_id": "20261029T230512Z_e87dca67",
+      "created_at_utc": "2026-10-29T23:07:53.275535Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261029T230512Z_e87dca67\n資料來源：CoinGecko＋公開現貨交易所\n\nAVA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0066911103\n幅度級距：-10%\n區間異動：-10.10%\n基準價格：US$0.0074428472\n24H：-10.30%\n4H RSI：42.51\n日線 RSI：49.45\n週線 RSI：59.67\n成交量：0.89×｜NORMAL\n背離：DAILY_BULLISH, DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ava-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAVAUSDT\n\nIOTX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0034700723\n幅度級距：-10%\n區間異動：-10.08%\n基準價格：US$0.0038591474\n24H：-5.54%\n4H RSI：60.09\n日線 RSI：48.73\n週線 RSI：46.24\n成交量：3.51×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iotex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AIOTXUSDT\n\nBIO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.02096038\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$0.023303574\n24H：-8.17%\n4H RSI：53.22\n日線 RSI：36.30\n週線 RSI：40.47\n成交量：2.84×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bio-protocol\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABIOUSDT\n\nPIXEL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0042711956\n幅度級距：-10%\n區間異動：-10.05%\n基準價格：US$0.0047485762\n24H：-9.69%\n4H RSI：37.09\n日線 RSI：37.47\n週線 RSI：39.55\n成交量：2.61×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pixels\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APIXELUSDT",
+      "batch_id": "ntf_7e6359b0ea7a153a541d724a70155c26",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "d647d688552a14dfe225c5dde83bb350b006a66c4aa85e768f47308c96b2bbec",
+      "alert_ranges": [
+        {
+          "symbol": "AVA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "IOTX",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "BIO",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "PIXEL",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
