@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-29T22:18:31.905962Z",
+  "updated_at_utc": "2026-10-29T22:18:34.133943Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -30142,13 +30142,13 @@
       "notification_id": "ntf_2ab5119ab89c1cecf8fe52774738db05",
       "run_id": "20261029T221551Z_b040498e",
       "created_at_utc": "2026-10-29T22:18:31.904534Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-29T22:18:34.133920Z",
       "event_count": 13,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261029T221551Z_b040498e\n資料來源：CoinGecko＋公開現貨交易所\n\nW｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.011407116\n幅度級距：-10%\n區間異動：-10.54%\n基準價格：US$0.012750537\n24H：-10.10%\n4H RSI：41.46\n日線 RSI：45.24\n週線 RSI：44.95\n成交量：0.60×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWUSDT\n\nAI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.017970654\n幅度級距：-10%\n區間異動：-10.37%\n基準價格：US$0.020050872\n24H：-8.77%\n4H RSI：52.49\n日線 RSI：46.57\n週線 RSI：31.08\n成交量：1.75×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sleepless-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AAIUSDT\n\nAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.1924379\n幅度級距：-10%\n區間異動：-10.35%\n基準價格：US$3.5609506\n24H：-10.52%\n4H RSI：48.00\n日線 RSI：43.02\n週線 RSI：54.03\n成交量：0.99×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arweave\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AARUSDT\n\nMAV｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0087987871\n幅度級距：-10%\n區間異動：-10.34%\n基準價格：US$0.0098140265\n24H：-10.26%\n4H RSI：44.21\n日線 RSI：41.14\n週線 RSI：36.27\n成交量：0.98×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/maverick-protocol\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AMAVUSDT\n\nBIO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.02090725\n幅度級距：-10%\n區間異動：-10.28%\n基準價格：US$0.023303574\n24H：-8.72%\n4H RSI：53.22\n日線 RSI：36.30\n週線 RSI：40.47\n成交量：2.76×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bio-protocol\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABIOUSDT\n\nMEME｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00043404856\n幅度級距：-10%\n區間異動：-10.27%\n基準價格：US$0.00048374189\n24H：-9.76%\n4H RSI：49.86\n日線 RSI：38.15\n週線 RSI：39.19\n成交量：2.28×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/memecoin-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMEMEUSDT\n\nS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.041800713\n幅度級距：-10%\n區間異動：-10.21%\n基準價格：US$0.046554109\n24H：-10.13%\n4H RSI：36.17\n日線 RSI：46.95\n週線 RSI：51.40\n成交量：1.35×｜NORMAL\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sonic-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASUSDT\n\nRVN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0013456457\n幅度級距：-10%\n區間異動：-10.21%\n基準價格：US$0.0014986086\n24H：-9.23%\n4H RSI：51.56\n日線 RSI：37.48\n週線 RSI：21.96\n成交量：0.65×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ravencoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARVNUSDT\n\nNEIRO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$6.3520684e-05\n幅度級距：-10%\n區間異動：-10.14%\n基準價格：US$7.069219e-05\n24H：-7.96%\n4H RSI：50.84\n日線 RSI：37.07\n週線 RSI：40.54\n成交量：0.85×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/neiro-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANEIROUSD\n\nGMT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0065674176\n幅度級距：-10%\n區間異動：-10.05%\n基準價格：US$0.0073009314\n24H：-6.30%\n4H RSI：51.20\n日線 RSI：39.72\n週線 RSI：37.96\n成交量：3.75×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/stepn\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AGMTUSDT",
       "batch_id": "ntf_2ab5119ab89c1cecf8fe52774738db05",
