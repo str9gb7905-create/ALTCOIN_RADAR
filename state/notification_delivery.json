@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-29T00:46:33.795549Z",
+  "updated_at_utc": "2026-10-29T01:16:26.069669Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -28918,6 +28918,32 @@
           "symbol": "CSPR",
           "direction": "UP",
           "level": 40
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_6107458ad538ea67340499bed4428117": {
+      "notification_id": "ntf_6107458ad538ea67340499bed4428117",
+      "run_id": "20261029T011553Z_708de19d",
+      "created_at_utc": "2026-10-29T01:16:26.068765Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261029T011553Z_708de19d\n資料來源：CoinGecko＋公開現貨交易所\n\nADX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.060501742\n幅度級距：+10%\n區間異動：+10.43%\n基準價格：US$0.05478776\n24H：+10.30%\n4H RSI：59.00\n日線 RSI：43.37\n週線 RSI：42.85\n成交量：14.94×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/adex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AADXUSDT",
+      "batch_id": "ntf_6107458ad538ea67340499bed4428117",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "0523ea0b199520f0073b83fdea878ec1a32309ef2590ec1cc0c85447cfb3735d",
+      "alert_ranges": [
+        {
+          "symbol": "ADX",
+          "direction": "UP",
+          "level": 10
         }
       ],
       "repeat_suppressed_count": 0
