@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261029T070056Z_dff98954",
-  "updated_at": "2026-10-29T07:01:21.800900Z",
+  "last_run_id": "20261029T071553Z_d9fdef4c",
+  "updated_at": "2026-10-29T07:16:26.099812Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -952,7 +952,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-29T07:01:21.800900Z",
+      "last_seen_at": "2026-10-29T07:16:26.099812Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1532,10 +1532,10 @@
     },
     "MERL": {
       "coingecko_id": "merlin-chain",
-      "history_source": "Gate",
+      "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-23T10:46:32.943366Z",
+      "last_seen_at": "2026-10-29T07:16:26.099812Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1552,7 +1552,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-29T07:01:21.800900Z",
+      "last_seen_at": "2026-10-29T07:16:26.099812Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1793,7 +1793,7 @@
       "history_source": "Gate",
       "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-29T07:01:21.800900Z",
+      "last_seen_at": "2026-10-29T07:16:26.099812Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -3283,7 +3283,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-29T07:01:21.800900Z",
+      "last_seen_at": "2026-10-29T07:16:26.099812Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -3531,7 +3531,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-28T19:17:35.291863Z",
+      "last_seen_at": "2026-10-29T07:16:26.099812Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
