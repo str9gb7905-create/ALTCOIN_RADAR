@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261029T033056Z_58bd2693",
-  "updated_at": "2026-10-29T03:31:17.101309Z",
+  "last_run_id": "20261029T034549Z_d52cf80d",
+  "updated_at": "2026-10-29T03:46:17.059204Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -952,7 +952,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-29T03:31:17.101309Z",
+      "last_seen_at": "2026-10-29T03:46:17.059204Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1243,7 +1243,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-29T03:16:18.338470Z",
+      "last_seen_at": "2026-10-29T03:46:17.059204Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1552,7 +1552,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-29T03:31:17.101309Z",
+      "last_seen_at": "2026-10-29T03:46:17.059204Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1790,10 +1790,10 @@
     },
     "REZ": {
       "coingecko_id": "renzo",
-      "history_source": "Bitget",
+      "history_source": "Gate",
       "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-28T20:46:44.762086Z",
+      "last_seen_at": "2026-10-29T03:46:17.059204Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1802,18 +1802,18 @@
         "active_signals": [
           {
             "type": "WEEKLY_BULLISH",
-            "signature": "REZ|1W|BULLISH|2026-02-22|2026-07-19",
+            "signature": "REZ|1W|BULLISH|2026-02-23|2026-07-20",
             "pivots": [
               {
-                "timestamp": "2026-02-22",
-                "price": 0.00264,
-                "rsi": 27.230105105771315,
+                "timestamp": "2026-02-23",
+                "price": 0.002649,
+                "rsi": 29.88472571913762,
                 "confirmed": true
               },
               {
-                "timestamp": "2026-07-19",
-                "price": 0.002303,
-                "rsi": 35.81579373980904,
+                "timestamp": "2026-07-20",
+                "price": 0.002307,
+                "rsi": 37.751093292185715,
                 "confirmed": true
               }
             ]
@@ -3246,7 +3246,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-29T03:31:17.101309Z",
+      "last_seen_at": "2026-10-29T03:46:17.059204Z",
       "daily": {
         "active_signals": [
           {
