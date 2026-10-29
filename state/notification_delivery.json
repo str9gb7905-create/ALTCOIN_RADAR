@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-29T22:02:26.471588Z",
+  "updated_at_utc": "2026-10-29T22:02:29.130860Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -30106,13 +30106,13 @@
       "notification_id": "ntf_b0183d4ef95091c0ef3223b686814790",
       "run_id": "20261029T220058Z_d8bf5d1b",
       "created_at_utc": "2026-10-29T22:02:26.470329Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-29T22:02:29.130836Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261029T220058Z_d8bf5d1b\n資料來源：CoinGecko＋公開現貨交易所\n\nZEN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$5.4500548\n幅度級距：-10%\n區間異動：-10.69%\n基準價格：US$6.1025829\n24H：-8.14%\n4H RSI：53.57\n日線 RSI：43.14\n週線 RSI：48.07\n成交量：2.37×｜STRONG\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/zencash\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3AZENUSDT\n\nDYM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.016229459\n幅度級距：-10%\n區間異動：-10.15%\n基準價格：US$0.018063064\n24H：-10.60%\n4H RSI：42.48\n日線 RSI：48.36\n週線 RSI：37.28\n成交量：0.81×｜NORMAL\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dymension\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3ADYMUSDT\n\nMETIS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$2.9822461\n幅度級距：-10%\n區間異動：-10.12%\n基準價格：US$3.3180803\n24H：-10.67%\n4H RSI：38.24\n日線 RSI：40.74\n週線 RSI：48.22\n成交量：0.58×｜WEAK\n背離：NONE\n現貨來源：Binance｜歷史來源：Binance\nCoinGecko：\nhttps://www.coingecko.com/en/coins/metis-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BINANCE%3AMETISUSDT",
       "batch_id": "ntf_b0183d4ef95091c0ef3223b686814790",
