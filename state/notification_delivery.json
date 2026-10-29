@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-29T23:33:59.826708Z",
+  "updated_at_utc": "2026-10-29T23:49:06.231296Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -30433,6 +30433,47 @@
         },
         {
           "symbol": "RAD",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_a345e3962620996a5549af26aae658a8": {
+      "notification_id": "ntf_a345e3962620996a5549af26aae658a8",
+      "run_id": "20261029T234559Z_14726ef2",
+      "created_at_utc": "2026-10-29T23:49:06.229918Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261029T234559Z_14726ef2\n資料來源：CoinGecko＋公開現貨交易所\n\nNIGHT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.036517644\n幅度級距：-10%\n區間異動：-10.17%\n基準價格：US$0.040653807\n24H：-9.48%\n4H RSI：46.29\n日線 RSI：52.02\n週線 RSI：55.50\n成交量：1.41×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANIGHTUSD\n\nALGO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.093501045\n幅度級距：-10%\n區間異動：-10.10%\n基準價格：US$0.10401071\n24H：-9.76%\n4H RSI：40.35\n日線 RSI：40.43\n週線 RSI：50.14\n成交量：1.22×｜NORMAL\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/algorand\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AALGOUSD\n\nSAND｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.044190805\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$0.049132642\n24H：-6.98%\n4H RSI：47.77\n日線 RSI：39.37\n週線 RSI：43.57\n成交量：1.11×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASANDUSDT\n\nGALA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0016293845\n幅度級距：-10%\n區間異動：-10.04%\n基準價格：US$0.0018112316\n24H：-8.94%\n4H RSI：48.38\n日線 RSI：38.45\n週線 RSI：37.04\n成交量：1.10×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/gala\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AGALAUSDT",
+      "batch_id": "ntf_a345e3962620996a5549af26aae658a8",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "f4b9945edf8d48c8db84a5e956bc0e511e226c50a3776bc0bd8035fcc4787b11",
+      "alert_ranges": [
+        {
+          "symbol": "NIGHT",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ALGO",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SAND",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "GALA",
           "direction": "DOWN",
           "level": 10
         }
