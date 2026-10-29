@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-29T23:07:59.331323Z",
+  "updated_at_utc": "2026-10-29T23:18:40.522392Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -30351,6 +30351,42 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_ca423c20fcc8bdb43eb93cf17dfcb6fd": {
+      "notification_id": "ntf_ca423c20fcc8bdb43eb93cf17dfcb6fd",
+      "run_id": "20261029T231558Z_451aedbc",
+      "created_at_utc": "2026-10-29T23:18:40.521094Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261029T231558Z_451aedbc\n資料來源：CoinGecko＋公開現貨交易所\n\nWEN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$5.5017559e-06\n幅度級距：-10%\n區間異動：-10.60%\n基準價格：US$6.1541147e-06\n24H：-4.58%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：0.96×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wen-4\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AWENUSDT\n\nSNX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.18311815\n幅度級距：-10%\n區間異動：-10.11%\n基準價格：US$0.20370601\n24H：-9.37%\n4H RSI：47.77\n日線 RSI：37.08\n週線 RSI：35.69\n成交量：1.93×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/havven\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASNXUSD\n\nC98｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.01314655\n幅度級距：-10%\n區間異動：-10.04%\n基準價格：US$0.014613579\n24H：-9.79%\n4H RSI：46.36\n日線 RSI：42.41\n週線 RSI：42.20\n成交量：7.44×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coin98\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AC98USDT",
+      "batch_id": "ntf_ca423c20fcc8bdb43eb93cf17dfcb6fd",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "fe07c31c94e806537378b232f087bc06ed299779323379b6d024dff9cb8df503",
+      "alert_ranges": [
+        {
+          "symbol": "WEN",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SNX",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "C98",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
