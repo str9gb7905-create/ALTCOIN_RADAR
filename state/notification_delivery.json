@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-28T23:16:33.072010Z",
+  "updated_at_utc": "2026-10-29T00:26:00.103904Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -28861,6 +28861,32 @@
       "part_index": 1,
       "part_count": 1,
       "source_digest": "16977eed32d72d82e2bb41e86d43b943d690e77f95f909667776ac63285a52c4",
+      "alert_ranges": [
+        {
+          "symbol": "CSPR",
+          "direction": "UP",
+          "level": 30
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_5a671ef86598beddd0396f9c651c7ad6": {
+      "notification_id": "ntf_5a671ef86598beddd0396f9c651c7ad6",
+      "run_id": "20261029T002536Z_198fb49e",
+      "created_at_utc": "2026-10-29T00:26:00.102686Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261029T002536Z_198fb49e\n資料來源：CoinGecko＋公開現貨交易所\n\nCSPR｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0026935037\n幅度級距：+30%\n區間異動：+32.27%\n基準價格：US$0.0020363346\n24H：+27.00%\n4H RSI：78.47\n日線 RSI：58.49\n週線 RSI：39.57\n成交量：9.60×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/casper-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACSPRUSDT",
+      "batch_id": "ntf_5a671ef86598beddd0396f9c651c7ad6",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "6611f3517dc0ed31b1ac00b378dec179f9d88f1d16956aa7617ffaf62de7dd27",
       "alert_ranges": [
         {
           "symbol": "CSPR",
