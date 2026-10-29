@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-29T15:16:43.052674Z",
+  "updated_at_utc": "2026-10-29T15:16:46.941277Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -29492,13 +29492,13 @@
       "notification_id": "ntf_87a289b4e5cdbd126741c3d0d59ce172",
       "run_id": "20261029T151602Z_954a6f51",
       "created_at_utc": "2026-10-29T15:16:43.051726Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-29T15:16:46.941256Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261029T151602Z_954a6f51\n資料來源：CoinGecko＋公開現貨交易所\n\nLSK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.20699272\n幅度級距：+20%\n區間異動：+26.57%\n基準價格：US$0.1635435\n24H：+25.09%\n4H RSI：59.67\n日線 RSI：37.67\n週線 RSI：49.03\n成交量：4.55×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ALSKUSD",
       "batch_id": "ntf_87a289b4e5cdbd126741c3d0d59ce172",
