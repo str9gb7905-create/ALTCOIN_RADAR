@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-29T06:11:36.060438Z",
+  "updated_at_utc": "2026-10-29T07:01:26.689080Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -29108,6 +29108,37 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_9871abbf0834183000e97a427fbc8960": {
+      "notification_id": "ntf_9871abbf0834183000e97a427fbc8960",
+      "run_id": "20261029T070056Z_dff98954",
+      "created_at_utc": "2026-10-29T07:01:26.687869Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261029T070056Z_dff98954\n資料來源：CoinGecko＋公開現貨交易所\n\nBICO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.01617879\n幅度級距：-10%\n區間異動：-10.63%\n基準價格：US$0.018104018\n24H：+3.79%\n4H RSI：60.34\n日線 RSI：47.35\n週線 RSI：42.33\n成交量：8.50×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/biconomy\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABICOUSD\n\nGLMR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0089992917\n幅度級距：+10%\n區間異動：+10.13%\n基準價格：US$0.0081718217\n24H：+10.23%\n4H RSI：43.07\n日線 RSI：42.58\n週線 RSI：41.54\n成交量：0.97×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT",
+      "batch_id": "ntf_9871abbf0834183000e97a427fbc8960",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "ffc359c7621e666b088dc0af58b9cda863f35121e4ac5ae96ea61e4fcffe9c30",
+      "alert_ranges": [
+        {
+          "symbol": "BICO",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "GLMR",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
