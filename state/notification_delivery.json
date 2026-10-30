@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T00:20:28.900359Z",
+  "updated_at_utc": "2026-10-30T00:20:32.086726Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -30636,13 +30636,13 @@
       "notification_id": "ntf_d399f7caf51e5cce400a7c256e49bd5d_p0002",
       "run_id": "20261030T001601Z_36bef892",
       "created_at_utc": "2026-10-30T00:20:23.261012Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-30T00:20:32.086709Z",
       "event_count": 7,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T001601Z_36bef892\n資料來源：CoinGecko＋公開現貨交易所\n\nBEL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.096261034\n幅度級距：-10%\n區間異動：-10.24%\n基準價格：US$0.10724485\n24H：-10.23%\n4H RSI：33.87\n日線 RSI：33.81\n週線 RSI：44.12\n成交量：1.04×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bella-protocol\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABELUSDT\n\nSUSHI｜首次觸發\n觸發：由近24H高點下跌\n價格：US$0.18857927\n幅度級距：-10%\n區間異動：-10.23%\n基準價格：US$0.21006096\n24H：-9.15%\n4H RSI：34.29\n日線 RSI：31.41\n週線 RSI：46.45\n成交量：1.64×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sushi\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASUSHIUSD\n\nALT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.005942753\n幅度級距：-10%\n區間異動：-10.20%\n基準價格：US$0.0066180205\n24H：-10.40%\n4H RSI：32.55\n日線 RSI：39.91\n週線 RSI：42.34\n成交量：0.38×｜WEAK\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/altlayer\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AALTUSDT\n\nPSG｜首次觸發\n觸發：由近24H高點下跌\n價格：US$0.37632339\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.41889015\n24H：-8.62%\n4H RSI：27.29\n日線 RSI：25.10\n週線 RSI：30.97\n成交量：1.10×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/paris-saint-germain-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3APSGUSDT\n\nCOTI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0095958017\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$0.010669734\n24H：-8.11%\n4H RSI：37.18\n日線 RSI：30.54\n週線 RSI：42.20\n成交量：1.52×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coti\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ACOTIUSD\n\nEDU｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.053912828\n幅度級距：-10%\n區間異動：-10.05%\n基準價格：US$0.05993514\n24H：-9.10%\n4H RSI：31.66\n日線 RSI：36.95\n週線 RSI：51.63\n成交量：0.96×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/edu-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AEDUUSDT\n分批通知：第 2／2 則",
       "batch_id": "ntf_d399f7caf51e5cce400a7c256e49bd5d",
