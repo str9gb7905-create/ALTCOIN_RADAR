@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T05:48:25.397455Z",
+  "updated_at_utc": "2026-10-30T06:03:57.350720Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -31890,6 +31890,82 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_de3148725621b5d5119be64dea2e4628": {
+      "notification_id": "ntf_de3148725621b5d5119be64dea2e4628",
+      "run_id": "20261030T060052Z_0834b1d8",
+      "created_at_utc": "2026-10-30T06:03:57.349225Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 12,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T060052Z_0834b1d8\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.00098356116\n幅度級距：-40%\n區間異動：-41.60%\n基準價格：US$0.0016841641\n24H：-29.47%\n4H RSI：42.70\n日線 RSI：44.77\n週線 RSI：47.46\n成交量：2.22×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nBEAM｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0039962422\n幅度級距：+20%\n區間異動：+23.64%\n基準價格：US$0.0032321176\n24H：+17.89%\n4H RSI：56.20\n日線 RSI：61.59\n週線 RSI：76.55\n成交量：3.13×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABEAMUSD\n\nHFT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0046841713\n幅度級距：-10%\n區間異動：-10.61%\n基準價格：US$0.0052402865\n24H：-10.50%\n4H RSI：34.02\n日線 RSI：36.99\n週線 RSI：33.27\n成交量：1.11×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSD\n\nOP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.10212141\n幅度級距：-10%\n區間異動：-10.41%\n基準價格：US$0.11398431\n24H：-6.80%\n4H RSI：31.67\n日線 RSI：35.46\n週線 RSI：39.76\n成交量：1.83×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH, WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/optimism\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOPUSD\n\nTRUMP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.5481165\n幅度級距：-10%\n區間異動：-10.32%\n基準價格：US$1.7262355\n24H：-8.46%\n4H RSI：31.59\n日線 RSI：33.01\n週線 RSI：37.43\n成交量：2.06×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/official-trump\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ATRUMPUSDT\n\nXAI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0070170412\n幅度級距：-10%\n區間異動：-10.26%\n基準價格：US$0.007818896\n24H：-7.83%\n4H RSI：29.80\n日線 RSI：33.55\n週線 RSI：40.85\n成交量：0.95×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXAIUSDT\n\nXTZ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.25614818\n幅度級距：-10%\n區間異動：-10.17%\n基準價格：US$0.28513607\n24H：-7.03%\n4H RSI：30.97\n日線 RSI：33.30\n週線 RSI：46.98\n成交量：2.11×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/tezos\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AXTZUSD\n\nSUSHI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.18890172\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$0.21006096\n24H：-6.19%\n4H RSI：38.10\n日線 RSI：31.41\n週線 RSI：46.45\n成交量：2.58×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sushi\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASUSHIUSD\n\nBONK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$2.9061674e-06\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$3.2315273e-06\n24H：-5.86%\n4H RSI：40.81\n日線 RSI：37.94\n週線 RSI：35.42\n成交量：2.09×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bonk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABONKUSD\n\nNEAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.1823652\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$4.6499152\n24H：-6.79%\n4H RSI：38.57\n日線 RSI：40.63\n週線 RSI：68.37\n成交量：1.46×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ANEARUSD\n\nWLD｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.39550203\n幅度級距：-10%\n區間異動：-10.01%\n基準價格：US$0.43950159\n24H：-5.68%\n4H RSI：31.03\n日線 RSI：41.14\n週線 RSI：50.48\n成交量：2.28×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/worldcoin-wld\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AWLDUSDT",
+      "batch_id": "ntf_de3148725621b5d5119be64dea2e4628",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "0103f55088a2c6c0b61881a05bda0c7fb2e6582fbc44fd21dd77584115436254",
+      "alert_ranges": [
+        {
+          "symbol": "POND",
+          "direction": "DOWN",
+          "level": 40
+        },
+        {
+          "symbol": "BEAM",
+          "direction": "UP",
+          "level": 20
+        },
+        {
+          "symbol": "HFT",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "OP",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "TRUMP",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "XAI",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "XTZ",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SUSHI",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "BONK",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "NEAR",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "WLD",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 2
     }
   }
 }
