@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T09:48:49.620664Z",
+  "updated_at_utc": "2026-10-30T10:03:34.080474Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -32502,6 +32502,47 @@
         {
           "symbol": "RDNT",
           "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 3
+    },
+    "ntf_3758aebd6d83898fa61809659ed02d47": {
+      "notification_id": "ntf_3758aebd6d83898fa61809659ed02d47",
+      "run_id": "20261030T100054Z_4af2afe2",
+      "created_at_utc": "2026-10-30T10:03:34.079551Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T100054Z_4af2afe2\n資料來源：CoinGecko＋公開現貨交易所\n\nBEAM｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0046164252\n幅度級距：+40%\n區間異動：+42.83%\n基準價格：US$0.0032321176\n24H：+36.92%\n4H RSI：82.10\n日線 RSI：61.59\n週線 RSI：76.55\n成交量：9.65×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABEAMUSD\n\nAI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.017545177\n幅度級距：-10%\n區間異動：-10.25%\n基準價格：US$0.019548183\n24H：-6.82%\n4H RSI：36.47\n日線 RSI：40.73\n週線 RSI：37.64\n成交量：2.48×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sleepless-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAIUSD\n\nNIGHT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.039236585\n幅度級距：+10%\n區間異動：+10.17%\n基準價格：US$0.035614049\n24H：-0.80%\n4H RSI：44.12\n日線 RSI：44.46\n週線 RSI：55.50\n成交量：1.75×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANIGHTUSD\n\nSAND｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.047072317\n幅度級距：+10%\n區間異動：+10.12%\n基準價格：US$0.042747815\n24H：+0.70%\n4H RSI：40.06\n日線 RSI：35.36\n週線 RSI：43.57\n成交量：1.46×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASANDUSDT",
+      "batch_id": "ntf_3758aebd6d83898fa61809659ed02d47",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "30f272faf0812d877853e47ffd852651871775a5741b803dd6022ade6ef92244",
+      "alert_ranges": [
+        {
+          "symbol": "BEAM",
+          "direction": "UP",
+          "level": 40
+        },
+        {
+          "symbol": "AI",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "NIGHT",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "SAND",
+          "direction": "UP",
           "level": 10
         }
       ],
