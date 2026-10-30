@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T02:50:45.769531Z",
+  "updated_at_utc": "2026-10-30T03:04:53.415764Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -31519,6 +31519,62 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_d27ac3749d103d25df7287512750ba7a": {
+      "notification_id": "ntf_d27ac3749d103d25df7287512750ba7a",
+      "run_id": "20261030T030058Z_2b49e5cb",
+      "created_at_utc": "2026-10-30T03:04:53.413959Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 9,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T030058Z_2b49e5cb\n資料來源：CoinGecko＋公開現貨交易所\n\nIMX｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.10997883\n幅度級距：-20%\n區間異動：-22.35%\n基準價格：US$0.14163991\n24H：-19.50%\n4H RSI：35.61\n日線 RSI：30.96\n週線 RSI：44.40\n成交量：1.93×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD\n\nAEVO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.020072892\n幅度級距：-10%\n區間異動：-10.35%\n基準價格：US$0.02239122\n24H：-7.55%\n4H RSI：34.86\n日線 RSI：32.50\n週線 RSI：43.32\n成交量：9.32×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/aevo-exchange\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAEVOUSDT\n\nRON｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.048664379\n幅度級距：-10%\n區間異動：-10.28%\n基準價格：US$0.054238125\n24H：-7.24%\n4H RSI：32.53\n日線 RSI：31.37\n週線 RSI：36.56\n成交量：1.21×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ronin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARONUSDT\n\nSLP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00047865985\n幅度級距：-10%\n區間異動：-10.24%\n基準價格：US$0.00053328949\n24H：-7.80%\n4H RSI：29.78\n日線 RSI：27.01\n週線 RSI：41.28\n成交量：1.13×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/smooth-love-potion\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASLPUSDT\n\nVTHO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00053561606\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$0.00059562142\n24H：-6.27%\n4H RSI：37.89\n日線 RSI：37.19\n週線 RSI：51.92\n成交量：1.76×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vethor-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AVTHOUSD\n\nMANTA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.057565253\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$0.064011177\n24H：-8.29%\n4H RSI：30.97\n日線 RSI：38.15\n週線 RSI：45.71\n成交量：0.76×｜WEAK\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/manta-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AMANTAUSDT\n\nCVC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.021683471\n幅度級距：-10%\n區間異動：-10.02%\n基準價格：US$0.024096807\n24H：-7.29%\n4H RSI：35.92\n日線 RSI：39.40\n週線 RSI：43.38\n成交量：1.06×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/civic\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ACVCUSD",
+      "batch_id": "ntf_d27ac3749d103d25df7287512750ba7a",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "a348c4f780bf9185ae5072bc6cb4da749467cd71a55d295143aea711b2ce6e4b",
+      "alert_ranges": [
+        {
+          "symbol": "IMX",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "AEVO",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "RON",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SLP",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "VTHO",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "MANTA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "CVC",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 4
     }
   }
 }
