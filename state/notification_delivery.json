@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T12:03:53.816358Z",
+  "updated_at_utc": "2026-10-30T12:18:26.472370Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -32702,6 +32702,32 @@
         }
       ],
       "repeat_suppressed_count": 3
+    },
+    "ntf_57554e0c130b56290160b4d9693b1985": {
+      "notification_id": "ntf_57554e0c130b56290160b4d9693b1985",
+      "run_id": "20261030T121602Z_09bd767a",
+      "created_at_utc": "2026-10-30T12:18:26.471222Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T121602Z_09bd767a\n資料來源：CoinGecko＋公開現貨交易所\n\nTLM｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0013384795\n幅度級距：+20%\n區間異動：+24.03%\n基準價格：US$0.0010791467\n24H：+10.99%\n4H RSI：60.76\n日線 RSI：33.94\n週線 RSI：41.30\n成交量：1.93×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/alien-worlds\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ATLMUSDT",
+      "batch_id": "ntf_57554e0c130b56290160b4d9693b1985",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "2ebebb5ef7f1c9414b8b10e2321e0b61e355b2315486e878cad7b8aa8841b370",
+      "alert_ranges": [
+        {
+          "symbol": "TLM",
+          "direction": "UP",
+          "level": 20
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
