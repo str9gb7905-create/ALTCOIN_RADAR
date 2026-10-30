@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T13:18:20.210912Z",
+  "updated_at_utc": "2026-10-30T13:18:23.144409Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -32790,13 +32790,13 @@
       "notification_id": "ntf_aec292d8922d178e18c091f10489f66b",
       "run_id": "20261030T131601Z_76c7b264",
       "created_at_utc": "2026-10-30T13:18:20.209729Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-30T13:18:23.144388Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T131601Z_76c7b264\n資料來源：CoinGecko＋公開現貨交易所\n\nMEME｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00043398282\n幅度級距：-10%\n區間異動：-10.29%\n基準價格：US$0.00048374189\n24H：-8.07%\n4H RSI：36.68\n日線 RSI：28.97\n週線 RSI：39.19\n成交量：3.75×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/memecoin-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMEMEUSDT\n\nAKT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.61665938\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$0.6861677\n24H：-6.03%\n4H RSI：37.92\n日線 RSI：40.42\n週線 RSI：51.30\n成交量：1.81×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/akash-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAKTUSDT",
       "batch_id": "ntf_aec292d8922d178e18c091f10489f66b",
