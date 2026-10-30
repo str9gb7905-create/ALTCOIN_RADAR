@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T07:34:08.699764Z",
+  "updated_at_utc": "2026-10-30T07:34:11.413712Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -32131,13 +32131,13 @@
       "notification_id": "ntf_90a29e78bf9de68cabd76976d443882a",
       "run_id": "20261030T073051Z_65468b89",
       "created_at_utc": "2026-10-30T07:34:08.698589Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-30T07:34:11.413688Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T073051Z_65468b89\n資料來源：CoinGecko＋公開現貨交易所\n\nLAZIO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.37710475\n幅度級距：+10%\n區間異動：+11.04%\n基準價格：US$0.33962215\n24H：+0.76%\n4H RSI：22.96\n日線 RSI：38.22\n週線 RSI：38.36\n成交量：0.95×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lazio-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALAZIOUSDT\n\nHFT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.004664936\n幅度級距：-10%\n區間異動：-10.98%\n基準價格：US$0.0052402865\n24H：-9.35%\n4H RSI：34.02\n日線 RSI：36.99\n週線 RSI：33.27\n成交量：1.13×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSD\n\nBONK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$2.9006353e-06\n幅度級距：-10%\n區間異動：-10.24%\n基準價格：US$3.2315273e-06\n24H：-3.75%\n4H RSI：40.81\n日線 RSI：37.94\n週線 RSI：35.42\n成交量：2.07×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bonk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABONKUSD\n\nAXS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.85643237\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$0.95252535\n24H：-6.35%\n4H RSI：26.56\n日線 RSI：31.13\n週線 RSI：44.61\n成交量：6.52×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/axie-infinity\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAXSUSDT",
       "batch_id": "ntf_90a29e78bf9de68cabd76976d443882a",
