@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T10:48:50.766524Z",
+  "updated_at_utc": "2026-10-30T11:18:46.235751Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -32573,6 +32573,47 @@
         }
       ],
       "repeat_suppressed_count": 2
+    },
+    "ntf_d7a0e179bafac0b252e0ff670fe0d918": {
+      "notification_id": "ntf_d7a0e179bafac0b252e0ff670fe0d918",
+      "run_id": "20261030T111557Z_1c40e97f",
+      "created_at_utc": "2026-10-30T11:18:46.234078Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 6,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T111557Z_1c40e97f\n資料來源：CoinGecko＋公開現貨交易所\n\nGLMR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0078673563\n幅度級距：-10%\n區間異動：-10.57%\n基準價格：US$0.0087967514\n24H：-9.34%\n4H RSI：37.56\n日線 RSI：38.40\n週線 RSI：41.11\n成交量：1.76×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AGLMRUSDT\n\nSNX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.18298834\n幅度級距：-10%\n區間異動：-10.17%\n基準價格：US$0.20370601\n24H：-7.52%\n4H RSI：35.66\n日線 RSI：28.54\n週線 RSI：35.69\n成交量：3.67×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/havven\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASNXUSD\n\nADX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.053201664\n幅度級距：-10%\n區間異動：-10.05%\n基準價格：US$0.059142892\n24H：-8.50%\n4H RSI：36.79\n日線 RSI：33.25\n週線 RSI：42.85\n成交量：5.13×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/adex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AADXUSDT\n\nPOL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.092241979\n幅度級距：+10%\n區間異動：+10.01%\n基準價格：US$0.083851255\n24H：+0.44%\n4H RSI：44.31\n日線 RSI：35.23\n週線 RSI：45.93\n成交量：3.09×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/polygon-ecosystem-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APOLUSD",
+      "batch_id": "ntf_d7a0e179bafac0b252e0ff670fe0d918",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "c2b256db855ab8b5d9081e9d1ad3f9952770e85b7af4051460a576771d38598d",
+      "alert_ranges": [
+        {
+          "symbol": "GLMR",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SNX",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ADX",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "POL",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 3
     }
   }
 }
