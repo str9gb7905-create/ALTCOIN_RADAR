@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T22:47:58.750687Z",
+  "updated_at_utc": "2026-10-30T22:48:01.806661Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -33616,13 +33616,13 @@
       "notification_id": "ntf_3334281c882b33172870f0d3e6595ddd",
       "run_id": "20261030T224605Z_dc92d189",
       "created_at_utc": "2026-10-30T22:47:58.749168Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-30T22:48:01.806639Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T224605Z_dc92d189\n資料來源：CoinGecko＋公開現貨交易所\n\nLINK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$11.374295\n幅度級距：+10%\n區間異動：+10.15%\n基準價格：US$10.32646\n24H：+5.23%\n4H RSI：43.64\n日線 RSI：31.77\n週線 RSI：52.91\n成交量：4.33×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chainlink\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ALINKUSDC",
       "batch_id": "ntf_3334281c882b33172870f0d3e6595ddd",
