@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T05:03:31.940481Z",
+  "updated_at_utc": "2026-10-30T05:18:23.525945Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -31792,6 +31792,37 @@
         },
         {
           "symbol": "MAV",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
+    },
+    "ntf_0390d995294949f3eefd3a39e5fad0b0": {
+      "notification_id": "ntf_0390d995294949f3eefd3a39e5fad0b0",
+      "run_id": "20261030T051559Z_e25ecb42",
+      "created_at_utc": "2026-10-30T05:18:23.524514Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T051559Z_e25ecb42\n資料來源：CoinGecko＋公開現貨交易所\n\nFUN｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.0041788212\n幅度級距：+60%\n區間異動：+64.87%\n基準價格：US$0.0025346538\n24H：-53.91%\n4H RSI：26.18\n日線 RSI：35.76\n週線 RSI：32.39\n成交量：0.92×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/funfair\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFUNUSDT\n\nOSMO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.046518315\n幅度級距：-10%\n區間異動：-10.32%\n基準價格：US$0.051870743\n24H：-8.73%\n4H RSI：43.01\n日線 RSI：51.18\n週線 RSI：59.60\n成交量：1.51×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOSMOUSD",
+      "batch_id": "ntf_0390d995294949f3eefd3a39e5fad0b0",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "28bb71656a8a1ec48415c5bccbb3d8610f2e43d3a03b67f8c75e7234ade0589c",
+      "alert_ranges": [
+        {
+          "symbol": "FUN",
+          "direction": "UP",
+          "level": 60
+        },
+        {
+          "symbol": "OSMO",
           "direction": "DOWN",
           "level": 10
         }
