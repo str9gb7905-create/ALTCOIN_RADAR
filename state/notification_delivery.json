@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T19:18:06.917297Z",
+  "updated_at_utc": "2026-10-30T19:47:51.843688Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -33363,6 +33363,32 @@
         }
       ],
       "repeat_suppressed_count": 3
+    },
+    "ntf_e1f3a6c6209701f23c6bb892e5057612": {
+      "notification_id": "ntf_e1f3a6c6209701f23c6bb892e5057612",
+      "run_id": "20261030T194553Z_f20ea337",
+      "created_at_utc": "2026-10-30T19:47:51.842917Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T194553Z_f20ea337\n資料來源：CoinGecko＋公開現貨交易所\n\nQKC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0024349464\n幅度級距：+10%\n區間異動：+10.17%\n基準價格：US$0.00221022\n24H：+2.01%\n4H RSI：48.09\n日線 RSI：36.82\n週線 RSI：43.87\n成交量：0.99×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quark-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AQKCUSDT",
+      "batch_id": "ntf_e1f3a6c6209701f23c6bb892e5057612",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "67015a86b0015d8af47970a17d48c5c79e50c03118765f7585415927644b60f3",
+      "alert_ranges": [
+        {
+          "symbol": "QKC",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
