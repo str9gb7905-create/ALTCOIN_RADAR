@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T00:37:07.714429Z",
+  "updated_at_utc": "2026-10-30T00:37:11.082865Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -31011,13 +31011,13 @@
       "notification_id": "ntf_40519bb06313a5f3ebc1518c2006826d_p0005",
       "run_id": "20261030T003104Z_4df4afb0",
       "created_at_utc": "2026-10-30T00:36:42.614896Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-30T00:37:11.082845Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T003104Z_4df4afb0\n資料來源：CoinGecko＋公開現貨交易所\n\nPORTAL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.012327809\n幅度級距：-10%\n區間異動：-10.28%\n基準價格：US$0.013741005\n24H：-9.88%\n4H RSI：36.05\n日線 RSI：37.63\n週線 RSI：43.76\n成交量：1.21×｜NORMAL\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/portal-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3APORTALUSDT\n\nXEC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$6.0039458e-06\n幅度級距：-10%\n區間異動：-10.18%\n基準價格：US$6.6845656e-06\n24H：-10.16%\n4H RSI：33.12\n日線 RSI：35.94\n週線 RSI：44.93\n成交量：1.24×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ecash\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXECUSDT\n\nPEAQ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.031872973\n幅度級距：-10%\n區間異動：-10.02%\n基準價格：US$0.035421195\n24H：-7.61%\n4H RSI：38.80\n日線 RSI：38.08\n週線 RSI：56.88\n成交量：1.29×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT\n分批通知：第 5／5 則",
       "batch_id": "ntf_40519bb06313a5f3ebc1518c2006826d",
