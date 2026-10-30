@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T12:33:25.048416Z",
+  "updated_at_utc": "2026-10-30T12:48:41.659141Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -32754,6 +32754,37 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_bb29448f0c76933eff17a48e7680e356": {
+      "notification_id": "ntf_bb29448f0c76933eff17a48e7680e356",
+      "run_id": "20261030T124603Z_de472b9a",
+      "created_at_utc": "2026-10-30T12:48:41.657625Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T124603Z_de472b9a\n資料來源：CoinGecko＋公開現貨交易所\n\nALICE｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.13585617\n幅度級距：+10%\n區間異動：+10.78%\n基準價格：US$0.12263771\n24H：+0.02%\n4H RSI：49.25\n日線 RSI：35.51\n週線 RSI：47.98\n成交量：1.31×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/my-neighbor-alice\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AALICEUSD\n\nAKT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.61729273\n幅度級距：-10%\n區間異動：-10.04%\n基準價格：US$0.6861677\n24H：-6.06%\n4H RSI：37.92\n日線 RSI：40.42\n週線 RSI：51.30\n成交量：1.81×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/akash-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAKTUSDT",
+      "batch_id": "ntf_bb29448f0c76933eff17a48e7680e356",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "180a16f5d0e227eb65eefb124ac6bb758c40a25edbbe9d57051993f2b39d5d45",
+      "alert_ranges": [
+        {
+          "symbol": "ALICE",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "AKT",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 3
     }
   }
 }
