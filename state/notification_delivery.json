@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T00:52:29.682668Z",
+  "updated_at_utc": "2026-10-30T01:06:53.566307Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -31070,6 +31070,42 @@
           "symbol": "PYTH",
           "direction": "DOWN",
           "level": 20
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_112595ec8e53c1bf4343aa3089c7ddae": {
+      "notification_id": "ntf_112595ec8e53c1bf4343aa3089c7ddae",
+      "run_id": "20261030T010055Z_4f53bdc7",
+      "created_at_utc": "2026-10-30T01:06:53.565523Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T010055Z_4f53bdc7\n資料來源：CoinGecko＋公開現貨交易所\n\nFUN｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0058250379\n幅度級距：-30%\n區間異動：-34.39%\n基準價格：US$0.0088787806\n24H：-39.11%\n4H RSI：31.58\n日線 RSI：35.76\n週線 RSI：32.39\n成交量：0.89×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/funfair\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFUNUSDT\n\nNOS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.39307104\n幅度級距：-10%\n區間異動：-10.65%\n基準價格：US$0.43992286\n24H：-10.55%\n4H RSI：26.54\n日線 RSI：38.34\n週線 RSI：56.21\n成交量：0.86×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD\n\nMERL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.027305393\n幅度級距：+10%\n區間異動：+10.37%\n基準價格：US$0.024740087\n24H：+3.07%\n4H RSI：53.00\n日線 RSI：50.00\n週線 RSI：40.42\n成交量：7.03×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMERLUSDT",
+      "batch_id": "ntf_112595ec8e53c1bf4343aa3089c7ddae",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "fa80c32858f43e0f1c40435141df27a53ddf184fd83166793b5d58cfec6d7352",
+      "alert_ranges": [
+        {
+          "symbol": "FUN",
+          "direction": "DOWN",
+          "level": 30
+        },
+        {
+          "symbol": "NOS",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "MERL",
+          "direction": "UP",
+          "level": 10
         }
       ],
       "repeat_suppressed_count": 0
