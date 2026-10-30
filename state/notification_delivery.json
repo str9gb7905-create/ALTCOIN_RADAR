@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T02:50:40.953241Z",
+  "updated_at_utc": "2026-10-30T02:50:43.284078Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -31483,13 +31483,13 @@
       "notification_id": "ntf_28ffd7195ce5d905853677a1d8293a5c",
       "run_id": "20261030T024553Z_503dfa5c",
       "created_at_utc": "2026-10-30T02:50:40.952238Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-30T02:50:43.284053Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T024553Z_503dfa5c\n資料來源：CoinGecko＋公開現貨交易所\n\nPHA｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.037800427\n幅度級距：-20%\n區間異動：-21.19%\n基準價格：US$0.047966159\n24H：-18.85%\n4H RSI：32.05\n日線 RSI：38.92\n週線 RSI：53.17\n成交量：7.90×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APHAUSDT\n\nLAT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00048600658\n幅度級距：-10%\n區間異動：-10.57%\n基準價格：US$0.00054344663\n24H：-9.48%\n4H RSI：33.78\n日線 RSI：40.57\n週線 RSI：33.61\n成交量：0.55×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/platon-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ALATUSDT\n\nONE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0011699613\n幅度級距：-10%\n區間異動：-10.33%\n基準價格：US$0.0013047555\n24H：-4.33%\n4H RSI：35.42\n日線 RSI：35.90\n週線 RSI：43.32\n成交量：3.39×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT\n\nXPL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.076533599\n幅度級距：+10%\n區間異動：+10.17%\n基準價格：US$0.069470596\n24H：+3.22%\n4H RSI：42.60\n日線 RSI：47.26\n週線 RSI：31.29\n成交量：2.91×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/plasma\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AXPLUSDT",
       "batch_id": "ntf_28ffd7195ce5d905853677a1d8293a5c",
