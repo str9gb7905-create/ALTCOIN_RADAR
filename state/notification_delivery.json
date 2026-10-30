@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T02:21:15.710729Z",
+  "updated_at_utc": "2026-10-30T02:21:18.712561Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -31395,13 +31395,13 @@
       "notification_id": "ntf_6d099eee9dbb93e27ffe98e9c7536886",
       "run_id": "20261030T021556Z_b3c77a1a",
       "created_at_utc": "2026-10-30T02:21:15.709564Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-30T02:21:18.712538Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T021556Z_b3c77a1a\n資料來源：CoinGecko＋公開現貨交易所\n\nCRV｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.2684371\n幅度級距：-20%\n區間異動：-20.11%\n基準價格：US$0.33599615\n24H：-17.11%\n4H RSI：30.30\n日線 RSI：36.07\n週線 RSI：52.33\n成交量：2.09×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BULLISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/curve-dao-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ACRVUSD\n\nLRC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.007480637\n幅度級距：-10%\n區間異動：-10.35%\n基準價格：US$0.0083438547\n24H：-9.66%\n4H RSI：54.42\n日線 RSI：40.38\n週線 RSI：29.65\n成交量：1.75×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/loopring\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ALRCUSD\n\nCVC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.021663596\n幅度級距：-10%\n區間異動：-10.10%\n基準價格：US$0.024096807\n24H：-7.15%\n4H RSI：35.92\n日線 RSI：39.40\n週線 RSI：43.38\n成交量：1.02×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/civic\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ACVCUSD",
       "batch_id": "ntf_6d099eee9dbb93e27ffe98e9c7536886",
