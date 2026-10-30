@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T14:34:09.188905Z",
+  "updated_at_utc": "2026-10-30T14:34:12.415002Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -32939,13 +32939,13 @@
       "notification_id": "ntf_cf9e294655d2a33c83a9a213772429ec",
       "run_id": "20261030T143105Z_0512373e",
       "created_at_utc": "2026-10-30T14:34:09.187436Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-30T14:34:12.414979Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T143105Z_0512373e\n資料來源：CoinGecko＋公開現貨交易所\n\nCPOOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.027073033\n幅度級距：-10%\n區間異動：-11.15%\n基準價格：US$0.030469885\n24H：-10.65%\n4H RSI：44.63\n日線 RSI：42.98\n週線 RSI：51.02\n成交量：3.73×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/clearpool\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACPOOLUSDT",
       "batch_id": "ntf_cf9e294655d2a33c83a9a213772429ec",
