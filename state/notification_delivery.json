@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T22:17:50.389342Z",
+  "updated_at_utc": "2026-10-30T22:17:53.160078Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -33580,13 +33580,13 @@
       "notification_id": "ntf_2e9fd7cfbe02dce530d208f0cda9302f",
       "run_id": "20261030T221603Z_e22214ae",
       "created_at_utc": "2026-10-30T22:17:50.387863Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-30T22:17:53.160057Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T221603Z_e22214ae\n資料來源：CoinGecko＋公開現貨交易所\n\nPENGU｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0074766257\n幅度級距：+10%\n區間異動：+10.86%\n基準價格：US$0.0067444117\n24H：+4.37%\n4H RSI：44.72\n日線 RSI：37.27\n週線 RSI：47.05\n成交量：2.29×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pudgy-penguins\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APENGUUSDT\n\nAPT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.65043578\n幅度級距：+10%\n區間異動：+10.56%\n基準價格：US$0.58833212\n24H：+4.59%\n4H RSI：39.90\n日線 RSI：33.00\n週線 RSI：43.52\n成交量：1.69×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/aptos\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAPTUSDT\n\nENJ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.024038791\n幅度級距：+10%\n區間異動：+10.10%\n基準價格：US$0.021834003\n24H：+1.40%\n4H RSI：39.53\n日線 RSI：31.28\n週線 RSI：44.03\n成交量：4.62×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENJUSDT",
       "batch_id": "ntf_2e9fd7cfbe02dce530d208f0cda9302f",
