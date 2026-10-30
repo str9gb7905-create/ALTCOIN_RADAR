@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-30T13:49:09.895150Z",
+  "updated_at_utc": "2026-10-30T13:49:12.421760Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -32847,13 +32847,13 @@
       "notification_id": "ntf_44d2bad2fce2c3daec47603a41e7959d",
       "run_id": "20261030T134553Z_19bfe1bb",
       "created_at_utc": "2026-10-30T13:49:09.894112Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-10-30T13:49:12.421734Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T134553Z_19bfe1bb\n資料來源：CoinGecko＋公開現貨交易所\n\nBEAM｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0049968841\n幅度級距：+50%\n區間異動：+54.60%\n基準價格：US$0.0032321176\n24H：+48.76%\n4H RSI：86.09\n日線 RSI：61.59\n週線 RSI：76.55\n成交量：16.01×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABEAMUSD\n\nCSPR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0020866424\n幅度級距：-10%\n區間異動：-10.62%\n基準價格：US$0.0023345418\n24H：-10.43%\n4H RSI：46.00\n日線 RSI：41.91\n週線 RSI：39.57\n成交量：3.19×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/casper-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACSPRUSDT\n\nEDU｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.053724681\n幅度級距：-10%\n區間異動：-10.36%\n基準價格：US$0.05993514\n24H：-8.85%\n4H RSI：36.89\n日線 RSI：36.95\n週線 RSI：51.63\n成交量：0.94×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/edu-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AEDUUSDT\n\nFIDA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.016378324\n幅度級距：-10%\n區間異動：-10.20%\n基準價格：US$0.018238788\n24H：-7.27%\n4H RSI：33.99\n日線 RSI：32.20\n週線 RSI：40.11\n成交量：1.04×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bonfida\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFIDAUSD",
       "batch_id": "ntf_44d2bad2fce2c3daec47603a41e7959d",
