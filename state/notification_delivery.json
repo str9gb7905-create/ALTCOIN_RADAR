@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-29T23:49:10.984016Z",
+  "updated_at_utc": "2026-10-30T00:03:57.301727Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -30474,6 +30474,77 @@
         },
         {
           "symbol": "GALA",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_d91605187af020dfe0f9b143b6762fff": {
+      "notification_id": "ntf_d91605187af020dfe0f9b143b6762fff",
+      "run_id": "20261030T000103Z_90751c57",
+      "created_at_utc": "2026-10-30T00:03:57.300215Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 13,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261030T000103Z_90751c57\n資料來源：CoinGecko＋公開現貨交易所\n\nBST｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0053319767\n幅度級距：-40%\n區間異動：-45.02%\n基準價格：US$0.0096974436\n24H：-45.13%\n4H RSI：7.68\n日線 RSI：16.70\n週線 RSI：32.15\n成交量：1.16×｜NORMAL\n背離：WEEKLY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blocksquare\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABSTUSDT\n\nREZ｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0039452451\n幅度級距：-20%\n區間異動：-20.22%\n基準價格：US$0.0049450174\n24H：-19.81%\n4H RSI：31.42\n日線 RSI：47.83\n週線 RSI：59.71\n成交量：5.83×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/renzo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AREZUSD\n\nFUN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0078908501\n幅度級距：-10%\n區間異動：-11.13%\n基準價格：US$0.0088787806\n24H：-10.50%\n4H RSI：31.58\n日線 RSI：35.76\n週線 RSI：32.39\n成交量：0.78×｜WEAK\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/funfair\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFUNUSDT\n\nDOT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.90884661\n幅度級距：-10%\n區間異動：-10.59%\n基準價格：US$1.0164982\n24H：-10.07%\n4H RSI：31.04\n日線 RSI：28.84\n週線 RSI：44.47\n成交量：0.55×｜WEAK\n背離：WEEKLY_BULLISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/polkadot\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADOTUSDT\n\nC98｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.01306633\n幅度級距：-10%\n區間異動：-10.55%\n基準價格：US$0.014606783\n24H：-10.41%\n4H RSI：32.87\n日線 RSI：34.06\n週線 RSI：42.20\n成交量：7.55×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coin98\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AC98USDT\n\nRENDER｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.5313192\n幅度級距：-10%\n區間異動：-10.44%\n基準價格：US$1.7098533\n24H：-10.13%\n4H RSI：33.17\n日線 RSI：31.79\n週線 RSI：48.91\n成交量：1.96×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/render-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARENDERUSD\n\nA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.082496543\n幅度級距：-10%\n區間異動：-10.24%\n基準價格：US$0.091910206\n24H：-9.41%\n4H RSI：31.88\n日線 RSI：39.61\n週線 RSI：46.95\n成交量：1.07×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vaulta\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AAUSD\n\nVET｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0057607699\n幅度級距：-10%\n區間異動：-10.10%\n基準價格：US$0.0064081967\n24H：-10.11%\n4H RSI：29.54\n日線 RSI：27.99\n週線 RSI：44.83\n成交量：1.49×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vechain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AVETUSD\n\nFIL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.82626585\n幅度級距：-10%\n區間異動：-10.04%\n基準價格：US$0.91848862\n24H：-9.60%\n4H RSI：32.22\n日線 RSI：33.28\n週線 RSI：48.76\n成交量：1.02×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/filecoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFILUSDT\n\nAKT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.617289\n幅度級距：-10%\n區間異動：-10.04%\n基準價格：US$0.6861677\n24H：-7.96%\n4H RSI：36.81\n日線 RSI：40.42\n週線 RSI：51.30\n成交量：1.38×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/akash-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAKTUSDT",
+      "batch_id": "ntf_d91605187af020dfe0f9b143b6762fff",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "0f63872b9017b6be3820a4a14ede8dadd5a643d3d6d7e88f9ae2e92b17ce4505",
+      "alert_ranges": [
+        {
+          "symbol": "BST",
+          "direction": "DOWN",
+          "level": 40
+        },
+        {
+          "symbol": "REZ",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "FUN",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "DOT",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "C98",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "RENDER",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "A",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "VET",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "FIL",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "AKT",
           "direction": "DOWN",
           "level": 10
         }
