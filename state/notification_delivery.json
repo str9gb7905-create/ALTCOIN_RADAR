@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-31T03:47:08.355172Z",
+  "updated_at_utc": "2026-10-31T04:46:52.003811Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -34083,6 +34083,42 @@
           "symbol": "CVC",
           "direction": "UP",
           "level": 20
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_502a9bfcffbf684dafba2cdb951ade80": {
+      "notification_id": "ntf_502a9bfcffbf684dafba2cdb951ade80",
+      "run_id": "20261031T044551Z_46f09e75",
+      "created_at_utc": "2026-10-31T04:46:52.003019Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261031T044551Z_46f09e75\n資料來源：CoinGecko＋公開現貨交易所\n\nBST｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0074742081\n幅度級距：+50%\n區間異動：+50.25%\n基準價格：US$0.004974675\n24H：+45.24%\n4H RSI：42.25\n日線 RSI：32.53\n週線 RSI：32.15\n成交量：0.43×｜WEAK / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：WEEKLY_BEARISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blocksquare\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABSTUSDT\n\nFUN｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0030255613\n幅度級距：-30%\n區間異動：-30.98%\n基準價格：US$0.0043837917\n24H：-4.53%\n4H RSI：39.12\n日線 RSI：34.14\n週線 RSI：32.39\n成交量：2.10×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/funfair\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFUNUSDT\n\nS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.03980437\n幅度級距：-10%\n區間異動：-10.38%\n基準價格：US$0.044416208\n24H：-3.55%\n4H RSI：28.60\n日線 RSI：39.75\n週線 RSI：51.40\n成交量：1.12×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sonic-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASUSDT",
+      "batch_id": "ntf_502a9bfcffbf684dafba2cdb951ade80",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "54de488e4d44cc01e44add651f9612d7f46946129563b2f8168433e47f36ebc0",
+      "alert_ranges": [
+        {
+          "symbol": "BST",
+          "direction": "UP",
+          "level": 50
+        },
+        {
+          "symbol": "FUN",
+          "direction": "DOWN",
+          "level": 30
+        },
+        {
+          "symbol": "S",
+          "direction": "DOWN",
+          "level": 10
         }
       ],
       "repeat_suppressed_count": 0
