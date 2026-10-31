@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-31T03:02:05.389875Z",
+  "updated_at_utc": "2026-10-31T03:47:02.415636Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -34050,6 +34050,42 @@
         }
       ],
       "repeat_suppressed_count": 3
+    },
+    "ntf_d2ad861a35451d2aa4941dca79da6d60": {
+      "notification_id": "ntf_d2ad861a35451d2aa4941dca79da6d60",
+      "run_id": "20261031T034602Z_9ba50d39",
+      "created_at_utc": "2026-10-31T03:47:02.414186Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261031T034602Z_9ba50d39\n資料來源：CoinGecko＋公開現貨交易所\n\nBST｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0069796523\n幅度級距：+40%\n區間異動：+40.30%\n基準價格：US$0.004974675\n24H：+34.96%\n4H RSI：37.92\n日線 RSI：32.53\n週線 RSI：32.15\n成交量：0.43×｜WEAK / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：WEEKLY_BEARISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blocksquare\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABSTUSDT\n\nRAD｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.25084548\n幅度級距：+20%\n區間異動：+23.14%\n基準價格：US$0.2037079\n24H：+20.90%\n4H RSI：38.68\n日線 RSI：33.55\n週線 RSI：52.92\n成交量：4.85×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSDC\n\nCVC｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.023038752\n幅度級距：+20%\n區間異動：+20.25%\n基準價格：US$0.019158597\n24H：+8.68%\n4H RSI：50.33\n日線 RSI：42.09\n週線 RSI：45.84\n成交量：95.41×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/civic\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACVCUSDT",
+      "batch_id": "ntf_d2ad861a35451d2aa4941dca79da6d60",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "b4a36419633bd68e35ee8e6859faa44e58f1358cbfe34b44926488ab3e6d5f17",
+      "alert_ranges": [
+        {
+          "symbol": "BST",
+          "direction": "UP",
+          "level": 40
+        },
+        {
+          "symbol": "RAD",
+          "direction": "UP",
+          "level": 20
+        },
+        {
+          "symbol": "CVC",
+          "direction": "UP",
+          "level": 20
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
