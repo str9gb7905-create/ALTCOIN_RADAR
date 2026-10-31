@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-31T12:17:01.120409Z",
+  "updated_at_utc": "2026-10-31T12:46:56.822575Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -34630,6 +34630,37 @@
         },
         {
           "symbol": "PHA",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_580069ead731f8a51d58e0590015747e": {
+      "notification_id": "ntf_580069ead731f8a51d58e0590015747e",
+      "run_id": "20261031T124601Z_a2df54ff",
+      "created_at_utc": "2026-10-31T12:46:56.821248Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261031T124601Z_a2df54ff\n資料來源：CoinGecko＋公開現貨交易所\n\nADX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.06098959\n幅度級距：+10%\n區間異動：+18.00%\n基準價格：US$0.051687805\n24H：+15.75%\n4H RSI：56.06\n日線 RSI：38.70\n週線 RSI：42.85\n成交量：5.36×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/adex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AADXUSDT\n\nMERL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.030639805\n幅度級距：+10%\n區間異動：+10.20%\n基準價格：US$0.027804335\n24H：+10.08%\n4H RSI：64.19\n日線 RSI：57.54\n週線 RSI：40.42\n成交量：2.58×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMERLUSDT",
+      "batch_id": "ntf_580069ead731f8a51d58e0590015747e",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "335c904ccc5f8841ad05210bb5fa9ae099a079ff91f2ccd6a6f4b09232b0f589",
+      "alert_ranges": [
+        {
+          "symbol": "ADX",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "MERL",
           "direction": "UP",
           "level": 10
         }
