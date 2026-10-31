@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-31T11:01:52.721965Z",
+  "updated_at_utc": "2026-10-31T11:16:41.902481Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -34547,6 +34547,37 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_21e05e5bb86f6224308a3ff049f7b30d": {
+      "notification_id": "ntf_21e05e5bb86f6224308a3ff049f7b30d",
+      "run_id": "20261031T111604Z_6165d626",
+      "created_at_utc": "2026-10-31T11:16:41.901159Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261031T111604Z_6165d626\n資料來源：CoinGecko＋公開現貨交易所\n\nFUN｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0022618358\n幅度級距：-30%\n區間異動：-32.19%\n基準價格：US$0.0033354248\n24H：-29.81%\n4H RSI：40.34\n日線 RSI：34.14\n週線 RSI：32.39\n成交量：2.10×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/funfair\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFUNUSDT\n\nLSK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.26304474\n幅度級距：+30%\n區間異動：+30.67%\n基準價格：US$0.20131004\n24H：+27.47%\n4H RSI：65.25\n日線 RSI：49.23\n週線 RSI：48.17\n成交量：50.89×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT",
+      "batch_id": "ntf_21e05e5bb86f6224308a3ff049f7b30d",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "b75c644d001e05590edd72d9f3907b36b5b65655288b6e80d4987a5700ce5610",
+      "alert_ranges": [
+        {
+          "symbol": "FUN",
+          "direction": "DOWN",
+          "level": 30
+        },
+        {
+          "symbol": "LSK",
+          "direction": "UP",
+          "level": 30
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
