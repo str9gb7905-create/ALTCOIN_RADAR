@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261031T190051Z_0cdad2f1",
-  "updated_at": "2026-10-31T19:01:14.849793Z",
+  "last_run_id": "20261031T191609Z_53bf086a",
+  "updated_at": "2026-10-31T19:16:55.811587Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -993,7 +993,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-31T19:01:14.849793Z",
+      "last_seen_at": "2026-10-31T19:16:55.811587Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1109,10 +1109,10 @@
     },
     "LSK": {
       "coingecko_id": "lisk",
-      "history_source": "Gate",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-31T19:01:14.849793Z",
+      "last_seen_at": "2026-10-31T19:16:55.811587Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1522,10 +1522,10 @@
     },
     "REZ": {
       "coingecko_id": "renzo",
-      "history_source": "Bitget",
-      "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
+      "history_source": "Binance",
+      "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-31T19:01:14.849793Z",
+      "last_seen_at": "2026-10-31T19:16:55.811587Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1534,18 +1534,18 @@
         "active_signals": [
           {
             "type": "WEEKLY_BULLISH",
-            "signature": "REZ|1W|BULLISH|2026-02-22|2026-07-19",
+            "signature": "REZ|1W|BULLISH|2026-02-23|2026-07-20",
             "pivots": [
               {
-                "timestamp": "2026-02-22",
+                "timestamp": "2026-02-23",
                 "price": 0.00264,
-                "rsi": 27.230105105771315,
+                "rsi": 29.917968570703707,
                 "confirmed": true
               },
               {
-                "timestamp": "2026-07-19",
-                "price": 0.002303,
-                "rsi": 35.81579373980904,
+                "timestamp": "2026-07-20",
+                "price": 0.002295,
+                "rsi": 37.764829990074354,
                 "confirmed": true
               }
             ]
@@ -1864,7 +1864,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-31T19:01:14.849793Z",
+      "last_seen_at": "2026-10-31T19:16:55.811587Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2423,7 +2423,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-31T19:01:14.849793Z",
+      "last_seen_at": "2026-10-31T19:16:55.811587Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2473,7 +2473,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-31T19:01:14.849793Z",
+      "last_seen_at": "2026-10-31T19:16:55.811587Z",
       "daily": {
         "active_signals": [
           {
@@ -2542,10 +2542,10 @@
     },
     "RAD": {
       "coingecko_id": "radicle",
-      "history_source": "Coinbase",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-31T19:01:14.849793Z",
+      "last_seen_at": "2026-10-31T19:16:55.811587Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2644,10 +2644,10 @@
     },
     "SLP": {
       "coingecko_id": "smooth-love-potion",
-      "history_source": "Gate",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-31T19:01:14.849793Z",
+      "last_seen_at": "2026-10-31T19:16:55.811587Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
