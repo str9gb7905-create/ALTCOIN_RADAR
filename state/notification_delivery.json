@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-01T06:46:41.699895Z",
+  "updated_at_utc": "2026-11-01T07:01:32.412215Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -35320,6 +35320,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_dcbd48187410eb955bf4515d54506c6f": {
+      "notification_id": "ntf_dcbd48187410eb955bf4515d54506c6f",
+      "run_id": "20261101T070101Z_38e3cc76",
+      "created_at_utc": "2026-11-01T07:01:32.410738Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261101T070101Z_38e3cc76\n資料來源：CoinGecko＋公開現貨交易所\n\nBEAM｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0057700349\n幅度級距：+20%\n區間異動：+21.14%\n基準價格：US$0.0047631796\n24H：+19.73%\n4H RSI：67.85\n日線 RSI：81.32\n週線 RSI：76.55\n成交量：9.83×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABEAMUSD",
+      "batch_id": "ntf_dcbd48187410eb955bf4515d54506c6f",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "f54ae66e2e74d3f4c0c833291738a342cfd5a3e53bc7d6085ca3bddd59e6969a",
+      "alert_ranges": [
+        {
+          "symbol": "BEAM",
+          "direction": "UP",
+          "level": 20
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
