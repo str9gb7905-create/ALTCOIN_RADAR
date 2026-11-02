@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-02T15:16:26.869162Z",
+  "updated_at_utc": "2026-11-02T15:31:46.455881Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -36291,6 +36291,42 @@
       "alert_ranges": [
         {
           "symbol": "LSK",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_2bfec5fdcdb9b97dce367d6f993a2b15": {
+      "notification_id": "ntf_2bfec5fdcdb9b97dce367d6f993a2b15",
+      "run_id": "20261102T153120Z_5a7642df",
+      "created_at_utc": "2026-11-02T15:31:46.454668Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261102T153120Z_5a7642df\n資料來源：CoinGecko＋公開現貨交易所\n\nFUN｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.0024410868\n幅度級距：+30%\n區間異動：+36.73%\n基準價格：US$0.001785296\n24H：+4.91%\n4H RSI：40.42\n日線 RSI：37.20\n週線 RSI：34.80\n成交量：1.10×｜NORMAL\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/funfair\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AFUNUSD\n\nWEN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$5.0319882e-06\n幅度級距：-10%\n區間異動：-14.14%\n基準價格：US$5.8604818e-06\n24H：-14.39%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.14×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wen-4\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AWENUSDT\n\nADX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.055663164\n幅度級距：-10%\n區間異動：-10.60%\n基準價格：US$0.062263879\n24H：-4.52%\n4H RSI：54.12\n日線 RSI：46.14\n週線 RSI：42.85\n成交量：7.36×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/adex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AADXUSDT",
+      "batch_id": "ntf_2bfec5fdcdb9b97dce367d6f993a2b15",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "096aba57f8d56ddb504b9bb1881497292208dfd57b0f3556cf38f95d287f68ea",
+      "alert_ranges": [
+        {
+          "symbol": "FUN",
+          "direction": "UP",
+          "level": 30
+        },
+        {
+          "symbol": "WEN",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ADX",
           "direction": "DOWN",
           "level": 10
         }
