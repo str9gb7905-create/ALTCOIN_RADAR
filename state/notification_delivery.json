@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-02T06:16:50.293108Z",
+  "updated_at_utc": "2026-11-02T07:01:48.660577Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -36050,6 +36050,32 @@
           "direction": "DOWN",
           "level": 10
         },
+        {
+          "symbol": "LAT",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_79968ca77444096fc36b705f86a8b43f": {
+      "notification_id": "ntf_79968ca77444096fc36b705f86a8b43f",
+      "run_id": "20261102T070101Z_ee7c06d2",
+      "created_at_utc": "2026-11-02T07:01:48.659396Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261102T070101Z_ee7c06d2\n資料來源：CoinGecko＋公開現貨交易所\n\nLAT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.000481123\n幅度級距：-10%\n區間異動：-11.61%\n基準價格：US$0.00054433678\n24H：+1.56%\n4H RSI：46.11\n日線 RSI：28.64\n週線 RSI：30.94\n成交量：1.33×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/platon-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ALATUSDT",
+      "batch_id": "ntf_79968ca77444096fc36b705f86a8b43f",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "157257ca9a46aac512e8fd03e51062d2e96d5687d5db677695e8c89476f481e3",
+      "alert_ranges": [
         {
           "symbol": "LAT",
           "direction": "DOWN",
