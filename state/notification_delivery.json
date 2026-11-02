@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-02T07:01:53.479730Z",
+  "updated_at_utc": "2026-11-02T08:46:49.609518Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -36079,6 +36079,32 @@
         {
           "symbol": "LAT",
           "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_4285ac8f95e6080d2403d8063f1c8017": {
+      "notification_id": "ntf_4285ac8f95e6080d2403d8063f1c8017",
+      "run_id": "20261102T084602Z_519aad4e",
+      "created_at_utc": "2026-11-02T08:46:49.608120Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261102T084602Z_519aad4e\n資料來源：CoinGecko＋公開現貨交易所\n\nSTORJ｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.022805907\n幅度級距：+10%\n區間異動：+13.62%\n基準價格：US$0.020071411\n24H：+10.85%\n4H RSI：49.94\n日線 RSI：28.70\n週線 RSI：22.16\n成交量：2.70×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/storj\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTORJUSDT",
+      "batch_id": "ntf_4285ac8f95e6080d2403d8063f1c8017",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "db3e6f5716d1957b7d1d4da498ab05dc58354bf4a81c7b5cc2a13c31908477ba",
+      "alert_ranges": [
+        {
+          "symbol": "STORJ",
+          "direction": "UP",
           "level": 10
         }
       ],
