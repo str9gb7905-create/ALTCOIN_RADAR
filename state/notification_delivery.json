@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-02T17:31:50.246215Z",
+  "updated_at_utc": "2026-11-02T18:16:43.234238Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -36458,6 +36458,37 @@
         {
           "symbol": "CAT",
           "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_31cbf7474fe11a8f4a94a1a4acd7b233": {
+      "notification_id": "ntf_31cbf7474fe11a8f4a94a1a4acd7b233",
+      "run_id": "20261102T181602Z_dd072d91",
+      "created_at_utc": "2026-11-02T18:16:43.232888Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261102T181602Z_dd072d91\n資料來源：CoinGecko＋公開現貨交易所\n\nCSPR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0023353877\n幅度級距：+10%\n區間異動：+13.09%\n基準價格：US$0.0020650217\n24H：+10.27%\n4H RSI：47.23\n日線 RSI：42.16\n週線 RSI：46.40\n成交量：2.53×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/casper-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACSPRUSDT\n\nCAT｜方向改變\n觸發：由近24H低點上漲\n價格：US$1.7929733e-06\n幅度級距：+10%\n區間異動：+12.11%\n基準價格：US$1.5993277e-06\n24H：+10.95%\n4H RSI：60.93\n日線 RSI：31.65\n週線 RSI：43.93\n成交量：42.76×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/simon-s-cat\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACATUSDT",
+      "batch_id": "ntf_31cbf7474fe11a8f4a94a1a4acd7b233",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "81dc3e39ce93e6927b10ff82193790c2f4d382e3eb06092b97dd9296c790a3ae",
+      "alert_ranges": [
+        {
+          "symbol": "CSPR",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "CAT",
+          "direction": "UP",
           "level": 10
         }
       ],
