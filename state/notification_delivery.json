@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-02T19:46:52.929727Z",
+  "updated_at_utc": "2026-11-02T19:46:56.279370Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -36534,13 +36534,13 @@
       "notification_id": "ntf_f89d7bdd6647c8e4f374bee7702c316a",
       "run_id": "20261102T194608Z_abe3705a",
       "created_at_utc": "2026-11-02T19:46:52.928496Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-02T19:46:56.279345Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261102T194608Z_abe3705a\n資料來源：CoinGecko＋公開現貨交易所\n\nTRUMP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.5704004\n幅度級距：-10%\n區間異動：-10.51%\n基準價格：US$1.7547358\n24H：-7.33%\n4H RSI：48.93\n日線 RSI：45.83\n週線 RSI：36.46\n成交量：2.10×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/official-trump\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ATRUMPUSDT\n\nMERL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.027947994\n幅度級距：-10%\n區間異動：-10.28%\n基準價格：US$0.031149365\n24H：-7.21%\n4H RSI：46.72\n日線 RSI：52.76\n週線 RSI：43.84\n成交量：1.22×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AMERLUSDT",
       "batch_id": "ntf_f89d7bdd6647c8e4f374bee7702c316a",
