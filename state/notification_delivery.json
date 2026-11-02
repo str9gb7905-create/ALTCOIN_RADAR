@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-02T18:16:48.569496Z",
+  "updated_at_utc": "2026-11-02T18:46:37.313850Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -36489,6 +36489,42 @@
         {
           "symbol": "CAT",
           "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_79730f1233158f972121e5b09e1a3c69": {
+      "notification_id": "ntf_79730f1233158f972121e5b09e1a3c69",
+      "run_id": "20261102T184603Z_df235510",
+      "created_at_utc": "2026-11-02T18:46:37.312453Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261102T184603Z_df235510\n資料來源：CoinGecko＋公開現貨交易所\n\nBEAM｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.004566174\n幅度級距：-20%\n區間異動：-20.40%\n基準價格：US$0.0057363291\n24H：-10.27%\n4H RSI：53.41\n日線 RSI：83.33\n週線 RSI：76.55\n成交量：9.51×｜STRONG\n背離：DAILY_BEARISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABEAMUSD\n\nNEAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.8766442\n幅度級距：-10%\n區間異動：-10.46%\n基準價格：US$4.329486\n24H：-9.39%\n4H RSI：32.13\n日線 RSI：44.78\n週線 RSI：60.27\n成交量：1.14×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ANEARUSDT\n\nAIOT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.081351436\n幅度級距：-10%\n區間異動：-10.44%\n基準價格：US$0.090829967\n24H：-7.12%\n4H RSI：66.53\n日線 RSI：79.62\n週線 RSI：46.24\n成交量：2.79×｜STRONG\n背離：DAILY_BEARISH, WEEKLY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/okzoo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAIOTUSDT",
+      "batch_id": "ntf_79730f1233158f972121e5b09e1a3c69",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "6ae76d41f6f06a700f55ec4a48291ce8bfa592791f49c6e94e8d958f9b8bce00",
+      "alert_ranges": [
+        {
+          "symbol": "BEAM",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "NEAR",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "AIOT",
+          "direction": "DOWN",
           "level": 10
         }
       ],
