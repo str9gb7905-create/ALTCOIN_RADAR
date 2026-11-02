@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-02T01:16:48.226971Z",
+  "updated_at_utc": "2026-11-02T01:16:50.904735Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -35870,13 +35870,13 @@
       "notification_id": "ntf_de97f544769d65c5112515dabefef214",
       "run_id": "20261102T011559Z_55be0cd9",
       "created_at_utc": "2026-11-02T01:16:48.225421Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-02T01:16:50.904712Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261102T011559Z_55be0cd9\n資料來源：CoinGecko＋公開現貨交易所\n\nTRUMP｜再次觸發\n觸發：由近24H低點上漲\n價格：US$1.7547358\n幅度級距：+10%\n區間異動：+11.13%\n基準價格：US$1.5789602\n24H：+11.00%\n4H RSI：63.30\n日線 RSI：45.81\n週線 RSI：38.56\n成交量：3.43×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/official-trump\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ATRUMPUSDT",
       "batch_id": "ntf_de97f544769d65c5112515dabefef214",
