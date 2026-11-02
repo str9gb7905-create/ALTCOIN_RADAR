@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-02T17:01:51.636964Z",
+  "updated_at_utc": "2026-11-02T17:16:46.517625Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -36406,6 +36406,32 @@
         {
           "symbol": "AGI",
           "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_cc58a904aedb6828e89406c241907189": {
+      "notification_id": "ntf_cc58a904aedb6828e89406c241907189",
+      "run_id": "20261102T171604Z_5c078f87",
+      "created_at_utc": "2026-11-02T17:16:46.516253Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261102T171604Z_5c078f87\n資料來源：CoinGecko＋公開現貨交易所\n\nGLMR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.008599065\n幅度級距：+10%\n區間異動：+10.57%\n基準價格：US$0.0077772029\n24H：+9.17%\n4H RSI：51.51\n日線 RSI：40.14\n週線 RSI：41.54\n成交量：1.61×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT",
+      "batch_id": "ntf_cc58a904aedb6828e89406c241907189",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "9d2d8da23a3b76243fb64a7db2a5ea79de0100ed63a5d1ad042184cba180b2ed",
+      "alert_ranges": [
+        {
+          "symbol": "GLMR",
+          "direction": "UP",
           "level": 10
         }
       ],
