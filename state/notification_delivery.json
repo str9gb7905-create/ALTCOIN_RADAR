@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-03T01:01:46.216304Z",
+  "updated_at_utc": "2026-11-03T01:01:49.332260Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -36861,10 +36861,10 @@
       "notification_id": "ntf_db66c234010177f37e21d543a0689314",
       "run_id": "20261103T010054Z_a8f267d4",
       "created_at_utc": "2026-11-03T01:01:43.370301Z",
-      "delivery_status": "SENDING",
-      "delivered_at_utc": null,
+      "delivery_status": "SUCCESS",
+      "delivered_at_utc": "2026-11-03T01:01:49.332246Z",
       "provider": "TELEGRAM",
-      "provider_message_id": null,
+      "provider_message_id": "1736",
       "error": null,
       "attempt_count": 1,
       "last_attempt_at_utc": "2026-11-03T01:01:46.216281Z",
