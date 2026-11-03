@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-03T10:46:48.419321Z",
+  "updated_at_utc": "2026-11-03T12:01:33.568952Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -37277,6 +37277,32 @@
       "alert_ranges": [
         {
           "symbol": "ACT",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_98af307734ed5b425a6b7ea3e9a47ee5": {
+      "notification_id": "ntf_98af307734ed5b425a6b7ea3e9a47ee5",
+      "run_id": "20261103T120058Z_e3cb4068",
+      "created_at_utc": "2026-11-03T12:01:33.568136Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261103T120058Z_e3cb4068\n資料來源：CoinGecko＋公開現貨交易所\n\nFLOCK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.040876082\n幅度級距：+10%\n區間異動：+12.24%\n基準價格：US$0.036417923\n24H：+7.94%\n4H RSI：59.02\n日線 RSI：36.01\n週線 RSI：42.02\n成交量：9.47×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/flock-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFLOCKUSDT",
+      "batch_id": "ntf_98af307734ed5b425a6b7ea3e9a47ee5",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "2186e6c16d71d1872ccd7aec9de85e9aade3cea7dee9c7bfc8e120f6d404cba6",
+      "alert_ranges": [
+        {
+          "symbol": "FLOCK",
           "direction": "UP",
           "level": 10
         }
