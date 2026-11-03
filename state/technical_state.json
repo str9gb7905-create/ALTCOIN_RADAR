@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261103T141609Z_1112a5b8",
-  "updated_at": "2026-11-03T14:16:16.255780Z",
+  "last_run_id": "20261103T143107Z_662d16dd",
+  "updated_at": "2026-11-03T14:31:15.801062Z",
   "assets": {
     "TRAC": {
       "coingecko_id": "origintrail",
@@ -882,15 +882,15 @@
       "rsi_1d": 46.89673712855491,
       "rsi_1w": 38.59517637814745,
       "rsi_4h_state": "NEUTRAL",
-      "volume_ratio": 5.370611617588905,
+      "volume_ratio": 5.369069767004806,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 14.37116779327706,
-      "turnover_ratio": 0.052052483422495466,
+      "turnover_ratio": 0.051994639058659906,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-03T14:16:16.255780Z",
+      "last_seen_at": "2026-11-03T14:31:15.801062Z",
       "price_episode_id": 16,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -1307,15 +1307,15 @@
       "rsi_1d": 38.72318636457399,
       "rsi_1w": 56.834805107170716,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 4.110514541762163,
+      "volume_ratio": 4.205148373886432,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 31.14960493653568,
-      "turnover_ratio": 0.7924864390976951,
+      "turnover_ratio": 0.8059064244803048,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-03T14:16:16.255780Z",
+      "last_seen_at": "2026-11-03T14:31:15.801062Z",
       "price_episode_id": 46,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -1863,15 +1863,15 @@
       "rsi_1d": 63.31548439140728,
       "rsi_1w": 76.54776108058675,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 5.530116305516587,
+      "volume_ratio": 5.609076157437252,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 29.29266522160686,
-      "turnover_ratio": 0.15225847235779102,
+      "turnover_ratio": 0.15408039303921967,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-03T14:16:16.255780Z",
+      "last_seen_at": "2026-11-03T14:31:15.801062Z",
       "price_episode_id": 39,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -2084,19 +2084,17 @@
       "rsi_1d": 35.15307183591334,
       "rsi_1w": 34.79932086336889,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 0.8596303141381811,
+      "volume_ratio": 0.8622301561046176,
       "volume_status": "NORMAL",
       "volume_pattern": "NONE",
-      "volume_note": "PRICE_UP_WITHOUT_CLEAR_VOLUME",
+      "volume_note": "NONE",
       "range_24h_pct": 81.07305849001438,
-      "turnover_ratio": 0.008804584941801457,
+      "turnover_ratio": 0.21524255441696907,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "PARTIAL",
-      "last_seen_at": "2026-11-03T14:16:16.255780Z",
+      "last_seen_at": "2026-11-03T14:31:15.801062Z",
       "price_episode_id": 46,
-      "active_technical_signals": [
-        "PRICE_UP_WITHOUT_VOLUME"
-      ]
+      "active_technical_signals": []
     },
     "AUDIO": {
       "coingecko_id": "audius",
@@ -2778,15 +2776,15 @@
       "rsi_1d": 80.27974714755482,
       "rsi_1w": 46.236921356298204,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 1.6051052651767417,
+      "volume_ratio": 1.6119096544730895,
       "volume_status": "ELEVATED",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 16.106199212960586,
-      "turnover_ratio": 0.04675473762865754,
+      "turnover_ratio": 0.04664151451661563,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-03T14:16:16.255780Z",
+      "last_seen_at": "2026-11-03T14:31:15.801062Z",
       "price_episode_id": 34,
       "active_technical_signals": [
         "VOLUME_ELEVATED"
