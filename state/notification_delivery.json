@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-03T04:31:42.134255Z",
+  "updated_at_utc": "2026-11-03T05:02:01.721899Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -36996,6 +36996,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_dc427ed2103ea0eb17e3a4c84dbc93a3": {
+      "notification_id": "ntf_dc427ed2103ea0eb17e3a4c84dbc93a3",
+      "run_id": "20261103T050107Z_9b30fc7f",
+      "created_at_utc": "2026-11-03T05:02:01.720515Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261103T050107Z_9b30fc7f\n資料來源：CoinGecko＋公開現貨交易所\n\nACM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.22513566\n幅度級距：-10%\n區間異動：-10.08%\n基準價格：US$0.25036073\n24H：-5.81%\n4H RSI：38.52\n日線 RSI：27.31\n週線 RSI：28.41\n成交量：1.15×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ac-milan-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AACMUSDT",
+      "batch_id": "ntf_dc427ed2103ea0eb17e3a4c84dbc93a3",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "6862408af70eb39d324f1c776d72b637b466f43541430831bb0b4f699392fd61",
+      "alert_ranges": [
+        {
+          "symbol": "ACM",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 2
     }
   }
 }
