@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-02T22:46:56.581477Z",
+  "updated_at_utc": "2026-11-03T00:01:50.625083Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -36778,6 +36778,32 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_5a808f444b4bd9328d19c2568e1bd35f": {
+      "notification_id": "ntf_5a808f444b4bd9328d19c2568e1bd35f",
+      "run_id": "20261103T000108Z_31860787",
+      "created_at_utc": "2026-11-03T00:01:50.623678Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261103T000108Z_31860787\n資料來源：CoinGecko＋公開現貨交易所\n\nCVC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.021800952\n幅度級距：-10%\n區間異動：-10.02%\n基準價格：US$0.02422735\n24H：-9.45%\n4H RSI：42.12\n日線 RSI：39.34\n週線 RSI：45.42\n成交量：25.81×｜STRONG\n背離：DAILY_BULLISH, WEEKLY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/civic\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACVCUSDT",
+      "batch_id": "ntf_5a808f444b4bd9328d19c2568e1bd35f",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "d6f9cbacac2099af3fa8a75c1ee588d764d7422a9ce104f89944458ee37b6174",
+      "alert_ranges": [
+        {
+          "symbol": "CVC",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
