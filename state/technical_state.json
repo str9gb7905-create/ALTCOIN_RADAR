@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261103T174603Z_efbd5f75",
-  "updated_at": "2026-11-03T17:46:10.741352Z",
+  "last_run_id": "20261103T180106Z_0e956ad7",
+  "updated_at": "2026-11-03T18:01:14.285352Z",
   "assets": {
     "TRAC": {
       "coingecko_id": "origintrail",
@@ -882,15 +882,15 @@
       "rsi_1d": 46.89673712855491,
       "rsi_1w": 38.59517637814745,
       "rsi_4h_state": "NEUTRAL",
-      "volume_ratio": 5.633106790158851,
+      "volume_ratio": 5.452534966001707,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
-      "range_24h_pct": 14.065835570097871,
-      "turnover_ratio": 0.052359353012926296,
+      "range_24h_pct": 12.54644197824758,
+      "turnover_ratio": 0.05190197015510058,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-03T16:46:23.598110Z",
+      "last_seen_at": "2026-11-03T18:01:14.285352Z",
       "price_episode_id": 16,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -1307,15 +1307,15 @@
       "rsi_1d": 35.87546283228329,
       "rsi_1w": 56.834805107170716,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 4.102517371981566,
+      "volume_ratio": 4.228875667193397,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 31.14960493653568,
-      "turnover_ratio": 0.8216565547166244,
+      "turnover_ratio": 0.8450961237933898,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-03T17:46:10.741352Z",
+      "last_seen_at": "2026-11-03T18:01:14.285352Z",
       "price_episode_id": 47,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -1863,15 +1863,15 @@
       "rsi_1d": 63.31548439140728,
       "rsi_1w": 76.54776108058675,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 4.585100441497564,
+      "volume_ratio": 4.616201339016042,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
-      "range_24h_pct": 19.155756803541255,
-      "turnover_ratio": 0.20817615580011867,
+      "range_24h_pct": 16.446015848278883,
+      "turnover_ratio": 0.20966930280992005,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-03T17:46:10.741352Z",
+      "last_seen_at": "2026-11-03T18:01:14.285352Z",
       "price_episode_id": 39,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -2084,15 +2084,15 @@
       "rsi_1d": 37.28391391798951,
       "rsi_1w": 32.08049348316514,
       "rsi_4h_state": "NEUTRAL",
-      "volume_ratio": 2.149147526754707,
+      "volume_ratio": 2.205934236609572,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 91.644018082988,
-      "turnover_ratio": 0.009690003241907602,
+      "turnover_ratio": 0.009816918297322574,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-03T17:46:10.741352Z",
+      "last_seen_at": "2026-11-03T18:01:14.285352Z",
       "price_episode_id": 46,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -2778,17 +2778,19 @@
       "rsi_1d": 80.27974714755482,
       "rsi_1w": 46.236921356298204,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 1.4964529230733161,
-      "volume_status": "NORMAL",
+      "volume_ratio": 1.5272738705252782,
+      "volume_status": "ELEVATED",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 18.47626105177084,
-      "turnover_ratio": 0.04392987543629702,
+      "turnover_ratio": 0.04359029890688263,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-03T17:46:10.741352Z",
+      "last_seen_at": "2026-11-03T18:01:14.285352Z",
       "price_episode_id": 34,
-      "active_technical_signals": []
+      "active_technical_signals": [
+        "VOLUME_ELEVATED"
+      ]
     },
     "CHEX": {
       "coingecko_id": "chex-token",
