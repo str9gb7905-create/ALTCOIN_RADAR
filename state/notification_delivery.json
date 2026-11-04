@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-04T16:47:33.581034Z",
+  "updated_at_utc": "2026-11-04T16:47:36.682872Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -38325,13 +38325,13 @@
       "notification_id": "ntf_2566fb5cce7e5d2ce95bd6f43ea2ca4b",
       "run_id": "20261104T164645Z_6bdfe01b",
       "created_at_utc": "2026-11-04T16:47:33.579580Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-04T16:47:36.682847Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261104T164645Z_6bdfe01b\n資料來源：CoinGecko＋公開現貨交易所\n\nLSK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.21066453\n幅度級距：+20%\n區間異動：+20.08%\n基準價格：US$0.17543243\n24H：+18.95%\n4H RSI：54.20\n日線 RSI：43.67\n週線 RSI：50.46\n成交量：8.66×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT\n\nALGO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.099822993\n幅度級距：+10%\n區間異動：+10.68%\n基準價格：US$0.090189115\n24H：+7.00%\n4H RSI：61.67\n日線 RSI：33.86\n週線 RSI：50.14\n成交量：1.90×｜ELEVATED\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/algorand\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AALGOUSD\n\nRENDER｜再次觸發\n觸發：由近24H低點上漲\n價格：US$1.5998654\n幅度級距：+10%\n區間異動：+10.06%\n基準價格：US$1.4536002\n24H：+6.75%\n4H RSI：57.94\n日線 RSI：33.20\n週線 RSI：49.88\n成交量：1.45×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/render-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARENDERUSD\n\nXPL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.066561871\n幅度級距：+10%\n區間異動：+10.01%\n基準價格：US$0.06050744\n24H：+4.64%\n4H RSI：43.70\n日線 RSI：33.92\n週線 RSI：31.34\n成交量：1.72×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/plasma\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AXPLUSDT",
       "batch_id": "ntf_2566fb5cce7e5d2ce95bd6f43ea2ca4b",
