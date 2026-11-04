@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261104T010055Z_dd2f2c5e",
-  "updated_at": "2026-11-04T01:01:14.711915Z",
+  "last_run_id": "20261104T011605Z_7ef2f133",
+  "updated_at": "2026-11-04T01:16:19.714844Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -1151,7 +1151,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-04T01:01:14.711915Z",
+      "last_seen_at": "2026-11-04T01:16:19.714844Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1986,7 +1986,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-04T01:01:14.711915Z",
+      "last_seen_at": "2026-11-04T01:16:19.714844Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
