@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-05T20:17:13.359292Z",
+  "updated_at_utc": "2026-11-05T20:32:22.241043Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -40259,6 +40259,37 @@
         },
         {
           "symbol": "OSMO",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_e9c9921264afc116461df3cae7c42db9": {
+      "notification_id": "ntf_e9c9921264afc116461df3cae7c42db9",
+      "run_id": "20261105T203055Z_26ed2fe8",
+      "created_at_utc": "2026-11-05T20:32:22.240105Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261105T203055Z_26ed2fe8\n資料來源：CoinGecko＋公開現貨交易所\n\nAUDIO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.011421228\n幅度級距：-10%\n區間異動：-14.47%\n基準價格：US$0.013353167\n24H：-13.67%\n4H RSI：39.51\n日線 RSI：39.62\n週線 RSI：38.39\n成交量：18.34×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAUDIOUSDT\n\nNIGHT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.039357561\n幅度級距：-10%\n區間異動：-10.02%\n基準價格：US$0.043738058\n24H：-8.44%\n4H RSI：40.40\n日線 RSI：57.10\n週線 RSI：55.58\n成交量：1.57×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ANIGHTUSDT",
+      "batch_id": "ntf_e9c9921264afc116461df3cae7c42db9",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "1f3580b2b008da95142864c4240addbb6ed4d2e8c93be926041de12ffe0f5ffa",
+      "alert_ranges": [
+        {
+          "symbol": "AUDIO",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "NIGHT",
           "direction": "DOWN",
           "level": 10
         }
