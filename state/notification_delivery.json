@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-05T16:18:36.736216Z",
+  "updated_at_utc": "2026-11-05T16:47:18.996483Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -39792,6 +39792,52 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_352205921254e236775237fe8b0c5b8a": {
+      "notification_id": "ntf_352205921254e236775237fe8b0c5b8a",
+      "run_id": "20261105T164604Z_6f5d0970",
+      "created_at_utc": "2026-11-05T16:47:18.995475Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 6,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261105T164604Z_6f5d0970\n資料來源：CoinGecko＋公開現貨交易所\n\nMEME｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00039326456\n幅度級距：-10%\n區間異動：-10.37%\n基準價格：US$0.00043874563\n24H：-10.09%\n4H RSI：30.56\n日線 RSI：35.52\n週線 RSI：37.79\n成交量：0.97×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/memecoin-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMEMEUSDT\n\nOP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.10243771\n幅度級距：-10%\n區間異動：-10.31%\n基準價格：US$0.11421545\n24H：-10.35%\n4H RSI：32.24\n日線 RSI：43.96\n週線 RSI：39.97\n成交量：1.38×｜NORMAL\n背離：DAILY_BULLISH, WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/optimism\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOPUSDC\n\nTIA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.41878846\n幅度級距：-10%\n區間異動：-10.25%\n基準價格：US$0.46664107\n24H：-9.42%\n4H RSI：33.97\n日線 RSI：40.50\n週線 RSI：51.78\n成交量：0.76×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATIAUSD\n\nSTRK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.039983907\n幅度級距：-10%\n區間異動：-10.12%\n基準價格：US$0.044484982\n24H：-9.15%\n4H RSI：35.91\n日線 RSI：41.29\n週線 RSI：48.72\n成交量：1.06×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASTRKUSD\n\nGALA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0015540189\n幅度級距：-10%\n區間異動：-10.11%\n基準價格：US$0.0017288717\n24H：-10.03%\n4H RSI：31.35\n日線 RSI：39.18\n週線 RSI：36.67\n成交量：2.49×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/gala\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AGALAUSDT",
+      "batch_id": "ntf_352205921254e236775237fe8b0c5b8a",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "f85ec659aec8d0ea3802418675b1245d935881d6dd1cb2ce64ccb791fd5718cd",
+      "alert_ranges": [
+        {
+          "symbol": "MEME",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "OP",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "TIA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "STRK",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "GALA",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
