@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-05T11:46:40.512617Z",
+  "updated_at_utc": "2026-11-05T11:46:43.367148Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -39113,13 +39113,13 @@
       "notification_id": "ntf_0a5024945f1484f75de65480b8c95300",
       "run_id": "20261105T114604Z_b165d1a1",
       "created_at_utc": "2026-11-05T11:46:40.511204Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-05T11:46:43.367129Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261105T114604Z_b165d1a1\n資料來源：CoinGecko＋公開現貨交易所\n\nXTZ｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.30474027\n幅度級距：+20%\n區間異動：+22.38%\n基準價格：US$0.24901345\n24H：+21.21%\n4H RSI：58.27\n日線 RSI：37.38\n週線 RSI：43.02\n成交量：14.07×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/tezos\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AXTZUSDT",
       "batch_id": "ntf_0a5024945f1484f75de65480b8c95300",
