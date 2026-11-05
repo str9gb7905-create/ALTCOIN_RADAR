@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-05T01:01:48.251842Z",
+  "updated_at_utc": "2026-11-05T01:16:50.930101Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -38849,6 +38849,32 @@
       "alert_ranges": [
         {
           "symbol": "LSK",
+          "direction": "UP",
+          "level": 20
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_102ef93dc860332af32b1322cd0749aa": {
+      "notification_id": "ntf_102ef93dc860332af32b1322cd0749aa",
+      "run_id": "20261105T011609Z_776dc8c2",
+      "created_at_utc": "2026-11-05T01:16:50.928669Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261105T011609Z_776dc8c2\n資料來源：CoinGecko＋公開現貨交易所\n\nBEAM｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0046167765\n幅度級距：+20%\n區間異動：+21.15%\n基準價格：US$0.0038107655\n24H：+16.53%\n4H RSI：52.05\n日線 RSI：62.10\n週線 RSI：80.91\n成交量：18.20×｜STRONG\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ABEAMUSDT",
+      "batch_id": "ntf_102ef93dc860332af32b1322cd0749aa",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "e7e1cda92df9d22ef162f28f6089ade7f1e629c321b1789fe8cf02fc517c2b8d",
+      "alert_ranges": [
+        {
+          "symbol": "BEAM",
           "direction": "UP",
           "level": 20
         }
