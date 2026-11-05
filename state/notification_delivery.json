@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-05T22:02:32.133552Z",
+  "updated_at_utc": "2026-11-05T22:17:43.203708Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -40393,6 +40393,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_68848ce14fc11bbd7726ea32e62647f3": {
+      "notification_id": "ntf_68848ce14fc11bbd7726ea32e62647f3",
+      "run_id": "20261105T221602Z_5d2a371a",
+      "created_at_utc": "2026-11-05T22:17:43.202529Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261105T221602Z_5d2a371a\n資料來源：CoinGecko＋公開現貨交易所\n\nBICO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.013541421\n幅度級距：-10%\n區間異動：-10.39%\n基準價格：US$0.015111986\n24H：-9.84%\n4H RSI：29.80\n日線 RSI：37.85\n週線 RSI：40.52\n成交量：1.75×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/biconomy\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABICOUSD",
+      "batch_id": "ntf_68848ce14fc11bbd7726ea32e62647f3",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "4ffb342e16f6749eb68ef318b92e4cc856373a4727163dbdd5aa54ebd1cbd1be",
+      "alert_ranges": [
+        {
+          "symbol": "BICO",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
