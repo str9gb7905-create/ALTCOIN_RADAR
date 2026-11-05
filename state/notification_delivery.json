@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-05T02:31:42.903200Z",
+  "updated_at_utc": "2026-11-05T02:31:45.564479Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -38885,13 +38885,13 @@
       "notification_id": "ntf_6c77632598832cb46f7fa2e9049b2389",
       "run_id": "20261105T023105Z_486c2c4c",
       "created_at_utc": "2026-11-05T02:31:42.901772Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-05T02:31:45.564458Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261105T023105Z_486c2c4c\n資料來源：CoinGecko＋公開現貨交易所\n\nFUN｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0011438489\n幅度級距：-40%\n區間異動：-40.23%\n基準價格：US$0.0019138246\n24H：-36.60%\n4H RSI：50.97\n日線 RSI：37.47\n週線 RSI：31.69\n成交量：0.41×｜WEAK\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/funfair\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFUNUSDT\n\nLSK｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.22464879\n幅度級距：+20%\n區間異動：+22.30%\n基準價格：US$0.18368912\n24H：+20.64%\n4H RSI：52.19\n日線 RSI：48.64\n週線 RSI：50.46\n成交量：6.45×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALSKUSDT",
       "batch_id": "ntf_6c77632598832cb46f7fa2e9049b2389",
