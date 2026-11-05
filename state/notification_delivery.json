@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-05T17:03:14.060611Z",
+  "updated_at_utc": "2026-11-05T17:17:54.469434Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -39899,6 +39899,62 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_e55744dd01d0143b3315ea32c4023c60": {
+      "notification_id": "ntf_e55744dd01d0143b3315ea32c4023c60",
+      "run_id": "20261105T171556Z_69294dc5",
+      "created_at_utc": "2026-11-05T17:17:54.467393Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 8,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261105T171556Z_69294dc5\n資料來源：CoinGecko＋公開現貨交易所\n\nONDO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.37214506\n幅度級距：-10%\n區間異動：-10.41%\n基準價格：US$0.41536749\n24H：-8.94%\n4H RSI：35.55\n日線 RSI：45.52\n週線 RSI：52.34\n成交量：1.54×｜ELEVATED\n背離：DAILY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ondo-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AONDOUSD\n\nSNX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.16267498\n幅度級距：-10%\n區間異動：-10.39%\n基準價格：US$0.18153444\n24H：-9.43%\n4H RSI：27.80\n日線 RSI：31.53\n週線 RSI：33.37\n成交量：1.83×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/havven\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASNXUSD\n\nAVA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0064119181\n幅度級距：-10%\n區間異動：-10.29%\n基準價格：US$0.007147751\n24H：-3.24%\n4H RSI：37.13\n日線 RSI：44.24\n週線 RSI：54.73\n成交量：0.79×｜WEAK\n背離：DAILY_BEARISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ava-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAVAUSDT\n\nC98｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.011520457\n幅度級距：-10%\n區間異動：-10.26%\n基準價格：US$0.012837975\n24H：-8.74%\n4H RSI：31.03\n日線 RSI：34.02\n週線 RSI：37.95\n成交量：1.05×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coin98\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AC98USDT\n\nACE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.12069967\n幅度級距：-10%\n區間異動：-10.24%\n基準價格：US$0.13447174\n24H：-8.03%\n4H RSI：31.66\n日線 RSI：33.37\n週線 RSI：46.11\n成交量：1.20×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/endurance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AACEUSDT\n\nPYTH｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.061104013\n幅度級距：-10%\n區間異動：-10.15%\n基準價格：US$0.068008945\n24H：-7.76%\n4H RSI：35.87\n日線 RSI：44.66\n週線 RSI：55.60\n成交量：0.61×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APYTHUSD\n\nSATS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$8.3378358e-09\n幅度級距：-10%\n區間異動：-10.10%\n基準價格：US$9.2748213e-09\n24H：-8.35%\n4H RSI：31.97\n日線 RSI：30.81\n週線 RSI：39.41\n成交量：2.50×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sats-ordinals\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASATSUSDT",
+      "batch_id": "ntf_e55744dd01d0143b3315ea32c4023c60",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "08952d387e660b4b7ff66baf7fc2431d3101b23cb76bc0da0ffaef13ab08adb3",
+      "alert_ranges": [
+        {
+          "symbol": "ONDO",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SNX",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "AVA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "C98",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ACE",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "PYTH",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SATS",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 2
     }
   }
 }
