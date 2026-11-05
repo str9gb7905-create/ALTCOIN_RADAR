@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-05T17:33:12.513317Z",
+  "updated_at_utc": "2026-11-05T17:33:15.182645Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -39960,13 +39960,13 @@
       "notification_id": "ntf_41612b9aef5106160ace0fed9e72eade",
       "run_id": "20261105T173103Z_de4c6f26",
       "created_at_utc": "2026-11-05T17:33:12.512042Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-05T17:33:15.182624Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261105T173103Z_de4c6f26\n資料來源：CoinGecko＋公開現貨交易所\n\nHUMA｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.013665744\n幅度級距：-20%\n區間異動：-21.46%\n基準價格：US$0.017400556\n24H：-19.04%\n4H RSI：22.15\n日線 RSI：27.10\n週線 RSI：56.83\n成交量：1.86×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AHUMAUSDT\n\nOLAS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.057332832\n幅度級距：-10%\n區間異動：-12.17%\n基準價格：US$0.065279209\n24H：-10.54%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：0.98×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/autonolas\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AOLASUSDT\n\nGLMR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0070697222\n幅度級距：-10%\n區間異動：-10.54%\n基準價格：US$0.0079023157\n24H：-9.43%\n4H RSI：30.83\n日線 RSI：40.67\n週線 RSI：39.96\n成交量：1.16×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT\n\nCHR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.014813128\n幅度級距：-10%\n區間異動：-10.08%\n基準價格：US$0.016474467\n24H：-8.72%\n4H RSI：35.15\n日線 RSI：41.19\n週線 RSI：41.45\n成交量：1.02×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chromaway\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACHRUSDT",
       "batch_id": "ntf_41612b9aef5106160ace0fed9e72eade",
