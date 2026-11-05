@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-05T20:17:07.491675Z",
+  "updated_at_utc": "2026-11-05T20:17:10.395932Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -40228,13 +40228,13 @@
       "notification_id": "ntf_ef1f8e9535a0fd3a15bbe3a4ed1dee24",
       "run_id": "20261105T201601Z_8bced834",
       "created_at_utc": "2026-11-05T20:17:07.490418Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-05T20:17:10.395909Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261105T201601Z_8bced834\n資料來源：CoinGecko＋公開現貨交易所\n\nLNQ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.008100358\n幅度級距：-10%\n區間異動：-10.49%\n基準價格：US$0.0090494037\n24H：-9.33%\n4H RSI：29.22\n日線 RSI：31.55\n週線 RSI：52.50\n成交量：0.74×｜WEAK\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/linqai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ALNQUSDT\n\nAVA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0064060822\n幅度級距：-10%\n區間異動：-10.38%\n基準價格：US$0.007147751\n24H：-3.46%\n4H RSI：36.12\n日線 RSI：44.24\n週線 RSI：54.73\n成交量：0.79×｜WEAK\n背離：DAILY_BEARISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ava-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAVAUSDT\n\nBICO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.013562509\n幅度級距：-10%\n區間異動：-10.25%\n基準價格：US$0.015111986\n24H：-8.02%\n4H RSI：29.80\n日線 RSI：37.85\n週線 RSI：40.52\n成交量：1.70×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/biconomy\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABICOUSD\n\nOSMO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.042518311\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.047326459\n24H：-7.90%\n4H RSI：36.30\n日線 RSI：50.51\n週線 RSI：54.62\n成交量：1.27×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOSMOUSD",
       "batch_id": "ntf_ef1f8e9535a0fd3a15bbe3a4ed1dee24",
