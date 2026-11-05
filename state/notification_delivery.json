@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-05T16:47:24.741026Z",
+  "updated_at_utc": "2026-11-05T17:03:07.975883Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -39833,6 +39833,67 @@
         },
         {
           "symbol": "GALA",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
+    },
+    "ntf_b88d2a26f0e6eb70f65e96d2dfa445cc": {
+      "notification_id": "ntf_b88d2a26f0e6eb70f65e96d2dfa445cc",
+      "run_id": "20261105T170104Z_fdf85b7a",
+      "created_at_utc": "2026-11-05T17:03:07.974357Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 8,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261105T170104Z_fdf85b7a\n資料來源：CoinGecko＋公開現貨交易所\n\nGLMR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0070709426\n幅度級距：-10%\n區間異動：-10.52%\n基準價格：US$0.0079023157\n24H：-9.93%\n4H RSI：30.83\n日線 RSI：40.67\n週線 RSI：39.96\n成交量：1.12×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT\n\nBST｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0072050859\n幅度級距：-10%\n區間異動：-10.20%\n基準價格：US$0.0080236746\n24H：-9.96%\n4H RSI：39.40\n日線 RSI：38.03\n週線 RSI：27.12\n成交量：0.85×｜NORMAL\n背離：WEEKLY_BEARISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blocksquare\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABSTUSDT\n\nFIL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.79469581\n幅度級距：-10%\n區間異動：-10.14%\n基準價格：US$0.88439734\n24H：-9.85%\n4H RSI：32.36\n日線 RSI：39.79\n週線 RSI：47.08\n成交量：1.35×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/filecoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFILUSDT\n\nMETIS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$2.5610006\n幅度級距：-10%\n區間異動：-10.08%\n基準價格：US$2.8481148\n24H：-9.07%\n4H RSI：31.22\n日線 RSI：33.74\n週線 RSI：43.76\n成交量：0.93×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/metis-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AMETISUSD\n\nSAND｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.041878492\n幅度級距：-10%\n區間異動：-10.04%\n基準價格：US$0.046554827\n24H：-9.93%\n4H RSI：32.75\n日線 RSI：34.07\n週線 RSI：42.02\n成交量：0.71×｜WEAK\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ASANDUSDT\n\nEDU｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.047462371\n幅度級距：-10%\n區間異動：-10.04%\n基準價格：US$0.052758956\n24H：-9.60%\n4H RSI：32.41\n日線 RSI：35.27\n週線 RSI：46.74\n成交量：0.94×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/edu-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AEDUUSDT\n\nCC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.093841078\n幅度級距：-10%\n區間異動：-10.03%\n基準價格：US$0.10430592\n24H：-5.56%\n4H RSI：40.71\n日線 RSI：44.47\n週線 RSI：39.37\n成交量：1.80×｜ELEVATED\n背離：DAILY_BULLISH\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/canton-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACCUSD\n\nFET｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.14748173\n幅度級距：-10%\n區間異動：-10.03%\n基準價格：US$0.16392393\n24H：-9.86%\n4H RSI：34.86\n日線 RSI：38.01\n週線 RSI：44.40\n成交量：1.28×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/fetch-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFETUSD",
+      "batch_id": "ntf_b88d2a26f0e6eb70f65e96d2dfa445cc",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "7062e3bde9c36902adfadee8d6a02cbdd710606e62153ff85442193ba3f1f368",
+      "alert_ranges": [
+        {
+          "symbol": "GLMR",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "BST",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "FIL",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "METIS",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SAND",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "EDU",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "CC",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "FET",
           "direction": "DOWN",
           "level": 10
         }
