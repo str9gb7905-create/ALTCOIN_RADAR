@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-05T15:48:00.450372Z",
+  "updated_at_utc": "2026-11-05T15:48:03.119144Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -39523,13 +39523,13 @@
       "notification_id": "ntf_eeabfbd04d52bca8721b1bbdbad51d4b",
       "run_id": "20261105T154609Z_23c050c4",
       "created_at_utc": "2026-11-05T15:48:00.448844Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-05T15:48:03.119122Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261105T154609Z_23c050c4\n資料來源：CoinGecko＋公開現貨交易所\n\nUNI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$6.8704171\n幅度級距：-10%\n區間異動：-11.83%\n基準價格：US$7.7926073\n24H：-9.82%\n4H RSI：53.50\n日線 RSI：54.74\n週線 RSI：63.44\n成交量：2.44×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/uniswap\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AUNIUSDT\n\nAVA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0064082763\n幅度級距：-10%\n區間異動：-10.35%\n基準價格：US$0.007147751\n24H：-5.79%\n4H RSI：42.92\n日線 RSI：44.24\n週線 RSI：54.73\n成交量：0.76×｜WEAK\n背離：DAILY_BEARISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ava-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAVAUSDT\n\nWEN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$5.6463653e-06\n幅度級距：-10%\n區間異動：-10.14%\n基準價格：US$6.2838101e-06\n24H：-3.51%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.01×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wen-4\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AWENUSDT",
       "batch_id": "ntf_eeabfbd04d52bca8721b1bbdbad51d4b",
