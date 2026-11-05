@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-05T18:17:48.238585Z",
+  "updated_at_utc": "2026-11-05T19:02:25.128152Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -40094,6 +40094,42 @@
       "alert_ranges": [
         {
           "symbol": "ARC",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_b2978f11ff0a91090c493031887186b3": {
+      "notification_id": "ntf_b2978f11ff0a91090c493031887186b3",
+      "run_id": "20261105T190114Z_1438186e",
+      "created_at_utc": "2026-11-05T19:02:25.126624Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261105T190114Z_1438186e\n資料來源：CoinGecko＋公開現貨交易所\n\nMERL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.029322343\n幅度級距：+10%\n區間異動：+11.41%\n基準價格：US$0.026318497\n24H：+3.28%\n4H RSI：37.59\n日線 RSI：52.75\n週線 RSI：43.82\n成交量：4.18×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMERLUSDT\n\nRATS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.3558177e-05\n幅度級距：-10%\n區間異動：-11.17%\n基準價格：US$1.5262253e-05\n24H：-10.73%\n4H RSI：28.75\n日線 RSI：28.57\n週線 RSI：34.26\n成交量：9.40×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/rats\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ARATSUSDT\n\nNEAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.6737477\n幅度級距：-10%\n區間異動：-10.05%\n基準價格：US$4.0841859\n24H：-8.72%\n4H RSI：33.90\n日線 RSI：42.30\n週線 RSI：59.41\n成交量：1.25×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ANEARUSD",
+      "batch_id": "ntf_b2978f11ff0a91090c493031887186b3",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "77a071a9000973a511a4e4eb1c6fc15ae7ef7468113f3d419c0160cbc7be7a0a",
+      "alert_ranges": [
+        {
+          "symbol": "MERL",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "RATS",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "NEAR",
           "direction": "DOWN",
           "level": 10
         }
