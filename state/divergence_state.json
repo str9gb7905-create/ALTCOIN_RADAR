@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261106T223110Z_a2494d0b",
-  "updated_at": "2026-11-06T22:31:42.578817Z",
+  "last_run_id": "20261106T224605Z_0dc2a947",
+  "updated_at": "2026-11-06T22:46:38.155144Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -96,7 +96,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-06T22:31:42.578817Z",
+      "last_seen_at": "2026-11-06T22:46:38.155144Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -263,7 +263,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-06T22:31:42.578817Z",
+      "last_seen_at": "2026-11-06T22:46:38.155144Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -661,7 +661,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-06T22:31:42.578817Z",
+      "last_seen_at": "2026-11-06T22:46:38.155144Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1062,7 +1062,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-06T22:31:42.578817Z",
+      "last_seen_at": "2026-11-06T22:46:38.155144Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2074,7 +2074,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-06T22:31:42.578817Z",
+      "last_seen_at": "2026-11-06T22:46:38.155144Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2720,7 +2720,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-06T22:31:42.578817Z",
+      "last_seen_at": "2026-11-06T22:46:38.155144Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2962,26 +2962,26 @@
     },
     "ACT": {
       "coingecko_id": "act-i-the-ai-prophecy",
-      "history_source": "Bitget",
+      "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-06T22:31:42.578817Z",
+      "last_seen_at": "2026-11-06T22:46:38.155144Z",
       "daily": {
         "active_signals": [
           {
-            "type": "DAILY_BEARISH",
-            "signature": "ACT|1D|BEARISH|2026-10-20|2026-10-29",
+            "type": "DAILY_BULLISH",
+            "signature": "ACT|1D|BULLISH|2026-10-18|2026-10-30",
             "pivots": [
               {
-                "timestamp": "2026-10-20",
-                "price": 0.00933,
-                "rsi": 43.58307631271194,
+                "timestamp": "2026-10-18",
+                "price": 0.00846,
+                "rsi": 33.871080246950896,
                 "confirmed": true
               },
               {
-                "timestamp": "2026-10-29",
-                "price": 0.00947,
-                "rsi": 36.25378837920698,
+                "timestamp": "2026-10-30",
+                "price": 0.00754,
+                "rsi": 40.61959553953512,
                 "confirmed": true
               }
             ]
@@ -2994,8 +2994,29 @@
         ]
       },
       "weekly": {
-        "active_signals": [],
-        "seen_signatures": []
+        "active_signals": [
+          {
+            "type": "WEEKLY_BEARISH",
+            "signature": "ACT|1W|BEARISH|2026-09-17|2026-10-08",
+            "pivots": [
+              {
+                "timestamp": "2026-09-17",
+                "price": 0.01245,
+                "rsi": 42.703242433279826,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-10-08",
+                "price": 0.01258,
+                "rsi": 40.38435368448891,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "ACT|1W|BEARISH|2026-09-17|2026-10-08"
+        ]
       }
     },
     "SLP": {
@@ -3180,7 +3201,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-06T22:31:42.578817Z",
+      "last_seen_at": "2026-11-06T22:46:38.155144Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -3535,7 +3556,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-06T22:16:49.937569Z",
+      "last_seen_at": "2026-11-06T22:46:38.155144Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
