@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-06T15:17:01.442887Z",
+  "updated_at_utc": "2026-11-06T15:47:04.387821Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -41522,6 +41522,32 @@
           "symbol": "ONE",
           "direction": "UP",
           "level": 50
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_615057703e4ec61f3d3540ba700f4931": {
+      "notification_id": "ntf_615057703e4ec61f3d3540ba700f4931",
+      "run_id": "20261106T154604Z_4a848584",
+      "created_at_utc": "2026-11-06T15:47:04.386435Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261106T154604Z_4a848584\n資料來源：CoinGecko＋公開現貨交易所\n\nRATS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$1.4511798e-05\n幅度級距：+10%\n區間異動：+10.02%\n基準價格：US$1.3190037e-05\n24H：+6.00%\n4H RSI：43.83\n日線 RSI：24.92\n週線 RSI：34.26\n成交量：9.91×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/rats\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ARATSUSDT",
+      "batch_id": "ntf_615057703e4ec61f3d3540ba700f4931",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "9901541437bc413e9baed05f2f6366ed6e65b05c7980d7233f93846dfb8417a3",
+      "alert_ranges": [
+        {
+          "symbol": "RATS",
+          "direction": "UP",
+          "level": 10
         }
       ],
       "repeat_suppressed_count": 0
