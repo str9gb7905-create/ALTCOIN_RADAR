@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-06T15:47:09.554118Z",
+  "updated_at_utc": "2026-11-06T16:02:16.259190Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -41551,6 +41551,42 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_de4aebc3803c6fc087287c50584a2c6b": {
+      "notification_id": "ntf_de4aebc3803c6fc087287c50584a2c6b",
+      "run_id": "20261106T160107Z_634de7e0",
+      "created_at_utc": "2026-11-06T16:02:16.257714Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261106T160107Z_634de7e0\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0015675389\n幅度級距：+50%\n區間異動：+50.23%\n基準價格：US$0.0010434525\n24H：+50.54%\n4H RSI：80.24\n日線 RSI：32.40\n週線 RSI：40.96\n成交量：20.40×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT\n\nFLOCK｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.040064857\n幅度級距：+10%\n區間異動：+11.45%\n基準價格：US$0.035948424\n24H：+8.94%\n4H RSI：56.83\n日線 RSI：35.68\n週線 RSI：42.02\n成交量：5.19×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/flock-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFLOCKUSDT\n\nXTZ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.2681405\n幅度級距：+10%\n區間異動：+10.89%\n基準價格：US$0.24179715\n24H：+6.37%\n4H RSI：55.49\n日線 RSI：34.48\n週線 RSI：43.02\n成交量：8.60×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/tezos\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AXTZUSDT",
+      "batch_id": "ntf_de4aebc3803c6fc087287c50584a2c6b",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "adae0a3a8609c60397a4b57a2f517ea6b78f43ce8c37bb9a79c061ee9dc9c3a3",
+      "alert_ranges": [
+        {
+          "symbol": "ONE",
+          "direction": "UP",
+          "level": 50
+        },
+        {
+          "symbol": "FLOCK",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "XTZ",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
