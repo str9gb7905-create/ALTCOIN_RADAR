@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-06T06:02:16.826745Z",
+  "updated_at_utc": "2026-11-06T06:02:19.484086Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -40975,13 +40975,13 @@
       "notification_id": "ntf_552d42e5598adbf9db63a6bcd98dabff",
       "run_id": "20261106T060114Z_cb4b722d",
       "created_at_utc": "2026-11-06T06:02:16.825416Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-06T06:02:19.484064Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261106T060114Z_cb4b722d\n資料來源：CoinGecko＋公開現貨交易所\n\nENA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.16327105\n幅度級距：-10%\n區間異動：-10.03%\n基準價格：US$0.18148014\n24H：-8.90%\n4H RSI：37.56\n日線 RSI：36.89\n週線 RSI：53.34\n成交量：1.03×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENAUSDT",
       "batch_id": "ntf_552d42e5598adbf9db63a6bcd98dabff",
