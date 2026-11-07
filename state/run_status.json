@@ -1,7 +1,7 @@
 {
-  "run_id": "20261107T020105Z_f0fe4845",
-  "started_at_utc": "2026-11-07T02:01:05.432863Z",
-  "completed_at_utc": "2026-11-07T02:01:40.858109Z",
+  "run_id": "20261107T021600Z_09b7d98c",
+  "started_at_utc": "2026-11-07T02:16:00.193045Z",
+  "completed_at_utc": "2026-11-07T02:16:34.101029Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -16,7 +16,7 @@
   "divergence_attempted": 5,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 35.425246,
+  "elapsed_seconds": 33.907992,
   "API_requests_total": 79,
   "requests_by_exchange": {
     "Binance": 4,
@@ -30,17 +30,17 @@
     "MEXC": 12,
     "OKX": 14
   },
-  "elapsed_stage_a": 0.567273,
-  "elapsed_radar_state": 0.153629,
-  "elapsed_stage_b": 22.166919,
-  "elapsed_divergence": 12.535586,
-  "elapsed_total": 35.425246,
+  "elapsed_stage_a": 1.111587,
+  "elapsed_radar_state": 0.151003,
+  "elapsed_stage_b": 20.622379,
+  "elapsed_divergence": 12.021409,
+  "elapsed_total": 33.907992,
   "asset_enrichment_seconds": {
-    "ACT": 3.135936,
-    "FUN": 2.23244,
-    "MAVIA": 3.905571,
-    "ONE": 3.118282,
-    "RDNT": 2.306678
+    "ACT": 2.935334,
+    "FUN": 2.22283,
+    "MAVIA": 3.229822,
+    "ONE": 1.753181,
+    "RDNT": 2.064442
   },
   "stale_lock_recovered": false
 }
