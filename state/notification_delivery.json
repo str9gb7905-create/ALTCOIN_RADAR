@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-07T10:16:29.703853Z",
+  "updated_at_utc": "2026-11-07T10:31:40.088333Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -42288,6 +42288,32 @@
       "alert_ranges": [
         {
           "symbol": "BEAM",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_4f4c53a95a54accf45e0256f20ea1f4d": {
+      "notification_id": "ntf_4f4c53a95a54accf45e0256f20ea1f4d",
+      "run_id": "20261107T103109Z_960dd6ba",
+      "created_at_utc": "2026-11-07T10:31:40.087047Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261107T103109Z_960dd6ba\n資料來源：CoinGecko＋公開現貨交易所\n\nZIL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0017042389\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$0.0018950565\n24H：-2.11%\n4H RSI：48.19\n日線 RSI：29.93\n週線 RSI：34.38\n成交量：6.24×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/zilliqa\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AZILUSDT",
+      "batch_id": "ntf_4f4c53a95a54accf45e0256f20ea1f4d",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "b67ddcc1ba5a0a9fbc4d418bc4fba6b9304b5e596f80b53961051cb9801f7ab7",
+      "alert_ranges": [
+        {
+          "symbol": "ZIL",
           "direction": "DOWN",
           "level": 10
         }
