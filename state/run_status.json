@@ -1,7 +1,7 @@
 {
-  "run_id": "20261107T093110Z_b12611de",
-  "started_at_utc": "2026-11-07T09:31:10.493002Z",
-  "completed_at_utc": "2026-11-07T09:31:34.410005Z",
+  "run_id": "20261107T094608Z_f405481b",
+  "started_at_utc": "2026-11-07T09:46:08.288069Z",
+  "completed_at_utc": "2026-11-07T09:46:37.031685Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -16,7 +16,7 @@
   "divergence_attempted": 5,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 23.917004,
+  "elapsed_seconds": 28.74362,
   "API_requests_total": 80,
   "requests_by_exchange": {
     "Binance": 4,
@@ -30,17 +30,17 @@
     "MEXC": 8,
     "OKX": 19
   },
-  "elapsed_stage_a": 0.579418,
-  "elapsed_radar_state": 0.157589,
-  "elapsed_stage_b": 13.999298,
-  "elapsed_divergence": 9.178872,
-  "elapsed_total": 23.917004,
+  "elapsed_stage_a": 0.638841,
+  "elapsed_radar_state": 0.167879,
+  "elapsed_stage_b": 17.794082,
+  "elapsed_divergence": 10.140795,
+  "elapsed_total": 28.74362,
   "asset_enrichment_seconds": {
-    "ACT": 1.357453,
-    "FUN": 0.895578,
-    "NFT": 2.390995,
-    "ONE": 1.242584,
-    "RDNT": 1.923218
+    "ACT": 1.786228,
+    "FUN": 0.696723,
+    "NFT": 3.281765,
+    "ONE": 1.688284,
+    "RDNT": 1.97127
   },
   "stale_lock_recovered": false
 }
