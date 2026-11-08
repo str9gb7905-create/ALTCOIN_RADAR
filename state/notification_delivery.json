@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-08T18:46:49.032372Z",
+  "updated_at_utc": "2026-11-08T20:16:53.954879Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -43446,6 +43446,37 @@
       "alert_ranges": [
         {
           "symbol": "GLMR",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_ab2f3c2470d5b2ac0ef1bad455488757": {
+      "notification_id": "ntf_ab2f3c2470d5b2ac0ef1bad455488757",
+      "run_id": "20261108T201610Z_b2236a15",
+      "created_at_utc": "2026-11-08T20:16:53.953369Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261108T201610Z_b2236a15\n資料來源：CoinGecko＋公開現貨交易所\n\nMERL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.032501423\n幅度級距：+10%\n區間異動：+12.54%\n基準價格：US$0.028878709\n24H：+10.70%\n4H RSI：64.87\n日線 RSI：55.41\n週線 RSI：43.82\n成交量：1.92×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMERLUSDT\n\nBST｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0062461826\n幅度級距：-10%\n區間異動：-10.03%\n基準價格：US$0.0069428102\n24H：+4.65%\n4H RSI：41.59\n日線 RSI：31.36\n週線 RSI：27.12\n成交量：1.16×｜NORMAL\n背離：WEEKLY_BEARISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blocksquare\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABSTUSDT",
+      "batch_id": "ntf_ab2f3c2470d5b2ac0ef1bad455488757",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "4391b6d567e493e2a3fd395dd21365c3d7bbd05ceabe021e72a1303d58e9b857",
+      "alert_ranges": [
+        {
+          "symbol": "MERL",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "BST",
           "direction": "DOWN",
           "level": 10
         }
