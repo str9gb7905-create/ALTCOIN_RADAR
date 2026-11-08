@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-08T10:01:53.375784Z",
+  "updated_at_utc": "2026-11-08T10:46:40.358613Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -43114,6 +43114,32 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_d12c86455be67ae18c0e068dd25601e8": {
+      "notification_id": "ntf_d12c86455be67ae18c0e068dd25601e8",
+      "run_id": "20261108T104605Z_d48fb6a7",
+      "created_at_utc": "2026-11-08T10:46:40.357165Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261108T104605Z_d48fb6a7\n資料來源：CoinGecko＋公開現貨交易所\n\nMAVIA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.027437922\n幅度級距：+10%\n區間異動：+10.08%\n基準價格：US$0.024926465\n24H：+3.49%\n4H RSI：59.09\n日線 RSI：49.62\n週線 RSI：38.88\n成交量：1.16×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/heroes-of-mavia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AMAVIAUSDT",
+      "batch_id": "ntf_d12c86455be67ae18c0e068dd25601e8",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "c8be91ef9edee893f6771b34c668a6777169eeeed45cabd2157d4b76125bdb89",
+      "alert_ranges": [
+        {
+          "symbol": "MAVIA",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
