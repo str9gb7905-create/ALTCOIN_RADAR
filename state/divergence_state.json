@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261108T100109Z_051150be",
-  "updated_at": "2026-11-08T10:01:40.504391Z",
+  "last_run_id": "20261108T101611Z_6969c082",
+  "updated_at": "2026-11-08T10:16:36.968453Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -141,7 +141,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T10:01:40.504391Z",
+      "last_seen_at": "2026-11-08T10:16:36.968453Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1755,7 +1755,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T10:01:40.504391Z",
+      "last_seen_at": "2026-11-08T10:16:36.968453Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2494,10 +2494,10 @@
     },
     "AI": {
       "coingecko_id": "sleepless-ai",
-      "history_source": "Coinbase",
+      "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-10-30T20:02:38.299354Z",
+      "last_seen_at": "2026-11-08T10:16:36.968453Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2837,7 +2837,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T10:01:40.504391Z",
+      "last_seen_at": "2026-11-08T10:16:36.968453Z",
       "daily": {
         "active_signals": [
           {
@@ -3015,7 +3015,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T10:01:40.504391Z",
+      "last_seen_at": "2026-11-08T10:16:36.968453Z",
       "daily": {
         "active_signals": [
           {
@@ -3709,7 +3709,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T10:01:40.504391Z",
+      "last_seen_at": "2026-11-08T10:16:36.968453Z",
       "daily": {
         "active_signals": [
           {
