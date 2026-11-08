@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261108T154555Z_76c36aa0",
-  "updated_at": "2026-11-08T15:46:21.467132Z",
+  "last_run_id": "20261108T160057Z_a5f0f901",
+  "updated_at": "2026-11-08T16:01:26.513942Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -118,7 +118,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T15:46:21.467132Z",
+      "last_seen_at": "2026-11-08T16:01:26.513942Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2214,26 +2214,26 @@
     },
     "MAVIA": {
       "coingecko_id": "heroes-of-mavia",
-      "history_source": "KuCoin",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T15:46:21.467132Z",
+      "last_seen_at": "2026-11-08T16:01:26.513942Z",
       "daily": {
         "active_signals": [
           {
             "type": "DAILY_BULLISH",
-            "signature": "MAVIA|1D|BULLISH|2026-10-18|2026-10-30",
+            "signature": "MAVIA|1D|BULLISH|2026-10-15|2026-10-30",
             "pivots": [
               {
-                "timestamp": "2026-10-18",
-                "price": 0.02466,
-                "rsi": 32.211391000148,
+                "timestamp": "2026-10-15",
+                "price": 0.02432,
+                "rsi": 34.390042634555186,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-10-30",
-                "price": 0.02277,
-                "rsi": 39.03318801392385,
+                "price": 0.02281,
+                "rsi": 39.07904839544305,
                 "confirmed": true
               }
             ]
@@ -2814,7 +2814,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T15:46:21.467132Z",
+      "last_seen_at": "2026-11-08T16:01:26.513942Z",
       "daily": {
         "active_signals": [
           {
@@ -2992,7 +2992,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T15:46:21.467132Z",
+      "last_seen_at": "2026-11-08T16:01:26.513942Z",
       "daily": {
         "active_signals": [
           {
