@@ -1,7 +1,7 @@
 {
-  "run_id": "20261108T004605Z_c8231baa",
-  "started_at_utc": "2026-11-08T00:46:05.415307Z",
-  "completed_at_utc": "2026-11-08T00:46:30.919562Z",
+  "run_id": "20261108T010104Z_b70ca919",
+  "started_at_utc": "2026-11-08T01:01:04.555137Z",
+  "completed_at_utc": "2026-11-08T01:01:31.114903Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -11,13 +11,13 @@
   "radar_assets_baselined": 0,
   "technical_assets_baselined": 0,
   "divergence_assets_baselined": 0,
-  "notification_candidate_count": 0,
-  "stage_b_attempted": 5,
-  "divergence_attempted": 5,
+  "notification_candidate_count": 1,
+  "stage_b_attempted": 4,
+  "divergence_attempted": 4,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 25.504256,
-  "API_requests_total": 78,
+  "elapsed_seconds": 26.559766,
+  "API_requests_total": 68,
   "requests_by_exchange": {
     "Binance": 4,
     "Bitget": 9,
@@ -26,21 +26,20 @@
     "Coinbase": 2,
     "Gate": 9,
     "Kraken": 4,
-    "KuCoin": 14,
+    "KuCoin": 9,
     "MEXC": 11,
-    "OKX": 19
+    "OKX": 14
   },
-  "elapsed_stage_a": 0.598008,
-  "elapsed_radar_state": 0.152056,
-  "elapsed_stage_b": 12.87538,
-  "elapsed_divergence": 11.877461,
-  "elapsed_total": 25.504256,
+  "elapsed_stage_a": 1.612435,
+  "elapsed_radar_state": 0.175633,
+  "elapsed_stage_b": 14.59115,
+  "elapsed_divergence": 10.179031,
+  "elapsed_total": 26.559766,
   "asset_enrichment_seconds": {
-    "ACT": 1.279861,
-    "AIOT": 1.474099,
-    "NFT": 1.264023,
-    "OLAS": 1.125254,
-    "ONE": 1.236512
+    "ACT": 1.587961,
+    "AIOT": 2.168181,
+    "OLAS": 1.27366,
+    "ONE": 1.629739
   },
   "stale_lock_recovered": false
 }
