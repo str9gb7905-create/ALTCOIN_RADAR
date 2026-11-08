@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-08T20:16:59.753592Z",
+  "updated_at_utc": "2026-11-08T21:16:45.205849Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -43477,6 +43477,37 @@
         },
         {
           "symbol": "BST",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_a75b4659cf898e6e7cd799df6c6d5a7e": {
+      "notification_id": "ntf_a75b4659cf898e6e7cd799df6c6d5a7e",
+      "run_id": "20261108T211604Z_bb2f823f",
+      "created_at_utc": "2026-11-08T21:16:45.204700Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261108T211604Z_bb2f823f\n資料來源：CoinGecko＋公開現貨交易所\n\nMERL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.03206349\n幅度級距：+10%\n區間異動：+11.03%\n基準價格：US$0.028878709\n24H：+8.57%\n4H RSI：64.87\n日線 RSI：55.41\n週線 RSI：43.82\n成交量：2.41×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMERLUSDT\n\nHMSTR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0001287812\n幅度級距：-10%\n區間異動：-10.12%\n基準價格：US$0.00014328091\n24H：-2.52%\n4H RSI：48.69\n日線 RSI：38.37\n週線 RSI：37.91\n成交量：13.61×｜STRONG\n背離：DAILY_BULLISH, WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hamster-kombat\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AHMSTRUSDT",
+      "batch_id": "ntf_a75b4659cf898e6e7cd799df6c6d5a7e",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "abff10bdf0a636a6ca9c9351cb332ba6ab5d6d1f0fbb1bfa500e435149ef7bde",
+      "alert_ranges": [
+        {
+          "symbol": "MERL",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "HMSTR",
           "direction": "DOWN",
           "level": 10
         }
