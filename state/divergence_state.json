@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261108T161558Z_6ab75df4",
-  "updated_at": "2026-11-08T16:16:24.100290Z",
+  "last_run_id": "20261108T163103Z_cdcac2aa",
+  "updated_at": "2026-11-08T16:31:24.236435Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -39,26 +39,50 @@
     },
     "DGB": {
       "coingecko_id": "digibyte",
-      "history_source": "Gate",
+      "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T15:16:24.791093Z",
+      "last_seen_at": "2026-11-08T16:31:24.236435Z",
       "daily": {
         "active_signals": [
           {
             "type": "DAILY_BULLISH",
-            "signature": "DGB|1D|BULLISH|2026-10-19|2026-10-27",
+            "signature": "DGB|1D|BULLISH|2026-10-24|2026-10-30",
             "pivots": [
               {
-                "timestamp": "2026-10-19",
-                "price": 0.003307,
-                "rsi": 30.26403142143903,
+                "timestamp": "2026-10-24",
+                "price": 0.003132,
+                "rsi": 37.62487926527757,
                 "confirmed": true
               },
               {
-                "timestamp": "2026-10-27",
-                "price": 0.003153,
-                "rsi": 39.56421643474282,
+                "timestamp": "2026-10-30",
+                "price": 0.00305,
+                "rsi": 40.53701966560552,
+                "confirmed": true
+              }
+            ]
+          },
+          {
+            "type": "DAILY_BULLISH_CONSECUTIVE",
+            "signature": "DGB|1D|BULLISH_CONSECUTIVE|2026-10-19|2026-10-24|2026-10-30",
+            "pivots": [
+              {
+                "timestamp": "2026-10-19",
+                "price": 0.003268,
+                "rsi": 30.933319699925846,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-10-24",
+                "price": 0.003132,
+                "rsi": 37.62487926527757,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-10-30",
+                "price": 0.00305,
+                "rsi": 40.53701966560552,
                 "confirmed": true
               }
             ]
@@ -118,7 +142,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T16:16:24.100290Z",
+      "last_seen_at": "2026-11-08T16:31:24.236435Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2814,7 +2838,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T16:16:24.100290Z",
+      "last_seen_at": "2026-11-08T16:31:24.236435Z",
       "daily": {
         "active_signals": [
           {
@@ -2992,7 +3016,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T16:16:24.100290Z",
+      "last_seen_at": "2026-11-08T16:31:24.236435Z",
       "daily": {
         "active_signals": [
           {
