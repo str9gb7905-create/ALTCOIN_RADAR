@@ -1,7 +1,7 @@
 {
-  "run_id": "20261108T193101Z_cc994802",
-  "started_at_utc": "2026-11-08T19:31:01.887115Z",
-  "completed_at_utc": "2026-11-08T19:31:39.187307Z",
+  "run_id": "20261108T194607Z_df005624",
+  "started_at_utc": "2026-11-08T19:46:07.549206Z",
+  "completed_at_utc": "2026-11-08T19:46:45.365494Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -16,7 +16,7 @@
   "divergence_attempted": 6,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 37.300192,
+  "elapsed_seconds": 37.816288,
   "API_requests_total": 78,
   "requests_by_exchange": {
     "Binance": 4,
@@ -30,18 +30,18 @@
     "MEXC": 11,
     "OKX": 14
   },
-  "elapsed_stage_a": 0.618091,
-  "elapsed_radar_state": 0.15679,
-  "elapsed_stage_b": 21.092708,
-  "elapsed_divergence": 15.431258,
-  "elapsed_total": 37.300192,
+  "elapsed_stage_a": 0.944815,
+  "elapsed_radar_state": 0.179407,
+  "elapsed_stage_b": 21.584901,
+  "elapsed_divergence": 15.10575,
+  "elapsed_total": 37.816288,
   "asset_enrichment_seconds": {
-    "ACT": 3.240838,
-    "AIOT": 2.353383,
-    "GLMR": 2.890391,
-    "HUMA": 0.582902,
-    "OLAS": 1.390809,
-    "ONE": 3.244618
+    "ACT": 3.249869,
+    "AIOT": 2.280686,
+    "GLMR": 2.254476,
+    "HUMA": 0.586318,
+    "OLAS": 2.304373,
+    "ONE": 3.056826
   },
   "stale_lock_recovered": false
 }
