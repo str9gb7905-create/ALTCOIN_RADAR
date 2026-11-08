@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261108T150110Z_591a7172",
-  "updated_at": "2026-11-08T15:01:38.997710Z",
+  "last_run_id": "20261108T151555Z_b76bc073",
+  "updated_at": "2026-11-08T15:16:24.791093Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -39,50 +39,26 @@
     },
     "DGB": {
       "coingecko_id": "digibyte",
-      "history_source": "KuCoin",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T14:31:31.752253Z",
+      "last_seen_at": "2026-11-08T15:16:24.791093Z",
       "daily": {
         "active_signals": [
           {
             "type": "DAILY_BULLISH",
-            "signature": "DGB|1D|BULLISH|2026-10-24|2026-10-30",
-            "pivots": [
-              {
-                "timestamp": "2026-10-24",
-                "price": 0.003132,
-                "rsi": 37.62487926527757,
-                "confirmed": true
-              },
-              {
-                "timestamp": "2026-10-30",
-                "price": 0.00305,
-                "rsi": 40.53701966560552,
-                "confirmed": true
-              }
-            ]
-          },
-          {
-            "type": "DAILY_BULLISH_CONSECUTIVE",
-            "signature": "DGB|1D|BULLISH_CONSECUTIVE|2026-10-19|2026-10-24|2026-10-30",
+            "signature": "DGB|1D|BULLISH|2026-10-19|2026-10-27",
             "pivots": [
               {
                 "timestamp": "2026-10-19",
-                "price": 0.003268,
-                "rsi": 30.933319699925846,
+                "price": 0.003307,
+                "rsi": 30.26403142143903,
                 "confirmed": true
               },
               {
-                "timestamp": "2026-10-24",
-                "price": 0.003132,
-                "rsi": 37.62487926527757,
-                "confirmed": true
-              },
-              {
-                "timestamp": "2026-10-30",
-                "price": 0.00305,
-                "rsi": 40.53701966560552,
+                "timestamp": "2026-10-27",
+                "price": 0.003153,
+                "rsi": 39.56421643474282,
                 "confirmed": true
               }
             ]
@@ -91,6 +67,7 @@
         "seen_signatures": [
           "DGB|1D|BEARISH|2026-08-27|2026-09-03",
           "DGB|1D|BULLISH_CONSECUTIVE|2026-10-19|2026-10-24|2026-10-30",
+          "DGB|1D|BULLISH|2026-10-19|2026-10-27",
           "DGB|1D|BULLISH|2026-10-24|2026-10-30"
         ]
       },
@@ -141,7 +118,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T15:01:38.997710Z",
+      "last_seen_at": "2026-11-08T15:16:24.791093Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2240,7 +2217,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T15:01:38.997710Z",
+      "last_seen_at": "2026-11-08T15:16:24.791093Z",
       "daily": {
         "active_signals": [
           {
@@ -2837,7 +2814,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T15:01:38.997710Z",
+      "last_seen_at": "2026-11-08T15:16:24.791093Z",
       "daily": {
         "active_signals": [
           {
@@ -3015,7 +2992,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-08T15:01:38.997710Z",
+      "last_seen_at": "2026-11-08T15:16:24.791093Z",
       "daily": {
         "active_signals": [
           {
