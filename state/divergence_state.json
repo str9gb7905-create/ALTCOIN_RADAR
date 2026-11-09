@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261109T074606Z_22e078d4",
-  "updated_at": "2026-11-09T07:46:53.150749Z",
+  "last_run_id": "20261109T080036Z_351f9661",
+  "updated_at": "2026-11-09T08:01:10.608616Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -39,10 +39,10 @@
     },
     "DGB": {
       "coingecko_id": "digibyte",
-      "history_source": "KuCoin",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:46:53.150749Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -59,10 +59,10 @@
     },
     "GLMR": {
       "coingecko_id": "moonbeam",
-      "history_source": "Gate",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:46:53.150749Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -96,10 +96,10 @@
     },
     "ONE": {
       "coingecko_id": "harmony",
-      "history_source": "Gate",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:46:53.150749Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -385,10 +385,10 @@
     },
     "NEIRO": {
       "coingecko_id": "neiro-3",
-      "history_source": "Kraken",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:46:53.150749Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -996,7 +996,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:46:53.150749Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1215,10 +1215,10 @@
     },
     "HUMA": {
       "coingecko_id": "huma-finance",
-      "history_source": "Bitget",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:16:42.931072Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1235,10 +1235,10 @@
     },
     "LSK": {
       "coingecko_id": "lisk",
-      "history_source": "KuCoin",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:46:53.150749Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1267,10 +1267,10 @@
     },
     "AVA": {
       "coingecko_id": "ava-ai",
-      "history_source": "KuCoin",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:46:53.150749Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [
           {
@@ -1279,14 +1279,14 @@
             "pivots": [
               {
                 "timestamp": "2026-10-19",
-                "price": 0.4469,
-                "rsi": 74.06400625876614,
+                "price": 0.4487,
+                "rsi": 74.0425072075223,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-10-24",
-                "price": 0.4932,
-                "rsi": 66.48607797256864,
+                "price": 0.4951,
+                "rsi": 66.3100113821711,
                 "confirmed": true
               }
             ]
@@ -1713,7 +1713,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:46:53.150749Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2060,7 +2060,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:46:53.150749Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2138,10 +2138,10 @@
     },
     "WAVES": {
       "coingecko_id": "waves",
-      "history_source": "Gate",
+      "history_source": "Bybit",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-03T01:46:37.982017Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [
           {
@@ -2150,14 +2150,14 @@
             "pivots": [
               {
                 "timestamp": "2026-10-18",
-                "price": 0.2255,
-                "rsi": 34.98950909990259,
+                "price": 0.2257,
+                "rsi": 35.27096628691673,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-10-30",
-                "price": 0.2098,
-                "rsi": 37.251503816931525,
+                "price": 0.2113,
+                "rsi": 37.534825693670584,
                 "confirmed": true
               }
             ]
@@ -2175,14 +2175,14 @@
             "pivots": [
               {
                 "timestamp": "2026-06-01",
-                "price": 0.2446,
-                "rsi": 26.244143115872888,
+                "price": 0.2443,
+                "rsi": 26.03346427991724,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-08-17",
-                "price": 0.18,
-                "rsi": 31.239122262219652,
+                "price": 0.1811,
+                "rsi": 31.54972197255759,
                 "confirmed": true
               }
             ]
@@ -2795,7 +2795,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:46:53.150749Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [
           {
@@ -2970,10 +2970,10 @@
     },
     "ACT": {
       "coingecko_id": "act-i-the-ai-prophecy",
-      "history_source": "Gate",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:46:53.150749Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [
           {
@@ -2982,14 +2982,14 @@
             "pivots": [
               {
                 "timestamp": "2026-10-18",
-                "price": 0.00844,
-                "rsi": 34.48277164597317,
+                "price": 0.00842,
+                "rsi": 34.26406407481821,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-10-30",
                 "price": 0.00744,
-                "rsi": 40.48829107260354,
+                "rsi": 40.33467394570581,
                 "confirmed": true
               }
             ]
@@ -3072,10 +3072,10 @@
     },
     "LAZIO": {
       "coingecko_id": "lazio-fan-token",
-      "history_source": "Gate",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:46:53.150749Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -3664,10 +3664,10 @@
     },
     "HMSTR": {
       "coingecko_id": "hamster-kombat",
-      "history_source": "KuCoin",
+      "history_source": "Binance",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-09T07:46:53.150749Z",
+      "last_seen_at": "2026-11-09T08:01:10.608616Z",
       "daily": {
         "active_signals": [
           {
@@ -3676,14 +3676,14 @@
             "pivots": [
               {
                 "timestamp": "2026-10-18",
-                "price": 0.0001375,
-                "rsi": 28.522607930737067,
+                "price": 0.0001376,
+                "rsi": 28.706573977489,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-10-30",
-                "price": 0.0001274,
-                "rsi": 39.03599594611104,
+                "price": 0.0001275,
+                "rsi": 39.225615827676876,
                 "confirmed": true
               }
             ]
@@ -3694,26 +3694,7 @@
         ]
       },
       "weekly": {
-        "active_signals": [
-          {
-            "type": "WEEKLY_BULLISH",
-            "signature": "HMSTR|1W|BULLISH|2026-07-23|2026-08-20",
-            "pivots": [
-              {
-                "timestamp": "2026-07-23",
-                "price": 0.0001632,
-                "rsi": 41.510720773838635,
-                "confirmed": true
-              },
-              {
-                "timestamp": "2026-08-20",
-                "price": 0.0001399,
-                "rsi": 44.56680675123433,
-                "confirmed": true
-              }
-            ]
-          }
-        ],
+        "active_signals": [],
         "seen_signatures": [
           "HMSTR|1W|BULLISH|2026-07-23|2026-08-20"
         ]
