@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-09T17:32:07.138560Z",
+  "updated_at_utc": "2026-11-09T17:32:09.822127Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -44532,13 +44532,13 @@
       "notification_id": "ntf_c4580b77b16344d396daa1928576d964",
       "run_id": "20261109T173057Z_fbb41927",
       "created_at_utc": "2026-11-09T17:32:07.137605Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-09T17:32:09.822102Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261109T173057Z_fbb41927\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0014634674\n幅度級距：-20%\n區間異動：-20.54%\n基準價格：US$0.0018418027\n24H：-17.84%\n4H RSI：44.25\n日線 RSI：56.28\n週線 RSI：48.57\n成交量：10.06×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AONEUSDT\n\nBST｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0058410175\n幅度級距：-10%\n區間異動：-10.26%\n基準價格：US$0.006509058\n24H：-9.08%\n4H RSI：35.63\n日線 RSI：31.32\n週線 RSI：23.76\n成交量：1.30×｜NORMAL\n背離：WEEKLY_BEARISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blocksquare\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABSTUSDT\n\nACT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0089546846\n幅度級距：-10%\n區間異動：-10.10%\n基準價格：US$0.0099612464\n24H：-9.95%\n4H RSI：44.08\n日線 RSI：52.04\n週線 RSI：42.98\n成交量：4.97×｜STRONG\n背離：DAILY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/act-i-the-ai-prophecy\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AACTUSDT",
       "batch_id": "ntf_c4580b77b16344d396daa1928576d964",
