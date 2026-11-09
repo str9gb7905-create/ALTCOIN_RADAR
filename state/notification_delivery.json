@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-09T07:02:00.784311Z",
+  "updated_at_utc": "2026-11-09T07:16:52.198391Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -43860,6 +43860,37 @@
       "alert_ranges": [
         {
           "symbol": "FUN",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_bb9a25dd13e0868cb7a9bb567cdb4ef3": {
+      "notification_id": "ntf_bb9a25dd13e0868cb7a9bb567cdb4ef3",
+      "run_id": "20261109T071608Z_439984a8",
+      "created_at_utc": "2026-11-09T07:16:52.196891Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261109T071608Z_439984a8\n資料來源：CoinGecko＋公開現貨交易所\n\nNOS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.41265507\n幅度級距：-10%\n區間異動：-10.41%\n基準價格：US$0.46062921\n24H：-8.34%\n4H RSI：44.32\n日線 RSI：46.14\n週線 RSI：58.43\n成交量：0.91×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD\n\nLSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.16761363\n幅度級距：-10%\n區間異動：-10.34%\n基準價格：US$0.18695301\n24H：-5.90%\n4H RSI：37.62\n日線 RSI：42.48\n週線 RSI：52.18\n成交量：1.01×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ALSKUSDT",
+      "batch_id": "ntf_bb9a25dd13e0868cb7a9bb567cdb4ef3",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "b2b5023a9d1c642c111fd3fae09826637415e9c3ebd1ff7330d24c5602b17595",
+      "alert_ranges": [
+        {
+          "symbol": "NOS",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "LSK",
           "direction": "DOWN",
           "level": 10
         }
