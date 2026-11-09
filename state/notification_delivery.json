@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-09T07:16:58.849219Z",
+  "updated_at_utc": "2026-11-09T07:31:48.356642Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -43891,6 +43891,32 @@
         },
         {
           "symbol": "LSK",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_af407d2625eb0f1a79b60f1d5ade704c": {
+      "notification_id": "ntf_af407d2625eb0f1a79b60f1d5ade704c",
+      "run_id": "20261109T073057Z_4d4f16e1",
+      "created_at_utc": "2026-11-09T07:31:48.355740Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261109T073057Z_4d4f16e1\n資料來源：CoinGecko＋公開現貨交易所\n\nAVA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0056713084\n幅度級距：-10%\n區間異動：-10.15%\n基準價格：US$0.0063117785\n24H：-10.09%\n4H RSI：30.15\n日線 RSI：39.45\n週線 RSI：54.73\n成交量：0.38×｜WEAK\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ava-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAVAUSDT",
+      "batch_id": "ntf_af407d2625eb0f1a79b60f1d5ade704c",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "0d5a1746a0525aff2764669a8f1b2a414e4329d90309b6b122800a46eba23035",
+      "alert_ranges": [
+        {
+          "symbol": "AVA",
           "direction": "DOWN",
           "level": 10
         }
