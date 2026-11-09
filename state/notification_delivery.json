@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-09T15:47:14.861575Z",
+  "updated_at_utc": "2026-11-09T15:47:18.838539Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -44362,13 +44362,13 @@
       "notification_id": "ntf_89ef1dc037e2a091e0ebe4cf21160ab5",
       "run_id": "20261109T154606Z_3a4bebf1",
       "created_at_utc": "2026-11-09T15:47:14.860129Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-09T15:47:18.838514Z",
       "event_count": 6,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261109T154606Z_3a4bebf1\n資料來源：CoinGecko＋公開現貨交易所\n\nMERL｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.035431287\n幅度級距：+20%\n區間異動：+21.08%\n基準價格：US$0.029261537\n24H：+21.74%\n4H RSI：67.56\n日線 RSI：60.60\n週線 RSI：44.35\n成交量：7.59×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMERLUSDT\n\nONDO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.38432738\n幅度級距：+10%\n區間異動：+11.54%\n基準價格：US$0.34455714\n24H：+6.50%\n4H RSI：35.44\n日線 RSI：34.98\n週線 RSI：52.34\n成交量：1.81×｜ELEVATED\n背離：DAILY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ondo-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AONDOUSD\n\nBOME｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00064666281\n幅度級距：+10%\n區間異動：+10.71%\n基準價格：US$0.00058410975\n24H：+6.87%\n4H RSI：46.95\n日線 RSI：37.99\n週線 RSI：44.02\n成交量：1.71×｜ELEVATED\n背離：DAILY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/book-of-meme\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABOMEUSDT\n\nC98｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.011879253\n幅度級距：+10%\n區間異動：+10.35%\n基準價格：US$0.010764784\n24H：+4.17%\n4H RSI：43.48\n日線 RSI：30.27\n週線 RSI：40.01\n成交量：0.77×｜WEAK\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coin98\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AC98USD\n\nENJ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.023798672\n幅度級距：+10%\n區間異動：+10.17%\n基準價格：US$0.021601023\n24H：+4.83%\n4H RSI：56.64\n日線 RSI：32.52\n週線 RSI：43.29\n成交量：3.80×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENJUSDT\n\nPIXEL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0041872758\n幅度級距：+10%\n區間異動：+10.07%\n基準價格：US$0.0038041973\n24H：+4.28%\n4H RSI：48.84\n日線 RSI：33.48\n週線 RSI：37.76\n成交量：0.95×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pixels\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APIXELUSDT",
       "batch_id": "ntf_89ef1dc037e2a091e0ebe4cf21160ab5",
