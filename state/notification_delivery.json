@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-09T14:02:16.699555Z",
+  "updated_at_utc": "2026-11-09T14:02:20.459190Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -44253,13 +44253,13 @@
       "notification_id": "ntf_3578225bac6f5d32c6ddf71beca6839c",
       "run_id": "20261109T140108Z_ae095f87",
       "created_at_utc": "2026-11-09T14:02:16.698053Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-09T14:02:20.459168Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261109T140108Z_ae095f87\n資料來源：CoinGecko＋公開現貨交易所\n\nRATS｜再次觸發\n觸發：由近24H低點上漲\n價格：US$1.4158536e-05\n幅度級距：+10%\n區間異動：+10.18%\n基準價格：US$1.2850721e-05\n24H：+2.36%\n4H RSI：44.66\n日線 RSI：29.76\n週線 RSI：29.94\n成交量：2.75×｜STRONG\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/rats\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ARATSUSDT",
       "batch_id": "ntf_3578225bac6f5d32c6ddf71beca6839c",
