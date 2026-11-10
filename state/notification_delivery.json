@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-10T17:01:57.316903Z",
+  "updated_at_utc": "2026-11-10T17:03:45.643335Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -45541,6 +45541,32 @@
           "symbol": "OSMO",
           "direction": "DOWN",
           "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_694ef9d77a3b6e308873405dde48c2e1": {
+      "notification_id": "ntf_694ef9d77a3b6e308873405dde48c2e1",
+      "run_id": "20261110T170251Z_0eaaff4d",
+      "created_at_utc": "2026-11-10T17:03:45.641823Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261110T170251Z_0eaaff4d\n資料來源：CoinGecko＋公開現貨交易所\n\nAGI｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0039873123\n幅度級距：+20%\n區間異動：+21.61%\n基準價格：US$0.0032787264\n24H：+9.32%\n4H RSI：64.36\n日線 RSI：29.75\n週線 RSI：35.82\n成交量：1.13×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT",
+      "batch_id": "ntf_694ef9d77a3b6e308873405dde48c2e1",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "1b88a8f69b4e0567d2f793a78cdfd1983618d2554939ec097f768c6bd372c9dc",
+      "alert_ranges": [
+        {
+          "symbol": "AGI",
+          "direction": "UP",
+          "level": 20
         }
       ],
       "repeat_suppressed_count": 0
