@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261110T121601Z_2bf9443d",
-  "updated_at": "2026-11-10T12:16:27.712895Z",
+  "last_run_id": "20261110T123114Z_082d159a",
+  "updated_at": "2026-11-10T12:31:42.376341Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -99,7 +99,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-10T12:16:27.712895Z",
+      "last_seen_at": "2026-11-10T12:31:42.376341Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -270,7 +270,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-10T12:16:27.712895Z",
+      "last_seen_at": "2026-11-10T12:31:42.376341Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1021,7 +1021,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-10T12:16:27.712895Z",
+      "last_seen_at": "2026-11-10T12:31:42.376341Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2226,7 +2226,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-10T12:16:27.712895Z",
+      "last_seen_at": "2026-11-10T12:31:42.376341Z",
       "daily": {
         "active_signals": [
           {
@@ -2880,7 +2880,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-10T12:16:27.712895Z",
+      "last_seen_at": "2026-11-10T12:31:42.376341Z",
       "daily": {
         "active_signals": [
           {
@@ -3058,7 +3058,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-10T12:16:27.712895Z",
+      "last_seen_at": "2026-11-10T12:31:42.376341Z",
       "daily": {
         "active_signals": [
           {
