@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-10T08:46:54.075679Z",
+  "updated_at_utc": "2026-11-10T10:31:53.708595Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -45285,6 +45285,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_f8c8b7fb5e47a105ccb7e856f59538a4": {
+      "notification_id": "ntf_f8c8b7fb5e47a105ccb7e856f59538a4",
+      "run_id": "20261110T103111Z_c24a99e5",
+      "created_at_utc": "2026-11-10T10:31:53.707120Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261110T103111Z_c24a99e5\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0019490812\n幅度級距：+40%\n區間異動：+43.90%\n基準價格：US$0.0013544651\n24H：+25.92%\n4H RSI：51.57\n日線 RSI：49.76\n週線 RSI：40.96\n成交量：20.22×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT",
+      "batch_id": "ntf_f8c8b7fb5e47a105ccb7e856f59538a4",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "84e46c04b84fa69e29d9e8ae7db5f6b70f460b0fc30f270289be394613812573",
+      "alert_ranges": [
+        {
+          "symbol": "ONE",
+          "direction": "UP",
+          "level": 40
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
