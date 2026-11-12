@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-12T18:16:30.507912Z",
+  "updated_at_utc": "2026-11-12T19:31:39.043985Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -47277,6 +47277,32 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_05e4a4eea4fe1130cddbaacfadd41891": {
+      "notification_id": "ntf_05e4a4eea4fe1130cddbaacfadd41891",
+      "run_id": "20261112T193109Z_60c51fd9",
+      "created_at_utc": "2026-11-12T19:31:39.042809Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261112T193109Z_60c51fd9\n資料來源：CoinGecko＋公開現貨交易所\n\nCITY｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.27047524\n幅度級距：+10%\n區間異動：+17.57%\n基準價格：US$0.23005123\n24H：+15.82%\n4H RSI：35.91\n日線 RSI：26.66\n週線 RSI：22.96\n成交量：0.98×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/manchester-city-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACITYUSDT",
+      "batch_id": "ntf_05e4a4eea4fe1130cddbaacfadd41891",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "582b75925333dcb9ec2b56be305ebef3dede76b24becd22f6a44bdc2c0b59765",
+      "alert_ranges": [
+        {
+          "symbol": "CITY",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
