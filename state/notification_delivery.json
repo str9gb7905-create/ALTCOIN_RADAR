@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-12T13:01:34.488218Z",
+  "updated_at_utc": "2026-11-12T13:01:37.183497Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -46889,13 +46889,13 @@
       "notification_id": "ntf_cca5899c8465b48b4c4ade37d20ce38f",
       "run_id": "20261112T130101Z_16c0bbe2",
       "created_at_utc": "2026-11-12T13:01:34.487242Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-12T13:01:37.183472Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261112T130101Z_16c0bbe2\n資料來源：CoinGecko＋公開現貨交易所\n\nNEAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.4079334\n幅度級距：-10%\n區間異動：-10.29%\n基準價格：US$3.7988924\n24H：-9.00%\n4H RSI：37.03\n日線 RSI：37.83\n週線 RSI：54.81\n成交量：0.96×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ANEARUSD\n\nARB｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.14566034\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.16212448\n24H：-8.84%\n4H RSI：31.31\n日線 RSI：40.47\n週線 RSI：51.30\n成交量：1.79×｜ELEVATED\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arbitrum\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARBUSDT",
       "batch_id": "ntf_cca5899c8465b48b4c4ade37d20ce38f",
