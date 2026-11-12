@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-12T15:02:01.447024Z",
+  "updated_at_utc": "2026-11-12T15:16:50.261072Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -47070,6 +47070,37 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_eebdb200b339792c5369ec7a925cbbcc": {
+      "notification_id": "ntf_eebdb200b339792c5369ec7a925cbbcc",
+      "run_id": "20261112T151614Z_b6d7083e",
+      "created_at_utc": "2026-11-12T15:16:50.259533Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261112T151614Z_b6d7083e\n資料來源：CoinGecko＋公開現貨交易所\n\nENA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.13788655\n幅度級距：-10%\n區間異動：-11.12%\n基準價格：US$0.15513032\n24H：-9.90%\n4H RSI：31.64\n日線 RSI：34.08\n週線 RSI：47.30\n成交量：0.95×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethena\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENAUSDT\n\nUNI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$5.9856251\n幅度級距：-10%\n區間異動：-10.03%\n基準價格：US$6.6532752\n24H：-7.24%\n4H RSI：27.79\n日線 RSI：38.95\n週線 RSI：52.79\n成交量：1.14×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/uniswap\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AUNIUSDT",
+      "batch_id": "ntf_eebdb200b339792c5369ec7a925cbbcc",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "16de911084401ff523793ed5fcaaa7de81a9666f3160b93f044ee6b71f6d07d7",
+      "alert_ranges": [
+        {
+          "symbol": "ENA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "UNI",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
