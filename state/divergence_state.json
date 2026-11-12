@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261112T134608Z_10e85760",
-  "updated_at": "2026-11-12T13:46:30.995719Z",
+  "last_run_id": "20261112T140105Z_6e908194",
+  "updated_at": "2026-11-12T14:01:38.310641Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -82,7 +82,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T13:46:30.995719Z",
+      "last_seen_at": "2026-11-12T14:01:38.310641Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -99,7 +99,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T13:46:30.995719Z",
+      "last_seen_at": "2026-11-12T14:01:38.310641Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -234,7 +234,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T13:46:30.995719Z",
+      "last_seen_at": "2026-11-12T14:01:38.310641Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -251,7 +251,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T13:46:30.995719Z",
+      "last_seen_at": "2026-11-12T14:01:38.310641Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -861,7 +861,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T13:46:30.995719Z",
+      "last_seen_at": "2026-11-12T14:01:38.310641Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1102,7 +1102,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T13:46:30.995719Z",
+      "last_seen_at": "2026-11-12T14:01:38.310641Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1220,7 +1220,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T13:46:30.995719Z",
+      "last_seen_at": "2026-11-12T14:01:38.310641Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2678,7 +2678,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T13:46:30.995719Z",
+      "last_seen_at": "2026-11-12T14:01:38.310641Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -3595,10 +3595,10 @@
     },
     "PSG": {
       "coingecko_id": "paris-saint-germain-fan-token",
-      "history_source": "Bitget",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-11T16:31:29.067311Z",
+      "last_seen_at": "2026-11-12T14:01:38.310641Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
