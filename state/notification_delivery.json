@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-12T01:16:42.424492Z",
+  "updated_at_utc": "2026-11-12T01:46:47.685029Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -46573,6 +46573,37 @@
       "alert_ranges": [
         {
           "symbol": "ARB",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_399bf85dd610fcda149e9dbba3dd2923": {
+      "notification_id": "ntf_399bf85dd610fcda149e9dbba3dd2923",
+      "run_id": "20261112T014612Z_149fe369",
+      "created_at_utc": "2026-11-12T01:46:47.683789Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261112T014612Z_149fe369\n資料來源：CoinGecko＋公開現貨交易所\n\nWAVES｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.19756423\n幅度級距：+10%\n區間異動：+11.58%\n基準價格：US$0.17706071\n24H：+10.34%\n4H RSI：38.64\n日線 RSI：30.28\n週線 RSI：33.82\n成交量：7.32×｜STRONG\n背離：DAILY_BULLISH, WEEKLY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/waves\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWAVESUSDT\n\nAGI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0036122854\n幅度級距：-10%\n區間異動：-10.17%\n基準價格：US$0.0040211809\n24H：-8.81%\n4H RSI：47.85\n日線 RSI：37.42\n週線 RSI：35.82\n成交量：3.99×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT",
+      "batch_id": "ntf_399bf85dd610fcda149e9dbba3dd2923",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "906ba5383aa63016819b122c8118507eba1f65fde41c1690d8eb7dda7a78360c",
+      "alert_ranges": [
+        {
+          "symbol": "WAVES",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "AGI",
           "direction": "DOWN",
           "level": 10
         }
