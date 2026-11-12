@@ -1,7 +1,7 @@
 {
-  "run_id": "20261112T223113Z_e8c5d979",
-  "started_at_utc": "2026-11-12T22:31:13.020568Z",
-  "completed_at_utc": "2026-11-12T22:31:43.820834Z",
+  "run_id": "20261112T224614Z_ecbf5292",
+  "started_at_utc": "2026-11-12T22:46:14.261783Z",
+  "completed_at_utc": "2026-11-12T22:46:38.760727Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -11,16 +11,16 @@
   "radar_assets_baselined": 0,
   "technical_assets_baselined": 0,
   "divergence_assets_baselined": 0,
-  "notification_candidate_count": 0,
-  "stage_b_attempted": 3,
-  "divergence_attempted": 3,
+  "notification_candidate_count": 1,
+  "stage_b_attempted": 4,
+  "divergence_attempted": 4,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 30.800268,
-  "API_requests_total": 69,
+  "elapsed_seconds": 24.498943,
+  "API_requests_total": 74,
   "requests_by_exchange": {
     "Binance": 4,
-    "Bitget": 4,
+    "Bitget": 9,
     "Bybit": 4,
     "CoinGecko": 2,
     "Coinbase": 2,
@@ -30,15 +30,16 @@
     "MEXC": 12,
     "OKX": 14
   },
-  "elapsed_stage_a": 0.497617,
-  "elapsed_radar_state": 0.190169,
-  "elapsed_stage_b": 18.618571,
-  "elapsed_divergence": 11.492016,
-  "elapsed_total": 30.800268,
+  "elapsed_stage_a": 0.68086,
+  "elapsed_radar_state": 0.159175,
+  "elapsed_stage_b": 15.121488,
+  "elapsed_divergence": 8.535695,
+  "elapsed_total": 24.498943,
   "asset_enrichment_seconds": {
-    "AGI": 3.428796,
-    "CITY": 5.440299,
-    "ONE": 1.747436
+    "AGI": 3.133736,
+    "CITY": 3.573116,
+    "HUMA": 0.538129,
+    "ONE": 1.346565
   },
   "stale_lock_recovered": false
 }
