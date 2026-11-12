@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-12T16:31:52.640705Z",
+  "updated_at_utc": "2026-11-12T16:46:51.062575Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -47153,6 +47153,37 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_43d7583a402031667d1aadf73e30e58b": {
+      "notification_id": "ntf_43d7583a402031667d1aadf73e30e58b",
+      "run_id": "20261112T164605Z_6819314c",
+      "created_at_utc": "2026-11-12T16:46:51.061295Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261112T164605Z_6819314c\n資料來源：CoinGecko＋公開現貨交易所\n\nNEAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.4016422\n幅度級距：-10%\n區間異動：-10.46%\n基準價格：US$3.7988924\n24H：-9.58%\n4H RSI：34.80\n日線 RSI：37.83\n週線 RSI：54.81\n成交量：1.03×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ANEARUSD\n\nARB｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.14563152\n幅度級距：-10%\n區間異動：-10.10%\n基準價格：US$0.16198602\n24H：-9.48%\n4H RSI：29.96\n日線 RSI：40.47\n週線 RSI：51.30\n成交量：1.96×｜ELEVATED\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arbitrum\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARBUSDT",
+      "batch_id": "ntf_43d7583a402031667d1aadf73e30e58b",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "46f6fb76dbaf01b338f88443b00cd03c0cbec74868a478ec9408399d68d8a482",
+      "alert_ranges": [
+        {
+          "symbol": "NEAR",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ARB",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 4
     }
   }
 }
