@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-13T02:01:51.202507Z",
+  "updated_at_utc": "2026-11-13T02:01:54.053929Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -47495,13 +47495,13 @@
       "notification_id": "ntf_5090c6b29f59f8c87857ed400b30a4a5",
       "run_id": "20261113T020123Z_7e78f20e",
       "created_at_utc": "2026-11-13T02:01:51.200938Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-13T02:01:54.053908Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261113T020123Z_7e78f20e\n資料來源：CoinGecko＋公開現貨交易所\n\nOSMO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.035682172\n幅度級距：+10%\n區間異動：+12.75%\n基準價格：US$0.031646515\n24H：+7.15%\n4H RSI：42.92\n日線 RSI：38.40\n週線 RSI：43.02\n成交量：1.85×｜ELEVATED\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AOSMOUSDT",
       "batch_id": "ntf_5090c6b29f59f8c87857ed400b30a4a5",
