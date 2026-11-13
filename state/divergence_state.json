@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261113T160112Z_aeb9a0bd",
-  "updated_at": "2026-11-13T16:01:37.242376Z",
+  "last_run_id": "20261113T161631Z_21f8a908",
+  "updated_at": "2026-11-13T16:16:55.581259Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -99,7 +99,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-13T15:46:41.820230Z",
+      "last_seen_at": "2026-11-13T16:16:55.581259Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -823,7 +823,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-07T19:01:32.951235Z",
+      "last_seen_at": "2026-11-13T16:16:55.581259Z",
       "daily": {
         "active_signals": [
           {
@@ -833,13 +833,13 @@
               {
                 "timestamp": "2026-10-19",
                 "price": 0.002012,
-                "rsi": 32.91501312981788,
+                "rsi": 32.91501313058443,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-10-30",
                 "price": 0.001991,
-                "rsi": 43.57707971332095,
+                "rsi": 43.57707971350393,
                 "confirmed": true
               }
             ]
@@ -1272,7 +1272,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-13T16:01:37.242376Z",
+      "last_seen_at": "2026-11-13T16:16:55.581259Z",
       "daily": {
         "active_signals": [
           {
@@ -3205,7 +3205,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-13T16:01:37.242376Z",
+      "last_seen_at": "2026-11-13T16:16:55.581259Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -3365,7 +3365,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-13T16:01:37.242376Z",
+      "last_seen_at": "2026-11-13T16:16:55.581259Z",
       "daily": {
         "active_signals": [
           {
@@ -3605,7 +3605,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-13T16:01:37.242376Z",
+      "last_seen_at": "2026-11-13T16:16:55.581259Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
