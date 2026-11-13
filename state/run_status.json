@@ -1,7 +1,7 @@
 {
-  "run_id": "20261113T120108Z_b143d0ae",
-  "started_at_utc": "2026-11-13T12:01:08.647403Z",
-  "completed_at_utc": "2026-11-13T12:01:39.175932Z",
+  "run_id": "20261113T121603Z_36b11e82",
+  "started_at_utc": "2026-11-13T12:16:03.762846Z",
+  "completed_at_utc": "2026-11-13T12:16:39.535539Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -16,7 +16,7 @@
   "divergence_attempted": 5,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 30.528527,
+  "elapsed_seconds": 35.772692,
   "API_requests_total": 81,
   "requests_by_exchange": {
     "Binance": 4,
@@ -30,17 +30,17 @@
     "MEXC": 8,
     "OKX": 19
   },
-  "elapsed_stage_a": 0.787082,
-  "elapsed_radar_state": 0.156379,
-  "elapsed_stage_b": 16.38319,
-  "elapsed_divergence": 13.200525,
-  "elapsed_total": 30.528527,
+  "elapsed_stage_a": 0.631721,
+  "elapsed_radar_state": 0.155573,
+  "elapsed_stage_b": 21.813083,
+  "elapsed_divergence": 13.170923,
+  "elapsed_total": 35.772692,
   "asset_enrichment_seconds": {
-    "AIOT": 1.571995,
-    "CITY": 3.247731,
-    "ONE": 2.037815,
-    "OSMO": 0.461454,
-    "SNT": 2.333055
+    "AIOT": 2.090244,
+    "CITY": 4.435481,
+    "ONE": 3.295165,
+    "OSMO": 0.30478,
+    "SNT": 3.994113
   },
   "stale_lock_recovered": false
 }
