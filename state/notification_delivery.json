@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-13T18:31:54.667851Z",
+  "updated_at_utc": "2026-11-13T20:31:34.792611Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -48018,6 +48018,37 @@
       "part_count": 1,
       "source_digest": "1783d532f0576ebd20aea526c2c425c00658cf26d60e74ba6784e368240311f9",
       "alert_ranges": [
+        {
+          "symbol": "CSPR",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_4ee99cf31e27a34f84f8e857df659f2a": {
+      "notification_id": "ntf_4ee99cf31e27a34f84f8e857df659f2a",
+      "run_id": "20261113T203106Z_53a26bd5",
+      "created_at_utc": "2026-11-13T20:31:34.791367Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261113T203106Z_53a26bd5\n資料來源：CoinGecko＋公開現貨交易所\n\nBST｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0057969122\n幅度級距：+10%\n區間異動：+13.03%\n基準價格：US$0.0051288497\n24H：+11.08%\n4H RSI：45.58\n日線 RSI：28.55\n週線 RSI：23.76\n成交量：1.24×｜NORMAL\n背離：WEEKLY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blocksquare\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABSTUSDT\n\nCSPR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0016685807\n幅度級距：-10%\n區間異動：-10.40%\n基準價格：US$0.0018623381\n24H：-10.11%\n4H RSI：17.56\n日線 RSI：34.77\n週線 RSI：38.61\n成交量：1.56×｜ELEVATED\n背離：DAILY_BULLISH\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/casper-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACSPRUSDT",
+      "batch_id": "ntf_4ee99cf31e27a34f84f8e857df659f2a",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "d2cf94edf81765c3edee83fc8edf6d0a5c3507a1a262dc1ffe33104fe7af060a",
+      "alert_ranges": [
+        {
+          "symbol": "BST",
+          "direction": "UP",
+          "level": 10
+        },
         {
           "symbol": "CSPR",
           "direction": "DOWN",
