@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261112T234608Z_c0152f61",
-  "updated_at": "2026-11-12T23:46:29.190459Z",
+  "last_run_id": "20261113T000058Z_cef0e41b",
+  "updated_at": "2026-11-13T00:01:26.577318Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T23:46:29.190459Z",
+      "last_seen_at": "2026-11-13T00:01:26.577318Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -99,7 +99,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T23:46:29.190459Z",
+      "last_seen_at": "2026-11-13T00:01:26.577318Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -631,7 +631,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T23:31:35.412984Z",
+      "last_seen_at": "2026-11-13T00:01:26.577318Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1220,7 +1220,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T23:46:29.190459Z",
+      "last_seen_at": "2026-11-13T00:01:26.577318Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -3243,7 +3243,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T23:46:29.190459Z",
+      "last_seen_at": "2026-11-13T00:01:26.577318Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -3643,7 +3643,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T23:46:29.190459Z",
+      "last_seen_at": "2026-11-13T00:01:26.577318Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
