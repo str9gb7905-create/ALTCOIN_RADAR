@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261113T133110Z_2b641843",
-  "updated_at": "2026-11-13T13:31:39.305331Z",
+  "last_run_id": "20261113T134558Z_c19d5517",
+  "updated_at": "2026-11-13T13:46:30.408093Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -82,7 +82,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-12T17:46:41.673394Z",
+      "last_seen_at": "2026-11-13T13:46:30.408093Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -99,7 +99,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-13T13:31:39.305331Z",
+      "last_seen_at": "2026-11-13T13:46:30.408093Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1272,7 +1272,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-10T08:16:37.498062Z",
+      "last_seen_at": "2026-11-13T13:46:30.408093Z",
       "daily": {
         "active_signals": [
           {
@@ -1282,13 +1282,13 @@
               {
                 "timestamp": "2026-10-19",
                 "price": 0.4469,
-                "rsi": 74.0640062587522,
+                "rsi": 74.06400625883234,
                 "confirmed": true
               },
               {
                 "timestamp": "2026-10-24",
                 "price": 0.4932,
-                "rsi": 66.48607797256233,
+                "rsi": 66.48607797260937,
                 "confirmed": true
               }
             ]
@@ -2761,7 +2761,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-13T13:31:39.305331Z",
+      "last_seen_at": "2026-11-13T13:46:30.408093Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -3205,7 +3205,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-13T13:31:39.305331Z",
+      "last_seen_at": "2026-11-13T13:46:30.408093Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -3365,7 +3365,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-13T13:31:39.305331Z",
+      "last_seen_at": "2026-11-13T13:46:30.408093Z",
       "daily": {
         "active_signals": [
           {
@@ -3605,7 +3605,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-13T13:31:39.305331Z",
+      "last_seen_at": "2026-11-13T13:46:30.408093Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
