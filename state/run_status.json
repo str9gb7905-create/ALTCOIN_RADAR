@@ -1,7 +1,7 @@
 {
-  "run_id": "20261113T194611Z_90e3547c",
-  "started_at_utc": "2026-11-13T19:46:11.804977Z",
-  "completed_at_utc": "2026-11-13T19:46:35.883307Z",
+  "run_id": "20261113T200117Z_3fc5b789",
+  "started_at_utc": "2026-11-13T20:01:17.951818Z",
+  "completed_at_utc": "2026-11-13T20:01:45.107262Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -16,7 +16,7 @@
   "divergence_attempted": 5,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 24.078331,
+  "elapsed_seconds": 27.155443,
   "API_requests_total": 76,
   "requests_by_exchange": {
     "Binance": 4,
@@ -30,17 +30,17 @@
     "MEXC": 8,
     "OKX": 14
   },
-  "elapsed_stage_a": 0.603283,
-  "elapsed_radar_state": 0.153011,
-  "elapsed_stage_b": 14.439311,
-  "elapsed_divergence": 8.881401,
-  "elapsed_total": 24.078331,
+  "elapsed_stage_a": 0.8566,
+  "elapsed_radar_state": 0.156234,
+  "elapsed_stage_b": 16.485937,
+  "elapsed_divergence": 9.655252,
+  "elapsed_total": 27.155443,
   "asset_enrichment_seconds": {
-    "AIOT": 1.692952,
-    "AVA": 1.603297,
-    "CSPR": 1.32993,
-    "OSMO": 0.557908,
-    "SNT": 2.376042
+    "AIOT": 2.017835,
+    "AVA": 1.635297,
+    "CSPR": 1.30735,
+    "OSMO": 0.580921,
+    "SNT": 2.423645
   },
   "stale_lock_recovered": false
 }
