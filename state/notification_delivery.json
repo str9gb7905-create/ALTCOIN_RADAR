@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T21:07:17.198085Z",
+  "updated_at_utc": "2026-11-14T21:07:20.487312Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -50716,13 +50716,13 @@
       "notification_id": "ntf_4479c1d422cefbebfa09fd0afc390bb4_p0003",
       "run_id": "20261114T210112Z_daf5a058",
       "created_at_utc": "2026-11-14T21:07:05.650728Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-14T21:07:20.487293Z",
       "event_count": 6,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T210112Z_daf5a058\n資料來源：CoinGecko＋公開現貨交易所\n\nCITY｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.21501752\n幅度級距：-10%\n區間異動：-10.17%\n基準價格：US$0.23935309\n24H：-7.95%\n4H RSI：37.86\n日線 RSI：25.31\n週線 RSI：22.96\n成交量：0.99×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/manchester-city-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACITYUSDT\n\nLTC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$44.469237\n幅度級距：-10%\n區間異動：-10.14%\n基準價格：US$49.48858\n24H：-10.38%\n4H RSI：27.11\n日線 RSI：33.09\n週線 RSI：43.68\n成交量：4.50×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/litecoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ALTCUSDT\n\nLAZIO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.29759738\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$0.33113729\n24H：-9.64%\n4H RSI：26.59\n日線 RSI：28.45\n週線 RSI：32.77\n成交量：0.94×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lazio-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALAZIOUSDT\n\nVET｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0045858989\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$0.0050991019\n24H：-10.63%\n4H RSI：27.75\n日線 RSI：29.34\n週線 RSI：39.81\n成交量：1.71×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vechain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AVETUSD\n\nEDU｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.040692943\n幅度級距：-10%\n區間異動：-10.05%\n基準價格：US$0.045240131\n24H：-9.90%\n4H RSI：29.54\n日線 RSI：33.08\n週線 RSI：42.29\n成交量：0.99×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/edu-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AEDUUSDT\n分批通知：第 3／3 則",
       "batch_id": "ntf_4479c1d422cefbebfa09fd0afc390bb4",
