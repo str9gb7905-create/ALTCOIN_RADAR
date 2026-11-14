@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T16:19:45.834189Z",
+  "updated_at_utc": "2026-11-14T16:19:48.938564Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -49611,13 +49611,13 @@
       "notification_id": "ntf_d5143f21225559f9605a5c28004984c0_p0003",
       "run_id": "20261114T161558Z_8562144b",
       "created_at_utc": "2026-11-14T16:19:34.758533Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-14T16:19:48.938542Z",
       "event_count": 12,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T161558Z_8562144b\n資料來源：CoinGecko＋公開現貨交易所\n\nC98｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.010407536\n幅度級距：-10%\n區間異動：-10.41%\n基準價格：US$0.011617136\n24H：-7.51%\n4H RSI：35.32\n日線 RSI：34.53\n週線 RSI：34.79\n成交量：0.85×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coin98\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AC98USDT\n\nRVN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0011089555\n幅度級距：-10%\n區間異動：-10.37%\n基準價格：US$0.0012372884\n24H：-9.49%\n4H RSI：34.12\n日線 RSI：34.60\n週線 RSI：21.99\n成交量：1.27×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ravencoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARVNUSDT\n\nSUI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.72916599\n幅度級距：-10%\n區間異動：-10.31%\n基準價格：US$0.81295425\n24H：-9.51%\n4H RSI：29.63\n日線 RSI：35.08\n週線 RSI：43.76\n成交量：2.02×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sui\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASUIUSDT\n\nONG｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.057008344\n幅度級距：-10%\n區間異動：-10.29%\n基準價格：US$0.063550716\n24H：-9.37%\n4H RSI：35.73\n日線 RSI：33.98\n週線 RSI：43.53\n成交量：0.99×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ong\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AONGUSDT\n\nSTRK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.033694897\n幅度級距：-10%\n區間異動：-10.29%\n基準價格：US$0.037558705\n24H：-9.16%\n4H RSI：32.43\n日線 RSI：38.68\n週線 RSI：46.15\n成交量：0.87×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASTRKUSDC\n\nCAT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.4330269e-06\n幅度級距：-10%\n區間異動：-10.26%\n基準價格：US$1.5968392e-06\n24H：-9.25%\n4H RSI：22.06\n日線 RSI：34.12\n週線 RSI：42.28\n成交量：1.49×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/simon-s-cat\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACATUSDT\n\nFIL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.65403406\n幅度級距：-10%\n區間異動：-10.20%\n基準價格：US$0.72832759\n24H：-9.75%\n4H RSI：25.03\n日線 RSI：30.00\n週線 RSI：40.32\n成交量：1.75×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/filecoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFILUSD\n\nCKB｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00084558867\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$0.0009409461\n24H：-8.92%\n4H RSI：32.21\n日線 RSI：28.67\n週線 RSI：40.52\n成交量：1.05×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nervos-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACKBUSDT\n\nSATS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$7.6078483e-09\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$8.4599162e-09\n24H：-9.76%\n4H RSI：31.90\n日線 RSI：31.77\n週線 RSI：36.18\n成交量：2.97×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sats-ordinals\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASATSUSDT\n\nS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.034069165\n幅度級距：-10%\n區間異動：-10.02%\n基準價格：US$0.037861598\n24H：-9.15%\n4H RSI：36.06\n日線 RSI：41.63\n週線 RSI：44.51\n成交量：2.68×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sonic-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASUSDT\n分批通知：第 3／3 則",
       "batch_id": "ntf_d5143f21225559f9605a5c28004984c0",
