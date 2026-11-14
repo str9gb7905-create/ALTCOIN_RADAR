@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T17:04:50.664111Z",
+  "updated_at_utc": "2026-11-14T17:04:53.299156Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -49753,13 +49753,13 @@
       "notification_id": "ntf_2d6f9facfd9abbf84d648bc86f9a95e4",
       "run_id": "20261114T170112Z_eb0a3579",
       "created_at_utc": "2026-11-14T17:04:50.662402Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-14T17:04:53.299136Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T170112Z_eb0a3579\n資料來源：CoinGecko＋公開現貨交易所\n\nFIL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.65421488\n幅度級距：-10%\n區間異動：-10.18%\n基準價格：US$0.72832759\n24H：-9.28%\n4H RSI：25.03\n日線 RSI：30.00\n週線 RSI：40.32\n成交量：1.85×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/filecoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFILUSD\n\nFIDA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.01370865\n幅度級距：-10%\n區間異動：-10.04%\n基準價格：US$0.015239306\n24H：-7.09%\n4H RSI：31.28\n日線 RSI：33.83\n週線 RSI：36.82\n成交量：0.99×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bonfida\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFIDAUSD\n\nC98｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.010452588\n幅度級距：-10%\n區間異動：-10.02%\n基準價格：US$0.011617136\n24H：-7.41%\n4H RSI：35.32\n日線 RSI：34.53\n週線 RSI：34.79\n成交量：0.84×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coin98\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AC98USDT\n\nDOT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.7484037\n幅度級距：-10%\n區間異動：-10.00%\n基準價格：US$0.83159263\n24H：-8.96%\n4H RSI：28.09\n日線 RSI：26.53\n週線 RSI：38.46\n成交量：3.77×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/polkadot\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADOTUSDT",
       "batch_id": "ntf_2d6f9facfd9abbf84d648bc86f9a95e4",
