@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T15:17:53.861054Z",
+  "updated_at_utc": "2026-11-14T15:33:05.452443Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -49316,6 +49316,62 @@
         },
         {
           "symbol": "REZ",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 2
+    },
+    "ntf_10960b84dd827d50d1bcfa78c33ed2e6": {
+      "notification_id": "ntf_10960b84dd827d50d1bcfa78c33ed2e6",
+      "run_id": "20261114T153107Z_db81aa1c",
+      "created_at_utc": "2026-11-14T15:33:05.450903Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 8,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T153107Z_db81aa1c\n資料來源：CoinGecko＋公開現貨交易所\n\nAI｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.017480308\n幅度級距：+20%\n區間異動：+20.89%\n基準價格：US$0.014460123\n24H：+21.15%\n4H RSI：35.90\n日線 RSI：32.65\n週線 RSI：27.45\n成交量：1.27×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sleepless-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AAIUSDT\n\nPYTH｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.05771103\n幅度級距：-10%\n區間異動：-10.99%\n基準價格：US$0.064839258\n24H：-9.24%\n4H RSI：37.30\n日線 RSI：45.12\n週線 RSI：53.04\n成交量：0.91×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APYTHUSD\n\nADX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.043921413\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.048889467\n24H：-6.06%\n4H RSI：35.17\n日線 RSI：38.03\n週線 RSI：35.22\n成交量：2.86×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/adex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AADXUSDT\n\nBONK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$2.4593015e-06\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$2.7373881e-06\n24H：-8.25%\n4H RSI：40.19\n日線 RSI：40.91\n週線 RSI：34.06\n成交量：1.07×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bonk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABONKUSD\n\nMEME｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00034485811\n幅度級距：-10%\n區間異動：-10.12%\n基準價格：US$0.00038367583\n24H：-8.57%\n4H RSI：36.05\n日線 RSI：30.92\n週線 RSI：34.09\n成交量：1.96×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/memecoin-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMEMEUSDT\n\nSAND｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.036590206\n幅度級距：-10%\n區間異動：-10.04%\n基準價格：US$0.040675565\n24H：-9.39%\n4H RSI：31.28\n日線 RSI：35.33\n週線 RSI：40.61\n成交量：0.63×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-sandbox\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASANDUSDT\n\nLSK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.14468292\n幅度級距：-10%\n區間異動：-10.03%\n基準價格：US$0.16081565\n24H：-9.81%\n4H RSI：32.83\n日線 RSI：38.76\n週線 RSI：48.81\n成交量：0.25×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/lisk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ALSKUSDT",
+      "batch_id": "ntf_10960b84dd827d50d1bcfa78c33ed2e6",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "ba00cf14c06f5b488320bec1105dedf37c92e1354ed432be6e0b01ed21adfe7c",
+      "alert_ranges": [
+        {
+          "symbol": "AI",
+          "direction": "UP",
+          "level": 20
+        },
+        {
+          "symbol": "PYTH",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ADX",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "BONK",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "MEME",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SAND",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "LSK",
           "direction": "DOWN",
           "level": 10
         }
