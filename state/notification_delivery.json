@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T04:01:46.870076Z",
+  "updated_at_utc": "2026-11-14T04:01:49.528344Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -48460,13 +48460,13 @@
       "notification_id": "ntf_b855829927378dc3fcf195ee94941889",
       "run_id": "20261114T040114Z_61e45afe",
       "created_at_utc": "2026-11-14T04:01:46.868757Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-14T04:01:49.528320Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T040114Z_61e45afe\n資料來源：CoinGecko＋公開現貨交易所\n\nHYPE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$67.21924\n幅度級距：-10%\n區間異動：-10.15%\n基準價格：US$74.812914\n24H：-4.86%\n4H RSI：31.20\n日線 RSI：34.83\n週線 RSI：51.84\n成交量：1.66×｜ELEVATED\n背離：DAILY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hyperliquid\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHYPEUSD",
       "batch_id": "ntf_b855829927378dc3fcf195ee94941889",
