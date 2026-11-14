@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T20:30:31.520842Z",
+  "updated_at_utc": "2026-11-14T20:51:16.747595Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -50508,6 +50508,47 @@
         }
       ],
       "repeat_suppressed_count": 2
+    },
+    "ntf_0eec497cedd14a4b3bd9a7d2701434cb": {
+      "notification_id": "ntf_0eec497cedd14a4b3bd9a7d2701434cb",
+      "run_id": "20261114T204613Z_1270fdde",
+      "created_at_utc": "2026-11-14T20:51:16.745715Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 6,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T204613Z_1270fdde\n資料來源：CoinGecko＋公開現貨交易所\n\nLINK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$8.9421951\n幅度級距：-10%\n區間異動：-10.23%\n基準價格：US$9.961162\n24H：-10.29%\n4H RSI：25.54\n日線 RSI：33.10\n週線 RSI：46.17\n成交量：2.10×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BULLISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chainlink\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ALINKUSDT\n\nYGG｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.018512212\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.020605421\n24H：-10.04%\n4H RSI：26.67\n日線 RSI：34.07\n週線 RSI：35.09\n成交量：1.20×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/yield-guild-games\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AYGGUSDT\n\nSHIB｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.8574971e-06\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$4.2894577e-06\n24H：-10.26%\n4H RSI：24.59\n日線 RSI：31.27\n週線 RSI：37.69\n成交量：3.04×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/shiba-inu\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASHIBUSDT\n\nRENDER｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.3860084\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$1.541096\n24H：-9.12%\n4H RSI：31.65\n日線 RSI：42.44\n週線 RSI：45.85\n成交量：1.61×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/render-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARENDERUSD",
+      "batch_id": "ntf_0eec497cedd14a4b3bd9a7d2701434cb",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "efb71ad3fbf70b5a05e00387a546321908ce61f4c491ee3592a2c859ceb8b25e",
+      "alert_ranges": [
+        {
+          "symbol": "LINK",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "YGG",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SHIB",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "RENDER",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
