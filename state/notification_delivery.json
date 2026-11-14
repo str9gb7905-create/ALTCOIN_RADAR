@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T21:51:18.212055Z",
+  "updated_at_utc": "2026-11-14T22:06:09.352702Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -50854,6 +50854,57 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_e45424d257c801a83228e568d1696038": {
+      "notification_id": "ntf_e45424d257c801a83228e568d1696038",
+      "run_id": "20261114T220110Z_52a29d0a",
+      "created_at_utc": "2026-11-14T22:06:09.351134Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 10,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T220110Z_52a29d0a\n資料來源：CoinGecko＋公開現貨交易所\n\nQNT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$142.55233\n幅度級距：-10%\n區間異動：-11.04%\n基準價格：US$160.2428\n24H：-11.29%\n4H RSI：27.50\n日線 RSI：35.66\n週線 RSI：59.03\n成交量：1.04×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/quant-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AQNTUSD\n\nVET｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0045578323\n幅度級距：-10%\n區間異動：-10.28%\n基準價格：US$0.0050800967\n24H：-10.10%\n4H RSI：27.75\n日線 RSI：29.34\n週線 RSI：39.81\n成交量：1.82×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vechain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AVETUSDC\n\nJUV｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.21675883\n幅度級距：-10%\n區間異動：-10.23%\n基準價格：US$0.24146047\n24H：-10.05%\n4H RSI：32.86\n日線 RSI：24.59\n週線 RSI：27.13\n成交量：18.17×｜STRONG\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/juventus-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AJUVUSDT\n\nBABYDOGE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$2.4792331e-10\n幅度級距：-10%\n區間異動：-10.19%\n基準價格：US$2.7604201e-10\n24H：-10.04%\n4H RSI：19.98\n日線 RSI：23.00\n週線 RSI：37.05\n成交量：2.56×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/baby-doge-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ABABYDOGEUSDT\n\nPEAQ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.02264474\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$0.025196747\n24H：-7.97%\n4H RSI：31.82\n日線 RSI：31.08\n週線 RSI：47.49\n成交量：0.92×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT\n\nXRP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.90973963\n幅度級距：-10%\n區間異動：-10.08%\n基準價格：US$1.0117158\n24H：-10.28%\n4H RSI：25.83\n日線 RSI：20.75\n週線 RSI：37.77\n成交量：5.45×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ripple\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXRPUSDT",
+      "batch_id": "ntf_e45424d257c801a83228e568d1696038",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "8ee28ecacacd9dd5232a5785bc2f32cec328c63c8b64f739eecec733949315cd",
+      "alert_ranges": [
+        {
+          "symbol": "QNT",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "VET",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "JUV",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "BABYDOGE",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "PEAQ",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "XRP",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
