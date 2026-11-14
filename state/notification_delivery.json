@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T14:02:23.121460Z",
+  "updated_at_utc": "2026-11-14T14:17:18.829918Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -49076,6 +49076,67 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_ed726162f7f2c39eb670c11619a99b6e": {
+      "notification_id": "ntf_ed726162f7f2c39eb670c11619a99b6e",
+      "run_id": "20261114T141606Z_800ae3e7",
+      "created_at_utc": "2026-11-14T14:17:18.828332Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 8,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T141606Z_800ae3e7\n資料來源：CoinGecko＋公開現貨交易所\n\nOSMO｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.031079016\n幅度級距：-20%\n區間異動：-20.63%\n基準價格：US$0.039155234\n24H：-16.22%\n4H RSI：42.94\n日線 RSI：40.72\n週線 RSI：44.01\n成交量：4.04×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOSMOUSD\n\nPENGU｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0054233654\n幅度級距：-10%\n區間異動：-12.36%\n基準價格：US$0.006188371\n24H：-12.40%\n4H RSI：35.52\n日線 RSI：33.47\n週線 RSI：41.97\n成交量：1.62×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pudgy-penguins\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APENGUUSD\n\nGLMR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0057394685\n幅度級距：-10%\n區間異動：-11.37%\n基準價格：US$0.0064761048\n24H：-8.94%\n4H RSI：24.28\n日線 RSI：27.19\n週線 RSI：36.81\n成交量：0.91×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AGLMRUSD\n\nUNI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$5.2497743\n幅度級距：-10%\n區間異動：-11.25%\n基準價格：US$5.91555\n24H：-11.10%\n4H RSI：21.33\n日線 RSI：34.43\n週線 RSI：52.79\n成交量：0.84×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/uniswap\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AUNIUSDT\n\nIOTA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.032795227\n幅度級距：-10%\n區間異動：-10.69%\n基準價格：US$0.036720544\n24H：-9.69%\n4H RSI：41.07\n日線 RSI：32.84\n週線 RSI：38.08\n成交量：1.55×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iota\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOTAUSDT\n\nWEN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.8672577e-06\n幅度級距：-10%\n區間異動：-10.18%\n基準價格：US$5.4191612e-06\n24H：-10.19%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.09×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wen-4\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AWENUSDT\n\nWLD｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.27415853\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$0.3049362\n24H：-9.92%\n4H RSI：30.54\n日線 RSI：27.64\n週線 RSI：41.14\n成交量：0.81×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/worldcoin-wld\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWLDUSDT\n\nPOND｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00093826538\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$0.0010433838\n24H：-8.61%\n4H RSI：28.20\n日線 RSI：33.94\n週線 RSI：41.78\n成交量：0.89×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSDC",
+      "batch_id": "ntf_ed726162f7f2c39eb670c11619a99b6e",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "9a43fac1f28b1fc8f204e2a5168dec979737d284b1c2dba3580977ae3a8ac092",
+      "alert_ranges": [
+        {
+          "symbol": "OSMO",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "PENGU",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "GLMR",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "UNI",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "IOTA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "WEN",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "WLD",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "POND",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 4
     }
   }
 }
