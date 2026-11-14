@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T22:21:59.081451Z",
+  "updated_at_utc": "2026-11-14T22:22:01.933611Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -50910,13 +50910,13 @@
       "notification_id": "ntf_ee1cc276645bd0a68fcc34374c3337ce",
       "run_id": "20261114T221620Z_0044cccb",
       "created_at_utc": "2026-11-14T22:21:59.079179Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-14T22:22:01.933589Z",
       "event_count": 14,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T221620Z_0044cccb\n資料來源：CoinGecko＋公開現貨交易所\n\nLNQ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0051494473\n幅度級距：-10%\n區間異動：-11.41%\n基準價格：US$0.0058126588\n24H：-11.21%\n4H RSI：18.51\n日線 RSI：17.71\n週線 RSI：49.33\n成交量：0.98×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/linqai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ALNQUSDT\n\nCC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.076104539\n幅度級距：-10%\n區間異動：-11.13%\n基準價格：US$0.0856406\n24H：-10.60%\n4H RSI：26.04\n日線 RSI：32.54\n週線 RSI：36.19\n成交量：1.24×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/canton-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACCUSD\n\nLRC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0061961326\n幅度級距：-10%\n區間異動：-11.06%\n基準價格：US$0.0069668301\n24H：-10.68%\n4H RSI：30.58\n日線 RSI：33.35\n週線 RSI：26.59\n成交量：2.03×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/loopring\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ALRCUSD\n\nGRT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.01575865\n幅度級距：-10%\n區間異動：-10.73%\n基準價格：US$0.017653281\n24H：-8.78%\n4H RSI：31.14\n日線 RSI：28.21\n週線 RSI：40.04\n成交量：1.77×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-graph\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AGRTUSD\n\nEDU｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.040386255\n幅度級距：-10%\n區間異動：-10.73%\n基準價格：US$0.045240131\n24H：-9.41%\n4H RSI：29.54\n日線 RSI：33.08\n週線 RSI：42.29\n成交量：0.99×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/edu-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AEDUUSDT\n\nPSG｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.30631892\n幅度級距：-10%\n區間異動：-10.67%\n基準價格：US$0.34290333\n24H：-8.03%\n4H RSI：32.61\n日線 RSI：13.32\n週線 RSI：26.22\n成交量：0.96×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/paris-saint-germain-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3APSGUSDT\n\nXEC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.8693001e-06\n幅度級距：-10%\n區間異動：-10.64%\n基準價格：US$5.4493809e-06\n24H：-10.58%\n4H RSI：26.89\n日線 RSI：33.37\n週線 RSI：39.71\n成交量：0.83×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ecash\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AXECUSDT\n\nACM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.19781857\n幅度級距：-10%\n區間異動：-10.32%\n基準價格：US$0.22058987\n24H：-7.46%\n4H RSI：40.28\n日線 RSI：27.22\n週線 RSI：25.26\n成交量：0.96×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ac-milan-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AACMUSDT\n\nATOM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.2320538\n幅度級距：-10%\n區間異動：-10.24%\n基準價格：US$1.3726772\n24H：-9.86%\n4H RSI：33.97\n日線 RSI：39.30\n週線 RSI：39.84\n成交量：1.66×｜ELEVATED\n背離：WEEKLY_BEARISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/cosmos\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AATOMUSD\n\nOLAS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.039258522\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$0.043650665\n24H：-7.45%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：0.99×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/autonolas\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AOLASUSDT\n\nSANTOS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.33276962\n幅度級距：-10%\n區間異動：-10.00%\n基準價格：US$0.36975518\n24H：-9.41%\n4H RSI：27.44\n日線 RSI：28.79\n週線 RSI：29.81\n成交量：0.96×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/santos-fc-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASANTOSUSDT",
       "batch_id": "ntf_ee1cc276645bd0a68fcc34374c3337ce",
