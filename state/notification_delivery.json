@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T22:36:28.901149Z",
+  "updated_at_utc": "2026-11-14T22:36:31.583752Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -50986,13 +50986,13 @@
       "notification_id": "ntf_40e3fb2b4bec7caab9edefc94ec1cc64",
       "run_id": "20261114T223109Z_fbb3e104",
       "created_at_utc": "2026-11-14T22:36:28.899844Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-14T22:36:31.583731Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T223109Z_fbb3e104\n資料來源：CoinGecko＋公開現貨交易所\n\nTFUEL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0064837473\n幅度級距：-10%\n區間異動：-10.71%\n基準價格：US$0.0072612299\n24H：-10.81%\n4H RSI：26.73\n日線 RSI：30.39\n週線 RSI：31.56\n成交量：0.94×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/theta-fuel\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ATFUELUSDT\n\nRDNT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00040092271\n幅度級距：-10%\n區間異動：-10.32%\n基準價格：US$0.00044703908\n24H：-7.21%\n4H RSI：55.32\n日線 RSI：40.16\n週線 RSI：23.86\n成交量：2.74×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT",
       "batch_id": "ntf_40e3fb2b4bec7caab9edefc94ec1cc64",
