@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T18:49:05.139341Z",
+  "updated_at_utc": "2026-11-14T19:04:15.893936Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -50090,6 +50090,62 @@
         },
         {
           "symbol": "ZEN",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
+    },
+    "ntf_98c6d8c976b9981a8640864fef7e966b": {
+      "notification_id": "ntf_98c6d8c976b9981a8640864fef7e966b",
+      "run_id": "20261114T190113Z_20731937",
+      "created_at_utc": "2026-11-14T19:04:15.892664Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 8,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T190113Z_20731937\n資料來源：CoinGecko＋公開現貨交易所\n\nXTZ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.21524674\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.23959241\n24H：-10.04%\n4H RSI：29.19\n日線 RSI：35.80\n週線 RSI：38.20\n成交量：2.48×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/tezos\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AXTZUSD\n\nMETIS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$2.3341862\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$2.5971706\n24H：-8.34%\n4H RSI：36.61\n日線 RSI：32.26\n週線 RSI：39.73\n成交量：0.82×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/metis-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AMETISUSD\n\nIOTX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0024518496\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$0.0027280862\n24H：-9.35%\n4H RSI：26.07\n日線 RSI：30.92\n週線 RSI：37.46\n成交量：0.97×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iotex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOTXUSDT\n\nRON｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.038676467\n幅度級距：-10%\n區間異動：-10.08%\n基準價格：US$0.043014101\n24H：-9.99%\n4H RSI：27.74\n日線 RSI：27.88\n週線 RSI：32.71\n成交量：1.09×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ronin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARONUSDT\n\nZIL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0013589867\n幅度級距：-10%\n區間異動：-10.05%\n基準價格：US$0.0015108444\n24H：-9.43%\n4H RSI：31.50\n日線 RSI：23.66\n週線 RSI：32.41\n成交量：0.66×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/zilliqa\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AZILUSDT\n\nSOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$72.217582\n幅度級距：-10%\n區間異動：-10.01%\n基準價格：US$80.254056\n24H：-9.65%\n4H RSI：24.19\n日線 RSI：19.59\n週線 RSI：40.66\n成交量：2.09×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/solana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASOLUSD\n\nA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.064437565\n幅度級距：-10%\n區間異動：-10.01%\n基準價格：US$0.071601292\n24H：-9.57%\n4H RSI：27.94\n日線 RSI：32.61\n週線 RSI：39.02\n成交量：1.30×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vaulta\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAUSDT",
+      "batch_id": "ntf_98c6d8c976b9981a8640864fef7e966b",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "1320558bb807e766f9d7f5dae9d46795c68f6b1a71662c473a11cc8bba1fdae5",
+      "alert_ranges": [
+        {
+          "symbol": "XTZ",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "METIS",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "IOTX",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "RON",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ZIL",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SOL",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "A",
           "direction": "DOWN",
           "level": 10
         }
