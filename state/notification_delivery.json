@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T19:34:40.105434Z",
+  "updated_at_utc": "2026-11-14T19:34:42.950114Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -50212,13 +50212,13 @@
       "notification_id": "ntf_04b6b829b6d287232da4da11c8b4f282",
       "run_id": "20261114T193111Z_0c6c7e57",
       "created_at_utc": "2026-11-14T19:34:40.104200Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-14T19:34:42.950089Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T193111Z_0c6c7e57\n資料來源：CoinGecko＋公開現貨交易所\n\nARPA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0081314635\n幅度級距：-10%\n區間異動：-10.23%\n基準價格：US$0.0090576094\n24H：-9.46%\n4H RSI：32.86\n日線 RSI：34.86\n週線 RSI：41.89\n成交量：1.02×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arpa\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARPAUSDT\n\nADA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.15452937\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$0.17186578\n24H：-9.96%\n4H RSI：25.86\n日線 RSI：28.41\n週線 RSI：38.04\n成交量：1.46×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/cardano\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AADAUSD",
       "batch_id": "ntf_04b6b829b6d287232da4da11c8b4f282",
