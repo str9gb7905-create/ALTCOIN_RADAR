@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261114T094606Z_a88f0cf2",
-  "updated_at": "2026-11-14T09:46:32.187880Z",
+  "last_run_id": "20261114T100106Z_f91764c2",
+  "updated_at": "2026-11-14T10:01:31.887759Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -99,7 +99,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-14T09:26:28.978182Z",
+      "last_seen_at": "2026-11-14T10:01:31.887759Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -234,7 +234,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-14T09:46:32.187880Z",
+      "last_seen_at": "2026-11-14T10:01:31.887759Z",
       "daily": {
         "active_signals": [
           {
@@ -652,7 +652,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-14T09:46:32.187880Z",
+      "last_seen_at": "2026-11-14T10:01:31.887759Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1090,7 +1090,7 @@
       "history_source": "Bitget",
       "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-14T09:46:32.187880Z",
+      "last_seen_at": "2026-11-14T10:01:31.887759Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1700,7 +1700,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-14T09:46:32.187880Z",
+      "last_seen_at": "2026-11-14T10:01:31.887759Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2062,7 +2062,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-14T09:46:32.187880Z",
+      "last_seen_at": "2026-11-14T10:01:31.887759Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2442,7 +2442,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-14T09:46:32.187880Z",
+      "last_seen_at": "2026-11-14T10:01:31.887759Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -3226,7 +3226,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-14T09:46:32.187880Z",
+      "last_seen_at": "2026-11-14T10:01:31.887759Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
