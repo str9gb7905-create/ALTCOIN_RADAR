@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T02:02:07.359778Z",
+  "updated_at_utc": "2026-11-14T02:31:52.062597Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -48331,6 +48331,47 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_4f7d5841bc0c25c2f416c7eb21c65511": {
+      "notification_id": "ntf_4f7d5841bc0c25c2f416c7eb21c65511",
+      "run_id": "20261114T023111Z_31d8f50e",
+      "created_at_utc": "2026-11-14T02:31:52.061600Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 8,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T023111Z_31d8f50e\n資料來源：CoinGecko＋公開現貨交易所\n\nIMX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.10197666\n幅度級距：-10%\n區間異動：-11.13%\n基準價格：US$0.11474629\n24H：-11.12%\n4H RSI：30.51\n日線 RSI：27.85\n週線 RSI：41.13\n成交量：103.33×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIMXUSDT\n\nREZ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.003133046\n幅度級距：-10%\n區間異動：-10.64%\n基準價格：US$0.0035060423\n24H：-10.56%\n4H RSI：19.94\n日線 RSI：34.37\n週線 RSI：49.76\n成交量：1.03×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/renzo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AREZUSD\n\nICP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$2.3701065\n幅度級距：-10%\n區間異動：-10.21%\n基準價格：US$2.6395734\n24H：-7.97%\n4H RSI：46.65\n日線 RSI：44.73\n週線 RSI：47.10\n成交量：2.23×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/internet-computer\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AICPUSD\n\nARC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.028722399\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$0.031936194\n24H：-7.26%\n4H RSI：33.09\n日線 RSI：30.35\n週線 RSI：37.34\n成交量：2.60×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ai-rig-complex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AARCUSDT",
+      "batch_id": "ntf_4f7d5841bc0c25c2f416c7eb21c65511",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "835ba0d6724d661b98f4764821022ab0b368698f8f698974ac1e72730a6497b9",
+      "alert_ranges": [
+        {
+          "symbol": "IMX",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "REZ",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ICP",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ARC",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 2
     }
   }
 }
