@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-14T01:31:52.041577Z",
+  "updated_at_utc": "2026-11-14T01:31:54.983003Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -48253,13 +48253,13 @@
       "notification_id": "ntf_cf8f9ffb23db4be01cad388eaa9878c8",
       "run_id": "20261114T013117Z_c2cda889",
       "created_at_utc": "2026-11-14T01:31:52.039974Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-14T01:31:54.982981Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261114T013117Z_c2cda889\n資料來源：CoinGecko＋公開現貨交易所\n\nIMX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.10393967\n幅度級距：-10%\n區間異動：-10.23%\n基準價格：US$0.1157801\n24H：-10.12%\n4H RSI：30.51\n日線 RSI：27.85\n週線 RSI：41.13\n成交量：101.54×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIMXUSDT\n\nNIGHT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.047323619\n幅度級距：+10%\n區間異動：+10.10%\n基準價格：US$0.042983223\n24H：+4.52%\n4H RSI：60.60\n日線 RSI：61.28\n週線 RSI：61.52\n成交量：1.76×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANIGHTUSD",
       "batch_id": "ntf_cf8f9ffb23db4be01cad388eaa9878c8",
