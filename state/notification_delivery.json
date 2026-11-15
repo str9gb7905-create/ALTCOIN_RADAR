@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-15T04:32:44.361898Z",
+  "updated_at_utc": "2026-11-15T04:48:03.913653Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -51843,6 +51843,42 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_fe0498dc952a3e4ad96437297b3585e3": {
+      "notification_id": "ntf_fe0498dc952a3e4ad96437297b3585e3",
+      "run_id": "20261115T044607Z_cf15760a",
+      "created_at_utc": "2026-11-15T04:48:03.912195Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261115T044607Z_cf15760a\n資料來源：CoinGecko＋公開現貨交易所\n\nUNI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$5.0401872\n幅度級距：-10%\n區間異動：-10.36%\n基準價格：US$5.6225513\n24H：-9.80%\n4H RSI：22.32\n日線 RSI：28.08\n週線 RSI：52.79\n成交量：1.59×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/uniswap\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AUNIUSDT\n\nFLOW｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.017606812\n幅度級距：-10%\n區間異動：-10.10%\n基準價格：US$0.019584973\n24H：-9.66%\n4H RSI：31.73\n日線 RSI：22.05\n週線 RSI：32.96\n成交量：2.23×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/flow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFLOWUSD\n\nPIXEL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.003454724\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$0.0038410976\n24H：-9.46%\n4H RSI：30.52\n日線 RSI：29.26\n週線 RSI：35.56\n成交量：1.53×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pixels\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APIXELUSDC",
+      "batch_id": "ntf_fe0498dc952a3e4ad96437297b3585e3",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "c0729b389afdf128e5df6c9f85aff4a212c29a17ac688627164269b2035718df",
+      "alert_ranges": [
+        {
+          "symbol": "UNI",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "FLOW",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "PIXEL",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 5
     }
   }
 }
