@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-15T09:17:06.762968Z",
+  "updated_at_utc": "2026-11-15T09:31:48.738006Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -52297,6 +52297,32 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_8216628ddc052974b44ca6f15894475f": {
+      "notification_id": "ntf_8216628ddc052974b44ca6f15894475f",
+      "run_id": "20261115T093059Z_9003dbd8",
+      "created_at_utc": "2026-11-15T09:31:48.736942Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261115T093059Z_9003dbd8\n資料來源：CoinGecko＋公開現貨交易所\n\nCHEX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0088296161\n幅度級距：-10%\n區間異動：-10.01%\n基準價格：US$0.0098121672\n24H：-9.49%\n4H RSI：38.81\n日線 RSI：39.46\n週線 RSI：39.62\n成交量：5.30×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ACHEXUSD",
+      "batch_id": "ntf_8216628ddc052974b44ca6f15894475f",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "752629547555374442e8b116f7079ee4d5269a1d89482f425e940f526b7ea7fe",
+      "alert_ranges": [
+        {
+          "symbol": "CHEX",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
