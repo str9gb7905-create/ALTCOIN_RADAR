@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-15T03:48:03.634973Z",
+  "updated_at_utc": "2026-11-15T04:02:56.651357Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -51745,6 +51745,42 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_5e1158e2ded988294304ca78cb58f59a": {
+      "notification_id": "ntf_5e1158e2ded988294304ca78cb58f59a",
+      "run_id": "20261115T040108Z_b791cbcb",
+      "created_at_utc": "2026-11-15T04:02:56.650108Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261115T040108Z_b791cbcb\n資料來源：CoinGecko＋公開現貨交易所\n\nTRUMP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.96281403\n幅度級距：-10%\n區間異動：-10.32%\n基準價格：US$1.0736565\n24H：-9.47%\n4H RSI：26.50\n日線 RSI：20.76\n週線 RSI：28.47\n成交量：1.75×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/official-trump\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ATRUMPUSDT\n\nBOME｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00049933654\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$0.00055527756\n24H：-9.74%\n4H RSI：29.36\n日線 RSI：28.12\n週線 RSI：44.02\n成交量：1.63×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/book-of-meme\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABOMEUSDT\n\nACE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.096563897\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$0.10737619\n24H：-9.44%\n4H RSI：22.27\n日線 RSI：30.32\n週線 RSI：43.69\n成交量：2.06×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/endurance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AACEUSDT",
+      "batch_id": "ntf_5e1158e2ded988294304ca78cb58f59a",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "af6ef7016f46bc8f8cbdb3ba93609af8d2def707e3719c5f93f909f8453142de",
+      "alert_ranges": [
+        {
+          "symbol": "TRUMP",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "BOME",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ACE",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 7
     }
   }
 }
