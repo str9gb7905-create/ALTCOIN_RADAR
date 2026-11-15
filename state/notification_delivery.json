@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-15T08:03:01.867719Z",
+  "updated_at_utc": "2026-11-15T08:18:07.649237Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -52189,6 +52189,42 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_e35d1e77a41e6e3fe19efe4f360613bc": {
+      "notification_id": "ntf_e35d1e77a41e6e3fe19efe4f360613bc",
+      "run_id": "20261115T081614Z_acb75ca9",
+      "created_at_utc": "2026-11-15T08:18:07.647362Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261115T081614Z_acb75ca9\n資料來源：CoinGecko＋公開現貨交易所\n\nPEPE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.8708256e-06\n幅度級距：-10%\n區間異動：-10.47%\n基準價格：US$4.3235681e-06\n24H：-9.74%\n4H RSI：25.28\n日線 RSI：37.52\n週線 RSI：56.57\n成交量：2.58×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pepe\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APEPEUSDT\n\nETHFI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.49949663\n幅度級距：-10%\n區間異動：-10.44%\n基準價格：US$0.55771279\n24H：-10.43%\n4H RSI：27.31\n日線 RSI：34.50\n週線 RSI：53.91\n成交量：1.86×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ether-fi\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AETHFIUSD\n\nRON｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.03735548\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$0.041563951\n24H：-9.83%\n4H RSI：25.29\n日線 RSI：22.10\n週線 RSI：32.71\n成交量：1.02×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ronin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARONUSDT",
+      "batch_id": "ntf_e35d1e77a41e6e3fe19efe4f360613bc",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "574cc4a3a52562b614ebb45b439396df8d3e971ccb5cc7c88511ff8eaf296592",
+      "alert_ranges": [
+        {
+          "symbol": "PEPE",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ETHFI",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "RON",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 2
     }
   }
 }
