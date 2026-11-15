@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-15T02:19:23.909519Z",
+  "updated_at_utc": "2026-11-15T02:47:54.485044Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -51642,6 +51642,32 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_fc4c759daf09fc1a67d10e6c8f89814e": {
+      "notification_id": "ntf_fc4c759daf09fc1a67d10e6c8f89814e",
+      "run_id": "20261115T024610Z_b55cd3b6",
+      "created_at_utc": "2026-11-15T02:47:54.484117Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261115T024610Z_b55cd3b6\n資料來源：CoinGecko＋公開現貨交易所\n\nTRAC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.31690424\n幅度級距：+10%\n區間異動：+11.42%\n基準價格：US$0.28443446\n24H：+3.33%\n4H RSI：23.26\n日線 RSI：27.30\n週線 RSI：46.15\n成交量：1.86×｜ELEVATED\n背離：DAILY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/origintrail\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATRACUSD",
+      "batch_id": "ntf_fc4c759daf09fc1a67d10e6c8f89814e",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "c755eeb90fe633e14b62e09ed291ea388b675df2c01a12de2b39d757c044bd7a",
+      "alert_ranges": [
+        {
+          "symbol": "TRAC",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
