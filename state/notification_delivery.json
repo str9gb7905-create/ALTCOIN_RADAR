@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-15T06:17:59.752882Z",
+  "updated_at_utc": "2026-11-15T06:18:02.254572Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -52024,13 +52024,13 @@
       "notification_id": "ntf_964bfeb9ee58116cc9be13b63a34cda9",
       "run_id": "20261115T061613Z_bd05c46c",
       "created_at_utc": "2026-11-15T06:17:59.751730Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-15T06:18:02.254556Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261115T061613Z_bd05c46c\n資料來源：CoinGecko＋公開現貨交易所\n\nONDO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.2990675\n幅度級距：-10%\n區間異動：-10.25%\n基準價格：US$0.33321742\n24H：-10.12%\n4H RSI：25.52\n日線 RSI：28.32\n週線 RSI：46.22\n成交量：2.33×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ondo-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AONDOUSD\n\nSNX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.14615861\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$0.16251468\n24H：-9.53%\n4H RSI：33.24\n日線 RSI：23.78\n週線 RSI：31.09\n成交量：2.17×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/havven\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASNXUSD\n\nRENDER｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.3695014\n幅度級距：-10%\n區間異動：-10.01%\n基準價格：US$1.5218988\n24H：-10.02%\n4H RSI：31.40\n日線 RSI：33.56\n週線 RSI：45.85\n成交量：1.96×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/render-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARENDERUSD",
       "batch_id": "ntf_964bfeb9ee58116cc9be13b63a34cda9",
