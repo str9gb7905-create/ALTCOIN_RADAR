@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-15T01:06:02.473395Z",
+  "updated_at_utc": "2026-11-15T01:20:59.821628Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -51473,6 +51473,52 @@
         }
       ],
       "repeat_suppressed_count": 6
+    },
+    "ntf_c9dd2033584c986837164550433b2038": {
+      "notification_id": "ntf_c9dd2033584c986837164550433b2038",
+      "run_id": "20261115T011621Z_3435c944",
+      "created_at_utc": "2026-11-15T01:20:59.819830Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 8,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261115T011621Z_3435c944\n資料來源：CoinGecko＋公開現貨交易所\n\nIOST｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00056033569\n幅度級距：-10%\n區間異動：-10.81%\n基準價格：US$0.00062822428\n24H：-10.52%\n4H RSI：19.13\n日線 RSI：30.20\n週線 RSI：38.48\n成交量：1.34×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iostoken\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AIOSTUSDT\n\nETH｜首次觸發\n觸發：由近24H高點下跌\n價格：US$1731.9263\n幅度級距：-10%\n區間異動：-10.25%\n基準價格：US$1929.7405\n24H：-10.17%\n4H RSI：19.98\n日線 RSI：19.19\n週線 RSI：44.18\n成交量：1.86×｜ELEVATED\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethereum\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AETHUSDT\n\nVET｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0045538237\n幅度級距：-10%\n區間異動：-10.14%\n基準價格：US$0.0050675843\n24H：-10.18%\n4H RSI：24.22\n日線 RSI：23.79\n週線 RSI：39.81\n成交量：1.79×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vechain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AVETUSD\n\nMANA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.059689391\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$0.066385162\n24H：-10.07%\n4H RSI：22.34\n日線 RSI：24.65\n週線 RSI：39.89\n成交量：2.87×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/decentraland\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AMANAUSD\n\nSNEK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00040496931\n幅度級距：-10%\n區間異動：-10.08%\n基準價格：US$0.00045034779\n24H：-10.08%\n4H RSI：12.62\n日線 RSI：23.42\n週線 RSI：45.11\n成交量：1.86×｜ELEVATED\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/snek\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ASNEKUSDT",
+      "batch_id": "ntf_c9dd2033584c986837164550433b2038",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "d4f37636481e89fc43ca68186396dab155663d6e319affe51e081ff046d3bfd2",
+      "alert_ranges": [
+        {
+          "symbol": "IOST",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ETH",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "VET",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "MANA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SNEK",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 4
     }
   }
 }
