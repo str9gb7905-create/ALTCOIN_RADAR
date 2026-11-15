@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-15T09:31:54.156192Z",
+  "updated_at_utc": "2026-11-15T10:02:08.661554Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -52318,6 +52318,32 @@
       "alert_ranges": [
         {
           "symbol": "CHEX",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_346d3f368fb3dae8f6c17f9735617973": {
+      "notification_id": "ntf_346d3f368fb3dae8f6c17f9735617973",
+      "run_id": "20261115T100114Z_8ee6aa48",
+      "created_at_utc": "2026-11-15T10:02:08.659937Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261115T100114Z_8ee6aa48\n資料來源：CoinGecko＋公開現貨交易所\n\nNEIRO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.7697171e-05\n幅度級距：-10%\n區間異動：-10.08%\n基準價格：US$5.304666e-05\n24H：-10.45%\n4H RSI：21.19\n日線 RSI：22.75\n週線 RSI：35.73\n成交量：2.11×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/neiro-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANEIROUSD",
+      "batch_id": "ntf_346d3f368fb3dae8f6c17f9735617973",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "335d58b99904d61246babf04e4133e6d54cbc67f24afe6ee059204bea5eab14c",
+      "alert_ranges": [
+        {
+          "symbol": "NEIRO",
           "direction": "DOWN",
           "level": 10
         }
