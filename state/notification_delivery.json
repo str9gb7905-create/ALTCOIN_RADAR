@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-15T10:16:59.799697Z",
+  "updated_at_utc": "2026-11-15T10:31:52.162443Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -52375,6 +52375,37 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_a77c04942cf9391201eb1ef3e30d03d1": {
+      "notification_id": "ntf_a77c04942cf9391201eb1ef3e30d03d1",
+      "run_id": "20261115T103115Z_3e84bd7b",
+      "created_at_utc": "2026-11-15T10:31:52.160628Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261115T103115Z_3e84bd7b\n資料來源：CoinGecko＋公開現貨交易所\n\nONE｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0014730309\n幅度級距：+20%\n區間異動：+20.33%\n基準價格：US$0.0012241981\n24H：+8.94%\n4H RSI：34.78\n日線 RSI：45.07\n週線 RSI：46.70\n成交量：3.72×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT\n\nAPT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.45876973\n幅度級距：-10%\n區間異動：-10.33%\n基準價格：US$0.51162115\n24H：-10.23%\n4H RSI：22.30\n日線 RSI：23.82\n週線 RSI：35.17\n成交量：2.99×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/aptos\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAPTUSD",
+      "batch_id": "ntf_a77c04942cf9391201eb1ef3e30d03d1",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "7e44bc2d403386a04d423220e104d8236ea25fb2adf76034e2735ed64f8b63ab",
+      "alert_ranges": [
+        {
+          "symbol": "ONE",
+          "direction": "UP",
+          "level": 20
+        },
+        {
+          "symbol": "APT",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
