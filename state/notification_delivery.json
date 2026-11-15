@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-15T19:17:08.091742Z",
+  "updated_at_utc": "2026-11-15T19:31:58.112498Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -53105,6 +53105,37 @@
         }
       ],
       "repeat_suppressed_count": 3
+    },
+    "ntf_b0697a5f76550ecaa97b1b9b1ab7f08c": {
+      "notification_id": "ntf_b0697a5f76550ecaa97b1b9b1ab7f08c",
+      "run_id": "20261115T193113Z_37636e42",
+      "created_at_utc": "2026-11-15T19:31:58.111154Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261115T193113Z_37636e42\n資料來源：CoinGecko＋公開現貨交易所\n\nRAD｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.23982093\n幅度級距：+10%\n區間異動：+18.87%\n基準價格：US$0.20174748\n24H：+16.55%\n4H RSI：41.15\n日線 RSI：32.58\n週線 RSI：43.13\n成交量：2.73×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSD\n\nAUDIO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.01189751\n幅度級距：+10%\n區間異動：+13.97%\n基準價格：US$0.010439385\n24H：+10.45%\n4H RSI：35.26\n日線 RSI：25.89\n週線 RSI：32.72\n成交量：1.51×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/audius\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAUDIOUSD",
+      "batch_id": "ntf_b0697a5f76550ecaa97b1b9b1ab7f08c",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "d306d008dcdceba9609a297078f788697d65ab3a2eec02407f16edb166b5e7af",
+      "alert_ranges": [
+        {
+          "symbol": "RAD",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "AUDIO",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
