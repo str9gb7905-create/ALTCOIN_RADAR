@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-15T01:36:45.988283Z",
+  "updated_at_utc": "2026-11-15T01:52:09.080167Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -51550,6 +51550,72 @@
         }
       ],
       "repeat_suppressed_count": 4
+    },
+    "ntf_8cbcb8def6cd1a250552c768ca0a1af3": {
+      "notification_id": "ntf_8cbcb8def6cd1a250552c768ca0a1af3",
+      "run_id": "20261115T014600Z_eb4ee4a7",
+      "created_at_utc": "2026-11-15T01:52:09.077961Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 14,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261115T014600Z_eb4ee4a7\n資料來源：CoinGecko＋公開現貨交易所\n\nKNC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.092930095\n幅度級距：-10%\n區間異動：-10.73%\n基準價格：US$0.10410083\n24H：-10.37%\n4H RSI：27.97\n日線 RSI：30.13\n週線 RSI：32.62\n成交量：0.94×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/kyber-network-crystal\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AKNCUSD\n\nXRP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.90280145\n幅度級距：-10%\n區間異動：-10.54%\n基準價格：US$1.0091638\n24H：-10.49%\n4H RSI：20.87\n日線 RSI：16.11\n週線 RSI：37.77\n成交量：5.96×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ripple\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXRPUSDT\n\nBEL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.083109557\n幅度級距：-10%\n區間異動：-10.49%\n基準價格：US$0.092845189\n24H：-9.78%\n4H RSI：30.65\n日線 RSI：31.54\n週線 RSI：40.34\n成交量：1.00×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bella-protocol\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABELUSDT\n\nACH｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0036315798\n幅度級距：-10%\n區間異動：-10.35%\n基準價格：US$0.0040507848\n24H：-10.11%\n4H RSI：24.23\n日線 RSI：21.38\n週線 RSI：33.73\n成交量：2.26×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/alchemy-pay\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AACHUSD\n\nBNT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.22001881\n幅度級距：-10%\n區間異動：-10.32%\n基準價格：US$0.24532975\n24H：-10.39%\n4H RSI：16.97\n日線 RSI：17.34\n週線 RSI：37.20\n成交量：1.01×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bancor\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABNTUSDC\n\nCVC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.017029231\n幅度級距：-10%\n區間異動：-10.31%\n基準價格：US$0.018986483\n24H：-10.19%\n4H RSI：23.73\n日線 RSI：26.50\n週線 RSI：36.64\n成交量：1.61×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/civic\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ACVCUSD\n\nTLM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00089015936\n幅度級距：-10%\n區間異動：-10.29%\n基準價格：US$0.00099221889\n24H：-10.38%\n4H RSI：24.77\n日線 RSI：31.84\n週線 RSI：39.40\n成交量：0.94×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/alien-worlds\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ATLMUSDT\n\nAEVO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.016146196\n幅度級距：-10%\n區間異動：-10.25%\n基準價格：US$0.017989556\n24H：-10.29%\n4H RSI：25.27\n日線 RSI：31.21\n週線 RSI：36.55\n成交量：3.64×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/aevo-exchange\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AAEVOUSDT\n\nRAD｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.2043498\n幅度級距：-10%\n區間異動：-10.20%\n基準價格：US$0.22755835\n24H：-5.76%\n4H RSI：34.28\n日線 RSI：32.58\n週線 RSI：43.13\n成交量：2.28×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radicle\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARADUSD",
+      "batch_id": "ntf_8cbcb8def6cd1a250552c768ca0a1af3",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "5262ecc897928ffcf456842ccbd2a4f7d6afadb8d0bd6bbd144cd52c5caf24dc",
+      "alert_ranges": [
+        {
+          "symbol": "KNC",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "XRP",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "BEL",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ACH",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "BNT",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "CVC",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "TLM",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "AEVO",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "RAD",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 5
     }
   }
 }
