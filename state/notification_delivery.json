@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-15T13:02:20.227092Z",
+  "updated_at_utc": "2026-11-15T13:02:22.912233Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -52551,13 +52551,13 @@
       "notification_id": "ntf_41386d9f57b985376602587cca3b34b3",
       "run_id": "20261115T130115Z_0864cecb",
       "created_at_utc": "2026-11-15T13:02:20.225360Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-15T13:02:22.912211Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261115T130115Z_0864cecb\n資料來源：CoinGecko＋公開現貨交易所\n\nPOND｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0011606895\n幅度級距：+20%\n區間異動：+27.24%\n基準價格：US$0.00091222088\n24H：+20.89%\n4H RSI：34.57\n日線 RSI：29.23\n週線 RSI：41.78\n成交量：1.05×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/marlin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APONDUSD\n\nARB｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.13614633\n幅度級距：+10%\n區間異動：+10.15%\n基準價格：US$0.12359952\n24H：-2.89%\n4H RSI：35.97\n日線 RSI：31.02\n週線 RSI：51.30\n成交量：4.29×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arbitrum\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARBUSDT\n\nPHA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.030278357\n幅度級距：+10%\n區間異動：+10.03%\n基準價格：US$0.027517822\n24H：-0.37%\n4H RSI：38.91\n日線 RSI：26.60\n週線 RSI：46.58\n成交量：1.47×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APHAUSDT",
       "batch_id": "ntf_41386d9f57b985376602587cca3b34b3",
