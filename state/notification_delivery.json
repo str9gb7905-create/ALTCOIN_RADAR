@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-15T07:17:40.079698Z",
+  "updated_at_utc": "2026-11-15T07:47:33.633616Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -52117,6 +52117,52 @@
         }
       ],
       "repeat_suppressed_count": 3
+    },
+    "ntf_a26a7d35e317def88fb6041e4ba8a00d": {
+      "notification_id": "ntf_a26a7d35e317def88fb6041e4ba8a00d",
+      "run_id": "20261115T074609Z_ccc76a50",
+      "created_at_utc": "2026-11-15T07:47:33.632068Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261115T074609Z_ccc76a50\n資料來源：CoinGecko＋公開現貨交易所\n\nBONK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$2.3412927e-06\n幅度級距：-10%\n區間異動：-10.38%\n基準價格：US$2.612407e-06\n24H：-9.19%\n4H RSI：31.17\n日線 RSI：30.27\n週線 RSI：34.06\n成交量：3.45×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bonk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABONKUSD\n\nICP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$2.1723337\n幅度級距：-10%\n區間異動：-10.30%\n基準價格：US$2.4218214\n24H：-9.65%\n4H RSI：31.45\n日線 RSI：33.60\n週線 RSI：47.10\n成交量：2.25×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/internet-computer\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AICPUSD\n\nAKT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.4711718\n幅度級距：-10%\n區間異動：-10.25%\n基準價格：US$0.52495472\n24H：-9.69%\n4H RSI：20.97\n日線 RSI：29.05\n週線 RSI：48.64\n成交量：2.22×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/akash-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAKTUSDT\n\nETHFI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.50331305\n幅度級距：-10%\n區間異動：-10.15%\n基準價格：US$0.56015006\n24H：-9.53%\n4H RSI：24.88\n日線 RSI：34.50\n週線 RSI：53.91\n成交量：1.86×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ether-fi\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AETHFIUSD\n\nSNX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.14477758\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$0.16098862\n24H：-9.69%\n4H RSI：33.24\n日線 RSI：23.78\n週線 RSI：31.09\n成交量：1.84×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/havven\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASNXUSD",
+      "batch_id": "ntf_a26a7d35e317def88fb6041e4ba8a00d",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "0c95256e4df1082e65d71848fd84198ca6a7322d0d02b1e5119003c3572182f2",
+      "alert_ranges": [
+        {
+          "symbol": "BONK",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ICP",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "AKT",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ETHFI",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SNX",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 4
     }
   }
 }
