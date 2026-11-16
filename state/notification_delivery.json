@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-16T15:47:12.108901Z",
+  "updated_at_utc": "2026-11-16T16:01:54.676962Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -54383,6 +54383,42 @@
           "symbol": "ICP",
           "direction": "UP",
           "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
+    },
+    "ntf_0e730ecacd8bdba4ad5f0828036fd8fe": {
+      "notification_id": "ntf_0e730ecacd8bdba4ad5f0828036fd8fe",
+      "run_id": "20261116T160102Z_223de523",
+      "created_at_utc": "2026-11-16T16:01:54.675802Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261116T160102Z_223de523\n資料來源：CoinGecko＋公開現貨交易所\n\nKAVA｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.028396569\n幅度級距：-20%\n區間異動：-21.61%\n基準價格：US$0.036225784\n24H：-21.01%\n4H RSI：15.21\n日線 RSI：7.64\n週線 RSI：30.09\n成交量：15.91×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/kava\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AKAVAUSDT\n\nGLMR｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.0065904892\n幅度級距：-20%\n區間異動：-20.73%\n基準價格：US$0.0083144093\n24H：-20.31%\n4H RSI：50.99\n日線 RSI：39.50\n週線 RSI：37.33\n成交量：20.71×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT\n\nZIL｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.00096093541\n幅度級距：-20%\n區間異動：-20.25%\n基準價格：US$0.001204923\n24H：-20.01%\n4H RSI：11.13\n日線 RSI：17.60\n週線 RSI：29.64\n成交量：8.46×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/zilliqa\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AZILUSDT",
+      "batch_id": "ntf_0e730ecacd8bdba4ad5f0828036fd8fe",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "0bebca73301f70b585f97751f46e6aabb13e6063873d69085a1b6fb8807866c0",
+      "alert_ranges": [
+        {
+          "symbol": "KAVA",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "GLMR",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "ZIL",
+          "direction": "DOWN",
+          "level": 20
         }
       ],
       "repeat_suppressed_count": 1
