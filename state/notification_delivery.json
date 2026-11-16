@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-16T14:17:16.702263Z",
+  "updated_at_utc": "2026-11-16T14:32:26.046168Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -54195,6 +54195,42 @@
         }
       ],
       "repeat_suppressed_count": 2
+    },
+    "ntf_9e24315ccc41a540f0375c83046712f1": {
+      "notification_id": "ntf_9e24315ccc41a540f0375c83046712f1",
+      "run_id": "20261116T143117Z_7ccae3c6",
+      "created_at_utc": "2026-11-16T14:32:26.044759Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261116T143117Z_7ccae3c6\n資料來源：CoinGecko＋公開現貨交易所\n\nGLMR｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.0066258548\n幅度級距：-20%\n區間異動：-20.31%\n基準價格：US$0.0083144093\n24H：-9.84%\n4H RSI：57.15\n日線 RSI：39.50\n週線 RSI：37.33\n成交量：21.13×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AGLMRUSDT\n\nKAVA｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.02940027\n幅度級距：-20%\n區間異動：-20.14%\n基準價格：US$0.036812753\n24H：-17.96%\n4H RSI：16.30\n日線 RSI：7.64\n週線 RSI：30.09\n成交量：9.90×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/kava\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AKAVAUSDT\n\nWEN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.7593325e-06\n幅度級距：-10%\n區間異動：-11.09%\n基準價格：US$5.3531423e-06\n24H：+2.48%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.03×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wen-4\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AWENUSDT",
+      "batch_id": "ntf_9e24315ccc41a540f0375c83046712f1",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "593305c96ac3789260fad20f45d5865deb390b86f2bbb29fe9d3675eb7a9c9b5",
+      "alert_ranges": [
+        {
+          "symbol": "GLMR",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "KAVA",
+          "direction": "DOWN",
+          "level": 20
+        },
+        {
+          "symbol": "WEN",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
