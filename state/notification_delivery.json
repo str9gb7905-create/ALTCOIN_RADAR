@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-16T17:01:59.503334Z",
+  "updated_at_utc": "2026-11-16T17:02:02.518017Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -54520,13 +54520,13 @@
       "notification_id": "ntf_cfa3562cabe1224306033db068e7cfb3",
       "run_id": "20261116T170111Z_84a5b83d",
       "created_at_utc": "2026-11-16T17:01:59.502190Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-16T17:02:02.517991Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261116T170111Z_84a5b83d\n資料來源：CoinGecko＋公開現貨交易所\n\nPEAQ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.025428206\n幅度級距：+10%\n區間異動：+10.95%\n基準價格：US$0.02291851\n24H：+11.01%\n4H RSI：49.22\n日線 RSI：31.73\n週線 RSI：43.65\n成交量：0.67×｜WEAK / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT",
       "batch_id": "ntf_cfa3562cabe1224306033db068e7cfb3",
