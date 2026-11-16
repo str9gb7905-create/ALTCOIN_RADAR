@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-16T14:32:33.247860Z",
+  "updated_at_utc": "2026-11-16T14:47:11.046269Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -54231,6 +54231,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_e1f86a7c33b171509ec4d88138716ded": {
+      "notification_id": "ntf_e1f86a7c33b171509ec4d88138716ded",
+      "run_id": "20261116T144616Z_050e5571",
+      "created_at_utc": "2026-11-16T14:47:11.045006Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261116T144616Z_050e5571\n資料來源：CoinGecko＋公開現貨交易所\n\nICP｜再次觸發\n觸發：由近24H低點上漲\n價格：US$2.4256975\n幅度級距：+10%\n區間異動：+11.70%\n基準價格：US$2.1716852\n24H：+10.48%\n4H RSI：39.94\n日線 RSI：37.16\n週線 RSI：47.10\n成交量：1.44×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/internet-computer\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AICPUSD",
+      "batch_id": "ntf_e1f86a7c33b171509ec4d88138716ded",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "47543ae94630dcbfbad074a6cabc5900aefc7d369bf107d3922c4d021a18baea",
+      "alert_ranges": [
+        {
+          "symbol": "ICP",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
