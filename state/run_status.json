@@ -1,7 +1,7 @@
 {
-  "run_id": "20261117T212239Z_bebbd43b",
-  "started_at_utc": "2026-11-17T21:22:39.668140Z",
-  "completed_at_utc": "2026-11-17T21:23:09.599648Z",
+  "run_id": "20261117T214628Z_1e2b8300",
+  "started_at_utc": "2026-11-17T21:46:28.428402Z",
+  "completed_at_utc": "2026-11-17T21:47:00.603171Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -16,7 +16,7 @@
   "divergence_attempted": 8,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 29.931507,
+  "elapsed_seconds": 32.174767,
   "API_requests_total": 84,
   "requests_by_exchange": {
     "Binance": 4,
@@ -30,20 +30,20 @@
     "MEXC": 11,
     "OKX": 8
   },
-  "elapsed_stage_a": 0.467823,
-  "elapsed_radar_state": 0.114323,
-  "elapsed_stage_b": 16.036192,
-  "elapsed_divergence": 13.312088,
-  "elapsed_total": 29.931507,
+  "elapsed_stage_a": 0.570338,
+  "elapsed_radar_state": 0.182297,
+  "elapsed_stage_b": 18.126209,
+  "elapsed_divergence": 13.294646,
+  "elapsed_total": 32.174767,
   "asset_enrichment_seconds": {
-    "AIOT": 1.866437,
-    "FUN": 1.8961,
-    "HFT": 0.288485,
-    "HUMA": 1.407199,
-    "ICP": 0.276404,
-    "KAVA": 1.898664,
-    "TLM": 0.645154,
-    "WEN": 1.420527
+    "AIOT": 2.094531,
+    "FUN": 2.133362,
+    "HFT": 0.317093,
+    "HUMA": 1.385239,
+    "ICP": 0.306584,
+    "KAVA": 2.330391,
+    "TLM": 0.607112,
+    "WEN": 1.343663
   },
   "stale_lock_recovered": false
 }
