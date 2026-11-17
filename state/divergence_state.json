@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261117T170116Z_4ca6e026",
-  "updated_at": "2026-11-17T17:01:42.968952Z",
+  "last_run_id": "20261117T171611Z_958c6a7a",
+  "updated_at": "2026-11-17T17:16:43.090864Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -381,7 +381,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T17:01:42.968952Z",
+      "last_seen_at": "2026-11-17T17:16:43.090864Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -398,7 +398,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T17:01:42.968952Z",
+      "last_seen_at": "2026-11-17T17:16:43.090864Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -428,7 +428,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T17:01:42.968952Z",
+      "last_seen_at": "2026-11-17T17:16:43.090864Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1187,7 +1187,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T17:01:42.968952Z",
+      "last_seen_at": "2026-11-17T17:16:43.090864Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1974,7 +1974,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T17:01:42.968952Z",
+      "last_seen_at": "2026-11-17T17:16:43.090864Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2585,7 +2585,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T17:01:42.968952Z",
+      "last_seen_at": "2026-11-17T17:16:43.090864Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2635,7 +2635,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T17:01:42.968952Z",
+      "last_seen_at": "2026-11-17T17:16:43.090864Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -3334,10 +3334,10 @@
     },
     "TFUEL": {
       "coingecko_id": "theta-fuel",
-      "history_source": "KuCoin",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T17:01:42.968952Z",
+      "last_seen_at": "2026-11-17T17:16:43.090864Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -3345,8 +3345,29 @@
         ]
       },
       "weekly": {
-        "active_signals": [],
-        "seen_signatures": []
+        "active_signals": [
+          {
+            "type": "WEEKLY_BULLISH",
+            "signature": "TFUEL|1W|BULLISH|2026-06-29|2026-08-17",
+            "pivots": [
+              {
+                "timestamp": "2026-06-29",
+                "price": 0.00728,
+                "rsi": 22.663407043458278,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-08-17",
+                "price": 0.007048,
+                "rsi": 36.84685197003562,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
+        "seen_signatures": [
+          "TFUEL|1W|BULLISH|2026-06-29|2026-08-17"
+        ]
       }
     },
     "ADX": {
@@ -3676,7 +3697,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T17:01:42.968952Z",
+      "last_seen_at": "2026-11-17T17:16:43.090864Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
