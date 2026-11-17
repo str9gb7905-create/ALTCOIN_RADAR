@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261117T000127Z_abc0a699",
-  "updated_at": "2026-11-17T00:02:02.954667Z",
+  "last_run_id": "20261117T001601Z_e79f0d71",
+  "updated_at": "2026-11-17T00:16:39.297232Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -62,7 +62,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T00:02:02.954667Z",
+      "last_seen_at": "2026-11-17T00:16:39.297232Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -381,7 +381,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T00:02:02.954667Z",
+      "last_seen_at": "2026-11-17T00:16:39.297232Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -398,7 +398,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T00:02:02.954667Z",
+      "last_seen_at": "2026-11-17T00:16:39.297232Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -945,7 +945,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T00:02:02.954667Z",
+      "last_seen_at": "2026-11-17T00:16:39.297232Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1187,7 +1187,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T00:02:02.954667Z",
+      "last_seen_at": "2026-11-17T00:16:39.297232Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1384,7 +1384,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T00:02:02.954667Z",
+      "last_seen_at": "2026-11-17T00:16:39.297232Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1665,7 +1665,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T00:02:02.954667Z",
+      "last_seen_at": "2026-11-17T00:16:39.297232Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1786,7 +1786,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T00:02:02.954667Z",
+      "last_seen_at": "2026-11-17T00:16:39.297232Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2585,7 +2585,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T00:02:02.954667Z",
+      "last_seen_at": "2026-11-17T00:16:39.297232Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2635,7 +2635,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T00:02:02.954667Z",
+      "last_seen_at": "2026-11-17T00:16:39.297232Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -3473,10 +3473,10 @@
     },
     "FIDA": {
       "coingecko_id": "bonfida",
-      "history_source": "Coinbase",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T00:02:02.954667Z",
+      "last_seen_at": "2026-11-17T00:16:39.297232Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -3695,7 +3695,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-17T00:02:02.954667Z",
+      "last_seen_at": "2026-11-17T00:16:39.297232Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
