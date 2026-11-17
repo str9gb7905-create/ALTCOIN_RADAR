@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-17T02:02:11.250073Z",
+  "updated_at_utc": "2026-11-17T05:17:04.949344Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -55101,6 +55101,32 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_29a78245ba8e26adfdd2de693936e612": {
+      "notification_id": "ntf_29a78245ba8e26adfdd2de693936e612",
+      "run_id": "20261117T051617Z_fe447a9e",
+      "created_at_utc": "2026-11-17T05:17:04.947685Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261117T051617Z_fe447a9e\n資料來源：CoinGecko＋公開現貨交易所\n\nZIL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0009169889\n幅度級距：-10%\n區間異動：-10.47%\n基準價格：US$0.0010242697\n24H：-8.86%\n4H RSI：9.98\n日線 RSI：14.55\n週線 RSI：29.64\n成交量：3.74×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/zilliqa\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AZILUSDT",
+      "batch_id": "ntf_29a78245ba8e26adfdd2de693936e612",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "9ff37e1028bcadeb5951659bfef9805432faa37fedc38e1a1d484fbe88a5555f",
+      "alert_ranges": [
+        {
+          "symbol": "ZIL",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
