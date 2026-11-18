@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-18T06:32:00.417754Z",
+  "updated_at_utc": "2026-11-18T06:46:48.966881Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -56131,6 +56131,32 @@
         {
           "symbol": "STEEM",
           "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
+    },
+    "ntf_f6ab7bb7a22bb708d2d53a14ff0d9eeb": {
+      "notification_id": "ntf_f6ab7bb7a22bb708d2d53a14ff0d9eeb",
+      "run_id": "20261118T064601Z_e683468e",
+      "created_at_utc": "2026-11-18T06:46:48.965865Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261118T064601Z_e683468e\n資料來源：CoinGecko＋公開現貨交易所\n\nSTEEM｜方向改變\n觸發：由近24H高點下跌\n價格：US$0.043487888\n幅度級距：-10%\n區間異動：-10.10%\n基準價格：US$0.048372656\n24H：+1.88%\n4H RSI：42.51\n日線 RSI：37.61\n週線 RSI：41.86\n成交量：1.37×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/steem\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTEEMUSDT",
+      "batch_id": "ntf_f6ab7bb7a22bb708d2d53a14ff0d9eeb",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "4ee82768fe4abb7a820b5e9488f0f5f90832af6639ba7d72cf0f41e8a8fd111f",
+      "alert_ranges": [
+        {
+          "symbol": "STEEM",
+          "direction": "DOWN",
           "level": 10
         }
       ],
