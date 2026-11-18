@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-18T10:32:25.927136Z",
+  "updated_at_utc": "2026-11-18T11:02:07.455218Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -56348,6 +56348,32 @@
         {
           "symbol": "MANTA",
           "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_d7f36fd0a0d188263d7bf606c357e38d": {
+      "notification_id": "ntf_d7f36fd0a0d188263d7bf606c357e38d",
+      "run_id": "20261118T110115Z_39fb7686",
+      "created_at_utc": "2026-11-18T11:02:07.453924Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261118T110115Z_39fb7686\n資料來源：CoinGecko＋公開現貨交易所\n\nCHEX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0081155333\n幅度級距：-10%\n區間異動：-10.39%\n基準價格：US$0.009056445\n24H：-9.81%\n4H RSI：28.34\n日線 RSI：40.99\n週線 RSI：39.97\n成交量：1.12×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACHEXUSDT",
+      "batch_id": "ntf_d7f36fd0a0d188263d7bf606c357e38d",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "b3782ba625c612ae818f2012bcb311a528b3a5d3f57322aadb5c56c5345177e5",
+      "alert_ranges": [
+        {
+          "symbol": "CHEX",
+          "direction": "DOWN",
           "level": 10
         }
       ],
