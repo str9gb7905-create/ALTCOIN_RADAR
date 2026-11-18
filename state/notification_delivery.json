@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-18T08:47:04.998234Z",
+  "updated_at_utc": "2026-11-18T09:02:21.678634Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -56245,6 +56245,42 @@
         {
           "symbol": "AKT",
           "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_d732fa602fe11d2f3c1aa5d476528c61": {
+      "notification_id": "ntf_d732fa602fe11d2f3c1aa5d476528c61",
+      "run_id": "20261118T090124Z_bdde1e64",
+      "created_at_utc": "2026-11-18T09:02:21.677598Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 5,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261118T090124Z_bdde1e64\n資料來源：CoinGecko＋公開現貨交易所\n\nMANTA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.037423056\n幅度級距：-10%\n區間異動：-13.19%\n基準價格：US$0.04310826\n24H：-10.29%\n4H RSI：47.64\n日線 RSI：31.14\n週線 RSI：32.58\n成交量：0.96×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/manta-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMANTAUSDC\n\nSTEEM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.042545318\n幅度級距：-10%\n區間異動：-12.05%\n基準價格：US$0.048372656\n24H：-0.41%\n4H RSI：61.98\n日線 RSI：37.61\n週線 RSI：41.86\n成交量：2.01×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/steem\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTEEMUSDT\n\nCHEX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0080271444\n幅度級距：-10%\n區間異動：-11.37%\n基準價格：US$0.009056445\n24H：-11.34%\n4H RSI：28.34\n日線 RSI：40.99\n週線 RSI：39.97\n成交量：1.11×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chex-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ACHEXUSDT",
+      "batch_id": "ntf_d732fa602fe11d2f3c1aa5d476528c61",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "6d55e015e93333abd4e96619b9b90dd9f6d188a1429f2f49d9fcf5f893488885",
+      "alert_ranges": [
+        {
+          "symbol": "MANTA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "STEEM",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "CHEX",
+          "direction": "DOWN",
           "level": 10
         }
       ],

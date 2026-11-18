@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261118T084622Z_aa8560fb",
-  "updated_at": "2026-11-18T08:46:51.763293Z",
+  "last_run_id": "20261118T090124Z_bdde1e64",
+  "updated_at": "2026-11-18T09:02:07.221720Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -862,7 +862,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-18T08:46:51.763293Z",
+      "last_seen_at": "2026-11-18T09:02:07.221720Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -945,7 +945,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-18T08:46:51.763293Z",
+      "last_seen_at": "2026-11-18T09:02:07.221720Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1165,10 +1165,10 @@
     },
     "HUMA": {
       "coingecko_id": "huma-finance",
-      "history_source": "KuCoin",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-18T08:46:51.763293Z",
+      "last_seen_at": "2026-11-18T09:02:07.221720Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1646,7 +1646,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-18T08:46:51.763293Z",
+      "last_seen_at": "2026-11-18T09:02:07.221720Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1955,7 +1955,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-18T08:46:51.763293Z",
+      "last_seen_at": "2026-11-18T09:02:07.221720Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2238,7 +2238,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-18T07:16:37.737297Z",
+      "last_seen_at": "2026-11-18T09:02:07.221720Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2531,7 +2531,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-18T08:46:51.763293Z",
+      "last_seen_at": "2026-11-18T09:02:07.221720Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2616,7 +2616,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-18T08:46:51.763293Z",
+      "last_seen_at": "2026-11-18T09:02:07.221720Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2654,7 +2654,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-18T08:31:56.420383Z",
+      "last_seen_at": "2026-11-18T09:02:07.221720Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2975,10 +2975,10 @@
     },
     "MANTA": {
       "coingecko_id": "manta-network",
-      "history_source": "Bitget",
+      "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-15T06:28:05.403214Z",
+      "last_seen_at": "2026-11-18T09:02:07.221720Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2986,7 +2986,26 @@
         ]
       },
       "weekly": {
-        "active_signals": [],
+        "active_signals": [
+          {
+            "type": "WEEKLY_BULLISH",
+            "signature": "MANTA|1W|BULLISH|2026-08-10|2026-09-21",
+            "pivots": [
+              {
+                "timestamp": "2026-08-10",
+                "price": 0.05431,
+                "rsi": 38.57571192733964,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-09-21",
+                "price": 0.04142,
+                "rsi": 49.92723558329319,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
         "seen_signatures": [
           "MANTA|1W|BULLISH|2026-08-10|2026-09-21"
         ]
@@ -3659,7 +3678,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-18T08:46:51.763293Z",
+      "last_seen_at": "2026-11-18T09:02:07.221720Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
