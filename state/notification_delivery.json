@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-19T19:16:44.736775Z",
+  "updated_at_utc": "2026-11-19T20:01:42.323067Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -57219,6 +57219,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_96ee6897e40070e34b479f3fe8db6168": {
+      "notification_id": "ntf_96ee6897e40070e34b479f3fe8db6168",
+      "run_id": "20261119T200115Z_7054be80",
+      "created_at_utc": "2026-11-19T20:01:42.322078Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261119T200115Z_7054be80\n資料來源：CoinGecko＋公開現貨交易所\n\nPEAQ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.021437675\n幅度級距：-10%\n區間異動：-10.12%\n基準價格：US$0.023850179\n24H：-9.95%\n4H RSI：24.52\n日線 RSI：34.09\n週線 RSI：43.91\n成交量：8.20×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APEAQUSDT",
+      "batch_id": "ntf_96ee6897e40070e34b479f3fe8db6168",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "7b18f6511d4a6284d5b37fbb38c9877ccc967bd8476a87929d6aefb659ac2c18",
+      "alert_ranges": [
+        {
+          "symbol": "PEAQ",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
