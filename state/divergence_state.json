@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261119T012956Z_17bab442",
-  "updated_at": "2026-11-19T01:30:29.786561Z",
+  "last_run_id": "20261119T014609Z_6feda5d5",
+  "updated_at": "2026-11-19T01:46:40.733289Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -945,7 +945,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-19T01:30:29.786561Z",
+      "last_seen_at": "2026-11-19T01:46:40.733289Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1168,7 +1168,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-19T01:30:29.786561Z",
+      "last_seen_at": "2026-11-19T01:46:40.733289Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1955,7 +1955,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-19T01:30:29.786561Z",
+      "last_seen_at": "2026-11-19T01:46:40.733289Z",
       "daily": {
         "active_signals": [
           {
@@ -2259,7 +2259,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-19T01:30:29.786561Z",
+      "last_seen_at": "2026-11-19T01:46:40.733289Z",
       "daily": {
         "active_signals": [
           {
@@ -2573,7 +2573,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-19T01:30:29.786561Z",
+      "last_seen_at": "2026-11-19T01:46:40.733289Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -3020,7 +3020,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-19T01:30:29.786561Z",
+      "last_seen_at": "2026-11-19T01:46:40.733289Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
