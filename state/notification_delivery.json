@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-19T10:17:09.470774Z",
+  "updated_at_utc": "2026-11-19T13:16:48.053180Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -57014,6 +57014,32 @@
           "symbol": "AKT",
           "direction": "UP",
           "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_f677416c341e9550d4ed62410de79495": {
+      "notification_id": "ntf_f677416c341e9550d4ed62410de79495",
+      "run_id": "20261119T131618Z_0d17193d",
+      "created_at_utc": "2026-11-19T13:16:48.050255Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261119T131618Z_0d17193d\n資料來源：CoinGecko＋公開現貨交易所\n\nHUMA｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0086576006\n幅度級距：+20%\n區間異動：+20.43%\n基準價格：US$0.0071887216\n24H：+18.02%\n4H RSI：51.62\n日線 RSI：31.84\n週線 RSI：33.61\n成交量：2.62×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AHUMAUSDT",
+      "batch_id": "ntf_f677416c341e9550d4ed62410de79495",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "00f2c8d88b9130cc30a2a086ca3a41e94b962108f1ca554d050cc1004aecca6f",
+      "alert_ranges": [
+        {
+          "symbol": "HUMA",
+          "direction": "UP",
+          "level": 20
         }
       ],
       "repeat_suppressed_count": 0
