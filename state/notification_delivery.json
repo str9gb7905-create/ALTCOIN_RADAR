@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-19T01:16:59.616442Z",
+  "updated_at_utc": "2026-11-19T04:01:59.398499Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -56748,6 +56748,32 @@
         {
           "symbol": "FUN",
           "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_e5eb3898f9882c38f812a705c9bcc01d": {
+      "notification_id": "ntf_e5eb3898f9882c38f812a705c9bcc01d",
+      "run_id": "20261119T040114Z_bf864b80",
+      "created_at_utc": "2026-11-19T04:01:59.397261Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261119T040114Z_bf864b80\n資料來源：CoinGecko＋公開現貨交易所\n\nETHFI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.51095411\n幅度級距：+10%\n區間異動：+10.76%\n基準價格：US$0.46130638\n24H：+8.01%\n4H RSI：56.43\n日線 RSI：35.52\n週線 RSI：43.95\n成交量：0.85×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ether-fi\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AETHFIUSDC",
+      "batch_id": "ntf_e5eb3898f9882c38f812a705c9bcc01d",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "0c0ca58fb4b977a3bafe07ec1581a424154b10bedb443d4d9a1a10b4a926c558",
+      "alert_ranges": [
+        {
+          "symbol": "ETHFI",
+          "direction": "UP",
           "level": 10
         }
       ],
