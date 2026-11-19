@@ -1,7 +1,7 @@
 {
-  "run_id": "20261119T023114Z_00c01a26",
-  "started_at_utc": "2026-11-19T02:31:14.619060Z",
-  "completed_at_utc": "2026-11-19T02:31:51.210615Z",
+  "run_id": "20261119T024629Z_1a190853",
+  "started_at_utc": "2026-11-19T02:46:29.300330Z",
+  "completed_at_utc": "2026-11-19T02:46:57.531633Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -11,12 +11,12 @@
   "radar_assets_baselined": 0,
   "technical_assets_baselined": 0,
   "divergence_assets_baselined": 0,
-  "notification_candidate_count": 1,
+  "notification_candidate_count": 0,
   "stage_b_attempted": 5,
   "divergence_attempted": 5,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 36.591554,
+  "elapsed_seconds": 28.231308,
   "API_requests_total": 78,
   "requests_by_exchange": {
     "Binance": 4,
@@ -30,17 +30,17 @@
     "MEXC": 12,
     "OKX": 13
   },
-  "elapsed_stage_a": 0.673437,
-  "elapsed_radar_state": 0.147244,
-  "elapsed_stage_b": 22.546942,
-  "elapsed_divergence": 13.22258,
-  "elapsed_total": 36.591554,
+  "elapsed_stage_a": 0.541484,
+  "elapsed_radar_state": 0.18044,
+  "elapsed_stage_b": 17.262205,
+  "elapsed_divergence": 10.245503,
+  "elapsed_total": 28.231308,
   "asset_enrichment_seconds": {
-    "FUN": 2.088095,
-    "HUMA": 3.23347,
-    "MANTA": 4.758034,
-    "STEEM": 2.34521,
-    "ZIL": 1.798922
+    "FUN": 1.541388,
+    "HUMA": 1.964058,
+    "MANTA": 4.292914,
+    "STEEM": 1.525038,
+    "ZIL": 1.130952
   },
   "stale_lock_recovered": false
 }
