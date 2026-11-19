@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261119T210117Z_aa88253b",
-  "updated_at": "2026-11-19T21:01:23.764347Z",
+  "last_run_id": "20261119T211617Z_f7d4777e",
+  "updated_at": "2026-11-19T21:16:25.815316Z",
   "assets": {
     "TRAC": {
       "coingecko_id": "origintrail",
@@ -330,15 +330,15 @@
       "rsi_1d": 34.43898239642576,
       "rsi_1w": 44.82860062801586,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 1.9266826333878335,
+      "volume_ratio": 1.9284223747721287,
       "volume_status": "ELEVATED",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
-      "range_24h_pct": 14.65339651069408,
-      "turnover_ratio": 0.19231864513923588,
+      "range_24h_pct": 14.867575256789104,
+      "turnover_ratio": 0.19266424500327023,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-19T21:01:23.764347Z",
+      "last_seen_at": "2026-11-19T21:16:25.815316Z",
       "price_episode_id": 77,
       "active_technical_signals": [
         "VOLUME_ELEVATED"
@@ -843,18 +843,18 @@
       "rsi_1d": 20.14373546589711,
       "rsi_1w": 28.86107907010974,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 2.0527771253740514,
-      "volume_status": "STRONG",
+      "volume_ratio": 1.9921495314021915,
+      "volume_status": "ELEVATED",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 15.851403962850977,
-      "turnover_ratio": 0.5564343890520899,
+      "turnover_ratio": 0.5461125292442086,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-19T21:01:23.764347Z",
+      "last_seen_at": "2026-11-19T21:16:25.815316Z",
       "price_episode_id": 38,
       "active_technical_signals": [
-        "VOLUME_STRONG"
+        "VOLUME_ELEVATED"
       ]
     },
     "CKB": {
@@ -885,15 +885,15 @@
       "rsi_1d": 35.48701609710017,
       "rsi_1w": 35.42923749195293,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 7.419716411927736,
+      "volume_ratio": 7.652758631526332,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 22.483984424067334,
-      "turnover_ratio": 0.09966219006870457,
+      "turnover_ratio": 0.09333295425335421,
       "cross_exchange_status": "CONFIRMED",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-19T20:46:26.452528Z",
+      "last_seen_at": "2026-11-19T21:16:25.815316Z",
       "price_episode_id": 33,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -1446,15 +1446,15 @@
       "rsi_1d": 34.1854574808233,
       "rsi_1w": 36.491506010841526,
       "rsi_4h_state": "NORMAL",
-      "volume_ratio": 15.168910929261028,
+      "volume_ratio": 15.196399540194555,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 25.623500215353683,
       "turnover_ratio": null,
-      "cross_exchange_status": "CONFIRMED",
+      "cross_exchange_status": "MINOR_DIVERGENCE",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-19T21:01:23.764347Z",
+      "last_seen_at": "2026-11-19T21:16:25.815316Z",
       "price_episode_id": 11,
       "active_technical_signals": [
         "VOLUME_STRONG"
@@ -2093,15 +2093,15 @@
       "rsi_1d": 41.6701905217237,
       "rsi_1w": 29.730002495420337,
       "rsi_4h_state": "NEUTRAL",
-      "volume_ratio": 6.112019327405012,
+      "volume_ratio": 6.109322798825557,
       "volume_status": "STRONG",
       "volume_pattern": "NONE",
       "volume_note": "NONE",
       "range_24h_pct": 24.919361288086808,
-      "turnover_ratio": 0.2122755151397891,
-      "cross_exchange_status": "CONFIRMED",
+      "turnover_ratio": 0.2135654948993813,
+      "cross_exchange_status": "MINOR_DIVERGENCE",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-19T21:01:23.764347Z",
+      "last_seen_at": "2026-11-19T21:16:25.815316Z",
       "price_episode_id": 73,
       "active_technical_signals": [
         "VOLUME_STRONG"
