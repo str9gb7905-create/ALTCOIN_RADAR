@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-19T09:47:21.423700Z",
+  "updated_at_utc": "2026-11-19T10:17:03.264714Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -56987,6 +56987,32 @@
         {
           "symbol": "PEAQ",
           "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_cac06ef35f3b95d3d46d11f865ce51ec": {
+      "notification_id": "ntf_cac06ef35f3b95d3d46d11f865ce51ec",
+      "run_id": "20261119T101625Z_bb9c9844",
+      "created_at_utc": "2026-11-19T10:17:03.263227Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261119T101625Z_bb9c9844\n資料來源：CoinGecko＋公開現貨交易所\n\nAKT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.5557574\n幅度級距：+10%\n區間異動：+10.38%\n基準價格：US$0.50348298\n24H：+5.96%\n4H RSI：62.33\n日線 RSI：39.42\n週線 RSI：46.16\n成交量：1.15×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/akash-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAKTUSD",
+      "batch_id": "ntf_cac06ef35f3b95d3d46d11f865ce51ec",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "29710044593558ffa297eabe35b28a75ad27de86a1a3b4b6b37de5d1a80de96e",
+      "alert_ranges": [
+        {
+          "symbol": "AKT",
+          "direction": "UP",
           "level": 10
         }
       ],
