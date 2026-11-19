@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-19T13:16:54.125863Z",
+  "updated_at_utc": "2026-11-19T14:46:49.232405Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -57040,6 +57040,37 @@
           "symbol": "HUMA",
           "direction": "UP",
           "level": 20
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_0e563c5843b06e51ef6761624dbf33a8": {
+      "notification_id": "ntf_0e563c5843b06e51ef6761624dbf33a8",
+      "run_id": "20261119T144620Z_3a1cc9db",
+      "created_at_utc": "2026-11-19T14:46:49.231352Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261119T144620Z_3a1cc9db\n資料來源：CoinGecko＋公開現貨交易所\n\nFTT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.23542753\n幅度級距：+20%\n區間異動：+20.69%\n基準價格：US$0.19507214\n24H：+19.18%\n4H RSI：51.89\n日線 RSI：34.19\n週線 RSI：36.49\n成交量：1.03×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ftx-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AFTTUSDT\n\nAKT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.55549796\n幅度級距：+10%\n區間異動：+10.33%\n基準價格：US$0.50348298\n24H：+7.04%\n4H RSI：68.01\n日線 RSI：39.42\n週線 RSI：46.16\n成交量：1.14×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/akash-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAKTUSD",
+      "batch_id": "ntf_0e563c5843b06e51ef6761624dbf33a8",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "b4348bc18be29b5e939152d70721b2bbadea5da4aa6728ce03b3cefbc63c7348",
+      "alert_ranges": [
+        {
+          "symbol": "FTT",
+          "direction": "UP",
+          "level": 20
+        },
+        {
+          "symbol": "AKT",
+          "direction": "UP",
+          "level": 10
         }
       ],
       "repeat_suppressed_count": 0
