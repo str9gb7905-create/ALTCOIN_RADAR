@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-20T19:18:21.366251Z",
+  "updated_at_utc": "2026-11-20T19:18:23.992515Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -58717,13 +58717,13 @@
       "notification_id": "ntf_fc45ee15d9ef0364f978c1ddfb8d672f",
       "run_id": "20261120T191606Z_e85612fe",
       "created_at_utc": "2026-11-20T19:18:21.365017Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-20T19:18:23.992488Z",
       "event_count": 10,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261120T191606Z_e85612fe\n資料來源：CoinGecko＋公開現貨交易所\n\nNOS｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.28942208\n幅度級距：-20%\n區間異動：-21.00%\n基準價格：US$0.36637643\n24H：-21.03%\n4H RSI：38.29\n日線 RSI：41.12\n週線 RSI：49.41\n成交量：2.17×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nosana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANOSUSD\n\nW｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0079356194\n幅度級距：-10%\n區間異動：-10.90%\n基準價格：US$0.0089066702\n24H：-10.39%\n4H RSI：24.43\n日線 RSI：33.61\n週線 RSI：36.26\n成交量：2.05×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AWUSD\n\nSUI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.64297447\n幅度級距：-10%\n區間異動：-10.48%\n基準價格：US$0.71823157\n24H：-10.22%\n4H RSI：23.73\n日線 RSI：32.68\n週線 RSI：39.73\n成交量：2.86×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sui\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASUIUSDT\n\nRENDER｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.2479243\n幅度級距：-10%\n區間異動：-10.35%\n基準價格：US$1.3919902\n24H：-10.20%\n4H RSI：29.67\n日線 RSI：39.03\n週線 RSI：43.11\n成交量：2.07×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/render-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARENDERUSD\n\nETH｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1596.6764\n幅度級距：-10%\n區間異動：-10.28%\n基準價格：US$1779.7029\n24H：-9.97%\n4H RSI：24.64\n日線 RSI：23.49\n週線 RSI：37.03\n成交量：1.56×｜ELEVATED\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ethereum\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AETHUSDT\n\nSTORJ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.013453444\n幅度級距：-10%\n區間異動：-10.01%\n基準價格：US$0.014949589\n24H：-9.88%\n4H RSI：22.56\n日線 RSI：18.32\n週線 RSI：20.59\n成交量：0.92×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/storj\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTORJUSDT",
       "batch_id": "ntf_fc45ee15d9ef0364f978c1ddfb8d672f",
