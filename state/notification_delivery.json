@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-20T21:03:38.116732Z",
+  "updated_at_utc": "2026-11-20T22:02:56.326126Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -58999,6 +58999,37 @@
       "alert_ranges": [
         {
           "symbol": "LSK",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 2
+    },
+    "ntf_1caef23f5aa26b9eeccac31aa6aa03a7": {
+      "notification_id": "ntf_1caef23f5aa26b9eeccac31aa6aa03a7",
+      "run_id": "20261120T220121Z_7360955e",
+      "created_at_utc": "2026-11-20T22:02:56.324257Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261120T220121Z_7360955e\n資料來源：CoinGecko＋公開現貨交易所\n\nUNI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.4474896\n幅度級距：-10%\n區間異動：-10.15%\n基準價格：US$4.9500788\n24H：-9.52%\n4H RSI：21.49\n日線 RSI：31.74\n週線 RSI：46.49\n成交量：1.17×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/uniswap\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AUNIUSDT\n\nRVN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00094850368\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$0.001054659\n24H：-8.91%\n4H RSI：20.09\n日線 RSI：30.22\n週線 RSI：21.43\n成交量：1.86×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ravencoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARVNUSDT",
+      "batch_id": "ntf_1caef23f5aa26b9eeccac31aa6aa03a7",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "938b8861e70248611001a61ac0c13bb2d04e2f6a74f22384201617752c4e552a",
+      "alert_ranges": [
+        {
+          "symbol": "UNI",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "RVN",
           "direction": "DOWN",
           "level": 10
         }
