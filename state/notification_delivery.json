@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-20T16:59:27.300546Z",
+  "updated_at_utc": "2026-11-20T17:18:59.050551Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -58558,6 +58558,62 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_228f33fc89ab53140fa48495e56a8d2f": {
+      "notification_id": "ntf_228f33fc89ab53140fa48495e56a8d2f",
+      "run_id": "20261120T171619Z_837f73fa",
+      "created_at_utc": "2026-11-20T17:18:59.048790Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 7,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261120T171619Z_837f73fa\n資料來源：CoinGecko＋公開現貨交易所\n\nVANA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.57906694\n幅度級距：-10%\n區間異動：-11.26%\n基準價格：US$0.65253902\n24H：-10.27%\n4H RSI：27.19\n日線 RSI：28.07\n週線 RSI：29.60\n成交量：1.00×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AVANAUSDT\n\nLNQ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0048914225\n幅度級距：-10%\n區間異動：-10.70%\n基準價格：US$0.0054777877\n24H：-9.23%\n4H RSI：26.46\n日線 RSI：17.97\n週線 RSI：45.07\n成交量：1.14×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/linqai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ALNQUSDT\n\nONE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0010617744\n幅度級距：-10%\n區間異動：-10.41%\n基準價格：US$0.0011851216\n24H：-7.99%\n4H RSI：29.54\n日線 RSI：43.28\n週線 RSI：42.58\n成交量：0.70×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/harmony\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AONEUSDT\n\nPEAQ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.019960359\n幅度級距：-10%\n區間異動：-10.40%\n基準價格：US$0.022277865\n24H：-8.05%\n4H RSI：21.51\n日線 RSI：30.44\n週線 RSI：43.65\n成交量：1.58×｜ELEVATED\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT\n\nZEN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.5739362\n幅度級距：-10%\n區間異動：-10.30%\n基準價格：US$3.9842668\n24H：-8.54%\n4H RSI：21.37\n日線 RSI：26.33\n週線 RSI：38.24\n成交量：1.28×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/zencash\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AZENUSDT\n\nC98｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0086937936\n幅度級距：-10%\n區間異動：-10.18%\n基準價格：US$0.0096795349\n24H：-9.09%\n4H RSI：22.19\n日線 RSI：26.84\n週線 RSI：31.84\n成交量：0.96×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coin98\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AC98USDT\n\nMEME｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00028457078\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$0.00031652355\n24H：-8.70%\n4H RSI：23.28\n日線 RSI：23.14\n週線 RSI：32.76\n成交量：1.02×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/memecoin-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMEMEUSDT",
+      "batch_id": "ntf_228f33fc89ab53140fa48495e56a8d2f",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "cce66f5c333e129c6c621c4ef02253c7c2e1f5ace23cf7118f127a7c39373fd4",
+      "alert_ranges": [
+        {
+          "symbol": "VANA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "LNQ",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ONE",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "PEAQ",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ZEN",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "C98",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "MEME",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 2
     }
   }
 }
