@@ -1,7 +1,7 @@
 {
-  "run_id": "20261120T013119Z_f48863c2",
-  "started_at_utc": "2026-11-20T01:31:19.924601Z",
-  "completed_at_utc": "2026-11-20T01:31:48.835573Z",
+  "run_id": "20261120T014615Z_3fe07051",
+  "started_at_utc": "2026-11-20T01:46:15.398763Z",
+  "completed_at_utc": "2026-11-20T01:46:40.626325Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -16,7 +16,7 @@
   "divergence_attempted": 6,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 28.910972,
+  "elapsed_seconds": 25.22756,
   "API_requests_total": 81,
   "requests_by_exchange": {
     "Binance": 4,
@@ -24,24 +24,24 @@
     "Bybit": 4,
     "CoinGecko": 2,
     "Coinbase": 8,
-    "Gate": 14,
+    "Gate": 19,
     "Kraken": 4,
-    "KuCoin": 14,
+    "KuCoin": 9,
     "MEXC": 4,
     "OKX": 18
   },
-  "elapsed_stage_a": 0.647039,
-  "elapsed_radar_state": 0.163865,
-  "elapsed_stage_b": 17.085367,
-  "elapsed_divergence": 11.012807,
-  "elapsed_total": 28.910972,
+  "elapsed_stage_a": 0.731542,
+  "elapsed_radar_state": 0.150471,
+  "elapsed_stage_b": 14.324225,
+  "elapsed_divergence": 10.020016,
+  "elapsed_total": 25.22756,
   "asset_enrichment_seconds": {
-    "CSPR": 2.151996,
-    "FTT": 0.543127,
-    "FUN": 2.096252,
-    "HUMA": 1.316919,
-    "LAT": 1.591625,
-    "STRK": 1.242348
+    "CSPR": 1.738933,
+    "FTT": 0.396749,
+    "FUN": 1.289566,
+    "HUMA": 2.201809,
+    "LAT": 1.17349,
+    "STRK": 1.200206
   },
   "stale_lock_recovered": false
 }
