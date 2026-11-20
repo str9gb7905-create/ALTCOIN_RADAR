@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-20T12:02:05.978330Z",
+  "updated_at_utc": "2026-11-20T12:16:57.256538Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -57959,6 +57959,37 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_682d27c150591367e6c98df4ed18b5ad": {
+      "notification_id": "ntf_682d27c150591367e6c98df4ed18b5ad",
+      "run_id": "20261120T121604Z_2a967ae9",
+      "created_at_utc": "2026-11-20T12:16:57.255532Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261120T121604Z_2a967ae9\n資料來源：CoinGecko＋公開現貨交易所\n\nHMSTR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00015151344\n幅度級距：+10%\n區間異動：+10.28%\n基準價格：US$0.00013739456\n24H：+7.18%\n4H RSI：67.61\n日線 RSI：49.30\n週線 RSI：39.04\n成交量：7.97×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hamster-kombat\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AHMSTRUSDT\n\nBOME｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0004590981\n幅度級距：-10%\n區間異動：-10.06%\n基準價格：US$0.00051047406\n24H：-8.58%\n4H RSI：30.54\n日線 RSI：30.38\n週線 RSI：40.88\n成交量：1.12×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/book-of-meme\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABOMEUSDT",
+      "batch_id": "ntf_682d27c150591367e6c98df4ed18b5ad",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "599c1210ab2f2fcc2b9d3f91e93a3f87acbcf3451631a1aa7a0b842d71c120a2",
+      "alert_ranges": [
+        {
+          "symbol": "HMSTR",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "BOME",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
