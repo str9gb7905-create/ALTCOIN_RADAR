@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-20T01:16:57.668459Z",
+  "updated_at_utc": "2026-11-20T02:02:07.659809Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -57372,6 +57372,62 @@
           "symbol": "HUMA",
           "direction": "UP",
           "level": 20
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_1abffc7180b7aee0c5fe3dcab20a5b0f": {
+      "notification_id": "ntf_1abffc7180b7aee0c5fe3dcab20a5b0f",
+      "run_id": "20261120T020111Z_f4e4b471",
+      "created_at_utc": "2026-11-20T02:02:07.658223Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 9,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261120T020111Z_f4e4b471\n資料來源：CoinGecko＋公開現貨交易所\n\nWIN｜再次觸發\n觸發：由近24H低點上漲\n價格：US$6.2891391e-05\n幅度級距：+10%\n區間異動：+10.91%\n基準價格：US$5.6702708e-05\n24H：+9.92%\n4H RSI：66.02\n日線 RSI：52.13\n週線 RSI：66.26\n成交量：0.76×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wink\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AWINUSDT\n\nETHFI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.47095728\n幅度級距：-10%\n區間異動：-10.69%\n基準價格：US$0.52732943\n24H：-4.83%\n4H RSI：43.84\n日線 RSI：35.42\n週線 RSI：43.95\n成交量：1.30×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ether-fi\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AETHFIUSDC\n\nXAI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0051960414\n幅度級距：-10%\n區間異動：-10.63%\n基準價格：US$0.0058142767\n24H：-6.16%\n4H RSI：48.17\n日線 RSI：32.37\n週線 RSI：30.72\n成交量：0.98×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXAIUSDT\n\nPEPE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.5884714e-06\n幅度級距：-10%\n區間異動：-10.55%\n基準價格：US$4.0118622e-06\n24H：-4.21%\n4H RSI：38.92\n日線 RSI：35.18\n週線 RSI：47.56\n成交量：1.98×｜ELEVATED\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pepe\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APEPEUSDT\n\nPYTH｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.051677419\n幅度級距：-10%\n區間異動：-10.43%\n基準價格：US$0.057693136\n24H：-3.42%\n4H RSI：41.89\n日線 RSI：36.53\n週線 RSI：47.47\n成交量：20.40×｜STRONG\n背離：WEEKLY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pyth-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APYTHUSDT\n\nNEAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.087278\n幅度級距：-10%\n區間異動：-10.34%\n基準價格：US$3.44339\n24H：-6.42%\n4H RSI：43.97\n日線 RSI：37.35\n週線 RSI：51.67\n成交量：2.66×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/near\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ANEARUSDT\n\nAVA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0056664369\n幅度級距：-10%\n區間異動：-10.00%\n基準價格：US$0.0062962992\n24H：-8.30%\n4H RSI：36.12\n日線 RSI：33.88\n週線 RSI：46.37\n成交量：1.00×｜NORMAL\n背離：DAILY_BEARISH\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ava-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAVAUSDT",
+      "batch_id": "ntf_1abffc7180b7aee0c5fe3dcab20a5b0f",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "c4960149e3c932853cdd01134a182231d3d5e533a53e218871a1b56784fbc8cc",
+      "alert_ranges": [
+        {
+          "symbol": "WIN",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "ETHFI",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "XAI",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "PEPE",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "PYTH",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "NEAR",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "AVA",
+          "direction": "DOWN",
+          "level": 10
         }
       ],
       "repeat_suppressed_count": 0
