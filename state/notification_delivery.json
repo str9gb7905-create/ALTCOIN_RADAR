@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-20T08:02:00.714051Z",
+  "updated_at_utc": "2026-11-20T08:17:02.022850Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -57700,6 +57700,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_8ff6cc02fce8ea2a9a1c28a4ea9d52c7": {
+      "notification_id": "ntf_8ff6cc02fce8ea2a9a1c28a4ea9d52c7",
+      "run_id": "20261120T081612Z_1c87724a",
+      "created_at_utc": "2026-11-20T08:17:02.021518Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261120T081612Z_1c87724a\n資料來源：CoinGecko＋公開現貨交易所\n\nSTRK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.031887519\n幅度級距：-10%\n區間異動：-10.47%\n基準價格：US$0.035617327\n24H：-5.83%\n4H RSI：43.78\n日線 RSI：33.60\n週線 RSI：44.83\n成交量：1.56×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/starknet\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASTRKUSD",
+      "batch_id": "ntf_8ff6cc02fce8ea2a9a1c28a4ea9d52c7",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "e527e65064009c46ef300ea6c76a856f40c4b6e0f0a827b1625f1719d1416520",
+      "alert_ranges": [
+        {
+          "symbol": "STRK",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
