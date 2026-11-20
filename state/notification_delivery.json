@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-20T09:17:03.215676Z",
+  "updated_at_utc": "2026-11-20T09:32:13.212824Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -57804,6 +57804,32 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_90f4f9341e5b99202ca4073573a3467a": {
+      "notification_id": "ntf_90f4f9341e5b99202ca4073573a3467a",
+      "run_id": "20261120T093122Z_468506a8",
+      "created_at_utc": "2026-11-20T09:32:13.211123Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261120T093122Z_468506a8\n資料來源：CoinGecko＋公開現貨交易所\n\nHMSTR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00015208047\n幅度級距：+10%\n區間異動：+10.69%\n基準價格：US$0.00013739456\n24H：+8.14%\n4H RSI：45.19\n日線 RSI：49.30\n週線 RSI：39.04\n成交量：3.95×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hamster-kombat\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AHMSTRUSDT",
+      "batch_id": "ntf_90f4f9341e5b99202ca4073573a3467a",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "0cc7a2e68a38975efb4697d9a8879c671b8f66b88206ccaf1c5b2bbbeaa6a4f9",
+      "alert_ranges": [
+        {
+          "symbol": "HMSTR",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
