@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-20T14:47:21.176956Z",
+  "updated_at_utc": "2026-11-20T15:17:22.680551Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -58150,6 +58150,47 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_7ad6bd20b8807ed44388d3906948ba20": {
+      "notification_id": "ntf_7ad6bd20b8807ed44388d3906948ba20",
+      "run_id": "20261120T151625Z_1cd220da",
+      "created_at_utc": "2026-11-20T15:17:22.678733Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261120T151625Z_1cd220da\n資料來源：CoinGecko＋公開現貨交易所\n\nHYPE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$62.387941\n幅度級距：-10%\n區間異動：-10.45%\n基準價格：US$69.671267\n24H：-9.13%\n4H RSI：34.27\n日線 RSI：34.80\n週線 RSI：48.44\n成交量：1.21×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hyperliquid\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHYPEUSD\n\nBOME｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00044963101\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.00050046636\n24H：-10.82%\n4H RSI：30.54\n日線 RSI：30.38\n週線 RSI：40.88\n成交量：1.21×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/book-of-meme\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABOMEUSDT\n\nMERL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.025714121\n幅度級距：-10%\n區間異動：-10.12%\n基準價格：US$0.028610683\n24H：-10.10%\n4H RSI：31.43\n日線 RSI：47.57\n週線 RSI：44.34\n成交量：0.60×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AMERLUSDT\n\nBONK｜再次觸發\n觸發：由近24H高點下跌\n價格：US$2.1040365e-06\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$2.3402499e-06\n24H：-10.58%\n4H RSI：28.21\n日線 RSI：33.53\n週線 RSI：32.89\n成交量：1.75×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bonk\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABONKUSD",
+      "batch_id": "ntf_7ad6bd20b8807ed44388d3906948ba20",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "a1135339ca218737ca5a9060c616e212d08c23737958777f9fd18a1128d65c99",
+      "alert_ranges": [
+        {
+          "symbol": "HYPE",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "BOME",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "MERL",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "BONK",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
