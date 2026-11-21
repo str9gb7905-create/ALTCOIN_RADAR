@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-21T06:04:44.076881Z",
+  "updated_at_utc": "2026-11-21T06:04:47.111259Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -60181,13 +60181,13 @@
       "notification_id": "ntf_aa3be699e43dcc5051c574ed8eb7eab2",
       "run_id": "20261121T060124Z_a3f8c5e4",
       "created_at_utc": "2026-11-21T06:04:44.074331Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-21T06:04:47.111240Z",
       "event_count": 12,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261121T060124Z_a3f8c5e4\n資料來源：CoinGecko＋公開現貨交易所\n\nSNT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0060517877\n幅度級距：+20%\n區間異動：+20.04%\n基準價格：US$0.0050413143\n24H：+9.79%\n4H RSI：47.54\n日線 RSI：28.36\n週線 RSI：35.41\n成交量：3.88×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/status\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASNTUSDT\n\nARPA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0073036685\n幅度級距：-10%\n區間異動：-10.48%\n基準價格：US$0.0081583565\n24H：-9.80%\n4H RSI：28.11\n日線 RSI：28.31\n週線 RSI：37.37\n成交量：1.06×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arpa\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARPAUSDT\n\nHIVE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.032668374\n幅度級距：-10%\n區間異動：-10.36%\n基準價格：US$0.036445105\n24H：-9.82%\n4H RSI：22.15\n日線 RSI：23.08\n週線 RSI：32.75\n成交量：0.94×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hive\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AHIVEUSDT\n\nIO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.092337607\n幅度級距：-10%\n區間異動：-10.36%\n基準價格：US$0.10301141\n24H：-8.89%\n4H RSI：37.72\n日線 RSI：32.58\n週線 RSI：37.49\n成交量：1.51×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/io\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIOUSDC\n\nBABYDOGE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$2.2487275e-10\n幅度級距：-10%\n區間異動：-10.24%\n基準價格：US$2.5053924e-10\n24H：-9.60%\n4H RSI：21.90\n日線 RSI：19.06\n週線 RSI：32.72\n成交量：1.72×｜ELEVATED\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/baby-doge-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ABABYDOGEUSDT\n\nCKB｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00075671412\n幅度級距：-10%\n區間異動：-10.21%\n基準價格：US$0.00084278331\n24H：-9.53%\n4H RSI：23.29\n日線 RSI：28.72\n週線 RSI：36.72\n成交量：1.03×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/nervos-network\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ACKBUSDT\n\nPHA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.026852233\n幅度級距：-10%\n區間異動：-10.16%\n基準價格：US$0.029890388\n24H：-10.11%\n4H RSI：28.83\n日線 RSI：31.15\n週線 RSI：44.81\n成交量：1.96×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APHAUSDT\n\nCHR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.011786469\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$0.013114668\n24H：-9.72%\n4H RSI：28.30\n日線 RSI：31.24\n週線 RSI：35.67\n成交量：1.03×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chromaway\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ACHRUSDT\n\nVTHO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00039100572\n幅度級距：-10%\n區間異動：-10.12%\n基準價格：US$0.00043503923\n24H：-9.45%\n4H RSI：25.42\n日線 RSI：26.42\n週線 RSI：42.56\n成交量：16.42×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/vethor-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AVTHOUSDT\n\nNIGHT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.039824095\n幅度級距：-10%\n區間異動：-10.04%\n基準價格：US$0.044268669\n24H：-8.97%\n4H RSI：38.93\n日線 RSI：48.00\n週線 RSI：59.12\n成交量：1.09×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ANIGHTUSDT",
       "batch_id": "ntf_aa3be699e43dcc5051c574ed8eb7eab2",
