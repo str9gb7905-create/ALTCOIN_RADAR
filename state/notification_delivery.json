@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-21T05:19:31.916813Z",
+  "updated_at_utc": "2026-11-21T05:49:50.770326Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -60059,6 +60059,123 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_95e862eeeb2d611edcdfab44988b40cb_p0001": {
+      "notification_id": "ntf_95e862eeeb2d611edcdfab44988b40cb_p0001",
+      "run_id": "20261121T054605Z_0fbb07a5",
+      "created_at_utc": "2026-11-21T05:49:50.768427Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 14,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261121T054605Z_0fbb07a5\n資料來源：CoinGecko＋公開現貨交易所\n\nIMX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.084870923\n幅度級距：-10%\n區間異動：-10.70%\n基準價格：US$0.095040757\n24H：-8.91%\n4H RSI：27.34\n日線 RSI：23.87\n週線 RSI：36.94\n成交量：1.73×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD\n\nDOGE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.051492751\n幅度級距：-10%\n區間異動：-10.69%\n基準價格：US$0.057656114\n24H：-9.97%\n4H RSI：25.14\n日線 RSI：23.03\n週線 RSI：34.67\n成交量：1.69×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dogecoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ADOGEUSDT\n\nHBAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.048755317\n幅度級距：-10%\n區間異動：-10.42%\n基準價格：US$0.054425903\n24H：-8.93%\n4H RSI：24.88\n日線 RSI：23.61\n週線 RSI：35.55\n成交量：2.40×｜STRONG\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hedera-hashgraph\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHBARUSD\n\nATOM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$1.1394932\n幅度級距：-10%\n區間異動：-10.41%\n基準價格：US$1.271832\n24H：-9.24%\n4H RSI：24.53\n日線 RSI：33.15\n週線 RSI：37.27\n成交量：2.22×｜STRONG\n背離：DAILY_BULLISH, WEEKLY_BEARISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/cosmos\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AATOMUSDT\n\nGALA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0011949693\n幅度級距：-10%\n區間異動：-10.40%\n基準價格：US$0.001333687\n24H：-9.23%\n4H RSI：26.09\n日線 RSI：29.66\n週線 RSI：32.34\n成交量：3.02×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/gala\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AGALAUSDT\n\nFLOW｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.013538644\n幅度級距：-10%\n區間異動：-10.39%\n基準價格：US$0.015108432\n24H：-9.43%\n4H RSI：20.39\n日線 RSI：16.99\n週線 RSI：31.90\n成交量：1.91×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/flow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFLOWUSD\n\nBTC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$55757.032\n幅度級距：-10%\n區間異動：-10.38%\n基準價格：US$62212.415\n24H：-9.54%\n4H RSI：18.85\n日線 RSI：17.40\n週線 RSI：38.56\n成交量：2.28×｜STRONG\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/bitcoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABTCUSDT\n\nDYM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.010745119\n幅度級距：-10%\n區間異動：-10.36%\n基準價格：US$0.011987125\n24H：-8.67%\n4H RSI：27.30\n日線 RSI：29.20\n週線 RSI：29.89\n成交量：0.98×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dymension\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADYMUSDT\n\nXRP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.87070257\n幅度級距：-10%\n區間異動：-10.34%\n基準價格：US$0.97114361\n24H：-9.78%\n4H RSI：28.97\n日線 RSI：25.60\n週線 RSI：35.44\n成交量：1.73×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ripple\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AXRPUSD\n\nSOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$65.36514\n幅度級距：-10%\n區間異動：-10.24%\n基準價格：US$72.821148\n24H：-9.64%\n4H RSI：25.13\n日線 RSI：23.67\n週線 RSI：37.57\n成交量：1.61×｜ELEVATED\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/solana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASOLUSDT\n\nADA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.13486824\n幅度級距：-10%\n區間異動：-10.23%\n基準價格：US$0.1502373\n24H：-9.44%\n4H RSI：26.47\n日線 RSI：25.06\n週線 RSI：35.73\n成交量：6.25×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/cardano\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AADAUSD\n\nOSMO｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.031529401\n幅度級距：+10%\n區間異動：+10.12%\n基準價格：US$0.028632308\n24H：+8.49%\n4H RSI：47.14\n日線 RSI：38.09\n週線 RSI：42.96\n成交量：1.73×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AOSMOUSD\n分批通知：第 1／2 則",
+      "batch_id": "ntf_95e862eeeb2d611edcdfab44988b40cb",
+      "part_index": 1,
+      "part_count": 2,
+      "source_digest": "2f9e3d8be3a46797a75f4b3842d019f65a4a02482ca63776e65eef42cbed264f",
+      "alert_ranges": [
+        {
+          "symbol": "IMX",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "DOGE",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "HBAR",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ATOM",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "GALA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "FLOW",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "BTC",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "DYM",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "XRP",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SOL",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "ADA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "OSMO",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 2
+    },
+    "ntf_95e862eeeb2d611edcdfab44988b40cb_p0002": {
+      "notification_id": "ntf_95e862eeeb2d611edcdfab44988b40cb_p0002",
+      "run_id": "20261121T054605Z_0fbb07a5",
+      "created_at_utc": "2026-11-21T05:49:50.768427Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 4,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261121T054605Z_0fbb07a5\n資料來源：CoinGecko＋公開現貨交易所\n\nWIN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$5.2978293e-05\n幅度級距：-10%\n區間異動：-10.09%\n基準價格：US$5.8921178e-05\n24H：-9.30%\n4H RSI：34.32\n日線 RSI：41.08\n週線 RSI：66.26\n成交量：1.42×｜NORMAL\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wink\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AWINUSDT\n\nTIA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.30690396\n幅度級距：-10%\n區間異動：-10.05%\n基準價格：US$0.34120873\n24H：-9.10%\n4H RSI：31.47\n日線 RSI：31.76\n週線 RSI：44.05\n成交量：2.05×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATIAUSD\n\nAI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.012653747\n幅度級距：-10%\n區間異動：-10.03%\n基準價格：US$0.01406473\n24H：-7.52%\n4H RSI：69.29\n日線 RSI：45.07\n週線 RSI：24.02\n成交量：6.83×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sleepless-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAIUSDT\n分批通知：第 2／2 則",
+      "batch_id": "ntf_95e862eeeb2d611edcdfab44988b40cb",
+      "part_index": 2,
+      "part_count": 2,
+      "source_digest": "2f9e3d8be3a46797a75f4b3842d019f65a4a02482ca63776e65eef42cbed264f",
+      "alert_ranges": [
+        {
+          "symbol": "WIN",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "TIA",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "AI",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 2
     }
   }
 }
