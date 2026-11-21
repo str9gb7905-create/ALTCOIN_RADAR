@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-21T23:02:12.090532Z",
+  "updated_at_utc": "2026-11-21T23:50:12.302272Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -61375,6 +61375,32 @@
         },
         {
           "symbol": "JUV",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_014a2ba4f3e11526d8dc34b969c24417": {
+      "notification_id": "ntf_014a2ba4f3e11526d8dc34b969c24417",
+      "run_id": "20261121T234905Z_cb114f6a",
+      "created_at_utc": "2026-11-21T23:50:12.300556Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261121T234905Z_cb114f6a\n資料來源：CoinGecko＋公開現貨交易所\n\nHFT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0042201007\n幅度級距：+10%\n區間異動：+13.23%\n基準價格：US$0.0037268913\n24H：+8.70%\n4H RSI：40.30\n日線 RSI：36.57\n週線 RSI：33.46\n成交量：1.65×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hashflow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHFTUSD",
+      "batch_id": "ntf_014a2ba4f3e11526d8dc34b969c24417",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "7ba09e0ae77076b5b453d1c36b29ff2b1749068a46be6889d8c4b0b04bd96968",
+      "alert_ranges": [
+        {
+          "symbol": "HFT",
           "direction": "UP",
           "level": 10
         }
