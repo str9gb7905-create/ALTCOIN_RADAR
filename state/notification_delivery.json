@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-21T06:20:13.760262Z",
+  "updated_at_utc": "2026-11-21T06:35:14.451218Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -60288,6 +60288,32 @@
         },
         {
           "symbol": "BIO",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_a6ef355f03442b02d16b7c2642ce793b": {
+      "notification_id": "ntf_a6ef355f03442b02d16b7c2642ce793b",
+      "run_id": "20261121T063122Z_bec644aa",
+      "created_at_utc": "2026-11-21T06:35:14.449513Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261121T063122Z_bec644aa\n資料來源：CoinGecko＋公開現貨交易所\n\nAVA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0051338259\n幅度級距：-10%\n區間異動：-10.10%\n基準價格：US$0.0057109125\n24H：-8.14%\n4H RSI：24.72\n日線 RSI：32.41\n週線 RSI：44.79\n成交量：0.95×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ava-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AAVAUSD",
+      "batch_id": "ntf_a6ef355f03442b02d16b7c2642ce793b",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "4ffc34b59802fef7c90c72639e569967cd307e8489fb297e7fe3f59597404afe",
+      "alert_ranges": [
+        {
+          "symbol": "AVA",
           "direction": "DOWN",
           "level": 10
         }
