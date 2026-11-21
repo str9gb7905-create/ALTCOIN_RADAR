@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-21T00:17:45.396832Z",
+  "updated_at_utc": "2026-11-21T00:32:21.126141Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -59165,6 +59165,37 @@
       "alert_ranges": [
         {
           "symbol": "CPOOL",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
+    },
+    "ntf_cc5ede1ad73f4913484ee42966e82cf9": {
+      "notification_id": "ntf_cc5ede1ad73f4913484ee42966e82cf9",
+      "run_id": "20261121T003121Z_53ebceee",
+      "created_at_utc": "2026-11-21T00:32:21.124701Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261121T003121Z_53ebceee\n資料來源：CoinGecko＋公開現貨交易所\n\nSNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0065921392\n幅度級距：+30%\n區間異動：+30.76%\n基準價格：US$0.0050413143\n24H：+18.99%\n4H RSI：34.68\n日線 RSI：28.36\n週線 RSI：35.41\n成交量：1.98×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/status\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASNTUSDT\n\nSC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00060306901\n幅度級距：+10%\n區間異動：+13.03%\n基準價格：US$0.000533543\n24H：+9.70%\n4H RSI：30.06\n日線 RSI：25.44\n週線 RSI：35.18\n成交量：1.47×｜NORMAL\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/siacoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ASCUSD",
+      "batch_id": "ntf_cc5ede1ad73f4913484ee42966e82cf9",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "061e4178e24398a11850fdaefc8866fea86648936a33fc945a02af12697319a2",
+      "alert_ranges": [
+        {
+          "symbol": "SNT",
+          "direction": "UP",
+          "level": 30
+        },
+        {
+          "symbol": "SC",
           "direction": "UP",
           "level": 10
         }
