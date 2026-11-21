@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-21T16:32:11.939839Z",
+  "updated_at_utc": "2026-11-21T16:47:14.787446Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -61131,6 +61131,37 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_fedc1ee4a13283d136c6eb89cee3bb2b": {
+      "notification_id": "ntf_fedc1ee4a13283d136c6eb89cee3bb2b",
+      "run_id": "20261121T164613Z_868696c0",
+      "created_at_utc": "2026-11-21T16:47:14.786053Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261121T164613Z_868696c0\n資料來源：CoinGecko＋公開現貨交易所\n\nNIGHT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.043541519\n幅度級距：+10%\n區間異動：+10.62%\n基準價格：US$0.039360088\n24H：+1.70%\n4H RSI：47.41\n日線 RSI：48.03\n週線 RSI：59.06\n成交量：0.87×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/midnight-3\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ANIGHTUSD\n\nMERL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.026479319\n幅度級距：+10%\n區間異動：+10.26%\n基準價格：US$0.024015925\n24H：+5.18%\n4H RSI：43.77\n日線 RSI：43.12\n週線 RSI：44.34\n成交量：1.16×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/merlin-chain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AMERLUSDT",
+      "batch_id": "ntf_fedc1ee4a13283d136c6eb89cee3bb2b",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "9eadff3fe3e67562b173baa106b22bd43b4b89867162d43a45518d2f72b40d97",
+      "alert_ranges": [
+        {
+          "symbol": "NIGHT",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "MERL",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
