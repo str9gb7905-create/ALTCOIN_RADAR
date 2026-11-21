@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-21T09:18:31.573423Z",
+  "updated_at_utc": "2026-11-21T09:18:34.313808Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -60587,13 +60587,13 @@
       "notification_id": "ntf_367c44fb8eb8ee0dfffffe4fcff9fbba",
       "run_id": "20261121T091618Z_5a1a4a4b",
       "created_at_utc": "2026-11-21T09:18:31.572022Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-21T09:18:34.313785Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261121T091618Z_5a1a4a4b\n資料來源：CoinGecko＋公開現貨交易所\n\nSC｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00059080923\n幅度級距：+10%\n區間異動：+10.73%\n基準價格：US$0.000533543\n24H：+1.45%\n4H RSI：49.60\n日線 RSI：25.44\n週線 RSI：35.18\n成交量：1.59×｜ELEVATED / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/siacoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3ASCUSD",
       "batch_id": "ntf_367c44fb8eb8ee0dfffffe4fcff9fbba",
