@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-21T04:35:22.489202Z",
+  "updated_at_utc": "2026-11-21T04:35:25.495238Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -59880,13 +59880,13 @@
       "notification_id": "ntf_1fe0bdd2031060f5624caadd8c7d69fe",
       "run_id": "20261121T043103Z_180097c4",
       "created_at_utc": "2026-11-21T04:35:22.487865Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-21T04:35:25.495212Z",
       "event_count": 9,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261121T043103Z_180097c4\n資料來源：CoinGecko＋公開現貨交易所\n\nXRP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.87029207\n幅度級距：-10%\n區間異動：-10.38%\n基準價格：US$0.97114361\n24H：-9.24%\n4H RSI：28.97\n日線 RSI：25.60\n週線 RSI：35.44\n成交量：1.68×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ripple\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AXRPUSD\n\nSOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$65.259385\n幅度級距：-10%\n區間異動：-10.38%\n基準價格：US$72.821148\n24H：-9.64%\n4H RSI：25.13\n日線 RSI：23.67\n週線 RSI：37.57\n成交量：1.54×｜ELEVATED\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/solana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASOLUSDT\n\nIOST｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00051350714\n幅度級距：-10%\n區間異動：-10.34%\n基準價格：US$0.00057272668\n24H：-9.17%\n4H RSI：27.77\n日線 RSI：29.72\n週線 RSI：42.40\n成交量：1.05×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/iostoken\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AIOSTUSDT\n\nENJ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.016868767\n幅度級距：-10%\n區間異動：-10.27%\n基準價格：US$0.018799313\n24H：-8.96%\n4H RSI：24.60\n日線 RSI：26.86\n週線 RSI：37.22\n成交量：1.22×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/enjincoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AENJUSDT\n\nIMX｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.085295776\n幅度級距：-10%\n區間異動：-10.25%\n基準價格：US$0.095040757\n24H：-8.20%\n4H RSI：27.34\n日線 RSI：23.87\n週線 RSI：36.94\n成交量：1.69×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/immutable-x\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AIMXUSD\n\nBABYDOGE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$2.2492699e-10\n幅度級距：-10%\n區間異動：-10.22%\n基準價格：US$2.5053924e-10\n24H：-9.01%\n4H RSI：21.90\n日線 RSI：19.06\n週線 RSI：32.72\n成交量：1.64×｜ELEVATED\n背離：NONE\n現貨來源：Bitget｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/baby-doge-coin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3ABABYDOGEUSDT\n\nGMT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0049343113\n幅度級距：-10%\n區間異動：-10.19%\n基準價格：US$0.0054939348\n24H：-8.25%\n4H RSI：28.42\n日線 RSI：32.37\n週線 RSI：33.32\n成交量：1.49×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/stepn\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AGMTUSDT\n\nARPA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0073304876\n幅度級距：-10%\n區間異動：-10.15%\n基準價格：US$0.0081583565\n24H：-8.86%\n4H RSI：28.11\n日線 RSI：28.31\n週線 RSI：37.37\n成交量：1.06×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arpa\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AARPAUSDT\n\nBEAM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0031596144\n幅度級距：-10%\n區間異動：-10.08%\n基準價格：US$0.0035139704\n24H：-8.48%\n4H RSI：26.94\n日線 RSI：39.56\n週線 RSI：67.65\n成交量：1.45×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/beam-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ABEAMUSD",
       "batch_id": "ntf_1fe0bdd2031060f5624caadd8c7d69fe",
