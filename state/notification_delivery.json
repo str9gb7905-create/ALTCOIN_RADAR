@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-21T02:47:23.575583Z",
+  "updated_at_utc": "2026-11-21T03:02:12.843097Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -59320,6 +59320,37 @@
         }
       ],
       "repeat_suppressed_count": 3
+    },
+    "ntf_49a125813b0431279946bae893130203": {
+      "notification_id": "ntf_49a125813b0431279946bae893130203",
+      "run_id": "20261121T030117Z_44973b0b",
+      "created_at_utc": "2026-11-21T03:02:12.841701Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261121T030117Z_44973b0b\n資料來源：CoinGecko＋公開現貨交易所\n\nWIN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$5.3638281e-05\n幅度級距：-10%\n區間異動：-10.70%\n基準價格：US$6.0066763e-05\n24H：-10.07%\n4H RSI：36.00\n日線 RSI：41.08\n週線 RSI：66.26\n成交量：0.36×｜WEAK\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wink\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AWINUSDT\n\nWLD｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.22401949\n幅度級距：-10%\n區間異動：-10.17%\n基準價格：US$0.24938296\n24H：-9.03%\n4H RSI：26.45\n日線 RSI：24.48\n週線 RSI：38.91\n成交量：1.19×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/worldcoin-wld\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWLDUSDT",
+      "batch_id": "ntf_49a125813b0431279946bae893130203",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "992ffa9adc165e5fbeb1414ad26d4e855ef1a834f2bb164ba717db43f6712874",
+      "alert_ranges": [
+        {
+          "symbol": "WIN",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "WLD",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
