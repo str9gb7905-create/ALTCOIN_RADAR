@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-21T03:49:58.772541Z",
+  "updated_at_utc": "2026-11-21T03:50:02.134510Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -59640,13 +59640,13 @@
       "notification_id": "ntf_38a436d16771abaee95fea5b81261a43_p0004",
       "run_id": "20261121T034612Z_8921a815",
       "created_at_utc": "2026-11-21T03:49:41.915429Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-21T03:50:02.134490Z",
       "event_count": 8,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261121T034612Z_8921a815\n資料來源：CoinGecko＋公開現貨交易所\n\nCHZ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0086991056\n幅度級距：-10%\n區間異動：-10.21%\n基準價格：US$0.0096879101\n24H：-8.90%\n4H RSI：33.67\n日線 RSI：20.34\n週線 RSI：25.96\n成交量：2.24×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/chiliz\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ACHZUSDC\n\nMEME｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00027891733\n幅度級距：-10%\n區間異動：-10.19%\n基準價格：US$0.000310576\n24H：-8.87%\n4H RSI：30.52\n日線 RSI：20.66\n週線 RSI：32.76\n成交量：1.14×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/memecoin-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AMEMEUSDT\n\nRDNT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00037066325\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$0.00041246028\n24H：-6.23%\n4H RSI：35.20\n日線 RSI：35.21\n週線 RSI：24.08\n成交量：0.81×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nFLOW｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.013580178\n幅度級距：-10%\n區間異動：-10.12%\n基準價格：US$0.015108432\n24H：-9.30%\n4H RSI：22.73\n日線 RSI：16.99\n週線 RSI：31.90\n成交量：1.79×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/flow\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AFLOWUSDC\n\nPHA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.026914866\n幅度級距：-10%\n區間異動：-10.11%\n基準價格：US$0.02994111\n24H：-9.05%\n4H RSI：34.76\n日線 RSI：31.15\n週線 RSI：44.81\n成交量：1.50×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APHAUSDT\n\nMANA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.05359525\n幅度級距：-10%\n區間異動：-10.10%\n基準價格：US$0.05961477\n24H：-8.84%\n4H RSI：24.07\n日線 RSI：23.06\n週線 RSI：35.76\n成交量：2.13×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/decentraland\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AMANAUSD\n\nDYM｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.010787533\n幅度級距：-10%\n區間異動：-10.01%\n基準價格：US$0.011987125\n24H：-8.67%\n4H RSI：34.00\n日線 RSI：29.20\n週線 RSI：29.89\n成交量：0.97×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/dymension\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ADYMUSDT\n分批通知：第 4／4 則",
       "batch_id": "ntf_38a436d16771abaee95fea5b81261a43",
