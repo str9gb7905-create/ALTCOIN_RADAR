@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261122T101615Z_8f5f3fa6",
-  "updated_at": "2026-11-22T10:16:38.078012Z",
+  "last_run_id": "20261122T103124Z_6ae41a51",
+  "updated_at": "2026-11-22T10:31:45.330715Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -274,7 +274,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T10:16:38.078012Z",
+      "last_seen_at": "2026-11-22T10:31:45.330715Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -392,7 +392,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T10:16:38.078012Z",
+      "last_seen_at": "2026-11-22T10:31:45.330715Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -470,7 +470,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T10:16:38.078012Z",
+      "last_seen_at": "2026-11-22T10:31:45.330715Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1182,12 +1182,31 @@
     },
     "AVA": {
       "coingecko_id": "ava-ai",
-      "history_source": "Bitget",
-      "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
+      "history_source": "KuCoin",
+      "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-21T21:31:58.717305Z",
+      "last_seen_at": "2026-11-22T10:31:45.330715Z",
       "daily": {
-        "active_signals": [],
+        "active_signals": [
+          {
+            "type": "DAILY_BEARISH",
+            "signature": "AVA|1D|BEARISH|2026-10-19|2026-10-24",
+            "pivots": [
+              {
+                "timestamp": "2026-10-19",
+                "price": 0.4469,
+                "rsi": 74.06400625871703,
+                "confirmed": true
+              },
+              {
+                "timestamp": "2026-10-24",
+                "price": 0.4932,
+                "rsi": 66.48607797253169,
+                "confirmed": true
+              }
+            ]
+          }
+        ],
         "seen_signatures": [
           "AVA|1D|BEARISH|2026-09-03|2026-09-13",
           "AVA|1D|BEARISH|2026-10-19|2026-10-24",
@@ -2694,7 +2713,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T10:16:38.078012Z",
+      "last_seen_at": "2026-11-22T10:31:45.330715Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
