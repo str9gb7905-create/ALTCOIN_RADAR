@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261122T034627Z_2cae3c65",
-  "updated_at": "2026-11-22T03:46:55.992770Z",
+  "last_run_id": "20261122T040121Z_93963e4c",
+  "updated_at": "2026-11-22T04:01:59.854761Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T03:46:55.992770Z",
+      "last_seen_at": "2026-11-22T04:01:59.854761Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -82,7 +82,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T03:46:55.992770Z",
+      "last_seen_at": "2026-11-22T04:01:59.854761Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -274,7 +274,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T03:46:55.992770Z",
+      "last_seen_at": "2026-11-22T04:01:59.854761Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -392,7 +392,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T03:46:55.992770Z",
+      "last_seen_at": "2026-11-22T04:01:59.854761Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1153,7 +1153,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T03:46:55.992770Z",
+      "last_seen_at": "2026-11-22T04:01:59.854761Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2027,7 +2027,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T03:02:04.785093Z",
+      "last_seen_at": "2026-11-22T04:01:59.854761Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2210,7 +2210,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T03:46:55.992770Z",
+      "last_seen_at": "2026-11-22T04:01:59.854761Z",
       "daily": {
         "active_signals": [
           {
@@ -2609,7 +2609,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T03:46:55.992770Z",
+      "last_seen_at": "2026-11-22T04:01:59.854761Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2694,7 +2694,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T03:46:55.992770Z",
+      "last_seen_at": "2026-11-22T04:01:59.854761Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -3058,7 +3058,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T03:46:55.992770Z",
+      "last_seen_at": "2026-11-22T04:01:59.854761Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
