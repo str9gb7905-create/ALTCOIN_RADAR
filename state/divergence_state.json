@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261122T183103Z_cef1912d",
-  "updated_at": "2026-11-22T18:31:34.002721Z",
+  "last_run_id": "20261122T184621Z_ce37e873",
+  "updated_at": "2026-11-22T18:46:45.219316Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -392,7 +392,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T18:31:34.002721Z",
+      "last_seen_at": "2026-11-22T18:46:45.219316Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1168,7 +1168,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T18:31:34.002721Z",
+      "last_seen_at": "2026-11-22T18:46:45.219316Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2628,7 +2628,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-22T18:31:34.002721Z",
+      "last_seen_at": "2026-11-22T18:46:45.219316Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
