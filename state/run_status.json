@@ -1,7 +1,7 @@
 {
-  "run_id": "20261122T073105Z_d06626dd",
-  "started_at_utc": "2026-11-22T07:31:05.498259Z",
-  "completed_at_utc": "2026-11-22T07:31:37.741185Z",
+  "run_id": "20261122T074606Z_88501734",
+  "started_at_utc": "2026-11-22T07:46:06.092495Z",
+  "completed_at_utc": "2026-11-22T07:46:33.628678Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -16,7 +16,7 @@
   "divergence_attempted": 5,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 32.242923,
+  "elapsed_seconds": 27.536184,
   "API_requests_total": 87,
   "requests_by_exchange": {
     "Binance": 4,
@@ -30,17 +30,17 @@
     "MEXC": 20,
     "OKX": 13
   },
-  "elapsed_stage_a": 0.510587,
-  "elapsed_radar_state": 0.110862,
-  "elapsed_stage_b": 20.638975,
-  "elapsed_divergence": 10.981501,
-  "elapsed_total": 32.242923,
+  "elapsed_stage_a": 0.755562,
+  "elapsed_radar_state": 0.10571,
+  "elapsed_stage_b": 17.380138,
+  "elapsed_divergence": 9.293648,
+  "elapsed_total": 27.536184,
   "asset_enrichment_seconds": {
-    "AGI": 3.309889,
-    "ETHFI": 3.352117,
-    "NIGHT": 1.258194,
-    "OSMO": 1.878401,
-    "SC": 3.404535
+    "AGI": 2.795058,
+    "ETHFI": 2.389796,
+    "NIGHT": 1.29463,
+    "OSMO": 1.596387,
+    "SC": 2.785961
   },
   "stale_lock_recovered": false
 }
