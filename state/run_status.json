@@ -1,7 +1,7 @@
 {
-  "run_id": "20261122T223122Z_d8d33158",
-  "started_at_utc": "2026-11-22T22:31:22.389268Z",
-  "completed_at_utc": "2026-11-22T22:31:47.889904Z",
+  "run_id": "20261122T224622Z_fd30fff3",
+  "started_at_utc": "2026-11-22T22:46:22.879401Z",
+  "completed_at_utc": "2026-11-22T22:46:52.161688Z",
   "status": "SUCCESS",
   "stage_a_status": "MARKET_DATA_COMPLETE",
   "watchlist_expected": 184,
@@ -16,7 +16,7 @@
   "divergence_attempted": 6,
   "failed_stage": null,
   "error_message": null,
-  "elapsed_seconds": 25.500635,
+  "elapsed_seconds": 29.28231,
   "API_requests_total": 81,
   "requests_by_exchange": {
     "Binance": 4,
@@ -30,18 +30,18 @@
     "MEXC": 15,
     "OKX": 13
   },
-  "elapsed_stage_a": 0.795844,
-  "elapsed_radar_state": 0.181225,
-  "elapsed_stage_b": 14.703724,
-  "elapsed_divergence": 9.81814,
-  "elapsed_total": 25.500635,
+  "elapsed_stage_a": 0.689847,
+  "elapsed_radar_state": 0.180862,
+  "elapsed_stage_b": 17.237114,
+  "elapsed_divergence": 11.172956,
+  "elapsed_total": 29.28231,
   "asset_enrichment_seconds": {
-    "ACE": 0.458813,
-    "AIOT": 2.6354,
-    "CPOOL": 0.655507,
-    "NIGHT": 1.071475,
-    "TRA": 2.428577,
-    "WEN": 1.124209
+    "ACE": 0.535548,
+    "AIOT": 3.864571,
+    "CPOOL": 0.448871,
+    "NIGHT": 1.261714,
+    "TRA": 3.121122,
+    "WEN": 1.558877
   },
   "stale_lock_recovered": false
 }
