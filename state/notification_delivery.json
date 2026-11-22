@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-22T21:01:46.112350Z",
+  "updated_at_utc": "2026-11-22T21:31:36.250006Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -62407,6 +62407,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_7caf3dd038f0726cc7fac48acb5a1c7e": {
+      "notification_id": "ntf_7caf3dd038f0726cc7fac48acb5a1c7e",
+      "run_id": "20261122T213110Z_97f9e9e8",
+      "created_at_utc": "2026-11-22T21:31:36.248606Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261122T213110Z_97f9e9e8\n資料來源：CoinGecko＋公開現貨交易所\n\nKAVA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.023501626\n幅度級距：-10%\n區間異動：-10.66%\n基準價格：US$0.026307201\n24H：-9.24%\n4H RSI：28.46\n日線 RSI：8.52\n週線 RSI：27.38\n成交量：16.18×｜STRONG\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/kava\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AKAVAUSD",
+      "batch_id": "ntf_7caf3dd038f0726cc7fac48acb5a1c7e",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "5769f872648c035fceacf5f313065907865c98e4eca4584b613a76e07ab2c75c",
+      "alert_ranges": [
+        {
+          "symbol": "KAVA",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
