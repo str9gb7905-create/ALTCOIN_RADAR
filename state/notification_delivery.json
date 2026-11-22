@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-22T08:17:07.709736Z",
+  "updated_at_utc": "2026-11-22T08:31:56.958029Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -61708,6 +61708,37 @@
         {
           "symbol": "AIOT",
           "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_db50849867f611d2f1500b4662666cc2": {
+      "notification_id": "ntf_db50849867f611d2f1500b4662666cc2",
+      "run_id": "20261122T083114Z_94163bb6",
+      "created_at_utc": "2026-11-22T08:31:56.956477Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261122T083114Z_94163bb6\n資料來源：CoinGecko＋公開現貨交易所\n\nTRA｜首次觸發\n觸發：由近24H低點上漲\n價格：US$0.25709754\n幅度級距：+10%\n區間異動：+10.43%\n基準價格：US$0.23281412\n24H：+6.37%\n4H RSI：72.45\n日線 RSI：81.00\n週線 RSI：52.80\n成交量：5.60×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/trabzonspor-fan-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ATRAUSDT\n\nRENDER｜再次觸發\n觸發：由近24H低點上漲\n價格：US$1.3455055\n幅度級距：+10%\n區間異動：+10.21%\n基準價格：US$1.2209054\n24H：+10.04%\n4H RSI：48.33\n日線 RSI：36.56\n週線 RSI：43.11\n成交量：1.36×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/render-token\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ARENDERUSD",
+      "batch_id": "ntf_db50849867f611d2f1500b4662666cc2",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "276a4145875372d963eaca9157206c2cf113d048695ae5889ecc08fa1d35f1d8",
+      "alert_ranges": [
+        {
+          "symbol": "TRA",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "RENDER",
+          "direction": "UP",
           "level": 10
         }
       ],
