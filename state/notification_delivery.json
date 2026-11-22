@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-22T18:16:46.518275Z",
+  "updated_at_utc": "2026-11-22T19:16:52.146101Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -62207,6 +62207,42 @@
           "symbol": "ACE",
           "direction": "DOWN",
           "level": 30
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_0009c9c02ce4619761997e2b9985bae5": {
+      "notification_id": "ntf_0009c9c02ce4619761997e2b9985bae5",
+      "run_id": "20261122T191623Z_54f0f818",
+      "created_at_utc": "2026-11-22T19:16:52.144502Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261122T191623Z_54f0f818\n資料來源：CoinGecko＋公開現貨交易所\n\nACE｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.071429441\n幅度級距：+10%\n區間異動：+18.80%\n基準價格：US$0.060123694\n24H：-16.18%\n4H RSI：36.64\n日線 RSI：24.88\n週線 RSI：38.02\n成交量：6156.05×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/endurance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AACEUSDT\n\nWEN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.834969e-06\n幅度級距：-10%\n區間異動：-10.26%\n基準價格：US$4.2734191e-06\n24H：-2.39%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.02×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wen-4\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AWENUSDT\n\nAVA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.005886102\n幅度級距：+10%\n區間異動：+10.05%\n基準價格：US$0.0053483522\n24H：+9.00%\n4H RSI：47.05\n日線 RSI：32.82\n週線 RSI：46.37\n成交量：5.22×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BEARISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ava-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAVAUSDT",
+      "batch_id": "ntf_0009c9c02ce4619761997e2b9985bae5",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "60473da9c3ef8b7b7140b0042c57045dbb025e12c54ad9e481f60822c1302a8a",
+      "alert_ranges": [
+        {
+          "symbol": "ACE",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "WEN",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "AVA",
+          "direction": "UP",
+          "level": 10
         }
       ],
       "repeat_suppressed_count": 0
