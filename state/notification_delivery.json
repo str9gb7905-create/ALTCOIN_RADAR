@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-23T15:47:43.236421Z",
+  "updated_at_utc": "2026-11-23T15:47:46.318843Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -63623,13 +63623,13 @@
       "notification_id": "ntf_e2d1cbb78c3cbec52f1bb319ba1ed884",
       "run_id": "20261123T154626Z_923e35b4",
       "created_at_utc": "2026-11-23T15:47:43.234579Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-23T15:47:46.318818Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261123T154626Z_923e35b4\n資料來源：CoinGecko＋公開現貨交易所\n\nSC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00059306028\n幅度級距：-10%\n區間異動：-11.08%\n基準價格：US$0.00066693654\n24H：+2.36%\n4H RSI：51.91\n日線 RSI：37.92\n週線 RSI：38.65\n成交量：1.05×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/siacoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASCUSDT\n\nAGI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0035794998\n幅度級距：+10%\n區間異動：+10.04%\n基準價格：US$0.0032529402\n24H：+4.05%\n4H RSI：51.87\n日線 RSI：40.59\n週線 RSI：35.88\n成交量：0.98×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/delysium\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAGIUSDT",
       "batch_id": "ntf_e2d1cbb78c3cbec52f1bb319ba1ed884",
