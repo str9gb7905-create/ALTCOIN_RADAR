@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-23T15:18:06.502907Z",
+  "updated_at_utc": "2026-11-23T15:32:41.012029Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -63572,6 +63572,52 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_1bd93d0f8ce82c31661befbe50b36f0a": {
+      "notification_id": "ntf_1bd93d0f8ce82c31661befbe50b36f0a",
+      "run_id": "20261123T153121Z_8af93393",
+      "created_at_utc": "2026-11-23T15:32:41.010571Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 7,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261123T153121Z_8af93393\n資料來源：CoinGecko＋公開現貨交易所\n\nAIOT｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.067875954\n幅度級距：+20%\n區間異動：+21.08%\n基準價格：US$0.056058741\n24H：+15.12%\n4H RSI：40.41\n日線 RSI：31.29\n週線 RSI：42.11\n成交量：0.53×｜WEAK / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：WEEKLY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/okzoo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAIOTUSDT\n\nPEAQ｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.023589741\n幅度級距：+20%\n區間異動：+20.84%\n基準價格：US$0.019521516\n24H：+18.72%\n4H RSI：49.85\n日線 RSI：27.55\n週線 RSI：40.54\n成交量：1.78×｜ELEVATED\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APEAQUSDT\n\nGALA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0013906469\n幅度級距：+10%\n區間異動：+10.38%\n基準價格：US$0.0012598275\n24H：+9.96%\n4H RSI：59.42\n日線 RSI：32.06\n週線 RSI：31.36\n成交量：1.53×｜ELEVATED\n背離：NONE\n現貨來源：MEXC｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/gala\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AGALAUSDT\n\nATOM｜再次觸發\n觸發：由近24H低點上漲\n價格：US$1.2765225\n幅度級距：+10%\n區間異動：+10.37%\n基準價格：US$1.1566281\n24H：+9.07%\n4H RSI：44.73\n日線 RSI：30.60\n週線 RSI：37.27\n成交量：3.34×｜STRONG\n背離：DAILY_BULLISH, WEEKLY_BEARISH\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/cosmos\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AATOMUSDT\n\nFIL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.57848051\n幅度級距：+10%\n區間異動：+10.29%\n基準價格：US$0.52448715\n24H：+8.61%\n4H RSI：49.51\n日線 RSI：22.47\n週線 RSI：36.45\n成交量：1.02×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/filecoin\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AFILUSDT",
+      "batch_id": "ntf_1bd93d0f8ce82c31661befbe50b36f0a",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "67cb9cf3e79f01e0f9b7cb85b0708fef72d23a437b22a02d3ecde670ff33f966",
+      "alert_ranges": [
+        {
+          "symbol": "AIOT",
+          "direction": "UP",
+          "level": 20
+        },
+        {
+          "symbol": "PEAQ",
+          "direction": "UP",
+          "level": 20
+        },
+        {
+          "symbol": "GALA",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "ATOM",
+          "direction": "UP",
+          "level": 10
+        },
+        {
+          "symbol": "FIL",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
