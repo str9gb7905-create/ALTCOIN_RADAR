@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-23T14:33:51.129972Z",
+  "updated_at_utc": "2026-11-23T14:33:54.995303Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -63463,13 +63463,13 @@
       "notification_id": "ntf_acac8345718ac22b885e4986661c5ded_p0003",
       "run_id": "20261123T143123Z_d63b4945",
       "created_at_utc": "2026-11-23T14:33:36.637027Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-23T14:33:54.995285Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261123T143123Z_d63b4945\n資料來源：CoinGecko＋公開現貨交易所\n\nXPL｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.048802755\n幅度級距：+10%\n區間異動：+10.05%\n基準價格：US$0.044346741\n24H：+8.27%\n4H RSI：57.14\n日線 RSI：28.36\n週線 RSI：34.34\n成交量：0.96×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/plasma\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AXPLUSD\n分批通知：第 3／3 則",
       "batch_id": "ntf_acac8345718ac22b885e4986661c5ded",
