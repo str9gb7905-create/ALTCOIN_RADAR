@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-23T19:32:02.007102Z",
+  "updated_at_utc": "2026-11-23T20:02:07.544906Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -63908,6 +63908,32 @@
       "alert_ranges": [
         {
           "symbol": "WEN",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_2cc5138ad923c5771e23e4c23159dcee": {
+      "notification_id": "ntf_2cc5138ad923c5771e23e4c23159dcee",
+      "run_id": "20261123T200114Z_e526856c",
+      "created_at_utc": "2026-11-23T20:02:07.543446Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261123T200114Z_e526856c\n資料來源：CoinGecko＋公開現貨交易所\n\nSNX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.15423748\n幅度級距：+10%\n區間異動：+10.53%\n基準價格：US$0.13954087\n24H：+8.52%\n4H RSI：55.91\n日線 RSI：33.64\n週線 RSI：32.07\n成交量：2.90×｜STRONG\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/havven\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASNXUSD",
+      "batch_id": "ntf_2cc5138ad923c5771e23e4c23159dcee",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "af6c0f77dda737ea22e479f11fc36f7fd7cf75af11b767bf2e6d77ac0b2f44fa",
+      "alert_ranges": [
+        {
+          "symbol": "SNX",
           "direction": "UP",
           "level": 10
         }
