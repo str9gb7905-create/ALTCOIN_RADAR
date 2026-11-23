@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-23T07:02:03.877339Z",
+  "updated_at_utc": "2026-11-23T07:16:47.334205Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -62843,6 +62843,32 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_dd03d1ba5f6d61126742dd0181fa7c0a": {
+      "notification_id": "ntf_dd03d1ba5f6d61126742dd0181fa7c0a",
+      "run_id": "20261123T071615Z_d2beee3c",
+      "created_at_utc": "2026-11-23T07:16:47.332818Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261123T071615Z_d2beee3c\n資料來源：CoinGecko＋公開現貨交易所\n\nCOTI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.008340894\n幅度級距：+10%\n區間異動：+10.37%\n基準價格：US$0.0075571686\n24H：+10.37%\n4H RSI：53.08\n日線 RSI：31.85\n週線 RSI：40.11\n成交量：0.86×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coti\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ACOTIUSD",
+      "batch_id": "ntf_dd03d1ba5f6d61126742dd0181fa7c0a",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "ed02711f34b4752a41b113d91dfb95e7ce4486a4fe7ee4bc48367ed3194022e4",
+      "alert_ranges": [
+        {
+          "symbol": "COTI",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
     }
   }
 }
