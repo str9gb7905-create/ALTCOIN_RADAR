@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-23T14:17:48.369404Z",
+  "updated_at_utc": "2026-11-23T14:17:51.845032Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -63260,13 +63260,13 @@
       "notification_id": "ntf_ef4aff36ae97dd852dedec63acf0476e_p0002",
       "run_id": "20261123T141625Z_6e234485",
       "created_at_utc": "2026-11-23T14:17:42.403921Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-23T14:17:51.845008Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261123T141625Z_6e234485\n資料來源：CoinGecko＋公開現貨交易所\n\nCOTI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0085907721\n幅度級距：+10%\n區間異動：+10.29%\n基準價格：US$0.0077889573\n24H：+9.14%\n4H RSI：58.59\n日線 RSI：31.85\n週線 RSI：40.11\n成交量：0.97×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/coti\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ACOTIUSD\n\nONG｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.053820137\n幅度級距：+10%\n區間異動：+10.14%\n基準價格：US$0.048863863\n24H：+5.69%\n4H RSI：43.54\n日線 RSI：25.31\n週線 RSI：38.70\n成交量：1.00×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ong\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AONGUSDT\n\nAR｜再次觸發\n觸發：由近24H低點上漲\n價格：US$2.4829066\n幅度級距：+10%\n區間異動：+10.14%\n基準價格：US$2.2542992\n24H：+6.23%\n4H RSI：54.71\n日線 RSI：30.90\n週線 RSI：44.80\n成交量：1.03×｜NORMAL\n背離：WEEKLY_BEARISH\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/arweave\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AARUSD\n\nPEPE｜再次觸發\n觸發：由近24H低點上漲\n價格：US$3.6537918e-06\n幅度級距：+10%\n區間異動：+10.07%\n基準價格：US$3.3196224e-06\n24H：+7.14%\n4H RSI：45.88\n日線 RSI：30.48\n週線 RSI：47.56\n成交量：0.94×｜NORMAL\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pepe\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APEPEUSDT\n分批通知：第 2／2 則",
       "batch_id": "ntf_ef4aff36ae97dd852dedec63acf0476e",
