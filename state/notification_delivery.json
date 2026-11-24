@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-24T11:32:37.925431Z",
+  "updated_at_utc": "2026-11-24T12:17:37.977299Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -64777,6 +64777,37 @@
         }
       ],
       "repeat_suppressed_count": 0
+    },
+    "ntf_b23dd1f16e5aaa2de076e3ab461d1f4a": {
+      "notification_id": "ntf_b23dd1f16e5aaa2de076e3ab461d1f4a",
+      "run_id": "20261124T121615Z_ec2eee4f",
+      "created_at_utc": "2026-11-24T12:17:37.975877Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261124T121615Z_ec2eee4f\n資料來源：CoinGecko＋公開現貨交易所\n\nUNI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$4.7342623\n幅度級距：-10%\n區間異動：-10.46%\n基準價格：US$5.2871154\n24H：-0.80%\n4H RSI：48.09\n日線 RSI：35.31\n週線 RSI：46.49\n成交量：1.13×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/uniswap\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AUNIUSDT\n\nSUI｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.6563935\n幅度級距：-10%\n區間異動：-10.15%\n基準價格：US$0.7305386\n24H：-2.49%\n4H RSI：45.88\n日線 RSI：32.88\n週線 RSI：39.73\n成交量：2.98×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/sui\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3ASUIUSDT",
+      "batch_id": "ntf_b23dd1f16e5aaa2de076e3ab461d1f4a",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "7d574bf9eda53737e6e9e5ebdf2ec1614758345960d181eeaacf0386ed6b323d",
+      "alert_ranges": [
+        {
+          "symbol": "UNI",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SUI",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 2
     }
   }
 }
