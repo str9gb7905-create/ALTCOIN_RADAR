@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-24T13:17:33.397123Z",
+  "updated_at_utc": "2026-11-24T13:17:36.486609Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -64891,13 +64891,13 @@
       "notification_id": "ntf_585078d887936aeccd2cbaff2b3655df",
       "run_id": "20261124T131609Z_0dbc3232",
       "created_at_utc": "2026-11-24T13:17:33.395743Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-24T13:17:36.486582Z",
       "event_count": 7,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261124T131609Z_0dbc3232\n資料來源：CoinGecko＋公開現貨交易所\n\nONDO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.28007784\n幅度級距：-10%\n區間異動：-10.76%\n基準價格：US$0.31385361\n24H：-4.40%\n4H RSI：46.37\n日線 RSI：32.06\n週線 RSI：41.16\n成交量：1.07×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ondo-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AONDOUSD\n\nSOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$69.915841\n幅度級距：-10%\n區間異動：-10.48%\n基準價格：US$78.100816\n24H：-3.42%\n4H RSI：47.12\n日線 RSI：31.41\n週線 RSI：36.78\n成交量：1.49×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/solana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASOLUSDT\n\nGRT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.01615632\n幅度級距：-10%\n區間異動：-10.40%\n基準價格：US$0.018031381\n24H：-5.67%\n4H RSI：48.96\n日線 RSI：38.02\n週線 RSI：41.20\n成交量：1.59×｜ELEVATED\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/the-graph\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AGRTUSDC\n\nW｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0081343139\n幅度級距：-10%\n區間異動：-10.36%\n基準價格：US$0.0090740833\n24H：-4.57%\n4H RSI：46.57\n日線 RSI：34.29\n週線 RSI：37.38\n成交量：1.67×｜ELEVATED\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AWUSDC\n\nHBAR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.050599917\n幅度級距：-10%\n區間異動：-10.33%\n基準價格：US$0.056429936\n24H：-3.10%\n4H RSI：44.42\n日線 RSI：26.61\n週線 RSI：35.55\n成交量：1.30×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hedera-hashgraph\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHBARUSD\n\nAPT｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.36974814\n幅度級距：-10%\n區間異動：-10.20%\n基準價格：US$0.41175458\n24H：-3.00%\n4H RSI：42.93\n日線 RSI：22.92\n週線 RSI：32.00\n成交量：1.13×｜NORMAL\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/aptos\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AAPTUSDC",
       "batch_id": "ntf_585078d887936aeccd2cbaff2b3655df",
