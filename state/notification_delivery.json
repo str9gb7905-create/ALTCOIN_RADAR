@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-24T17:46:55.020442Z",
+  "updated_at_utc": "2026-11-24T17:46:58.264487Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -65205,13 +65205,13 @@
       "notification_id": "ntf_e004ec9c20b81d33e8c34cc98b27853e",
       "run_id": "20261124T174616Z_df92fbbf",
       "created_at_utc": "2026-11-24T17:46:55.018939Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-24T17:46:58.264463Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261124T174616Z_df92fbbf\n資料來源：CoinGecko＋公開現貨交易所\n\nBST｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0099599633\n幅度級距：+140%\n區間異動：+142.18%\n基準價格：US$0.0041125736\n24H：+94.75%\n4H RSI：32.37\n日線 RSI：33.99\n週線 RSI：22.97\n成交量：0.93×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：WEEKLY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blocksquare\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABSTUSDT",
       "batch_id": "ntf_e004ec9c20b81d33e8c34cc98b27853e",
