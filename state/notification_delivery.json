@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-24T11:02:38.424240Z",
+  "updated_at_utc": "2026-11-24T11:17:39.076401Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -64700,6 +64700,42 @@
       "alert_ranges": [
         {
           "symbol": "HMSTR",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_dd8a698189ad44f7e2141d0c0b1f3552": {
+      "notification_id": "ntf_dd8a698189ad44f7e2141d0c0b1f3552",
+      "run_id": "20261124T111622Z_29e6d061",
+      "created_at_utc": "2026-11-24T11:17:39.075207Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261124T111622Z_29e6d061\n資料來源：CoinGecko＋公開現貨交易所\n\nREZ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0022832249\n幅度級距：-10%\n區間異動：-10.43%\n基準價格：US$0.0025490174\n24H：-6.54%\n4H RSI：33.49\n日線 RSI：24.89\n週線 RSI：43.63\n成交量：1.06×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/renzo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AREZUSD\n\nSOL｜再次觸發\n觸發：由近24H高點下跌\n價格：US$70.083614\n幅度級距：-10%\n區間異動：-10.27%\n基準價格：US$78.100816\n24H：-3.00%\n4H RSI：49.51\n日線 RSI：31.41\n週線 RSI：36.78\n成交量：1.46×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/solana\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASOLUSDT\n\nHYPE｜再次觸發\n觸發：由近24H高點下跌\n價格：US$62.2071\n幅度級距：-10%\n區間異動：-10.04%\n基準價格：US$69.151447\n24H：-2.92%\n4H RSI：50.95\n日線 RSI：34.97\n週線 RSI：48.44\n成交量：1.27×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hyperliquid\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHYPEUSD",
+      "batch_id": "ntf_dd8a698189ad44f7e2141d0c0b1f3552",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "4d78e5b6bb3c7314a42c092eea79c20e7e1fe3d0079c7ef74782abbd95b98f46",
+      "alert_ranges": [
+        {
+          "symbol": "REZ",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "SOL",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "HYPE",
           "direction": "DOWN",
           "level": 10
         }
