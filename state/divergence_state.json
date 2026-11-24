@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261124T184626Z_8ea375a9",
-  "updated_at": "2026-11-24T18:47:00.850065Z",
+  "last_run_id": "20261124T190126Z_36c11d2a",
+  "updated_at": "2026-11-24T19:02:11.667451Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -120,7 +120,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T18:47:00.850065Z",
+      "last_seen_at": "2026-11-24T19:02:11.667451Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -135,7 +135,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T18:47:00.850065Z",
+      "last_seen_at": "2026-11-24T19:02:11.667451Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1072,7 +1072,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T18:47:00.850065Z",
+      "last_seen_at": "2026-11-24T19:02:11.667451Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1206,7 +1206,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T18:47:00.850065Z",
+      "last_seen_at": "2026-11-24T19:02:11.667451Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1652,7 +1652,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T18:47:00.850065Z",
+      "last_seen_at": "2026-11-24T19:02:11.667451Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2014,7 +2014,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T17:31:45.076832Z",
+      "last_seen_at": "2026-11-24T19:02:11.667451Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2609,7 +2609,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T18:47:00.850065Z",
+      "last_seen_at": "2026-11-24T19:02:11.667451Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2951,10 +2951,10 @@
     },
     "MANTA": {
       "coingecko_id": "manta-network",
-      "history_source": "KuCoin",
+      "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T18:47:00.850065Z",
+      "last_seen_at": "2026-11-24T19:02:11.667451Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
