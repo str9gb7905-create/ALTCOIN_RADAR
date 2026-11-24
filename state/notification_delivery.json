@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-24T14:02:57.141045Z",
+  "updated_at_utc": "2026-11-24T14:17:52.494549Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -64994,6 +64994,37 @@
         },
         {
           "symbol": "AKT",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_d1e0bcc64f0fd2007a70257cd808ab92": {
+      "notification_id": "ntf_d1e0bcc64f0fd2007a70257cd808ab92",
+      "run_id": "20261124T141624Z_eee37f79",
+      "created_at_utc": "2026-11-24T14:17:52.492990Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 2,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261124T141624Z_eee37f79\n資料來源：CoinGecko＋公開現貨交易所\n\nWEN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.955347e-06\n幅度級距：-10%\n區間異動：-10.88%\n基準價格：US$4.4382848e-06\n24H：-7.72%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.04×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wen-4\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AWENUSDT\n\nTRAC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.25724282\n幅度級距：-10%\n區間異動：-10.18%\n基準價格：US$0.28639856\n24H：-9.55%\n4H RSI：42.35\n日線 RSI：29.37\n週線 RSI：43.29\n成交量：1.25×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/origintrail\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATRACUSD",
+      "batch_id": "ntf_d1e0bcc64f0fd2007a70257cd808ab92",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "58237113128cc40a41beadc0d0cdc958edf3ef6b57ea0c7b2096e43b4e036bfe",
+      "alert_ranges": [
+        {
+          "symbol": "WEN",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "TRAC",
           "direction": "DOWN",
           "level": 10
         }
