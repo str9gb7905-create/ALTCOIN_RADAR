@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-24T13:47:46.592729Z",
+  "updated_at_utc": "2026-11-24T13:47:51.202586Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -64942,13 +64942,13 @@
       "notification_id": "ntf_4564aaa120139914324f5acaae488920",
       "run_id": "20261124T134633Z_6bf76a2c",
       "created_at_utc": "2026-11-24T13:47:46.590660Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-24T13:47:51.202561Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261124T134633Z_6bf76a2c\n資料來源：CoinGecko＋公開現貨交易所\n\nWEN｜再次觸發\n觸發：由近24H高點下跌\n價格：US$3.9606004e-06\n幅度級距：-10%\n區間異動：-10.76%\n基準價格：US$4.4382848e-06\n24H：-6.42%\n4H RSI：N/A\n日線 RSI：N/A\n週線 RSI：N/A\n成交量：1.05×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：None\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wen-4\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=MEXC%3AWENUSDT\n\nOSMO｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.028124051\n幅度級距：-10%\n區間異動：-10.13%\n基準價格：US$0.031294221\n24H：-5.16%\n4H RSI：41.43\n日線 RSI：38.77\n週線 RSI：40.32\n成交量：1.00×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/osmosis\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AOSMOUSDT",
       "batch_id": "ntf_4564aaa120139914324f5acaae488920",
