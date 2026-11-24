@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-24T17:31:53.717928Z",
+  "updated_at_utc": "2026-11-24T17:31:56.468266Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -65174,13 +65174,13 @@
       "notification_id": "ntf_0935a26c34b26e59d5354d67b7980669",
       "run_id": "20261124T173110Z_0620601f",
       "created_at_utc": "2026-11-24T17:31:53.716836Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-24T17:31:56.468240Z",
       "event_count": 3,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261124T173110Z_0620601f\n資料來源：CoinGecko＋公開現貨交易所\n\nBST｜方向改變\n觸發：由近24H低點上漲\n價格：US$0.0081421681\n幅度級距：+90%\n區間異動：+97.98%\n基準價格：US$0.0041125736\n24H：+59.29%\n4H RSI：32.37\n日線 RSI：33.99\n週線 RSI：22.97\n成交量：0.92×｜NORMAL / PRICE_UP_WITHOUT_CLEAR_VOLUME\n背離：WEEKLY_BEARISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/blocksquare\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ABSTUSDT\n\nHMSTR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.00013513563\n幅度級距：-10%\n區間異動：-10.15%\n基準價格：US$0.00015039399\n24H：-9.57%\n4H RSI：36.14\n日線 RSI：58.37\n週線 RSI：39.04\n成交量：3.77×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hamster-kombat\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AHMSTRUSDT",
       "batch_id": "ntf_0935a26c34b26e59d5354d67b7980669",
