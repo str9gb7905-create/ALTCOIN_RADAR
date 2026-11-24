@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261124T034609Z_0daf4898",
-  "updated_at": "2026-11-24T03:46:55.569898Z",
+  "last_run_id": "20261124T040121Z_3d030409",
+  "updated_at": "2026-11-24T04:01:53.282431Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -120,7 +120,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T03:46:55.569898Z",
+      "last_seen_at": "2026-11-24T04:01:53.282431Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -135,7 +135,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T03:46:55.569898Z",
+      "last_seen_at": "2026-11-24T04:01:53.282431Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -312,7 +312,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T03:46:55.569898Z",
+      "last_seen_at": "2026-11-24T04:01:53.282431Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -327,7 +327,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T03:46:55.569898Z",
+      "last_seen_at": "2026-11-24T04:01:53.282431Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -850,7 +850,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T03:46:55.569898Z",
+      "last_seen_at": "2026-11-24T04:01:53.282431Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1020,7 +1020,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T03:46:55.569898Z",
+      "last_seen_at": "2026-11-24T04:01:53.282431Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1206,7 +1206,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T03:46:55.569898Z",
+      "last_seen_at": "2026-11-24T04:01:53.282431Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1223,7 +1223,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T03:46:55.569898Z",
+      "last_seen_at": "2026-11-24T04:01:53.282431Z",
       "daily": {
         "active_signals": [
           {
@@ -2140,7 +2140,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T03:46:55.569898Z",
+      "last_seen_at": "2026-11-24T04:01:53.282431Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -2158,7 +2158,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T03:46:55.569898Z",
+      "last_seen_at": "2026-11-24T04:01:53.282431Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2609,7 +2609,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T03:46:55.569898Z",
+      "last_seen_at": "2026-11-24T04:01:53.282431Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2954,7 +2954,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-24T03:46:55.569898Z",
+      "last_seen_at": "2026-11-24T04:01:53.282431Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
