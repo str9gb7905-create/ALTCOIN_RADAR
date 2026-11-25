@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-25T04:32:10.419521Z",
+  "updated_at_utc": "2026-11-25T05:02:02.832108Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -65658,6 +65658,32 @@
         {
           "symbol": "AGI",
           "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
+    },
+    "ntf_ee444363f76be1501a703c3728137533": {
+      "notification_id": "ntf_ee444363f76be1501a703c3728137533",
+      "run_id": "20261125T050125Z_78e54fba",
+      "created_at_utc": "2026-11-25T05:02:02.830063Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261125T050125Z_78e54fba\n資料來源：CoinGecko＋公開現貨交易所\n\nWAXP｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0036256537\n幅度級距：+10%\n區間異動：+10.80%\n基準價格：US$0.0032721202\n24H：+8.75%\n4H RSI：52.50\n日線 RSI：28.82\n週線 RSI：33.42\n成交量：122.59×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：WEEKLY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wax\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWAXPUSDT",
+      "batch_id": "ntf_ee444363f76be1501a703c3728137533",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "6f2dd1c15bb7f85be66f4fd0a417e24eff6e7cba3d8046b7506144761ac3eb34",
+      "alert_ranges": [
+        {
+          "symbol": "WAXP",
+          "direction": "UP",
           "level": 10
         }
       ],
