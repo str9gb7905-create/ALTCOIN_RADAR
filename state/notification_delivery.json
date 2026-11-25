@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-25T10:02:05.959330Z",
+  "updated_at_utc": "2026-11-25T10:02:09.332388Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -65745,13 +65745,13 @@
       "notification_id": "ntf_2a0ba9d18abdb703eb0c09d20de2ada5",
       "run_id": "20261125T100128Z_d2163010",
       "created_at_utc": "2026-11-25T10:02:05.957551Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-25T10:02:09.332364Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261125T100128Z_d2163010\n資料來源：CoinGecko＋公開現貨交易所\n\nSTORJ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.011911969\n幅度級距：-10%\n區間異動：-11.08%\n基準價格：US$0.013395741\n24H：-11.03%\n4H RSI：39.02\n日線 RSI：19.03\n週線 RSI：20.02\n成交量：0.96×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/storj\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ASTORJUSDT",
       "batch_id": "ntf_2a0ba9d18abdb703eb0c09d20de2ada5",
