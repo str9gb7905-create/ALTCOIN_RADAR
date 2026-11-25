@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-25T14:17:25.315558Z",
+  "updated_at_utc": "2026-11-25T14:47:11.869345Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -65935,6 +65935,42 @@
       "part_count": 1,
       "source_digest": "285419286a04aa1363699a43adadcbace98b1faced0f37d03013127a0fd279fa",
       "alert_ranges": [
+        {
+          "symbol": "PEAQ",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 1
+    },
+    "ntf_b63c3838343b98795265efcba16f7e95": {
+      "notification_id": "ntf_b63c3838343b98795265efcba16f7e95",
+      "run_id": "20261125T144620Z_ac482b7e",
+      "created_at_utc": "2026-11-25T14:47:11.868137Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 3,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261125T144620Z_ac482b7e\n資料來源：CoinGecko＋公開現貨交易所\n\nARC｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.024819377\n幅度級距：-10%\n區間異動：-11.00%\n基準價格：US$0.027888245\n24H：-10.86%\n4H RSI：36.90\n日線 RSI：33.12\n週線 RSI：35.29\n成交量：0.82×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ai-rig-complex\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AARCUSDT\n\nWAXP｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0034906043\n幅度級距：-10%\n區間異動：-10.62%\n基準價格：US$0.0039051354\n24H：+5.07%\n4H RSI：63.10\n日線 RSI：28.82\n週線 RSI：33.42\n成交量：31.99×｜STRONG\n背離：WEEKLY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wax\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWAXPUSDT\n\nPEAQ｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.018007027\n幅度級距：-10%\n區間異動：-10.55%\n基準價格：US$0.020131182\n24H：-10.61%\n4H RSI：34.81\n日線 RSI：31.26\n週線 RSI：43.91\n成交量：3.12×｜STRONG\n背離：NONE\n現貨來源：KuCoin｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/peaq-2\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3APEAQUSDT",
+      "batch_id": "ntf_b63c3838343b98795265efcba16f7e95",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "41c825ee5ca2751b9480ede2d0043c326102006ae45ce19e3c63063543f8f0f1",
+      "alert_ranges": [
+        {
+          "symbol": "ARC",
+          "direction": "DOWN",
+          "level": 10
+        },
+        {
+          "symbol": "WAXP",
+          "direction": "DOWN",
+          "level": 10
+        },
         {
           "symbol": "PEAQ",
           "direction": "DOWN",
