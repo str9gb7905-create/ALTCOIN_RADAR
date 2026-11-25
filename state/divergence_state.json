@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261125T190117Z_6ffbb614",
-  "updated_at": "2026-11-25T19:01:44.816370Z",
+  "last_run_id": "20261125T191616Z_227a020c",
+  "updated_at": "2026-11-25T19:16:53.434671Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-25T19:01:44.816370Z",
+      "last_seen_at": "2026-11-25T19:16:53.434671Z",
       "daily": {
         "active_signals": [
           {
@@ -1028,7 +1028,7 @@
       "history_source": "Kraken",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-25T19:01:44.816370Z",
+      "last_seen_at": "2026-11-25T19:16:53.434671Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1113,7 +1113,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-25T19:01:44.816370Z",
+      "last_seen_at": "2026-11-25T19:16:53.434671Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -1264,7 +1264,7 @@
       "history_source": "Bitget",
       "source_changed_reason": "Preferred Stage B.1 history source lacked sufficient completed Daily/Weekly history",
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-25T19:01:44.816370Z",
+      "last_seen_at": "2026-11-25T19:16:53.434671Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1674,7 +1674,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-25T19:01:44.816370Z",
+      "last_seen_at": "2026-11-25T19:16:53.434671Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -1727,7 +1727,7 @@
       "history_source": "Coinbase",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-25T18:47:03.652773Z",
+      "last_seen_at": "2026-11-25T19:16:53.434671Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2530,7 +2530,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-25T19:01:44.816370Z",
+      "last_seen_at": "2026-11-25T19:16:53.434671Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2603,7 +2603,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-25T19:01:44.816370Z",
+      "last_seen_at": "2026-11-25T19:16:53.434671Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2670,7 +2670,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-25T19:01:44.816370Z",
+      "last_seen_at": "2026-11-25T19:16:53.434671Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -3015,7 +3015,7 @@
       "history_source": "Bitget",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-25T19:01:44.816370Z",
+      "last_seen_at": "2026-11-25T19:16:53.434671Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
