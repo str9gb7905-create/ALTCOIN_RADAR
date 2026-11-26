@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-26T05:32:36.996197Z",
+  "updated_at_utc": "2026-11-26T05:32:39.902167Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -67186,13 +67186,13 @@
       "notification_id": "ntf_62a7175d7325426d5b5af058922cb1d5",
       "run_id": "20261126T053117Z_14a9cb84",
       "created_at_utc": "2026-11-26T05:32:36.994656Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-26T05:32:39.902142Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261126T053117Z_14a9cb84\n資料來源：CoinGecko＋公開現貨交易所\n\nHYPE｜再次觸發\n觸發：由近24H低點上漲\n價格：US$62.049703\n幅度級距：+10%\n區間異動：+10.16%\n基準價格：US$56.327622\n24H：+5.56%\n4H RSI：50.45\n日線 RSI：34.77\n週線 RSI：45.17\n成交量：1.12×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hyperliquid\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHYPEUSD\n\nPENGU｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0044117324\n幅度級距：+10%\n區間異動：+10.14%\n基準價格：US$0.0040055565\n24H：+4.73%\n4H RSI：55.35\n日線 RSI：27.01\n週線 RSI：37.44\n成交量：0.79×｜WEAK\n背離：WEEKLY_BEARISH\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pudgy-penguins\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3APENGUUSD",
       "batch_id": "ntf_62a7175d7325426d5b5af058922cb1d5",
