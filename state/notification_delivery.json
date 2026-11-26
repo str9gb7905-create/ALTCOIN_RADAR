@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-26T15:32:09.375337Z",
+  "updated_at_utc": "2026-11-26T15:32:12.141262Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -67936,13 +67936,13 @@
       "notification_id": "ntf_35a1108b84453d3cc0fd94b6b9b587c9",
       "run_id": "20261126T153111Z_c45e274d",
       "created_at_utc": "2026-11-26T15:32:09.374104Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-26T15:32:12.141234Z",
       "event_count": 6,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261126T153111Z_c45e274d\n資料來源：CoinGecko＋公開現貨交易所\n\nRDNT｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.00043648273\n幅度級距：+10%\n區間異動：+11.26%\n基準價格：US$0.0003922961\n24H：-3.28%\n4H RSI：65.21\n日線 RSI：43.42\n週線 RSI：23.88\n成交量：3.51×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/radiant-capital\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ARDNTUSDT\n\nHUMA｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0069729816\n幅度級距：-10%\n區間異動：-10.83%\n基準價格：US$0.0078201959\n24H：-5.90%\n4H RSI：35.19\n日線 RSI：29.83\n週線 RSI：36.85\n成交量：0.91×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Bitget\nCoinGecko：\nhttps://www.coingecko.com/en/coins/huma-finance\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=BITGET%3AHUMAUSDT\n\nXAI｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.005345164\n幅度級距：+10%\n區間異動：+10.54%\n基準價格：US$0.0048356201\n24H：+10.56%\n4H RSI：57.36\n日線 RSI：35.39\n週線 RSI：30.18\n成交量：1.02×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/xai-blockchain\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AXAIUSDT\n\nTIA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.33773066\n幅度級距：+10%\n區間異動：+10.29%\n基準價格：US$0.30623155\n24H：+9.99%\n4H RSI：55.58\n日線 RSI：36.91\n週線 RSI：44.16\n成交量：2.06×｜STRONG\n背離：NONE\n現貨來源：MEXC｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/celestia\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ATIAUSD\n\nPHA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.029903749\n幅度級距：+10%\n區間異動：+10.18%\n基準價格：US$0.027140616\n24H：+9.53%\n4H RSI：57.34\n日線 RSI：37.22\n週線 RSI：44.48\n成交量：0.62×｜WEAK\n背離：DAILY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/pha\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3APHAUSDT",
       "batch_id": "ntf_35a1108b84453d3cc0fd94b6b9b587c9",
