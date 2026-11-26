@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-26T02:23:32.277004Z",
+  "updated_at_utc": "2026-11-26T02:23:35.412543Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -66887,13 +66887,13 @@
       "notification_id": "ntf_bf35c074983f2f4162fd9c9e18c6c4d5",
       "run_id": "20261126T022148Z_dcd247e7",
       "created_at_utc": "2026-11-26T02:23:32.275467Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-26T02:23:35.412519Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261126T022148Z_dcd247e7\n資料來源：CoinGecko＋公開現貨交易所\n\nSNX｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.14581305\n幅度級距：+10%\n區間異動：+10.16%\n基準價格：US$0.13236002\n24H：+2.83%\n4H RSI：46.02\n日線 RSI：37.08\n週線 RSI：31.14\n成交量：1.42×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/havven\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3ASNXUSD\n\nWLD｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.24516299\n幅度級距：+10%\n區間異動：+10.16%\n基準價格：US$0.22255614\n24H：+5.59%\n4H RSI：53.25\n日線 RSI：29.68\n週線 RSI：37.11\n成交量：1.08×｜NORMAL\n背離：NONE\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/worldcoin-wld\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AWLDUSDT",
       "batch_id": "ntf_bf35c074983f2f4162fd9c9e18c6c4d5",
