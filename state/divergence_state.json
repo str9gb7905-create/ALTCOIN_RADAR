@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_id": "20261127T014628Z_0f81983f",
-  "updated_at": "2026-11-27T01:46:56.470745Z",
+  "last_run_id": "20261127T020121Z_e01f4929",
+  "updated_at": "2026-11-27T02:01:43.873965Z",
   "assets": {
     "AGI": {
       "coingecko_id": "delysium",
@@ -142,7 +142,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-27T01:46:56.470745Z",
+      "last_seen_at": "2026-11-27T02:01:43.873965Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": []
@@ -875,7 +875,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-27T01:46:56.470745Z",
+      "last_seen_at": "2026-11-27T02:01:43.873965Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
@@ -2746,7 +2746,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-27T01:46:56.470745Z",
+      "last_seen_at": "2026-11-27T02:01:43.873965Z",
       "daily": {
         "active_signals": [
           {
@@ -2799,7 +2799,7 @@
       "history_source": "Gate",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-27T01:46:56.470745Z",
+      "last_seen_at": "2026-11-27T02:01:43.873965Z",
       "daily": {
         "active_signals": [
           {
@@ -3503,7 +3503,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-27T01:46:56.470745Z",
+      "last_seen_at": "2026-11-27T02:01:43.873965Z",
       "daily": {
         "active_signals": [
           {
@@ -3700,7 +3700,7 @@
       "history_source": "KuCoin",
       "source_changed_reason": null,
       "data_quality": "COMPLETE",
-      "last_seen_at": "2026-11-27T01:46:56.470745Z",
+      "last_seen_at": "2026-11-27T02:01:43.873965Z",
       "daily": {
         "active_signals": [],
         "seen_signatures": [
