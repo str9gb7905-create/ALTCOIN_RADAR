@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-27T14:47:25.786445Z",
+  "updated_at_utc": "2026-11-27T15:02:02.199743Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -68911,6 +68911,32 @@
         }
       ],
       "repeat_suppressed_count": 3
+    },
+    "ntf_e58e442e9246004f59d2df1ebc93987b": {
+      "notification_id": "ntf_e58e442e9246004f59d2df1ebc93987b",
+      "run_id": "20261127T150123Z_5919678a",
+      "created_at_utc": "2026-11-27T15:02:02.198027Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261127T150123Z_5919678a\n資料來源：CoinGecko＋公開現貨交易所\n\nFUN｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0022346707\n幅度級距：+10%\n區間異動：+10.76%\n基準價格：US$0.0020175144\n24H：+9.36%\n4H RSI：51.55\n日線 RSI：33.93\n週線 RSI：30.82\n成交量：1.14×｜NORMAL\n背離：NONE\n現貨來源：Kraken｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/funfair\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AFUNUSD",
+      "batch_id": "ntf_e58e442e9246004f59d2df1ebc93987b",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "05c4a8873126eeac964cc06507a469d92bbe7f3ce2ee2a6b3b1a0a45b58a4f80",
+      "alert_ranges": [
+        {
+          "symbol": "FUN",
+          "direction": "UP",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
