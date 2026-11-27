@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-27T00:01:44.238978Z",
+  "updated_at_utc": "2026-11-27T00:01:47.177962Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -68366,13 +68366,13 @@
       "notification_id": "ntf_fcb8f6f93b0eca3e27760d3a8ab93850",
       "run_id": "20261127T000116Z_8dd49517",
       "created_at_utc": "2026-11-27T00:01:44.237486Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-27T00:01:47.177938Z",
       "event_count": 2,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261127T000116Z_8dd49517\n資料來源：CoinGecko＋公開現貨交易所\n\nLRC｜層級升高\n觸發：由近24H低點上漲\n價格：US$0.0073022203\n幅度級距：+20%\n區間異動：+22.88%\n基準價格：US$0.0059423996\n24H：+22.82%\n4H RSI：84.36\n日線 RSI：56.66\n週線 RSI：23.72\n成交量：4.09×｜STRONG / CONTRACTION_THEN_EXPANSION\n背離：DAILY_BULLISH\n現貨來源：OKX｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/loopring\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3ALRCUSDT",
       "batch_id": "ntf_fcb8f6f93b0eca3e27760d3a8ab93850",
