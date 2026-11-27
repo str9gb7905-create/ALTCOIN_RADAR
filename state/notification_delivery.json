@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-27T03:17:13.391524Z",
+  "updated_at_utc": "2026-11-27T03:17:16.729698Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -68470,13 +68470,13 @@
       "notification_id": "ntf_a524280a4d2edf013f268dfac29ba096",
       "run_id": "20261127T031638Z_9292cc44",
       "created_at_utc": "2026-11-27T03:17:13.389702Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-27T03:17:16.729673Z",
       "event_count": 4,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261127T031638Z_9292cc44\n資料來源：CoinGecko＋公開現貨交易所\n\nREZ｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0024159887\n幅度級距：+10%\n區間異動：+12.46%\n基準價格：US$0.0021483423\n24H：+5.63%\n4H RSI：43.86\n日線 RSI：26.86\n週線 RSI：40.93\n成交量：0.94×｜NORMAL\n背離：NONE\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/renzo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AREZUSD\n\nAVA｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0066916157\n幅度級距：+10%\n區間異動：+11.31%\n基準價格：US$0.0060119471\n24H：+11.35%\n4H RSI：56.04\n日線 RSI：38.31\n週線 RSI：45.74\n成交量：1.06×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：KuCoin\nCoinGecko：\nhttps://www.coingecko.com/en/coins/ava-ai\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KUCOIN%3AAVAUSDT\n\nHYPE｜再次觸發\n觸發：由近24H低點上漲\n價格：US$66.030548\n幅度級距：+10%\n區間異動：+10.20%\n基準價格：US$59.919831\n24H：+6.66%\n4H RSI：52.93\n日線 RSI：36.02\n週線 RSI：45.17\n成交量：0.81×｜NORMAL\n背離：DAILY_BULLISH\n現貨來源：Coinbase｜歷史來源：Coinbase\nCoinGecko：\nhttps://www.coingecko.com/en/coins/hyperliquid\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=COINBASE%3AHYPEUSD\n\nW｜再次觸發\n觸發：由近24H低點上漲\n價格：US$0.0094084893\n幅度級距：+10%\n區間異動：+10.01%\n基準價格：US$0.008552681\n24H：+9.84%\n4H RSI：64.43\n日線 RSI：41.29\n週線 RSI：35.05\n成交量：1.30×｜NORMAL\n背離：NONE\n現貨來源：OKX｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/wormhole\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AWUSD",
       "batch_id": "ntf_a524280a4d2edf013f268dfac29ba096",
