@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-27T21:16:49.895066Z",
+  "updated_at_utc": "2026-11-27T21:16:53.249439Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -69285,13 +69285,13 @@
       "notification_id": "ntf_a6c9d8258847131de54dc9a277351f73",
       "run_id": "20261127T211617Z_10960e40",
       "created_at_utc": "2026-11-27T21:16:49.893529Z",
-      "delivery_status": "PENDING",
+      "delivery_status": "SENDING",
       "delivered_at_utc": null,
       "provider": "TELEGRAM",
       "provider_message_id": null,
       "error": null,
-      "attempt_count": 0,
-      "last_attempt_at_utc": null,
+      "attempt_count": 1,
+      "last_attempt_at_utc": "2026-11-27T21:16:53.249417Z",
       "event_count": 1,
       "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261127T211617Z_10960e40\n資料來源：CoinGecko＋公開現貨交易所\n\nAIOT｜層級升高\n觸發：由近24H高點下跌\n價格：US$0.081309098\n幅度級距：-30%\n區間異動：-30.91%\n基準價格：US$0.11768265\n24H：-25.16%\n4H RSI：44.18\n日線 RSI：54.81\n週線 RSI：42.11\n成交量：0.58×｜WEAK\n背離：DAILY_BULLISH, WEEKLY_BULLISH\n現貨來源：Gate｜歷史來源：Gate\nCoinGecko：\nhttps://www.coingecko.com/en/coins/okzoo\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=GATEIO%3AAIOTUSDT",
       "batch_id": "ntf_a6c9d8258847131de54dc9a277351f73",
