@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-11-28T11:16:58.749343Z",
+  "updated_at_utc": "2026-11-28T11:46:55.159266Z",
   "notifications": {
     "ntf_2d4078cf295d5e9566632ace5fc9f3dd": {
       "notification_id": "ntf_2d4078cf295d5e9566632ace5fc9f3dd",
@@ -69949,6 +69949,32 @@
         }
       ],
       "repeat_suppressed_count": 1
+    },
+    "ntf_b0c060a9923cf497e254ac8c11698dd7": {
+      "notification_id": "ntf_b0c060a9923cf497e254ac8c11698dd7",
+      "run_id": "20261128T114621Z_f8153f72",
+      "created_at_utc": "2026-11-28T11:46:55.158120Z",
+      "delivery_status": "PENDING",
+      "delivered_at_utc": null,
+      "provider": "TELEGRAM",
+      "provider_message_id": null,
+      "error": null,
+      "attempt_count": 0,
+      "last_attempt_at_utc": null,
+      "event_count": 1,
+      "message": "🚨 ALTCOIN RADAR｜即時價格異動\n執行：20261128T114621Z_f8153f72\n資料來源：CoinGecko＋公開現貨交易所\n\nGLMR｜再次觸發\n觸發：由近24H高點下跌\n價格：US$0.0059297822\n幅度級距：-10%\n區間異動：-10.07%\n基準價格：US$0.0065934494\n24H：-6.68%\n4H RSI：44.45\n日線 RSI：39.07\n週線 RSI：34.73\n成交量：0.96×｜NORMAL\n背離：NONE\n現貨來源：MEXC｜歷史來源：Kraken\nCoinGecko：\nhttps://www.coingecko.com/en/coins/moonbeam\nTradingView：\nhttps://www.tradingview.com/chart/?symbol=KRAKEN%3AGLMRUSD",
+      "batch_id": "ntf_b0c060a9923cf497e254ac8c11698dd7",
+      "part_index": 1,
+      "part_count": 1,
+      "source_digest": "0916a065726b7d983936b18e06f779e69b0a26284a7cdfddf200cd04467e3c39",
+      "alert_ranges": [
+        {
+          "symbol": "GLMR",
+          "direction": "DOWN",
+          "level": 10
+        }
+      ],
+      "repeat_suppressed_count": 0
     }
   }
 }
